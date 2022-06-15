@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.PlaylistMapModePair
+  commentId: T:Grunt.Models.HaloInfinite.PlaylistMapModePair
+  id: PlaylistMapModePair
+  children:
+  - Grunt.Models.HaloInfinite.PlaylistMapModePair.#ctor
+  - Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetId
+  - Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetKind
+  - Grunt.Models.HaloInfinite.PlaylistMapModePair.VersionId
+  langs:
+  - csharp
+  name: PlaylistMapModePair
+  nameWithType: Grunt.Models.HaloInfinite.PlaylistMapModePair
+  fullName: Grunt.Models.HaloInfinite.PlaylistMapModePair
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class PlaylistMapModePair
+    content.csharp: public class PlaylistMapModePair
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.PlaylistMapModePair.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.PlaylistMapModePair.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.PlaylistMapModePair
+  langs:
+  - csharp
+  name: PlaylistMapModePair()
+  nameWithType: PlaylistMapModePair.PlaylistMapModePair()
+  fullName: Grunt.Models.HaloInfinite.PlaylistMapModePair.PlaylistMapModePair()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public PlaylistMapModePair ();
+    parameters: []
+    content.csharp: public PlaylistMapModePair ();
+  overload: Grunt.Models.HaloInfinite.PlaylistMapModePair.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetId
+  commentId: P:Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetId
+  id: AssetId
+  parent: Grunt.Models.HaloInfinite.PlaylistMapModePair
+  langs:
+  - csharp
+  name: AssetId
+  nameWithType: PlaylistMapModePair.AssetId
+  fullName: Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetId
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string AssetId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string AssetId { get; set; }
+  overload: Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetKind
+  commentId: P:Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetKind
+  id: AssetKind
+  parent: Grunt.Models.HaloInfinite.PlaylistMapModePair
+  langs:
+  - csharp
+  name: AssetKind
+  nameWithType: PlaylistMapModePair.AssetKind
+  fullName: Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetKind
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int AssetKind { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int AssetKind { get; set; }
+  overload: Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetKind*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.PlaylistMapModePair.VersionId
+  commentId: P:Grunt.Models.HaloInfinite.PlaylistMapModePair.VersionId
+  id: VersionId
+  parent: Grunt.Models.HaloInfinite.PlaylistMapModePair
+  langs:
+  - csharp
+  name: VersionId
+  nameWithType: PlaylistMapModePair.VersionId
+  fullName: Grunt.Models.HaloInfinite.PlaylistMapModePair.VersionId
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string VersionId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string VersionId { get; set; }
+  overload: Grunt.Models.HaloInfinite.PlaylistMapModePair.VersionId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.PlaylistMapModePair.#ctor
+  parent: Grunt.Models.HaloInfinite.PlaylistMapModePair
+  isExternal: false
+  name: PlaylistMapModePair()
+  nameWithType: PlaylistMapModePair.PlaylistMapModePair()
+  fullName: Grunt.Models.HaloInfinite.PlaylistMapModePair.PlaylistMapModePair()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetId
+  parent: Grunt.Models.HaloInfinite.PlaylistMapModePair
+  isExternal: false
+  name: AssetId
+  nameWithType: PlaylistMapModePair.AssetId
+  fullName: Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetKind
+  parent: Grunt.Models.HaloInfinite.PlaylistMapModePair
+  isExternal: false
+  name: AssetKind
+  nameWithType: PlaylistMapModePair.AssetKind
+  fullName: Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetKind
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.PlaylistMapModePair.VersionId
+  parent: Grunt.Models.HaloInfinite.PlaylistMapModePair
+  isExternal: false
+  name: VersionId
+  nameWithType: PlaylistMapModePair.VersionId
+  fullName: Grunt.Models.HaloInfinite.PlaylistMapModePair.VersionId
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlaylistMapModePair.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlaylistMapModePair.#ctor
+  parent: Grunt.Models.HaloInfinite.PlaylistMapModePair
+  isExternal: false
+  name: PlaylistMapModePair
+  nameWithType: PlaylistMapModePair.PlaylistMapModePair
+  fullName: Grunt.Models.HaloInfinite.PlaylistMapModePair.PlaylistMapModePair
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetId*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetId
+  parent: Grunt.Models.HaloInfinite.PlaylistMapModePair
+  isExternal: false
+  name: AssetId
+  nameWithType: PlaylistMapModePair.AssetId
+  fullName: Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetId
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetKind*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetKind
+  parent: Grunt.Models.HaloInfinite.PlaylistMapModePair
+  isExternal: false
+  name: AssetKind
+  nameWithType: PlaylistMapModePair.AssetKind
+  fullName: Grunt.Models.HaloInfinite.PlaylistMapModePair.AssetKind
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlaylistMapModePair.VersionId*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlaylistMapModePair.VersionId
+  parent: Grunt.Models.HaloInfinite.PlaylistMapModePair
+  isExternal: false
+  name: VersionId
+  nameWithType: PlaylistMapModePair.VersionId
+  fullName: Grunt.Models.HaloInfinite.PlaylistMapModePair.VersionId
+  monikers:
+  - net6.0
+  type: property

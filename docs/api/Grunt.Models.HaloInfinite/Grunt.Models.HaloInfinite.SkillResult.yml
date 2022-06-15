@@ -1,0 +1,467 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.SkillResult
+  commentId: T:Grunt.Models.HaloInfinite.SkillResult
+  id: SkillResult
+  children:
+  - Grunt.Models.HaloInfinite.SkillResult.#ctor
+  - Grunt.Models.HaloInfinite.SkillResult.Counterfactuals
+  - Grunt.Models.HaloInfinite.SkillResult.RankedRewards
+  - Grunt.Models.HaloInfinite.SkillResult.RankRecap
+  - Grunt.Models.HaloInfinite.SkillResult.StatPerformances
+  - Grunt.Models.HaloInfinite.SkillResult.TeamId
+  - Grunt.Models.HaloInfinite.SkillResult.TeamMmr
+  - Grunt.Models.HaloInfinite.SkillResult.TeamMmrs
+  langs:
+  - csharp
+  name: SkillResult
+  nameWithType: Grunt.Models.HaloInfinite.SkillResult
+  fullName: Grunt.Models.HaloInfinite.SkillResult
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class SkillResult
+    content.csharp: public class SkillResult
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.SkillResult.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.SkillResult.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  langs:
+  - csharp
+  name: SkillResult()
+  nameWithType: SkillResult.SkillResult()
+  fullName: Grunt.Models.HaloInfinite.SkillResult.SkillResult()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public SkillResult ();
+    parameters: []
+    content.csharp: public SkillResult ();
+  overload: Grunt.Models.HaloInfinite.SkillResult.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.SkillResult.Counterfactuals
+  commentId: P:Grunt.Models.HaloInfinite.SkillResult.Counterfactuals
+  id: Counterfactuals
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  langs:
+  - csharp
+  name: Counterfactuals
+  nameWithType: SkillResult.Counterfactuals
+  fullName: Grunt.Models.HaloInfinite.SkillResult.Counterfactuals
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.Counterfactuals Counterfactuals { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.Counterfactuals
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.Counterfactuals Counterfactuals { get; set; }
+  overload: Grunt.Models.HaloInfinite.SkillResult.Counterfactuals*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.SkillResult.RankedRewards
+  commentId: P:Grunt.Models.HaloInfinite.SkillResult.RankedRewards
+  id: RankedRewards
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  langs:
+  - csharp
+  name: RankedRewards
+  nameWithType: SkillResult.RankedRewards
+  fullName: Grunt.Models.HaloInfinite.SkillResult.RankedRewards
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string RankedRewards { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string RankedRewards { get; set; }
+  overload: Grunt.Models.HaloInfinite.SkillResult.RankedRewards*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.SkillResult.RankRecap
+  commentId: P:Grunt.Models.HaloInfinite.SkillResult.RankRecap
+  id: RankRecap
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  langs:
+  - csharp
+  name: RankRecap
+  nameWithType: SkillResult.RankRecap
+  fullName: Grunt.Models.HaloInfinite.SkillResult.RankRecap
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.RankRecap RankRecap { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.RankRecap
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.RankRecap RankRecap { get; set; }
+  overload: Grunt.Models.HaloInfinite.SkillResult.RankRecap*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.SkillResult.StatPerformances
+  commentId: P:Grunt.Models.HaloInfinite.SkillResult.StatPerformances
+  id: StatPerformances
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  langs:
+  - csharp
+  name: StatPerformances
+  nameWithType: SkillResult.StatPerformances
+  fullName: Grunt.Models.HaloInfinite.SkillResult.StatPerformances
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.StatPerformances StatPerformances { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.StatPerformances
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.StatPerformances StatPerformances { get; set; }
+  overload: Grunt.Models.HaloInfinite.SkillResult.StatPerformances*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.SkillResult.TeamId
+  commentId: P:Grunt.Models.HaloInfinite.SkillResult.TeamId
+  id: TeamId
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  langs:
+  - csharp
+  name: TeamId
+  nameWithType: SkillResult.TeamId
+  fullName: Grunt.Models.HaloInfinite.SkillResult.TeamId
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int TeamId { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int TeamId { get; set; }
+  overload: Grunt.Models.HaloInfinite.SkillResult.TeamId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.SkillResult.TeamMmr
+  commentId: P:Grunt.Models.HaloInfinite.SkillResult.TeamMmr
+  id: TeamMmr
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  langs:
+  - csharp
+  name: TeamMmr
+  nameWithType: SkillResult.TeamMmr
+  fullName: Grunt.Models.HaloInfinite.SkillResult.TeamMmr
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public double TeamMmr { get; set; }
+    return:
+      type: System.Double
+      description: ''
+    content.csharp: public double TeamMmr { get; set; }
+  overload: Grunt.Models.HaloInfinite.SkillResult.TeamMmr*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.SkillResult.TeamMmrs
+  commentId: P:Grunt.Models.HaloInfinite.SkillResult.TeamMmrs
+  id: TeamMmrs
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  langs:
+  - csharp
+  name: TeamMmrs
+  nameWithType: SkillResult.TeamMmrs
+  fullName: Grunt.Models.HaloInfinite.SkillResult.TeamMmrs
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.Dictionary<string,double> TeamMmrs { get; set; }
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Double}
+      description: ''
+    content.csharp: public System.Collections.Generic.Dictionary<string,double> TeamMmrs { get; set; }
+  overload: Grunt.Models.HaloInfinite.SkillResult.TeamMmrs*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.SkillResult.#ctor
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  isExternal: false
+  name: SkillResult()
+  nameWithType: SkillResult.SkillResult()
+  fullName: Grunt.Models.HaloInfinite.SkillResult.SkillResult()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.SkillResult.Counterfactuals
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  isExternal: false
+  name: Counterfactuals
+  nameWithType: SkillResult.Counterfactuals
+  fullName: Grunt.Models.HaloInfinite.SkillResult.Counterfactuals
+  type: property
+- uid: Grunt.Models.HaloInfinite.Counterfactuals
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Counterfactuals
+  nameWithType: Counterfactuals
+  fullName: Grunt.Models.HaloInfinite.Counterfactuals
+- uid: Grunt.Models.HaloInfinite.SkillResult.RankedRewards
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  isExternal: false
+  name: RankedRewards
+  nameWithType: SkillResult.RankedRewards
+  fullName: Grunt.Models.HaloInfinite.SkillResult.RankedRewards
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.SkillResult.RankRecap
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  isExternal: false
+  name: RankRecap
+  nameWithType: SkillResult.RankRecap
+  fullName: Grunt.Models.HaloInfinite.SkillResult.RankRecap
+  type: property
+- uid: Grunt.Models.HaloInfinite.RankRecap
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: RankRecap
+  nameWithType: RankRecap
+  fullName: Grunt.Models.HaloInfinite.RankRecap
+- uid: Grunt.Models.HaloInfinite.SkillResult.StatPerformances
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  isExternal: false
+  name: StatPerformances
+  nameWithType: SkillResult.StatPerformances
+  fullName: Grunt.Models.HaloInfinite.SkillResult.StatPerformances
+  type: property
+- uid: Grunt.Models.HaloInfinite.StatPerformances
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: StatPerformances
+  nameWithType: StatPerformances
+  fullName: Grunt.Models.HaloInfinite.StatPerformances
+- uid: Grunt.Models.HaloInfinite.SkillResult.TeamId
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  isExternal: false
+  name: TeamId
+  nameWithType: SkillResult.TeamId
+  fullName: Grunt.Models.HaloInfinite.SkillResult.TeamId
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.SkillResult.TeamMmr
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  isExternal: false
+  name: TeamMmr
+  nameWithType: SkillResult.TeamMmr
+  fullName: Grunt.Models.HaloInfinite.SkillResult.TeamMmr
+  type: property
+- uid: System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Grunt.Models.HaloInfinite.SkillResult.TeamMmrs
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  isExternal: false
+  name: TeamMmrs
+  nameWithType: SkillResult.TeamMmrs
+  fullName: Grunt.Models.HaloInfinite.SkillResult.TeamMmrs
+  type: property
+- uid: System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary
+  nameWithType: Dictionary
+  fullName: System.Collections.Generic.Dictionary
+- uid: System.Collections.Generic.Dictionary{System.String,System.Double}
+  parent: System.Collections.Generic
+  name: Dictionary<String,Double>
+  nameWithType: Dictionary<String,Double>
+  fullName: System.Collections.Generic.Dictionary<System.String,System.Double>
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.HaloInfinite.SkillResult.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.SkillResult.#ctor
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  isExternal: false
+  name: SkillResult
+  nameWithType: SkillResult.SkillResult
+  fullName: Grunt.Models.HaloInfinite.SkillResult.SkillResult
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.SkillResult.Counterfactuals*
+  commentId: Overload:Grunt.Models.HaloInfinite.SkillResult.Counterfactuals
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  isExternal: false
+  name: Counterfactuals
+  nameWithType: SkillResult.Counterfactuals
+  fullName: Grunt.Models.HaloInfinite.SkillResult.Counterfactuals
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.SkillResult.RankedRewards*
+  commentId: Overload:Grunt.Models.HaloInfinite.SkillResult.RankedRewards
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  isExternal: false
+  name: RankedRewards
+  nameWithType: SkillResult.RankedRewards
+  fullName: Grunt.Models.HaloInfinite.SkillResult.RankedRewards
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.SkillResult.RankRecap*
+  commentId: Overload:Grunt.Models.HaloInfinite.SkillResult.RankRecap
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  isExternal: false
+  name: RankRecap
+  nameWithType: SkillResult.RankRecap
+  fullName: Grunt.Models.HaloInfinite.SkillResult.RankRecap
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.SkillResult.StatPerformances*
+  commentId: Overload:Grunt.Models.HaloInfinite.SkillResult.StatPerformances
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  isExternal: false
+  name: StatPerformances
+  nameWithType: SkillResult.StatPerformances
+  fullName: Grunt.Models.HaloInfinite.SkillResult.StatPerformances
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.SkillResult.TeamId*
+  commentId: Overload:Grunt.Models.HaloInfinite.SkillResult.TeamId
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  isExternal: false
+  name: TeamId
+  nameWithType: SkillResult.TeamId
+  fullName: Grunt.Models.HaloInfinite.SkillResult.TeamId
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.SkillResult.TeamMmr*
+  commentId: Overload:Grunt.Models.HaloInfinite.SkillResult.TeamMmr
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  isExternal: false
+  name: TeamMmr
+  nameWithType: SkillResult.TeamMmr
+  fullName: Grunt.Models.HaloInfinite.SkillResult.TeamMmr
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.SkillResult.TeamMmrs*
+  commentId: Overload:Grunt.Models.HaloInfinite.SkillResult.TeamMmrs
+  parent: Grunt.Models.HaloInfinite.SkillResult
+  isExternal: false
+  name: TeamMmrs
+  nameWithType: SkillResult.TeamMmrs
+  fullName: Grunt.Models.HaloInfinite.SkillResult.TeamMmrs
+  monikers:
+  - net6.0
+  type: property

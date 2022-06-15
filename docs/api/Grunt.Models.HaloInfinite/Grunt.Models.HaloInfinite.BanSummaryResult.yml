@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.BanSummaryResult
+  commentId: T:Grunt.Models.HaloInfinite.BanSummaryResult
+  id: BanSummaryResult
+  children:
+  - Grunt.Models.HaloInfinite.BanSummaryResult.#ctor
+  - Grunt.Models.HaloInfinite.BanSummaryResult.Result
+  langs:
+  - csharp
+  name: BanSummaryResult
+  nameWithType: Grunt.Models.HaloInfinite.BanSummaryResult
+  fullName: Grunt.Models.HaloInfinite.BanSummaryResult
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: 'public class BanSummaryResult : Grunt.Models.HaloInfinite.Foundation.ResultContainer'
+    content.csharp: 'public class BanSummaryResult : Grunt.Models.HaloInfinite.Foundation.ResultContainer'
+  inheritance:
+  - System.Object
+  - Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  implements: []
+  inheritedMembers:
+  - Grunt.Models.HaloInfinite.Foundation.ResultContainer.Id
+  - Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultCode
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.BanSummaryResult.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.BanSummaryResult.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.BanSummaryResult
+  langs:
+  - csharp
+  name: BanSummaryResult()
+  nameWithType: BanSummaryResult.BanSummaryResult()
+  fullName: Grunt.Models.HaloInfinite.BanSummaryResult.BanSummaryResult()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public BanSummaryResult ();
+    parameters: []
+    content.csharp: public BanSummaryResult ();
+  overload: Grunt.Models.HaloInfinite.BanSummaryResult.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.BanSummaryResult.Result
+  commentId: P:Grunt.Models.HaloInfinite.BanSummaryResult.Result
+  id: Result
+  parent: Grunt.Models.HaloInfinite.BanSummaryResult
+  langs:
+  - csharp
+  name: Result
+  nameWithType: BanSummaryResult.Result
+  fullName: Grunt.Models.HaloInfinite.BanSummaryResult.Result
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.BanResult Result { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.BanResult
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.BanResult Result { get; set; }
+  overload: Grunt.Models.HaloInfinite.BanSummaryResult.Result*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  parent: Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: ResultContainer
+  nameWithType: ResultContainer
+  fullName: Grunt.Models.HaloInfinite.Foundation.ResultContainer
+- uid: Grunt.Models.HaloInfinite.BanSummaryResult.#ctor
+  parent: Grunt.Models.HaloInfinite.BanSummaryResult
+  isExternal: false
+  name: BanSummaryResult()
+  nameWithType: BanSummaryResult.BanSummaryResult()
+  fullName: Grunt.Models.HaloInfinite.BanSummaryResult.BanSummaryResult()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.BanSummaryResult.Result
+  parent: Grunt.Models.HaloInfinite.BanSummaryResult
+  isExternal: false
+  name: Result
+  nameWithType: BanSummaryResult.Result
+  fullName: Grunt.Models.HaloInfinite.BanSummaryResult.Result
+  type: property
+- uid: Grunt.Models.HaloInfinite.BanResult
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: BanResult
+  nameWithType: BanResult
+  fullName: Grunt.Models.HaloInfinite.BanResult
+- uid: Grunt.Models.HaloInfinite.BanSummaryResult.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.BanSummaryResult.#ctor
+  parent: Grunt.Models.HaloInfinite.BanSummaryResult
+  isExternal: false
+  name: BanSummaryResult
+  nameWithType: BanSummaryResult.BanSummaryResult
+  fullName: Grunt.Models.HaloInfinite.BanSummaryResult.BanSummaryResult
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.BanSummaryResult.Result*
+  commentId: Overload:Grunt.Models.HaloInfinite.BanSummaryResult.Result
+  parent: Grunt.Models.HaloInfinite.BanSummaryResult
+  isExternal: false
+  name: Result
+  nameWithType: BanSummaryResult.Result
+  fullName: Grunt.Models.HaloInfinite.BanSummaryResult.Result
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.ResultContainer.Id
+  parent: Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  isExternal: false
+  name: Id
+  nameWithType: ResultContainer.Id
+  fullName: Grunt.Models.HaloInfinite.Foundation.ResultContainer.Id
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultCode
+  parent: Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  isExternal: false
+  name: ResultCode
+  nameWithType: ResultContainer.ResultCode
+  fullName: Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultCode
+  type: property

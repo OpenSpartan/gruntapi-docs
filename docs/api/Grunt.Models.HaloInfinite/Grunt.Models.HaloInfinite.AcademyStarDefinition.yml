@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.AcademyStarDefinition
+  commentId: T:Grunt.Models.HaloInfinite.AcademyStarDefinition
+  id: AcademyStarDefinition
+  children:
+  - Grunt.Models.HaloInfinite.AcademyStarDefinition.#ctor
+  - Grunt.Models.HaloInfinite.AcademyStarDefinition.DisplayString
+  - Grunt.Models.HaloInfinite.AcademyStarDefinition.GUID
+  - Grunt.Models.HaloInfinite.AcademyStarDefinition.Title
+  langs:
+  - csharp
+  name: AcademyStarDefinition
+  nameWithType: Grunt.Models.HaloInfinite.AcademyStarDefinition
+  fullName: Grunt.Models.HaloInfinite.AcademyStarDefinition
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class AcademyStarDefinition
+    content.csharp: public class AcademyStarDefinition
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.AcademyStarDefinition.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.AcademyStarDefinition.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.AcademyStarDefinition
+  langs:
+  - csharp
+  name: AcademyStarDefinition()
+  nameWithType: AcademyStarDefinition.AcademyStarDefinition()
+  fullName: Grunt.Models.HaloInfinite.AcademyStarDefinition.AcademyStarDefinition()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public AcademyStarDefinition ();
+    parameters: []
+    content.csharp: public AcademyStarDefinition ();
+  overload: Grunt.Models.HaloInfinite.AcademyStarDefinition.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AcademyStarDefinition.DisplayString
+  commentId: P:Grunt.Models.HaloInfinite.AcademyStarDefinition.DisplayString
+  id: DisplayString
+  parent: Grunt.Models.HaloInfinite.AcademyStarDefinition
+  langs:
+  - csharp
+  name: DisplayString
+  nameWithType: AcademyStarDefinition.DisplayString
+  fullName: Grunt.Models.HaloInfinite.AcademyStarDefinition.DisplayString
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.DisplayString DisplayString { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.DisplayString DisplayString { get; set; }
+  overload: Grunt.Models.HaloInfinite.AcademyStarDefinition.DisplayString*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AcademyStarDefinition.GUID
+  commentId: P:Grunt.Models.HaloInfinite.AcademyStarDefinition.GUID
+  id: GUID
+  parent: Grunt.Models.HaloInfinite.AcademyStarDefinition
+  langs:
+  - csharp
+  name: GUID
+  nameWithType: AcademyStarDefinition.GUID
+  fullName: Grunt.Models.HaloInfinite.AcademyStarDefinition.GUID
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string GUID { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string GUID { get; set; }
+  overload: Grunt.Models.HaloInfinite.AcademyStarDefinition.GUID*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AcademyStarDefinition.Title
+  commentId: P:Grunt.Models.HaloInfinite.AcademyStarDefinition.Title
+  id: Title
+  parent: Grunt.Models.HaloInfinite.AcademyStarDefinition
+  langs:
+  - csharp
+  name: Title
+  nameWithType: AcademyStarDefinition.Title
+  fullName: Grunt.Models.HaloInfinite.AcademyStarDefinition.Title
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Title { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Title { get; set; }
+  overload: Grunt.Models.HaloInfinite.AcademyStarDefinition.Title*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.AcademyStarDefinition.#ctor
+  parent: Grunt.Models.HaloInfinite.AcademyStarDefinition
+  isExternal: false
+  name: AcademyStarDefinition()
+  nameWithType: AcademyStarDefinition.AcademyStarDefinition()
+  fullName: Grunt.Models.HaloInfinite.AcademyStarDefinition.AcademyStarDefinition()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AcademyStarDefinition.DisplayString
+  parent: Grunt.Models.HaloInfinite.AcademyStarDefinition
+  isExternal: false
+  name: DisplayString
+  nameWithType: AcademyStarDefinition.DisplayString
+  fullName: Grunt.Models.HaloInfinite.AcademyStarDefinition.DisplayString
+  type: property
+- uid: Grunt.Models.HaloInfinite.DisplayString
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: DisplayString
+  nameWithType: DisplayString
+  fullName: Grunt.Models.HaloInfinite.DisplayString
+- uid: Grunt.Models.HaloInfinite.AcademyStarDefinition.GUID
+  parent: Grunt.Models.HaloInfinite.AcademyStarDefinition
+  isExternal: false
+  name: GUID
+  nameWithType: AcademyStarDefinition.GUID
+  fullName: Grunt.Models.HaloInfinite.AcademyStarDefinition.GUID
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.AcademyStarDefinition.Title
+  parent: Grunt.Models.HaloInfinite.AcademyStarDefinition
+  isExternal: false
+  name: Title
+  nameWithType: AcademyStarDefinition.Title
+  fullName: Grunt.Models.HaloInfinite.AcademyStarDefinition.Title
+  type: property
+- uid: Grunt.Models.HaloInfinite.AcademyStarDefinition.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.AcademyStarDefinition.#ctor
+  parent: Grunt.Models.HaloInfinite.AcademyStarDefinition
+  isExternal: false
+  name: AcademyStarDefinition
+  nameWithType: AcademyStarDefinition.AcademyStarDefinition
+  fullName: Grunt.Models.HaloInfinite.AcademyStarDefinition.AcademyStarDefinition
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AcademyStarDefinition.DisplayString*
+  commentId: Overload:Grunt.Models.HaloInfinite.AcademyStarDefinition.DisplayString
+  parent: Grunt.Models.HaloInfinite.AcademyStarDefinition
+  isExternal: false
+  name: DisplayString
+  nameWithType: AcademyStarDefinition.DisplayString
+  fullName: Grunt.Models.HaloInfinite.AcademyStarDefinition.DisplayString
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AcademyStarDefinition.GUID*
+  commentId: Overload:Grunt.Models.HaloInfinite.AcademyStarDefinition.GUID
+  parent: Grunt.Models.HaloInfinite.AcademyStarDefinition
+  isExternal: false
+  name: GUID
+  nameWithType: AcademyStarDefinition.GUID
+  fullName: Grunt.Models.HaloInfinite.AcademyStarDefinition.GUID
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AcademyStarDefinition.Title*
+  commentId: Overload:Grunt.Models.HaloInfinite.AcademyStarDefinition.Title
+  parent: Grunt.Models.HaloInfinite.AcademyStarDefinition
+  isExternal: false
+  name: Title
+  nameWithType: AcademyStarDefinition.Title
+  fullName: Grunt.Models.HaloInfinite.AcademyStarDefinition.Title
+  monikers:
+  - net6.0
+  type: property

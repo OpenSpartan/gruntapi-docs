@@ -1,0 +1,462 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo
+  commentId: T:Grunt.Models.HaloInfinite.ParticipationInfo
+  id: ParticipationInfo
+  children:
+  - Grunt.Models.HaloInfinite.ParticipationInfo.#ctor
+  - Grunt.Models.HaloInfinite.ParticipationInfo.ConfirmedParticipation
+  - Grunt.Models.HaloInfinite.ParticipationInfo.FirstJoinedTime
+  - Grunt.Models.HaloInfinite.ParticipationInfo.JoinedInProgress
+  - Grunt.Models.HaloInfinite.ParticipationInfo.LastLeaveTime
+  - Grunt.Models.HaloInfinite.ParticipationInfo.LeftInProgress
+  - Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtBeginning
+  - Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtCompletion
+  - Grunt.Models.HaloInfinite.ParticipationInfo.TimePlayed
+  langs:
+  - csharp
+  name: ParticipationInfo
+  nameWithType: Grunt.Models.HaloInfinite.ParticipationInfo
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class ParticipationInfo
+    content.csharp: public class ParticipationInfo
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.ParticipationInfo.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  langs:
+  - csharp
+  name: ParticipationInfo()
+  nameWithType: ParticipationInfo.ParticipationInfo()
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.ParticipationInfo()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public ParticipationInfo ();
+    parameters: []
+    content.csharp: public ParticipationInfo ();
+  overload: Grunt.Models.HaloInfinite.ParticipationInfo.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.ConfirmedParticipation
+  commentId: P:Grunt.Models.HaloInfinite.ParticipationInfo.ConfirmedParticipation
+  id: ConfirmedParticipation
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  langs:
+  - csharp
+  name: ConfirmedParticipation
+  nameWithType: ParticipationInfo.ConfirmedParticipation
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.ConfirmedParticipation
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public object ConfirmedParticipation { get; set; }
+    return:
+      type: System.Object
+      description: ''
+    content.csharp: public object ConfirmedParticipation { get; set; }
+  overload: Grunt.Models.HaloInfinite.ParticipationInfo.ConfirmedParticipation*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.FirstJoinedTime
+  commentId: P:Grunt.Models.HaloInfinite.ParticipationInfo.FirstJoinedTime
+  id: FirstJoinedTime
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  langs:
+  - csharp
+  name: FirstJoinedTime
+  nameWithType: ParticipationInfo.FirstJoinedTime
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.FirstJoinedTime
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public DateTime FirstJoinedTime { get; set; }
+    return:
+      type: System.DateTime
+      description: ''
+    content.csharp: public DateTime FirstJoinedTime { get; set; }
+  overload: Grunt.Models.HaloInfinite.ParticipationInfo.FirstJoinedTime*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.JoinedInProgress
+  commentId: P:Grunt.Models.HaloInfinite.ParticipationInfo.JoinedInProgress
+  id: JoinedInProgress
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  langs:
+  - csharp
+  name: JoinedInProgress
+  nameWithType: ParticipationInfo.JoinedInProgress
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.JoinedInProgress
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool JoinedInProgress { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool JoinedInProgress { get; set; }
+  overload: Grunt.Models.HaloInfinite.ParticipationInfo.JoinedInProgress*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.LastLeaveTime
+  commentId: P:Grunt.Models.HaloInfinite.ParticipationInfo.LastLeaveTime
+  id: LastLeaveTime
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  langs:
+  - csharp
+  name: LastLeaveTime
+  nameWithType: ParticipationInfo.LastLeaveTime
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.LastLeaveTime
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public object LastLeaveTime { get; set; }
+    return:
+      type: System.Object
+      description: ''
+    content.csharp: public object LastLeaveTime { get; set; }
+  overload: Grunt.Models.HaloInfinite.ParticipationInfo.LastLeaveTime*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.LeftInProgress
+  commentId: P:Grunt.Models.HaloInfinite.ParticipationInfo.LeftInProgress
+  id: LeftInProgress
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  langs:
+  - csharp
+  name: LeftInProgress
+  nameWithType: ParticipationInfo.LeftInProgress
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.LeftInProgress
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool LeftInProgress { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool LeftInProgress { get; set; }
+  overload: Grunt.Models.HaloInfinite.ParticipationInfo.LeftInProgress*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtBeginning
+  commentId: P:Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtBeginning
+  id: PresentAtBeginning
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  langs:
+  - csharp
+  name: PresentAtBeginning
+  nameWithType: ParticipationInfo.PresentAtBeginning
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtBeginning
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool PresentAtBeginning { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool PresentAtBeginning { get; set; }
+  overload: Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtBeginning*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtCompletion
+  commentId: P:Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtCompletion
+  id: PresentAtCompletion
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  langs:
+  - csharp
+  name: PresentAtCompletion
+  nameWithType: ParticipationInfo.PresentAtCompletion
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtCompletion
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool PresentAtCompletion { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool PresentAtCompletion { get; set; }
+  overload: Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtCompletion*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.TimePlayed
+  commentId: P:Grunt.Models.HaloInfinite.ParticipationInfo.TimePlayed
+  id: TimePlayed
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  langs:
+  - csharp
+  name: TimePlayed
+  nameWithType: ParticipationInfo.TimePlayed
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.TimePlayed
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string TimePlayed { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string TimePlayed { get; set; }
+  overload: Grunt.Models.HaloInfinite.ParticipationInfo.TimePlayed*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.#ctor
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: ParticipationInfo()
+  nameWithType: ParticipationInfo.ParticipationInfo()
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.ParticipationInfo()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.ConfirmedParticipation
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: ConfirmedParticipation
+  nameWithType: ParticipationInfo.ConfirmedParticipation
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.ConfirmedParticipation
+  type: property
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.FirstJoinedTime
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: FirstJoinedTime
+  nameWithType: ParticipationInfo.FirstJoinedTime
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.FirstJoinedTime
+  type: property
+- uid: System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.JoinedInProgress
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: JoinedInProgress
+  nameWithType: ParticipationInfo.JoinedInProgress
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.JoinedInProgress
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.LastLeaveTime
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: LastLeaveTime
+  nameWithType: ParticipationInfo.LastLeaveTime
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.LastLeaveTime
+  type: property
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.LeftInProgress
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: LeftInProgress
+  nameWithType: ParticipationInfo.LeftInProgress
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.LeftInProgress
+  type: property
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtBeginning
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: PresentAtBeginning
+  nameWithType: ParticipationInfo.PresentAtBeginning
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtBeginning
+  type: property
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtCompletion
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: PresentAtCompletion
+  nameWithType: ParticipationInfo.PresentAtCompletion
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtCompletion
+  type: property
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.TimePlayed
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: TimePlayed
+  nameWithType: ParticipationInfo.TimePlayed
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.TimePlayed
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.ParticipationInfo.#ctor
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: ParticipationInfo
+  nameWithType: ParticipationInfo.ParticipationInfo
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.ParticipationInfo
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.ConfirmedParticipation*
+  commentId: Overload:Grunt.Models.HaloInfinite.ParticipationInfo.ConfirmedParticipation
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: ConfirmedParticipation
+  nameWithType: ParticipationInfo.ConfirmedParticipation
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.ConfirmedParticipation
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.FirstJoinedTime*
+  commentId: Overload:Grunt.Models.HaloInfinite.ParticipationInfo.FirstJoinedTime
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: FirstJoinedTime
+  nameWithType: ParticipationInfo.FirstJoinedTime
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.FirstJoinedTime
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.JoinedInProgress*
+  commentId: Overload:Grunt.Models.HaloInfinite.ParticipationInfo.JoinedInProgress
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: JoinedInProgress
+  nameWithType: ParticipationInfo.JoinedInProgress
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.JoinedInProgress
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.LastLeaveTime*
+  commentId: Overload:Grunt.Models.HaloInfinite.ParticipationInfo.LastLeaveTime
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: LastLeaveTime
+  nameWithType: ParticipationInfo.LastLeaveTime
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.LastLeaveTime
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.LeftInProgress*
+  commentId: Overload:Grunt.Models.HaloInfinite.ParticipationInfo.LeftInProgress
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: LeftInProgress
+  nameWithType: ParticipationInfo.LeftInProgress
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.LeftInProgress
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtBeginning*
+  commentId: Overload:Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtBeginning
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: PresentAtBeginning
+  nameWithType: ParticipationInfo.PresentAtBeginning
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtBeginning
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtCompletion*
+  commentId: Overload:Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtCompletion
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: PresentAtCompletion
+  nameWithType: ParticipationInfo.PresentAtCompletion
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.PresentAtCompletion
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ParticipationInfo.TimePlayed*
+  commentId: Overload:Grunt.Models.HaloInfinite.ParticipationInfo.TimePlayed
+  parent: Grunt.Models.HaloInfinite.ParticipationInfo
+  isExternal: false
+  name: TimePlayed
+  nameWithType: ParticipationInfo.TimePlayed
+  fullName: Grunt.Models.HaloInfinite.ParticipationInfo.TimePlayed
+  monikers:
+  - net6.0
+  type: property

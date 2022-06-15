@@ -1,0 +1,824 @@
+### YamlMime:TableOfContent
+- uid: Grunt.Authentication
+  name: Grunt.Authentication
+  items:
+  - uid: Grunt.Authentication.HaloAuthenticationClient
+    name: HaloAuthenticationClient
+    monikers:
+    - net6.0
+  - uid: Grunt.Authentication.XboxAuthenticationManager
+    name: XboxAuthenticationManager
+    monikers:
+    - net6.0
+  monikers:
+  - net6.0
+- uid: Grunt.Core
+  name: Grunt.Core
+  items:
+  - uid: Grunt.Core.HaloInfiniteClient
+    name: HaloInfiniteClient
+    monikers:
+    - net6.0
+  monikers:
+  - net6.0
+- uid: Grunt.Models
+  name: Grunt.Models
+  items:
+  - uid: Grunt.Models.APIFormattedDate
+    name: APIFormattedDate
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.ClientConfiguration
+    name: ClientConfiguration
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.GruntConfiguration
+    name: GruntConfiguration
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.OAuthToken
+    name: OAuthToken
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.SpartanToken
+    name: SpartanToken
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.SpartanTokenProof
+    name: SpartanTokenProof
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.SpartanTokenRequest
+    name: SpartanTokenRequest
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.XboxDisplayClaims
+    name: XboxDisplayClaims
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.XboxTicket
+    name: XboxTicket
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.XboxTicketProperties
+    name: XboxTicketProperties
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.XboxTicketRequest
+    name: XboxTicketRequest
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.XboxXui
+    name: XboxXui
+    monikers:
+    - net6.0
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite
+  name: Grunt.Models.HaloInfinite
+  items:
+  - uid: Grunt.Models.HaloInfinite.AcademyCategory
+    name: AcademyCategory
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AcademyClientManifest
+    name: AcademyClientManifest
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AcademyDrill
+    name: AcademyDrill
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AcademySeries
+    name: AcademySeries
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AcademyStarDefinition
+    name: AcademyStarDefinition
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AcademyStarDefinitions
+    name: AcademyStarDefinitions
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AcademyTutorial
+    name: AcademyTutorial
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Achievement
+    name: Achievement
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AchievementCollection
+    name: AchievementCollection
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ActiveChallenge
+    name: ActiveChallenge
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AiCore
+    name: AiCore
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AiCoreCollection
+    name: AiCoreCollection
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AiCores
+    name: AiCores
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AiCoreTheme
+    name: AiCoreTheme
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AMDPreset
+    name: AMDPreset
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Appearance
+    name: Appearance
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AppearanceCustomization
+    name: AppearanceCustomization
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ArmorCore
+    name: ArmorCore
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ArmorCoreCollection
+    name: ArmorCoreCollection
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ArmorCoreTheme
+    name: ArmorCoreTheme
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ArticleAction
+    name: ArticleAction
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Articleimage
+    name: Articleimage
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AssetKeyValues
+    name: AssetKeyValues
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AssetLink
+    name: AssetLink
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AssetRating
+    name: AssetRating
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AssetVersionFile
+    name: AssetVersionFile
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AssignedDeck
+    name: AssignedDeck
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+    name: AsyncComputeOverrides
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AwardedReward
+    name: AwardedReward
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.BanResult
+    name: BanResult
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.BanSummary
+    name: BanSummary
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.BanSummaryResult
+    name: BanSummaryResult
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.BotCustomizationData
+    name: BotCustomizationData
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+    name: ChallengeDeckDefinition
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ChallengeProgressState
+    name: ChallengeProgressState
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ClawAccessSnapshot
+    name: ClawAccessSnapshot
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.CommonItemData
+    name: CommonItemData
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.CompletedChallenge
+    name: CompletedChallenge
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Configuration
+    name: Configuration
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.CoreStats
+    name: CoreStats
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Counterfactuals
+    name: Counterfactuals
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.CPUPreset
+    name: CPUPreset
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+    name: CPUPresetSnapshot
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Currency
+    name: Currency
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.CurrencyAmount
+    name: CurrencyAmount
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.CurrencyDefinition
+    name: CurrencyDefinition
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.CurrencySnapshot
+    name: CurrencySnapshot
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.CustomAssetData
+    name: CustomAssetData
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.CustomFilmData
+    name: CustomFilmData
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.CustomizationData
+    name: CustomizationData
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.CustomManifestData
+    name: CustomManifestData
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.CustomMapData
+    name: CustomMapData
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.CustomProjectData
+    name: CustomProjectData
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.DevicePresetOverrides
+    name: DevicePresetOverrides
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.DisplayPath
+    name: DisplayPath
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.DisplayString
+    name: DisplayString
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.DriverDetails
+    name: DriverDetails
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.DriverManifest
+    name: DriverManifest
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Emblem
+    name: Emblem
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.EngineGameVariant
+    name: EngineGameVariant
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Film
+    name: Film
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.FilmChunk
+    name: FilmChunk
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.FlightedFeatureFlags
+    name: FlightedFeatureFlags
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.GameVariantAssetStats
+    name: GameVariantAssetStats
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.GrantedCurrency
+    name: GrantedCurrency
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle
+    name: HaloInfinite343MicrosoftStoreTitle
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
+    name: HaloInfinite343SteamStoreTitle
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.HaloInfiniteMicrosoftStoreTitle
+    name: HaloInfiniteMicrosoftStoreTitle
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.HaloInfiniteSteamStoreTitle
+    name: HaloInfiniteSteamStoreTitle
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.IdentifierName
+    name: IdentifierName
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.InGameItem
+    name: InGameItem
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.IntelPreset
+    name: IntelPreset
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.InventoryAmount
+    name: InventoryAmount
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ItemPath
+    name: ItemPath
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Key
+    name: Key
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.KillDeathStats
+    name: KillDeathStats
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Link
+    name: Link
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Links
+    name: Links
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+    name: LobbyHopperErrorMessage
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList
+    name: LobbyHopperErrorMessageList
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.LobbyJoinHandle
+    name: LobbyJoinHandle
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Manifest
+    name: Manifest
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Manufacturer
+    name: Manufacturer
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Map
+    name: Map
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.MapModePair
+    name: MapModePair
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.MapVariant
+    name: MapVariant
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.MarketplaceRecord
+    name: MarketplaceRecord
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.MatchContainer
+    name: MatchContainer
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.MatchCsr
+    name: MatchCsr
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.MatchesPrivacy
+    name: MatchesPrivacy
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.MatchInfo
+    name: MatchInfo
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.MatchLinks
+    name: MatchLinks
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.MatchProgression
+    name: MatchProgression
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.MatchResult
+    name: MatchResult
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.MatchStats
+    name: MatchStats
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Medal
+    name: Medal
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Media
+    name: Media
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Metadata
+    name: Metadata
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.MicrosoftStoreInventory
+    name: MicrosoftStoreInventory
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+    name: MicrosoftStoreTitleConfiguration
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ModerationProofKeys
+    name: ModerationProofKeys
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.NetworkConfiguration
+    name: NetworkConfiguration
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.News
+    name: News
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.NewsArticle
+    name: NewsArticle
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.NvidiaPreset
+    name: NvidiaPreset
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.OEConfiguration
+    name: OEConfiguration
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Offering
+    name: Offering
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.OperationRewardTrackSnapshot
+    name: OperationRewardTrackSnapshot
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Outfit
+    name: Outfit
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ParticipationInfo
+    name: ParticipationInfo
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PerformanceValue
+    name: PerformanceValue
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Permission
+    name: Permission
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PersonalScore
+    name: PersonalScore
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlayAssetStats
+    name: PlayAssetStats
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Player
+    name: Player
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlayerClearance
+    name: PlayerClearance
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlayerCores
+    name: PlayerCores
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlayerCustomization
+    name: PlayerCustomization
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+    name: PlayerCustomizationCollection
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlayerDecks
+    name: PlayerDecks
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlayerGiveaways
+    name: PlayerGiveaways
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlayerInventory
+    name: PlayerInventory
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlayerItem
+    name: PlayerItem
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlayerMatchCount
+    name: PlayerMatchCount
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlayerSkillResult
+    name: PlayerSkillResult
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlayerSkillResultValue
+    name: PlayerSkillResultValue
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlayerState
+    name: PlayerState
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlayerTeamStat
+    name: PlayerTeamStat
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Playlist
+    name: Playlist
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlaylistMapModePair
+    name: PlaylistMapModePair
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Price
+    name: Price
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Project
+    name: Project
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.RankRecap
+    name: RankRecap
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.RankSnapshot
+    name: RankSnapshot
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Reward
+    name: Reward
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.RewardContainer
+    name: RewardContainer
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.RewardSnapshot
+    name: RewardSnapshot
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.RewardSummary
+    name: RewardSummary
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.RewardTrack
+    name: RewardTrack
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.RewardTrackMetadata
+    name: RewardTrackMetadata
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.RewardTrackProgress
+    name: RewardTrackProgress
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.SeasonRewardTrack
+    name: SeasonRewardTrack
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Server
+    name: Server
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.SkillResult
+    name: SkillResult
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.SortingMetadata
+    name: SortingMetadata
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.SpartanBody
+    name: SpartanBody
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.StatPerformances
+    name: StatPerformances
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Stats
+    name: Stats
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.SteamStoreInventory
+    name: SteamStoreInventory
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+    name: SteamStoreTitleConfiguration
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.StoreItem
+    name: StoreItem
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.StoreProduct
+    name: StoreProduct
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.StoreProductMapping
+    name: StoreProductMapping
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Tag
+    name: Tag
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.TagInfo
+    name: TagInfo
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Team
+    name: Team
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.TestAcademyClientManifest
+    name: TestAcademyClientManifest
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.TestAcademyTutorial
+    name: TestAcademyTutorial
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.TestDrill
+    name: TestDrill
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.TestDrillCategory
+    name: TestDrillCategory
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.TierCounterfactuals
+    name: TierCounterfactuals
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Transaction
+    name: Transaction
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.TransactionSnapshot
+    name: TransactionSnapshot
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.UGCGameVariant
+    name: UGCGameVariant
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.UpcomingChallenge
+    name: UpcomingChallenge
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.VehicleCore
+    name: VehicleCore
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.VehicleCoreCollection
+    name: VehicleCoreCollection
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.VehicleCoreTheme
+    name: VehicleCoreTheme
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.WeaponCore
+    name: WeaponCore
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.WeaponCoreCollection
+    name: WeaponCoreCollection
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.WeaponCoreTheme
+    name: WeaponCoreTheme
+    monikers:
+    - net6.0
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ApiIngress
+  name: Grunt.Models.HaloInfinite.ApiIngress
+  items:
+  - uid: Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+    name: ApiAuthority
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+    name: ApiEndpoint
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ApiIngress.ApiRetryOptions
+    name: ApiRetryOptions
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
+    name: ApiRetryPolicy
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+    name: ApiSettings
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+    name: ApiSettingsContainer
+    monikers:
+    - net6.0
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Foundation
+  name: Grunt.Models.HaloInfinite.Foundation
+  items:
+  - uid: Grunt.Models.HaloInfinite.Foundation.Asset
+    name: Asset
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Foundation.Core
+    name: Core
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Foundation.ResultContainer
+    name: ResultContainer
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Foundation.Theme
+    name: Theme
+    monikers:
+    - net6.0
+  monikers:
+  - net6.0
+- uid: Grunt.Util
+  name: Grunt.Util
+  items:
+  - uid: Grunt.Util.ConfigurationReader
+    name: ConfigurationReader
+    monikers:
+    - net6.0
+  monikers:
+  - net6.0

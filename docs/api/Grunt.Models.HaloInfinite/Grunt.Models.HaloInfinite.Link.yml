@@ -1,0 +1,462 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.Link
+  commentId: T:Grunt.Models.HaloInfinite.Link
+  id: Link
+  children:
+  - Grunt.Models.HaloInfinite.Link.#ctor
+  - Grunt.Models.HaloInfinite.Link.AcknowledgementTypeId
+  - Grunt.Models.HaloInfinite.Link.AuthenticationLifetimeExtensionSupported
+  - Grunt.Models.HaloInfinite.Link.AuthorityId
+  - Grunt.Models.HaloInfinite.Link.ClearanceAware
+  - Grunt.Models.HaloInfinite.Link.Path
+  - Grunt.Models.HaloInfinite.Link.QueryString
+  - Grunt.Models.HaloInfinite.Link.RetryPolicyId
+  - Grunt.Models.HaloInfinite.Link.TopicName
+  langs:
+  - csharp
+  name: Link
+  nameWithType: Grunt.Models.HaloInfinite.Link
+  fullName: Grunt.Models.HaloInfinite.Link
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class Link
+    content.csharp: public class Link
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.Link.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.Link.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.Link
+  langs:
+  - csharp
+  name: Link()
+  nameWithType: Link.Link()
+  fullName: Grunt.Models.HaloInfinite.Link.Link()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Link ();
+    parameters: []
+    content.csharp: public Link ();
+  overload: Grunt.Models.HaloInfinite.Link.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Link.AcknowledgementTypeId
+  commentId: P:Grunt.Models.HaloInfinite.Link.AcknowledgementTypeId
+  id: AcknowledgementTypeId
+  parent: Grunt.Models.HaloInfinite.Link
+  langs:
+  - csharp
+  name: AcknowledgementTypeId
+  nameWithType: Link.AcknowledgementTypeId
+  fullName: Grunt.Models.HaloInfinite.Link.AcknowledgementTypeId
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int AcknowledgementTypeId { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int AcknowledgementTypeId { get; set; }
+  overload: Grunt.Models.HaloInfinite.Link.AcknowledgementTypeId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Link.AuthenticationLifetimeExtensionSupported
+  commentId: P:Grunt.Models.HaloInfinite.Link.AuthenticationLifetimeExtensionSupported
+  id: AuthenticationLifetimeExtensionSupported
+  parent: Grunt.Models.HaloInfinite.Link
+  langs:
+  - csharp
+  name: AuthenticationLifetimeExtensionSupported
+  nameWithType: Link.AuthenticationLifetimeExtensionSupported
+  fullName: Grunt.Models.HaloInfinite.Link.AuthenticationLifetimeExtensionSupported
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool AuthenticationLifetimeExtensionSupported { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool AuthenticationLifetimeExtensionSupported { get; set; }
+  overload: Grunt.Models.HaloInfinite.Link.AuthenticationLifetimeExtensionSupported*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Link.AuthorityId
+  commentId: P:Grunt.Models.HaloInfinite.Link.AuthorityId
+  id: AuthorityId
+  parent: Grunt.Models.HaloInfinite.Link
+  langs:
+  - csharp
+  name: AuthorityId
+  nameWithType: Link.AuthorityId
+  fullName: Grunt.Models.HaloInfinite.Link.AuthorityId
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string AuthorityId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string AuthorityId { get; set; }
+  overload: Grunt.Models.HaloInfinite.Link.AuthorityId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Link.ClearanceAware
+  commentId: P:Grunt.Models.HaloInfinite.Link.ClearanceAware
+  id: ClearanceAware
+  parent: Grunt.Models.HaloInfinite.Link
+  langs:
+  - csharp
+  name: ClearanceAware
+  nameWithType: Link.ClearanceAware
+  fullName: Grunt.Models.HaloInfinite.Link.ClearanceAware
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool ClearanceAware { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool ClearanceAware { get; set; }
+  overload: Grunt.Models.HaloInfinite.Link.ClearanceAware*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Link.Path
+  commentId: P:Grunt.Models.HaloInfinite.Link.Path
+  id: Path
+  parent: Grunt.Models.HaloInfinite.Link
+  langs:
+  - csharp
+  name: Path
+  nameWithType: Link.Path
+  fullName: Grunt.Models.HaloInfinite.Link.Path
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Path { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Path { get; set; }
+  overload: Grunt.Models.HaloInfinite.Link.Path*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Link.QueryString
+  commentId: P:Grunt.Models.HaloInfinite.Link.QueryString
+  id: QueryString
+  parent: Grunt.Models.HaloInfinite.Link
+  langs:
+  - csharp
+  name: QueryString
+  nameWithType: Link.QueryString
+  fullName: Grunt.Models.HaloInfinite.Link.QueryString
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string QueryString { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string QueryString { get; set; }
+  overload: Grunt.Models.HaloInfinite.Link.QueryString*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Link.RetryPolicyId
+  commentId: P:Grunt.Models.HaloInfinite.Link.RetryPolicyId
+  id: RetryPolicyId
+  parent: Grunt.Models.HaloInfinite.Link
+  langs:
+  - csharp
+  name: RetryPolicyId
+  nameWithType: Link.RetryPolicyId
+  fullName: Grunt.Models.HaloInfinite.Link.RetryPolicyId
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string RetryPolicyId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string RetryPolicyId { get; set; }
+  overload: Grunt.Models.HaloInfinite.Link.RetryPolicyId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Link.TopicName
+  commentId: P:Grunt.Models.HaloInfinite.Link.TopicName
+  id: TopicName
+  parent: Grunt.Models.HaloInfinite.Link
+  langs:
+  - csharp
+  name: TopicName
+  nameWithType: Link.TopicName
+  fullName: Grunt.Models.HaloInfinite.Link.TopicName
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string TopicName { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string TopicName { get; set; }
+  overload: Grunt.Models.HaloInfinite.Link.TopicName*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.Link.#ctor
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: Link()
+  nameWithType: Link.Link()
+  fullName: Grunt.Models.HaloInfinite.Link.Link()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.Link.AcknowledgementTypeId
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: AcknowledgementTypeId
+  nameWithType: Link.AcknowledgementTypeId
+  fullName: Grunt.Models.HaloInfinite.Link.AcknowledgementTypeId
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.Link.AuthenticationLifetimeExtensionSupported
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: AuthenticationLifetimeExtensionSupported
+  nameWithType: Link.AuthenticationLifetimeExtensionSupported
+  fullName: Grunt.Models.HaloInfinite.Link.AuthenticationLifetimeExtensionSupported
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Grunt.Models.HaloInfinite.Link.AuthorityId
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: AuthorityId
+  nameWithType: Link.AuthorityId
+  fullName: Grunt.Models.HaloInfinite.Link.AuthorityId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.Link.ClearanceAware
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: ClearanceAware
+  nameWithType: Link.ClearanceAware
+  fullName: Grunt.Models.HaloInfinite.Link.ClearanceAware
+  type: property
+- uid: Grunt.Models.HaloInfinite.Link.Path
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: Path
+  nameWithType: Link.Path
+  fullName: Grunt.Models.HaloInfinite.Link.Path
+  type: property
+- uid: Grunt.Models.HaloInfinite.Link.QueryString
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: QueryString
+  nameWithType: Link.QueryString
+  fullName: Grunt.Models.HaloInfinite.Link.QueryString
+  type: property
+- uid: Grunt.Models.HaloInfinite.Link.RetryPolicyId
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: RetryPolicyId
+  nameWithType: Link.RetryPolicyId
+  fullName: Grunt.Models.HaloInfinite.Link.RetryPolicyId
+  type: property
+- uid: Grunt.Models.HaloInfinite.Link.TopicName
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: TopicName
+  nameWithType: Link.TopicName
+  fullName: Grunt.Models.HaloInfinite.Link.TopicName
+  type: property
+- uid: Grunt.Models.HaloInfinite.Link.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.Link.#ctor
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: Link
+  nameWithType: Link.Link
+  fullName: Grunt.Models.HaloInfinite.Link.Link
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.Link.AcknowledgementTypeId*
+  commentId: Overload:Grunt.Models.HaloInfinite.Link.AcknowledgementTypeId
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: AcknowledgementTypeId
+  nameWithType: Link.AcknowledgementTypeId
+  fullName: Grunt.Models.HaloInfinite.Link.AcknowledgementTypeId
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Link.AuthenticationLifetimeExtensionSupported*
+  commentId: Overload:Grunt.Models.HaloInfinite.Link.AuthenticationLifetimeExtensionSupported
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: AuthenticationLifetimeExtensionSupported
+  nameWithType: Link.AuthenticationLifetimeExtensionSupported
+  fullName: Grunt.Models.HaloInfinite.Link.AuthenticationLifetimeExtensionSupported
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Link.AuthorityId*
+  commentId: Overload:Grunt.Models.HaloInfinite.Link.AuthorityId
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: AuthorityId
+  nameWithType: Link.AuthorityId
+  fullName: Grunt.Models.HaloInfinite.Link.AuthorityId
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Link.ClearanceAware*
+  commentId: Overload:Grunt.Models.HaloInfinite.Link.ClearanceAware
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: ClearanceAware
+  nameWithType: Link.ClearanceAware
+  fullName: Grunt.Models.HaloInfinite.Link.ClearanceAware
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Link.Path*
+  commentId: Overload:Grunt.Models.HaloInfinite.Link.Path
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: Path
+  nameWithType: Link.Path
+  fullName: Grunt.Models.HaloInfinite.Link.Path
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Link.QueryString*
+  commentId: Overload:Grunt.Models.HaloInfinite.Link.QueryString
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: QueryString
+  nameWithType: Link.QueryString
+  fullName: Grunt.Models.HaloInfinite.Link.QueryString
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Link.RetryPolicyId*
+  commentId: Overload:Grunt.Models.HaloInfinite.Link.RetryPolicyId
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: RetryPolicyId
+  nameWithType: Link.RetryPolicyId
+  fullName: Grunt.Models.HaloInfinite.Link.RetryPolicyId
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Link.TopicName*
+  commentId: Overload:Grunt.Models.HaloInfinite.Link.TopicName
+  parent: Grunt.Models.HaloInfinite.Link
+  isExternal: false
+  name: TopicName
+  nameWithType: Link.TopicName
+  fullName: Grunt.Models.HaloInfinite.Link.TopicName
+  monikers:
+  - net6.0
+  type: property

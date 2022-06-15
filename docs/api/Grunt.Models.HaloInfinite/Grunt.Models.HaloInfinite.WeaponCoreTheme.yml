@@ -1,0 +1,567 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  commentId: T:Grunt.Models.HaloInfinite.WeaponCoreTheme
+  id: WeaponCoreTheme
+  children:
+  - Grunt.Models.HaloInfinite.WeaponCoreTheme.#ctor
+  - Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath
+  - Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath
+  - Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath
+  - Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem
+  - Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath
+  - Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath
+  - Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems
+  - Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath
+  - Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath
+  langs:
+  - csharp
+  name: WeaponCoreTheme
+  nameWithType: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: 'public class WeaponCoreTheme : Grunt.Models.HaloInfinite.Foundation.Theme'
+    content.csharp: 'public class WeaponCoreTheme : Grunt.Models.HaloInfinite.Foundation.Theme'
+  inheritance:
+  - System.Object
+  - Grunt.Models.HaloInfinite.Foundation.Theme
+  implements: []
+  inheritedMembers:
+  - Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  - Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  - Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  - Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  - Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.WeaponCoreTheme.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: WeaponCoreTheme()
+  nameWithType: WeaponCoreTheme.WeaponCoreTheme()
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCoreTheme()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public WeaponCoreTheme ();
+    parameters: []
+    content.csharp: public WeaponCoreTheme ();
+  overload: Grunt.Models.HaloInfinite.WeaponCoreTheme.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath
+  commentId: P:Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath
+  id: AlternateGeometryRegionPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: AlternateGeometryRegionPath
+  nameWithType: WeaponCoreTheme.AlternateGeometryRegionPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string AlternateGeometryRegionPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string AlternateGeometryRegionPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath
+  commentId: P:Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath
+  id: AmmoCounterColorPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: AmmoCounterColorPath
+  nameWithType: WeaponCoreTheme.AmmoCounterColorPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string AmmoCounterColorPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string AmmoCounterColorPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath
+  commentId: P:Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath
+  id: AmmoCounterPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: AmmoCounterPath
+  nameWithType: WeaponCoreTheme.AmmoCounterPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string AmmoCounterPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string AmmoCounterPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem
+  commentId: P:Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem
+  id: BigEmblem
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: BigEmblem
+  nameWithType: WeaponCoreTheme.BigEmblem
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.Emblem BigEmblem { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.Emblem
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.Emblem BigEmblem { get; set; }
+  overload: Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath
+  commentId: P:Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath
+  id: CoatingPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: CoatingPath
+  nameWithType: WeaponCoreTheme.CoatingPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string CoatingPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string CoatingPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath
+  commentId: P:Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath
+  id: DeathFxPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: DeathFxPath
+  nameWithType: WeaponCoreTheme.DeathFxPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string DeathFxPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string DeathFxPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems
+  commentId: P:Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems
+  id: Emblems
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: Emblems
+  nameWithType: WeaponCoreTheme.Emblems
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.Emblem> Emblems { get; set; }
+    return:
+      type: System.Collections.Generic.List{Grunt.Models.HaloInfinite.Emblem}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.Emblem> Emblems { get; set; }
+  overload: Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath
+  commentId: P:Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath
+  id: StatTrackerPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: StatTrackerPath
+  nameWithType: WeaponCoreTheme.StatTrackerPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string StatTrackerPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string StatTrackerPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath
+  commentId: P:Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath
+  id: WeaponCharmPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: WeaponCharmPath
+  nameWithType: WeaponCoreTheme.WeaponCharmPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string WeaponCharmPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string WeaponCharmPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme
+  parent: Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Theme
+  nameWithType: Theme
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.#ctor
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: WeaponCoreTheme()
+  nameWithType: WeaponCoreTheme.WeaponCoreTheme()
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCoreTheme()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: AlternateGeometryRegionPath
+  nameWithType: WeaponCoreTheme.AlternateGeometryRegionPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: AmmoCounterColorPath
+  nameWithType: WeaponCoreTheme.AmmoCounterColorPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: AmmoCounterPath
+  nameWithType: WeaponCoreTheme.AmmoCounterPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: BigEmblem
+  nameWithType: WeaponCoreTheme.BigEmblem
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem
+  type: property
+- uid: Grunt.Models.HaloInfinite.Emblem
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Emblem
+  nameWithType: Emblem
+  fullName: Grunt.Models.HaloInfinite.Emblem
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: CoatingPath
+  nameWithType: WeaponCoreTheme.CoatingPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: DeathFxPath
+  nameWithType: WeaponCoreTheme.DeathFxPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: Emblems
+  nameWithType: WeaponCoreTheme.Emblems
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: System.Collections.Generic.List{Grunt.Models.HaloInfinite.Emblem}
+  parent: System.Collections.Generic
+  name: List<Emblem>
+  nameWithType: List<Emblem>
+  fullName: System.Collections.Generic.List<Grunt.Models.HaloInfinite.Emblem>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Grunt.Models.HaloInfinite.Emblem
+    name: Emblem
+    nameWithType: Emblem
+    fullName: Grunt.Models.HaloInfinite.Emblem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: StatTrackerPath
+  nameWithType: WeaponCoreTheme.StatTrackerPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: WeaponCharmPath
+  nameWithType: WeaponCoreTheme.WeaponCharmPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.WeaponCoreTheme.#ctor
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: WeaponCoreTheme
+  nameWithType: WeaponCoreTheme.WeaponCoreTheme
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCoreTheme
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: AlternateGeometryRegionPath
+  nameWithType: WeaponCoreTheme.AlternateGeometryRegionPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: AmmoCounterColorPath
+  nameWithType: WeaponCoreTheme.AmmoCounterColorPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: AmmoCounterPath
+  nameWithType: WeaponCoreTheme.AmmoCounterPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem*
+  commentId: Overload:Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: BigEmblem
+  nameWithType: WeaponCoreTheme.BigEmblem
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: CoatingPath
+  nameWithType: WeaponCoreTheme.CoatingPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: DeathFxPath
+  nameWithType: WeaponCoreTheme.DeathFxPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems*
+  commentId: Overload:Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: Emblems
+  nameWithType: WeaponCoreTheme.Emblems
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: StatTrackerPath
+  nameWithType: WeaponCoreTheme.StatTrackerPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath
+  parent: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: WeaponCharmPath
+  nameWithType: WeaponCoreTheme.WeaponCharmPath
+  fullName: Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  parent: Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: FirstModifiedDateUtc
+  nameWithType: Theme.FirstModifiedDateUtc
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  parent: Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: IsDefault
+  nameWithType: Theme.IsDefault
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  parent: Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: IsEquipped
+  nameWithType: Theme.IsEquipped
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  parent: Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: Theme.LastModifiedDateUtc
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  parent: Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: ThemePath
+  nameWithType: Theme.ThemePath
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  type: property

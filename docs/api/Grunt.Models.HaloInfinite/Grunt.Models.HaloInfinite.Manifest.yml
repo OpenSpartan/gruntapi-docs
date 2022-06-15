@@ -1,0 +1,524 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.Manifest
+  commentId: T:Grunt.Models.HaloInfinite.Manifest
+  id: Manifest
+  children:
+  - Grunt.Models.HaloInfinite.Manifest.#ctor
+  - Grunt.Models.HaloInfinite.Manifest.AssetStats
+  - Grunt.Models.HaloInfinite.Manifest.CustomData
+  - Grunt.Models.HaloInfinite.Manifest.EngineGameVariantLinks
+  - Grunt.Models.HaloInfinite.Manifest.MapLinks
+  - Grunt.Models.HaloInfinite.Manifest.PlaylistLinks
+  - Grunt.Models.HaloInfinite.Manifest.UgcGameVariantLinks
+  langs:
+  - csharp
+  name: Manifest
+  nameWithType: Grunt.Models.HaloInfinite.Manifest
+  fullName: Grunt.Models.HaloInfinite.Manifest
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: 'public class Manifest : Grunt.Models.HaloInfinite.Foundation.Asset'
+    content.csharp: 'public class Manifest : Grunt.Models.HaloInfinite.Foundation.Asset'
+  inheritance:
+  - System.Object
+  - Grunt.Models.HaloInfinite.Foundation.Asset
+  implements: []
+  inheritedMembers:
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  - Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  - Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  - Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  - Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.Manifest.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.Manifest.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.Manifest
+  langs:
+  - csharp
+  name: Manifest()
+  nameWithType: Manifest.Manifest()
+  fullName: Grunt.Models.HaloInfinite.Manifest.Manifest()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Manifest ();
+    parameters: []
+    content.csharp: public Manifest ();
+  overload: Grunt.Models.HaloInfinite.Manifest.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Manifest.AssetStats
+  commentId: P:Grunt.Models.HaloInfinite.Manifest.AssetStats
+  id: AssetStats
+  parent: Grunt.Models.HaloInfinite.Manifest
+  langs:
+  - csharp
+  name: AssetStats
+  nameWithType: Manifest.AssetStats
+  fullName: Grunt.Models.HaloInfinite.Manifest.AssetStats
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.PlayAssetStats AssetStats { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.PlayAssetStats
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.PlayAssetStats AssetStats { get; set; }
+  overload: Grunt.Models.HaloInfinite.Manifest.AssetStats*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Manifest.CustomData
+  commentId: P:Grunt.Models.HaloInfinite.Manifest.CustomData
+  id: CustomData
+  parent: Grunt.Models.HaloInfinite.Manifest
+  langs:
+  - csharp
+  name: CustomData
+  nameWithType: Manifest.CustomData
+  fullName: Grunt.Models.HaloInfinite.Manifest.CustomData
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.CustomManifestData CustomData { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.CustomManifestData
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.CustomManifestData CustomData { get; set; }
+  overload: Grunt.Models.HaloInfinite.Manifest.CustomData*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Manifest.EngineGameVariantLinks
+  commentId: P:Grunt.Models.HaloInfinite.Manifest.EngineGameVariantLinks
+  id: EngineGameVariantLinks
+  parent: Grunt.Models.HaloInfinite.Manifest
+  langs:
+  - csharp
+  name: EngineGameVariantLinks
+  nameWithType: Manifest.EngineGameVariantLinks
+  fullName: Grunt.Models.HaloInfinite.Manifest.EngineGameVariantLinks
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.EngineGameVariant[] EngineGameVariantLinks { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.EngineGameVariant[]
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.EngineGameVariant[] EngineGameVariantLinks { get; set; }
+  overload: Grunt.Models.HaloInfinite.Manifest.EngineGameVariantLinks*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Manifest.MapLinks
+  commentId: P:Grunt.Models.HaloInfinite.Manifest.MapLinks
+  id: MapLinks
+  parent: Grunt.Models.HaloInfinite.Manifest
+  langs:
+  - csharp
+  name: MapLinks
+  nameWithType: Manifest.MapLinks
+  fullName: Grunt.Models.HaloInfinite.Manifest.MapLinks
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.Map[] MapLinks { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.Map[]
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.Map[] MapLinks { get; set; }
+  overload: Grunt.Models.HaloInfinite.Manifest.MapLinks*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Manifest.PlaylistLinks
+  commentId: P:Grunt.Models.HaloInfinite.Manifest.PlaylistLinks
+  id: PlaylistLinks
+  parent: Grunt.Models.HaloInfinite.Manifest
+  langs:
+  - csharp
+  name: PlaylistLinks
+  nameWithType: Manifest.PlaylistLinks
+  fullName: Grunt.Models.HaloInfinite.Manifest.PlaylistLinks
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public object[] PlaylistLinks { get; set; }
+    return:
+      type: System.Object[]
+      description: ''
+    content.csharp: public object[] PlaylistLinks { get; set; }
+  overload: Grunt.Models.HaloInfinite.Manifest.PlaylistLinks*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Manifest.UgcGameVariantLinks
+  commentId: P:Grunt.Models.HaloInfinite.Manifest.UgcGameVariantLinks
+  id: UgcGameVariantLinks
+  parent: Grunt.Models.HaloInfinite.Manifest
+  langs:
+  - csharp
+  name: UgcGameVariantLinks
+  nameWithType: Manifest.UgcGameVariantLinks
+  fullName: Grunt.Models.HaloInfinite.Manifest.UgcGameVariantLinks
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.UGCGameVariant[] UgcGameVariantLinks { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.UGCGameVariant[]
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.UGCGameVariant[] UgcGameVariantLinks { get; set; }
+  overload: Grunt.Models.HaloInfinite.Manifest.UgcGameVariantLinks*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset
+  parent: Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Asset
+  nameWithType: Asset
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset
+- uid: Grunt.Models.HaloInfinite.Manifest.#ctor
+  parent: Grunt.Models.HaloInfinite.Manifest
+  isExternal: false
+  name: Manifest()
+  nameWithType: Manifest.Manifest()
+  fullName: Grunt.Models.HaloInfinite.Manifest.Manifest()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.Manifest.AssetStats
+  parent: Grunt.Models.HaloInfinite.Manifest
+  isExternal: false
+  name: AssetStats
+  nameWithType: Manifest.AssetStats
+  fullName: Grunt.Models.HaloInfinite.Manifest.AssetStats
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlayAssetStats
+  nameWithType: PlayAssetStats
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats
+- uid: Grunt.Models.HaloInfinite.Manifest.CustomData
+  parent: Grunt.Models.HaloInfinite.Manifest
+  isExternal: false
+  name: CustomData
+  nameWithType: Manifest.CustomData
+  fullName: Grunt.Models.HaloInfinite.Manifest.CustomData
+  type: property
+- uid: Grunt.Models.HaloInfinite.CustomManifestData
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: CustomManifestData
+  nameWithType: CustomManifestData
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData
+- uid: Grunt.Models.HaloInfinite.Manifest.EngineGameVariantLinks
+  parent: Grunt.Models.HaloInfinite.Manifest
+  isExternal: false
+  name: EngineGameVariantLinks
+  nameWithType: Manifest.EngineGameVariantLinks
+  fullName: Grunt.Models.HaloInfinite.Manifest.EngineGameVariantLinks
+  type: property
+- uid: Grunt.Models.HaloInfinite.EngineGameVariant
+  name: EngineGameVariant
+  nameWithType: EngineGameVariant
+  fullName: Grunt.Models.HaloInfinite.EngineGameVariant
+- uid: Grunt.Models.HaloInfinite.EngineGameVariant[]
+  parent: Grunt.Models.HaloInfinite
+  name: EngineGameVariant[]
+  nameWithType: EngineGameVariant[]
+  fullName: Grunt.Models.HaloInfinite.EngineGameVariant[]
+  spec.csharp:
+  - uid: Grunt.Models.HaloInfinite.EngineGameVariant
+    name: EngineGameVariant
+    nameWithType: EngineGameVariant
+    fullName: Grunt.Models.HaloInfinite.EngineGameVariant
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.HaloInfinite.Manifest.MapLinks
+  parent: Grunt.Models.HaloInfinite.Manifest
+  isExternal: false
+  name: MapLinks
+  nameWithType: Manifest.MapLinks
+  fullName: Grunt.Models.HaloInfinite.Manifest.MapLinks
+  type: property
+- uid: Grunt.Models.HaloInfinite.Map
+  name: Map
+  nameWithType: Map
+  fullName: Grunt.Models.HaloInfinite.Map
+- uid: Grunt.Models.HaloInfinite.Map[]
+  parent: Grunt.Models.HaloInfinite
+  name: Map[]
+  nameWithType: Map[]
+  fullName: Grunt.Models.HaloInfinite.Map[]
+  spec.csharp:
+  - uid: Grunt.Models.HaloInfinite.Map
+    name: Map
+    nameWithType: Map
+    fullName: Grunt.Models.HaloInfinite.Map
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.HaloInfinite.Manifest.PlaylistLinks
+  parent: Grunt.Models.HaloInfinite.Manifest
+  isExternal: false
+  name: PlaylistLinks
+  nameWithType: Manifest.PlaylistLinks
+  fullName: Grunt.Models.HaloInfinite.Manifest.PlaylistLinks
+  type: property
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object[]
+  parent: System
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.HaloInfinite.Manifest.UgcGameVariantLinks
+  parent: Grunt.Models.HaloInfinite.Manifest
+  isExternal: false
+  name: UgcGameVariantLinks
+  nameWithType: Manifest.UgcGameVariantLinks
+  fullName: Grunt.Models.HaloInfinite.Manifest.UgcGameVariantLinks
+  type: property
+- uid: Grunt.Models.HaloInfinite.UGCGameVariant
+  name: UGCGameVariant
+  nameWithType: UGCGameVariant
+  fullName: Grunt.Models.HaloInfinite.UGCGameVariant
+- uid: Grunt.Models.HaloInfinite.UGCGameVariant[]
+  parent: Grunt.Models.HaloInfinite
+  name: UGCGameVariant[]
+  nameWithType: UGCGameVariant[]
+  fullName: Grunt.Models.HaloInfinite.UGCGameVariant[]
+  spec.csharp:
+  - uid: Grunt.Models.HaloInfinite.UGCGameVariant
+    name: UGCGameVariant
+    nameWithType: UGCGameVariant
+    fullName: Grunt.Models.HaloInfinite.UGCGameVariant
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.HaloInfinite.Manifest.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.Manifest.#ctor
+  parent: Grunt.Models.HaloInfinite.Manifest
+  isExternal: false
+  name: Manifest
+  nameWithType: Manifest.Manifest
+  fullName: Grunt.Models.HaloInfinite.Manifest.Manifest
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.Manifest.AssetStats*
+  commentId: Overload:Grunt.Models.HaloInfinite.Manifest.AssetStats
+  parent: Grunt.Models.HaloInfinite.Manifest
+  isExternal: false
+  name: AssetStats
+  nameWithType: Manifest.AssetStats
+  fullName: Grunt.Models.HaloInfinite.Manifest.AssetStats
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Manifest.CustomData*
+  commentId: Overload:Grunt.Models.HaloInfinite.Manifest.CustomData
+  parent: Grunt.Models.HaloInfinite.Manifest
+  isExternal: false
+  name: CustomData
+  nameWithType: Manifest.CustomData
+  fullName: Grunt.Models.HaloInfinite.Manifest.CustomData
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Manifest.EngineGameVariantLinks*
+  commentId: Overload:Grunt.Models.HaloInfinite.Manifest.EngineGameVariantLinks
+  parent: Grunt.Models.HaloInfinite.Manifest
+  isExternal: false
+  name: EngineGameVariantLinks
+  nameWithType: Manifest.EngineGameVariantLinks
+  fullName: Grunt.Models.HaloInfinite.Manifest.EngineGameVariantLinks
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Manifest.MapLinks*
+  commentId: Overload:Grunt.Models.HaloInfinite.Manifest.MapLinks
+  parent: Grunt.Models.HaloInfinite.Manifest
+  isExternal: false
+  name: MapLinks
+  nameWithType: Manifest.MapLinks
+  fullName: Grunt.Models.HaloInfinite.Manifest.MapLinks
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Manifest.PlaylistLinks*
+  commentId: Overload:Grunt.Models.HaloInfinite.Manifest.PlaylistLinks
+  parent: Grunt.Models.HaloInfinite.Manifest
+  isExternal: false
+  name: PlaylistLinks
+  nameWithType: Manifest.PlaylistLinks
+  fullName: Grunt.Models.HaloInfinite.Manifest.PlaylistLinks
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Manifest.UgcGameVariantLinks*
+  commentId: Overload:Grunt.Models.HaloInfinite.Manifest.UgcGameVariantLinks
+  parent: Grunt.Models.HaloInfinite.Manifest
+  isExternal: false
+  name: UgcGameVariantLinks
+  nameWithType: Manifest.UgcGameVariantLinks
+  fullName: Grunt.Models.HaloInfinite.Manifest.UgcGameVariantLinks
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetHome
+  nameWithType: Asset.AssetHome
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetId
+  nameWithType: Asset.AssetId
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetVersionId
+  nameWithType: Asset.AssetVersionId
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: CloneBehavior
+  nameWithType: Asset.CloneBehavior
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Contributors
+  nameWithType: Asset.Contributors
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Description
+  nameWithType: Asset.Description
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Files
+  nameWithType: Asset.Files
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: InspectionResult
+  nameWithType: Asset.InspectionResult
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: PublicName
+  nameWithType: Asset.PublicName
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Tags
+  nameWithType: Asset.Tags
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: VersionId
+  nameWithType: Asset.VersionId
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  type: property

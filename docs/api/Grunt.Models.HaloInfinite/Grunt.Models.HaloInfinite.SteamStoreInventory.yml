@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.SteamStoreInventory
+  commentId: T:Grunt.Models.HaloInfinite.SteamStoreInventory
+  id: SteamStoreInventory
+  children:
+  - Grunt.Models.HaloInfinite.SteamStoreInventory.#ctor
+  - Grunt.Models.HaloInfinite.SteamStoreInventory.TitleConfiguration
+  langs:
+  - csharp
+  name: SteamStoreInventory
+  nameWithType: Grunt.Models.HaloInfinite.SteamStoreInventory
+  fullName: Grunt.Models.HaloInfinite.SteamStoreInventory
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class SteamStoreInventory
+    content.csharp: public class SteamStoreInventory
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.SteamStoreInventory.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.SteamStoreInventory.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.SteamStoreInventory
+  langs:
+  - csharp
+  name: SteamStoreInventory()
+  nameWithType: SteamStoreInventory.SteamStoreInventory()
+  fullName: Grunt.Models.HaloInfinite.SteamStoreInventory.SteamStoreInventory()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public SteamStoreInventory ();
+    parameters: []
+    content.csharp: public SteamStoreInventory ();
+  overload: Grunt.Models.HaloInfinite.SteamStoreInventory.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.SteamStoreInventory.TitleConfiguration
+  commentId: P:Grunt.Models.HaloInfinite.SteamStoreInventory.TitleConfiguration
+  id: TitleConfiguration
+  parent: Grunt.Models.HaloInfinite.SteamStoreInventory
+  langs:
+  - csharp
+  name: TitleConfiguration
+  nameWithType: SteamStoreInventory.TitleConfiguration
+  fullName: Grunt.Models.HaloInfinite.SteamStoreInventory.TitleConfiguration
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration TitleConfiguration { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration TitleConfiguration { get; set; }
+  overload: Grunt.Models.HaloInfinite.SteamStoreInventory.TitleConfiguration*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.SteamStoreInventory.#ctor
+  parent: Grunt.Models.HaloInfinite.SteamStoreInventory
+  isExternal: false
+  name: SteamStoreInventory()
+  nameWithType: SteamStoreInventory.SteamStoreInventory()
+  fullName: Grunt.Models.HaloInfinite.SteamStoreInventory.SteamStoreInventory()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.SteamStoreInventory.TitleConfiguration
+  parent: Grunt.Models.HaloInfinite.SteamStoreInventory
+  isExternal: false
+  name: TitleConfiguration
+  nameWithType: SteamStoreInventory.TitleConfiguration
+  fullName: Grunt.Models.HaloInfinite.SteamStoreInventory.TitleConfiguration
+  type: property
+- uid: Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: SteamStoreTitleConfiguration
+  nameWithType: SteamStoreTitleConfiguration
+  fullName: Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+- uid: Grunt.Models.HaloInfinite.SteamStoreInventory.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.SteamStoreInventory.#ctor
+  parent: Grunt.Models.HaloInfinite.SteamStoreInventory
+  isExternal: false
+  name: SteamStoreInventory
+  nameWithType: SteamStoreInventory.SteamStoreInventory
+  fullName: Grunt.Models.HaloInfinite.SteamStoreInventory.SteamStoreInventory
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.SteamStoreInventory.TitleConfiguration*
+  commentId: Overload:Grunt.Models.HaloInfinite.SteamStoreInventory.TitleConfiguration
+  parent: Grunt.Models.HaloInfinite.SteamStoreInventory
+  isExternal: false
+  name: TitleConfiguration
+  nameWithType: SteamStoreInventory.TitleConfiguration
+  fullName: Grunt.Models.HaloInfinite.SteamStoreInventory.TitleConfiguration
+  monikers:
+  - net6.0
+  type: property

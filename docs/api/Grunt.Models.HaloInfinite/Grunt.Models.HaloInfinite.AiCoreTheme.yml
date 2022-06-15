@@ -1,0 +1,221 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.AiCoreTheme
+  commentId: T:Grunt.Models.HaloInfinite.AiCoreTheme
+  id: AiCoreTheme
+  children:
+  - Grunt.Models.HaloInfinite.AiCoreTheme.#ctor
+  - Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath
+  - Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath
+  langs:
+  - csharp
+  name: AiCoreTheme
+  nameWithType: Grunt.Models.HaloInfinite.AiCoreTheme
+  fullName: Grunt.Models.HaloInfinite.AiCoreTheme
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: 'public class AiCoreTheme : Grunt.Models.HaloInfinite.Foundation.Theme'
+    content.csharp: 'public class AiCoreTheme : Grunt.Models.HaloInfinite.Foundation.Theme'
+  inheritance:
+  - System.Object
+  - Grunt.Models.HaloInfinite.Foundation.Theme
+  implements: []
+  inheritedMembers:
+  - Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  - Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  - Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  - Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  - Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.AiCoreTheme.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.AiCoreTheme.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.AiCoreTheme
+  langs:
+  - csharp
+  name: AiCoreTheme()
+  nameWithType: AiCoreTheme.AiCoreTheme()
+  fullName: Grunt.Models.HaloInfinite.AiCoreTheme.AiCoreTheme()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public AiCoreTheme ();
+    parameters: []
+    content.csharp: public AiCoreTheme ();
+  overload: Grunt.Models.HaloInfinite.AiCoreTheme.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath
+  commentId: P:Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath
+  id: ColorPath
+  parent: Grunt.Models.HaloInfinite.AiCoreTheme
+  langs:
+  - csharp
+  name: ColorPath
+  nameWithType: AiCoreTheme.ColorPath
+  fullName: Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ColorPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ColorPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath
+  commentId: P:Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath
+  id: ModelPath
+  parent: Grunt.Models.HaloInfinite.AiCoreTheme
+  langs:
+  - csharp
+  name: ModelPath
+  nameWithType: AiCoreTheme.ModelPath
+  fullName: Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ModelPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ModelPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme
+  parent: Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Theme
+  nameWithType: Theme
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme
+- uid: Grunt.Models.HaloInfinite.AiCoreTheme.#ctor
+  parent: Grunt.Models.HaloInfinite.AiCoreTheme
+  isExternal: false
+  name: AiCoreTheme()
+  nameWithType: AiCoreTheme.AiCoreTheme()
+  fullName: Grunt.Models.HaloInfinite.AiCoreTheme.AiCoreTheme()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath
+  parent: Grunt.Models.HaloInfinite.AiCoreTheme
+  isExternal: false
+  name: ColorPath
+  nameWithType: AiCoreTheme.ColorPath
+  fullName: Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath
+  parent: Grunt.Models.HaloInfinite.AiCoreTheme
+  isExternal: false
+  name: ModelPath
+  nameWithType: AiCoreTheme.ModelPath
+  fullName: Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.AiCoreTheme.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.AiCoreTheme.#ctor
+  parent: Grunt.Models.HaloInfinite.AiCoreTheme
+  isExternal: false
+  name: AiCoreTheme
+  nameWithType: AiCoreTheme.AiCoreTheme
+  fullName: Grunt.Models.HaloInfinite.AiCoreTheme.AiCoreTheme
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath
+  parent: Grunt.Models.HaloInfinite.AiCoreTheme
+  isExternal: false
+  name: ColorPath
+  nameWithType: AiCoreTheme.ColorPath
+  fullName: Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath
+  parent: Grunt.Models.HaloInfinite.AiCoreTheme
+  isExternal: false
+  name: ModelPath
+  nameWithType: AiCoreTheme.ModelPath
+  fullName: Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  parent: Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: FirstModifiedDateUtc
+  nameWithType: Theme.FirstModifiedDateUtc
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  parent: Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: IsDefault
+  nameWithType: Theme.IsDefault
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  parent: Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: IsEquipped
+  nameWithType: Theme.IsEquipped
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  parent: Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: Theme.LastModifiedDateUtc
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  parent: Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: ThemePath
+  nameWithType: Theme.ThemePath
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  type: property

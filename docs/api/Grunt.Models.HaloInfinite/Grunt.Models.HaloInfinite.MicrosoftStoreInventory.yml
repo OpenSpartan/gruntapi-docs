@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreInventory
+  commentId: T:Grunt.Models.HaloInfinite.MicrosoftStoreInventory
+  id: MicrosoftStoreInventory
+  children:
+  - Grunt.Models.HaloInfinite.MicrosoftStoreInventory.#ctor
+  - Grunt.Models.HaloInfinite.MicrosoftStoreInventory.TitleConfiguration
+  langs:
+  - csharp
+  name: MicrosoftStoreInventory
+  nameWithType: Grunt.Models.HaloInfinite.MicrosoftStoreInventory
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreInventory
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class MicrosoftStoreInventory
+    content.csharp: public class MicrosoftStoreInventory
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreInventory.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.MicrosoftStoreInventory.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.MicrosoftStoreInventory
+  langs:
+  - csharp
+  name: MicrosoftStoreInventory()
+  nameWithType: MicrosoftStoreInventory.MicrosoftStoreInventory()
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreInventory.MicrosoftStoreInventory()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public MicrosoftStoreInventory ();
+    parameters: []
+    content.csharp: public MicrosoftStoreInventory ();
+  overload: Grunt.Models.HaloInfinite.MicrosoftStoreInventory.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreInventory.TitleConfiguration
+  commentId: P:Grunt.Models.HaloInfinite.MicrosoftStoreInventory.TitleConfiguration
+  id: TitleConfiguration
+  parent: Grunt.Models.HaloInfinite.MicrosoftStoreInventory
+  langs:
+  - csharp
+  name: TitleConfiguration
+  nameWithType: MicrosoftStoreInventory.TitleConfiguration
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreInventory.TitleConfiguration
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration TitleConfiguration { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration TitleConfiguration { get; set; }
+  overload: Grunt.Models.HaloInfinite.MicrosoftStoreInventory.TitleConfiguration*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreInventory.#ctor
+  parent: Grunt.Models.HaloInfinite.MicrosoftStoreInventory
+  isExternal: false
+  name: MicrosoftStoreInventory()
+  nameWithType: MicrosoftStoreInventory.MicrosoftStoreInventory()
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreInventory.MicrosoftStoreInventory()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreInventory.TitleConfiguration
+  parent: Grunt.Models.HaloInfinite.MicrosoftStoreInventory
+  isExternal: false
+  name: TitleConfiguration
+  nameWithType: MicrosoftStoreInventory.TitleConfiguration
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreInventory.TitleConfiguration
+  type: property
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: MicrosoftStoreTitleConfiguration
+  nameWithType: MicrosoftStoreTitleConfiguration
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreInventory.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.MicrosoftStoreInventory.#ctor
+  parent: Grunt.Models.HaloInfinite.MicrosoftStoreInventory
+  isExternal: false
+  name: MicrosoftStoreInventory
+  nameWithType: MicrosoftStoreInventory.MicrosoftStoreInventory
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreInventory.MicrosoftStoreInventory
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreInventory.TitleConfiguration*
+  commentId: Overload:Grunt.Models.HaloInfinite.MicrosoftStoreInventory.TitleConfiguration
+  parent: Grunt.Models.HaloInfinite.MicrosoftStoreInventory
+  isExternal: false
+  name: TitleConfiguration
+  nameWithType: MicrosoftStoreInventory.TitleConfiguration
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreInventory.TitleConfiguration
+  monikers:
+  - net6.0
+  type: property

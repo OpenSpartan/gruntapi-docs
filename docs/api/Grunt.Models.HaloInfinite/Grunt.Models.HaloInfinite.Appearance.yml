@@ -1,0 +1,417 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.Appearance
+  commentId: T:Grunt.Models.HaloInfinite.Appearance
+  id: Appearance
+  children:
+  - Grunt.Models.HaloInfinite.Appearance.#ctor
+  - Grunt.Models.HaloInfinite.Appearance.ActionPosePath
+  - Grunt.Models.HaloInfinite.Appearance.BackdropImagePath
+  - Grunt.Models.HaloInfinite.Appearance.Emblem
+  - Grunt.Models.HaloInfinite.Appearance.IntroEmotePath
+  - Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc
+  - Grunt.Models.HaloInfinite.Appearance.ServiceTag
+  - Grunt.Models.HaloInfinite.Appearance.StancePath
+  langs:
+  - csharp
+  name: Appearance
+  nameWithType: Grunt.Models.HaloInfinite.Appearance
+  fullName: Grunt.Models.HaloInfinite.Appearance
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class Appearance
+    content.csharp: public class Appearance
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.Appearance.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.Appearance.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.Appearance
+  langs:
+  - csharp
+  name: Appearance()
+  nameWithType: Appearance.Appearance()
+  fullName: Grunt.Models.HaloInfinite.Appearance.Appearance()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Appearance ();
+    parameters: []
+    content.csharp: public Appearance ();
+  overload: Grunt.Models.HaloInfinite.Appearance.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Appearance.ActionPosePath
+  commentId: P:Grunt.Models.HaloInfinite.Appearance.ActionPosePath
+  id: ActionPosePath
+  parent: Grunt.Models.HaloInfinite.Appearance
+  langs:
+  - csharp
+  name: ActionPosePath
+  nameWithType: Appearance.ActionPosePath
+  fullName: Grunt.Models.HaloInfinite.Appearance.ActionPosePath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ActionPosePath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ActionPosePath { get; set; }
+  overload: Grunt.Models.HaloInfinite.Appearance.ActionPosePath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Appearance.BackdropImagePath
+  commentId: P:Grunt.Models.HaloInfinite.Appearance.BackdropImagePath
+  id: BackdropImagePath
+  parent: Grunt.Models.HaloInfinite.Appearance
+  langs:
+  - csharp
+  name: BackdropImagePath
+  nameWithType: Appearance.BackdropImagePath
+  fullName: Grunt.Models.HaloInfinite.Appearance.BackdropImagePath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string BackdropImagePath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string BackdropImagePath { get; set; }
+  overload: Grunt.Models.HaloInfinite.Appearance.BackdropImagePath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Appearance.Emblem
+  commentId: P:Grunt.Models.HaloInfinite.Appearance.Emblem
+  id: Emblem
+  parent: Grunt.Models.HaloInfinite.Appearance
+  langs:
+  - csharp
+  name: Emblem
+  nameWithType: Appearance.Emblem
+  fullName: Grunt.Models.HaloInfinite.Appearance.Emblem
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.Emblem Emblem { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.Emblem
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.Emblem Emblem { get; set; }
+  overload: Grunt.Models.HaloInfinite.Appearance.Emblem*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Appearance.IntroEmotePath
+  commentId: P:Grunt.Models.HaloInfinite.Appearance.IntroEmotePath
+  id: IntroEmotePath
+  parent: Grunt.Models.HaloInfinite.Appearance
+  langs:
+  - csharp
+  name: IntroEmotePath
+  nameWithType: Appearance.IntroEmotePath
+  fullName: Grunt.Models.HaloInfinite.Appearance.IntroEmotePath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string IntroEmotePath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string IntroEmotePath { get; set; }
+  overload: Grunt.Models.HaloInfinite.Appearance.IntroEmotePath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc
+  commentId: P:Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc
+  id: LastModifiedDateUtc
+  parent: Grunt.Models.HaloInfinite.Appearance
+  langs:
+  - csharp
+  name: LastModifiedDateUtc
+  nameWithType: Appearance.LastModifiedDateUtc
+  fullName: Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.APIFormattedDate LastModifiedDateUtc { get; set; }
+    return:
+      type: Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public Grunt.Models.APIFormattedDate LastModifiedDateUtc { get; set; }
+  overload: Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Appearance.ServiceTag
+  commentId: P:Grunt.Models.HaloInfinite.Appearance.ServiceTag
+  id: ServiceTag
+  parent: Grunt.Models.HaloInfinite.Appearance
+  langs:
+  - csharp
+  name: ServiceTag
+  nameWithType: Appearance.ServiceTag
+  fullName: Grunt.Models.HaloInfinite.Appearance.ServiceTag
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ServiceTag { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ServiceTag { get; set; }
+  overload: Grunt.Models.HaloInfinite.Appearance.ServiceTag*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Appearance.StancePath
+  commentId: P:Grunt.Models.HaloInfinite.Appearance.StancePath
+  id: StancePath
+  parent: Grunt.Models.HaloInfinite.Appearance
+  langs:
+  - csharp
+  name: StancePath
+  nameWithType: Appearance.StancePath
+  fullName: Grunt.Models.HaloInfinite.Appearance.StancePath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string StancePath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string StancePath { get; set; }
+  overload: Grunt.Models.HaloInfinite.Appearance.StancePath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.Appearance.#ctor
+  parent: Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: Appearance()
+  nameWithType: Appearance.Appearance()
+  fullName: Grunt.Models.HaloInfinite.Appearance.Appearance()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.Appearance.ActionPosePath
+  parent: Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: ActionPosePath
+  nameWithType: Appearance.ActionPosePath
+  fullName: Grunt.Models.HaloInfinite.Appearance.ActionPosePath
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.Appearance.BackdropImagePath
+  parent: Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: BackdropImagePath
+  nameWithType: Appearance.BackdropImagePath
+  fullName: Grunt.Models.HaloInfinite.Appearance.BackdropImagePath
+  type: property
+- uid: Grunt.Models.HaloInfinite.Appearance.Emblem
+  parent: Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: Emblem
+  nameWithType: Appearance.Emblem
+  fullName: Grunt.Models.HaloInfinite.Appearance.Emblem
+  type: property
+- uid: Grunt.Models.HaloInfinite.Emblem
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Emblem
+  nameWithType: Emblem
+  fullName: Grunt.Models.HaloInfinite.Emblem
+- uid: Grunt.Models.HaloInfinite.Appearance.IntroEmotePath
+  parent: Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: IntroEmotePath
+  nameWithType: Appearance.IntroEmotePath
+  fullName: Grunt.Models.HaloInfinite.Appearance.IntroEmotePath
+  type: property
+- uid: Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc
+  parent: Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: Appearance.LastModifiedDateUtc
+  fullName: Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc
+  type: property
+- uid: Grunt.Models.APIFormattedDate
+  parent: Grunt.Models
+  isExternal: false
+  name: APIFormattedDate
+  nameWithType: APIFormattedDate
+  fullName: Grunt.Models.APIFormattedDate
+- uid: Grunt.Models.HaloInfinite.Appearance.ServiceTag
+  parent: Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: ServiceTag
+  nameWithType: Appearance.ServiceTag
+  fullName: Grunt.Models.HaloInfinite.Appearance.ServiceTag
+  type: property
+- uid: Grunt.Models.HaloInfinite.Appearance.StancePath
+  parent: Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: StancePath
+  nameWithType: Appearance.StancePath
+  fullName: Grunt.Models.HaloInfinite.Appearance.StancePath
+  type: property
+- uid: Grunt.Models.HaloInfinite.Appearance.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.Appearance.#ctor
+  parent: Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: Appearance
+  nameWithType: Appearance.Appearance
+  fullName: Grunt.Models.HaloInfinite.Appearance.Appearance
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.Appearance.ActionPosePath*
+  commentId: Overload:Grunt.Models.HaloInfinite.Appearance.ActionPosePath
+  parent: Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: ActionPosePath
+  nameWithType: Appearance.ActionPosePath
+  fullName: Grunt.Models.HaloInfinite.Appearance.ActionPosePath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Appearance.BackdropImagePath*
+  commentId: Overload:Grunt.Models.HaloInfinite.Appearance.BackdropImagePath
+  parent: Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: BackdropImagePath
+  nameWithType: Appearance.BackdropImagePath
+  fullName: Grunt.Models.HaloInfinite.Appearance.BackdropImagePath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Appearance.Emblem*
+  commentId: Overload:Grunt.Models.HaloInfinite.Appearance.Emblem
+  parent: Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: Emblem
+  nameWithType: Appearance.Emblem
+  fullName: Grunt.Models.HaloInfinite.Appearance.Emblem
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Appearance.IntroEmotePath*
+  commentId: Overload:Grunt.Models.HaloInfinite.Appearance.IntroEmotePath
+  parent: Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: IntroEmotePath
+  nameWithType: Appearance.IntroEmotePath
+  fullName: Grunt.Models.HaloInfinite.Appearance.IntroEmotePath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc*
+  commentId: Overload:Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc
+  parent: Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: Appearance.LastModifiedDateUtc
+  fullName: Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Appearance.ServiceTag*
+  commentId: Overload:Grunt.Models.HaloInfinite.Appearance.ServiceTag
+  parent: Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: ServiceTag
+  nameWithType: Appearance.ServiceTag
+  fullName: Grunt.Models.HaloInfinite.Appearance.ServiceTag
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Appearance.StancePath*
+  commentId: Overload:Grunt.Models.HaloInfinite.Appearance.StancePath
+  parent: Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: StancePath
+  nameWithType: Appearance.StancePath
+  fullName: Grunt.Models.HaloInfinite.Appearance.StancePath
+  monikers:
+  - net6.0
+  type: property

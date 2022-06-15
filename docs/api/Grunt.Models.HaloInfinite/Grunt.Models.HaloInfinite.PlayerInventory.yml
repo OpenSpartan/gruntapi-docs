@@ -1,0 +1,146 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.PlayerInventory
+  commentId: T:Grunt.Models.HaloInfinite.PlayerInventory
+  id: PlayerInventory
+  children:
+  - Grunt.Models.HaloInfinite.PlayerInventory.#ctor
+  - Grunt.Models.HaloInfinite.PlayerInventory.Items
+  langs:
+  - csharp
+  name: PlayerInventory
+  nameWithType: Grunt.Models.HaloInfinite.PlayerInventory
+  fullName: Grunt.Models.HaloInfinite.PlayerInventory
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class PlayerInventory
+    content.csharp: public class PlayerInventory
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.PlayerInventory.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.PlayerInventory.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.PlayerInventory
+  langs:
+  - csharp
+  name: PlayerInventory()
+  nameWithType: PlayerInventory.PlayerInventory()
+  fullName: Grunt.Models.HaloInfinite.PlayerInventory.PlayerInventory()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public PlayerInventory ();
+    parameters: []
+    content.csharp: public PlayerInventory ();
+  overload: Grunt.Models.HaloInfinite.PlayerInventory.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.PlayerInventory.Items
+  commentId: P:Grunt.Models.HaloInfinite.PlayerInventory.Items
+  id: Items
+  parent: Grunt.Models.HaloInfinite.PlayerInventory
+  langs:
+  - csharp
+  name: Items
+  nameWithType: PlayerInventory.Items
+  fullName: Grunt.Models.HaloInfinite.PlayerInventory.Items
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.PlayerItem[] Items { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.PlayerItem[]
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.PlayerItem[] Items { get; set; }
+  overload: Grunt.Models.HaloInfinite.PlayerInventory.Items*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.PlayerInventory.#ctor
+  parent: Grunt.Models.HaloInfinite.PlayerInventory
+  isExternal: false
+  name: PlayerInventory()
+  nameWithType: PlayerInventory.PlayerInventory()
+  fullName: Grunt.Models.HaloInfinite.PlayerInventory.PlayerInventory()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.PlayerInventory.Items
+  parent: Grunt.Models.HaloInfinite.PlayerInventory
+  isExternal: false
+  name: Items
+  nameWithType: PlayerInventory.Items
+  fullName: Grunt.Models.HaloInfinite.PlayerInventory.Items
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlayerItem
+  name: PlayerItem
+  nameWithType: PlayerItem
+  fullName: Grunt.Models.HaloInfinite.PlayerItem
+- uid: Grunt.Models.HaloInfinite.PlayerItem[]
+  parent: Grunt.Models.HaloInfinite
+  name: PlayerItem[]
+  nameWithType: PlayerItem[]
+  fullName: Grunt.Models.HaloInfinite.PlayerItem[]
+  spec.csharp:
+  - uid: Grunt.Models.HaloInfinite.PlayerItem
+    name: PlayerItem
+    nameWithType: PlayerItem
+    fullName: Grunt.Models.HaloInfinite.PlayerItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.HaloInfinite.PlayerInventory.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlayerInventory.#ctor
+  parent: Grunt.Models.HaloInfinite.PlayerInventory
+  isExternal: false
+  name: PlayerInventory
+  nameWithType: PlayerInventory.PlayerInventory
+  fullName: Grunt.Models.HaloInfinite.PlayerInventory.PlayerInventory
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.PlayerInventory.Items*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlayerInventory.Items
+  parent: Grunt.Models.HaloInfinite.PlayerInventory
+  isExternal: false
+  name: Items
+  nameWithType: PlayerInventory.Items
+  fullName: Grunt.Models.HaloInfinite.PlayerInventory.Items
+  monikers:
+  - net6.0
+  type: property

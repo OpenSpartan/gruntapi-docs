@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.IntelPreset
+  commentId: T:Grunt.Models.HaloInfinite.IntelPreset
+  id: IntelPreset
+  children:
+  - Grunt.Models.HaloInfinite.IntelPreset.#ctor
+  langs:
+  - csharp
+  name: IntelPreset
+  nameWithType: Grunt.Models.HaloInfinite.IntelPreset
+  fullName: Grunt.Models.HaloInfinite.IntelPreset
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class IntelPreset
+    content.csharp: public class IntelPreset
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.IntelPreset.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.IntelPreset.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.IntelPreset
+  langs:
+  - csharp
+  name: IntelPreset()
+  nameWithType: IntelPreset.IntelPreset()
+  fullName: Grunt.Models.HaloInfinite.IntelPreset.IntelPreset()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public IntelPreset ();
+    parameters: []
+    content.csharp: public IntelPreset ();
+  overload: Grunt.Models.HaloInfinite.IntelPreset.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.IntelPreset.#ctor
+  parent: Grunt.Models.HaloInfinite.IntelPreset
+  isExternal: false
+  name: IntelPreset()
+  nameWithType: IntelPreset.IntelPreset()
+  fullName: Grunt.Models.HaloInfinite.IntelPreset.IntelPreset()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.IntelPreset.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.IntelPreset.#ctor
+  parent: Grunt.Models.HaloInfinite.IntelPreset
+  isExternal: false
+  name: IntelPreset
+  nameWithType: IntelPreset.IntelPreset
+  fullName: Grunt.Models.HaloInfinite.IntelPreset.IntelPreset
+  monikers:
+  - net6.0
+  type: constructor

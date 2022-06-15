@@ -1,0 +1,461 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.XboxXui
+  commentId: T:Grunt.Models.XboxXui
+  id: XboxXui
+  children:
+  - Grunt.Models.XboxXui.#ctor
+  - Grunt.Models.XboxXui.Agg
+  - Grunt.Models.XboxXui.Gtg
+  - Grunt.Models.XboxXui.Prv
+  - Grunt.Models.XboxXui.Uhs
+  - Grunt.Models.XboxXui.Usr
+  - Grunt.Models.XboxXui.Utr
+  - Grunt.Models.XboxXui.Xid
+  langs:
+  - csharp
+  name: XboxXui
+  nameWithType: Grunt.Models.XboxXui
+  fullName: Grunt.Models.XboxXui
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: public class XboxXui
+    content.csharp: public class XboxXui
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.XboxXui.#ctor
+  commentId: M:Grunt.Models.XboxXui.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.XboxXui
+  langs:
+  - csharp
+  name: XboxXui()
+  nameWithType: XboxXui.XboxXui()
+  fullName: Grunt.Models.XboxXui.XboxXui()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: public XboxXui ();
+    parameters: []
+    content.csharp: public XboxXui ();
+  overload: Grunt.Models.XboxXui.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.XboxXui.Agg
+  commentId: P:Grunt.Models.XboxXui.Agg
+  id: Agg
+  parent: Grunt.Models.XboxXui
+  langs:
+  - csharp
+  name: Agg
+  nameWithType: XboxXui.Agg
+  fullName: Grunt.Models.XboxXui.Agg
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: >-
+      [[Newtonsoft.Json.JsonProperty("agg")]]
+
+      public string Agg { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[Newtonsoft.Json.JsonProperty("agg")]]
+
+      public string Agg { get; set; }
+  overload: Grunt.Models.XboxXui.Agg*
+  exceptions: []
+  attributes:
+  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.XboxXui.Gtg
+  commentId: P:Grunt.Models.XboxXui.Gtg
+  id: Gtg
+  parent: Grunt.Models.XboxXui
+  langs:
+  - csharp
+  name: Gtg
+  nameWithType: XboxXui.Gtg
+  fullName: Grunt.Models.XboxXui.Gtg
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: >-
+      [[Newtonsoft.Json.JsonProperty("gtg")]]
+
+      public string Gtg { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[Newtonsoft.Json.JsonProperty("gtg")]]
+
+      public string Gtg { get; set; }
+  overload: Grunt.Models.XboxXui.Gtg*
+  exceptions: []
+  attributes:
+  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.XboxXui.Prv
+  commentId: P:Grunt.Models.XboxXui.Prv
+  id: Prv
+  parent: Grunt.Models.XboxXui
+  langs:
+  - csharp
+  name: Prv
+  nameWithType: XboxXui.Prv
+  fullName: Grunt.Models.XboxXui.Prv
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: >-
+      [[Newtonsoft.Json.JsonProperty("prv")]]
+
+      public string Prv { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[Newtonsoft.Json.JsonProperty("prv")]]
+
+      public string Prv { get; set; }
+  overload: Grunt.Models.XboxXui.Prv*
+  exceptions: []
+  attributes:
+  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.XboxXui.Uhs
+  commentId: P:Grunt.Models.XboxXui.Uhs
+  id: Uhs
+  parent: Grunt.Models.XboxXui
+  langs:
+  - csharp
+  name: Uhs
+  nameWithType: XboxXui.Uhs
+  fullName: Grunt.Models.XboxXui.Uhs
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: >-
+      [[Newtonsoft.Json.JsonProperty("uhs")]]
+
+      public string Uhs { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[Newtonsoft.Json.JsonProperty("uhs")]]
+
+      public string Uhs { get; set; }
+  overload: Grunt.Models.XboxXui.Uhs*
+  exceptions: []
+  attributes:
+  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.XboxXui.Usr
+  commentId: P:Grunt.Models.XboxXui.Usr
+  id: Usr
+  parent: Grunt.Models.XboxXui
+  langs:
+  - csharp
+  name: Usr
+  nameWithType: XboxXui.Usr
+  fullName: Grunt.Models.XboxXui.Usr
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: >-
+      [[Newtonsoft.Json.JsonProperty("usr")]]
+
+      public string Usr { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[Newtonsoft.Json.JsonProperty("usr")]]
+
+      public string Usr { get; set; }
+  overload: Grunt.Models.XboxXui.Usr*
+  exceptions: []
+  attributes:
+  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.XboxXui.Utr
+  commentId: P:Grunt.Models.XboxXui.Utr
+  id: Utr
+  parent: Grunt.Models.XboxXui
+  langs:
+  - csharp
+  name: Utr
+  nameWithType: XboxXui.Utr
+  fullName: Grunt.Models.XboxXui.Utr
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: >-
+      [[Newtonsoft.Json.JsonProperty("utr")]]
+
+      public string Utr { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[Newtonsoft.Json.JsonProperty("utr")]]
+
+      public string Utr { get; set; }
+  overload: Grunt.Models.XboxXui.Utr*
+  exceptions: []
+  attributes:
+  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.XboxXui.Xid
+  commentId: P:Grunt.Models.XboxXui.Xid
+  id: Xid
+  parent: Grunt.Models.XboxXui
+  langs:
+  - csharp
+  name: Xid
+  nameWithType: XboxXui.Xid
+  fullName: Grunt.Models.XboxXui.Xid
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: >-
+      [[Newtonsoft.Json.JsonProperty("xid")]]
+
+      public string Xid { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[Newtonsoft.Json.JsonProperty("xid")]]
+
+      public string Xid { get; set; }
+  overload: Grunt.Models.XboxXui.Xid*
+  exceptions: []
+  attributes:
+  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models
+  commentId: N:Grunt.Models
+  isExternal: false
+  name: Grunt.Models
+  nameWithType: Grunt.Models
+  fullName: Grunt.Models
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.XboxXui.#ctor
+  parent: Grunt.Models.XboxXui
+  isExternal: false
+  name: XboxXui()
+  nameWithType: XboxXui.XboxXui()
+  fullName: Grunt.Models.XboxXui.XboxXui()
+  type: constructor
+- uid: Grunt.Models.XboxXui.Agg
+  parent: Grunt.Models.XboxXui
+  isExternal: false
+  name: Agg
+  nameWithType: XboxXui.Agg
+  fullName: Grunt.Models.XboxXui.Agg
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.XboxXui.Gtg
+  parent: Grunt.Models.XboxXui
+  isExternal: false
+  name: Gtg
+  nameWithType: XboxXui.Gtg
+  fullName: Grunt.Models.XboxXui.Gtg
+  type: property
+- uid: Grunt.Models.XboxXui.Prv
+  parent: Grunt.Models.XboxXui
+  isExternal: false
+  name: Prv
+  nameWithType: XboxXui.Prv
+  fullName: Grunt.Models.XboxXui.Prv
+  type: property
+- uid: Grunt.Models.XboxXui.Uhs
+  parent: Grunt.Models.XboxXui
+  isExternal: false
+  name: Uhs
+  nameWithType: XboxXui.Uhs
+  fullName: Grunt.Models.XboxXui.Uhs
+  type: property
+- uid: Grunt.Models.XboxXui.Usr
+  parent: Grunt.Models.XboxXui
+  isExternal: false
+  name: Usr
+  nameWithType: XboxXui.Usr
+  fullName: Grunt.Models.XboxXui.Usr
+  type: property
+- uid: Grunt.Models.XboxXui.Utr
+  parent: Grunt.Models.XboxXui
+  isExternal: false
+  name: Utr
+  nameWithType: XboxXui.Utr
+  fullName: Grunt.Models.XboxXui.Utr
+  type: property
+- uid: Grunt.Models.XboxXui.Xid
+  parent: Grunt.Models.XboxXui
+  isExternal: false
+  name: Xid
+  nameWithType: XboxXui.Xid
+  fullName: Grunt.Models.XboxXui.Xid
+  type: property
+- uid: Grunt.Models.XboxXui.#ctor*
+  commentId: Overload:Grunt.Models.XboxXui.#ctor
+  parent: Grunt.Models.XboxXui
+  isExternal: false
+  name: XboxXui
+  nameWithType: XboxXui.XboxXui
+  fullName: Grunt.Models.XboxXui.XboxXui
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.XboxXui.Agg*
+  commentId: Overload:Grunt.Models.XboxXui.Agg
+  parent: Grunt.Models.XboxXui
+  isExternal: false
+  name: Agg
+  nameWithType: XboxXui.Agg
+  fullName: Grunt.Models.XboxXui.Agg
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.XboxXui.Gtg*
+  commentId: Overload:Grunt.Models.XboxXui.Gtg
+  parent: Grunt.Models.XboxXui
+  isExternal: false
+  name: Gtg
+  nameWithType: XboxXui.Gtg
+  fullName: Grunt.Models.XboxXui.Gtg
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.XboxXui.Prv*
+  commentId: Overload:Grunt.Models.XboxXui.Prv
+  parent: Grunt.Models.XboxXui
+  isExternal: false
+  name: Prv
+  nameWithType: XboxXui.Prv
+  fullName: Grunt.Models.XboxXui.Prv
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.XboxXui.Uhs*
+  commentId: Overload:Grunt.Models.XboxXui.Uhs
+  parent: Grunt.Models.XboxXui
+  isExternal: false
+  name: Uhs
+  nameWithType: XboxXui.Uhs
+  fullName: Grunt.Models.XboxXui.Uhs
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.XboxXui.Usr*
+  commentId: Overload:Grunt.Models.XboxXui.Usr
+  parent: Grunt.Models.XboxXui
+  isExternal: false
+  name: Usr
+  nameWithType: XboxXui.Usr
+  fullName: Grunt.Models.XboxXui.Usr
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.XboxXui.Utr*
+  commentId: Overload:Grunt.Models.XboxXui.Utr
+  parent: Grunt.Models.XboxXui
+  isExternal: false
+  name: Utr
+  nameWithType: XboxXui.Utr
+  fullName: Grunt.Models.XboxXui.Utr
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.XboxXui.Xid*
+  commentId: Overload:Grunt.Models.XboxXui.Xid
+  parent: Grunt.Models.XboxXui
+  isExternal: false
+  name: Xid
+  nameWithType: XboxXui.Xid
+  fullName: Grunt.Models.XboxXui.Xid
+  monikers:
+  - net6.0
+  type: property

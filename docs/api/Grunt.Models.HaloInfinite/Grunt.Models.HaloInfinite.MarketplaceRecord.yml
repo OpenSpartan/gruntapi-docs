@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.MarketplaceRecord
+  commentId: T:Grunt.Models.HaloInfinite.MarketplaceRecord
+  id: MarketplaceRecord
+  children:
+  - Grunt.Models.HaloInfinite.MarketplaceRecord.#ctor
+  - Grunt.Models.HaloInfinite.MarketplaceRecord.MarketplaceSource
+  - Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastCheckedDate
+  - Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastConsumedDate
+  - Grunt.Models.HaloInfinite.MarketplaceRecord.WorkflowEntitiesLastCreatedDate
+  langs:
+  - csharp
+  name: MarketplaceRecord
+  nameWithType: Grunt.Models.HaloInfinite.MarketplaceRecord
+  fullName: Grunt.Models.HaloInfinite.MarketplaceRecord
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class MarketplaceRecord
+    content.csharp: public class MarketplaceRecord
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.MarketplaceRecord.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.MarketplaceRecord.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.MarketplaceRecord
+  langs:
+  - csharp
+  name: MarketplaceRecord()
+  nameWithType: MarketplaceRecord.MarketplaceRecord()
+  fullName: Grunt.Models.HaloInfinite.MarketplaceRecord.MarketplaceRecord()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public MarketplaceRecord ();
+    parameters: []
+    content.csharp: public MarketplaceRecord ();
+  overload: Grunt.Models.HaloInfinite.MarketplaceRecord.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.MarketplaceRecord.MarketplaceSource
+  commentId: P:Grunt.Models.HaloInfinite.MarketplaceRecord.MarketplaceSource
+  id: MarketplaceSource
+  parent: Grunt.Models.HaloInfinite.MarketplaceRecord
+  langs:
+  - csharp
+  name: MarketplaceSource
+  nameWithType: MarketplaceRecord.MarketplaceSource
+  fullName: Grunt.Models.HaloInfinite.MarketplaceRecord.MarketplaceSource
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string MarketplaceSource { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string MarketplaceSource { get; set; }
+  overload: Grunt.Models.HaloInfinite.MarketplaceRecord.MarketplaceSource*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastCheckedDate
+  commentId: P:Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastCheckedDate
+  id: ProductsLastCheckedDate
+  parent: Grunt.Models.HaloInfinite.MarketplaceRecord
+  langs:
+  - csharp
+  name: ProductsLastCheckedDate
+  nameWithType: MarketplaceRecord.ProductsLastCheckedDate
+  fullName: Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastCheckedDate
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.APIFormattedDate ProductsLastCheckedDate { get; set; }
+    return:
+      type: Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public Grunt.Models.APIFormattedDate ProductsLastCheckedDate { get; set; }
+  overload: Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastCheckedDate*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastConsumedDate
+  commentId: P:Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastConsumedDate
+  id: ProductsLastConsumedDate
+  parent: Grunt.Models.HaloInfinite.MarketplaceRecord
+  langs:
+  - csharp
+  name: ProductsLastConsumedDate
+  nameWithType: MarketplaceRecord.ProductsLastConsumedDate
+  fullName: Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastConsumedDate
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.APIFormattedDate ProductsLastConsumedDate { get; set; }
+    return:
+      type: Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public Grunt.Models.APIFormattedDate ProductsLastConsumedDate { get; set; }
+  overload: Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastConsumedDate*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.MarketplaceRecord.WorkflowEntitiesLastCreatedDate
+  commentId: P:Grunt.Models.HaloInfinite.MarketplaceRecord.WorkflowEntitiesLastCreatedDate
+  id: WorkflowEntitiesLastCreatedDate
+  parent: Grunt.Models.HaloInfinite.MarketplaceRecord
+  langs:
+  - csharp
+  name: WorkflowEntitiesLastCreatedDate
+  nameWithType: MarketplaceRecord.WorkflowEntitiesLastCreatedDate
+  fullName: Grunt.Models.HaloInfinite.MarketplaceRecord.WorkflowEntitiesLastCreatedDate
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.APIFormattedDate WorkflowEntitiesLastCreatedDate { get; set; }
+    return:
+      type: Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public Grunt.Models.APIFormattedDate WorkflowEntitiesLastCreatedDate { get; set; }
+  overload: Grunt.Models.HaloInfinite.MarketplaceRecord.WorkflowEntitiesLastCreatedDate*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.MarketplaceRecord.#ctor
+  parent: Grunt.Models.HaloInfinite.MarketplaceRecord
+  isExternal: false
+  name: MarketplaceRecord()
+  nameWithType: MarketplaceRecord.MarketplaceRecord()
+  fullName: Grunt.Models.HaloInfinite.MarketplaceRecord.MarketplaceRecord()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.MarketplaceRecord.MarketplaceSource
+  parent: Grunt.Models.HaloInfinite.MarketplaceRecord
+  isExternal: false
+  name: MarketplaceSource
+  nameWithType: MarketplaceRecord.MarketplaceSource
+  fullName: Grunt.Models.HaloInfinite.MarketplaceRecord.MarketplaceSource
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastCheckedDate
+  parent: Grunt.Models.HaloInfinite.MarketplaceRecord
+  isExternal: false
+  name: ProductsLastCheckedDate
+  nameWithType: MarketplaceRecord.ProductsLastCheckedDate
+  fullName: Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastCheckedDate
+  type: property
+- uid: Grunt.Models.APIFormattedDate
+  parent: Grunt.Models
+  isExternal: false
+  name: APIFormattedDate
+  nameWithType: APIFormattedDate
+  fullName: Grunt.Models.APIFormattedDate
+- uid: Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastConsumedDate
+  parent: Grunt.Models.HaloInfinite.MarketplaceRecord
+  isExternal: false
+  name: ProductsLastConsumedDate
+  nameWithType: MarketplaceRecord.ProductsLastConsumedDate
+  fullName: Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastConsumedDate
+  type: property
+- uid: Grunt.Models.HaloInfinite.MarketplaceRecord.WorkflowEntitiesLastCreatedDate
+  parent: Grunt.Models.HaloInfinite.MarketplaceRecord
+  isExternal: false
+  name: WorkflowEntitiesLastCreatedDate
+  nameWithType: MarketplaceRecord.WorkflowEntitiesLastCreatedDate
+  fullName: Grunt.Models.HaloInfinite.MarketplaceRecord.WorkflowEntitiesLastCreatedDate
+  type: property
+- uid: Grunt.Models.HaloInfinite.MarketplaceRecord.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.MarketplaceRecord.#ctor
+  parent: Grunt.Models.HaloInfinite.MarketplaceRecord
+  isExternal: false
+  name: MarketplaceRecord
+  nameWithType: MarketplaceRecord.MarketplaceRecord
+  fullName: Grunt.Models.HaloInfinite.MarketplaceRecord.MarketplaceRecord
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.MarketplaceRecord.MarketplaceSource*
+  commentId: Overload:Grunt.Models.HaloInfinite.MarketplaceRecord.MarketplaceSource
+  parent: Grunt.Models.HaloInfinite.MarketplaceRecord
+  isExternal: false
+  name: MarketplaceSource
+  nameWithType: MarketplaceRecord.MarketplaceSource
+  fullName: Grunt.Models.HaloInfinite.MarketplaceRecord.MarketplaceSource
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastCheckedDate*
+  commentId: Overload:Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastCheckedDate
+  parent: Grunt.Models.HaloInfinite.MarketplaceRecord
+  isExternal: false
+  name: ProductsLastCheckedDate
+  nameWithType: MarketplaceRecord.ProductsLastCheckedDate
+  fullName: Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastCheckedDate
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastConsumedDate*
+  commentId: Overload:Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastConsumedDate
+  parent: Grunt.Models.HaloInfinite.MarketplaceRecord
+  isExternal: false
+  name: ProductsLastConsumedDate
+  nameWithType: MarketplaceRecord.ProductsLastConsumedDate
+  fullName: Grunt.Models.HaloInfinite.MarketplaceRecord.ProductsLastConsumedDate
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.MarketplaceRecord.WorkflowEntitiesLastCreatedDate*
+  commentId: Overload:Grunt.Models.HaloInfinite.MarketplaceRecord.WorkflowEntitiesLastCreatedDate
+  parent: Grunt.Models.HaloInfinite.MarketplaceRecord
+  isExternal: false
+  name: WorkflowEntitiesLastCreatedDate
+  nameWithType: MarketplaceRecord.WorkflowEntitiesLastCreatedDate
+  fullName: Grunt.Models.HaloInfinite.MarketplaceRecord.WorkflowEntitiesLastCreatedDate
+  monikers:
+  - net6.0
+  type: property

@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Core
+  commentId: N:Grunt.Core
+  id: Grunt.Core
+  children:
+  - Grunt.Core.HaloInfiniteClient
+  langs:
+  - csharp
+  name: Grunt.Core
+  nameWithType: Grunt.Core
+  fullName: Grunt.Core
+  type: Namespace
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Core.HaloInfiniteClient
+  commentId: T:Grunt.Core.HaloInfiniteClient
+  parent: Grunt.Core
+  isExternal: false
+  name: HaloInfiniteClient
+  nameWithType: Grunt.Core.HaloInfiniteClient
+  fullName: Grunt.Core.HaloInfiniteClient
+  type: class

@@ -1,0 +1,33 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Authentication
+  commentId: N:Grunt.Authentication
+  id: Grunt.Authentication
+  children:
+  - Grunt.Authentication.HaloAuthenticationClient
+  - Grunt.Authentication.XboxAuthenticationManager
+  langs:
+  - csharp
+  name: Grunt.Authentication
+  nameWithType: Grunt.Authentication
+  fullName: Grunt.Authentication
+  type: Namespace
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Authentication.HaloAuthenticationClient
+  commentId: T:Grunt.Authentication.HaloAuthenticationClient
+  parent: Grunt.Authentication
+  isExternal: false
+  name: HaloAuthenticationClient
+  nameWithType: Grunt.Authentication.HaloAuthenticationClient
+  fullName: Grunt.Authentication.HaloAuthenticationClient
+  type: class
+- uid: Grunt.Authentication.XboxAuthenticationManager
+  commentId: T:Grunt.Authentication.XboxAuthenticationManager
+  parent: Grunt.Authentication
+  isExternal: false
+  name: XboxAuthenticationManager
+  nameWithType: Grunt.Authentication.XboxAuthenticationManager
+  fullName: Grunt.Authentication.XboxAuthenticationManager
+  type: class

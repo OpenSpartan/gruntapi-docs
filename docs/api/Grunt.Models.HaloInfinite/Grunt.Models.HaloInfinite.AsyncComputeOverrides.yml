@@ -1,0 +1,261 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  commentId: T:Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  id: AsyncComputeOverrides
+  children:
+  - Grunt.Models.HaloInfinite.AsyncComputeOverrides.#ctor
+  - Grunt.Models.HaloInfinite.AsyncComputeOverrides.AMD
+  - Grunt.Models.HaloInfinite.AsyncComputeOverrides.Intel
+  - Grunt.Models.HaloInfinite.AsyncComputeOverrides.Nvidia
+  langs:
+  - csharp
+  name: AsyncComputeOverrides
+  nameWithType: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  fullName: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class AsyncComputeOverrides
+    content.csharp: public class AsyncComputeOverrides
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.AsyncComputeOverrides.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.AsyncComputeOverrides.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  langs:
+  - csharp
+  name: AsyncComputeOverrides()
+  nameWithType: AsyncComputeOverrides.AsyncComputeOverrides()
+  fullName: Grunt.Models.HaloInfinite.AsyncComputeOverrides.AsyncComputeOverrides()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public AsyncComputeOverrides ();
+    parameters: []
+    content.csharp: public AsyncComputeOverrides ();
+  overload: Grunt.Models.HaloInfinite.AsyncComputeOverrides.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AsyncComputeOverrides.AMD
+  commentId: P:Grunt.Models.HaloInfinite.AsyncComputeOverrides.AMD
+  id: AMD
+  parent: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  langs:
+  - csharp
+  name: AMD
+  nameWithType: AsyncComputeOverrides.AMD
+  fullName: Grunt.Models.HaloInfinite.AsyncComputeOverrides.AMD
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.Dictionary<string,bool> AMD { get; set; }
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Boolean}
+      description: ''
+    content.csharp: public System.Collections.Generic.Dictionary<string,bool> AMD { get; set; }
+  overload: Grunt.Models.HaloInfinite.AsyncComputeOverrides.AMD*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AsyncComputeOverrides.Intel
+  commentId: P:Grunt.Models.HaloInfinite.AsyncComputeOverrides.Intel
+  id: Intel
+  parent: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  langs:
+  - csharp
+  name: Intel
+  nameWithType: AsyncComputeOverrides.Intel
+  fullName: Grunt.Models.HaloInfinite.AsyncComputeOverrides.Intel
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.Dictionary<string,bool> Intel { get; set; }
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Boolean}
+      description: ''
+    content.csharp: public System.Collections.Generic.Dictionary<string,bool> Intel { get; set; }
+  overload: Grunt.Models.HaloInfinite.AsyncComputeOverrides.Intel*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AsyncComputeOverrides.Nvidia
+  commentId: P:Grunt.Models.HaloInfinite.AsyncComputeOverrides.Nvidia
+  id: Nvidia
+  parent: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  langs:
+  - csharp
+  name: Nvidia
+  nameWithType: AsyncComputeOverrides.Nvidia
+  fullName: Grunt.Models.HaloInfinite.AsyncComputeOverrides.Nvidia
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.Dictionary<string,bool> Nvidia { get; set; }
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Boolean}
+      description: ''
+    content.csharp: public System.Collections.Generic.Dictionary<string,bool> Nvidia { get; set; }
+  overload: Grunt.Models.HaloInfinite.AsyncComputeOverrides.Nvidia*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.AsyncComputeOverrides.#ctor
+  parent: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  isExternal: false
+  name: AsyncComputeOverrides()
+  nameWithType: AsyncComputeOverrides.AsyncComputeOverrides()
+  fullName: Grunt.Models.HaloInfinite.AsyncComputeOverrides.AsyncComputeOverrides()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AsyncComputeOverrides.AMD
+  parent: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  isExternal: false
+  name: AMD
+  nameWithType: AsyncComputeOverrides.AMD
+  fullName: Grunt.Models.HaloInfinite.AsyncComputeOverrides.AMD
+  type: property
+- uid: System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary
+  nameWithType: Dictionary
+  fullName: System.Collections.Generic.Dictionary
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.Dictionary{System.String,System.Boolean}
+  parent: System.Collections.Generic
+  name: Dictionary<String,Boolean>
+  nameWithType: Dictionary<String,Boolean>
+  fullName: System.Collections.Generic.Dictionary<System.String,System.Boolean>
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.HaloInfinite.AsyncComputeOverrides.Intel
+  parent: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  isExternal: false
+  name: Intel
+  nameWithType: AsyncComputeOverrides.Intel
+  fullName: Grunt.Models.HaloInfinite.AsyncComputeOverrides.Intel
+  type: property
+- uid: Grunt.Models.HaloInfinite.AsyncComputeOverrides.Nvidia
+  parent: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  isExternal: false
+  name: Nvidia
+  nameWithType: AsyncComputeOverrides.Nvidia
+  fullName: Grunt.Models.HaloInfinite.AsyncComputeOverrides.Nvidia
+  type: property
+- uid: Grunt.Models.HaloInfinite.AsyncComputeOverrides.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.AsyncComputeOverrides.#ctor
+  parent: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  isExternal: false
+  name: AsyncComputeOverrides
+  nameWithType: AsyncComputeOverrides.AsyncComputeOverrides
+  fullName: Grunt.Models.HaloInfinite.AsyncComputeOverrides.AsyncComputeOverrides
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AsyncComputeOverrides.AMD*
+  commentId: Overload:Grunt.Models.HaloInfinite.AsyncComputeOverrides.AMD
+  parent: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  isExternal: false
+  name: AMD
+  nameWithType: AsyncComputeOverrides.AMD
+  fullName: Grunt.Models.HaloInfinite.AsyncComputeOverrides.AMD
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AsyncComputeOverrides.Intel*
+  commentId: Overload:Grunt.Models.HaloInfinite.AsyncComputeOverrides.Intel
+  parent: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  isExternal: false
+  name: Intel
+  nameWithType: AsyncComputeOverrides.Intel
+  fullName: Grunt.Models.HaloInfinite.AsyncComputeOverrides.Intel
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AsyncComputeOverrides.Nvidia*
+  commentId: Overload:Grunt.Models.HaloInfinite.AsyncComputeOverrides.Nvidia
+  parent: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  isExternal: false
+  name: Nvidia
+  nameWithType: AsyncComputeOverrides.Nvidia
+  fullName: Grunt.Models.HaloInfinite.AsyncComputeOverrides.Nvidia
+  monikers:
+  - net6.0
+  type: property

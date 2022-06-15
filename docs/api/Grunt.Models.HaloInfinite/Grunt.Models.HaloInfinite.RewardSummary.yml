@@ -1,0 +1,354 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.RewardSummary
+  commentId: T:Grunt.Models.HaloInfinite.RewardSummary
+  id: RewardSummary
+  children:
+  - Grunt.Models.HaloInfinite.RewardSummary.#ctor
+  - Grunt.Models.HaloInfinite.RewardSummary.AwardedRewards
+  - Grunt.Models.HaloInfinite.RewardSummary.GrantedCurrencies
+  - Grunt.Models.HaloInfinite.RewardSummary.GrantedItems
+  - Grunt.Models.HaloInfinite.RewardSummary.UpdatedRewardTracks
+  langs:
+  - csharp
+  name: RewardSummary
+  nameWithType: Grunt.Models.HaloInfinite.RewardSummary
+  fullName: Grunt.Models.HaloInfinite.RewardSummary
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class RewardSummary
+    content.csharp: public class RewardSummary
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.RewardSummary.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.RewardSummary.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.RewardSummary
+  langs:
+  - csharp
+  name: RewardSummary()
+  nameWithType: RewardSummary.RewardSummary()
+  fullName: Grunt.Models.HaloInfinite.RewardSummary.RewardSummary()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public RewardSummary ();
+    parameters: []
+    content.csharp: public RewardSummary ();
+  overload: Grunt.Models.HaloInfinite.RewardSummary.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.RewardSummary.AwardedRewards
+  commentId: P:Grunt.Models.HaloInfinite.RewardSummary.AwardedRewards
+  id: AwardedRewards
+  parent: Grunt.Models.HaloInfinite.RewardSummary
+  langs:
+  - csharp
+  name: AwardedRewards
+  nameWithType: RewardSummary.AwardedRewards
+  fullName: Grunt.Models.HaloInfinite.RewardSummary.AwardedRewards
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.AwardedReward> AwardedRewards { get; set; }
+    return:
+      type: System.Collections.Generic.List{Grunt.Models.HaloInfinite.AwardedReward}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.AwardedReward> AwardedRewards { get; set; }
+  overload: Grunt.Models.HaloInfinite.RewardSummary.AwardedRewards*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.RewardSummary.GrantedCurrencies
+  commentId: P:Grunt.Models.HaloInfinite.RewardSummary.GrantedCurrencies
+  id: GrantedCurrencies
+  parent: Grunt.Models.HaloInfinite.RewardSummary
+  langs:
+  - csharp
+  name: GrantedCurrencies
+  nameWithType: RewardSummary.GrantedCurrencies
+  fullName: Grunt.Models.HaloInfinite.RewardSummary.GrantedCurrencies
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.GrantedCurrency> GrantedCurrencies { get; set; }
+    return:
+      type: System.Collections.Generic.List{Grunt.Models.HaloInfinite.GrantedCurrency}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.GrantedCurrency> GrantedCurrencies { get; set; }
+  overload: Grunt.Models.HaloInfinite.RewardSummary.GrantedCurrencies*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.RewardSummary.GrantedItems
+  commentId: P:Grunt.Models.HaloInfinite.RewardSummary.GrantedItems
+  id: GrantedItems
+  parent: Grunt.Models.HaloInfinite.RewardSummary
+  langs:
+  - csharp
+  name: GrantedItems
+  nameWithType: RewardSummary.GrantedItems
+  fullName: Grunt.Models.HaloInfinite.RewardSummary.GrantedItems
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public object[] GrantedItems { get; set; }
+    return:
+      type: System.Object[]
+      description: ''
+    content.csharp: public object[] GrantedItems { get; set; }
+  overload: Grunt.Models.HaloInfinite.RewardSummary.GrantedItems*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.RewardSummary.UpdatedRewardTracks
+  commentId: P:Grunt.Models.HaloInfinite.RewardSummary.UpdatedRewardTracks
+  id: UpdatedRewardTracks
+  parent: Grunt.Models.HaloInfinite.RewardSummary
+  langs:
+  - csharp
+  name: UpdatedRewardTracks
+  nameWithType: RewardSummary.UpdatedRewardTracks
+  fullName: Grunt.Models.HaloInfinite.RewardSummary.UpdatedRewardTracks
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.RewardTrack> UpdatedRewardTracks { get; set; }
+    return:
+      type: System.Collections.Generic.List{Grunt.Models.HaloInfinite.RewardTrack}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.RewardTrack> UpdatedRewardTracks { get; set; }
+  overload: Grunt.Models.HaloInfinite.RewardSummary.UpdatedRewardTracks*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.RewardSummary.#ctor
+  parent: Grunt.Models.HaloInfinite.RewardSummary
+  isExternal: false
+  name: RewardSummary()
+  nameWithType: RewardSummary.RewardSummary()
+  fullName: Grunt.Models.HaloInfinite.RewardSummary.RewardSummary()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.RewardSummary.AwardedRewards
+  parent: Grunt.Models.HaloInfinite.RewardSummary
+  isExternal: false
+  name: AwardedRewards
+  nameWithType: RewardSummary.AwardedRewards
+  fullName: Grunt.Models.HaloInfinite.RewardSummary.AwardedRewards
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: Grunt.Models.HaloInfinite.AwardedReward
+  name: AwardedReward
+  nameWithType: AwardedReward
+  fullName: Grunt.Models.HaloInfinite.AwardedReward
+- uid: System.Collections.Generic.List{Grunt.Models.HaloInfinite.AwardedReward}
+  parent: System.Collections.Generic
+  name: List<AwardedReward>
+  nameWithType: List<AwardedReward>
+  fullName: System.Collections.Generic.List<Grunt.Models.HaloInfinite.AwardedReward>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Grunt.Models.HaloInfinite.AwardedReward
+    name: AwardedReward
+    nameWithType: AwardedReward
+    fullName: Grunt.Models.HaloInfinite.AwardedReward
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.HaloInfinite.RewardSummary.GrantedCurrencies
+  parent: Grunt.Models.HaloInfinite.RewardSummary
+  isExternal: false
+  name: GrantedCurrencies
+  nameWithType: RewardSummary.GrantedCurrencies
+  fullName: Grunt.Models.HaloInfinite.RewardSummary.GrantedCurrencies
+  type: property
+- uid: Grunt.Models.HaloInfinite.GrantedCurrency
+  name: GrantedCurrency
+  nameWithType: GrantedCurrency
+  fullName: Grunt.Models.HaloInfinite.GrantedCurrency
+- uid: System.Collections.Generic.List{Grunt.Models.HaloInfinite.GrantedCurrency}
+  parent: System.Collections.Generic
+  name: List<GrantedCurrency>
+  nameWithType: List<GrantedCurrency>
+  fullName: System.Collections.Generic.List<Grunt.Models.HaloInfinite.GrantedCurrency>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Grunt.Models.HaloInfinite.GrantedCurrency
+    name: GrantedCurrency
+    nameWithType: GrantedCurrency
+    fullName: Grunt.Models.HaloInfinite.GrantedCurrency
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.HaloInfinite.RewardSummary.GrantedItems
+  parent: Grunt.Models.HaloInfinite.RewardSummary
+  isExternal: false
+  name: GrantedItems
+  nameWithType: RewardSummary.GrantedItems
+  fullName: Grunt.Models.HaloInfinite.RewardSummary.GrantedItems
+  type: property
+- uid: System.Object[]
+  parent: System
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.HaloInfinite.RewardSummary.UpdatedRewardTracks
+  parent: Grunt.Models.HaloInfinite.RewardSummary
+  isExternal: false
+  name: UpdatedRewardTracks
+  nameWithType: RewardSummary.UpdatedRewardTracks
+  fullName: Grunt.Models.HaloInfinite.RewardSummary.UpdatedRewardTracks
+  type: property
+- uid: Grunt.Models.HaloInfinite.RewardTrack
+  name: RewardTrack
+  nameWithType: RewardTrack
+  fullName: Grunt.Models.HaloInfinite.RewardTrack
+- uid: System.Collections.Generic.List{Grunt.Models.HaloInfinite.RewardTrack}
+  parent: System.Collections.Generic
+  name: List<RewardTrack>
+  nameWithType: List<RewardTrack>
+  fullName: System.Collections.Generic.List<Grunt.Models.HaloInfinite.RewardTrack>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Grunt.Models.HaloInfinite.RewardTrack
+    name: RewardTrack
+    nameWithType: RewardTrack
+    fullName: Grunt.Models.HaloInfinite.RewardTrack
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.HaloInfinite.RewardSummary.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.RewardSummary.#ctor
+  parent: Grunt.Models.HaloInfinite.RewardSummary
+  isExternal: false
+  name: RewardSummary
+  nameWithType: RewardSummary.RewardSummary
+  fullName: Grunt.Models.HaloInfinite.RewardSummary.RewardSummary
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.RewardSummary.AwardedRewards*
+  commentId: Overload:Grunt.Models.HaloInfinite.RewardSummary.AwardedRewards
+  parent: Grunt.Models.HaloInfinite.RewardSummary
+  isExternal: false
+  name: AwardedRewards
+  nameWithType: RewardSummary.AwardedRewards
+  fullName: Grunt.Models.HaloInfinite.RewardSummary.AwardedRewards
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.RewardSummary.GrantedCurrencies*
+  commentId: Overload:Grunt.Models.HaloInfinite.RewardSummary.GrantedCurrencies
+  parent: Grunt.Models.HaloInfinite.RewardSummary
+  isExternal: false
+  name: GrantedCurrencies
+  nameWithType: RewardSummary.GrantedCurrencies
+  fullName: Grunt.Models.HaloInfinite.RewardSummary.GrantedCurrencies
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.RewardSummary.GrantedItems*
+  commentId: Overload:Grunt.Models.HaloInfinite.RewardSummary.GrantedItems
+  parent: Grunt.Models.HaloInfinite.RewardSummary
+  isExternal: false
+  name: GrantedItems
+  nameWithType: RewardSummary.GrantedItems
+  fullName: Grunt.Models.HaloInfinite.RewardSummary.GrantedItems
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.RewardSummary.UpdatedRewardTracks*
+  commentId: Overload:Grunt.Models.HaloInfinite.RewardSummary.UpdatedRewardTracks
+  parent: Grunt.Models.HaloInfinite.RewardSummary
+  isExternal: false
+  name: UpdatedRewardTracks
+  nameWithType: RewardSummary.UpdatedRewardTracks
+  fullName: Grunt.Models.HaloInfinite.RewardSummary.UpdatedRewardTracks
+  monikers:
+  - net6.0
+  type: property

@@ -1,0 +1,373 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  commentId: T:Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  id: ApiSettingsContainer
+  children:
+  - Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.#ctor
+  - Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Authorities
+  - Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Endpoints
+  - Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.RetryPolicies
+  - Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Settings
+  langs:
+  - csharp
+  name: ApiSettingsContainer
+  nameWithType: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public class ApiSettingsContainer
+    content.csharp: public class ApiSettingsContainer
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  langs:
+  - csharp
+  name: ApiSettingsContainer()
+  nameWithType: ApiSettingsContainer.ApiSettingsContainer()
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.ApiSettingsContainer()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public ApiSettingsContainer ();
+    parameters: []
+    content.csharp: public ApiSettingsContainer ();
+  overload: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Authorities
+  commentId: P:Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Authorities
+  id: Authorities
+  parent: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  langs:
+  - csharp
+  name: Authorities
+  nameWithType: ApiSettingsContainer.Authorities
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Authorities
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public System.Collections.Generic.Dictionary<string,Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority> Authorities { get; set; }
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority}
+      description: ''
+    content.csharp: public System.Collections.Generic.Dictionary<string,Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority> Authorities { get; set; }
+  overload: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Authorities*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Endpoints
+  commentId: P:Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Endpoints
+  id: Endpoints
+  parent: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  langs:
+  - csharp
+  name: Endpoints
+  nameWithType: ApiSettingsContainer.Endpoints
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Endpoints
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public System.Collections.Generic.Dictionary<string,Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint> Endpoints { get; set; }
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint}
+      description: ''
+    content.csharp: public System.Collections.Generic.Dictionary<string,Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint> Endpoints { get; set; }
+  overload: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Endpoints*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.RetryPolicies
+  commentId: P:Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.RetryPolicies
+  id: RetryPolicies
+  parent: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  langs:
+  - csharp
+  name: RetryPolicies
+  nameWithType: ApiSettingsContainer.RetryPolicies
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.RetryPolicies
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public System.Collections.Generic.Dictionary<string,Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy> RetryPolicies { get; set; }
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy}
+      description: ''
+    content.csharp: public System.Collections.Generic.Dictionary<string,Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy> RetryPolicies { get; set; }
+  overload: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.RetryPolicies*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Settings
+  commentId: P:Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Settings
+  id: Settings
+  parent: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  langs:
+  - csharp
+  name: Settings
+  nameWithType: ApiSettingsContainer.Settings
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Settings
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public Grunt.Models.HaloInfinite.ApiIngress.ApiSettings Settings { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.ApiIngress.ApiSettings Settings { get; set; }
+  overload: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Settings*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite.ApiIngress
+  commentId: N:Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: Grunt.Models.HaloInfinite.ApiIngress
+  nameWithType: Grunt.Models.HaloInfinite.ApiIngress
+  fullName: Grunt.Models.HaloInfinite.ApiIngress
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.#ctor
+  parent: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  isExternal: false
+  name: ApiSettingsContainer()
+  nameWithType: ApiSettingsContainer.ApiSettingsContainer()
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.ApiSettingsContainer()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Authorities
+  parent: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  isExternal: false
+  name: Authorities
+  nameWithType: ApiSettingsContainer.Authorities
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Authorities
+  type: property
+- uid: System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary
+  nameWithType: Dictionary
+  fullName: System.Collections.Generic.Dictionary
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  name: ApiAuthority
+  nameWithType: ApiAuthority
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+- uid: System.Collections.Generic.Dictionary{System.String,Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority}
+  parent: System.Collections.Generic
+  name: Dictionary<String,ApiAuthority>
+  nameWithType: Dictionary<String,ApiAuthority>
+  fullName: System.Collections.Generic.Dictionary<System.String,Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority>
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+    name: ApiAuthority
+    nameWithType: ApiAuthority
+    fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Endpoints
+  parent: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  isExternal: false
+  name: Endpoints
+  nameWithType: ApiSettingsContainer.Endpoints
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Endpoints
+  type: property
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  name: ApiEndpoint
+  nameWithType: ApiEndpoint
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+- uid: System.Collections.Generic.Dictionary{System.String,Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint}
+  parent: System.Collections.Generic
+  name: Dictionary<String,ApiEndpoint>
+  nameWithType: Dictionary<String,ApiEndpoint>
+  fullName: System.Collections.Generic.Dictionary<System.String,Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint>
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+    name: ApiEndpoint
+    nameWithType: ApiEndpoint
+    fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.RetryPolicies
+  parent: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  isExternal: false
+  name: RetryPolicies
+  nameWithType: ApiSettingsContainer.RetryPolicies
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.RetryPolicies
+  type: property
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
+  name: ApiRetryPolicy
+  nameWithType: ApiRetryPolicy
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
+- uid: System.Collections.Generic.Dictionary{System.String,Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy}
+  parent: System.Collections.Generic
+  name: Dictionary<String,ApiRetryPolicy>
+  nameWithType: Dictionary<String,ApiRetryPolicy>
+  fullName: System.Collections.Generic.Dictionary<System.String,Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy>
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
+    name: ApiRetryPolicy
+    nameWithType: ApiRetryPolicy
+    fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Settings
+  parent: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  isExternal: false
+  name: Settings
+  nameWithType: ApiSettingsContainer.Settings
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Settings
+  type: property
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  parent: Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: ApiSettings
+  nameWithType: ApiSettings
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.#ctor
+  parent: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  isExternal: false
+  name: ApiSettingsContainer
+  nameWithType: ApiSettingsContainer.ApiSettingsContainer
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.ApiSettingsContainer
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Authorities*
+  commentId: Overload:Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Authorities
+  parent: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  isExternal: false
+  name: Authorities
+  nameWithType: ApiSettingsContainer.Authorities
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Authorities
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Endpoints*
+  commentId: Overload:Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Endpoints
+  parent: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  isExternal: false
+  name: Endpoints
+  nameWithType: ApiSettingsContainer.Endpoints
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Endpoints
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.RetryPolicies*
+  commentId: Overload:Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.RetryPolicies
+  parent: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  isExternal: false
+  name: RetryPolicies
+  nameWithType: ApiSettingsContainer.RetryPolicies
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.RetryPolicies
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Settings*
+  commentId: Overload:Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Settings
+  parent: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  isExternal: false
+  name: Settings
+  nameWithType: ApiSettingsContainer.Settings
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer.Settings
+  monikers:
+  - net6.0
+  type: property

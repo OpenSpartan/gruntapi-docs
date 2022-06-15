@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.Manufacturer
+  commentId: T:Grunt.Models.HaloInfinite.Manufacturer
+  id: Manufacturer
+  children:
+  - Grunt.Models.HaloInfinite.Manufacturer.#ctor
+  - Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage
+  - Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName
+  langs:
+  - csharp
+  name: Manufacturer
+  nameWithType: Grunt.Models.HaloInfinite.Manufacturer
+  fullName: Grunt.Models.HaloInfinite.Manufacturer
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class Manufacturer
+    content.csharp: public class Manufacturer
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.Manufacturer.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.Manufacturer.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.Manufacturer
+  langs:
+  - csharp
+  name: Manufacturer()
+  nameWithType: Manufacturer.Manufacturer()
+  fullName: Grunt.Models.HaloInfinite.Manufacturer.Manufacturer()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Manufacturer ();
+    parameters: []
+    content.csharp: public Manufacturer ();
+  overload: Grunt.Models.HaloInfinite.Manufacturer.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage
+  commentId: P:Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage
+  id: ManufacturerLogoImage
+  parent: Grunt.Models.HaloInfinite.Manufacturer
+  langs:
+  - csharp
+  name: ManufacturerLogoImage
+  nameWithType: Manufacturer.ManufacturerLogoImage
+  fullName: Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ManufacturerLogoImage { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ManufacturerLogoImage { get; set; }
+  overload: Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName
+  commentId: P:Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName
+  id: ManufacturerName
+  parent: Grunt.Models.HaloInfinite.Manufacturer
+  langs:
+  - csharp
+  name: ManufacturerName
+  nameWithType: Manufacturer.ManufacturerName
+  fullName: Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.DisplayString ManufacturerName { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.DisplayString ManufacturerName { get; set; }
+  overload: Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.Manufacturer.#ctor
+  parent: Grunt.Models.HaloInfinite.Manufacturer
+  isExternal: false
+  name: Manufacturer()
+  nameWithType: Manufacturer.Manufacturer()
+  fullName: Grunt.Models.HaloInfinite.Manufacturer.Manufacturer()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage
+  parent: Grunt.Models.HaloInfinite.Manufacturer
+  isExternal: false
+  name: ManufacturerLogoImage
+  nameWithType: Manufacturer.ManufacturerLogoImage
+  fullName: Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName
+  parent: Grunt.Models.HaloInfinite.Manufacturer
+  isExternal: false
+  name: ManufacturerName
+  nameWithType: Manufacturer.ManufacturerName
+  fullName: Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName
+  type: property
+- uid: Grunt.Models.HaloInfinite.DisplayString
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: DisplayString
+  nameWithType: DisplayString
+  fullName: Grunt.Models.HaloInfinite.DisplayString
+- uid: Grunt.Models.HaloInfinite.Manufacturer.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.Manufacturer.#ctor
+  parent: Grunt.Models.HaloInfinite.Manufacturer
+  isExternal: false
+  name: Manufacturer
+  nameWithType: Manufacturer.Manufacturer
+  fullName: Grunt.Models.HaloInfinite.Manufacturer.Manufacturer
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage*
+  commentId: Overload:Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage
+  parent: Grunt.Models.HaloInfinite.Manufacturer
+  isExternal: false
+  name: ManufacturerLogoImage
+  nameWithType: Manufacturer.ManufacturerLogoImage
+  fullName: Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName*
+  commentId: Overload:Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName
+  parent: Grunt.Models.HaloInfinite.Manufacturer
+  isExternal: false
+  name: ManufacturerName
+  nameWithType: Manufacturer.ManufacturerName
+  fullName: Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName
+  monikers:
+  - net6.0
+  type: property

@@ -1,0 +1,197 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.AcademyCategory
+  commentId: T:Grunt.Models.HaloInfinite.AcademyCategory
+  id: AcademyCategory
+  children:
+  - Grunt.Models.HaloInfinite.AcademyCategory.#ctor
+  - Grunt.Models.HaloInfinite.AcademyCategory.Drills
+  - Grunt.Models.HaloInfinite.AcademyCategory.DrillType
+  langs:
+  - csharp
+  name: AcademyCategory
+  nameWithType: Grunt.Models.HaloInfinite.AcademyCategory
+  fullName: Grunt.Models.HaloInfinite.AcademyCategory
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class AcademyCategory
+    content.csharp: public class AcademyCategory
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.AcademyCategory.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.AcademyCategory.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.AcademyCategory
+  langs:
+  - csharp
+  name: AcademyCategory()
+  nameWithType: AcademyCategory.AcademyCategory()
+  fullName: Grunt.Models.HaloInfinite.AcademyCategory.AcademyCategory()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public AcademyCategory ();
+    parameters: []
+    content.csharp: public AcademyCategory ();
+  overload: Grunt.Models.HaloInfinite.AcademyCategory.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AcademyCategory.Drills
+  commentId: P:Grunt.Models.HaloInfinite.AcademyCategory.Drills
+  id: Drills
+  parent: Grunt.Models.HaloInfinite.AcademyCategory
+  langs:
+  - csharp
+  name: Drills
+  nameWithType: AcademyCategory.Drills
+  fullName: Grunt.Models.HaloInfinite.AcademyCategory.Drills
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.AcademyDrill[] Drills { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.AcademyDrill[]
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.AcademyDrill[] Drills { get; set; }
+  overload: Grunt.Models.HaloInfinite.AcademyCategory.Drills*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AcademyCategory.DrillType
+  commentId: P:Grunt.Models.HaloInfinite.AcademyCategory.DrillType
+  id: DrillType
+  parent: Grunt.Models.HaloInfinite.AcademyCategory
+  langs:
+  - csharp
+  name: DrillType
+  nameWithType: AcademyCategory.DrillType
+  fullName: Grunt.Models.HaloInfinite.AcademyCategory.DrillType
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string DrillType { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string DrillType { get; set; }
+  overload: Grunt.Models.HaloInfinite.AcademyCategory.DrillType*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.AcademyCategory.#ctor
+  parent: Grunt.Models.HaloInfinite.AcademyCategory
+  isExternal: false
+  name: AcademyCategory()
+  nameWithType: AcademyCategory.AcademyCategory()
+  fullName: Grunt.Models.HaloInfinite.AcademyCategory.AcademyCategory()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AcademyCategory.Drills
+  parent: Grunt.Models.HaloInfinite.AcademyCategory
+  isExternal: false
+  name: Drills
+  nameWithType: AcademyCategory.Drills
+  fullName: Grunt.Models.HaloInfinite.AcademyCategory.Drills
+  type: property
+- uid: Grunt.Models.HaloInfinite.AcademyDrill
+  name: AcademyDrill
+  nameWithType: AcademyDrill
+  fullName: Grunt.Models.HaloInfinite.AcademyDrill
+- uid: Grunt.Models.HaloInfinite.AcademyDrill[]
+  parent: Grunt.Models.HaloInfinite
+  name: AcademyDrill[]
+  nameWithType: AcademyDrill[]
+  fullName: Grunt.Models.HaloInfinite.AcademyDrill[]
+  spec.csharp:
+  - uid: Grunt.Models.HaloInfinite.AcademyDrill
+    name: AcademyDrill
+    nameWithType: AcademyDrill
+    fullName: Grunt.Models.HaloInfinite.AcademyDrill
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.HaloInfinite.AcademyCategory.DrillType
+  parent: Grunt.Models.HaloInfinite.AcademyCategory
+  isExternal: false
+  name: DrillType
+  nameWithType: AcademyCategory.DrillType
+  fullName: Grunt.Models.HaloInfinite.AcademyCategory.DrillType
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.AcademyCategory.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.AcademyCategory.#ctor
+  parent: Grunt.Models.HaloInfinite.AcademyCategory
+  isExternal: false
+  name: AcademyCategory
+  nameWithType: AcademyCategory.AcademyCategory
+  fullName: Grunt.Models.HaloInfinite.AcademyCategory.AcademyCategory
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AcademyCategory.Drills*
+  commentId: Overload:Grunt.Models.HaloInfinite.AcademyCategory.Drills
+  parent: Grunt.Models.HaloInfinite.AcademyCategory
+  isExternal: false
+  name: Drills
+  nameWithType: AcademyCategory.Drills
+  fullName: Grunt.Models.HaloInfinite.AcademyCategory.Drills
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AcademyCategory.DrillType*
+  commentId: Overload:Grunt.Models.HaloInfinite.AcademyCategory.DrillType
+  parent: Grunt.Models.HaloInfinite.AcademyCategory
+  isExternal: false
+  name: DrillType
+  nameWithType: AcademyCategory.DrillType
+  fullName: Grunt.Models.HaloInfinite.AcademyCategory.DrillType
+  monikers:
+  - net6.0
+  type: property

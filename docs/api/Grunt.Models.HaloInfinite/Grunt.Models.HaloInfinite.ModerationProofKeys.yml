@@ -1,0 +1,146 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.ModerationProofKeys
+  commentId: T:Grunt.Models.HaloInfinite.ModerationProofKeys
+  id: ModerationProofKeys
+  children:
+  - Grunt.Models.HaloInfinite.ModerationProofKeys.#ctor
+  - Grunt.Models.HaloInfinite.ModerationProofKeys.Keys
+  langs:
+  - csharp
+  name: ModerationProofKeys
+  nameWithType: Grunt.Models.HaloInfinite.ModerationProofKeys
+  fullName: Grunt.Models.HaloInfinite.ModerationProofKeys
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class ModerationProofKeys
+    content.csharp: public class ModerationProofKeys
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.ModerationProofKeys.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.ModerationProofKeys.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.ModerationProofKeys
+  langs:
+  - csharp
+  name: ModerationProofKeys()
+  nameWithType: ModerationProofKeys.ModerationProofKeys()
+  fullName: Grunt.Models.HaloInfinite.ModerationProofKeys.ModerationProofKeys()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public ModerationProofKeys ();
+    parameters: []
+    content.csharp: public ModerationProofKeys ();
+  overload: Grunt.Models.HaloInfinite.ModerationProofKeys.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ModerationProofKeys.Keys
+  commentId: P:Grunt.Models.HaloInfinite.ModerationProofKeys.Keys
+  id: Keys
+  parent: Grunt.Models.HaloInfinite.ModerationProofKeys
+  langs:
+  - csharp
+  name: Keys
+  nameWithType: ModerationProofKeys.Keys
+  fullName: Grunt.Models.HaloInfinite.ModerationProofKeys.Keys
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.Key[] Keys { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.Key[]
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.Key[] Keys { get; set; }
+  overload: Grunt.Models.HaloInfinite.ModerationProofKeys.Keys*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.ModerationProofKeys.#ctor
+  parent: Grunt.Models.HaloInfinite.ModerationProofKeys
+  isExternal: false
+  name: ModerationProofKeys()
+  nameWithType: ModerationProofKeys.ModerationProofKeys()
+  fullName: Grunt.Models.HaloInfinite.ModerationProofKeys.ModerationProofKeys()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.ModerationProofKeys.Keys
+  parent: Grunt.Models.HaloInfinite.ModerationProofKeys
+  isExternal: false
+  name: Keys
+  nameWithType: ModerationProofKeys.Keys
+  fullName: Grunt.Models.HaloInfinite.ModerationProofKeys.Keys
+  type: property
+- uid: Grunt.Models.HaloInfinite.Key
+  name: Key
+  nameWithType: Key
+  fullName: Grunt.Models.HaloInfinite.Key
+- uid: Grunt.Models.HaloInfinite.Key[]
+  parent: Grunt.Models.HaloInfinite
+  name: Key[]
+  nameWithType: Key[]
+  fullName: Grunt.Models.HaloInfinite.Key[]
+  spec.csharp:
+  - uid: Grunt.Models.HaloInfinite.Key
+    name: Key
+    nameWithType: Key
+    fullName: Grunt.Models.HaloInfinite.Key
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.HaloInfinite.ModerationProofKeys.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.ModerationProofKeys.#ctor
+  parent: Grunt.Models.HaloInfinite.ModerationProofKeys
+  isExternal: false
+  name: ModerationProofKeys
+  nameWithType: ModerationProofKeys.ModerationProofKeys
+  fullName: Grunt.Models.HaloInfinite.ModerationProofKeys.ModerationProofKeys
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.ModerationProofKeys.Keys*
+  commentId: Overload:Grunt.Models.HaloInfinite.ModerationProofKeys.Keys
+  parent: Grunt.Models.HaloInfinite.ModerationProofKeys
+  isExternal: false
+  name: Keys
+  nameWithType: ModerationProofKeys.Keys
+  fullName: Grunt.Models.HaloInfinite.ModerationProofKeys.Keys
+  monikers:
+  - net6.0
+  type: property
