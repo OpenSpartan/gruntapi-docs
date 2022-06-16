@@ -11,6 +11,7 @@ items:
   - Grunt.Models.HaloInfinite.PlayerItem.ItemId
   - Grunt.Models.HaloInfinite.PlayerItem.ItemPath
   - Grunt.Models.HaloInfinite.PlayerItem.ItemType
+  - Grunt.Models.HaloInfinite.PlayerItem.Source
   langs:
   - csharp
   name: PlayerItem
@@ -219,6 +220,33 @@ items:
   - set
   monikers:
   - net6.0
+- uid: Grunt.Models.HaloInfinite.PlayerItem.Source
+  commentId: P:Grunt.Models.HaloInfinite.PlayerItem.Source
+  id: Source
+  parent: Grunt.Models.HaloInfinite.PlayerItem
+  langs:
+  - csharp
+  name: Source
+  nameWithType: PlayerItem.Source
+  fullName: Grunt.Models.HaloInfinite.PlayerItem.Source
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Source { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Source { get; set; }
+  overload: Grunt.Models.HaloInfinite.PlayerItem.Source*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
 references:
 - uid: Grunt.Models.HaloInfinite
   commentId: N:Grunt.Models.HaloInfinite
@@ -300,6 +328,13 @@ references:
   nameWithType: PlayerItem.ItemType
   fullName: Grunt.Models.HaloInfinite.PlayerItem.ItemType
   type: property
+- uid: Grunt.Models.HaloInfinite.PlayerItem.Source
+  parent: Grunt.Models.HaloInfinite.PlayerItem
+  isExternal: false
+  name: Source
+  nameWithType: PlayerItem.Source
+  fullName: Grunt.Models.HaloInfinite.PlayerItem.Source
+  type: property
 - uid: Grunt.Models.HaloInfinite.PlayerItem.#ctor*
   commentId: Overload:Grunt.Models.HaloInfinite.PlayerItem.#ctor
   parent: Grunt.Models.HaloInfinite.PlayerItem
@@ -367,6 +402,16 @@ references:
   name: ItemType
   nameWithType: PlayerItem.ItemType
   fullName: Grunt.Models.HaloInfinite.PlayerItem.ItemType
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlayerItem.Source*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlayerItem.Source
+  parent: Grunt.Models.HaloInfinite.PlayerItem
+  isExternal: false
+  name: Source
+  nameWithType: PlayerItem.Source
+  fullName: Grunt.Models.HaloInfinite.PlayerItem.Source
   monikers:
   - net6.0
   type: property

@@ -123,11 +123,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public object[] GrantedItems { get; set; }
+    content: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.PlayerItem> GrantedItems { get; set; }
     return:
-      type: System.Object[]
+      type: System.Collections.Generic.List{Grunt.Models.HaloInfinite.PlayerItem}
       description: ''
-    content.csharp: public object[] GrantedItems { get; set; }
+    content.csharp: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.PlayerItem> GrantedItems { get; set; }
   overload: Grunt.Models.HaloInfinite.RewardSummary.GrantedItems*
   exceptions: []
   modifiers.csharp:
@@ -258,19 +258,30 @@ references:
   nameWithType: RewardSummary.GrantedItems
   fullName: Grunt.Models.HaloInfinite.RewardSummary.GrantedItems
   type: property
-- uid: System.Object[]
-  parent: System
-  name: Object[]
-  nameWithType: Object[]
-  fullName: System.Object[]
+- uid: Grunt.Models.HaloInfinite.PlayerItem
+  name: PlayerItem
+  nameWithType: PlayerItem
+  fullName: Grunt.Models.HaloInfinite.PlayerItem
+- uid: System.Collections.Generic.List{Grunt.Models.HaloInfinite.PlayerItem}
+  parent: System.Collections.Generic
+  name: List<PlayerItem>
+  nameWithType: List<PlayerItem>
+  fullName: System.Collections.Generic.List<Grunt.Models.HaloInfinite.PlayerItem>
   spec.csharp:
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Grunt.Models.HaloInfinite.PlayerItem
+    name: PlayerItem
+    nameWithType: PlayerItem
+    fullName: Grunt.Models.HaloInfinite.PlayerItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: Grunt.Models.HaloInfinite.RewardSummary.UpdatedRewardTracks
   parent: Grunt.Models.HaloInfinite.RewardSummary
   isExternal: false
