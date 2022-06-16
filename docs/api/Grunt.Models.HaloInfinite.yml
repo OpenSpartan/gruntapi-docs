@@ -53,6 +53,7 @@ items:
   - Grunt.Models.HaloInfinite.CurrencySnapshot
   - Grunt.Models.HaloInfinite.CustomAssetData
   - Grunt.Models.HaloInfinite.CustomFilmData
+  - Grunt.Models.HaloInfinite.CustomGameDefinition
   - Grunt.Models.HaloInfinite.CustomizationData
   - Grunt.Models.HaloInfinite.CustomManifestData
   - Grunt.Models.HaloInfinite.CustomMapData
@@ -67,6 +68,7 @@ items:
   - Grunt.Models.HaloInfinite.Film
   - Grunt.Models.HaloInfinite.FilmChunk
   - Grunt.Models.HaloInfinite.FlightedFeatureFlags
+  - Grunt.Models.HaloInfinite.GameVariant
   - Grunt.Models.HaloInfinite.GameVariantAssetStats
   - Grunt.Models.HaloInfinite.GrantedCurrency
   - Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle
@@ -77,6 +79,7 @@ items:
   - Grunt.Models.HaloInfinite.InGameItem
   - Grunt.Models.HaloInfinite.IntelPreset
   - Grunt.Models.HaloInfinite.InventoryAmount
+  - Grunt.Models.HaloInfinite.InventoryDefinition
   - Grunt.Models.HaloInfinite.ItemPath
   - Grunt.Models.HaloInfinite.Key
   - Grunt.Models.HaloInfinite.KillDeathStats
@@ -113,6 +116,9 @@ items:
   - Grunt.Models.HaloInfinite.Offering
   - Grunt.Models.HaloInfinite.OperationRewardTrackSnapshot
   - Grunt.Models.HaloInfinite.Outfit
+  - Grunt.Models.HaloInfinite.OverrideQuery
+  - Grunt.Models.HaloInfinite.OverrideQueryDefinition
+  - Grunt.Models.HaloInfinite.OverrideSettings
   - Grunt.Models.HaloInfinite.ParticipationInfo
   - Grunt.Models.HaloInfinite.PerformanceValue
   - Grunt.Models.HaloInfinite.Permission
@@ -136,6 +142,7 @@ items:
   - Grunt.Models.HaloInfinite.PlaylistMapModePair
   - Grunt.Models.HaloInfinite.Price
   - Grunt.Models.HaloInfinite.Project
+  - Grunt.Models.HaloInfinite.Query
   - Grunt.Models.HaloInfinite.RankRecap
   - Grunt.Models.HaloInfinite.RankSnapshot
   - Grunt.Models.HaloInfinite.Reward
@@ -576,6 +583,14 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.CustomFilmData
   fullName: Grunt.Models.HaloInfinite.CustomFilmData
   type: class
+- uid: Grunt.Models.HaloInfinite.CustomGameDefinition
+  commentId: T:Grunt.Models.HaloInfinite.CustomGameDefinition
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: CustomGameDefinition
+  nameWithType: Grunt.Models.HaloInfinite.CustomGameDefinition
+  fullName: Grunt.Models.HaloInfinite.CustomGameDefinition
+  type: class
 - uid: Grunt.Models.HaloInfinite.CustomizationData
   commentId: T:Grunt.Models.HaloInfinite.CustomizationData
   parent: Grunt.Models.HaloInfinite
@@ -688,6 +703,14 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.FlightedFeatureFlags
   fullName: Grunt.Models.HaloInfinite.FlightedFeatureFlags
   type: class
+- uid: Grunt.Models.HaloInfinite.GameVariant
+  commentId: T:Grunt.Models.HaloInfinite.GameVariant
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: GameVariant
+  nameWithType: Grunt.Models.HaloInfinite.GameVariant
+  fullName: Grunt.Models.HaloInfinite.GameVariant
+  type: class
 - uid: Grunt.Models.HaloInfinite.GameVariantAssetStats
   commentId: T:Grunt.Models.HaloInfinite.GameVariantAssetStats
   parent: Grunt.Models.HaloInfinite
@@ -767,6 +790,14 @@ references:
   name: InventoryAmount
   nameWithType: Grunt.Models.HaloInfinite.InventoryAmount
   fullName: Grunt.Models.HaloInfinite.InventoryAmount
+  type: class
+- uid: Grunt.Models.HaloInfinite.InventoryDefinition
+  commentId: T:Grunt.Models.HaloInfinite.InventoryDefinition
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: InventoryDefinition
+  nameWithType: Grunt.Models.HaloInfinite.InventoryDefinition
+  fullName: Grunt.Models.HaloInfinite.InventoryDefinition
   type: class
 - uid: Grunt.Models.HaloInfinite.ItemPath
   commentId: T:Grunt.Models.HaloInfinite.ItemPath
@@ -1056,6 +1087,30 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.Outfit
   fullName: Grunt.Models.HaloInfinite.Outfit
   type: class
+- uid: Grunt.Models.HaloInfinite.OverrideQuery
+  commentId: T:Grunt.Models.HaloInfinite.OverrideQuery
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OverrideQuery
+  nameWithType: Grunt.Models.HaloInfinite.OverrideQuery
+  fullName: Grunt.Models.HaloInfinite.OverrideQuery
+  type: class
+- uid: Grunt.Models.HaloInfinite.OverrideQueryDefinition
+  commentId: T:Grunt.Models.HaloInfinite.OverrideQueryDefinition
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OverrideQueryDefinition
+  nameWithType: Grunt.Models.HaloInfinite.OverrideQueryDefinition
+  fullName: Grunt.Models.HaloInfinite.OverrideQueryDefinition
+  type: class
+- uid: Grunt.Models.HaloInfinite.OverrideSettings
+  commentId: T:Grunt.Models.HaloInfinite.OverrideSettings
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OverrideSettings
+  nameWithType: Grunt.Models.HaloInfinite.OverrideSettings
+  fullName: Grunt.Models.HaloInfinite.OverrideSettings
+  type: class
 - uid: Grunt.Models.HaloInfinite.ParticipationInfo
   commentId: T:Grunt.Models.HaloInfinite.ParticipationInfo
   parent: Grunt.Models.HaloInfinite
@@ -1239,6 +1294,14 @@ references:
   name: Project
   nameWithType: Grunt.Models.HaloInfinite.Project
   fullName: Grunt.Models.HaloInfinite.Project
+  type: class
+- uid: Grunt.Models.HaloInfinite.Query
+  commentId: T:Grunt.Models.HaloInfinite.Query
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Query
+  nameWithType: Grunt.Models.HaloInfinite.Query
+  fullName: Grunt.Models.HaloInfinite.Query
   type: class
 - uid: Grunt.Models.HaloInfinite.RankRecap
   commentId: T:Grunt.Models.HaloInfinite.RankRecap

@@ -6,6 +6,7 @@ items:
   children:
   - Grunt.Models.HaloInfinite.PlayerItem.#ctor
   - Grunt.Models.HaloInfinite.PlayerItem.Amount
+  - Grunt.Models.HaloInfinite.PlayerItem.CoreType
   - Grunt.Models.HaloInfinite.PlayerItem.FirstAcquiredDate
   - Grunt.Models.HaloInfinite.PlayerItem.ItemId
   - Grunt.Models.HaloInfinite.PlayerItem.ItemPath
@@ -76,6 +77,33 @@ items:
       description: ''
     content.csharp: public int Amount { get; set; }
   overload: Grunt.Models.HaloInfinite.PlayerItem.Amount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.PlayerItem.CoreType
+  commentId: P:Grunt.Models.HaloInfinite.PlayerItem.CoreType
+  id: CoreType
+  parent: Grunt.Models.HaloInfinite.PlayerItem
+  langs:
+  - csharp
+  name: CoreType
+  nameWithType: PlayerItem.CoreType
+  fullName: Grunt.Models.HaloInfinite.PlayerItem.CoreType
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string CoreType { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string CoreType { get; set; }
+  overload: Grunt.Models.HaloInfinite.PlayerItem.CoreType*
   exceptions: []
   modifiers.csharp:
   - public
@@ -225,6 +253,19 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.PlayerItem.CoreType
+  parent: Grunt.Models.HaloInfinite.PlayerItem
+  isExternal: false
+  name: CoreType
+  nameWithType: PlayerItem.CoreType
+  fullName: Grunt.Models.HaloInfinite.PlayerItem.CoreType
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: Grunt.Models.HaloInfinite.PlayerItem.FirstAcquiredDate
   parent: Grunt.Models.HaloInfinite.PlayerItem
   isExternal: false
@@ -245,12 +286,6 @@ references:
   nameWithType: PlayerItem.ItemId
   fullName: Grunt.Models.HaloInfinite.PlayerItem.ItemId
   type: property
-- uid: System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: Grunt.Models.HaloInfinite.PlayerItem.ItemPath
   parent: Grunt.Models.HaloInfinite.PlayerItem
   isExternal: false
@@ -282,6 +317,16 @@ references:
   name: Amount
   nameWithType: PlayerItem.Amount
   fullName: Grunt.Models.HaloInfinite.PlayerItem.Amount
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlayerItem.CoreType*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlayerItem.CoreType
+  parent: Grunt.Models.HaloInfinite.PlayerItem
+  isExternal: false
+  name: CoreType
+  nameWithType: PlayerItem.CoreType
+  fullName: Grunt.Models.HaloInfinite.PlayerItem.CoreType
   monikers:
   - net6.0
   type: property

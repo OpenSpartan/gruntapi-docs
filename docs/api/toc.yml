@@ -273,6 +273,10 @@
     name: CustomFilmData
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.CustomGameDefinition
+    name: CustomGameDefinition
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.CustomizationData
     name: CustomizationData
     monikers:
@@ -329,6 +333,10 @@
     name: FlightedFeatureFlags
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.GameVariant
+    name: GameVariant
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.GameVariantAssetStats
     name: GameVariantAssetStats
     monikers:
@@ -367,6 +375,10 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.InventoryAmount
     name: InventoryAmount
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.InventoryDefinition
+    name: InventoryDefinition
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.ItemPath
@@ -513,6 +525,18 @@
     name: Outfit
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.OverrideQuery
+    name: OverrideQuery
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.OverrideQueryDefinition
+    name: OverrideQueryDefinition
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.OverrideSettings
+    name: OverrideSettings
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.ParticipationInfo
     name: ParticipationInfo
     monikers:
@@ -603,6 +627,10 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.Project
     name: Project
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Query
+    name: Query
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.RankRecap
