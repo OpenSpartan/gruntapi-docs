@@ -5,6 +5,12 @@ items:
   id: PlayAssetStats
   children:
   - Grunt.Models.HaloInfinite.PlayAssetStats.#ctor
+  - Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
+  - Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
+  - Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
+  - Grunt.Models.HaloInfinite.PlayAssetStats.Likes
+  - Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings
+  - Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount
   - Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime
   - Grunt.Models.HaloInfinite.PlayAssetStats.PlaysRecent
   langs:
@@ -51,6 +57,168 @@ items:
   exceptions: []
   modifiers.csharp:
   - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
+  commentId: P:Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
+  id: AverageRating
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  langs:
+  - csharp
+  name: AverageRating
+  nameWithType: PlayAssetStats.AverageRating
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int AverageRating { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int AverageRating { get; set; }
+  overload: Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
+  commentId: P:Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
+  id: Bookmarks
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  langs:
+  - csharp
+  name: Bookmarks
+  nameWithType: PlayAssetStats.Bookmarks
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Bookmarks { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Bookmarks { get; set; }
+  overload: Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
+  commentId: P:Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
+  id: Favorites
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  langs:
+  - csharp
+  name: Favorites
+  nameWithType: PlayAssetStats.Favorites
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Favorites { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Favorites { get; set; }
+  overload: Grunt.Models.HaloInfinite.PlayAssetStats.Favorites*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.Likes
+  commentId: P:Grunt.Models.HaloInfinite.PlayAssetStats.Likes
+  id: Likes
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  langs:
+  - csharp
+  name: Likes
+  nameWithType: PlayAssetStats.Likes
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.Likes
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Likes { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Likes { get; set; }
+  overload: Grunt.Models.HaloInfinite.PlayAssetStats.Likes*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings
+  commentId: P:Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings
+  id: NumberOfRatings
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  langs:
+  - csharp
+  name: NumberOfRatings
+  nameWithType: PlayAssetStats.NumberOfRatings
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int NumberOfRatings { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int NumberOfRatings { get; set; }
+  overload: Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount
+  commentId: P:Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount
+  id: ParentAssetCount
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  langs:
+  - csharp
+  name: ParentAssetCount
+  nameWithType: PlayAssetStats.ParentAssetCount
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ParentAssetCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ParentAssetCount { get; set; }
+  overload: Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
   monikers:
   - net6.0
 - uid: Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime
@@ -128,12 +296,12 @@ references:
   nameWithType: PlayAssetStats.PlayAssetStats()
   fullName: Grunt.Models.HaloInfinite.PlayAssetStats.PlayAssetStats()
   type: constructor
-- uid: Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
   parent: Grunt.Models.HaloInfinite.PlayAssetStats
   isExternal: false
-  name: PlaysAllTime
-  nameWithType: PlayAssetStats.PlaysAllTime
-  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime
+  name: AverageRating
+  nameWithType: PlayAssetStats.AverageRating
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
   type: property
 - uid: System.Int32
   parent: System
@@ -141,6 +309,48 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: Bookmarks
+  nameWithType: PlayAssetStats.Bookmarks
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: Favorites
+  nameWithType: PlayAssetStats.Favorites
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.Likes
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: Likes
+  nameWithType: PlayAssetStats.Likes
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.Likes
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: NumberOfRatings
+  nameWithType: PlayAssetStats.NumberOfRatings
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: ParentAssetCount
+  nameWithType: PlayAssetStats.ParentAssetCount
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: PlaysAllTime
+  nameWithType: PlayAssetStats.PlaysAllTime
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime
+  type: property
 - uid: Grunt.Models.HaloInfinite.PlayAssetStats.PlaysRecent
   parent: Grunt.Models.HaloInfinite.PlayAssetStats
   isExternal: false
@@ -158,6 +368,66 @@ references:
   monikers:
   - net6.0
   type: constructor
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: AverageRating
+  nameWithType: PlayAssetStats.AverageRating
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: Bookmarks
+  nameWithType: PlayAssetStats.Bookmarks
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.Favorites*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: Favorites
+  nameWithType: PlayAssetStats.Favorites
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.Likes*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlayAssetStats.Likes
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: Likes
+  nameWithType: PlayAssetStats.Likes
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.Likes
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: NumberOfRatings
+  nameWithType: PlayAssetStats.NumberOfRatings
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount
+  parent: Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: ParentAssetCount
+  nameWithType: PlayAssetStats.ParentAssetCount
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount
+  monikers:
+  - net6.0
+  type: property
 - uid: Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime*
   commentId: Overload:Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime
   parent: Grunt.Models.HaloInfinite.PlayAssetStats
