@@ -7,6 +7,7 @@ items:
   - Grunt.Authentication.XboxAuthenticationManager.#ctor
   - Grunt.Authentication.XboxAuthenticationManager.GenerateAuthUrl(System.String,System.String,System.String[],System.String)
   - Grunt.Authentication.XboxAuthenticationManager.GetXboxLiveV3Token(System.String,System.String)
+  - Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken(System.String,System.String,System.String,System.String,System.String[])
   - Grunt.Authentication.XboxAuthenticationManager.RequestOAuthToken(System.String,System.String,System.String,System.String,System.String[])
   - Grunt.Authentication.XboxAuthenticationManager.RequestUserToken(System.String)
   - Grunt.Authentication.XboxAuthenticationManager.RequestXstsToken(System.String,System.Boolean)
@@ -121,6 +122,47 @@ items:
       description: ''
     content.csharp: public string GetXboxLiveV3Token (string userHash, string userToken);
   overload: Grunt.Authentication.XboxAuthenticationManager.GetXboxLiveV3Token*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  commentId: M:Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  id: RefreshOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  langs:
+  - csharp
+  name: RefreshOAuthToken(String, String, String, String, String[])
+  nameWithType: XboxAuthenticationManager.RefreshOAuthToken(String, String, String, String, String[])
+  fullName: Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken(String, String, String, String, String[])
+  type: Method
+  assemblies:
+  - Grunt
+  namespace: Grunt.Authentication
+  syntax:
+    content: public System.Threading.Tasks.Task<Grunt.Models.OAuthToken> RefreshOAuthToken (string clientId, string refreshToken, string redirectUrl, string clientSecret = "", string[] scopes = default);
+    parameters:
+    - id: clientId
+      type: System.String
+      description: ''
+    - id: refreshToken
+      type: System.String
+      description: ''
+    - id: redirectUrl
+      type: System.String
+      description: ''
+    - id: clientSecret
+      type: System.String
+      description: ''
+    - id: scopes
+      type: System.String[]
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{Grunt.Models.OAuthToken}
+      description: ''
+    content.csharp: public System.Threading.Tasks.Task<Grunt.Models.OAuthToken> RefreshOAuthToken (string clientId, string refreshToken, string redirectUrl, string clientSecret = "", string[] scopes = default);
+  overload: Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken*
   exceptions: []
   modifiers.csharp:
   - public
@@ -282,12 +324,12 @@ references:
   nameWithType: XboxAuthenticationManager.GetXboxLiveV3Token(String, String)
   fullName: Grunt.Authentication.XboxAuthenticationManager.GetXboxLiveV3Token(String, String)
   type: method
-- uid: Grunt.Authentication.XboxAuthenticationManager.RequestOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+- uid: Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken(System.String,System.String,System.String,System.String,System.String[])
   parent: Grunt.Authentication.XboxAuthenticationManager
   isExternal: false
-  name: RequestOAuthToken(String, String, String, String, String[])
-  nameWithType: XboxAuthenticationManager.RequestOAuthToken(String, String, String, String, String[])
-  fullName: Grunt.Authentication.XboxAuthenticationManager.RequestOAuthToken(String, String, String, String, String[])
+  name: RefreshOAuthToken(String, String, String, String, String[])
+  nameWithType: XboxAuthenticationManager.RefreshOAuthToken(String, String, String, String, String[])
+  fullName: Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken(String, String, String, String, String[])
   type: method
 - uid: System.Threading.Tasks.Task`1
   isExternal: true
@@ -318,6 +360,13 @@ references:
   - name: '>'
     nameWithType: '>'
     fullName: '>'
+- uid: Grunt.Authentication.XboxAuthenticationManager.RequestOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  isExternal: false
+  name: RequestOAuthToken(String, String, String, String, String[])
+  nameWithType: XboxAuthenticationManager.RequestOAuthToken(String, String, String, String, String[])
+  fullName: Grunt.Authentication.XboxAuthenticationManager.RequestOAuthToken(String, String, String, String, String[])
+  type: method
 - uid: Grunt.Authentication.XboxAuthenticationManager.RequestUserToken(System.String)
   parent: Grunt.Authentication.XboxAuthenticationManager
   isExternal: false
@@ -389,6 +438,16 @@ references:
   name: GetXboxLiveV3Token
   nameWithType: XboxAuthenticationManager.GetXboxLiveV3Token
   fullName: Grunt.Authentication.XboxAuthenticationManager.GetXboxLiveV3Token
+  monikers:
+  - net6.0
+  type: method
+- uid: Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken*
+  commentId: Overload:Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  isExternal: false
+  name: RefreshOAuthToken
+  nameWithType: XboxAuthenticationManager.RefreshOAuthToken
+  fullName: Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken
   monikers:
   - net6.0
   type: method
