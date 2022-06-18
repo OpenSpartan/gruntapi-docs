@@ -39,7 +39,6 @@ items:
   - Grunt.Core.HaloInfiniteClient.EconomyVehicleCoresCustomization(System.String)
   - Grunt.Core.HaloInfiniteClient.EconomyWeaponCoreCustomization(System.String,System.String)
   - Grunt.Core.HaloInfiniteClient.EconomyWeaponCoresCustomization(System.String)
-  - Grunt.Core.HaloInfiniteClient.EndpointData
   - Grunt.Core.HaloInfiniteClient.GameCmsGetAchievements
   - Grunt.Core.HaloInfiniteClient.GameCmsGetAsyncComputeOverrides
   - Grunt.Core.HaloInfiniteClient.GameCmsGetChallenge(System.String,System.String)
@@ -7147,32 +7146,6 @@ items:
   exceptions: []
   modifiers.csharp:
   - public
-  monikers:
-  - net6.0
-- uid: Grunt.Core.HaloInfiniteClient.EndpointData
-  commentId: P:Grunt.Core.HaloInfiniteClient.EndpointData
-  id: EndpointData
-  parent: Grunt.Core.HaloInfiniteClient
-  langs:
-  - csharp
-  name: EndpointData
-  nameWithType: HaloInfiniteClient.EndpointData
-  fullName: Grunt.Core.HaloInfiniteClient.EndpointData
-  type: Property
-  assemblies:
-  - Grunt
-  namespace: Grunt.Core
-  syntax:
-    content: public Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer EndpointData { get; }
-    return:
-      type: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
-      description: ''
-    content.csharp: public Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer EndpointData { get; }
-  overload: Grunt.Core.HaloInfiniteClient.EndpointData*
-  exceptions: []
-  modifiers.csharp:
-  - public
-  - get
   monikers:
   - net6.0
 - uid: Grunt.Core.HaloInfiniteClient.GameCmsGetAchievements
@@ -28917,19 +28890,6 @@ references:
   - name: '>'
     nameWithType: '>'
     fullName: '>'
-- uid: Grunt.Core.HaloInfiniteClient.EndpointData
-  parent: Grunt.Core.HaloInfiniteClient
-  isExternal: false
-  name: EndpointData
-  nameWithType: HaloInfiniteClient.EndpointData
-  fullName: Grunt.Core.HaloInfiniteClient.EndpointData
-  type: property
-- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
-  parent: Grunt.Models.HaloInfinite.ApiIngress
-  isExternal: false
-  name: ApiSettingsContainer
-  nameWithType: ApiSettingsContainer
-  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
 - uid: Grunt.Core.HaloInfiniteClient.GameCmsGetAchievements
   parent: Grunt.Core.HaloInfiniteClient
   isExternal: false
@@ -29621,6 +29581,10 @@ references:
   nameWithType: HaloInfiniteClient.GetApiSettingsContainer()
   fullName: Grunt.Core.HaloInfiniteClient.GetApiSettingsContainer()
   type: method
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  name: ApiSettingsContainer
+  nameWithType: ApiSettingsContainer
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
 - uid: System.Threading.Tasks.Task{Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer}
   parent: System.Threading.Tasks
   name: Task<ApiSettingsContainer>
@@ -31093,16 +31057,6 @@ references:
   monikers:
   - net6.0
   type: method
-- uid: Grunt.Core.HaloInfiniteClient.EndpointData*
-  commentId: Overload:Grunt.Core.HaloInfiniteClient.EndpointData
-  parent: Grunt.Core.HaloInfiniteClient
-  isExternal: false
-  name: EndpointData
-  nameWithType: HaloInfiniteClient.EndpointData
-  fullName: Grunt.Core.HaloInfiniteClient.EndpointData
-  monikers:
-  - net6.0
-  type: property
 - uid: Grunt.Core.HaloInfiniteClient.GameCmsGetAchievements*
   commentId: Overload:Grunt.Core.HaloInfiniteClient.GameCmsGetAchievements
   parent: Grunt.Core.HaloInfiniteClient
