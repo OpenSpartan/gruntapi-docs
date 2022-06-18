@@ -73,11 +73,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public int AverageRating { get; set; }
+    content: public float AverageRating { get; set; }
     return:
-      type: System.Int32
+      type: System.Single
       description: ''
-    content.csharp: public int AverageRating { get; set; }
+    content.csharp: public float AverageRating { get; set; }
   overload: Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating*
   exceptions: []
   modifiers.csharp:
@@ -303,12 +303,12 @@ references:
   nameWithType: PlayAssetStats.AverageRating
   fullName: Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
   type: property
-- uid: System.Int32
+- uid: System.Single
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
 - uid: Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
   parent: Grunt.Models.HaloInfinite.PlayAssetStats
   isExternal: false
@@ -316,6 +316,12 @@ references:
   nameWithType: PlayAssetStats.Bookmarks
   fullName: Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
   type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
   parent: Grunt.Models.HaloInfinite.PlayAssetStats
   isExternal: false
