@@ -70,7 +70,6 @@ items:
   - Grunt.Core.HaloInfiniteClient.GameCmsGetRecommendedDrivers
   - Grunt.Core.HaloInfiniteClient.GameCmsGetSeasonRewardTrack(System.String,System.String)
   - Grunt.Core.HaloInfiniteClient.GameCmsGetUiConfigurationJson
-  - Grunt.Core.HaloInfiniteClient.GameCmsOrigin(System.String)
   - Grunt.Core.HaloInfiniteClient.GetApiSettingsContainer
   - Grunt.Core.HaloInfiniteClient.HIUGCCheckAssetPlayerBookmark(System.String,System.String,System.String,System.String)
   - Grunt.Core.HaloInfiniteClient.HIUGCCreateAssetVersionAgnostic(System.String,System.String,System.String)
@@ -23254,35 +23253,6 @@ items:
   - public
   monikers:
   - net6.0
-- uid: Grunt.Core.HaloInfiniteClient.GameCmsOrigin(System.String)
-  commentId: M:Grunt.Core.HaloInfiniteClient.GameCmsOrigin(System.String)
-  id: GameCmsOrigin(System.String)
-  parent: Grunt.Core.HaloInfiniteClient
-  langs:
-  - csharp
-  name: GameCmsOrigin(String)
-  nameWithType: HaloInfiniteClient.GameCmsOrigin(String)
-  fullName: Grunt.Core.HaloInfiniteClient.GameCmsOrigin(String)
-  type: Method
-  assemblies:
-  - Grunt
-  namespace: Grunt.Core
-  syntax:
-    content: public System.Threading.Tasks.Task<string> GameCmsOrigin (string path);
-    parameters:
-    - id: path
-      type: System.String
-      description: ''
-    return:
-      type: System.Threading.Tasks.Task{System.String}
-      description: ''
-    content.csharp: public System.Threading.Tasks.Task<string> GameCmsOrigin (string path);
-  overload: Grunt.Core.HaloInfiniteClient.GameCmsOrigin*
-  exceptions: []
-  modifiers.csharp:
-  - public
-  monikers:
-  - net6.0
 - uid: Grunt.Core.HaloInfiniteClient.GetApiSettingsContainer
   commentId: M:Grunt.Core.HaloInfiniteClient.GetApiSettingsContainer
   id: GetApiSettingsContainer
@@ -29567,13 +29537,6 @@ references:
   nameWithType: HaloInfiniteClient.GameCmsGetUiConfigurationJson()
   fullName: Grunt.Core.HaloInfiniteClient.GameCmsGetUiConfigurationJson()
   type: method
-- uid: Grunt.Core.HaloInfiniteClient.GameCmsOrigin(System.String)
-  parent: Grunt.Core.HaloInfiniteClient
-  isExternal: false
-  name: GameCmsOrigin(String)
-  nameWithType: HaloInfiniteClient.GameCmsOrigin(String)
-  fullName: Grunt.Core.HaloInfiniteClient.GameCmsOrigin(String)
-  type: method
 - uid: Grunt.Core.HaloInfiniteClient.GetApiSettingsContainer
   parent: Grunt.Core.HaloInfiniteClient
   isExternal: false
@@ -31364,16 +31327,6 @@ references:
   name: GameCmsGetUiConfigurationJson
   nameWithType: HaloInfiniteClient.GameCmsGetUiConfigurationJson
   fullName: Grunt.Core.HaloInfiniteClient.GameCmsGetUiConfigurationJson
-  monikers:
-  - net6.0
-  type: method
-- uid: Grunt.Core.HaloInfiniteClient.GameCmsOrigin*
-  commentId: Overload:Grunt.Core.HaloInfiniteClient.GameCmsOrigin
-  parent: Grunt.Core.HaloInfiniteClient
-  isExternal: false
-  name: GameCmsOrigin
-  nameWithType: HaloInfiniteClient.GameCmsOrigin
-  fullName: Grunt.Core.HaloInfiniteClient.GameCmsOrigin
   monikers:
   - net6.0
   type: method
