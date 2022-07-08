@@ -1,0 +1,242 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.SpartanTokenRequest
+  commentId: T:Grunt.Models.SpartanTokenRequest
+  id: SpartanTokenRequest
+  children:
+  - Grunt.Models.SpartanTokenRequest.#ctor
+  - Grunt.Models.SpartanTokenRequest.Audience
+  - Grunt.Models.SpartanTokenRequest.MinVersion
+  - Grunt.Models.SpartanTokenRequest.Proof
+  langs:
+  - csharp
+  name: SpartanTokenRequest
+  nameWithType: Grunt.Models.SpartanTokenRequest
+  fullName: Grunt.Models.SpartanTokenRequest
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: public class SpartanTokenRequest
+    content.csharp: public class SpartanTokenRequest
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.SpartanTokenRequest.#ctor
+  commentId: M:Grunt.Models.SpartanTokenRequest.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.SpartanTokenRequest
+  langs:
+  - csharp
+  name: SpartanTokenRequest()
+  nameWithType: SpartanTokenRequest.SpartanTokenRequest()
+  fullName: Grunt.Models.SpartanTokenRequest.SpartanTokenRequest()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: public SpartanTokenRequest ();
+    parameters: []
+    content.csharp: public SpartanTokenRequest ();
+  overload: Grunt.Models.SpartanTokenRequest.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.SpartanTokenRequest.Audience
+  commentId: P:Grunt.Models.SpartanTokenRequest.Audience
+  id: Audience
+  parent: Grunt.Models.SpartanTokenRequest
+  langs:
+  - csharp
+  name: Audience
+  nameWithType: SpartanTokenRequest.Audience
+  fullName: Grunt.Models.SpartanTokenRequest.Audience
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: public string Audience { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Audience { get; set; }
+  overload: Grunt.Models.SpartanTokenRequest.Audience*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.SpartanTokenRequest.MinVersion
+  commentId: P:Grunt.Models.SpartanTokenRequest.MinVersion
+  id: MinVersion
+  parent: Grunt.Models.SpartanTokenRequest
+  langs:
+  - csharp
+  name: MinVersion
+  nameWithType: SpartanTokenRequest.MinVersion
+  fullName: Grunt.Models.SpartanTokenRequest.MinVersion
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: public string MinVersion { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string MinVersion { get; set; }
+  overload: Grunt.Models.SpartanTokenRequest.MinVersion*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.SpartanTokenRequest.Proof
+  commentId: P:Grunt.Models.SpartanTokenRequest.Proof
+  id: Proof
+  parent: Grunt.Models.SpartanTokenRequest
+  langs:
+  - csharp
+  name: Proof
+  nameWithType: SpartanTokenRequest.Proof
+  fullName: Grunt.Models.SpartanTokenRequest.Proof
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: public Grunt.Models.SpartanTokenProof[] Proof { get; set; }
+    return:
+      type: Grunt.Models.SpartanTokenProof[]
+      description: ''
+    content.csharp: public Grunt.Models.SpartanTokenProof[] Proof { get; set; }
+  overload: Grunt.Models.SpartanTokenRequest.Proof*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models
+  commentId: N:Grunt.Models
+  isExternal: false
+  name: Grunt.Models
+  nameWithType: Grunt.Models
+  fullName: Grunt.Models
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.SpartanTokenRequest.#ctor
+  parent: Grunt.Models.SpartanTokenRequest
+  isExternal: false
+  name: SpartanTokenRequest()
+  nameWithType: SpartanTokenRequest.SpartanTokenRequest()
+  fullName: Grunt.Models.SpartanTokenRequest.SpartanTokenRequest()
+  type: constructor
+- uid: Grunt.Models.SpartanTokenRequest.Audience
+  parent: Grunt.Models.SpartanTokenRequest
+  isExternal: false
+  name: Audience
+  nameWithType: SpartanTokenRequest.Audience
+  fullName: Grunt.Models.SpartanTokenRequest.Audience
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.SpartanTokenRequest.MinVersion
+  parent: Grunt.Models.SpartanTokenRequest
+  isExternal: false
+  name: MinVersion
+  nameWithType: SpartanTokenRequest.MinVersion
+  fullName: Grunt.Models.SpartanTokenRequest.MinVersion
+  type: property
+- uid: Grunt.Models.SpartanTokenRequest.Proof
+  parent: Grunt.Models.SpartanTokenRequest
+  isExternal: false
+  name: Proof
+  nameWithType: SpartanTokenRequest.Proof
+  fullName: Grunt.Models.SpartanTokenRequest.Proof
+  type: property
+- uid: Grunt.Models.SpartanTokenProof
+  name: SpartanTokenProof
+  nameWithType: SpartanTokenProof
+  fullName: Grunt.Models.SpartanTokenProof
+- uid: Grunt.Models.SpartanTokenProof[]
+  parent: Grunt.Models
+  name: SpartanTokenProof[]
+  nameWithType: SpartanTokenProof[]
+  fullName: Grunt.Models.SpartanTokenProof[]
+  spec.csharp:
+  - uid: Grunt.Models.SpartanTokenProof
+    name: SpartanTokenProof
+    nameWithType: SpartanTokenProof
+    fullName: Grunt.Models.SpartanTokenProof
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.SpartanTokenRequest.#ctor*
+  commentId: Overload:Grunt.Models.SpartanTokenRequest.#ctor
+  parent: Grunt.Models.SpartanTokenRequest
+  isExternal: false
+  name: SpartanTokenRequest
+  nameWithType: SpartanTokenRequest.SpartanTokenRequest
+  fullName: Grunt.Models.SpartanTokenRequest.SpartanTokenRequest
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.SpartanTokenRequest.Audience*
+  commentId: Overload:Grunt.Models.SpartanTokenRequest.Audience
+  parent: Grunt.Models.SpartanTokenRequest
+  isExternal: false
+  name: Audience
+  nameWithType: SpartanTokenRequest.Audience
+  fullName: Grunt.Models.SpartanTokenRequest.Audience
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.SpartanTokenRequest.MinVersion*
+  commentId: Overload:Grunt.Models.SpartanTokenRequest.MinVersion
+  parent: Grunt.Models.SpartanTokenRequest
+  isExternal: false
+  name: MinVersion
+  nameWithType: SpartanTokenRequest.MinVersion
+  fullName: Grunt.Models.SpartanTokenRequest.MinVersion
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.SpartanTokenRequest.Proof*
+  commentId: Overload:Grunt.Models.SpartanTokenRequest.Proof
+  parent: Grunt.Models.SpartanTokenRequest
+  isExternal: false
+  name: Proof
+  nameWithType: SpartanTokenRequest.Proof
+  fullName: Grunt.Models.SpartanTokenRequest.Proof
+  monikers:
+  - net6.0
+  type: property

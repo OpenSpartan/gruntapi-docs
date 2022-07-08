@@ -1,0 +1,270 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  commentId: T:Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  id: CPUPresetSnapshot
+  children:
+  - Grunt.Models.HaloInfinite.CPUPresetSnapshot.#ctor
+  - Grunt.Models.HaloInfinite.CPUPresetSnapshot.High
+  - Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low
+  - Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium
+  - Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra
+  langs:
+  - csharp
+  name: CPUPresetSnapshot
+  nameWithType: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  fullName: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class CPUPresetSnapshot
+    content.csharp: public class CPUPresetSnapshot
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.CPUPresetSnapshot.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  langs:
+  - csharp
+  name: CPUPresetSnapshot()
+  nameWithType: CPUPresetSnapshot.CPUPresetSnapshot()
+  fullName: Grunt.Models.HaloInfinite.CPUPresetSnapshot.CPUPresetSnapshot()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public CPUPresetSnapshot ();
+    parameters: []
+    content.csharp: public CPUPresetSnapshot ();
+  overload: Grunt.Models.HaloInfinite.CPUPresetSnapshot.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot.High
+  commentId: P:Grunt.Models.HaloInfinite.CPUPresetSnapshot.High
+  id: High
+  parent: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  langs:
+  - csharp
+  name: High
+  nameWithType: CPUPresetSnapshot.High
+  fullName: Grunt.Models.HaloInfinite.CPUPresetSnapshot.High
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.CPUPreset High { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.CPUPreset
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.CPUPreset High { get; set; }
+  overload: Grunt.Models.HaloInfinite.CPUPresetSnapshot.High*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low
+  commentId: P:Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low
+  id: Low
+  parent: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  langs:
+  - csharp
+  name: Low
+  nameWithType: CPUPresetSnapshot.Low
+  fullName: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.CPUPreset Low { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.CPUPreset
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.CPUPreset Low { get; set; }
+  overload: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium
+  commentId: P:Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium
+  id: Medium
+  parent: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  langs:
+  - csharp
+  name: Medium
+  nameWithType: CPUPresetSnapshot.Medium
+  fullName: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.CPUPreset Medium { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.CPUPreset
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.CPUPreset Medium { get; set; }
+  overload: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra
+  commentId: P:Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra
+  id: Ultra
+  parent: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  langs:
+  - csharp
+  name: Ultra
+  nameWithType: CPUPresetSnapshot.Ultra
+  fullName: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.CPUPreset Ultra { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.CPUPreset
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.CPUPreset Ultra { get; set; }
+  overload: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot.#ctor
+  parent: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: CPUPresetSnapshot()
+  nameWithType: CPUPresetSnapshot.CPUPresetSnapshot()
+  fullName: Grunt.Models.HaloInfinite.CPUPresetSnapshot.CPUPresetSnapshot()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot.High
+  parent: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: High
+  nameWithType: CPUPresetSnapshot.High
+  fullName: Grunt.Models.HaloInfinite.CPUPresetSnapshot.High
+  type: property
+- uid: Grunt.Models.HaloInfinite.CPUPreset
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: CPUPreset
+  nameWithType: CPUPreset
+  fullName: Grunt.Models.HaloInfinite.CPUPreset
+- uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low
+  parent: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: Low
+  nameWithType: CPUPresetSnapshot.Low
+  fullName: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low
+  type: property
+- uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium
+  parent: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: Medium
+  nameWithType: CPUPresetSnapshot.Medium
+  fullName: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium
+  type: property
+- uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra
+  parent: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: Ultra
+  nameWithType: CPUPresetSnapshot.Ultra
+  fullName: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra
+  type: property
+- uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.CPUPresetSnapshot.#ctor
+  parent: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: CPUPresetSnapshot
+  nameWithType: CPUPresetSnapshot.CPUPresetSnapshot
+  fullName: Grunt.Models.HaloInfinite.CPUPresetSnapshot.CPUPresetSnapshot
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot.High*
+  commentId: Overload:Grunt.Models.HaloInfinite.CPUPresetSnapshot.High
+  parent: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: High
+  nameWithType: CPUPresetSnapshot.High
+  fullName: Grunt.Models.HaloInfinite.CPUPresetSnapshot.High
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low*
+  commentId: Overload:Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low
+  parent: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: Low
+  nameWithType: CPUPresetSnapshot.Low
+  fullName: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium*
+  commentId: Overload:Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium
+  parent: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: Medium
+  nameWithType: CPUPresetSnapshot.Medium
+  fullName: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra*
+  commentId: Overload:Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra
+  parent: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: Ultra
+  nameWithType: CPUPresetSnapshot.Ultra
+  fullName: Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra
+  monikers:
+  - net6.0
+  type: property

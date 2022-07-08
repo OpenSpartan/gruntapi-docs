@@ -1,0 +1,146 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  commentId: T:Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  id: PlayerCustomizationCollection
+  children:
+  - Grunt.Models.HaloInfinite.PlayerCustomizationCollection.#ctor
+  - Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations
+  langs:
+  - csharp
+  name: PlayerCustomizationCollection
+  nameWithType: Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  fullName: Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class PlayerCustomizationCollection
+    content.csharp: public class PlayerCustomizationCollection
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.PlayerCustomizationCollection.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.PlayerCustomizationCollection.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  langs:
+  - csharp
+  name: PlayerCustomizationCollection()
+  nameWithType: PlayerCustomizationCollection.PlayerCustomizationCollection()
+  fullName: Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizationCollection()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public PlayerCustomizationCollection ();
+    parameters: []
+    content.csharp: public PlayerCustomizationCollection ();
+  overload: Grunt.Models.HaloInfinite.PlayerCustomizationCollection.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations
+  commentId: P:Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations
+  id: PlayerCustomizations
+  parent: Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  langs:
+  - csharp
+  name: PlayerCustomizations
+  nameWithType: PlayerCustomizationCollection.PlayerCustomizations
+  fullName: Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.PlayerCustomization[] PlayerCustomizations { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.PlayerCustomization[]
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.PlayerCustomization[] PlayerCustomizations { get; set; }
+  overload: Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.PlayerCustomizationCollection.#ctor
+  parent: Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  isExternal: false
+  name: PlayerCustomizationCollection()
+  nameWithType: PlayerCustomizationCollection.PlayerCustomizationCollection()
+  fullName: Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizationCollection()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations
+  parent: Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  isExternal: false
+  name: PlayerCustomizations
+  nameWithType: PlayerCustomizationCollection.PlayerCustomizations
+  fullName: Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlayerCustomization
+  name: PlayerCustomization
+  nameWithType: PlayerCustomization
+  fullName: Grunt.Models.HaloInfinite.PlayerCustomization
+- uid: Grunt.Models.HaloInfinite.PlayerCustomization[]
+  parent: Grunt.Models.HaloInfinite
+  name: PlayerCustomization[]
+  nameWithType: PlayerCustomization[]
+  fullName: Grunt.Models.HaloInfinite.PlayerCustomization[]
+  spec.csharp:
+  - uid: Grunt.Models.HaloInfinite.PlayerCustomization
+    name: PlayerCustomization
+    nameWithType: PlayerCustomization
+    fullName: Grunt.Models.HaloInfinite.PlayerCustomization
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.HaloInfinite.PlayerCustomizationCollection.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlayerCustomizationCollection.#ctor
+  parent: Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  isExternal: false
+  name: PlayerCustomizationCollection
+  nameWithType: PlayerCustomizationCollection.PlayerCustomizationCollection
+  fullName: Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizationCollection
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations
+  parent: Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  isExternal: false
+  name: PlayerCustomizations
+  nameWithType: PlayerCustomizationCollection.PlayerCustomizations
+  fullName: Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations
+  monikers:
+  - net6.0
+  type: property

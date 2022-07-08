@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.AwardedReward
+  commentId: T:Grunt.Models.HaloInfinite.AwardedReward
+  id: AwardedReward
+  children:
+  - Grunt.Models.HaloInfinite.AwardedReward.#ctor
+  - Grunt.Models.HaloInfinite.AwardedReward.Reward
+  - Grunt.Models.HaloInfinite.AwardedReward.Status
+  langs:
+  - csharp
+  name: AwardedReward
+  nameWithType: Grunt.Models.HaloInfinite.AwardedReward
+  fullName: Grunt.Models.HaloInfinite.AwardedReward
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class AwardedReward
+    content.csharp: public class AwardedReward
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.AwardedReward.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.AwardedReward.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.AwardedReward
+  langs:
+  - csharp
+  name: AwardedReward()
+  nameWithType: AwardedReward.AwardedReward()
+  fullName: Grunt.Models.HaloInfinite.AwardedReward.AwardedReward()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public AwardedReward ();
+    parameters: []
+    content.csharp: public AwardedReward ();
+  overload: Grunt.Models.HaloInfinite.AwardedReward.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AwardedReward.Reward
+  commentId: P:Grunt.Models.HaloInfinite.AwardedReward.Reward
+  id: Reward
+  parent: Grunt.Models.HaloInfinite.AwardedReward
+  langs:
+  - csharp
+  name: Reward
+  nameWithType: AwardedReward.Reward
+  fullName: Grunt.Models.HaloInfinite.AwardedReward.Reward
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.Reward Reward { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.Reward
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.Reward Reward { get; set; }
+  overload: Grunt.Models.HaloInfinite.AwardedReward.Reward*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AwardedReward.Status
+  commentId: P:Grunt.Models.HaloInfinite.AwardedReward.Status
+  id: Status
+  parent: Grunt.Models.HaloInfinite.AwardedReward
+  langs:
+  - csharp
+  name: Status
+  nameWithType: AwardedReward.Status
+  fullName: Grunt.Models.HaloInfinite.AwardedReward.Status
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Status { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Status { get; set; }
+  overload: Grunt.Models.HaloInfinite.AwardedReward.Status*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.AwardedReward.#ctor
+  parent: Grunt.Models.HaloInfinite.AwardedReward
+  isExternal: false
+  name: AwardedReward()
+  nameWithType: AwardedReward.AwardedReward()
+  fullName: Grunt.Models.HaloInfinite.AwardedReward.AwardedReward()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AwardedReward.Reward
+  parent: Grunt.Models.HaloInfinite.AwardedReward
+  isExternal: false
+  name: Reward
+  nameWithType: AwardedReward.Reward
+  fullName: Grunt.Models.HaloInfinite.AwardedReward.Reward
+  type: property
+- uid: Grunt.Models.HaloInfinite.Reward
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Reward
+  nameWithType: Reward
+  fullName: Grunt.Models.HaloInfinite.Reward
+- uid: Grunt.Models.HaloInfinite.AwardedReward.Status
+  parent: Grunt.Models.HaloInfinite.AwardedReward
+  isExternal: false
+  name: Status
+  nameWithType: AwardedReward.Status
+  fullName: Grunt.Models.HaloInfinite.AwardedReward.Status
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.AwardedReward.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.AwardedReward.#ctor
+  parent: Grunt.Models.HaloInfinite.AwardedReward
+  isExternal: false
+  name: AwardedReward
+  nameWithType: AwardedReward.AwardedReward
+  fullName: Grunt.Models.HaloInfinite.AwardedReward.AwardedReward
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AwardedReward.Reward*
+  commentId: Overload:Grunt.Models.HaloInfinite.AwardedReward.Reward
+  parent: Grunt.Models.HaloInfinite.AwardedReward
+  isExternal: false
+  name: Reward
+  nameWithType: AwardedReward.Reward
+  fullName: Grunt.Models.HaloInfinite.AwardedReward.Reward
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AwardedReward.Status*
+  commentId: Overload:Grunt.Models.HaloInfinite.AwardedReward.Status
+  parent: Grunt.Models.HaloInfinite.AwardedReward
+  isExternal: false
+  name: Status
+  nameWithType: AwardedReward.Status
+  fullName: Grunt.Models.HaloInfinite.AwardedReward.Status
+  monikers:
+  - net6.0
+  type: property

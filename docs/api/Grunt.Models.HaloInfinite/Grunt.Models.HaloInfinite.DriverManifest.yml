@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.DriverManifest
+  commentId: T:Grunt.Models.HaloInfinite.DriverManifest
+  id: DriverManifest
+  children:
+  - Grunt.Models.HaloInfinite.DriverManifest.#ctor
+  - Grunt.Models.HaloInfinite.DriverManifest.AMD
+  - Grunt.Models.HaloInfinite.DriverManifest.Intel
+  - Grunt.Models.HaloInfinite.DriverManifest.Nvidia
+  - Grunt.Models.HaloInfinite.DriverManifest.Version
+  langs:
+  - csharp
+  name: DriverManifest
+  nameWithType: Grunt.Models.HaloInfinite.DriverManifest
+  fullName: Grunt.Models.HaloInfinite.DriverManifest
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class DriverManifest
+    content.csharp: public class DriverManifest
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.DriverManifest.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.DriverManifest.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.DriverManifest
+  langs:
+  - csharp
+  name: DriverManifest()
+  nameWithType: DriverManifest.DriverManifest()
+  fullName: Grunt.Models.HaloInfinite.DriverManifest.DriverManifest()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public DriverManifest ();
+    parameters: []
+    content.csharp: public DriverManifest ();
+  overload: Grunt.Models.HaloInfinite.DriverManifest.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.DriverManifest.AMD
+  commentId: P:Grunt.Models.HaloInfinite.DriverManifest.AMD
+  id: AMD
+  parent: Grunt.Models.HaloInfinite.DriverManifest
+  langs:
+  - csharp
+  name: AMD
+  nameWithType: DriverManifest.AMD
+  fullName: Grunt.Models.HaloInfinite.DriverManifest.AMD
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.DriverDetails AMD { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.DriverDetails
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.DriverDetails AMD { get; set; }
+  overload: Grunt.Models.HaloInfinite.DriverManifest.AMD*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.DriverManifest.Intel
+  commentId: P:Grunt.Models.HaloInfinite.DriverManifest.Intel
+  id: Intel
+  parent: Grunt.Models.HaloInfinite.DriverManifest
+  langs:
+  - csharp
+  name: Intel
+  nameWithType: DriverManifest.Intel
+  fullName: Grunt.Models.HaloInfinite.DriverManifest.Intel
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.DriverDetails Intel { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.DriverDetails
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.DriverDetails Intel { get; set; }
+  overload: Grunt.Models.HaloInfinite.DriverManifest.Intel*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.DriverManifest.Nvidia
+  commentId: P:Grunt.Models.HaloInfinite.DriverManifest.Nvidia
+  id: Nvidia
+  parent: Grunt.Models.HaloInfinite.DriverManifest
+  langs:
+  - csharp
+  name: Nvidia
+  nameWithType: DriverManifest.Nvidia
+  fullName: Grunt.Models.HaloInfinite.DriverManifest.Nvidia
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.DriverDetails Nvidia { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.DriverDetails
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.DriverDetails Nvidia { get; set; }
+  overload: Grunt.Models.HaloInfinite.DriverManifest.Nvidia*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.DriverManifest.Version
+  commentId: P:Grunt.Models.HaloInfinite.DriverManifest.Version
+  id: Version
+  parent: Grunt.Models.HaloInfinite.DriverManifest
+  langs:
+  - csharp
+  name: Version
+  nameWithType: DriverManifest.Version
+  fullName: Grunt.Models.HaloInfinite.DriverManifest.Version
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Version { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Version { get; set; }
+  overload: Grunt.Models.HaloInfinite.DriverManifest.Version*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.DriverManifest.#ctor
+  parent: Grunt.Models.HaloInfinite.DriverManifest
+  isExternal: false
+  name: DriverManifest()
+  nameWithType: DriverManifest.DriverManifest()
+  fullName: Grunt.Models.HaloInfinite.DriverManifest.DriverManifest()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.DriverManifest.AMD
+  parent: Grunt.Models.HaloInfinite.DriverManifest
+  isExternal: false
+  name: AMD
+  nameWithType: DriverManifest.AMD
+  fullName: Grunt.Models.HaloInfinite.DriverManifest.AMD
+  type: property
+- uid: Grunt.Models.HaloInfinite.DriverDetails
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: DriverDetails
+  nameWithType: DriverDetails
+  fullName: Grunt.Models.HaloInfinite.DriverDetails
+- uid: Grunt.Models.HaloInfinite.DriverManifest.Intel
+  parent: Grunt.Models.HaloInfinite.DriverManifest
+  isExternal: false
+  name: Intel
+  nameWithType: DriverManifest.Intel
+  fullName: Grunt.Models.HaloInfinite.DriverManifest.Intel
+  type: property
+- uid: Grunt.Models.HaloInfinite.DriverManifest.Nvidia
+  parent: Grunt.Models.HaloInfinite.DriverManifest
+  isExternal: false
+  name: Nvidia
+  nameWithType: DriverManifest.Nvidia
+  fullName: Grunt.Models.HaloInfinite.DriverManifest.Nvidia
+  type: property
+- uid: Grunt.Models.HaloInfinite.DriverManifest.Version
+  parent: Grunt.Models.HaloInfinite.DriverManifest
+  isExternal: false
+  name: Version
+  nameWithType: DriverManifest.Version
+  fullName: Grunt.Models.HaloInfinite.DriverManifest.Version
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.DriverManifest.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.DriverManifest.#ctor
+  parent: Grunt.Models.HaloInfinite.DriverManifest
+  isExternal: false
+  name: DriverManifest
+  nameWithType: DriverManifest.DriverManifest
+  fullName: Grunt.Models.HaloInfinite.DriverManifest.DriverManifest
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.DriverManifest.AMD*
+  commentId: Overload:Grunt.Models.HaloInfinite.DriverManifest.AMD
+  parent: Grunt.Models.HaloInfinite.DriverManifest
+  isExternal: false
+  name: AMD
+  nameWithType: DriverManifest.AMD
+  fullName: Grunt.Models.HaloInfinite.DriverManifest.AMD
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.DriverManifest.Intel*
+  commentId: Overload:Grunt.Models.HaloInfinite.DriverManifest.Intel
+  parent: Grunt.Models.HaloInfinite.DriverManifest
+  isExternal: false
+  name: Intel
+  nameWithType: DriverManifest.Intel
+  fullName: Grunt.Models.HaloInfinite.DriverManifest.Intel
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.DriverManifest.Nvidia*
+  commentId: Overload:Grunt.Models.HaloInfinite.DriverManifest.Nvidia
+  parent: Grunt.Models.HaloInfinite.DriverManifest
+  isExternal: false
+  name: Nvidia
+  nameWithType: DriverManifest.Nvidia
+  fullName: Grunt.Models.HaloInfinite.DriverManifest.Nvidia
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.DriverManifest.Version*
+  commentId: Overload:Grunt.Models.HaloInfinite.DriverManifest.Version
+  parent: Grunt.Models.HaloInfinite.DriverManifest
+  isExternal: false
+  name: Version
+  nameWithType: DriverManifest.Version
+  fullName: Grunt.Models.HaloInfinite.DriverManifest.Version
+  monikers:
+  - net6.0
+  type: property

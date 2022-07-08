@@ -1,0 +1,378 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.MatchResult
+  commentId: T:Grunt.Models.HaloInfinite.MatchResult
+  id: MatchResult
+  children:
+  - Grunt.Models.HaloInfinite.MatchResult.#ctor
+  - Grunt.Models.HaloInfinite.MatchResult.LastTeamId
+  - Grunt.Models.HaloInfinite.MatchResult.MatchId
+  - Grunt.Models.HaloInfinite.MatchResult.MatchInfo
+  - Grunt.Models.HaloInfinite.MatchResult.Outcome
+  - Grunt.Models.HaloInfinite.MatchResult.PresentAtEndOfMatch
+  - Grunt.Models.HaloInfinite.MatchResult.Rank
+  langs:
+  - csharp
+  name: MatchResult
+  nameWithType: Grunt.Models.HaloInfinite.MatchResult
+  fullName: Grunt.Models.HaloInfinite.MatchResult
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class MatchResult
+    content.csharp: public class MatchResult
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.MatchResult.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.MatchResult.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  langs:
+  - csharp
+  name: MatchResult()
+  nameWithType: MatchResult.MatchResult()
+  fullName: Grunt.Models.HaloInfinite.MatchResult.MatchResult()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public MatchResult ();
+    parameters: []
+    content.csharp: public MatchResult ();
+  overload: Grunt.Models.HaloInfinite.MatchResult.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.MatchResult.LastTeamId
+  commentId: P:Grunt.Models.HaloInfinite.MatchResult.LastTeamId
+  id: LastTeamId
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  langs:
+  - csharp
+  name: LastTeamId
+  nameWithType: MatchResult.LastTeamId
+  fullName: Grunt.Models.HaloInfinite.MatchResult.LastTeamId
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int LastTeamId { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int LastTeamId { get; set; }
+  overload: Grunt.Models.HaloInfinite.MatchResult.LastTeamId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.MatchResult.MatchId
+  commentId: P:Grunt.Models.HaloInfinite.MatchResult.MatchId
+  id: MatchId
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  langs:
+  - csharp
+  name: MatchId
+  nameWithType: MatchResult.MatchId
+  fullName: Grunt.Models.HaloInfinite.MatchResult.MatchId
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string MatchId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string MatchId { get; set; }
+  overload: Grunt.Models.HaloInfinite.MatchResult.MatchId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.MatchResult.MatchInfo
+  commentId: P:Grunt.Models.HaloInfinite.MatchResult.MatchInfo
+  id: MatchInfo
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  langs:
+  - csharp
+  name: MatchInfo
+  nameWithType: MatchResult.MatchInfo
+  fullName: Grunt.Models.HaloInfinite.MatchResult.MatchInfo
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.MatchInfo MatchInfo { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.MatchInfo
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.MatchInfo MatchInfo { get; set; }
+  overload: Grunt.Models.HaloInfinite.MatchResult.MatchInfo*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.MatchResult.Outcome
+  commentId: P:Grunt.Models.HaloInfinite.MatchResult.Outcome
+  id: Outcome
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  langs:
+  - csharp
+  name: Outcome
+  nameWithType: MatchResult.Outcome
+  fullName: Grunt.Models.HaloInfinite.MatchResult.Outcome
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Outcome { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Outcome { get; set; }
+  overload: Grunt.Models.HaloInfinite.MatchResult.Outcome*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.MatchResult.PresentAtEndOfMatch
+  commentId: P:Grunt.Models.HaloInfinite.MatchResult.PresentAtEndOfMatch
+  id: PresentAtEndOfMatch
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  langs:
+  - csharp
+  name: PresentAtEndOfMatch
+  nameWithType: MatchResult.PresentAtEndOfMatch
+  fullName: Grunt.Models.HaloInfinite.MatchResult.PresentAtEndOfMatch
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool PresentAtEndOfMatch { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool PresentAtEndOfMatch { get; set; }
+  overload: Grunt.Models.HaloInfinite.MatchResult.PresentAtEndOfMatch*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.MatchResult.Rank
+  commentId: P:Grunt.Models.HaloInfinite.MatchResult.Rank
+  id: Rank
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  langs:
+  - csharp
+  name: Rank
+  nameWithType: MatchResult.Rank
+  fullName: Grunt.Models.HaloInfinite.MatchResult.Rank
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Rank { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Rank { get; set; }
+  overload: Grunt.Models.HaloInfinite.MatchResult.Rank*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.MatchResult.#ctor
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  isExternal: false
+  name: MatchResult()
+  nameWithType: MatchResult.MatchResult()
+  fullName: Grunt.Models.HaloInfinite.MatchResult.MatchResult()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.MatchResult.LastTeamId
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  isExternal: false
+  name: LastTeamId
+  nameWithType: MatchResult.LastTeamId
+  fullName: Grunt.Models.HaloInfinite.MatchResult.LastTeamId
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.MatchResult.MatchId
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  isExternal: false
+  name: MatchId
+  nameWithType: MatchResult.MatchId
+  fullName: Grunt.Models.HaloInfinite.MatchResult.MatchId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.MatchResult.MatchInfo
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  isExternal: false
+  name: MatchInfo
+  nameWithType: MatchResult.MatchInfo
+  fullName: Grunt.Models.HaloInfinite.MatchResult.MatchInfo
+  type: property
+- uid: Grunt.Models.HaloInfinite.MatchInfo
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: MatchInfo
+  nameWithType: MatchInfo
+  fullName: Grunt.Models.HaloInfinite.MatchInfo
+- uid: Grunt.Models.HaloInfinite.MatchResult.Outcome
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  isExternal: false
+  name: Outcome
+  nameWithType: MatchResult.Outcome
+  fullName: Grunt.Models.HaloInfinite.MatchResult.Outcome
+  type: property
+- uid: Grunt.Models.HaloInfinite.MatchResult.PresentAtEndOfMatch
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  isExternal: false
+  name: PresentAtEndOfMatch
+  nameWithType: MatchResult.PresentAtEndOfMatch
+  fullName: Grunt.Models.HaloInfinite.MatchResult.PresentAtEndOfMatch
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Grunt.Models.HaloInfinite.MatchResult.Rank
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  isExternal: false
+  name: Rank
+  nameWithType: MatchResult.Rank
+  fullName: Grunt.Models.HaloInfinite.MatchResult.Rank
+  type: property
+- uid: Grunt.Models.HaloInfinite.MatchResult.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.MatchResult.#ctor
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  isExternal: false
+  name: MatchResult
+  nameWithType: MatchResult.MatchResult
+  fullName: Grunt.Models.HaloInfinite.MatchResult.MatchResult
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.MatchResult.LastTeamId*
+  commentId: Overload:Grunt.Models.HaloInfinite.MatchResult.LastTeamId
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  isExternal: false
+  name: LastTeamId
+  nameWithType: MatchResult.LastTeamId
+  fullName: Grunt.Models.HaloInfinite.MatchResult.LastTeamId
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.MatchResult.MatchId*
+  commentId: Overload:Grunt.Models.HaloInfinite.MatchResult.MatchId
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  isExternal: false
+  name: MatchId
+  nameWithType: MatchResult.MatchId
+  fullName: Grunt.Models.HaloInfinite.MatchResult.MatchId
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.MatchResult.MatchInfo*
+  commentId: Overload:Grunt.Models.HaloInfinite.MatchResult.MatchInfo
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  isExternal: false
+  name: MatchInfo
+  nameWithType: MatchResult.MatchInfo
+  fullName: Grunt.Models.HaloInfinite.MatchResult.MatchInfo
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.MatchResult.Outcome*
+  commentId: Overload:Grunt.Models.HaloInfinite.MatchResult.Outcome
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  isExternal: false
+  name: Outcome
+  nameWithType: MatchResult.Outcome
+  fullName: Grunt.Models.HaloInfinite.MatchResult.Outcome
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.MatchResult.PresentAtEndOfMatch*
+  commentId: Overload:Grunt.Models.HaloInfinite.MatchResult.PresentAtEndOfMatch
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  isExternal: false
+  name: PresentAtEndOfMatch
+  nameWithType: MatchResult.PresentAtEndOfMatch
+  fullName: Grunt.Models.HaloInfinite.MatchResult.PresentAtEndOfMatch
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.MatchResult.Rank*
+  commentId: Overload:Grunt.Models.HaloInfinite.MatchResult.Rank
+  parent: Grunt.Models.HaloInfinite.MatchResult
+  isExternal: false
+  name: Rank
+  nameWithType: MatchResult.Rank
+  fullName: Grunt.Models.HaloInfinite.MatchResult.Rank
+  monikers:
+  - net6.0
+  type: property

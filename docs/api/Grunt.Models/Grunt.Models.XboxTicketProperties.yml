@@ -1,0 +1,451 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.XboxTicketProperties
+  commentId: T:Grunt.Models.XboxTicketProperties
+  id: XboxTicketProperties
+  children:
+  - Grunt.Models.XboxTicketProperties.#ctor
+  - Grunt.Models.XboxTicketProperties.AuthMethod
+  - Grunt.Models.XboxTicketProperties.RpsTicket
+  - Grunt.Models.XboxTicketProperties.SandboxId
+  - Grunt.Models.XboxTicketProperties.SiteName
+  - Grunt.Models.XboxTicketProperties.UseModernGamertag
+  - Grunt.Models.XboxTicketProperties.UserTokens
+  langs:
+  - csharp
+  name: XboxTicketProperties
+  nameWithType: Grunt.Models.XboxTicketProperties
+  fullName: Grunt.Models.XboxTicketProperties
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: public class XboxTicketProperties
+    content.csharp: public class XboxTicketProperties
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.XboxTicketProperties.#ctor
+  commentId: M:Grunt.Models.XboxTicketProperties.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.XboxTicketProperties
+  langs:
+  - csharp
+  name: XboxTicketProperties()
+  nameWithType: XboxTicketProperties.XboxTicketProperties()
+  fullName: Grunt.Models.XboxTicketProperties.XboxTicketProperties()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: public XboxTicketProperties ();
+    parameters: []
+    content.csharp: public XboxTicketProperties ();
+  overload: Grunt.Models.XboxTicketProperties.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.XboxTicketProperties.AuthMethod
+  commentId: P:Grunt.Models.XboxTicketProperties.AuthMethod
+  id: AuthMethod
+  parent: Grunt.Models.XboxTicketProperties
+  langs:
+  - csharp
+  name: AuthMethod
+  nameWithType: XboxTicketProperties.AuthMethod
+  fullName: Grunt.Models.XboxTicketProperties.AuthMethod
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: >-
+      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+
+      public string AuthMethod { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+
+      public string AuthMethod { get; set; }
+  overload: Grunt.Models.XboxTicketProperties.AuthMethod*
+  exceptions: []
+  attributes:
+  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.XboxTicketProperties.RpsTicket
+  commentId: P:Grunt.Models.XboxTicketProperties.RpsTicket
+  id: RpsTicket
+  parent: Grunt.Models.XboxTicketProperties
+  langs:
+  - csharp
+  name: RpsTicket
+  nameWithType: XboxTicketProperties.RpsTicket
+  fullName: Grunt.Models.XboxTicketProperties.RpsTicket
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: >-
+      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+
+      public string RpsTicket { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+
+      public string RpsTicket { get; set; }
+  overload: Grunt.Models.XboxTicketProperties.RpsTicket*
+  exceptions: []
+  attributes:
+  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.XboxTicketProperties.SandboxId
+  commentId: P:Grunt.Models.XboxTicketProperties.SandboxId
+  id: SandboxId
+  parent: Grunt.Models.XboxTicketProperties
+  langs:
+  - csharp
+  name: SandboxId
+  nameWithType: XboxTicketProperties.SandboxId
+  fullName: Grunt.Models.XboxTicketProperties.SandboxId
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: >-
+      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+
+      public string SandboxId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+
+      public string SandboxId { get; set; }
+  overload: Grunt.Models.XboxTicketProperties.SandboxId*
+  exceptions: []
+  attributes:
+  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.XboxTicketProperties.SiteName
+  commentId: P:Grunt.Models.XboxTicketProperties.SiteName
+  id: SiteName
+  parent: Grunt.Models.XboxTicketProperties
+  langs:
+  - csharp
+  name: SiteName
+  nameWithType: XboxTicketProperties.SiteName
+  fullName: Grunt.Models.XboxTicketProperties.SiteName
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: >-
+      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+
+      public string SiteName { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+
+      public string SiteName { get; set; }
+  overload: Grunt.Models.XboxTicketProperties.SiteName*
+  exceptions: []
+  attributes:
+  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.XboxTicketProperties.UseModernGamertag
+  commentId: P:Grunt.Models.XboxTicketProperties.UseModernGamertag
+  id: UseModernGamertag
+  parent: Grunt.Models.XboxTicketProperties
+  langs:
+  - csharp
+  name: UseModernGamertag
+  nameWithType: XboxTicketProperties.UseModernGamertag
+  fullName: Grunt.Models.XboxTicketProperties.UseModernGamertag
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: >-
+      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+
+      public bool? UseModernGamertag { get; set; }
+    return:
+      type: System.Nullable{System.Boolean}
+      description: ''
+    content.csharp: >-
+      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+
+      public bool? UseModernGamertag { get; set; }
+  overload: Grunt.Models.XboxTicketProperties.UseModernGamertag*
+  exceptions: []
+  attributes:
+  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.XboxTicketProperties.UserTokens
+  commentId: P:Grunt.Models.XboxTicketProperties.UserTokens
+  id: UserTokens
+  parent: Grunt.Models.XboxTicketProperties
+  langs:
+  - csharp
+  name: UserTokens
+  nameWithType: XboxTicketProperties.UserTokens
+  fullName: Grunt.Models.XboxTicketProperties.UserTokens
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: >-
+      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+
+      public string[] UserTokens { get; set; }
+    return:
+      type: System.String[]
+      description: ''
+    content.csharp: >-
+      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+
+      public string[] UserTokens { get; set; }
+  overload: Grunt.Models.XboxTicketProperties.UserTokens*
+  exceptions: []
+  attributes:
+  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models
+  commentId: N:Grunt.Models
+  isExternal: false
+  name: Grunt.Models
+  nameWithType: Grunt.Models
+  fullName: Grunt.Models
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.XboxTicketProperties.#ctor
+  parent: Grunt.Models.XboxTicketProperties
+  isExternal: false
+  name: XboxTicketProperties()
+  nameWithType: XboxTicketProperties.XboxTicketProperties()
+  fullName: Grunt.Models.XboxTicketProperties.XboxTicketProperties()
+  type: constructor
+- uid: Grunt.Models.XboxTicketProperties.AuthMethod
+  parent: Grunt.Models.XboxTicketProperties
+  isExternal: false
+  name: AuthMethod
+  nameWithType: XboxTicketProperties.AuthMethod
+  fullName: Grunt.Models.XboxTicketProperties.AuthMethod
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.XboxTicketProperties.RpsTicket
+  parent: Grunt.Models.XboxTicketProperties
+  isExternal: false
+  name: RpsTicket
+  nameWithType: XboxTicketProperties.RpsTicket
+  fullName: Grunt.Models.XboxTicketProperties.RpsTicket
+  type: property
+- uid: Grunt.Models.XboxTicketProperties.SandboxId
+  parent: Grunt.Models.XboxTicketProperties
+  isExternal: false
+  name: SandboxId
+  nameWithType: XboxTicketProperties.SandboxId
+  fullName: Grunt.Models.XboxTicketProperties.SandboxId
+  type: property
+- uid: Grunt.Models.XboxTicketProperties.SiteName
+  parent: Grunt.Models.XboxTicketProperties
+  isExternal: false
+  name: SiteName
+  nameWithType: XboxTicketProperties.SiteName
+  fullName: Grunt.Models.XboxTicketProperties.SiteName
+  type: property
+- uid: Grunt.Models.XboxTicketProperties.UseModernGamertag
+  parent: Grunt.Models.XboxTicketProperties
+  isExternal: false
+  name: UseModernGamertag
+  nameWithType: XboxTicketProperties.UseModernGamertag
+  fullName: Grunt.Models.XboxTicketProperties.UseModernGamertag
+  type: property
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable
+  nameWithType: Nullable
+  fullName: System.Nullable
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Nullable{System.Boolean}
+  parent: System
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.XboxTicketProperties.UserTokens
+  parent: Grunt.Models.XboxTicketProperties
+  isExternal: false
+  name: UserTokens
+  nameWithType: XboxTicketProperties.UserTokens
+  fullName: Grunt.Models.XboxTicketProperties.UserTokens
+  type: property
+- uid: System.String[]
+  parent: System
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.XboxTicketProperties.#ctor*
+  commentId: Overload:Grunt.Models.XboxTicketProperties.#ctor
+  parent: Grunt.Models.XboxTicketProperties
+  isExternal: false
+  name: XboxTicketProperties
+  nameWithType: XboxTicketProperties.XboxTicketProperties
+  fullName: Grunt.Models.XboxTicketProperties.XboxTicketProperties
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.XboxTicketProperties.AuthMethod*
+  commentId: Overload:Grunt.Models.XboxTicketProperties.AuthMethod
+  parent: Grunt.Models.XboxTicketProperties
+  isExternal: false
+  name: AuthMethod
+  nameWithType: XboxTicketProperties.AuthMethod
+  fullName: Grunt.Models.XboxTicketProperties.AuthMethod
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.XboxTicketProperties.RpsTicket*
+  commentId: Overload:Grunt.Models.XboxTicketProperties.RpsTicket
+  parent: Grunt.Models.XboxTicketProperties
+  isExternal: false
+  name: RpsTicket
+  nameWithType: XboxTicketProperties.RpsTicket
+  fullName: Grunt.Models.XboxTicketProperties.RpsTicket
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.XboxTicketProperties.SandboxId*
+  commentId: Overload:Grunt.Models.XboxTicketProperties.SandboxId
+  parent: Grunt.Models.XboxTicketProperties
+  isExternal: false
+  name: SandboxId
+  nameWithType: XboxTicketProperties.SandboxId
+  fullName: Grunt.Models.XboxTicketProperties.SandboxId
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.XboxTicketProperties.SiteName*
+  commentId: Overload:Grunt.Models.XboxTicketProperties.SiteName
+  parent: Grunt.Models.XboxTicketProperties
+  isExternal: false
+  name: SiteName
+  nameWithType: XboxTicketProperties.SiteName
+  fullName: Grunt.Models.XboxTicketProperties.SiteName
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.XboxTicketProperties.UseModernGamertag*
+  commentId: Overload:Grunt.Models.XboxTicketProperties.UseModernGamertag
+  parent: Grunt.Models.XboxTicketProperties
+  isExternal: false
+  name: UseModernGamertag
+  nameWithType: XboxTicketProperties.UseModernGamertag
+  fullName: Grunt.Models.XboxTicketProperties.UseModernGamertag
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.XboxTicketProperties.UserTokens*
+  commentId: Overload:Grunt.Models.XboxTicketProperties.UserTokens
+  parent: Grunt.Models.XboxTicketProperties
+  isExternal: false
+  name: UserTokens
+  nameWithType: XboxTicketProperties.UserTokens
+  fullName: Grunt.Models.XboxTicketProperties.UserTokens
+  monikers:
+  - net6.0
+  type: property

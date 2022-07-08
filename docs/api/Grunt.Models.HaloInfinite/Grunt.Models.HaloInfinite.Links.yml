@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.Links
+  commentId: T:Grunt.Models.HaloInfinite.Links
+  id: Links
+  children:
+  - Grunt.Models.HaloInfinite.Links.#ctor
+  - Grunt.Models.HaloInfinite.Links.Self
+  langs:
+  - csharp
+  name: Links
+  nameWithType: Grunt.Models.HaloInfinite.Links
+  fullName: Grunt.Models.HaloInfinite.Links
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class Links
+    content.csharp: public class Links
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.Links.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.Links.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.Links
+  langs:
+  - csharp
+  name: Links()
+  nameWithType: Links.Links()
+  fullName: Grunt.Models.HaloInfinite.Links.Links()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Links ();
+    parameters: []
+    content.csharp: public Links ();
+  overload: Grunt.Models.HaloInfinite.Links.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Links.Self
+  commentId: P:Grunt.Models.HaloInfinite.Links.Self
+  id: Self
+  parent: Grunt.Models.HaloInfinite.Links
+  langs:
+  - csharp
+  name: Self
+  nameWithType: Links.Self
+  fullName: Grunt.Models.HaloInfinite.Links.Self
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.Link Self { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.Link
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.Link Self { get; set; }
+  overload: Grunt.Models.HaloInfinite.Links.Self*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.Links.#ctor
+  parent: Grunt.Models.HaloInfinite.Links
+  isExternal: false
+  name: Links()
+  nameWithType: Links.Links()
+  fullName: Grunt.Models.HaloInfinite.Links.Links()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.Links.Self
+  parent: Grunt.Models.HaloInfinite.Links
+  isExternal: false
+  name: Self
+  nameWithType: Links.Self
+  fullName: Grunt.Models.HaloInfinite.Links.Self
+  type: property
+- uid: Grunt.Models.HaloInfinite.Link
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Link
+  nameWithType: Link
+  fullName: Grunt.Models.HaloInfinite.Link
+- uid: Grunt.Models.HaloInfinite.Links.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.Links.#ctor
+  parent: Grunt.Models.HaloInfinite.Links
+  isExternal: false
+  name: Links
+  nameWithType: Links.Links
+  fullName: Grunt.Models.HaloInfinite.Links.Links
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.Links.Self*
+  commentId: Overload:Grunt.Models.HaloInfinite.Links.Self
+  parent: Grunt.Models.HaloInfinite.Links
+  isExternal: false
+  name: Self
+  nameWithType: Links.Self
+  fullName: Grunt.Models.HaloInfinite.Links.Self
+  monikers:
+  - net6.0
+  type: property

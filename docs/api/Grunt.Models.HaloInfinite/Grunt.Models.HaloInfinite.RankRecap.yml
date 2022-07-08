@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.RankRecap
+  commentId: T:Grunt.Models.HaloInfinite.RankRecap
+  id: RankRecap
+  children:
+  - Grunt.Models.HaloInfinite.RankRecap.#ctor
+  - Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr
+  - Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr
+  langs:
+  - csharp
+  name: RankRecap
+  nameWithType: Grunt.Models.HaloInfinite.RankRecap
+  fullName: Grunt.Models.HaloInfinite.RankRecap
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class RankRecap
+    content.csharp: public class RankRecap
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.RankRecap.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.RankRecap.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.RankRecap
+  langs:
+  - csharp
+  name: RankRecap()
+  nameWithType: RankRecap.RankRecap()
+  fullName: Grunt.Models.HaloInfinite.RankRecap.RankRecap()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public RankRecap ();
+    parameters: []
+    content.csharp: public RankRecap ();
+  overload: Grunt.Models.HaloInfinite.RankRecap.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr
+  commentId: P:Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr
+  id: PostMatchCsr
+  parent: Grunt.Models.HaloInfinite.RankRecap
+  langs:
+  - csharp
+  name: PostMatchCsr
+  nameWithType: RankRecap.PostMatchCsr
+  fullName: Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.MatchCsr PostMatchCsr { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.MatchCsr
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.MatchCsr PostMatchCsr { get; set; }
+  overload: Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr
+  commentId: P:Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr
+  id: PreMatchCsr
+  parent: Grunt.Models.HaloInfinite.RankRecap
+  langs:
+  - csharp
+  name: PreMatchCsr
+  nameWithType: RankRecap.PreMatchCsr
+  fullName: Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.MatchCsr PreMatchCsr { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.MatchCsr
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.MatchCsr PreMatchCsr { get; set; }
+  overload: Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.RankRecap.#ctor
+  parent: Grunt.Models.HaloInfinite.RankRecap
+  isExternal: false
+  name: RankRecap()
+  nameWithType: RankRecap.RankRecap()
+  fullName: Grunt.Models.HaloInfinite.RankRecap.RankRecap()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr
+  parent: Grunt.Models.HaloInfinite.RankRecap
+  isExternal: false
+  name: PostMatchCsr
+  nameWithType: RankRecap.PostMatchCsr
+  fullName: Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr
+  type: property
+- uid: Grunt.Models.HaloInfinite.MatchCsr
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: MatchCsr
+  nameWithType: MatchCsr
+  fullName: Grunt.Models.HaloInfinite.MatchCsr
+- uid: Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr
+  parent: Grunt.Models.HaloInfinite.RankRecap
+  isExternal: false
+  name: PreMatchCsr
+  nameWithType: RankRecap.PreMatchCsr
+  fullName: Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr
+  type: property
+- uid: Grunt.Models.HaloInfinite.RankRecap.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.RankRecap.#ctor
+  parent: Grunt.Models.HaloInfinite.RankRecap
+  isExternal: false
+  name: RankRecap
+  nameWithType: RankRecap.RankRecap
+  fullName: Grunt.Models.HaloInfinite.RankRecap.RankRecap
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr*
+  commentId: Overload:Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr
+  parent: Grunt.Models.HaloInfinite.RankRecap
+  isExternal: false
+  name: PostMatchCsr
+  nameWithType: RankRecap.PostMatchCsr
+  fullName: Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr*
+  commentId: Overload:Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr
+  parent: Grunt.Models.HaloInfinite.RankRecap
+  isExternal: false
+  name: PreMatchCsr
+  nameWithType: RankRecap.PreMatchCsr
+  fullName: Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr
+  monikers:
+  - net6.0
+  type: property

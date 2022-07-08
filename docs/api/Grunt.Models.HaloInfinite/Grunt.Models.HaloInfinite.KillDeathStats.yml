@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.KillDeathStats
+  commentId: T:Grunt.Models.HaloInfinite.KillDeathStats
+  id: KillDeathStats
+  children:
+  - Grunt.Models.HaloInfinite.KillDeathStats.#ctor
+  - Grunt.Models.HaloInfinite.KillDeathStats.Deaths
+  - Grunt.Models.HaloInfinite.KillDeathStats.Kills
+  langs:
+  - csharp
+  name: KillDeathStats
+  nameWithType: Grunt.Models.HaloInfinite.KillDeathStats
+  fullName: Grunt.Models.HaloInfinite.KillDeathStats
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class KillDeathStats
+    content.csharp: public class KillDeathStats
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.KillDeathStats.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.KillDeathStats.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.KillDeathStats
+  langs:
+  - csharp
+  name: KillDeathStats()
+  nameWithType: KillDeathStats.KillDeathStats()
+  fullName: Grunt.Models.HaloInfinite.KillDeathStats.KillDeathStats()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public KillDeathStats ();
+    parameters: []
+    content.csharp: public KillDeathStats ();
+  overload: Grunt.Models.HaloInfinite.KillDeathStats.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.KillDeathStats.Deaths
+  commentId: P:Grunt.Models.HaloInfinite.KillDeathStats.Deaths
+  id: Deaths
+  parent: Grunt.Models.HaloInfinite.KillDeathStats
+  langs:
+  - csharp
+  name: Deaths
+  nameWithType: KillDeathStats.Deaths
+  fullName: Grunt.Models.HaloInfinite.KillDeathStats.Deaths
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public double Deaths { get; set; }
+    return:
+      type: System.Double
+      description: ''
+    content.csharp: public double Deaths { get; set; }
+  overload: Grunt.Models.HaloInfinite.KillDeathStats.Deaths*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.KillDeathStats.Kills
+  commentId: P:Grunt.Models.HaloInfinite.KillDeathStats.Kills
+  id: Kills
+  parent: Grunt.Models.HaloInfinite.KillDeathStats
+  langs:
+  - csharp
+  name: Kills
+  nameWithType: KillDeathStats.Kills
+  fullName: Grunt.Models.HaloInfinite.KillDeathStats.Kills
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public double Kills { get; set; }
+    return:
+      type: System.Double
+      description: ''
+    content.csharp: public double Kills { get; set; }
+  overload: Grunt.Models.HaloInfinite.KillDeathStats.Kills*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.KillDeathStats.#ctor
+  parent: Grunt.Models.HaloInfinite.KillDeathStats
+  isExternal: false
+  name: KillDeathStats()
+  nameWithType: KillDeathStats.KillDeathStats()
+  fullName: Grunt.Models.HaloInfinite.KillDeathStats.KillDeathStats()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.KillDeathStats.Deaths
+  parent: Grunt.Models.HaloInfinite.KillDeathStats
+  isExternal: false
+  name: Deaths
+  nameWithType: KillDeathStats.Deaths
+  fullName: Grunt.Models.HaloInfinite.KillDeathStats.Deaths
+  type: property
+- uid: System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Grunt.Models.HaloInfinite.KillDeathStats.Kills
+  parent: Grunt.Models.HaloInfinite.KillDeathStats
+  isExternal: false
+  name: Kills
+  nameWithType: KillDeathStats.Kills
+  fullName: Grunt.Models.HaloInfinite.KillDeathStats.Kills
+  type: property
+- uid: Grunt.Models.HaloInfinite.KillDeathStats.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.KillDeathStats.#ctor
+  parent: Grunt.Models.HaloInfinite.KillDeathStats
+  isExternal: false
+  name: KillDeathStats
+  nameWithType: KillDeathStats.KillDeathStats
+  fullName: Grunt.Models.HaloInfinite.KillDeathStats.KillDeathStats
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.KillDeathStats.Deaths*
+  commentId: Overload:Grunt.Models.HaloInfinite.KillDeathStats.Deaths
+  parent: Grunt.Models.HaloInfinite.KillDeathStats
+  isExternal: false
+  name: Deaths
+  nameWithType: KillDeathStats.Deaths
+  fullName: Grunt.Models.HaloInfinite.KillDeathStats.Deaths
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.KillDeathStats.Kills*
+  commentId: Overload:Grunt.Models.HaloInfinite.KillDeathStats.Kills
+  parent: Grunt.Models.HaloInfinite.KillDeathStats
+  isExternal: false
+  name: Kills
+  nameWithType: KillDeathStats.Kills
+  fullName: Grunt.Models.HaloInfinite.KillDeathStats.Kills
+  monikers:
+  - net6.0
+  type: property

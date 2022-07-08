@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+  commentId: T:Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+  id: MicrosoftStoreTitleConfiguration
+  children:
+  - Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.#ctor
+  - Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi
+  - Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi343
+  langs:
+  - csharp
+  name: MicrosoftStoreTitleConfiguration
+  nameWithType: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class MicrosoftStoreTitleConfiguration
+    content.csharp: public class MicrosoftStoreTitleConfiguration
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+  langs:
+  - csharp
+  name: MicrosoftStoreTitleConfiguration()
+  nameWithType: MicrosoftStoreTitleConfiguration.MicrosoftStoreTitleConfiguration()
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.MicrosoftStoreTitleConfiguration()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public MicrosoftStoreTitleConfiguration ();
+    parameters: []
+    content.csharp: public MicrosoftStoreTitleConfiguration ();
+  overload: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi
+  commentId: P:Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi
+  id: hi
+  parent: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+  langs:
+  - csharp
+  name: hi
+  nameWithType: MicrosoftStoreTitleConfiguration.hi
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.HaloInfiniteMicrosoftStoreTitle hi { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.HaloInfiniteMicrosoftStoreTitle
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.HaloInfiniteMicrosoftStoreTitle hi { get; set; }
+  overload: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi343
+  commentId: P:Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi343
+  id: hi343
+  parent: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+  langs:
+  - csharp
+  name: hi343
+  nameWithType: MicrosoftStoreTitleConfiguration.hi343
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi343
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle hi343 { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle hi343 { get; set; }
+  overload: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi343*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.#ctor
+  parent: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+  isExternal: false
+  name: MicrosoftStoreTitleConfiguration()
+  nameWithType: MicrosoftStoreTitleConfiguration.MicrosoftStoreTitleConfiguration()
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.MicrosoftStoreTitleConfiguration()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi
+  parent: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+  isExternal: false
+  name: hi
+  nameWithType: MicrosoftStoreTitleConfiguration.hi
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi
+  type: property
+- uid: Grunt.Models.HaloInfinite.HaloInfiniteMicrosoftStoreTitle
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: HaloInfiniteMicrosoftStoreTitle
+  nameWithType: HaloInfiniteMicrosoftStoreTitle
+  fullName: Grunt.Models.HaloInfinite.HaloInfiniteMicrosoftStoreTitle
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi343
+  parent: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+  isExternal: false
+  name: hi343
+  nameWithType: MicrosoftStoreTitleConfiguration.hi343
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi343
+  type: property
+- uid: Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: HaloInfinite343MicrosoftStoreTitle
+  nameWithType: HaloInfinite343MicrosoftStoreTitle
+  fullName: Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.#ctor
+  parent: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+  isExternal: false
+  name: MicrosoftStoreTitleConfiguration
+  nameWithType: MicrosoftStoreTitleConfiguration.MicrosoftStoreTitleConfiguration
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.MicrosoftStoreTitleConfiguration
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi*
+  commentId: Overload:Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi
+  parent: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+  isExternal: false
+  name: hi
+  nameWithType: MicrosoftStoreTitleConfiguration.hi
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi343*
+  commentId: Overload:Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi343
+  parent: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+  isExternal: false
+  name: hi343
+  nameWithType: MicrosoftStoreTitleConfiguration.hi343
+  fullName: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration.hi343
+  monikers:
+  - net6.0
+  type: property

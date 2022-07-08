@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.SpartanToken
+  commentId: T:Grunt.Models.SpartanToken
+  id: SpartanToken
+  children:
+  - Grunt.Models.SpartanToken.#ctor
+  - Grunt.Models.SpartanToken.ExpiresUtc
+  - Grunt.Models.SpartanToken.Token
+  - Grunt.Models.SpartanToken.TokenDuration
+  langs:
+  - csharp
+  name: SpartanToken
+  nameWithType: Grunt.Models.SpartanToken
+  fullName: Grunt.Models.SpartanToken
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: public class SpartanToken
+    content.csharp: public class SpartanToken
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.SpartanToken.#ctor
+  commentId: M:Grunt.Models.SpartanToken.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.SpartanToken
+  langs:
+  - csharp
+  name: SpartanToken()
+  nameWithType: SpartanToken.SpartanToken()
+  fullName: Grunt.Models.SpartanToken.SpartanToken()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: public SpartanToken ();
+    parameters: []
+    content.csharp: public SpartanToken ();
+  overload: Grunt.Models.SpartanToken.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.SpartanToken.ExpiresUtc
+  commentId: P:Grunt.Models.SpartanToken.ExpiresUtc
+  id: ExpiresUtc
+  parent: Grunt.Models.SpartanToken
+  langs:
+  - csharp
+  name: ExpiresUtc
+  nameWithType: SpartanToken.ExpiresUtc
+  fullName: Grunt.Models.SpartanToken.ExpiresUtc
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: public Grunt.Models.APIFormattedDate ExpiresUtc { get; set; }
+    return:
+      type: Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public Grunt.Models.APIFormattedDate ExpiresUtc { get; set; }
+  overload: Grunt.Models.SpartanToken.ExpiresUtc*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.SpartanToken.Token
+  commentId: P:Grunt.Models.SpartanToken.Token
+  id: Token
+  parent: Grunt.Models.SpartanToken
+  langs:
+  - csharp
+  name: Token
+  nameWithType: SpartanToken.Token
+  fullName: Grunt.Models.SpartanToken.Token
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: >-
+      [[Newtonsoft.Json.JsonProperty("SpartanToken")]]
+
+      public string Token { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[Newtonsoft.Json.JsonProperty("SpartanToken")]]
+
+      public string Token { get; set; }
+  overload: Grunt.Models.SpartanToken.Token*
+  exceptions: []
+  attributes:
+  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.SpartanToken.TokenDuration
+  commentId: P:Grunt.Models.SpartanToken.TokenDuration
+  id: TokenDuration
+  parent: Grunt.Models.SpartanToken
+  langs:
+  - csharp
+  name: TokenDuration
+  nameWithType: SpartanToken.TokenDuration
+  fullName: Grunt.Models.SpartanToken.TokenDuration
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: public string TokenDuration { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string TokenDuration { get; set; }
+  overload: Grunt.Models.SpartanToken.TokenDuration*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models
+  commentId: N:Grunt.Models
+  isExternal: false
+  name: Grunt.Models
+  nameWithType: Grunt.Models
+  fullName: Grunt.Models
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.SpartanToken.#ctor
+  parent: Grunt.Models.SpartanToken
+  isExternal: false
+  name: SpartanToken()
+  nameWithType: SpartanToken.SpartanToken()
+  fullName: Grunt.Models.SpartanToken.SpartanToken()
+  type: constructor
+- uid: Grunt.Models.SpartanToken.ExpiresUtc
+  parent: Grunt.Models.SpartanToken
+  isExternal: false
+  name: ExpiresUtc
+  nameWithType: SpartanToken.ExpiresUtc
+  fullName: Grunt.Models.SpartanToken.ExpiresUtc
+  type: property
+- uid: Grunt.Models.APIFormattedDate
+  parent: Grunt.Models
+  isExternal: false
+  name: APIFormattedDate
+  nameWithType: APIFormattedDate
+  fullName: Grunt.Models.APIFormattedDate
+- uid: Grunt.Models.SpartanToken.Token
+  parent: Grunt.Models.SpartanToken
+  isExternal: false
+  name: Token
+  nameWithType: SpartanToken.Token
+  fullName: Grunt.Models.SpartanToken.Token
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.SpartanToken.TokenDuration
+  parent: Grunt.Models.SpartanToken
+  isExternal: false
+  name: TokenDuration
+  nameWithType: SpartanToken.TokenDuration
+  fullName: Grunt.Models.SpartanToken.TokenDuration
+  type: property
+- uid: Grunt.Models.SpartanToken.#ctor*
+  commentId: Overload:Grunt.Models.SpartanToken.#ctor
+  parent: Grunt.Models.SpartanToken
+  isExternal: false
+  name: SpartanToken
+  nameWithType: SpartanToken.SpartanToken
+  fullName: Grunt.Models.SpartanToken.SpartanToken
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.SpartanToken.ExpiresUtc*
+  commentId: Overload:Grunt.Models.SpartanToken.ExpiresUtc
+  parent: Grunt.Models.SpartanToken
+  isExternal: false
+  name: ExpiresUtc
+  nameWithType: SpartanToken.ExpiresUtc
+  fullName: Grunt.Models.SpartanToken.ExpiresUtc
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.SpartanToken.Token*
+  commentId: Overload:Grunt.Models.SpartanToken.Token
+  parent: Grunt.Models.SpartanToken
+  isExternal: false
+  name: Token
+  nameWithType: SpartanToken.Token
+  fullName: Grunt.Models.SpartanToken.Token
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.SpartanToken.TokenDuration*
+  commentId: Overload:Grunt.Models.SpartanToken.TokenDuration
+  parent: Grunt.Models.SpartanToken
+  isExternal: false
+  name: TokenDuration
+  nameWithType: SpartanToken.TokenDuration
+  fullName: Grunt.Models.SpartanToken.TokenDuration
+  monikers:
+  - net6.0
+  type: property

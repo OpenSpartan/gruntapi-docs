@@ -1,0 +1,327 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.AcademySeries
+  commentId: T:Grunt.Models.HaloInfinite.AcademySeries
+  id: AcademySeries
+  children:
+  - Grunt.Models.HaloInfinite.AcademySeries.#ctor
+  - Grunt.Models.HaloInfinite.AcademySeries.Available
+  - Grunt.Models.HaloInfinite.AcademySeries.Description
+  - Grunt.Models.HaloInfinite.AcademySeries.GameAssetID
+  - Grunt.Models.HaloInfinite.AcademySeries.MapAssetID
+  - Grunt.Models.HaloInfinite.AcademySeries.Title
+  langs:
+  - csharp
+  name: AcademySeries
+  nameWithType: Grunt.Models.HaloInfinite.AcademySeries
+  fullName: Grunt.Models.HaloInfinite.AcademySeries
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class AcademySeries
+    content.csharp: public class AcademySeries
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.AcademySeries.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.AcademySeries.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  langs:
+  - csharp
+  name: AcademySeries()
+  nameWithType: AcademySeries.AcademySeries()
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.AcademySeries()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public AcademySeries ();
+    parameters: []
+    content.csharp: public AcademySeries ();
+  overload: Grunt.Models.HaloInfinite.AcademySeries.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AcademySeries.Available
+  commentId: P:Grunt.Models.HaloInfinite.AcademySeries.Available
+  id: Available
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  langs:
+  - csharp
+  name: Available
+  nameWithType: AcademySeries.Available
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.Available
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool Available { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool Available { get; set; }
+  overload: Grunt.Models.HaloInfinite.AcademySeries.Available*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AcademySeries.Description
+  commentId: P:Grunt.Models.HaloInfinite.AcademySeries.Description
+  id: Description
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  langs:
+  - csharp
+  name: Description
+  nameWithType: AcademySeries.Description
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.Description
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.DisplayString Description { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.DisplayString Description { get; set; }
+  overload: Grunt.Models.HaloInfinite.AcademySeries.Description*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AcademySeries.GameAssetID
+  commentId: P:Grunt.Models.HaloInfinite.AcademySeries.GameAssetID
+  id: GameAssetID
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  langs:
+  - csharp
+  name: GameAssetID
+  nameWithType: AcademySeries.GameAssetID
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.GameAssetID
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string GameAssetID { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string GameAssetID { get; set; }
+  overload: Grunt.Models.HaloInfinite.AcademySeries.GameAssetID*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AcademySeries.MapAssetID
+  commentId: P:Grunt.Models.HaloInfinite.AcademySeries.MapAssetID
+  id: MapAssetID
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  langs:
+  - csharp
+  name: MapAssetID
+  nameWithType: AcademySeries.MapAssetID
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.MapAssetID
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string MapAssetID { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string MapAssetID { get; set; }
+  overload: Grunt.Models.HaloInfinite.AcademySeries.MapAssetID*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AcademySeries.Title
+  commentId: P:Grunt.Models.HaloInfinite.AcademySeries.Title
+  id: Title
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  langs:
+  - csharp
+  name: Title
+  nameWithType: AcademySeries.Title
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.Title
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.DisplayString Title { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.DisplayString Title { get; set; }
+  overload: Grunt.Models.HaloInfinite.AcademySeries.Title*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.AcademySeries.#ctor
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  isExternal: false
+  name: AcademySeries()
+  nameWithType: AcademySeries.AcademySeries()
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.AcademySeries()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AcademySeries.Available
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  isExternal: false
+  name: Available
+  nameWithType: AcademySeries.Available
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.Available
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Grunt.Models.HaloInfinite.AcademySeries.Description
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  isExternal: false
+  name: Description
+  nameWithType: AcademySeries.Description
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.Description
+  type: property
+- uid: Grunt.Models.HaloInfinite.DisplayString
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: DisplayString
+  nameWithType: DisplayString
+  fullName: Grunt.Models.HaloInfinite.DisplayString
+- uid: Grunt.Models.HaloInfinite.AcademySeries.GameAssetID
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  isExternal: false
+  name: GameAssetID
+  nameWithType: AcademySeries.GameAssetID
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.GameAssetID
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.AcademySeries.MapAssetID
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  isExternal: false
+  name: MapAssetID
+  nameWithType: AcademySeries.MapAssetID
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.MapAssetID
+  type: property
+- uid: Grunt.Models.HaloInfinite.AcademySeries.Title
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  isExternal: false
+  name: Title
+  nameWithType: AcademySeries.Title
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.Title
+  type: property
+- uid: Grunt.Models.HaloInfinite.AcademySeries.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.AcademySeries.#ctor
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  isExternal: false
+  name: AcademySeries
+  nameWithType: AcademySeries.AcademySeries
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.AcademySeries
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AcademySeries.Available*
+  commentId: Overload:Grunt.Models.HaloInfinite.AcademySeries.Available
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  isExternal: false
+  name: Available
+  nameWithType: AcademySeries.Available
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.Available
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AcademySeries.Description*
+  commentId: Overload:Grunt.Models.HaloInfinite.AcademySeries.Description
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  isExternal: false
+  name: Description
+  nameWithType: AcademySeries.Description
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.Description
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AcademySeries.GameAssetID*
+  commentId: Overload:Grunt.Models.HaloInfinite.AcademySeries.GameAssetID
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  isExternal: false
+  name: GameAssetID
+  nameWithType: AcademySeries.GameAssetID
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.GameAssetID
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AcademySeries.MapAssetID*
+  commentId: Overload:Grunt.Models.HaloInfinite.AcademySeries.MapAssetID
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  isExternal: false
+  name: MapAssetID
+  nameWithType: AcademySeries.MapAssetID
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.MapAssetID
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AcademySeries.Title*
+  commentId: Overload:Grunt.Models.HaloInfinite.AcademySeries.Title
+  parent: Grunt.Models.HaloInfinite.AcademySeries
+  isExternal: false
+  name: Title
+  nameWithType: AcademySeries.Title
+  fullName: Grunt.Models.HaloInfinite.AcademySeries.Title
+  monikers:
+  - net6.0
+  type: property

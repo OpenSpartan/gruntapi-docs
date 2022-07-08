@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.AssetVersionFile
+  commentId: T:Grunt.Models.HaloInfinite.AssetVersionFile
+  id: AssetVersionFile
+  children:
+  - Grunt.Models.HaloInfinite.AssetVersionFile.#ctor
+  - Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths
+  - Grunt.Models.HaloInfinite.AssetVersionFile.Prefix
+  - Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
+  langs:
+  - csharp
+  name: AssetVersionFile
+  nameWithType: Grunt.Models.HaloInfinite.AssetVersionFile
+  fullName: Grunt.Models.HaloInfinite.AssetVersionFile
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class AssetVersionFile
+    content.csharp: public class AssetVersionFile
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetVersionFile.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.AssetVersionFile.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.AssetVersionFile
+  langs:
+  - csharp
+  name: AssetVersionFile()
+  nameWithType: AssetVersionFile.AssetVersionFile()
+  fullName: Grunt.Models.HaloInfinite.AssetVersionFile.AssetVersionFile()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public AssetVersionFile ();
+    parameters: []
+    content.csharp: public AssetVersionFile ();
+  overload: Grunt.Models.HaloInfinite.AssetVersionFile.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths
+  commentId: P:Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths
+  id: FileRelativePaths
+  parent: Grunt.Models.HaloInfinite.AssetVersionFile
+  langs:
+  - csharp
+  name: FileRelativePaths
+  nameWithType: AssetVersionFile.FileRelativePaths
+  fullName: Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string[] FileRelativePaths { get; set; }
+    return:
+      type: System.String[]
+      description: ''
+    content.csharp: public string[] FileRelativePaths { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetVersionFile.Prefix
+  commentId: P:Grunt.Models.HaloInfinite.AssetVersionFile.Prefix
+  id: Prefix
+  parent: Grunt.Models.HaloInfinite.AssetVersionFile
+  langs:
+  - csharp
+  name: Prefix
+  nameWithType: AssetVersionFile.Prefix
+  fullName: Grunt.Models.HaloInfinite.AssetVersionFile.Prefix
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Prefix { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Prefix { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetVersionFile.Prefix*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
+  commentId: P:Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
+  id: PrefixEndpoint
+  parent: Grunt.Models.HaloInfinite.AssetVersionFile
+  langs:
+  - csharp
+  name: PrefixEndpoint
+  nameWithType: AssetVersionFile.PrefixEndpoint
+  fullName: Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.Link PrefixEndpoint { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.Link
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.Link PrefixEndpoint { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.AssetVersionFile.#ctor
+  parent: Grunt.Models.HaloInfinite.AssetVersionFile
+  isExternal: false
+  name: AssetVersionFile()
+  nameWithType: AssetVersionFile.AssetVersionFile()
+  fullName: Grunt.Models.HaloInfinite.AssetVersionFile.AssetVersionFile()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths
+  parent: Grunt.Models.HaloInfinite.AssetVersionFile
+  isExternal: false
+  name: FileRelativePaths
+  nameWithType: AssetVersionFile.FileRelativePaths
+  fullName: Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths
+  type: property
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  parent: System
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.HaloInfinite.AssetVersionFile.Prefix
+  parent: Grunt.Models.HaloInfinite.AssetVersionFile
+  isExternal: false
+  name: Prefix
+  nameWithType: AssetVersionFile.Prefix
+  fullName: Grunt.Models.HaloInfinite.AssetVersionFile.Prefix
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
+  parent: Grunt.Models.HaloInfinite.AssetVersionFile
+  isExternal: false
+  name: PrefixEndpoint
+  nameWithType: AssetVersionFile.PrefixEndpoint
+  fullName: Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
+  type: property
+- uid: Grunt.Models.HaloInfinite.Link
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Link
+  nameWithType: Link
+  fullName: Grunt.Models.HaloInfinite.Link
+- uid: Grunt.Models.HaloInfinite.AssetVersionFile.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetVersionFile.#ctor
+  parent: Grunt.Models.HaloInfinite.AssetVersionFile
+  isExternal: false
+  name: AssetVersionFile
+  nameWithType: AssetVersionFile.AssetVersionFile
+  fullName: Grunt.Models.HaloInfinite.AssetVersionFile.AssetVersionFile
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths
+  parent: Grunt.Models.HaloInfinite.AssetVersionFile
+  isExternal: false
+  name: FileRelativePaths
+  nameWithType: AssetVersionFile.FileRelativePaths
+  fullName: Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetVersionFile.Prefix*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetVersionFile.Prefix
+  parent: Grunt.Models.HaloInfinite.AssetVersionFile
+  isExternal: false
+  name: Prefix
+  nameWithType: AssetVersionFile.Prefix
+  fullName: Grunt.Models.HaloInfinite.AssetVersionFile.Prefix
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
+  parent: Grunt.Models.HaloInfinite.AssetVersionFile
+  isExternal: false
+  name: PrefixEndpoint
+  nameWithType: AssetVersionFile.PrefixEndpoint
+  fullName: Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
+  monikers:
+  - net6.0
+  type: property

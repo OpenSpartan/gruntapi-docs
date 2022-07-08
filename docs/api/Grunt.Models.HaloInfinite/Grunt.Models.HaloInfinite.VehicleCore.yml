@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.VehicleCore
+  commentId: T:Grunt.Models.HaloInfinite.VehicleCore
+  id: VehicleCore
+  children:
+  - Grunt.Models.HaloInfinite.VehicleCore.#ctor
+  - Grunt.Models.HaloInfinite.VehicleCore.Themes
+  langs:
+  - csharp
+  name: VehicleCore
+  nameWithType: Grunt.Models.HaloInfinite.VehicleCore
+  fullName: Grunt.Models.HaloInfinite.VehicleCore
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: 'public class VehicleCore : Grunt.Models.HaloInfinite.Foundation.Core'
+    content.csharp: 'public class VehicleCore : Grunt.Models.HaloInfinite.Foundation.Core'
+  inheritance:
+  - System.Object
+  - Grunt.Models.HaloInfinite.Foundation.Core
+  implements: []
+  inheritedMembers:
+  - Grunt.Models.HaloInfinite.Foundation.Core.CoreId
+  - Grunt.Models.HaloInfinite.Foundation.Core.CorePath
+  - Grunt.Models.HaloInfinite.Foundation.Core.CoreType
+  - Grunt.Models.HaloInfinite.Foundation.Core.FirstAcquiredDate
+  - Grunt.Models.HaloInfinite.Foundation.Core.IsEquipped
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.VehicleCore.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.VehicleCore.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.VehicleCore
+  langs:
+  - csharp
+  name: VehicleCore()
+  nameWithType: VehicleCore.VehicleCore()
+  fullName: Grunt.Models.HaloInfinite.VehicleCore.VehicleCore()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public VehicleCore ();
+    parameters: []
+    content.csharp: public VehicleCore ();
+  overload: Grunt.Models.HaloInfinite.VehicleCore.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.VehicleCore.Themes
+  commentId: P:Grunt.Models.HaloInfinite.VehicleCore.Themes
+  id: Themes
+  parent: Grunt.Models.HaloInfinite.VehicleCore
+  langs:
+  - csharp
+  name: Themes
+  nameWithType: VehicleCore.Themes
+  fullName: Grunt.Models.HaloInfinite.VehicleCore.Themes
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.VehicleCoreTheme> Themes { get; set; }
+    return:
+      type: System.Collections.Generic.List{Grunt.Models.HaloInfinite.VehicleCoreTheme}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.VehicleCoreTheme> Themes { get; set; }
+  overload: Grunt.Models.HaloInfinite.VehicleCore.Themes*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: Grunt.Models.HaloInfinite.Foundation.Core
+  parent: Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Core
+  nameWithType: Core
+  fullName: Grunt.Models.HaloInfinite.Foundation.Core
+- uid: Grunt.Models.HaloInfinite.VehicleCore.#ctor
+  parent: Grunt.Models.HaloInfinite.VehicleCore
+  isExternal: false
+  name: VehicleCore()
+  nameWithType: VehicleCore.VehicleCore()
+  fullName: Grunt.Models.HaloInfinite.VehicleCore.VehicleCore()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.VehicleCore.Themes
+  parent: Grunt.Models.HaloInfinite.VehicleCore
+  isExternal: false
+  name: Themes
+  nameWithType: VehicleCore.Themes
+  fullName: Grunt.Models.HaloInfinite.VehicleCore.Themes
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: Grunt.Models.HaloInfinite.VehicleCoreTheme
+  name: VehicleCoreTheme
+  nameWithType: VehicleCoreTheme
+  fullName: Grunt.Models.HaloInfinite.VehicleCoreTheme
+- uid: System.Collections.Generic.List{Grunt.Models.HaloInfinite.VehicleCoreTheme}
+  parent: System.Collections.Generic
+  name: List<VehicleCoreTheme>
+  nameWithType: List<VehicleCoreTheme>
+  fullName: System.Collections.Generic.List<Grunt.Models.HaloInfinite.VehicleCoreTheme>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Grunt.Models.HaloInfinite.VehicleCoreTheme
+    name: VehicleCoreTheme
+    nameWithType: VehicleCoreTheme
+    fullName: Grunt.Models.HaloInfinite.VehicleCoreTheme
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.HaloInfinite.VehicleCore.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.VehicleCore.#ctor
+  parent: Grunt.Models.HaloInfinite.VehicleCore
+  isExternal: false
+  name: VehicleCore
+  nameWithType: VehicleCore.VehicleCore
+  fullName: Grunt.Models.HaloInfinite.VehicleCore.VehicleCore
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.VehicleCore.Themes*
+  commentId: Overload:Grunt.Models.HaloInfinite.VehicleCore.Themes
+  parent: Grunt.Models.HaloInfinite.VehicleCore
+  isExternal: false
+  name: Themes
+  nameWithType: VehicleCore.Themes
+  fullName: Grunt.Models.HaloInfinite.VehicleCore.Themes
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Core.CoreId
+  parent: Grunt.Models.HaloInfinite.Foundation.Core
+  isExternal: false
+  name: CoreId
+  nameWithType: Core.CoreId
+  fullName: Grunt.Models.HaloInfinite.Foundation.Core.CoreId
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Core.CorePath
+  parent: Grunt.Models.HaloInfinite.Foundation.Core
+  isExternal: false
+  name: CorePath
+  nameWithType: Core.CorePath
+  fullName: Grunt.Models.HaloInfinite.Foundation.Core.CorePath
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Core.CoreType
+  parent: Grunt.Models.HaloInfinite.Foundation.Core
+  isExternal: false
+  name: CoreType
+  nameWithType: Core.CoreType
+  fullName: Grunt.Models.HaloInfinite.Foundation.Core.CoreType
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Core.FirstAcquiredDate
+  parent: Grunt.Models.HaloInfinite.Foundation.Core
+  isExternal: false
+  name: FirstAcquiredDate
+  nameWithType: Core.FirstAcquiredDate
+  fullName: Grunt.Models.HaloInfinite.Foundation.Core.FirstAcquiredDate
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Core.IsEquipped
+  parent: Grunt.Models.HaloInfinite.Foundation.Core
+  isExternal: false
+  name: IsEquipped
+  nameWithType: Core.IsEquipped
+  fullName: Grunt.Models.HaloInfinite.Foundation.Core.IsEquipped
+  type: property

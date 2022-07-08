@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.AssetRating
+  commentId: T:Grunt.Models.HaloInfinite.AssetRating
+  id: AssetRating
+  children:
+  - Grunt.Models.HaloInfinite.AssetRating.#ctor
+  - Grunt.Models.HaloInfinite.AssetRating.AverageRating
+  - Grunt.Models.HaloInfinite.AssetRating.Ratings
+  - Grunt.Models.HaloInfinite.AssetRating.TotalCount
+  langs:
+  - csharp
+  name: AssetRating
+  nameWithType: Grunt.Models.HaloInfinite.AssetRating
+  fullName: Grunt.Models.HaloInfinite.AssetRating
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class AssetRating
+    content.csharp: public class AssetRating
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetRating.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.AssetRating.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.AssetRating
+  langs:
+  - csharp
+  name: AssetRating()
+  nameWithType: AssetRating.AssetRating()
+  fullName: Grunt.Models.HaloInfinite.AssetRating.AssetRating()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public AssetRating ();
+    parameters: []
+    content.csharp: public AssetRating ();
+  overload: Grunt.Models.HaloInfinite.AssetRating.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetRating.AverageRating
+  commentId: P:Grunt.Models.HaloInfinite.AssetRating.AverageRating
+  id: AverageRating
+  parent: Grunt.Models.HaloInfinite.AssetRating
+  langs:
+  - csharp
+  name: AverageRating
+  nameWithType: AssetRating.AverageRating
+  fullName: Grunt.Models.HaloInfinite.AssetRating.AverageRating
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public float AverageRating { get; set; }
+    return:
+      type: System.Single
+      description: ''
+    content.csharp: public float AverageRating { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetRating.AverageRating*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetRating.Ratings
+  commentId: P:Grunt.Models.HaloInfinite.AssetRating.Ratings
+  id: Ratings
+  parent: Grunt.Models.HaloInfinite.AssetRating
+  langs:
+  - csharp
+  name: Ratings
+  nameWithType: AssetRating.Ratings
+  fullName: Grunt.Models.HaloInfinite.AssetRating.Ratings
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public object[] Ratings { get; set; }
+    return:
+      type: System.Object[]
+      description: ''
+    content.csharp: public object[] Ratings { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetRating.Ratings*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetRating.TotalCount
+  commentId: P:Grunt.Models.HaloInfinite.AssetRating.TotalCount
+  id: TotalCount
+  parent: Grunt.Models.HaloInfinite.AssetRating
+  langs:
+  - csharp
+  name: TotalCount
+  nameWithType: AssetRating.TotalCount
+  fullName: Grunt.Models.HaloInfinite.AssetRating.TotalCount
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int TotalCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int TotalCount { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetRating.TotalCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.AssetRating.#ctor
+  parent: Grunt.Models.HaloInfinite.AssetRating
+  isExternal: false
+  name: AssetRating()
+  nameWithType: AssetRating.AssetRating()
+  fullName: Grunt.Models.HaloInfinite.AssetRating.AssetRating()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AssetRating.AverageRating
+  parent: Grunt.Models.HaloInfinite.AssetRating
+  isExternal: false
+  name: AverageRating
+  nameWithType: AssetRating.AverageRating
+  fullName: Grunt.Models.HaloInfinite.AssetRating.AverageRating
+  type: property
+- uid: System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Grunt.Models.HaloInfinite.AssetRating.Ratings
+  parent: Grunt.Models.HaloInfinite.AssetRating
+  isExternal: false
+  name: Ratings
+  nameWithType: AssetRating.Ratings
+  fullName: Grunt.Models.HaloInfinite.AssetRating.Ratings
+  type: property
+- uid: System.Object[]
+  parent: System
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.HaloInfinite.AssetRating.TotalCount
+  parent: Grunt.Models.HaloInfinite.AssetRating
+  isExternal: false
+  name: TotalCount
+  nameWithType: AssetRating.TotalCount
+  fullName: Grunt.Models.HaloInfinite.AssetRating.TotalCount
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.AssetRating.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetRating.#ctor
+  parent: Grunt.Models.HaloInfinite.AssetRating
+  isExternal: false
+  name: AssetRating
+  nameWithType: AssetRating.AssetRating
+  fullName: Grunt.Models.HaloInfinite.AssetRating.AssetRating
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AssetRating.AverageRating*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetRating.AverageRating
+  parent: Grunt.Models.HaloInfinite.AssetRating
+  isExternal: false
+  name: AverageRating
+  nameWithType: AssetRating.AverageRating
+  fullName: Grunt.Models.HaloInfinite.AssetRating.AverageRating
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetRating.Ratings*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetRating.Ratings
+  parent: Grunt.Models.HaloInfinite.AssetRating
+  isExternal: false
+  name: Ratings
+  nameWithType: AssetRating.Ratings
+  fullName: Grunt.Models.HaloInfinite.AssetRating.Ratings
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetRating.TotalCount*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetRating.TotalCount
+  parent: Grunt.Models.HaloInfinite.AssetRating
+  isExternal: false
+  name: TotalCount
+  nameWithType: AssetRating.TotalCount
+  fullName: Grunt.Models.HaloInfinite.AssetRating.TotalCount
+  monikers:
+  - net6.0
+  type: property

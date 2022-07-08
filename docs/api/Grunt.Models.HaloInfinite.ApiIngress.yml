@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.ApiIngress
+  commentId: N:Grunt.Models.HaloInfinite.ApiIngress
+  id: Grunt.Models.HaloInfinite.ApiIngress
+  children:
+  - Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  - Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  - Grunt.Models.HaloInfinite.ApiIngress.ApiRetryOptions
+  - Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
+  - Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  - Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  langs:
+  - csharp
+  name: Grunt.Models.HaloInfinite.ApiIngress
+  nameWithType: Grunt.Models.HaloInfinite.ApiIngress
+  fullName: Grunt.Models.HaloInfinite.ApiIngress
+  type: Namespace
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  commentId: T:Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  parent: Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: ApiAuthority
+  nameWithType: Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  type: class
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  commentId: T:Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  parent: Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: ApiEndpoint
+  nameWithType: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  type: class
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiRetryOptions
+  commentId: T:Grunt.Models.HaloInfinite.ApiIngress.ApiRetryOptions
+  parent: Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: ApiRetryOptions
+  nameWithType: Grunt.Models.HaloInfinite.ApiIngress.ApiRetryOptions
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiRetryOptions
+  type: class
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
+  commentId: T:Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
+  parent: Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: ApiRetryPolicy
+  nameWithType: Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
+  type: class
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  commentId: T:Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  parent: Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: ApiSettings
+  nameWithType: Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  type: class
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  commentId: T:Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  parent: Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: ApiSettingsContainer
+  nameWithType: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  type: class

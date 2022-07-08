@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Util.ConfigurationReader
+  commentId: T:Grunt.Util.ConfigurationReader
+  id: ConfigurationReader
+  children:
+  - Grunt.Util.ConfigurationReader.#ctor
+  - Grunt.Util.ConfigurationReader.ReadConfiguration``1(System.String)
+  langs:
+  - csharp
+  name: ConfigurationReader
+  nameWithType: Grunt.Util.ConfigurationReader
+  fullName: Grunt.Util.ConfigurationReader
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Util
+  syntax:
+    content: public class ConfigurationReader
+    content.csharp: public class ConfigurationReader
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Util.ConfigurationReader.#ctor
+  commentId: M:Grunt.Util.ConfigurationReader.#ctor
+  id: '#ctor'
+  parent: Grunt.Util.ConfigurationReader
+  langs:
+  - csharp
+  name: ConfigurationReader()
+  nameWithType: ConfigurationReader.ConfigurationReader()
+  fullName: Grunt.Util.ConfigurationReader.ConfigurationReader()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Util
+  syntax:
+    content: public ConfigurationReader ();
+    parameters: []
+    content.csharp: public ConfigurationReader ();
+  overload: Grunt.Util.ConfigurationReader.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Util.ConfigurationReader.ReadConfiguration``1(System.String)
+  commentId: M:Grunt.Util.ConfigurationReader.ReadConfiguration``1(System.String)
+  id: ReadConfiguration``1(System.String)
+  parent: Grunt.Util.ConfigurationReader
+  langs:
+  - csharp
+  name: ReadConfiguration<T>(String)
+  nameWithType: ConfigurationReader.ReadConfiguration<T>(String)
+  fullName: Grunt.Util.ConfigurationReader.ReadConfiguration<T>(String)
+  type: Method
+  assemblies:
+  - Grunt
+  namespace: Grunt.Util
+  syntax:
+    content: public T ReadConfiguration<T> (string path);
+    parameters:
+    - id: path
+      type: System.String
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: T
+      description: ''
+    content.csharp: public T ReadConfiguration<T> (string path);
+  overload: Grunt.Util.ConfigurationReader.ReadConfiguration*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Util
+  commentId: N:Grunt.Util
+  isExternal: false
+  name: Grunt.Util
+  nameWithType: Grunt.Util
+  fullName: Grunt.Util
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Util.ConfigurationReader.#ctor
+  parent: Grunt.Util.ConfigurationReader
+  isExternal: false
+  name: ConfigurationReader()
+  nameWithType: ConfigurationReader.ConfigurationReader()
+  fullName: Grunt.Util.ConfigurationReader.ConfigurationReader()
+  type: constructor
+- uid: Grunt.Util.ConfigurationReader.ReadConfiguration``1(System.String)
+  parent: Grunt.Util.ConfigurationReader
+  isExternal: false
+  name: ReadConfiguration<T>(String)
+  nameWithType: ConfigurationReader.ReadConfiguration<T>(String)
+  fullName: Grunt.Util.ConfigurationReader.ReadConfiguration<T>(String)
+  type: method
+- uid: T
+  isExternal: true
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Util.ConfigurationReader.#ctor*
+  commentId: Overload:Grunt.Util.ConfigurationReader.#ctor
+  parent: Grunt.Util.ConfigurationReader
+  isExternal: false
+  name: ConfigurationReader
+  nameWithType: ConfigurationReader.ConfigurationReader
+  fullName: Grunt.Util.ConfigurationReader.ConfigurationReader
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Util.ConfigurationReader.ReadConfiguration*
+  commentId: Overload:Grunt.Util.ConfigurationReader.ReadConfiguration
+  parent: Grunt.Util.ConfigurationReader
+  isExternal: false
+  name: ReadConfiguration
+  nameWithType: ConfigurationReader.ReadConfiguration
+  fullName: Grunt.Util.ConfigurationReader.ReadConfiguration
+  monikers:
+  - net6.0
+  type: method

@@ -1,0 +1,282 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.Permission
+  commentId: T:Grunt.Models.HaloInfinite.Permission
+  id: Permission
+  children:
+  - Grunt.Models.HaloInfinite.Permission.#ctor
+  - Grunt.Models.HaloInfinite.Permission.AuthoringRole
+  - Grunt.Models.HaloInfinite.Permission.CanonicalToken
+  - Grunt.Models.HaloInfinite.Permission.GrantedBy
+  - Grunt.Models.HaloInfinite.Permission.GrantedOnDateUtc
+  langs:
+  - csharp
+  name: Permission
+  nameWithType: Grunt.Models.HaloInfinite.Permission
+  fullName: Grunt.Models.HaloInfinite.Permission
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class Permission
+    content.csharp: public class Permission
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.Permission.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.Permission.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.Permission
+  langs:
+  - csharp
+  name: Permission()
+  nameWithType: Permission.Permission()
+  fullName: Grunt.Models.HaloInfinite.Permission.Permission()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Permission ();
+    parameters: []
+    content.csharp: public Permission ();
+  overload: Grunt.Models.HaloInfinite.Permission.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Permission.AuthoringRole
+  commentId: P:Grunt.Models.HaloInfinite.Permission.AuthoringRole
+  id: AuthoringRole
+  parent: Grunt.Models.HaloInfinite.Permission
+  langs:
+  - csharp
+  name: AuthoringRole
+  nameWithType: Permission.AuthoringRole
+  fullName: Grunt.Models.HaloInfinite.Permission.AuthoringRole
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int AuthoringRole { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int AuthoringRole { get; set; }
+  overload: Grunt.Models.HaloInfinite.Permission.AuthoringRole*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Permission.CanonicalToken
+  commentId: P:Grunt.Models.HaloInfinite.Permission.CanonicalToken
+  id: CanonicalToken
+  parent: Grunt.Models.HaloInfinite.Permission
+  langs:
+  - csharp
+  name: CanonicalToken
+  nameWithType: Permission.CanonicalToken
+  fullName: Grunt.Models.HaloInfinite.Permission.CanonicalToken
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string CanonicalToken { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string CanonicalToken { get; set; }
+  overload: Grunt.Models.HaloInfinite.Permission.CanonicalToken*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Permission.GrantedBy
+  commentId: P:Grunt.Models.HaloInfinite.Permission.GrantedBy
+  id: GrantedBy
+  parent: Grunt.Models.HaloInfinite.Permission
+  langs:
+  - csharp
+  name: GrantedBy
+  nameWithType: Permission.GrantedBy
+  fullName: Grunt.Models.HaloInfinite.Permission.GrantedBy
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string GrantedBy { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string GrantedBy { get; set; }
+  overload: Grunt.Models.HaloInfinite.Permission.GrantedBy*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Permission.GrantedOnDateUtc
+  commentId: P:Grunt.Models.HaloInfinite.Permission.GrantedOnDateUtc
+  id: GrantedOnDateUtc
+  parent: Grunt.Models.HaloInfinite.Permission
+  langs:
+  - csharp
+  name: GrantedOnDateUtc
+  nameWithType: Permission.GrantedOnDateUtc
+  fullName: Grunt.Models.HaloInfinite.Permission.GrantedOnDateUtc
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.APIFormattedDate GrantedOnDateUtc { get; set; }
+    return:
+      type: Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public Grunt.Models.APIFormattedDate GrantedOnDateUtc { get; set; }
+  overload: Grunt.Models.HaloInfinite.Permission.GrantedOnDateUtc*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.Permission.#ctor
+  parent: Grunt.Models.HaloInfinite.Permission
+  isExternal: false
+  name: Permission()
+  nameWithType: Permission.Permission()
+  fullName: Grunt.Models.HaloInfinite.Permission.Permission()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.Permission.AuthoringRole
+  parent: Grunt.Models.HaloInfinite.Permission
+  isExternal: false
+  name: AuthoringRole
+  nameWithType: Permission.AuthoringRole
+  fullName: Grunt.Models.HaloInfinite.Permission.AuthoringRole
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.Permission.CanonicalToken
+  parent: Grunt.Models.HaloInfinite.Permission
+  isExternal: false
+  name: CanonicalToken
+  nameWithType: Permission.CanonicalToken
+  fullName: Grunt.Models.HaloInfinite.Permission.CanonicalToken
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.Permission.GrantedBy
+  parent: Grunt.Models.HaloInfinite.Permission
+  isExternal: false
+  name: GrantedBy
+  nameWithType: Permission.GrantedBy
+  fullName: Grunt.Models.HaloInfinite.Permission.GrantedBy
+  type: property
+- uid: Grunt.Models.HaloInfinite.Permission.GrantedOnDateUtc
+  parent: Grunt.Models.HaloInfinite.Permission
+  isExternal: false
+  name: GrantedOnDateUtc
+  nameWithType: Permission.GrantedOnDateUtc
+  fullName: Grunt.Models.HaloInfinite.Permission.GrantedOnDateUtc
+  type: property
+- uid: Grunt.Models.APIFormattedDate
+  parent: Grunt.Models
+  isExternal: false
+  name: APIFormattedDate
+  nameWithType: APIFormattedDate
+  fullName: Grunt.Models.APIFormattedDate
+- uid: Grunt.Models.HaloInfinite.Permission.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.Permission.#ctor
+  parent: Grunt.Models.HaloInfinite.Permission
+  isExternal: false
+  name: Permission
+  nameWithType: Permission.Permission
+  fullName: Grunt.Models.HaloInfinite.Permission.Permission
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.Permission.AuthoringRole*
+  commentId: Overload:Grunt.Models.HaloInfinite.Permission.AuthoringRole
+  parent: Grunt.Models.HaloInfinite.Permission
+  isExternal: false
+  name: AuthoringRole
+  nameWithType: Permission.AuthoringRole
+  fullName: Grunt.Models.HaloInfinite.Permission.AuthoringRole
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Permission.CanonicalToken*
+  commentId: Overload:Grunt.Models.HaloInfinite.Permission.CanonicalToken
+  parent: Grunt.Models.HaloInfinite.Permission
+  isExternal: false
+  name: CanonicalToken
+  nameWithType: Permission.CanonicalToken
+  fullName: Grunt.Models.HaloInfinite.Permission.CanonicalToken
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Permission.GrantedBy*
+  commentId: Overload:Grunt.Models.HaloInfinite.Permission.GrantedBy
+  parent: Grunt.Models.HaloInfinite.Permission
+  isExternal: false
+  name: GrantedBy
+  nameWithType: Permission.GrantedBy
+  fullName: Grunt.Models.HaloInfinite.Permission.GrantedBy
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Permission.GrantedOnDateUtc*
+  commentId: Overload:Grunt.Models.HaloInfinite.Permission.GrantedOnDateUtc
+  parent: Grunt.Models.HaloInfinite.Permission
+  isExternal: false
+  name: GrantedOnDateUtc
+  nameWithType: Permission.GrantedOnDateUtc
+  fullName: Grunt.Models.HaloInfinite.Permission.GrantedOnDateUtc
+  monikers:
+  - net6.0
+  type: property

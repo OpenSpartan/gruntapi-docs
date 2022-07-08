@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.CustomAssetData
+  commentId: T:Grunt.Models.HaloInfinite.CustomAssetData
+  id: CustomAssetData
+  children:
+  - Grunt.Models.HaloInfinite.CustomAssetData.#ctor
+  - Grunt.Models.HaloInfinite.CustomAssetData.KeyValues
+  langs:
+  - csharp
+  name: CustomAssetData
+  nameWithType: Grunt.Models.HaloInfinite.CustomAssetData
+  fullName: Grunt.Models.HaloInfinite.CustomAssetData
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class CustomAssetData
+    content.csharp: public class CustomAssetData
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.CustomAssetData.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.CustomAssetData.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.CustomAssetData
+  langs:
+  - csharp
+  name: CustomAssetData()
+  nameWithType: CustomAssetData.CustomAssetData()
+  fullName: Grunt.Models.HaloInfinite.CustomAssetData.CustomAssetData()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public CustomAssetData ();
+    parameters: []
+    content.csharp: public CustomAssetData ();
+  overload: Grunt.Models.HaloInfinite.CustomAssetData.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.CustomAssetData.KeyValues
+  commentId: P:Grunt.Models.HaloInfinite.CustomAssetData.KeyValues
+  id: KeyValues
+  parent: Grunt.Models.HaloInfinite.CustomAssetData
+  langs:
+  - csharp
+  name: KeyValues
+  nameWithType: CustomAssetData.KeyValues
+  fullName: Grunt.Models.HaloInfinite.CustomAssetData.KeyValues
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.AssetKeyValues KeyValues { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.AssetKeyValues
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.AssetKeyValues KeyValues { get; set; }
+  overload: Grunt.Models.HaloInfinite.CustomAssetData.KeyValues*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.CustomAssetData.#ctor
+  parent: Grunt.Models.HaloInfinite.CustomAssetData
+  isExternal: false
+  name: CustomAssetData()
+  nameWithType: CustomAssetData.CustomAssetData()
+  fullName: Grunt.Models.HaloInfinite.CustomAssetData.CustomAssetData()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.CustomAssetData.KeyValues
+  parent: Grunt.Models.HaloInfinite.CustomAssetData
+  isExternal: false
+  name: KeyValues
+  nameWithType: CustomAssetData.KeyValues
+  fullName: Grunt.Models.HaloInfinite.CustomAssetData.KeyValues
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetKeyValues
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AssetKeyValues
+  nameWithType: AssetKeyValues
+  fullName: Grunt.Models.HaloInfinite.AssetKeyValues
+- uid: Grunt.Models.HaloInfinite.CustomAssetData.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.CustomAssetData.#ctor
+  parent: Grunt.Models.HaloInfinite.CustomAssetData
+  isExternal: false
+  name: CustomAssetData
+  nameWithType: CustomAssetData.CustomAssetData
+  fullName: Grunt.Models.HaloInfinite.CustomAssetData.CustomAssetData
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.CustomAssetData.KeyValues*
+  commentId: Overload:Grunt.Models.HaloInfinite.CustomAssetData.KeyValues
+  parent: Grunt.Models.HaloInfinite.CustomAssetData
+  isExternal: false
+  name: KeyValues
+  nameWithType: CustomAssetData.KeyValues
+  fullName: Grunt.Models.HaloInfinite.CustomAssetData.KeyValues
+  monikers:
+  - net6.0
+  type: property

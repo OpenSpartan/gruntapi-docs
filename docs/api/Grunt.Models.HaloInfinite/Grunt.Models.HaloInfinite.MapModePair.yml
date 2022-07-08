@@ -1,0 +1,377 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.MapModePair
+  commentId: T:Grunt.Models.HaloInfinite.MapModePair
+  id: MapModePair
+  children:
+  - Grunt.Models.HaloInfinite.MapModePair.#ctor
+  - Grunt.Models.HaloInfinite.MapModePair.CustomData
+  - Grunt.Models.HaloInfinite.MapModePair.MapLink
+  - Grunt.Models.HaloInfinite.MapModePair.Order
+  - Grunt.Models.HaloInfinite.MapModePair.UgcGameVariantLink
+  langs:
+  - csharp
+  name: MapModePair
+  nameWithType: Grunt.Models.HaloInfinite.MapModePair
+  fullName: Grunt.Models.HaloInfinite.MapModePair
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: 'public class MapModePair : Grunt.Models.HaloInfinite.Foundation.Asset'
+    content.csharp: 'public class MapModePair : Grunt.Models.HaloInfinite.Foundation.Asset'
+  inheritance:
+  - System.Object
+  - Grunt.Models.HaloInfinite.Foundation.Asset
+  implements: []
+  inheritedMembers:
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  - Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  - Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  - Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  - Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.MapModePair.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.MapModePair.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.MapModePair
+  langs:
+  - csharp
+  name: MapModePair()
+  nameWithType: MapModePair.MapModePair()
+  fullName: Grunt.Models.HaloInfinite.MapModePair.MapModePair()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public MapModePair ();
+    parameters: []
+    content.csharp: public MapModePair ();
+  overload: Grunt.Models.HaloInfinite.MapModePair.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.MapModePair.CustomData
+  commentId: P:Grunt.Models.HaloInfinite.MapModePair.CustomData
+  id: CustomData
+  parent: Grunt.Models.HaloInfinite.MapModePair
+  langs:
+  - csharp
+  name: CustomData
+  nameWithType: MapModePair.CustomData
+  fullName: Grunt.Models.HaloInfinite.MapModePair.CustomData
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public object CustomData { get; set; }
+    return:
+      type: System.Object
+      description: ''
+    content.csharp: public object CustomData { get; set; }
+  overload: Grunt.Models.HaloInfinite.MapModePair.CustomData*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.MapModePair.MapLink
+  commentId: P:Grunt.Models.HaloInfinite.MapModePair.MapLink
+  id: MapLink
+  parent: Grunt.Models.HaloInfinite.MapModePair
+  langs:
+  - csharp
+  name: MapLink
+  nameWithType: MapModePair.MapLink
+  fullName: Grunt.Models.HaloInfinite.MapModePair.MapLink
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.Map MapLink { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.Map
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.Map MapLink { get; set; }
+  overload: Grunt.Models.HaloInfinite.MapModePair.MapLink*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.MapModePair.Order
+  commentId: P:Grunt.Models.HaloInfinite.MapModePair.Order
+  id: Order
+  parent: Grunt.Models.HaloInfinite.MapModePair
+  langs:
+  - csharp
+  name: Order
+  nameWithType: MapModePair.Order
+  fullName: Grunt.Models.HaloInfinite.MapModePair.Order
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Order { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Order { get; set; }
+  overload: Grunt.Models.HaloInfinite.MapModePair.Order*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.MapModePair.UgcGameVariantLink
+  commentId: P:Grunt.Models.HaloInfinite.MapModePair.UgcGameVariantLink
+  id: UgcGameVariantLink
+  parent: Grunt.Models.HaloInfinite.MapModePair
+  langs:
+  - csharp
+  name: UgcGameVariantLink
+  nameWithType: MapModePair.UgcGameVariantLink
+  fullName: Grunt.Models.HaloInfinite.MapModePair.UgcGameVariantLink
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.UGCGameVariant UgcGameVariantLink { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.UGCGameVariant
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.UGCGameVariant UgcGameVariantLink { get; set; }
+  overload: Grunt.Models.HaloInfinite.MapModePair.UgcGameVariantLink*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset
+  parent: Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Asset
+  nameWithType: Asset
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset
+- uid: Grunt.Models.HaloInfinite.MapModePair.#ctor
+  parent: Grunt.Models.HaloInfinite.MapModePair
+  isExternal: false
+  name: MapModePair()
+  nameWithType: MapModePair.MapModePair()
+  fullName: Grunt.Models.HaloInfinite.MapModePair.MapModePair()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.MapModePair.CustomData
+  parent: Grunt.Models.HaloInfinite.MapModePair
+  isExternal: false
+  name: CustomData
+  nameWithType: MapModePair.CustomData
+  fullName: Grunt.Models.HaloInfinite.MapModePair.CustomData
+  type: property
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.MapModePair.MapLink
+  parent: Grunt.Models.HaloInfinite.MapModePair
+  isExternal: false
+  name: MapLink
+  nameWithType: MapModePair.MapLink
+  fullName: Grunt.Models.HaloInfinite.MapModePair.MapLink
+  type: property
+- uid: Grunt.Models.HaloInfinite.Map
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Map
+  nameWithType: Map
+  fullName: Grunt.Models.HaloInfinite.Map
+- uid: Grunt.Models.HaloInfinite.MapModePair.Order
+  parent: Grunt.Models.HaloInfinite.MapModePair
+  isExternal: false
+  name: Order
+  nameWithType: MapModePair.Order
+  fullName: Grunt.Models.HaloInfinite.MapModePair.Order
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.MapModePair.UgcGameVariantLink
+  parent: Grunt.Models.HaloInfinite.MapModePair
+  isExternal: false
+  name: UgcGameVariantLink
+  nameWithType: MapModePair.UgcGameVariantLink
+  fullName: Grunt.Models.HaloInfinite.MapModePair.UgcGameVariantLink
+  type: property
+- uid: Grunt.Models.HaloInfinite.UGCGameVariant
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: UGCGameVariant
+  nameWithType: UGCGameVariant
+  fullName: Grunt.Models.HaloInfinite.UGCGameVariant
+- uid: Grunt.Models.HaloInfinite.MapModePair.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.MapModePair.#ctor
+  parent: Grunt.Models.HaloInfinite.MapModePair
+  isExternal: false
+  name: MapModePair
+  nameWithType: MapModePair.MapModePair
+  fullName: Grunt.Models.HaloInfinite.MapModePair.MapModePair
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.MapModePair.CustomData*
+  commentId: Overload:Grunt.Models.HaloInfinite.MapModePair.CustomData
+  parent: Grunt.Models.HaloInfinite.MapModePair
+  isExternal: false
+  name: CustomData
+  nameWithType: MapModePair.CustomData
+  fullName: Grunt.Models.HaloInfinite.MapModePair.CustomData
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.MapModePair.MapLink*
+  commentId: Overload:Grunt.Models.HaloInfinite.MapModePair.MapLink
+  parent: Grunt.Models.HaloInfinite.MapModePair
+  isExternal: false
+  name: MapLink
+  nameWithType: MapModePair.MapLink
+  fullName: Grunt.Models.HaloInfinite.MapModePair.MapLink
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.MapModePair.Order*
+  commentId: Overload:Grunt.Models.HaloInfinite.MapModePair.Order
+  parent: Grunt.Models.HaloInfinite.MapModePair
+  isExternal: false
+  name: Order
+  nameWithType: MapModePair.Order
+  fullName: Grunt.Models.HaloInfinite.MapModePair.Order
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.MapModePair.UgcGameVariantLink*
+  commentId: Overload:Grunt.Models.HaloInfinite.MapModePair.UgcGameVariantLink
+  parent: Grunt.Models.HaloInfinite.MapModePair
+  isExternal: false
+  name: UgcGameVariantLink
+  nameWithType: MapModePair.UgcGameVariantLink
+  fullName: Grunt.Models.HaloInfinite.MapModePair.UgcGameVariantLink
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetHome
+  nameWithType: Asset.AssetHome
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetId
+  nameWithType: Asset.AssetId
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetVersionId
+  nameWithType: Asset.AssetVersionId
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: CloneBehavior
+  nameWithType: Asset.CloneBehavior
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Contributors
+  nameWithType: Asset.Contributors
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Description
+  nameWithType: Asset.Description
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Files
+  nameWithType: Asset.Files
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: InspectionResult
+  nameWithType: Asset.InspectionResult
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: PublicName
+  nameWithType: Asset.PublicName
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Tags
+  nameWithType: Asset.Tags
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: VersionId
+  nameWithType: Asset.VersionId
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  type: property

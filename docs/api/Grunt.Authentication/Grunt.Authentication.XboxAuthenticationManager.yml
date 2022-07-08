@@ -1,0 +1,483 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Authentication.XboxAuthenticationManager
+  commentId: T:Grunt.Authentication.XboxAuthenticationManager
+  id: XboxAuthenticationManager
+  children:
+  - Grunt.Authentication.XboxAuthenticationManager.#ctor
+  - Grunt.Authentication.XboxAuthenticationManager.GenerateAuthUrl(System.String,System.String,System.String[],System.String)
+  - Grunt.Authentication.XboxAuthenticationManager.GetXboxLiveV3Token(System.String,System.String)
+  - Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  - Grunt.Authentication.XboxAuthenticationManager.RequestOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  - Grunt.Authentication.XboxAuthenticationManager.RequestUserToken(System.String)
+  - Grunt.Authentication.XboxAuthenticationManager.RequestXstsToken(System.String,System.Boolean)
+  langs:
+  - csharp
+  name: XboxAuthenticationManager
+  nameWithType: Grunt.Authentication.XboxAuthenticationManager
+  fullName: Grunt.Authentication.XboxAuthenticationManager
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Authentication
+  syntax:
+    content: public class XboxAuthenticationManager
+    content.csharp: public class XboxAuthenticationManager
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Authentication.XboxAuthenticationManager.#ctor
+  commentId: M:Grunt.Authentication.XboxAuthenticationManager.#ctor
+  id: '#ctor'
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  langs:
+  - csharp
+  name: XboxAuthenticationManager()
+  nameWithType: XboxAuthenticationManager.XboxAuthenticationManager()
+  fullName: Grunt.Authentication.XboxAuthenticationManager.XboxAuthenticationManager()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Authentication
+  syntax:
+    content: public XboxAuthenticationManager ();
+    parameters: []
+    content.csharp: public XboxAuthenticationManager ();
+  overload: Grunt.Authentication.XboxAuthenticationManager.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Authentication.XboxAuthenticationManager.GenerateAuthUrl(System.String,System.String,System.String[],System.String)
+  commentId: M:Grunt.Authentication.XboxAuthenticationManager.GenerateAuthUrl(System.String,System.String,System.String[],System.String)
+  id: GenerateAuthUrl(System.String,System.String,System.String[],System.String)
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  langs:
+  - csharp
+  name: GenerateAuthUrl(String, String, String[], String)
+  nameWithType: XboxAuthenticationManager.GenerateAuthUrl(String, String, String[], String)
+  fullName: Grunt.Authentication.XboxAuthenticationManager.GenerateAuthUrl(String, String, String[], String)
+  type: Method
+  assemblies:
+  - Grunt
+  namespace: Grunt.Authentication
+  syntax:
+    content: public string GenerateAuthUrl (string clientId, string redirectUrl, string[] scopes = default, string state = "");
+    parameters:
+    - id: clientId
+      type: System.String
+      description: ''
+    - id: redirectUrl
+      type: System.String
+      description: ''
+    - id: scopes
+      type: System.String[]
+      description: ''
+    - id: state
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string GenerateAuthUrl (string clientId, string redirectUrl, string[] scopes = default, string state = "");
+  overload: Grunt.Authentication.XboxAuthenticationManager.GenerateAuthUrl*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Authentication.XboxAuthenticationManager.GetXboxLiveV3Token(System.String,System.String)
+  commentId: M:Grunt.Authentication.XboxAuthenticationManager.GetXboxLiveV3Token(System.String,System.String)
+  id: GetXboxLiveV3Token(System.String,System.String)
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  langs:
+  - csharp
+  name: GetXboxLiveV3Token(String, String)
+  nameWithType: XboxAuthenticationManager.GetXboxLiveV3Token(String, String)
+  fullName: Grunt.Authentication.XboxAuthenticationManager.GetXboxLiveV3Token(String, String)
+  type: Method
+  assemblies:
+  - Grunt
+  namespace: Grunt.Authentication
+  syntax:
+    content: public string GetXboxLiveV3Token (string userHash, string userToken);
+    parameters:
+    - id: userHash
+      type: System.String
+      description: ''
+    - id: userToken
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string GetXboxLiveV3Token (string userHash, string userToken);
+  overload: Grunt.Authentication.XboxAuthenticationManager.GetXboxLiveV3Token*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  commentId: M:Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  id: RefreshOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  langs:
+  - csharp
+  name: RefreshOAuthToken(String, String, String, String, String[])
+  nameWithType: XboxAuthenticationManager.RefreshOAuthToken(String, String, String, String, String[])
+  fullName: Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken(String, String, String, String, String[])
+  type: Method
+  assemblies:
+  - Grunt
+  namespace: Grunt.Authentication
+  syntax:
+    content: public System.Threading.Tasks.Task<Grunt.Models.OAuthToken> RefreshOAuthToken (string clientId, string refreshToken, string redirectUrl, string clientSecret = "", string[] scopes = default);
+    parameters:
+    - id: clientId
+      type: System.String
+      description: ''
+    - id: refreshToken
+      type: System.String
+      description: ''
+    - id: redirectUrl
+      type: System.String
+      description: ''
+    - id: clientSecret
+      type: System.String
+      description: ''
+    - id: scopes
+      type: System.String[]
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{Grunt.Models.OAuthToken}
+      description: ''
+    content.csharp: public System.Threading.Tasks.Task<Grunt.Models.OAuthToken> RefreshOAuthToken (string clientId, string refreshToken, string redirectUrl, string clientSecret = "", string[] scopes = default);
+  overload: Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Authentication.XboxAuthenticationManager.RequestOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  commentId: M:Grunt.Authentication.XboxAuthenticationManager.RequestOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  id: RequestOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  langs:
+  - csharp
+  name: RequestOAuthToken(String, String, String, String, String[])
+  nameWithType: XboxAuthenticationManager.RequestOAuthToken(String, String, String, String, String[])
+  fullName: Grunt.Authentication.XboxAuthenticationManager.RequestOAuthToken(String, String, String, String, String[])
+  type: Method
+  assemblies:
+  - Grunt
+  namespace: Grunt.Authentication
+  syntax:
+    content: public System.Threading.Tasks.Task<Grunt.Models.OAuthToken> RequestOAuthToken (string clientId, string authorizationCode, string redirectUrl, string clientSecret = "", string[] scopes = default);
+    parameters:
+    - id: clientId
+      type: System.String
+      description: ''
+    - id: authorizationCode
+      type: System.String
+      description: ''
+    - id: redirectUrl
+      type: System.String
+      description: ''
+    - id: clientSecret
+      type: System.String
+      description: ''
+    - id: scopes
+      type: System.String[]
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{Grunt.Models.OAuthToken}
+      description: ''
+    content.csharp: public System.Threading.Tasks.Task<Grunt.Models.OAuthToken> RequestOAuthToken (string clientId, string authorizationCode, string redirectUrl, string clientSecret = "", string[] scopes = default);
+  overload: Grunt.Authentication.XboxAuthenticationManager.RequestOAuthToken*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Authentication.XboxAuthenticationManager.RequestUserToken(System.String)
+  commentId: M:Grunt.Authentication.XboxAuthenticationManager.RequestUserToken(System.String)
+  id: RequestUserToken(System.String)
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  langs:
+  - csharp
+  name: RequestUserToken(String)
+  nameWithType: XboxAuthenticationManager.RequestUserToken(String)
+  fullName: Grunt.Authentication.XboxAuthenticationManager.RequestUserToken(String)
+  type: Method
+  assemblies:
+  - Grunt
+  namespace: Grunt.Authentication
+  syntax:
+    content: public System.Threading.Tasks.Task<Grunt.Models.XboxTicket> RequestUserToken (string accessToken);
+    parameters:
+    - id: accessToken
+      type: System.String
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{Grunt.Models.XboxTicket}
+      description: ''
+    content.csharp: public System.Threading.Tasks.Task<Grunt.Models.XboxTicket> RequestUserToken (string accessToken);
+  overload: Grunt.Authentication.XboxAuthenticationManager.RequestUserToken*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Authentication.XboxAuthenticationManager.RequestXstsToken(System.String,System.Boolean)
+  commentId: M:Grunt.Authentication.XboxAuthenticationManager.RequestXstsToken(System.String,System.Boolean)
+  id: RequestXstsToken(System.String,System.Boolean)
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  langs:
+  - csharp
+  name: RequestXstsToken(String, Boolean)
+  nameWithType: XboxAuthenticationManager.RequestXstsToken(String, Boolean)
+  fullName: Grunt.Authentication.XboxAuthenticationManager.RequestXstsToken(String, Boolean)
+  type: Method
+  assemblies:
+  - Grunt
+  namespace: Grunt.Authentication
+  syntax:
+    content: public System.Threading.Tasks.Task<Grunt.Models.XboxTicket> RequestXstsToken (string userToken, bool useHaloRelyingParty = true);
+    parameters:
+    - id: userToken
+      type: System.String
+      description: ''
+    - id: useHaloRelyingParty
+      type: System.Boolean
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{Grunt.Models.XboxTicket}
+      description: ''
+    content.csharp: public System.Threading.Tasks.Task<Grunt.Models.XboxTicket> RequestXstsToken (string userToken, bool useHaloRelyingParty = true);
+  overload: Grunt.Authentication.XboxAuthenticationManager.RequestXstsToken*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Authentication
+  commentId: N:Grunt.Authentication
+  isExternal: false
+  name: Grunt.Authentication
+  nameWithType: Grunt.Authentication
+  fullName: Grunt.Authentication
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Authentication.XboxAuthenticationManager.#ctor
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  isExternal: false
+  name: XboxAuthenticationManager()
+  nameWithType: XboxAuthenticationManager.XboxAuthenticationManager()
+  fullName: Grunt.Authentication.XboxAuthenticationManager.XboxAuthenticationManager()
+  type: constructor
+- uid: Grunt.Authentication.XboxAuthenticationManager.GenerateAuthUrl(System.String,System.String,System.String[],System.String)
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  isExternal: false
+  name: GenerateAuthUrl(String, String, String[], String)
+  nameWithType: XboxAuthenticationManager.GenerateAuthUrl(String, String, String[], String)
+  fullName: Grunt.Authentication.XboxAuthenticationManager.GenerateAuthUrl(String, String, String[], String)
+  type: method
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  parent: System
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Authentication.XboxAuthenticationManager.GetXboxLiveV3Token(System.String,System.String)
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  isExternal: false
+  name: GetXboxLiveV3Token(String, String)
+  nameWithType: XboxAuthenticationManager.GetXboxLiveV3Token(String, String)
+  fullName: Grunt.Authentication.XboxAuthenticationManager.GetXboxLiveV3Token(String, String)
+  type: method
+- uid: Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  isExternal: false
+  name: RefreshOAuthToken(String, String, String, String, String[])
+  nameWithType: XboxAuthenticationManager.RefreshOAuthToken(String, String, String, String, String[])
+  fullName: Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken(String, String, String, String, String[])
+  type: method
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Grunt.Models.OAuthToken
+  name: OAuthToken
+  nameWithType: OAuthToken
+  fullName: Grunt.Models.OAuthToken
+- uid: System.Threading.Tasks.Task{Grunt.Models.OAuthToken}
+  parent: System.Threading.Tasks
+  name: Task<OAuthToken>
+  nameWithType: Task<OAuthToken>
+  fullName: System.Threading.Tasks.Task<Grunt.Models.OAuthToken>
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Grunt.Models.OAuthToken
+    name: OAuthToken
+    nameWithType: OAuthToken
+    fullName: Grunt.Models.OAuthToken
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Authentication.XboxAuthenticationManager.RequestOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  isExternal: false
+  name: RequestOAuthToken(String, String, String, String, String[])
+  nameWithType: XboxAuthenticationManager.RequestOAuthToken(String, String, String, String, String[])
+  fullName: Grunt.Authentication.XboxAuthenticationManager.RequestOAuthToken(String, String, String, String, String[])
+  type: method
+- uid: Grunt.Authentication.XboxAuthenticationManager.RequestUserToken(System.String)
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  isExternal: false
+  name: RequestUserToken(String)
+  nameWithType: XboxAuthenticationManager.RequestUserToken(String)
+  fullName: Grunt.Authentication.XboxAuthenticationManager.RequestUserToken(String)
+  type: method
+- uid: Grunt.Models.XboxTicket
+  name: XboxTicket
+  nameWithType: XboxTicket
+  fullName: Grunt.Models.XboxTicket
+- uid: System.Threading.Tasks.Task{Grunt.Models.XboxTicket}
+  parent: System.Threading.Tasks
+  name: Task<XboxTicket>
+  nameWithType: Task<XboxTicket>
+  fullName: System.Threading.Tasks.Task<Grunt.Models.XboxTicket>
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Grunt.Models.XboxTicket
+    name: XboxTicket
+    nameWithType: XboxTicket
+    fullName: Grunt.Models.XboxTicket
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Authentication.XboxAuthenticationManager.RequestXstsToken(System.String,System.Boolean)
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  isExternal: false
+  name: RequestXstsToken(String, Boolean)
+  nameWithType: XboxAuthenticationManager.RequestXstsToken(String, Boolean)
+  fullName: Grunt.Authentication.XboxAuthenticationManager.RequestXstsToken(String, Boolean)
+  type: method
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Grunt.Authentication.XboxAuthenticationManager.#ctor*
+  commentId: Overload:Grunt.Authentication.XboxAuthenticationManager.#ctor
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  isExternal: false
+  name: XboxAuthenticationManager
+  nameWithType: XboxAuthenticationManager.XboxAuthenticationManager
+  fullName: Grunt.Authentication.XboxAuthenticationManager.XboxAuthenticationManager
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Authentication.XboxAuthenticationManager.GenerateAuthUrl*
+  commentId: Overload:Grunt.Authentication.XboxAuthenticationManager.GenerateAuthUrl
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  isExternal: false
+  name: GenerateAuthUrl
+  nameWithType: XboxAuthenticationManager.GenerateAuthUrl
+  fullName: Grunt.Authentication.XboxAuthenticationManager.GenerateAuthUrl
+  monikers:
+  - net6.0
+  type: method
+- uid: Grunt.Authentication.XboxAuthenticationManager.GetXboxLiveV3Token*
+  commentId: Overload:Grunt.Authentication.XboxAuthenticationManager.GetXboxLiveV3Token
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  isExternal: false
+  name: GetXboxLiveV3Token
+  nameWithType: XboxAuthenticationManager.GetXboxLiveV3Token
+  fullName: Grunt.Authentication.XboxAuthenticationManager.GetXboxLiveV3Token
+  monikers:
+  - net6.0
+  type: method
+- uid: Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken*
+  commentId: Overload:Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  isExternal: false
+  name: RefreshOAuthToken
+  nameWithType: XboxAuthenticationManager.RefreshOAuthToken
+  fullName: Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken
+  monikers:
+  - net6.0
+  type: method
+- uid: Grunt.Authentication.XboxAuthenticationManager.RequestOAuthToken*
+  commentId: Overload:Grunt.Authentication.XboxAuthenticationManager.RequestOAuthToken
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  isExternal: false
+  name: RequestOAuthToken
+  nameWithType: XboxAuthenticationManager.RequestOAuthToken
+  fullName: Grunt.Authentication.XboxAuthenticationManager.RequestOAuthToken
+  monikers:
+  - net6.0
+  type: method
+- uid: Grunt.Authentication.XboxAuthenticationManager.RequestUserToken*
+  commentId: Overload:Grunt.Authentication.XboxAuthenticationManager.RequestUserToken
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  isExternal: false
+  name: RequestUserToken
+  nameWithType: XboxAuthenticationManager.RequestUserToken
+  fullName: Grunt.Authentication.XboxAuthenticationManager.RequestUserToken
+  monikers:
+  - net6.0
+  type: method
+- uid: Grunt.Authentication.XboxAuthenticationManager.RequestXstsToken*
+  commentId: Overload:Grunt.Authentication.XboxAuthenticationManager.RequestXstsToken
+  parent: Grunt.Authentication.XboxAuthenticationManager
+  isExternal: false
+  name: RequestXstsToken
+  nameWithType: XboxAuthenticationManager.RequestXstsToken
+  fullName: Grunt.Authentication.XboxAuthenticationManager.RequestXstsToken
+  monikers:
+  - net6.0
+  type: method

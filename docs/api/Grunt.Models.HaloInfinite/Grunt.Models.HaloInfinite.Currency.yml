@@ -1,0 +1,321 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.Currency
+  commentId: T:Grunt.Models.HaloInfinite.Currency
+  id: Currency
+  children:
+  - Grunt.Models.HaloInfinite.Currency.#ctor
+  - Grunt.Models.HaloInfinite.Currency.CurrencyId
+  - Grunt.Models.HaloInfinite.Currency.Description
+  - Grunt.Models.HaloInfinite.Currency.IconType
+  - Grunt.Models.HaloInfinite.Currency.Image
+  - Grunt.Models.HaloInfinite.Currency.Title
+  langs:
+  - csharp
+  name: Currency
+  nameWithType: Grunt.Models.HaloInfinite.Currency
+  fullName: Grunt.Models.HaloInfinite.Currency
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class Currency
+    content.csharp: public class Currency
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.Currency.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.Currency.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.Currency
+  langs:
+  - csharp
+  name: Currency()
+  nameWithType: Currency.Currency()
+  fullName: Grunt.Models.HaloInfinite.Currency.Currency()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Currency ();
+    parameters: []
+    content.csharp: public Currency ();
+  overload: Grunt.Models.HaloInfinite.Currency.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Currency.CurrencyId
+  commentId: P:Grunt.Models.HaloInfinite.Currency.CurrencyId
+  id: CurrencyId
+  parent: Grunt.Models.HaloInfinite.Currency
+  langs:
+  - csharp
+  name: CurrencyId
+  nameWithType: Currency.CurrencyId
+  fullName: Grunt.Models.HaloInfinite.Currency.CurrencyId
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string CurrencyId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string CurrencyId { get; set; }
+  overload: Grunt.Models.HaloInfinite.Currency.CurrencyId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Currency.Description
+  commentId: P:Grunt.Models.HaloInfinite.Currency.Description
+  id: Description
+  parent: Grunt.Models.HaloInfinite.Currency
+  langs:
+  - csharp
+  name: Description
+  nameWithType: Currency.Description
+  fullName: Grunt.Models.HaloInfinite.Currency.Description
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.DisplayString Description { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.DisplayString Description { get; set; }
+  overload: Grunt.Models.HaloInfinite.Currency.Description*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Currency.IconType
+  commentId: P:Grunt.Models.HaloInfinite.Currency.IconType
+  id: IconType
+  parent: Grunt.Models.HaloInfinite.Currency
+  langs:
+  - csharp
+  name: IconType
+  nameWithType: Currency.IconType
+  fullName: Grunt.Models.HaloInfinite.Currency.IconType
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string IconType { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string IconType { get; set; }
+  overload: Grunt.Models.HaloInfinite.Currency.IconType*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Currency.Image
+  commentId: P:Grunt.Models.HaloInfinite.Currency.Image
+  id: Image
+  parent: Grunt.Models.HaloInfinite.Currency
+  langs:
+  - csharp
+  name: Image
+  nameWithType: Currency.Image
+  fullName: Grunt.Models.HaloInfinite.Currency.Image
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Image { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Image { get; set; }
+  overload: Grunt.Models.HaloInfinite.Currency.Image*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Currency.Title
+  commentId: P:Grunt.Models.HaloInfinite.Currency.Title
+  id: Title
+  parent: Grunt.Models.HaloInfinite.Currency
+  langs:
+  - csharp
+  name: Title
+  nameWithType: Currency.Title
+  fullName: Grunt.Models.HaloInfinite.Currency.Title
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.DisplayString Title { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.DisplayString Title { get; set; }
+  overload: Grunt.Models.HaloInfinite.Currency.Title*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.Currency.#ctor
+  parent: Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: Currency()
+  nameWithType: Currency.Currency()
+  fullName: Grunt.Models.HaloInfinite.Currency.Currency()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.Currency.CurrencyId
+  parent: Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: CurrencyId
+  nameWithType: Currency.CurrencyId
+  fullName: Grunt.Models.HaloInfinite.Currency.CurrencyId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.Currency.Description
+  parent: Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: Description
+  nameWithType: Currency.Description
+  fullName: Grunt.Models.HaloInfinite.Currency.Description
+  type: property
+- uid: Grunt.Models.HaloInfinite.DisplayString
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: DisplayString
+  nameWithType: DisplayString
+  fullName: Grunt.Models.HaloInfinite.DisplayString
+- uid: Grunt.Models.HaloInfinite.Currency.IconType
+  parent: Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: IconType
+  nameWithType: Currency.IconType
+  fullName: Grunt.Models.HaloInfinite.Currency.IconType
+  type: property
+- uid: Grunt.Models.HaloInfinite.Currency.Image
+  parent: Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: Image
+  nameWithType: Currency.Image
+  fullName: Grunt.Models.HaloInfinite.Currency.Image
+  type: property
+- uid: Grunt.Models.HaloInfinite.Currency.Title
+  parent: Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: Title
+  nameWithType: Currency.Title
+  fullName: Grunt.Models.HaloInfinite.Currency.Title
+  type: property
+- uid: Grunt.Models.HaloInfinite.Currency.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.Currency.#ctor
+  parent: Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: Currency
+  nameWithType: Currency.Currency
+  fullName: Grunt.Models.HaloInfinite.Currency.Currency
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.Currency.CurrencyId*
+  commentId: Overload:Grunt.Models.HaloInfinite.Currency.CurrencyId
+  parent: Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: CurrencyId
+  nameWithType: Currency.CurrencyId
+  fullName: Grunt.Models.HaloInfinite.Currency.CurrencyId
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Currency.Description*
+  commentId: Overload:Grunt.Models.HaloInfinite.Currency.Description
+  parent: Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: Description
+  nameWithType: Currency.Description
+  fullName: Grunt.Models.HaloInfinite.Currency.Description
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Currency.IconType*
+  commentId: Overload:Grunt.Models.HaloInfinite.Currency.IconType
+  parent: Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: IconType
+  nameWithType: Currency.IconType
+  fullName: Grunt.Models.HaloInfinite.Currency.IconType
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Currency.Image*
+  commentId: Overload:Grunt.Models.HaloInfinite.Currency.Image
+  parent: Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: Image
+  nameWithType: Currency.Image
+  fullName: Grunt.Models.HaloInfinite.Currency.Image
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Currency.Title*
+  commentId: Overload:Grunt.Models.HaloInfinite.Currency.Title
+  parent: Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: Title
+  nameWithType: Currency.Title
+  fullName: Grunt.Models.HaloInfinite.Currency.Title
+  monikers:
+  - net6.0
+  type: property

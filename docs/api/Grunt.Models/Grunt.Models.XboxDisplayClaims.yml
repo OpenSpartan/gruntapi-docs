@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.XboxDisplayClaims
+  commentId: T:Grunt.Models.XboxDisplayClaims
+  id: XboxDisplayClaims
+  children:
+  - Grunt.Models.XboxDisplayClaims.#ctor
+  - Grunt.Models.XboxDisplayClaims.Xui
+  langs:
+  - csharp
+  name: XboxDisplayClaims
+  nameWithType: Grunt.Models.XboxDisplayClaims
+  fullName: Grunt.Models.XboxDisplayClaims
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: public class XboxDisplayClaims
+    content.csharp: public class XboxDisplayClaims
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.XboxDisplayClaims.#ctor
+  commentId: M:Grunt.Models.XboxDisplayClaims.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.XboxDisplayClaims
+  langs:
+  - csharp
+  name: XboxDisplayClaims()
+  nameWithType: XboxDisplayClaims.XboxDisplayClaims()
+  fullName: Grunt.Models.XboxDisplayClaims.XboxDisplayClaims()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: public XboxDisplayClaims ();
+    parameters: []
+    content.csharp: public XboxDisplayClaims ();
+  overload: Grunt.Models.XboxDisplayClaims.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.XboxDisplayClaims.Xui
+  commentId: P:Grunt.Models.XboxDisplayClaims.Xui
+  id: Xui
+  parent: Grunt.Models.XboxDisplayClaims
+  langs:
+  - csharp
+  name: Xui
+  nameWithType: XboxDisplayClaims.Xui
+  fullName: Grunt.Models.XboxDisplayClaims.Xui
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: >-
+      [[Newtonsoft.Json.JsonProperty("xui")]]
+
+      public Grunt.Models.XboxXui[] Xui { get; set; }
+    return:
+      type: Grunt.Models.XboxXui[]
+      description: ''
+    content.csharp: >-
+      [[Newtonsoft.Json.JsonProperty("xui")]]
+
+      public Grunt.Models.XboxXui[] Xui { get; set; }
+  overload: Grunt.Models.XboxDisplayClaims.Xui*
+  exceptions: []
+  attributes:
+  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models
+  commentId: N:Grunt.Models
+  isExternal: false
+  name: Grunt.Models
+  nameWithType: Grunt.Models
+  fullName: Grunt.Models
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.XboxDisplayClaims.#ctor
+  parent: Grunt.Models.XboxDisplayClaims
+  isExternal: false
+  name: XboxDisplayClaims()
+  nameWithType: XboxDisplayClaims.XboxDisplayClaims()
+  fullName: Grunt.Models.XboxDisplayClaims.XboxDisplayClaims()
+  type: constructor
+- uid: Grunt.Models.XboxDisplayClaims.Xui
+  parent: Grunt.Models.XboxDisplayClaims
+  isExternal: false
+  name: Xui
+  nameWithType: XboxDisplayClaims.Xui
+  fullName: Grunt.Models.XboxDisplayClaims.Xui
+  type: property
+- uid: Grunt.Models.XboxXui
+  name: XboxXui
+  nameWithType: XboxXui
+  fullName: Grunt.Models.XboxXui
+- uid: Grunt.Models.XboxXui[]
+  parent: Grunt.Models
+  name: XboxXui[]
+  nameWithType: XboxXui[]
+  fullName: Grunt.Models.XboxXui[]
+  spec.csharp:
+  - uid: Grunt.Models.XboxXui
+    name: XboxXui
+    nameWithType: XboxXui
+    fullName: Grunt.Models.XboxXui
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.XboxDisplayClaims.#ctor*
+  commentId: Overload:Grunt.Models.XboxDisplayClaims.#ctor
+  parent: Grunt.Models.XboxDisplayClaims
+  isExternal: false
+  name: XboxDisplayClaims
+  nameWithType: XboxDisplayClaims.XboxDisplayClaims
+  fullName: Grunt.Models.XboxDisplayClaims.XboxDisplayClaims
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.XboxDisplayClaims.Xui*
+  commentId: Overload:Grunt.Models.XboxDisplayClaims.Xui
+  parent: Grunt.Models.XboxDisplayClaims
+  isExternal: false
+  name: Xui
+  nameWithType: XboxDisplayClaims.Xui
+  fullName: Grunt.Models.XboxDisplayClaims.Xui
+  monikers:
+  - net6.0
+  type: property

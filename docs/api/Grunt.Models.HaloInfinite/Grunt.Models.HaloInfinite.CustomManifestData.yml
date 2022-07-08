@@ -1,0 +1,366 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.CustomManifestData
+  commentId: T:Grunt.Models.HaloInfinite.CustomManifestData
+  id: CustomManifestData
+  children:
+  - Grunt.Models.HaloInfinite.CustomManifestData.#ctor
+  - Grunt.Models.HaloInfinite.CustomManifestData.BranchName
+  - Grunt.Models.HaloInfinite.CustomManifestData.BuildGuid
+  - Grunt.Models.HaloInfinite.CustomManifestData.BuildNumber
+  - Grunt.Models.HaloInfinite.CustomManifestData.ContentVersion
+  - Grunt.Models.HaloInfinite.CustomManifestData.Kind
+  - Grunt.Models.HaloInfinite.CustomManifestData.Visibility
+  langs:
+  - csharp
+  name: CustomManifestData
+  nameWithType: Grunt.Models.HaloInfinite.CustomManifestData
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class CustomManifestData
+    content.csharp: public class CustomManifestData
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.CustomManifestData.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  langs:
+  - csharp
+  name: CustomManifestData()
+  nameWithType: CustomManifestData.CustomManifestData()
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.CustomManifestData()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public CustomManifestData ();
+    parameters: []
+    content.csharp: public CustomManifestData ();
+  overload: Grunt.Models.HaloInfinite.CustomManifestData.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.BranchName
+  commentId: P:Grunt.Models.HaloInfinite.CustomManifestData.BranchName
+  id: BranchName
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  langs:
+  - csharp
+  name: BranchName
+  nameWithType: CustomManifestData.BranchName
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.BranchName
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string BranchName { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string BranchName { get; set; }
+  overload: Grunt.Models.HaloInfinite.CustomManifestData.BranchName*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.BuildGuid
+  commentId: P:Grunt.Models.HaloInfinite.CustomManifestData.BuildGuid
+  id: BuildGuid
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  langs:
+  - csharp
+  name: BuildGuid
+  nameWithType: CustomManifestData.BuildGuid
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.BuildGuid
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string BuildGuid { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string BuildGuid { get; set; }
+  overload: Grunt.Models.HaloInfinite.CustomManifestData.BuildGuid*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.BuildNumber
+  commentId: P:Grunt.Models.HaloInfinite.CustomManifestData.BuildNumber
+  id: BuildNumber
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  langs:
+  - csharp
+  name: BuildNumber
+  nameWithType: CustomManifestData.BuildNumber
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.BuildNumber
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string BuildNumber { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string BuildNumber { get; set; }
+  overload: Grunt.Models.HaloInfinite.CustomManifestData.BuildNumber*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.ContentVersion
+  commentId: P:Grunt.Models.HaloInfinite.CustomManifestData.ContentVersion
+  id: ContentVersion
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  langs:
+  - csharp
+  name: ContentVersion
+  nameWithType: CustomManifestData.ContentVersion
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.ContentVersion
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ContentVersion { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ContentVersion { get; set; }
+  overload: Grunt.Models.HaloInfinite.CustomManifestData.ContentVersion*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.Kind
+  commentId: P:Grunt.Models.HaloInfinite.CustomManifestData.Kind
+  id: Kind
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  langs:
+  - csharp
+  name: Kind
+  nameWithType: CustomManifestData.Kind
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.Kind
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Kind { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Kind { get; set; }
+  overload: Grunt.Models.HaloInfinite.CustomManifestData.Kind*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.Visibility
+  commentId: P:Grunt.Models.HaloInfinite.CustomManifestData.Visibility
+  id: Visibility
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  langs:
+  - csharp
+  name: Visibility
+  nameWithType: CustomManifestData.Visibility
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.Visibility
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Visibility { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Visibility { get; set; }
+  overload: Grunt.Models.HaloInfinite.CustomManifestData.Visibility*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.#ctor
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  isExternal: false
+  name: CustomManifestData()
+  nameWithType: CustomManifestData.CustomManifestData()
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.CustomManifestData()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.BranchName
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  isExternal: false
+  name: BranchName
+  nameWithType: CustomManifestData.BranchName
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.BranchName
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.BuildGuid
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  isExternal: false
+  name: BuildGuid
+  nameWithType: CustomManifestData.BuildGuid
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.BuildGuid
+  type: property
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.BuildNumber
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  isExternal: false
+  name: BuildNumber
+  nameWithType: CustomManifestData.BuildNumber
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.BuildNumber
+  type: property
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.ContentVersion
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  isExternal: false
+  name: ContentVersion
+  nameWithType: CustomManifestData.ContentVersion
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.ContentVersion
+  type: property
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.Kind
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  isExternal: false
+  name: Kind
+  nameWithType: CustomManifestData.Kind
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.Kind
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.Visibility
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  isExternal: false
+  name: Visibility
+  nameWithType: CustomManifestData.Visibility
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.Visibility
+  type: property
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.CustomManifestData.#ctor
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  isExternal: false
+  name: CustomManifestData
+  nameWithType: CustomManifestData.CustomManifestData
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.CustomManifestData
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.BranchName*
+  commentId: Overload:Grunt.Models.HaloInfinite.CustomManifestData.BranchName
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  isExternal: false
+  name: BranchName
+  nameWithType: CustomManifestData.BranchName
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.BranchName
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.BuildGuid*
+  commentId: Overload:Grunt.Models.HaloInfinite.CustomManifestData.BuildGuid
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  isExternal: false
+  name: BuildGuid
+  nameWithType: CustomManifestData.BuildGuid
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.BuildGuid
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.BuildNumber*
+  commentId: Overload:Grunt.Models.HaloInfinite.CustomManifestData.BuildNumber
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  isExternal: false
+  name: BuildNumber
+  nameWithType: CustomManifestData.BuildNumber
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.BuildNumber
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.ContentVersion*
+  commentId: Overload:Grunt.Models.HaloInfinite.CustomManifestData.ContentVersion
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  isExternal: false
+  name: ContentVersion
+  nameWithType: CustomManifestData.ContentVersion
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.ContentVersion
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.Kind*
+  commentId: Overload:Grunt.Models.HaloInfinite.CustomManifestData.Kind
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  isExternal: false
+  name: Kind
+  nameWithType: CustomManifestData.Kind
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.Kind
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.CustomManifestData.Visibility*
+  commentId: Overload:Grunt.Models.HaloInfinite.CustomManifestData.Visibility
+  parent: Grunt.Models.HaloInfinite.CustomManifestData
+  isExternal: false
+  name: Visibility
+  nameWithType: CustomManifestData.Visibility
+  fullName: Grunt.Models.HaloInfinite.CustomManifestData.Visibility
+  monikers:
+  - net6.0
+  type: property

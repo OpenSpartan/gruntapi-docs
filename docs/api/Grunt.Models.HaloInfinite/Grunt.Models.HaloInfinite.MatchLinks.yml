@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.MatchLinks
+  commentId: T:Grunt.Models.HaloInfinite.MatchLinks
+  id: MatchLinks
+  children:
+  - Grunt.Models.HaloInfinite.MatchLinks.#ctor
+  langs:
+  - csharp
+  name: MatchLinks
+  nameWithType: Grunt.Models.HaloInfinite.MatchLinks
+  fullName: Grunt.Models.HaloInfinite.MatchLinks
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class MatchLinks
+    content.csharp: public class MatchLinks
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.MatchLinks.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.MatchLinks.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.MatchLinks
+  langs:
+  - csharp
+  name: MatchLinks()
+  nameWithType: MatchLinks.MatchLinks()
+  fullName: Grunt.Models.HaloInfinite.MatchLinks.MatchLinks()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public MatchLinks ();
+    parameters: []
+    content.csharp: public MatchLinks ();
+  overload: Grunt.Models.HaloInfinite.MatchLinks.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.MatchLinks.#ctor
+  parent: Grunt.Models.HaloInfinite.MatchLinks
+  isExternal: false
+  name: MatchLinks()
+  nameWithType: MatchLinks.MatchLinks()
+  fullName: Grunt.Models.HaloInfinite.MatchLinks.MatchLinks()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.MatchLinks.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.MatchLinks.#ctor
+  parent: Grunt.Models.HaloInfinite.MatchLinks
+  isExternal: false
+  name: MatchLinks
+  nameWithType: MatchLinks.MatchLinks
+  fullName: Grunt.Models.HaloInfinite.MatchLinks.MatchLinks
+  monikers:
+  - net6.0
+  type: constructor

@@ -1,0 +1,837 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  commentId: T:Grunt.Models.HaloInfinite.ArmorCoreTheme
+  id: ArmorCoreTheme
+  children:
+  - Grunt.Models.HaloInfinite.ArmorCoreTheme.#ctor
+  - Grunt.Models.HaloInfinite.ArmorCoreTheme.ArmorFxPath
+  - Grunt.Models.HaloInfinite.ArmorCoreTheme.BigEmblem
+  - Grunt.Models.HaloInfinite.ArmorCoreTheme.ChestAttachmentPath
+  - Grunt.Models.HaloInfinite.ArmorCoreTheme.CoatingPath
+  - Grunt.Models.HaloInfinite.ArmorCoreTheme.Emblems
+  - Grunt.Models.HaloInfinite.ArmorCoreTheme.GlovePath
+  - Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetAttachmentPath
+  - Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetPath
+  - Grunt.Models.HaloInfinite.ArmorCoreTheme.HipAttachmentPath
+  - Grunt.Models.HaloInfinite.ArmorCoreTheme.KneePadPath
+  - Grunt.Models.HaloInfinite.ArmorCoreTheme.LeftShoulderPadPath
+  - Grunt.Models.HaloInfinite.ArmorCoreTheme.MythicFxPath
+  - Grunt.Models.HaloInfinite.ArmorCoreTheme.RightShoulderPadPath
+  - Grunt.Models.HaloInfinite.ArmorCoreTheme.VisorPath
+  - Grunt.Models.HaloInfinite.ArmorCoreTheme.WristAttachmentPath
+  langs:
+  - csharp
+  name: ArmorCoreTheme
+  nameWithType: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: 'public class ArmorCoreTheme : Grunt.Models.HaloInfinite.Foundation.Theme'
+    content.csharp: 'public class ArmorCoreTheme : Grunt.Models.HaloInfinite.Foundation.Theme'
+  inheritance:
+  - System.Object
+  - Grunt.Models.HaloInfinite.Foundation.Theme
+  implements: []
+  inheritedMembers:
+  - Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  - Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  - Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  - Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  - Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.ArmorCoreTheme.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  langs:
+  - csharp
+  name: ArmorCoreTheme()
+  nameWithType: ArmorCoreTheme.ArmorCoreTheme()
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.ArmorCoreTheme()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public ArmorCoreTheme ();
+    parameters: []
+    content.csharp: public ArmorCoreTheme ();
+  overload: Grunt.Models.HaloInfinite.ArmorCoreTheme.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.ArmorFxPath
+  commentId: P:Grunt.Models.HaloInfinite.ArmorCoreTheme.ArmorFxPath
+  id: ArmorFxPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  langs:
+  - csharp
+  name: ArmorFxPath
+  nameWithType: ArmorCoreTheme.ArmorFxPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.ArmorFxPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ArmorFxPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ArmorFxPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.ArmorCoreTheme.ArmorFxPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.BigEmblem
+  commentId: P:Grunt.Models.HaloInfinite.ArmorCoreTheme.BigEmblem
+  id: BigEmblem
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  langs:
+  - csharp
+  name: BigEmblem
+  nameWithType: ArmorCoreTheme.BigEmblem
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.BigEmblem
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.Emblem BigEmblem { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.Emblem
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.Emblem BigEmblem { get; set; }
+  overload: Grunt.Models.HaloInfinite.ArmorCoreTheme.BigEmblem*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.ChestAttachmentPath
+  commentId: P:Grunt.Models.HaloInfinite.ArmorCoreTheme.ChestAttachmentPath
+  id: ChestAttachmentPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  langs:
+  - csharp
+  name: ChestAttachmentPath
+  nameWithType: ArmorCoreTheme.ChestAttachmentPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.ChestAttachmentPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ChestAttachmentPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ChestAttachmentPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.ArmorCoreTheme.ChestAttachmentPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.CoatingPath
+  commentId: P:Grunt.Models.HaloInfinite.ArmorCoreTheme.CoatingPath
+  id: CoatingPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  langs:
+  - csharp
+  name: CoatingPath
+  nameWithType: ArmorCoreTheme.CoatingPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.CoatingPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string CoatingPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string CoatingPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.ArmorCoreTheme.CoatingPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.Emblems
+  commentId: P:Grunt.Models.HaloInfinite.ArmorCoreTheme.Emblems
+  id: Emblems
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  langs:
+  - csharp
+  name: Emblems
+  nameWithType: ArmorCoreTheme.Emblems
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.Emblems
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.Emblem> Emblems { get; set; }
+    return:
+      type: System.Collections.Generic.List{Grunt.Models.HaloInfinite.Emblem}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.Emblem> Emblems { get; set; }
+  overload: Grunt.Models.HaloInfinite.ArmorCoreTheme.Emblems*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.GlovePath
+  commentId: P:Grunt.Models.HaloInfinite.ArmorCoreTheme.GlovePath
+  id: GlovePath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  langs:
+  - csharp
+  name: GlovePath
+  nameWithType: ArmorCoreTheme.GlovePath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.GlovePath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string GlovePath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string GlovePath { get; set; }
+  overload: Grunt.Models.HaloInfinite.ArmorCoreTheme.GlovePath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetAttachmentPath
+  commentId: P:Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetAttachmentPath
+  id: HelmetAttachmentPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  langs:
+  - csharp
+  name: HelmetAttachmentPath
+  nameWithType: ArmorCoreTheme.HelmetAttachmentPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetAttachmentPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string HelmetAttachmentPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string HelmetAttachmentPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetAttachmentPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetPath
+  commentId: P:Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetPath
+  id: HelmetPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  langs:
+  - csharp
+  name: HelmetPath
+  nameWithType: ArmorCoreTheme.HelmetPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string HelmetPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string HelmetPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.HipAttachmentPath
+  commentId: P:Grunt.Models.HaloInfinite.ArmorCoreTheme.HipAttachmentPath
+  id: HipAttachmentPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  langs:
+  - csharp
+  name: HipAttachmentPath
+  nameWithType: ArmorCoreTheme.HipAttachmentPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.HipAttachmentPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string HipAttachmentPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string HipAttachmentPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.ArmorCoreTheme.HipAttachmentPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.KneePadPath
+  commentId: P:Grunt.Models.HaloInfinite.ArmorCoreTheme.KneePadPath
+  id: KneePadPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  langs:
+  - csharp
+  name: KneePadPath
+  nameWithType: ArmorCoreTheme.KneePadPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.KneePadPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string KneePadPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string KneePadPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.ArmorCoreTheme.KneePadPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.LeftShoulderPadPath
+  commentId: P:Grunt.Models.HaloInfinite.ArmorCoreTheme.LeftShoulderPadPath
+  id: LeftShoulderPadPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  langs:
+  - csharp
+  name: LeftShoulderPadPath
+  nameWithType: ArmorCoreTheme.LeftShoulderPadPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.LeftShoulderPadPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string LeftShoulderPadPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string LeftShoulderPadPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.ArmorCoreTheme.LeftShoulderPadPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.MythicFxPath
+  commentId: P:Grunt.Models.HaloInfinite.ArmorCoreTheme.MythicFxPath
+  id: MythicFxPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  langs:
+  - csharp
+  name: MythicFxPath
+  nameWithType: ArmorCoreTheme.MythicFxPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.MythicFxPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string MythicFxPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string MythicFxPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.ArmorCoreTheme.MythicFxPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.RightShoulderPadPath
+  commentId: P:Grunt.Models.HaloInfinite.ArmorCoreTheme.RightShoulderPadPath
+  id: RightShoulderPadPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  langs:
+  - csharp
+  name: RightShoulderPadPath
+  nameWithType: ArmorCoreTheme.RightShoulderPadPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.RightShoulderPadPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string RightShoulderPadPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string RightShoulderPadPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.ArmorCoreTheme.RightShoulderPadPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.VisorPath
+  commentId: P:Grunt.Models.HaloInfinite.ArmorCoreTheme.VisorPath
+  id: VisorPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  langs:
+  - csharp
+  name: VisorPath
+  nameWithType: ArmorCoreTheme.VisorPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.VisorPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string VisorPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string VisorPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.ArmorCoreTheme.VisorPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.WristAttachmentPath
+  commentId: P:Grunt.Models.HaloInfinite.ArmorCoreTheme.WristAttachmentPath
+  id: WristAttachmentPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  langs:
+  - csharp
+  name: WristAttachmentPath
+  nameWithType: ArmorCoreTheme.WristAttachmentPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.WristAttachmentPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string WristAttachmentPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string WristAttachmentPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.ArmorCoreTheme.WristAttachmentPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme
+  parent: Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Theme
+  nameWithType: Theme
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.#ctor
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: ArmorCoreTheme()
+  nameWithType: ArmorCoreTheme.ArmorCoreTheme()
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.ArmorCoreTheme()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.ArmorFxPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: ArmorFxPath
+  nameWithType: ArmorCoreTheme.ArmorFxPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.ArmorFxPath
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.BigEmblem
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: BigEmblem
+  nameWithType: ArmorCoreTheme.BigEmblem
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.BigEmblem
+  type: property
+- uid: Grunt.Models.HaloInfinite.Emblem
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Emblem
+  nameWithType: Emblem
+  fullName: Grunt.Models.HaloInfinite.Emblem
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.ChestAttachmentPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: ChestAttachmentPath
+  nameWithType: ArmorCoreTheme.ChestAttachmentPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.ChestAttachmentPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.CoatingPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: CoatingPath
+  nameWithType: ArmorCoreTheme.CoatingPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.CoatingPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.Emblems
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: Emblems
+  nameWithType: ArmorCoreTheme.Emblems
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.Emblems
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: System.Collections.Generic.List{Grunt.Models.HaloInfinite.Emblem}
+  parent: System.Collections.Generic
+  name: List<Emblem>
+  nameWithType: List<Emblem>
+  fullName: System.Collections.Generic.List<Grunt.Models.HaloInfinite.Emblem>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Grunt.Models.HaloInfinite.Emblem
+    name: Emblem
+    nameWithType: Emblem
+    fullName: Grunt.Models.HaloInfinite.Emblem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.GlovePath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: GlovePath
+  nameWithType: ArmorCoreTheme.GlovePath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.GlovePath
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetAttachmentPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: HelmetAttachmentPath
+  nameWithType: ArmorCoreTheme.HelmetAttachmentPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetAttachmentPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: HelmetPath
+  nameWithType: ArmorCoreTheme.HelmetPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.HipAttachmentPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: HipAttachmentPath
+  nameWithType: ArmorCoreTheme.HipAttachmentPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.HipAttachmentPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.KneePadPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: KneePadPath
+  nameWithType: ArmorCoreTheme.KneePadPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.KneePadPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.LeftShoulderPadPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: LeftShoulderPadPath
+  nameWithType: ArmorCoreTheme.LeftShoulderPadPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.LeftShoulderPadPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.MythicFxPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: MythicFxPath
+  nameWithType: ArmorCoreTheme.MythicFxPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.MythicFxPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.RightShoulderPadPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: RightShoulderPadPath
+  nameWithType: ArmorCoreTheme.RightShoulderPadPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.RightShoulderPadPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.VisorPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: VisorPath
+  nameWithType: ArmorCoreTheme.VisorPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.VisorPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.WristAttachmentPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: WristAttachmentPath
+  nameWithType: ArmorCoreTheme.WristAttachmentPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.WristAttachmentPath
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArmorCoreTheme.#ctor
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: ArmorCoreTheme
+  nameWithType: ArmorCoreTheme.ArmorCoreTheme
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.ArmorCoreTheme
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.ArmorFxPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArmorCoreTheme.ArmorFxPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: ArmorFxPath
+  nameWithType: ArmorCoreTheme.ArmorFxPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.ArmorFxPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.BigEmblem*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArmorCoreTheme.BigEmblem
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: BigEmblem
+  nameWithType: ArmorCoreTheme.BigEmblem
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.BigEmblem
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.ChestAttachmentPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArmorCoreTheme.ChestAttachmentPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: ChestAttachmentPath
+  nameWithType: ArmorCoreTheme.ChestAttachmentPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.ChestAttachmentPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.CoatingPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArmorCoreTheme.CoatingPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: CoatingPath
+  nameWithType: ArmorCoreTheme.CoatingPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.CoatingPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.Emblems*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArmorCoreTheme.Emblems
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: Emblems
+  nameWithType: ArmorCoreTheme.Emblems
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.Emblems
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.GlovePath*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArmorCoreTheme.GlovePath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: GlovePath
+  nameWithType: ArmorCoreTheme.GlovePath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.GlovePath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetAttachmentPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetAttachmentPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: HelmetAttachmentPath
+  nameWithType: ArmorCoreTheme.HelmetAttachmentPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetAttachmentPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: HelmetPath
+  nameWithType: ArmorCoreTheme.HelmetPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.HelmetPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.HipAttachmentPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArmorCoreTheme.HipAttachmentPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: HipAttachmentPath
+  nameWithType: ArmorCoreTheme.HipAttachmentPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.HipAttachmentPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.KneePadPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArmorCoreTheme.KneePadPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: KneePadPath
+  nameWithType: ArmorCoreTheme.KneePadPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.KneePadPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.LeftShoulderPadPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArmorCoreTheme.LeftShoulderPadPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: LeftShoulderPadPath
+  nameWithType: ArmorCoreTheme.LeftShoulderPadPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.LeftShoulderPadPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.MythicFxPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArmorCoreTheme.MythicFxPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: MythicFxPath
+  nameWithType: ArmorCoreTheme.MythicFxPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.MythicFxPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.RightShoulderPadPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArmorCoreTheme.RightShoulderPadPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: RightShoulderPadPath
+  nameWithType: ArmorCoreTheme.RightShoulderPadPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.RightShoulderPadPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.VisorPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArmorCoreTheme.VisorPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: VisorPath
+  nameWithType: ArmorCoreTheme.VisorPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.VisorPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ArmorCoreTheme.WristAttachmentPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArmorCoreTheme.WristAttachmentPath
+  parent: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  isExternal: false
+  name: WristAttachmentPath
+  nameWithType: ArmorCoreTheme.WristAttachmentPath
+  fullName: Grunt.Models.HaloInfinite.ArmorCoreTheme.WristAttachmentPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  parent: Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: FirstModifiedDateUtc
+  nameWithType: Theme.FirstModifiedDateUtc
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  parent: Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: IsDefault
+  nameWithType: Theme.IsDefault
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  parent: Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: IsEquipped
+  nameWithType: Theme.IsEquipped
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  parent: Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: Theme.LastModifiedDateUtc
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  parent: Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: ThemePath
+  nameWithType: Theme.ThemePath
+  fullName: Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  type: property

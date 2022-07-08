@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.DriverDetails
+  commentId: T:Grunt.Models.HaloInfinite.DriverDetails
+  id: DriverDetails
+  children:
+  - Grunt.Models.HaloInfinite.DriverDetails.#ctor
+  - Grunt.Models.HaloInfinite.DriverDetails.Blocklist
+  - Grunt.Models.HaloInfinite.DriverDetails.DownloadLink
+  - Grunt.Models.HaloInfinite.DriverDetails.Minimum
+  langs:
+  - csharp
+  name: DriverDetails
+  nameWithType: Grunt.Models.HaloInfinite.DriverDetails
+  fullName: Grunt.Models.HaloInfinite.DriverDetails
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class DriverDetails
+    content.csharp: public class DriverDetails
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.DriverDetails.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.DriverDetails.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.DriverDetails
+  langs:
+  - csharp
+  name: DriverDetails()
+  nameWithType: DriverDetails.DriverDetails()
+  fullName: Grunt.Models.HaloInfinite.DriverDetails.DriverDetails()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public DriverDetails ();
+    parameters: []
+    content.csharp: public DriverDetails ();
+  overload: Grunt.Models.HaloInfinite.DriverDetails.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.DriverDetails.Blocklist
+  commentId: P:Grunt.Models.HaloInfinite.DriverDetails.Blocklist
+  id: Blocklist
+  parent: Grunt.Models.HaloInfinite.DriverDetails
+  langs:
+  - csharp
+  name: Blocklist
+  nameWithType: DriverDetails.Blocklist
+  fullName: Grunt.Models.HaloInfinite.DriverDetails.Blocklist
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public object[] Blocklist { get; set; }
+    return:
+      type: System.Object[]
+      description: ''
+    content.csharp: public object[] Blocklist { get; set; }
+  overload: Grunt.Models.HaloInfinite.DriverDetails.Blocklist*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.DriverDetails.DownloadLink
+  commentId: P:Grunt.Models.HaloInfinite.DriverDetails.DownloadLink
+  id: DownloadLink
+  parent: Grunt.Models.HaloInfinite.DriverDetails
+  langs:
+  - csharp
+  name: DownloadLink
+  nameWithType: DriverDetails.DownloadLink
+  fullName: Grunt.Models.HaloInfinite.DriverDetails.DownloadLink
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string DownloadLink { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string DownloadLink { get; set; }
+  overload: Grunt.Models.HaloInfinite.DriverDetails.DownloadLink*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.DriverDetails.Minimum
+  commentId: P:Grunt.Models.HaloInfinite.DriverDetails.Minimum
+  id: Minimum
+  parent: Grunt.Models.HaloInfinite.DriverDetails
+  langs:
+  - csharp
+  name: Minimum
+  nameWithType: DriverDetails.Minimum
+  fullName: Grunt.Models.HaloInfinite.DriverDetails.Minimum
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Minimum { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Minimum { get; set; }
+  overload: Grunt.Models.HaloInfinite.DriverDetails.Minimum*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.DriverDetails.#ctor
+  parent: Grunt.Models.HaloInfinite.DriverDetails
+  isExternal: false
+  name: DriverDetails()
+  nameWithType: DriverDetails.DriverDetails()
+  fullName: Grunt.Models.HaloInfinite.DriverDetails.DriverDetails()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.DriverDetails.Blocklist
+  parent: Grunt.Models.HaloInfinite.DriverDetails
+  isExternal: false
+  name: Blocklist
+  nameWithType: DriverDetails.Blocklist
+  fullName: Grunt.Models.HaloInfinite.DriverDetails.Blocklist
+  type: property
+- uid: System.Object[]
+  parent: System
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.HaloInfinite.DriverDetails.DownloadLink
+  parent: Grunt.Models.HaloInfinite.DriverDetails
+  isExternal: false
+  name: DownloadLink
+  nameWithType: DriverDetails.DownloadLink
+  fullName: Grunt.Models.HaloInfinite.DriverDetails.DownloadLink
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.DriverDetails.Minimum
+  parent: Grunt.Models.HaloInfinite.DriverDetails
+  isExternal: false
+  name: Minimum
+  nameWithType: DriverDetails.Minimum
+  fullName: Grunt.Models.HaloInfinite.DriverDetails.Minimum
+  type: property
+- uid: Grunt.Models.HaloInfinite.DriverDetails.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.DriverDetails.#ctor
+  parent: Grunt.Models.HaloInfinite.DriverDetails
+  isExternal: false
+  name: DriverDetails
+  nameWithType: DriverDetails.DriverDetails
+  fullName: Grunt.Models.HaloInfinite.DriverDetails.DriverDetails
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.DriverDetails.Blocklist*
+  commentId: Overload:Grunt.Models.HaloInfinite.DriverDetails.Blocklist
+  parent: Grunt.Models.HaloInfinite.DriverDetails
+  isExternal: false
+  name: Blocklist
+  nameWithType: DriverDetails.Blocklist
+  fullName: Grunt.Models.HaloInfinite.DriverDetails.Blocklist
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.DriverDetails.DownloadLink*
+  commentId: Overload:Grunt.Models.HaloInfinite.DriverDetails.DownloadLink
+  parent: Grunt.Models.HaloInfinite.DriverDetails
+  isExternal: false
+  name: DownloadLink
+  nameWithType: DriverDetails.DownloadLink
+  fullName: Grunt.Models.HaloInfinite.DriverDetails.DownloadLink
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.DriverDetails.Minimum*
+  commentId: Overload:Grunt.Models.HaloInfinite.DriverDetails.Minimum
+  parent: Grunt.Models.HaloInfinite.DriverDetails
+  isExternal: false
+  name: Minimum
+  nameWithType: DriverDetails.Minimum
+  fullName: Grunt.Models.HaloInfinite.DriverDetails.Minimum
+  monikers:
+  - net6.0
+  type: property

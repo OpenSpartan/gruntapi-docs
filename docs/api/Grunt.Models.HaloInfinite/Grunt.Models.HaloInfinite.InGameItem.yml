@@ -1,0 +1,344 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.InGameItem
+  commentId: T:Grunt.Models.HaloInfinite.InGameItem
+  id: InGameItem
+  children:
+  - Grunt.Models.HaloInfinite.InGameItem.#ctor
+  - Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations
+  - Grunt.Models.HaloInfinite.InGameItem.CommonData
+  - Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName
+  - Grunt.Models.HaloInfinite.InGameItem.TagId
+  - Grunt.Models.HaloInfinite.InGameItem.ThemeName
+  langs:
+  - csharp
+  name: InGameItem
+  nameWithType: Grunt.Models.HaloInfinite.InGameItem
+  fullName: Grunt.Models.HaloInfinite.InGameItem
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class InGameItem
+    content.csharp: public class InGameItem
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.InGameItem.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.InGameItem.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  langs:
+  - csharp
+  name: InGameItem()
+  nameWithType: InGameItem.InGameItem()
+  fullName: Grunt.Models.HaloInfinite.InGameItem.InGameItem()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public InGameItem ();
+    parameters: []
+    content.csharp: public InGameItem ();
+  overload: Grunt.Models.HaloInfinite.InGameItem.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations
+  commentId: P:Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations
+  id: AvailableConfigurations
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  langs:
+  - csharp
+  name: AvailableConfigurations
+  nameWithType: InGameItem.AvailableConfigurations
+  fullName: Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.Configuration[] AvailableConfigurations { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.Configuration[]
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.Configuration[] AvailableConfigurations { get; set; }
+  overload: Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.InGameItem.CommonData
+  commentId: P:Grunt.Models.HaloInfinite.InGameItem.CommonData
+  id: CommonData
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  langs:
+  - csharp
+  name: CommonData
+  nameWithType: InGameItem.CommonData
+  fullName: Grunt.Models.HaloInfinite.InGameItem.CommonData
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.CommonItemData CommonData { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.CommonItemData
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.CommonItemData CommonData { get; set; }
+  overload: Grunt.Models.HaloInfinite.InGameItem.CommonData*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName
+  commentId: P:Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName
+  id: EmblemShaderName
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  langs:
+  - csharp
+  name: EmblemShaderName
+  nameWithType: InGameItem.EmblemShaderName
+  fullName: Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.IdentifierName EmblemShaderName { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.IdentifierName
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.IdentifierName EmblemShaderName { get; set; }
+  overload: Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.InGameItem.TagId
+  commentId: P:Grunt.Models.HaloInfinite.InGameItem.TagId
+  id: TagId
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  langs:
+  - csharp
+  name: TagId
+  nameWithType: InGameItem.TagId
+  fullName: Grunt.Models.HaloInfinite.InGameItem.TagId
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int TagId { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int TagId { get; set; }
+  overload: Grunt.Models.HaloInfinite.InGameItem.TagId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.InGameItem.ThemeName
+  commentId: P:Grunt.Models.HaloInfinite.InGameItem.ThemeName
+  id: ThemeName
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  langs:
+  - csharp
+  name: ThemeName
+  nameWithType: InGameItem.ThemeName
+  fullName: Grunt.Models.HaloInfinite.InGameItem.ThemeName
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.IdentifierName ThemeName { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.IdentifierName
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.IdentifierName ThemeName { get; set; }
+  overload: Grunt.Models.HaloInfinite.InGameItem.ThemeName*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.InGameItem.#ctor
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: InGameItem()
+  nameWithType: InGameItem.InGameItem()
+  fullName: Grunt.Models.HaloInfinite.InGameItem.InGameItem()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: AvailableConfigurations
+  nameWithType: InGameItem.AvailableConfigurations
+  fullName: Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations
+  type: property
+- uid: Grunt.Models.HaloInfinite.Configuration
+  name: Configuration
+  nameWithType: Configuration
+  fullName: Grunt.Models.HaloInfinite.Configuration
+- uid: Grunt.Models.HaloInfinite.Configuration[]
+  parent: Grunt.Models.HaloInfinite
+  name: Configuration[]
+  nameWithType: Configuration[]
+  fullName: Grunt.Models.HaloInfinite.Configuration[]
+  spec.csharp:
+  - uid: Grunt.Models.HaloInfinite.Configuration
+    name: Configuration
+    nameWithType: Configuration
+    fullName: Grunt.Models.HaloInfinite.Configuration
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.HaloInfinite.InGameItem.CommonData
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: CommonData
+  nameWithType: InGameItem.CommonData
+  fullName: Grunt.Models.HaloInfinite.InGameItem.CommonData
+  type: property
+- uid: Grunt.Models.HaloInfinite.CommonItemData
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: CommonItemData
+  nameWithType: CommonItemData
+  fullName: Grunt.Models.HaloInfinite.CommonItemData
+- uid: Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: EmblemShaderName
+  nameWithType: InGameItem.EmblemShaderName
+  fullName: Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName
+  type: property
+- uid: Grunt.Models.HaloInfinite.IdentifierName
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: IdentifierName
+  nameWithType: IdentifierName
+  fullName: Grunt.Models.HaloInfinite.IdentifierName
+- uid: Grunt.Models.HaloInfinite.InGameItem.TagId
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: TagId
+  nameWithType: InGameItem.TagId
+  fullName: Grunt.Models.HaloInfinite.InGameItem.TagId
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.InGameItem.ThemeName
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: ThemeName
+  nameWithType: InGameItem.ThemeName
+  fullName: Grunt.Models.HaloInfinite.InGameItem.ThemeName
+  type: property
+- uid: Grunt.Models.HaloInfinite.InGameItem.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.InGameItem.#ctor
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: InGameItem
+  nameWithType: InGameItem.InGameItem
+  fullName: Grunt.Models.HaloInfinite.InGameItem.InGameItem
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations*
+  commentId: Overload:Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: AvailableConfigurations
+  nameWithType: InGameItem.AvailableConfigurations
+  fullName: Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.InGameItem.CommonData*
+  commentId: Overload:Grunt.Models.HaloInfinite.InGameItem.CommonData
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: CommonData
+  nameWithType: InGameItem.CommonData
+  fullName: Grunt.Models.HaloInfinite.InGameItem.CommonData
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName*
+  commentId: Overload:Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: EmblemShaderName
+  nameWithType: InGameItem.EmblemShaderName
+  fullName: Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.InGameItem.TagId*
+  commentId: Overload:Grunt.Models.HaloInfinite.InGameItem.TagId
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: TagId
+  nameWithType: InGameItem.TagId
+  fullName: Grunt.Models.HaloInfinite.InGameItem.TagId
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.InGameItem.ThemeName*
+  commentId: Overload:Grunt.Models.HaloInfinite.InGameItem.ThemeName
+  parent: Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: ThemeName
+  nameWithType: InGameItem.ThemeName
+  fullName: Grunt.Models.HaloInfinite.InGameItem.ThemeName
+  monikers:
+  - net6.0
+  type: property
