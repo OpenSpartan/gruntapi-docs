@@ -69,7 +69,6 @@ items:
   - Grunt.Core.HaloInfiniteClient.GameCmsGetProgressionFile(System.String)
   - Grunt.Core.HaloInfiniteClient.GameCmsGetRecommendedDrivers
   - Grunt.Core.HaloInfiniteClient.GameCmsGetSeasonRewardTrack(System.String,System.String)
-  - Grunt.Core.HaloInfiniteClient.GameCmsGetUiConfigurationJson
   - Grunt.Core.HaloInfiniteClient.GetApiSettingsContainer
   - Grunt.Core.HaloInfiniteClient.HIUGCCheckAssetPlayerBookmark(System.String,System.String,System.String,System.String)
   - Grunt.Core.HaloInfiniteClient.HIUGCCreateAssetVersionAgnostic(System.String,System.String,System.String)
@@ -23225,34 +23224,6 @@ items:
   - public
   monikers:
   - net6.0
-- uid: Grunt.Core.HaloInfiniteClient.GameCmsGetUiConfigurationJson
-  commentId: M:Grunt.Core.HaloInfiniteClient.GameCmsGetUiConfigurationJson
-  id: GameCmsGetUiConfigurationJson
-  parent: Grunt.Core.HaloInfiniteClient
-  langs:
-  - csharp
-  name: GameCmsGetUiConfigurationJson()
-  nameWithType: HaloInfiniteClient.GameCmsGetUiConfigurationJson()
-  fullName: Grunt.Core.HaloInfiniteClient.GameCmsGetUiConfigurationJson()
-  type: Method
-  assemblies:
-  - Grunt
-  namespace: Grunt.Core
-  summary: This API currently returns a 400 Bad Request with a "Title mismatch between path and flight" message. Assuming because the branch is pre-cooked in the URL
-  remarks: INACTIVE API
-  syntax:
-    content: public System.Threading.Tasks.Task<string> GameCmsGetUiConfigurationJson ();
-    parameters: []
-    return:
-      type: System.Threading.Tasks.Task{System.String}
-      description: Unknown.
-    content.csharp: public System.Threading.Tasks.Task<string> GameCmsGetUiConfigurationJson ();
-  overload: Grunt.Core.HaloInfiniteClient.GameCmsGetUiConfigurationJson*
-  exceptions: []
-  modifiers.csharp:
-  - public
-  monikers:
-  - net6.0
 - uid: Grunt.Core.HaloInfiniteClient.GetApiSettingsContainer
   commentId: M:Grunt.Core.HaloInfiniteClient.GetApiSettingsContainer
   id: GetApiSettingsContainer
@@ -29530,13 +29501,6 @@ references:
   - name: '>'
     nameWithType: '>'
     fullName: '>'
-- uid: Grunt.Core.HaloInfiniteClient.GameCmsGetUiConfigurationJson
-  parent: Grunt.Core.HaloInfiniteClient
-  isExternal: false
-  name: GameCmsGetUiConfigurationJson()
-  nameWithType: HaloInfiniteClient.GameCmsGetUiConfigurationJson()
-  fullName: Grunt.Core.HaloInfiniteClient.GameCmsGetUiConfigurationJson()
-  type: method
 - uid: Grunt.Core.HaloInfiniteClient.GetApiSettingsContainer
   parent: Grunt.Core.HaloInfiniteClient
   isExternal: false
@@ -31317,16 +31281,6 @@ references:
   name: GameCmsGetSeasonRewardTrack
   nameWithType: HaloInfiniteClient.GameCmsGetSeasonRewardTrack
   fullName: Grunt.Core.HaloInfiniteClient.GameCmsGetSeasonRewardTrack
-  monikers:
-  - net6.0
-  type: method
-- uid: Grunt.Core.HaloInfiniteClient.GameCmsGetUiConfigurationJson*
-  commentId: Overload:Grunt.Core.HaloInfiniteClient.GameCmsGetUiConfigurationJson
-  parent: Grunt.Core.HaloInfiniteClient
-  isExternal: false
-  name: GameCmsGetUiConfigurationJson
-  nameWithType: HaloInfiniteClient.GameCmsGetUiConfigurationJson
-  fullName: Grunt.Core.HaloInfiniteClient.GameCmsGetUiConfigurationJson
   monikers:
   - net6.0
   type: method
