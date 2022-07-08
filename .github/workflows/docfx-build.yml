@@ -27,6 +27,8 @@ jobs:
       run: Expand-Archive -Path docfx.zip -DestinationPath _docfx
     - name: Install MemberPage plugin
       run: nuget install memberpage -OutputDirectory templates
+    - name: List contents of template folder
+      run: ls templates
     - name: Build DocFX docs
       working-directory: docs
       run: ${{ github.workspace }}\_docfx\docfx.exe build
