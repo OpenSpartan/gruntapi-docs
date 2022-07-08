@@ -55,9 +55,7 @@
     },
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
-    "template": [
-      "ds_template"
-    ],
+    "template": ["ds_template", "<output>/memberpage.<version>/content"],
     "postProcessors": [],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
