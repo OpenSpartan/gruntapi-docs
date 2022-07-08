@@ -30,6 +30,10 @@ jobs:
     - name: Build DocFX docs
       working-directory: docs
       run: ${{ github.workspace }}\_docfx\docfx.exe build
+    - name: List folder structure
+      run: ls
+    - name: List generated files
+      run: ls _site
     - name: Checkout HTML repo
       uses: actions/checkout@v2
       with:
