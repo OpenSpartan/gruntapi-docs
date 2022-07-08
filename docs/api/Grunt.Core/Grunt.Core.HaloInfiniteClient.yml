@@ -757,16 +757,37 @@ items:
   assemblies:
   - Grunt
   namespace: Grunt.Core
+  summary: Gets information about currently active boosts for the player.
+  example:
+  - >-
+    Here is an example response from the API, as snapshotted on 7/8/2022:
+
+    <pre><code>
+
+    {
+           "Boosts": [
+               {
+                   "ExpirationDate": {
+                       "ISO8601Date": "2022-07-08T21:22:02.151Z"
+                   },
+                   "State": "Active",
+                   "BoostPath": "Consumables/Boosts/xpboost.json",
+                   "EffectiveMultiplier": 2.0,
+                   "Matches": 0
+               }
+           ]
+       }
+    </code></pre>
   syntax:
-    content: public System.Threading.Tasks.Task<string> EconomyGetActiveBoosts (string player);
+    content: public System.Threading.Tasks.Task<Grunt.Models.HaloInfinite.ActiveBoostsContainer> EconomyGetActiveBoosts (string player);
     parameters:
     - id: player
       type: System.String
-      description: ''
+      description: The unique player XUID, in the format "xuid(XUID_VALUE)".
     return:
-      type: System.Threading.Tasks.Task{System.String}
-      description: ''
-    content.csharp: public System.Threading.Tasks.Task<string> EconomyGetActiveBoosts (string player);
+      type: System.Threading.Tasks.Task{Grunt.Models.HaloInfinite.ActiveBoostsContainer}
+      description: If successful, returns an instance of ActiveBoostsContainer that contains the list of active boosts. Otherwise, returns null.
+    content.csharp: public System.Threading.Tasks.Task<Grunt.Models.HaloInfinite.ActiveBoostsContainer> EconomyGetActiveBoosts (string player);
   overload: Grunt.Core.HaloInfiniteClient.EconomyGetActiveBoosts*
   exceptions: []
   modifiers.csharp:
@@ -28217,11 +28238,15 @@ references:
   nameWithType: HaloInfiniteClient.EconomyGetActiveBoosts(String)
   fullName: Grunt.Core.HaloInfiniteClient.EconomyGetActiveBoosts(String)
   type: method
-- uid: System.Threading.Tasks.Task{System.String}
+- uid: Grunt.Models.HaloInfinite.ActiveBoostsContainer
+  name: ActiveBoostsContainer
+  nameWithType: ActiveBoostsContainer
+  fullName: Grunt.Models.HaloInfinite.ActiveBoostsContainer
+- uid: System.Threading.Tasks.Task{Grunt.Models.HaloInfinite.ActiveBoostsContainer}
   parent: System.Threading.Tasks
-  name: Task<String>
-  nameWithType: Task<String>
-  fullName: System.Threading.Tasks.Task<System.String>
+  name: Task<ActiveBoostsContainer>
+  nameWithType: Task<ActiveBoostsContainer>
+  fullName: System.Threading.Tasks.Task<Grunt.Models.HaloInfinite.ActiveBoostsContainer>
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
@@ -28230,10 +28255,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+  - uid: Grunt.Models.HaloInfinite.ActiveBoostsContainer
+    name: ActiveBoostsContainer
+    nameWithType: ActiveBoostsContainer
+    fullName: Grunt.Models.HaloInfinite.ActiveBoostsContainer
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -28900,6 +28925,26 @@ references:
   nameWithType: HaloInfiniteClient.GameCmsGetChallenge(String, String)
   fullName: Grunt.Core.HaloInfiniteClient.GameCmsGetChallenge(String, String)
   type: method
+- uid: System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: Grunt.Core.HaloInfiniteClient.GameCmsGetChallengeDeck(System.String,System.String)
   parent: Grunt.Core.HaloInfiniteClient
   isExternal: false

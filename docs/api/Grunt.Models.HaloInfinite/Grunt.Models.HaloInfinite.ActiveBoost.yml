@@ -1,0 +1,333 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.ActiveBoost
+  commentId: T:Grunt.Models.HaloInfinite.ActiveBoost
+  id: ActiveBoost
+  children:
+  - Grunt.Models.HaloInfinite.ActiveBoost.#ctor
+  - Grunt.Models.HaloInfinite.ActiveBoost.BoostPath
+  - Grunt.Models.HaloInfinite.ActiveBoost.EffectiveMultiplier
+  - Grunt.Models.HaloInfinite.ActiveBoost.ExpirationDate
+  - Grunt.Models.HaloInfinite.ActiveBoost.Matches
+  - Grunt.Models.HaloInfinite.ActiveBoost.State
+  langs:
+  - csharp
+  name: ActiveBoost
+  nameWithType: Grunt.Models.HaloInfinite.ActiveBoost
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class ActiveBoost
+    content.csharp: public class ActiveBoost
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.ActiveBoost.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  langs:
+  - csharp
+  name: ActiveBoost()
+  nameWithType: ActiveBoost.ActiveBoost()
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.ActiveBoost()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public ActiveBoost ();
+    parameters: []
+    content.csharp: public ActiveBoost ();
+  overload: Grunt.Models.HaloInfinite.ActiveBoost.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.BoostPath
+  commentId: P:Grunt.Models.HaloInfinite.ActiveBoost.BoostPath
+  id: BoostPath
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  langs:
+  - csharp
+  name: BoostPath
+  nameWithType: ActiveBoost.BoostPath
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.BoostPath
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string BoostPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string BoostPath { get; set; }
+  overload: Grunt.Models.HaloInfinite.ActiveBoost.BoostPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.EffectiveMultiplier
+  commentId: P:Grunt.Models.HaloInfinite.ActiveBoost.EffectiveMultiplier
+  id: EffectiveMultiplier
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  langs:
+  - csharp
+  name: EffectiveMultiplier
+  nameWithType: ActiveBoost.EffectiveMultiplier
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.EffectiveMultiplier
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public float EffectiveMultiplier { get; set; }
+    return:
+      type: System.Single
+      description: ''
+    content.csharp: public float EffectiveMultiplier { get; set; }
+  overload: Grunt.Models.HaloInfinite.ActiveBoost.EffectiveMultiplier*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.ExpirationDate
+  commentId: P:Grunt.Models.HaloInfinite.ActiveBoost.ExpirationDate
+  id: ExpirationDate
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  langs:
+  - csharp
+  name: ExpirationDate
+  nameWithType: ActiveBoost.ExpirationDate
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.ExpirationDate
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.APIFormattedDate ExpirationDate { get; set; }
+    return:
+      type: Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public Grunt.Models.APIFormattedDate ExpirationDate { get; set; }
+  overload: Grunt.Models.HaloInfinite.ActiveBoost.ExpirationDate*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.Matches
+  commentId: P:Grunt.Models.HaloInfinite.ActiveBoost.Matches
+  id: Matches
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  langs:
+  - csharp
+  name: Matches
+  nameWithType: ActiveBoost.Matches
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.Matches
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Matches { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Matches { get; set; }
+  overload: Grunt.Models.HaloInfinite.ActiveBoost.Matches*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.State
+  commentId: P:Grunt.Models.HaloInfinite.ActiveBoost.State
+  id: State
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  langs:
+  - csharp
+  name: State
+  nameWithType: ActiveBoost.State
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.State
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string State { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string State { get; set; }
+  overload: Grunt.Models.HaloInfinite.ActiveBoost.State*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.#ctor
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  isExternal: false
+  name: ActiveBoost()
+  nameWithType: ActiveBoost.ActiveBoost()
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.ActiveBoost()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.BoostPath
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  isExternal: false
+  name: BoostPath
+  nameWithType: ActiveBoost.BoostPath
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.BoostPath
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.EffectiveMultiplier
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  isExternal: false
+  name: EffectiveMultiplier
+  nameWithType: ActiveBoost.EffectiveMultiplier
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.EffectiveMultiplier
+  type: property
+- uid: System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.ExpirationDate
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  isExternal: false
+  name: ExpirationDate
+  nameWithType: ActiveBoost.ExpirationDate
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.ExpirationDate
+  type: property
+- uid: Grunt.Models.APIFormattedDate
+  parent: Grunt.Models
+  isExternal: false
+  name: APIFormattedDate
+  nameWithType: APIFormattedDate
+  fullName: Grunt.Models.APIFormattedDate
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.Matches
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  isExternal: false
+  name: Matches
+  nameWithType: ActiveBoost.Matches
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.Matches
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.State
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  isExternal: false
+  name: State
+  nameWithType: ActiveBoost.State
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.State
+  type: property
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.ActiveBoost.#ctor
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  isExternal: false
+  name: ActiveBoost
+  nameWithType: ActiveBoost.ActiveBoost
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.ActiveBoost
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.BoostPath*
+  commentId: Overload:Grunt.Models.HaloInfinite.ActiveBoost.BoostPath
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  isExternal: false
+  name: BoostPath
+  nameWithType: ActiveBoost.BoostPath
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.BoostPath
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.EffectiveMultiplier*
+  commentId: Overload:Grunt.Models.HaloInfinite.ActiveBoost.EffectiveMultiplier
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  isExternal: false
+  name: EffectiveMultiplier
+  nameWithType: ActiveBoost.EffectiveMultiplier
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.EffectiveMultiplier
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.ExpirationDate*
+  commentId: Overload:Grunt.Models.HaloInfinite.ActiveBoost.ExpirationDate
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  isExternal: false
+  name: ExpirationDate
+  nameWithType: ActiveBoost.ExpirationDate
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.ExpirationDate
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.Matches*
+  commentId: Overload:Grunt.Models.HaloInfinite.ActiveBoost.Matches
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  isExternal: false
+  name: Matches
+  nameWithType: ActiveBoost.Matches
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.Matches
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ActiveBoost.State*
+  commentId: Overload:Grunt.Models.HaloInfinite.ActiveBoost.State
+  parent: Grunt.Models.HaloInfinite.ActiveBoost
+  isExternal: false
+  name: State
+  nameWithType: ActiveBoost.State
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost.State
+  monikers:
+  - net6.0
+  type: property

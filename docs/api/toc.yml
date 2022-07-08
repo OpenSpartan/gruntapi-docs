@@ -113,6 +113,14 @@
     name: AchievementCollection
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.ActiveBoost
+    name: ActiveBoost
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ActiveBoostsContainer
+    name: ActiveBoostsContainer
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.ActiveChallenge
     name: ActiveChallenge
     monikers:

@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.ActiveBoostsContainer
+  commentId: T:Grunt.Models.HaloInfinite.ActiveBoostsContainer
+  id: ActiveBoostsContainer
+  children:
+  - Grunt.Models.HaloInfinite.ActiveBoostsContainer.#ctor
+  - Grunt.Models.HaloInfinite.ActiveBoostsContainer.Boosts
+  langs:
+  - csharp
+  name: ActiveBoostsContainer
+  nameWithType: Grunt.Models.HaloInfinite.ActiveBoostsContainer
+  fullName: Grunt.Models.HaloInfinite.ActiveBoostsContainer
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class ActiveBoostsContainer
+    content.csharp: public class ActiveBoostsContainer
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.ActiveBoostsContainer.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.ActiveBoostsContainer.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.ActiveBoostsContainer
+  langs:
+  - csharp
+  name: ActiveBoostsContainer()
+  nameWithType: ActiveBoostsContainer.ActiveBoostsContainer()
+  fullName: Grunt.Models.HaloInfinite.ActiveBoostsContainer.ActiveBoostsContainer()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public ActiveBoostsContainer ();
+    parameters: []
+    content.csharp: public ActiveBoostsContainer ();
+  overload: Grunt.Models.HaloInfinite.ActiveBoostsContainer.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ActiveBoostsContainer.Boosts
+  commentId: P:Grunt.Models.HaloInfinite.ActiveBoostsContainer.Boosts
+  id: Boosts
+  parent: Grunt.Models.HaloInfinite.ActiveBoostsContainer
+  langs:
+  - csharp
+  name: Boosts
+  nameWithType: ActiveBoostsContainer.Boosts
+  fullName: Grunt.Models.HaloInfinite.ActiveBoostsContainer.Boosts
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.ActiveBoost> Boosts { get; set; }
+    return:
+      type: System.Collections.Generic.List{Grunt.Models.HaloInfinite.ActiveBoost}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.ActiveBoost> Boosts { get; set; }
+  overload: Grunt.Models.HaloInfinite.ActiveBoostsContainer.Boosts*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.ActiveBoostsContainer.#ctor
+  parent: Grunt.Models.HaloInfinite.ActiveBoostsContainer
+  isExternal: false
+  name: ActiveBoostsContainer()
+  nameWithType: ActiveBoostsContainer.ActiveBoostsContainer()
+  fullName: Grunt.Models.HaloInfinite.ActiveBoostsContainer.ActiveBoostsContainer()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.ActiveBoostsContainer.Boosts
+  parent: Grunt.Models.HaloInfinite.ActiveBoostsContainer
+  isExternal: false
+  name: Boosts
+  nameWithType: ActiveBoostsContainer.Boosts
+  fullName: Grunt.Models.HaloInfinite.ActiveBoostsContainer.Boosts
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: Grunt.Models.HaloInfinite.ActiveBoost
+  name: ActiveBoost
+  nameWithType: ActiveBoost
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost
+- uid: System.Collections.Generic.List{Grunt.Models.HaloInfinite.ActiveBoost}
+  parent: System.Collections.Generic
+  name: List<ActiveBoost>
+  nameWithType: List<ActiveBoost>
+  fullName: System.Collections.Generic.List<Grunt.Models.HaloInfinite.ActiveBoost>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Grunt.Models.HaloInfinite.ActiveBoost
+    name: ActiveBoost
+    nameWithType: ActiveBoost
+    fullName: Grunt.Models.HaloInfinite.ActiveBoost
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.HaloInfinite.ActiveBoostsContainer.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.ActiveBoostsContainer.#ctor
+  parent: Grunt.Models.HaloInfinite.ActiveBoostsContainer
+  isExternal: false
+  name: ActiveBoostsContainer
+  nameWithType: ActiveBoostsContainer.ActiveBoostsContainer
+  fullName: Grunt.Models.HaloInfinite.ActiveBoostsContainer.ActiveBoostsContainer
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.ActiveBoostsContainer.Boosts*
+  commentId: Overload:Grunt.Models.HaloInfinite.ActiveBoostsContainer.Boosts
+  parent: Grunt.Models.HaloInfinite.ActiveBoostsContainer
+  isExternal: false
+  name: Boosts
+  nameWithType: ActiveBoostsContainer.Boosts
+  fullName: Grunt.Models.HaloInfinite.ActiveBoostsContainer.Boosts
+  monikers:
+  - net6.0
+  type: property

@@ -13,6 +13,8 @@ items:
   - Grunt.Models.HaloInfinite.AcademyTutorial
   - Grunt.Models.HaloInfinite.Achievement
   - Grunt.Models.HaloInfinite.AchievementCollection
+  - Grunt.Models.HaloInfinite.ActiveBoost
+  - Grunt.Models.HaloInfinite.ActiveBoostsContainer
   - Grunt.Models.HaloInfinite.ActiveChallenge
   - Grunt.Models.HaloInfinite.AiCore
   - Grunt.Models.HaloInfinite.AiCoreCollection
@@ -262,6 +264,22 @@ references:
   name: AchievementCollection
   nameWithType: Grunt.Models.HaloInfinite.AchievementCollection
   fullName: Grunt.Models.HaloInfinite.AchievementCollection
+  type: class
+- uid: Grunt.Models.HaloInfinite.ActiveBoost
+  commentId: T:Grunt.Models.HaloInfinite.ActiveBoost
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: ActiveBoost
+  nameWithType: Grunt.Models.HaloInfinite.ActiveBoost
+  fullName: Grunt.Models.HaloInfinite.ActiveBoost
+  type: class
+- uid: Grunt.Models.HaloInfinite.ActiveBoostsContainer
+  commentId: T:Grunt.Models.HaloInfinite.ActiveBoostsContainer
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: ActiveBoostsContainer
+  nameWithType: Grunt.Models.HaloInfinite.ActiveBoostsContainer
+  fullName: Grunt.Models.HaloInfinite.ActiveBoostsContainer
   type: class
 - uid: Grunt.Models.HaloInfinite.ActiveChallenge
   commentId: T:Grunt.Models.HaloInfinite.ActiveChallenge
