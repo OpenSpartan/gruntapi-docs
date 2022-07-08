@@ -31,9 +31,9 @@ jobs:
       working-directory: docs
       run: ${{ github.workspace }}\_docfx\docfx.exe build
     - name: List folder structure
-      run: ls
+      run: ls docs
     - name: List generated files
-      run: ls _site
+      run: ls docs\_site
     - name: Checkout HTML repo
       uses: actions/checkout@v2
       with:
