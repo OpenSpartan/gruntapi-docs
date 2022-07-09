@@ -181,6 +181,10 @@
     name: AssetLink
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.AssetPermission
+    name: AssetPermission
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.AssetRating
     name: AssetRating
     monikers:
@@ -195,6 +199,18 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.AsyncComputeOverrides
     name: AsyncComputeOverrides
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAsset
+    name: AuthoringAsset
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetRatings
+    name: AuthoringAssetRatings
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetStats
+    name: AuthoringAssetStats
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.AwardedReward

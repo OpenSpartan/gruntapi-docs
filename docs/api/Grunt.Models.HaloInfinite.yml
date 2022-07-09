@@ -30,10 +30,14 @@ items:
   - Grunt.Models.HaloInfinite.Articleimage
   - Grunt.Models.HaloInfinite.AssetKeyValues
   - Grunt.Models.HaloInfinite.AssetLink
+  - Grunt.Models.HaloInfinite.AssetPermission
   - Grunt.Models.HaloInfinite.AssetRating
   - Grunt.Models.HaloInfinite.AssetVersionFile
   - Grunt.Models.HaloInfinite.AssignedDeck
   - Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  - Grunt.Models.HaloInfinite.AuthoringAsset
+  - Grunt.Models.HaloInfinite.AuthoringAssetRatings
+  - Grunt.Models.HaloInfinite.AuthoringAssetStats
   - Grunt.Models.HaloInfinite.AwardedReward
   - Grunt.Models.HaloInfinite.BanResult
   - Grunt.Models.HaloInfinite.BanSummary
@@ -400,6 +404,14 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.AssetLink
   fullName: Grunt.Models.HaloInfinite.AssetLink
   type: class
+- uid: Grunt.Models.HaloInfinite.AssetPermission
+  commentId: T:Grunt.Models.HaloInfinite.AssetPermission
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AssetPermission
+  nameWithType: Grunt.Models.HaloInfinite.AssetPermission
+  fullName: Grunt.Models.HaloInfinite.AssetPermission
+  type: class
 - uid: Grunt.Models.HaloInfinite.AssetRating
   commentId: T:Grunt.Models.HaloInfinite.AssetRating
   parent: Grunt.Models.HaloInfinite
@@ -431,6 +443,30 @@ references:
   name: AsyncComputeOverrides
   nameWithType: Grunt.Models.HaloInfinite.AsyncComputeOverrides
   fullName: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  type: class
+- uid: Grunt.Models.HaloInfinite.AuthoringAsset
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringAsset
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringAsset
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringAsset
+  fullName: Grunt.Models.HaloInfinite.AuthoringAsset
+  type: class
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetRatings
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringAssetRatings
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringAssetRatings
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringAssetRatings
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetRatings
+  type: class
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringAssetStats
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringAssetStats
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats
   type: class
 - uid: Grunt.Models.HaloInfinite.AwardedReward
   commentId: T:Grunt.Models.HaloInfinite.AwardedReward
