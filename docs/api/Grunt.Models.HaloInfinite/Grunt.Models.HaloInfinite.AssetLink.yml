@@ -25,6 +25,7 @@ items:
   inheritedMembers:
   - Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
   - Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
   - Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
   - Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
   - Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
@@ -158,6 +159,13 @@ references:
   name: AssetId
   nameWithType: Asset.AssetId
   fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetKind
+  nameWithType: Asset.AssetKind
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
   type: property
 - uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
   parent: Grunt.Models.HaloInfinite.Foundation.Asset

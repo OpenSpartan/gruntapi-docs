@@ -243,11 +243,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public Grunt.Models.HaloInfinite.MapVariant MapVariant { get; set; }
+    content: public Grunt.Models.HaloInfinite.Foundation.Asset MapVariant { get; set; }
     return:
-      type: Grunt.Models.HaloInfinite.MapVariant
+      type: Grunt.Models.HaloInfinite.Foundation.Asset
       description: ''
-    content.csharp: public Grunt.Models.HaloInfinite.MapVariant MapVariant { get; set; }
+    content.csharp: public Grunt.Models.HaloInfinite.Foundation.Asset MapVariant { get; set; }
   overload: Grunt.Models.HaloInfinite.MatchInfo.MapVariant*
   exceptions: []
   modifiers.csharp:
@@ -297,11 +297,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public Grunt.Models.HaloInfinite.Playlist Playlist { get; set; }
+    content: public Grunt.Models.HaloInfinite.Foundation.Asset Playlist { get; set; }
     return:
-      type: Grunt.Models.HaloInfinite.Playlist
+      type: Grunt.Models.HaloInfinite.Foundation.Asset
       description: ''
-    content.csharp: public Grunt.Models.HaloInfinite.Playlist Playlist { get; set; }
+    content.csharp: public Grunt.Models.HaloInfinite.Foundation.Asset Playlist { get; set; }
   overload: Grunt.Models.HaloInfinite.MatchInfo.Playlist*
   exceptions: []
   modifiers.csharp:
@@ -351,11 +351,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public Grunt.Models.HaloInfinite.PlaylistMapModePair PlaylistMapModePair { get; set; }
+    content: public Grunt.Models.HaloInfinite.Foundation.Asset PlaylistMapModePair { get; set; }
     return:
-      type: Grunt.Models.HaloInfinite.PlaylistMapModePair
+      type: Grunt.Models.HaloInfinite.Foundation.Asset
       description: ''
-    content.csharp: public Grunt.Models.HaloInfinite.PlaylistMapModePair PlaylistMapModePair { get; set; }
+    content.csharp: public Grunt.Models.HaloInfinite.Foundation.Asset PlaylistMapModePair { get; set; }
   overload: Grunt.Models.HaloInfinite.MatchInfo.PlaylistMapModePair*
   exceptions: []
   modifiers.csharp:
@@ -587,12 +587,12 @@ references:
   nameWithType: MatchInfo.MapVariant
   fullName: Grunt.Models.HaloInfinite.MatchInfo.MapVariant
   type: property
-- uid: Grunt.Models.HaloInfinite.MapVariant
-  parent: Grunt.Models.HaloInfinite
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset
+  parent: Grunt.Models.HaloInfinite.Foundation
   isExternal: false
-  name: MapVariant
-  nameWithType: MapVariant
-  fullName: Grunt.Models.HaloInfinite.MapVariant
+  name: Asset
+  nameWithType: Asset
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset
 - uid: Grunt.Models.HaloInfinite.MatchInfo.PlayableDuration
   parent: Grunt.Models.HaloInfinite.MatchInfo
   isExternal: false
@@ -607,12 +607,6 @@ references:
   nameWithType: MatchInfo.Playlist
   fullName: Grunt.Models.HaloInfinite.MatchInfo.Playlist
   type: property
-- uid: Grunt.Models.HaloInfinite.Playlist
-  parent: Grunt.Models.HaloInfinite
-  isExternal: false
-  name: Playlist
-  nameWithType: Playlist
-  fullName: Grunt.Models.HaloInfinite.Playlist
 - uid: Grunt.Models.HaloInfinite.MatchInfo.PlaylistExperience
   parent: Grunt.Models.HaloInfinite.MatchInfo
   isExternal: false
@@ -627,12 +621,6 @@ references:
   nameWithType: MatchInfo.PlaylistMapModePair
   fullName: Grunt.Models.HaloInfinite.MatchInfo.PlaylistMapModePair
   type: property
-- uid: Grunt.Models.HaloInfinite.PlaylistMapModePair
-  parent: Grunt.Models.HaloInfinite
-  isExternal: false
-  name: PlaylistMapModePair
-  nameWithType: PlaylistMapModePair
-  fullName: Grunt.Models.HaloInfinite.PlaylistMapModePair
 - uid: Grunt.Models.HaloInfinite.MatchInfo.SeasonId
   parent: Grunt.Models.HaloInfinite.MatchInfo
   isExternal: false

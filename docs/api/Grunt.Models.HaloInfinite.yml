@@ -67,6 +67,7 @@ items:
   - Grunt.Models.HaloInfinite.DriverManifest
   - Grunt.Models.HaloInfinite.Emblem
   - Grunt.Models.HaloInfinite.EngineGameVariant
+  - Grunt.Models.HaloInfinite.FavoriteAsset
   - Grunt.Models.HaloInfinite.File
   - Grunt.Models.HaloInfinite.Film
   - Grunt.Models.HaloInfinite.FilmChunk
@@ -95,7 +96,6 @@ items:
   - Grunt.Models.HaloInfinite.Manufacturer
   - Grunt.Models.HaloInfinite.Map
   - Grunt.Models.HaloInfinite.MapModePair
-  - Grunt.Models.HaloInfinite.MapVariant
   - Grunt.Models.HaloInfinite.MarketplaceRecord
   - Grunt.Models.HaloInfinite.MatchContainer
   - Grunt.Models.HaloInfinite.MatchCsr
@@ -141,8 +141,6 @@ items:
   - Grunt.Models.HaloInfinite.PlayerSkillResultValue
   - Grunt.Models.HaloInfinite.PlayerState
   - Grunt.Models.HaloInfinite.PlayerTeamStat
-  - Grunt.Models.HaloInfinite.Playlist
-  - Grunt.Models.HaloInfinite.PlaylistMapModePair
   - Grunt.Models.HaloInfinite.Price
   - Grunt.Models.HaloInfinite.Project
   - Grunt.Models.HaloInfinite.Query
@@ -698,6 +696,14 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.EngineGameVariant
   fullName: Grunt.Models.HaloInfinite.EngineGameVariant
   type: class
+- uid: Grunt.Models.HaloInfinite.FavoriteAsset
+  commentId: T:Grunt.Models.HaloInfinite.FavoriteAsset
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: FavoriteAsset
+  nameWithType: Grunt.Models.HaloInfinite.FavoriteAsset
+  fullName: Grunt.Models.HaloInfinite.FavoriteAsset
+  type: class
 - uid: Grunt.Models.HaloInfinite.File
   commentId: T:Grunt.Models.HaloInfinite.File
   parent: Grunt.Models.HaloInfinite
@@ -921,14 +927,6 @@ references:
   name: MapModePair
   nameWithType: Grunt.Models.HaloInfinite.MapModePair
   fullName: Grunt.Models.HaloInfinite.MapModePair
-  type: class
-- uid: Grunt.Models.HaloInfinite.MapVariant
-  commentId: T:Grunt.Models.HaloInfinite.MapVariant
-  parent: Grunt.Models.HaloInfinite
-  isExternal: false
-  name: MapVariant
-  nameWithType: Grunt.Models.HaloInfinite.MapVariant
-  fullName: Grunt.Models.HaloInfinite.MapVariant
   type: class
 - uid: Grunt.Models.HaloInfinite.MarketplaceRecord
   commentId: T:Grunt.Models.HaloInfinite.MarketplaceRecord
@@ -1289,22 +1287,6 @@ references:
   name: PlayerTeamStat
   nameWithType: Grunt.Models.HaloInfinite.PlayerTeamStat
   fullName: Grunt.Models.HaloInfinite.PlayerTeamStat
-  type: class
-- uid: Grunt.Models.HaloInfinite.Playlist
-  commentId: T:Grunt.Models.HaloInfinite.Playlist
-  parent: Grunt.Models.HaloInfinite
-  isExternal: false
-  name: Playlist
-  nameWithType: Grunt.Models.HaloInfinite.Playlist
-  fullName: Grunt.Models.HaloInfinite.Playlist
-  type: class
-- uid: Grunt.Models.HaloInfinite.PlaylistMapModePair
-  commentId: T:Grunt.Models.HaloInfinite.PlaylistMapModePair
-  parent: Grunt.Models.HaloInfinite
-  isExternal: false
-  name: PlaylistMapModePair
-  nameWithType: Grunt.Models.HaloInfinite.PlaylistMapModePair
-  fullName: Grunt.Models.HaloInfinite.PlaylistMapModePair
   type: class
 - uid: Grunt.Models.HaloInfinite.Price
   commentId: T:Grunt.Models.HaloInfinite.Price

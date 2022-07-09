@@ -329,6 +329,10 @@
     name: EngineGameVariant
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.FavoriteAsset
+    name: FavoriteAsset
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.File
     name: File
     monikers:
@@ -439,10 +443,6 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.MapModePair
     name: MapModePair
-    monikers:
-    - net6.0
-  - uid: Grunt.Models.HaloInfinite.MapVariant
-    name: MapVariant
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.MarketplaceRecord
@@ -623,14 +623,6 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.PlayerTeamStat
     name: PlayerTeamStat
-    monikers:
-    - net6.0
-  - uid: Grunt.Models.HaloInfinite.Playlist
-    name: Playlist
-    monikers:
-    - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlaylistMapModePair
-    name: PlaylistMapModePair
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.Price
