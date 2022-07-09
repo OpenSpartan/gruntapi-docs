@@ -329,6 +329,10 @@
     name: EngineGameVariant
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.File
+    name: File
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.Film
     name: Film
     monikers:
@@ -351,6 +355,10 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.GrantedCurrency
     name: GrantedCurrency
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.GuideContainer
+    name: GuideContainer
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle
@@ -399,10 +407,6 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.KillDeathStats
     name: KillDeathStats
-    monikers:
-    - net6.0
-  - uid: Grunt.Models.HaloInfinite.Link
-    name: Link
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.Links

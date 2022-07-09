@@ -67,12 +67,14 @@ items:
   - Grunt.Models.HaloInfinite.DriverManifest
   - Grunt.Models.HaloInfinite.Emblem
   - Grunt.Models.HaloInfinite.EngineGameVariant
+  - Grunt.Models.HaloInfinite.File
   - Grunt.Models.HaloInfinite.Film
   - Grunt.Models.HaloInfinite.FilmChunk
   - Grunt.Models.HaloInfinite.FlightedFeatureFlags
   - Grunt.Models.HaloInfinite.GameVariant
   - Grunt.Models.HaloInfinite.GameVariantAssetStats
   - Grunt.Models.HaloInfinite.GrantedCurrency
+  - Grunt.Models.HaloInfinite.GuideContainer
   - Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle
   - Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
   - Grunt.Models.HaloInfinite.HaloInfiniteMicrosoftStoreTitle
@@ -85,7 +87,6 @@ items:
   - Grunt.Models.HaloInfinite.ItemPath
   - Grunt.Models.HaloInfinite.Key
   - Grunt.Models.HaloInfinite.KillDeathStats
-  - Grunt.Models.HaloInfinite.Link
   - Grunt.Models.HaloInfinite.Links
   - Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
   - Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList
@@ -697,6 +698,14 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.EngineGameVariant
   fullName: Grunt.Models.HaloInfinite.EngineGameVariant
   type: class
+- uid: Grunt.Models.HaloInfinite.File
+  commentId: T:Grunt.Models.HaloInfinite.File
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: File
+  nameWithType: Grunt.Models.HaloInfinite.File
+  fullName: Grunt.Models.HaloInfinite.File
+  type: class
 - uid: Grunt.Models.HaloInfinite.Film
   commentId: T:Grunt.Models.HaloInfinite.Film
   parent: Grunt.Models.HaloInfinite
@@ -744,6 +753,14 @@ references:
   name: GrantedCurrency
   nameWithType: Grunt.Models.HaloInfinite.GrantedCurrency
   fullName: Grunt.Models.HaloInfinite.GrantedCurrency
+  type: class
+- uid: Grunt.Models.HaloInfinite.GuideContainer
+  commentId: T:Grunt.Models.HaloInfinite.GuideContainer
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: GuideContainer
+  nameWithType: Grunt.Models.HaloInfinite.GuideContainer
+  fullName: Grunt.Models.HaloInfinite.GuideContainer
   type: class
 - uid: Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle
   commentId: T:Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle
@@ -840,14 +857,6 @@ references:
   name: KillDeathStats
   nameWithType: Grunt.Models.HaloInfinite.KillDeathStats
   fullName: Grunt.Models.HaloInfinite.KillDeathStats
-  type: class
-- uid: Grunt.Models.HaloInfinite.Link
-  commentId: T:Grunt.Models.HaloInfinite.Link
-  parent: Grunt.Models.HaloInfinite
-  isExternal: false
-  name: Link
-  nameWithType: Grunt.Models.HaloInfinite.Link
-  fullName: Grunt.Models.HaloInfinite.Link
   type: class
 - uid: Grunt.Models.HaloInfinite.Links
   commentId: T:Grunt.Models.HaloInfinite.Links

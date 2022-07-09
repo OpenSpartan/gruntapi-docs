@@ -1,0 +1,282 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.File
+  commentId: T:Grunt.Models.HaloInfinite.File
+  id: File
+  children:
+  - Grunt.Models.HaloInfinite.File.#ctor
+  - Grunt.Models.HaloInfinite.File.ContentLength
+  - Grunt.Models.HaloInfinite.File.ETag
+  - Grunt.Models.HaloInfinite.File.Uri
+  - Grunt.Models.HaloInfinite.File.Usage
+  langs:
+  - csharp
+  name: File
+  nameWithType: Grunt.Models.HaloInfinite.File
+  fullName: Grunt.Models.HaloInfinite.File
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class File
+    content.csharp: public class File
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.File.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.File.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.File
+  langs:
+  - csharp
+  name: File()
+  nameWithType: File.File()
+  fullName: Grunt.Models.HaloInfinite.File.File()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public File ();
+    parameters: []
+    content.csharp: public File ();
+  overload: Grunt.Models.HaloInfinite.File.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.File.ContentLength
+  commentId: P:Grunt.Models.HaloInfinite.File.ContentLength
+  id: ContentLength
+  parent: Grunt.Models.HaloInfinite.File
+  langs:
+  - csharp
+  name: ContentLength
+  nameWithType: File.ContentLength
+  fullName: Grunt.Models.HaloInfinite.File.ContentLength
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ContentLength { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ContentLength { get; set; }
+  overload: Grunt.Models.HaloInfinite.File.ContentLength*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.File.ETag
+  commentId: P:Grunt.Models.HaloInfinite.File.ETag
+  id: ETag
+  parent: Grunt.Models.HaloInfinite.File
+  langs:
+  - csharp
+  name: ETag
+  nameWithType: File.ETag
+  fullName: Grunt.Models.HaloInfinite.File.ETag
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ETag { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ETag { get; set; }
+  overload: Grunt.Models.HaloInfinite.File.ETag*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.File.Uri
+  commentId: P:Grunt.Models.HaloInfinite.File.Uri
+  id: Uri
+  parent: Grunt.Models.HaloInfinite.File
+  langs:
+  - csharp
+  name: Uri
+  nameWithType: File.Uri
+  fullName: Grunt.Models.HaloInfinite.File.Uri
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint Uri { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint Uri { get; set; }
+  overload: Grunt.Models.HaloInfinite.File.Uri*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.File.Usage
+  commentId: P:Grunt.Models.HaloInfinite.File.Usage
+  id: Usage
+  parent: Grunt.Models.HaloInfinite.File
+  langs:
+  - csharp
+  name: Usage
+  nameWithType: File.Usage
+  fullName: Grunt.Models.HaloInfinite.File.Usage
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Usage { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Usage { get; set; }
+  overload: Grunt.Models.HaloInfinite.File.Usage*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.File.#ctor
+  parent: Grunt.Models.HaloInfinite.File
+  isExternal: false
+  name: File()
+  nameWithType: File.File()
+  fullName: Grunt.Models.HaloInfinite.File.File()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.File.ContentLength
+  parent: Grunt.Models.HaloInfinite.File
+  isExternal: false
+  name: ContentLength
+  nameWithType: File.ContentLength
+  fullName: Grunt.Models.HaloInfinite.File.ContentLength
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.File.ETag
+  parent: Grunt.Models.HaloInfinite.File
+  isExternal: false
+  name: ETag
+  nameWithType: File.ETag
+  fullName: Grunt.Models.HaloInfinite.File.ETag
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.File.Uri
+  parent: Grunt.Models.HaloInfinite.File
+  isExternal: false
+  name: Uri
+  nameWithType: File.Uri
+  fullName: Grunt.Models.HaloInfinite.File.Uri
+  type: property
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  parent: Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: ApiEndpoint
+  nameWithType: ApiEndpoint
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+- uid: Grunt.Models.HaloInfinite.File.Usage
+  parent: Grunt.Models.HaloInfinite.File
+  isExternal: false
+  name: Usage
+  nameWithType: File.Usage
+  fullName: Grunt.Models.HaloInfinite.File.Usage
+  type: property
+- uid: Grunt.Models.HaloInfinite.File.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.File.#ctor
+  parent: Grunt.Models.HaloInfinite.File
+  isExternal: false
+  name: File
+  nameWithType: File.File
+  fullName: Grunt.Models.HaloInfinite.File.File
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.File.ContentLength*
+  commentId: Overload:Grunt.Models.HaloInfinite.File.ContentLength
+  parent: Grunt.Models.HaloInfinite.File
+  isExternal: false
+  name: ContentLength
+  nameWithType: File.ContentLength
+  fullName: Grunt.Models.HaloInfinite.File.ContentLength
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.File.ETag*
+  commentId: Overload:Grunt.Models.HaloInfinite.File.ETag
+  parent: Grunt.Models.HaloInfinite.File
+  isExternal: false
+  name: ETag
+  nameWithType: File.ETag
+  fullName: Grunt.Models.HaloInfinite.File.ETag
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.File.Uri*
+  commentId: Overload:Grunt.Models.HaloInfinite.File.Uri
+  parent: Grunt.Models.HaloInfinite.File
+  isExternal: false
+  name: Uri
+  nameWithType: File.Uri
+  fullName: Grunt.Models.HaloInfinite.File.Uri
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.File.Usage*
+  commentId: Overload:Grunt.Models.HaloInfinite.File.Usage
+  parent: Grunt.Models.HaloInfinite.File
+  isExternal: false
+  name: Usage
+  nameWithType: File.Usage
+  fullName: Grunt.Models.HaloInfinite.File.Usage
+  monikers:
+  - net6.0
+  type: property

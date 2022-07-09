@@ -122,11 +122,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public Grunt.Models.HaloInfinite.Link PrefixEndpoint { get; set; }
+    content: public Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint PrefixEndpoint { get; set; }
     return:
-      type: Grunt.Models.HaloInfinite.Link
+      type: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
       description: ''
-    content.csharp: public Grunt.Models.HaloInfinite.Link PrefixEndpoint { get; set; }
+    content.csharp: public Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint PrefixEndpoint { get; set; }
   overload: Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint*
   exceptions: []
   modifiers.csharp:
@@ -195,12 +195,12 @@ references:
   nameWithType: AssetVersionFile.PrefixEndpoint
   fullName: Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
   type: property
-- uid: Grunt.Models.HaloInfinite.Link
-  parent: Grunt.Models.HaloInfinite
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  parent: Grunt.Models.HaloInfinite.ApiIngress
   isExternal: false
-  name: Link
-  nameWithType: Link
-  fullName: Grunt.Models.HaloInfinite.Link
+  name: ApiEndpoint
+  nameWithType: ApiEndpoint
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
 - uid: Grunt.Models.HaloInfinite.AssetVersionFile.#ctor*
   commentId: Overload:Grunt.Models.HaloInfinite.AssetVersionFile.#ctor
   parent: Grunt.Models.HaloInfinite.AssetVersionFile
