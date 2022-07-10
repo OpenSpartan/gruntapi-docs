@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.TargetAsset
+  commentId: T:Grunt.Models.HaloInfinite.TargetAsset
+  id: TargetAsset
+  children:
+  - Grunt.Models.HaloInfinite.TargetAsset.#ctor
+  - Grunt.Models.HaloInfinite.TargetAsset.Order
+  - Grunt.Models.HaloInfinite.TargetAsset.TargetAssetId
+  - Grunt.Models.HaloInfinite.TargetAsset.TargetAssetVersionId
+  langs:
+  - csharp
+  name: TargetAsset
+  nameWithType: Grunt.Models.HaloInfinite.TargetAsset
+  fullName: Grunt.Models.HaloInfinite.TargetAsset
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class TargetAsset
+    content.csharp: public class TargetAsset
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.TargetAsset.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.TargetAsset.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.TargetAsset
+  langs:
+  - csharp
+  name: TargetAsset()
+  nameWithType: TargetAsset.TargetAsset()
+  fullName: Grunt.Models.HaloInfinite.TargetAsset.TargetAsset()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public TargetAsset ();
+    parameters: []
+    content.csharp: public TargetAsset ();
+  overload: Grunt.Models.HaloInfinite.TargetAsset.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.TargetAsset.Order
+  commentId: P:Grunt.Models.HaloInfinite.TargetAsset.Order
+  id: Order
+  parent: Grunt.Models.HaloInfinite.TargetAsset
+  langs:
+  - csharp
+  name: Order
+  nameWithType: TargetAsset.Order
+  fullName: Grunt.Models.HaloInfinite.TargetAsset.Order
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Order { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Order { get; set; }
+  overload: Grunt.Models.HaloInfinite.TargetAsset.Order*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.TargetAsset.TargetAssetId
+  commentId: P:Grunt.Models.HaloInfinite.TargetAsset.TargetAssetId
+  id: TargetAssetId
+  parent: Grunt.Models.HaloInfinite.TargetAsset
+  langs:
+  - csharp
+  name: TargetAssetId
+  nameWithType: TargetAsset.TargetAssetId
+  fullName: Grunt.Models.HaloInfinite.TargetAsset.TargetAssetId
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string TargetAssetId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string TargetAssetId { get; set; }
+  overload: Grunt.Models.HaloInfinite.TargetAsset.TargetAssetId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.TargetAsset.TargetAssetVersionId
+  commentId: P:Grunt.Models.HaloInfinite.TargetAsset.TargetAssetVersionId
+  id: TargetAssetVersionId
+  parent: Grunt.Models.HaloInfinite.TargetAsset
+  langs:
+  - csharp
+  name: TargetAssetVersionId
+  nameWithType: TargetAsset.TargetAssetVersionId
+  fullName: Grunt.Models.HaloInfinite.TargetAsset.TargetAssetVersionId
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public object TargetAssetVersionId { get; set; }
+    return:
+      type: System.Object
+      description: ''
+    content.csharp: public object TargetAssetVersionId { get; set; }
+  overload: Grunt.Models.HaloInfinite.TargetAsset.TargetAssetVersionId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.TargetAsset.#ctor
+  parent: Grunt.Models.HaloInfinite.TargetAsset
+  isExternal: false
+  name: TargetAsset()
+  nameWithType: TargetAsset.TargetAsset()
+  fullName: Grunt.Models.HaloInfinite.TargetAsset.TargetAsset()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.TargetAsset.Order
+  parent: Grunt.Models.HaloInfinite.TargetAsset
+  isExternal: false
+  name: Order
+  nameWithType: TargetAsset.Order
+  fullName: Grunt.Models.HaloInfinite.TargetAsset.Order
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.TargetAsset.TargetAssetId
+  parent: Grunt.Models.HaloInfinite.TargetAsset
+  isExternal: false
+  name: TargetAssetId
+  nameWithType: TargetAsset.TargetAssetId
+  fullName: Grunt.Models.HaloInfinite.TargetAsset.TargetAssetId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.TargetAsset.TargetAssetVersionId
+  parent: Grunt.Models.HaloInfinite.TargetAsset
+  isExternal: false
+  name: TargetAssetVersionId
+  nameWithType: TargetAsset.TargetAssetVersionId
+  fullName: Grunt.Models.HaloInfinite.TargetAsset.TargetAssetVersionId
+  type: property
+- uid: Grunt.Models.HaloInfinite.TargetAsset.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.TargetAsset.#ctor
+  parent: Grunt.Models.HaloInfinite.TargetAsset
+  isExternal: false
+  name: TargetAsset
+  nameWithType: TargetAsset.TargetAsset
+  fullName: Grunt.Models.HaloInfinite.TargetAsset.TargetAsset
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.TargetAsset.Order*
+  commentId: Overload:Grunt.Models.HaloInfinite.TargetAsset.Order
+  parent: Grunt.Models.HaloInfinite.TargetAsset
+  isExternal: false
+  name: Order
+  nameWithType: TargetAsset.Order
+  fullName: Grunt.Models.HaloInfinite.TargetAsset.Order
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.TargetAsset.TargetAssetId*
+  commentId: Overload:Grunt.Models.HaloInfinite.TargetAsset.TargetAssetId
+  parent: Grunt.Models.HaloInfinite.TargetAsset
+  isExternal: false
+  name: TargetAssetId
+  nameWithType: TargetAsset.TargetAssetId
+  fullName: Grunt.Models.HaloInfinite.TargetAsset.TargetAssetId
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.TargetAsset.TargetAssetVersionId*
+  commentId: Overload:Grunt.Models.HaloInfinite.TargetAsset.TargetAssetVersionId
+  parent: Grunt.Models.HaloInfinite.TargetAsset
+  isExternal: false
+  name: TargetAssetVersionId
+  nameWithType: TargetAsset.TargetAssetVersionId
+  fullName: Grunt.Models.HaloInfinite.TargetAsset.TargetAssetVersionId
+  monikers:
+  - net6.0
+  type: property

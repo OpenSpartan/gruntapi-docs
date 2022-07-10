@@ -205,12 +205,28 @@
     name: AuthoringAsset
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetContainer
+    name: AuthoringAssetContainer
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+    name: AuthoringAssetCustomData
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.AuthoringAssetRatings
     name: AuthoringAssetRatings
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.AuthoringAssetStats
     name: AuthoringAssetStats
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetVersion
+    name: AuthoringAssetVersion
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetVersionContainer
+    name: AuthoringAssetVersionContainer
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.AwardedReward
@@ -371,6 +387,10 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.GameVariantAssetStats
     name: GameVariantAssetStats
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.GenericAsset
+    name: GenericAsset
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.GrantedCurrency
@@ -743,6 +763,10 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.TagInfo
     name: TagInfo
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.TargetAsset
+    name: TargetAsset
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.Team

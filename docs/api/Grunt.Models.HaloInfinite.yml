@@ -36,8 +36,12 @@ items:
   - Grunt.Models.HaloInfinite.AssignedDeck
   - Grunt.Models.HaloInfinite.AsyncComputeOverrides
   - Grunt.Models.HaloInfinite.AuthoringAsset
+  - Grunt.Models.HaloInfinite.AuthoringAssetContainer
+  - Grunt.Models.HaloInfinite.AuthoringAssetCustomData
   - Grunt.Models.HaloInfinite.AuthoringAssetRatings
   - Grunt.Models.HaloInfinite.AuthoringAssetStats
+  - Grunt.Models.HaloInfinite.AuthoringAssetVersion
+  - Grunt.Models.HaloInfinite.AuthoringAssetVersionContainer
   - Grunt.Models.HaloInfinite.AwardedReward
   - Grunt.Models.HaloInfinite.BanResult
   - Grunt.Models.HaloInfinite.BanSummary
@@ -78,6 +82,7 @@ items:
   - Grunt.Models.HaloInfinite.FlightedFeatureFlags
   - Grunt.Models.HaloInfinite.GameVariant
   - Grunt.Models.HaloInfinite.GameVariantAssetStats
+  - Grunt.Models.HaloInfinite.GenericAsset
   - Grunt.Models.HaloInfinite.GrantedCurrency
   - Grunt.Models.HaloInfinite.GuideContainer
   - Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle
@@ -171,6 +176,7 @@ items:
   - Grunt.Models.HaloInfinite.StoreProductMapping
   - Grunt.Models.HaloInfinite.Tag
   - Grunt.Models.HaloInfinite.TagInfo
+  - Grunt.Models.HaloInfinite.TargetAsset
   - Grunt.Models.HaloInfinite.Team
   - Grunt.Models.HaloInfinite.TestAcademyClientManifest
   - Grunt.Models.HaloInfinite.TestAcademyTutorial
@@ -452,6 +458,22 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.AuthoringAsset
   fullName: Grunt.Models.HaloInfinite.AuthoringAsset
   type: class
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetContainer
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringAssetContainer
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringAssetContainer
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringAssetContainer
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetContainer
+  type: class
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringAssetCustomData
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  type: class
 - uid: Grunt.Models.HaloInfinite.AuthoringAssetRatings
   commentId: T:Grunt.Models.HaloInfinite.AuthoringAssetRatings
   parent: Grunt.Models.HaloInfinite
@@ -467,6 +489,22 @@ references:
   name: AuthoringAssetStats
   nameWithType: Grunt.Models.HaloInfinite.AuthoringAssetStats
   fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  type: class
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetVersion
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringAssetVersion
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringAssetVersion
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringAssetVersion
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetVersion
+  type: class
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetVersionContainer
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringAssetVersionContainer
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringAssetVersionContainer
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringAssetVersionContainer
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetVersionContainer
   type: class
 - uid: Grunt.Models.HaloInfinite.AwardedReward
   commentId: T:Grunt.Models.HaloInfinite.AwardedReward
@@ -787,6 +825,14 @@ references:
   name: GameVariantAssetStats
   nameWithType: Grunt.Models.HaloInfinite.GameVariantAssetStats
   fullName: Grunt.Models.HaloInfinite.GameVariantAssetStats
+  type: class
+- uid: Grunt.Models.HaloInfinite.GenericAsset
+  commentId: T:Grunt.Models.HaloInfinite.GenericAsset
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: GenericAsset
+  nameWithType: Grunt.Models.HaloInfinite.GenericAsset
+  fullName: Grunt.Models.HaloInfinite.GenericAsset
   type: class
 - uid: Grunt.Models.HaloInfinite.GrantedCurrency
   commentId: T:Grunt.Models.HaloInfinite.GrantedCurrency
@@ -1531,6 +1577,14 @@ references:
   name: TagInfo
   nameWithType: Grunt.Models.HaloInfinite.TagInfo
   fullName: Grunt.Models.HaloInfinite.TagInfo
+  type: class
+- uid: Grunt.Models.HaloInfinite.TargetAsset
+  commentId: T:Grunt.Models.HaloInfinite.TargetAsset
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: TargetAsset
+  nameWithType: Grunt.Models.HaloInfinite.TargetAsset
+  fullName: Grunt.Models.HaloInfinite.TargetAsset
   type: class
 - uid: Grunt.Models.HaloInfinite.Team
   commentId: T:Grunt.Models.HaloInfinite.Team

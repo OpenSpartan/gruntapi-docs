@@ -35,6 +35,7 @@ items:
   - Grunt.Models.HaloInfinite.AssetLink
   - Grunt.Models.HaloInfinite.EngineGameVariant
   - Grunt.Models.HaloInfinite.FavoriteAsset
+  - Grunt.Models.HaloInfinite.GenericAsset
   - Grunt.Models.HaloInfinite.Manifest
   - Grunt.Models.HaloInfinite.Map
   - Grunt.Models.HaloInfinite.MapModePair
@@ -686,6 +687,14 @@ references:
   name: FavoriteAsset
   nameWithType: Grunt.Models.HaloInfinite.FavoriteAsset
   fullName: Grunt.Models.HaloInfinite.FavoriteAsset
+  type: class
+- uid: Grunt.Models.HaloInfinite.GenericAsset
+  commentId: T:Grunt.Models.HaloInfinite.GenericAsset
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: GenericAsset
+  nameWithType: Grunt.Models.HaloInfinite.GenericAsset
+  fullName: Grunt.Models.HaloInfinite.GenericAsset
   type: class
 - uid: Grunt.Models.HaloInfinite.Manifest
   commentId: T:Grunt.Models.HaloInfinite.Manifest
