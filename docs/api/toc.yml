@@ -213,6 +213,14 @@
     name: AuthoringAssetCustomData
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetRating
+    name: AuthoringAssetRating
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetRatingCustomData
+    name: AuthoringAssetRatingCustomData
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.AuthoringAssetRatings
     name: AuthoringAssetRatings
     monikers:
@@ -823,6 +831,10 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.VehicleCoreTheme
     name: VehicleCoreTheme
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.VersionRating
+    name: VersionRating
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.WeaponCore

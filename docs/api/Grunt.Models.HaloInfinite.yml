@@ -38,6 +38,8 @@ items:
   - Grunt.Models.HaloInfinite.AuthoringAsset
   - Grunt.Models.HaloInfinite.AuthoringAssetContainer
   - Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  - Grunt.Models.HaloInfinite.AuthoringAssetRating
+  - Grunt.Models.HaloInfinite.AuthoringAssetRatingCustomData
   - Grunt.Models.HaloInfinite.AuthoringAssetRatings
   - Grunt.Models.HaloInfinite.AuthoringAssetStats
   - Grunt.Models.HaloInfinite.AuthoringAssetVersion
@@ -191,6 +193,7 @@ items:
   - Grunt.Models.HaloInfinite.VehicleCore
   - Grunt.Models.HaloInfinite.VehicleCoreCollection
   - Grunt.Models.HaloInfinite.VehicleCoreTheme
+  - Grunt.Models.HaloInfinite.VersionRating
   - Grunt.Models.HaloInfinite.WeaponCore
   - Grunt.Models.HaloInfinite.WeaponCoreCollection
   - Grunt.Models.HaloInfinite.WeaponCoreTheme
@@ -474,6 +477,22 @@ references:
   name: AuthoringAssetCustomData
   nameWithType: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
   fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  type: class
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetRating
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringAssetRating
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringAssetRating
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringAssetRating
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetRating
+  type: class
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetRatingCustomData
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringAssetRatingCustomData
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringAssetRatingCustomData
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringAssetRatingCustomData
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetRatingCustomData
   type: class
 - uid: Grunt.Models.HaloInfinite.AuthoringAssetRatings
   commentId: T:Grunt.Models.HaloInfinite.AuthoringAssetRatings
@@ -1698,6 +1717,14 @@ references:
   name: VehicleCoreTheme
   nameWithType: Grunt.Models.HaloInfinite.VehicleCoreTheme
   fullName: Grunt.Models.HaloInfinite.VehicleCoreTheme
+  type: class
+- uid: Grunt.Models.HaloInfinite.VersionRating
+  commentId: T:Grunt.Models.HaloInfinite.VersionRating
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: VersionRating
+  nameWithType: Grunt.Models.HaloInfinite.VersionRating
+  fullName: Grunt.Models.HaloInfinite.VersionRating
   type: class
 - uid: Grunt.Models.HaloInfinite.WeaponCore
   commentId: T:Grunt.Models.HaloInfinite.WeaponCore
