@@ -179,11 +179,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public Grunt.Models.HaloInfinite.Link MediaUrl { get; set; }
+    content: public Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint MediaUrl { get; set; }
     return:
-      type: Grunt.Models.HaloInfinite.Link
+      type: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
       description: ''
-    content.csharp: public Grunt.Models.HaloInfinite.Link MediaUrl { get; set; }
+    content.csharp: public Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint MediaUrl { get; set; }
   overload: Grunt.Models.HaloInfinite.Media.MediaUrl*
   exceptions: []
   modifiers.csharp:
@@ -287,12 +287,12 @@ references:
   nameWithType: Media.MediaUrl
   fullName: Grunt.Models.HaloInfinite.Media.MediaUrl
   type: property
-- uid: Grunt.Models.HaloInfinite.Link
-  parent: Grunt.Models.HaloInfinite
+- uid: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  parent: Grunt.Models.HaloInfinite.ApiIngress
   isExternal: false
-  name: Link
-  nameWithType: Link
-  fullName: Grunt.Models.HaloInfinite.Link
+  name: ApiEndpoint
+  nameWithType: ApiEndpoint
+  fullName: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
 - uid: Grunt.Models.HaloInfinite.Media.MimeType
   parent: Grunt.Models.HaloInfinite.Media
   isExternal: false

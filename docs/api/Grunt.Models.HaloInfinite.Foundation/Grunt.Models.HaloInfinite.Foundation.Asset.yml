@@ -7,6 +7,7 @@ items:
   - Grunt.Models.HaloInfinite.Foundation.Asset.#ctor
   - Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
   - Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
   - Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
   - Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
   - Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
@@ -33,6 +34,8 @@ items:
   derivedClasses:
   - Grunt.Models.HaloInfinite.AssetLink
   - Grunt.Models.HaloInfinite.EngineGameVariant
+  - Grunt.Models.HaloInfinite.FavoriteAsset
+  - Grunt.Models.HaloInfinite.GenericAsset
   - Grunt.Models.HaloInfinite.Manifest
   - Grunt.Models.HaloInfinite.Map
   - Grunt.Models.HaloInfinite.MapModePair
@@ -118,6 +121,33 @@ items:
       description: ''
     content.csharp: public string AssetId { get; set; }
   overload: Grunt.Models.HaloInfinite.Foundation.Asset.AssetId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  commentId: P:Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  id: AssetKind
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  langs:
+  - csharp
+  name: AssetKind
+  nameWithType: Asset.AssetKind
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public int AssetKind { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int AssetKind { get; set; }
+  overload: Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind*
   exceptions: []
   modifiers.csharp:
   - public
@@ -415,6 +445,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetKind
+  nameWithType: Asset.AssetKind
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  type: property
 - uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
   parent: Grunt.Models.HaloInfinite.Foundation.Asset
   isExternal: false
@@ -527,6 +564,16 @@ references:
   monikers:
   - net6.0
   type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind*
+  commentId: Overload:Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetKind
+  nameWithType: Asset.AssetKind
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  monikers:
+  - net6.0
+  type: property
 - uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId*
   commentId: Overload:Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
   parent: Grunt.Models.HaloInfinite.Foundation.Asset
@@ -632,6 +679,22 @@ references:
   name: EngineGameVariant
   nameWithType: Grunt.Models.HaloInfinite.EngineGameVariant
   fullName: Grunt.Models.HaloInfinite.EngineGameVariant
+  type: class
+- uid: Grunt.Models.HaloInfinite.FavoriteAsset
+  commentId: T:Grunt.Models.HaloInfinite.FavoriteAsset
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: FavoriteAsset
+  nameWithType: Grunt.Models.HaloInfinite.FavoriteAsset
+  fullName: Grunt.Models.HaloInfinite.FavoriteAsset
+  type: class
+- uid: Grunt.Models.HaloInfinite.GenericAsset
+  commentId: T:Grunt.Models.HaloInfinite.GenericAsset
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: GenericAsset
+  nameWithType: Grunt.Models.HaloInfinite.GenericAsset
+  fullName: Grunt.Models.HaloInfinite.GenericAsset
   type: class
 - uid: Grunt.Models.HaloInfinite.Manifest
   commentId: T:Grunt.Models.HaloInfinite.Manifest

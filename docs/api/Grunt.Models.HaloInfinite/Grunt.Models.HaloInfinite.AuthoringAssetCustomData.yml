@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  id: AuthoringAssetCustomData
+  children:
+  - Grunt.Models.HaloInfinite.AuthoringAssetCustomData.#ctor
+  - Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  langs:
+  - csharp
+  name: AuthoringAssetCustomData
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class AuthoringAssetCustomData
+    content.csharp: public class AuthoringAssetCustomData
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  langs:
+  - csharp
+  name: AuthoringAssetCustomData()
+  nameWithType: AuthoringAssetCustomData.AuthoringAssetCustomData()
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.AuthoringAssetCustomData()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public AuthoringAssetCustomData ();
+    parameters: []
+    content.csharp: public AuthoringAssetCustomData ();
+  overload: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  commentId: P:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  id: KeyValues
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  langs:
+  - csharp
+  name: KeyValues
+  nameWithType: AuthoringAssetCustomData.KeyValues
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.Dictionary<string,string> KeyValues { get; set; }
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: ''
+    content.csharp: public System.Collections.Generic.Dictionary<string,string> KeyValues { get; set; }
+  overload: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.#ctor
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: AuthoringAssetCustomData()
+  nameWithType: AuthoringAssetCustomData.AuthoringAssetCustomData()
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.AuthoringAssetCustomData()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: KeyValues
+  nameWithType: AuthoringAssetCustomData.KeyValues
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  type: property
+- uid: System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary
+  nameWithType: Dictionary
+  fullName: System.Collections.Generic.Dictionary
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  name: Dictionary<String,String>
+  nameWithType: Dictionary<String,String>
+  fullName: System.Collections.Generic.Dictionary<System.String,System.String>
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.#ctor
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: AuthoringAssetCustomData
+  nameWithType: AuthoringAssetCustomData.AuthoringAssetCustomData
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.AuthoringAssetCustomData
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: KeyValues
+  nameWithType: AuthoringAssetCustomData.KeyValues
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  monikers:
+  - net6.0
+  type: property

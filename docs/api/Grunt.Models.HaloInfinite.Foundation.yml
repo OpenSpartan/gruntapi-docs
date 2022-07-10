@@ -5,6 +5,7 @@ items:
   id: Grunt.Models.HaloInfinite.Foundation
   children:
   - Grunt.Models.HaloInfinite.Foundation.Asset
+  - Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
   - Grunt.Models.HaloInfinite.Foundation.Core
   - Grunt.Models.HaloInfinite.Foundation.ResultContainer
   - Grunt.Models.HaloInfinite.Foundation.Theme
@@ -24,6 +25,14 @@ references:
   name: Asset
   nameWithType: Grunt.Models.HaloInfinite.Foundation.Asset
   fullName: Grunt.Models.HaloInfinite.Foundation.Asset
+  type: class
+- uid: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  commentId: T:Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  parent: Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: AuthoringResultContainer
+  nameWithType: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  fullName: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
   type: class
 - uid: Grunt.Models.HaloInfinite.Foundation.Core
   commentId: T:Grunt.Models.HaloInfinite.Foundation.Core

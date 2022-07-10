@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  id: AuthoringFavoritesContainer
+  children:
+  - Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.#ctor
+  - Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results
+  langs:
+  - csharp
+  name: AuthoringFavoritesContainer
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  fullName: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: 'public class AuthoringFavoritesContainer : Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer'
+    content.csharp: 'public class AuthoringFavoritesContainer : Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer'
+  inheritance:
+  - System.Object
+  - Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  implements: []
+  inheritedMembers:
+  - Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Count
+  - Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.EstimatedTotal
+  - Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Links
+  - Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.ResultCount
+  - Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Start
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  langs:
+  - csharp
+  name: AuthoringFavoritesContainer()
+  nameWithType: AuthoringFavoritesContainer.AuthoringFavoritesContainer()
+  fullName: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.AuthoringFavoritesContainer()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public AuthoringFavoritesContainer ();
+    parameters: []
+    content.csharp: public AuthoringFavoritesContainer ();
+  overload: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results
+  commentId: P:Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results
+  id: Results
+  parent: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  langs:
+  - csharp
+  name: Results
+  nameWithType: AuthoringFavoritesContainer.Results
+  fullName: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.FavoriteAsset> Results { get; set; }
+    return:
+      type: System.Collections.Generic.List{Grunt.Models.HaloInfinite.FavoriteAsset}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.FavoriteAsset> Results { get; set; }
+  overload: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  parent: Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: AuthoringResultContainer
+  nameWithType: AuthoringResultContainer
+  fullName: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+- uid: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.#ctor
+  parent: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  isExternal: false
+  name: AuthoringFavoritesContainer()
+  nameWithType: AuthoringFavoritesContainer.AuthoringFavoritesContainer()
+  fullName: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.AuthoringFavoritesContainer()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results
+  parent: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  isExternal: false
+  name: Results
+  nameWithType: AuthoringFavoritesContainer.Results
+  fullName: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: Grunt.Models.HaloInfinite.FavoriteAsset
+  name: FavoriteAsset
+  nameWithType: FavoriteAsset
+  fullName: Grunt.Models.HaloInfinite.FavoriteAsset
+- uid: System.Collections.Generic.List{Grunt.Models.HaloInfinite.FavoriteAsset}
+  parent: System.Collections.Generic
+  name: List<FavoriteAsset>
+  nameWithType: List<FavoriteAsset>
+  fullName: System.Collections.Generic.List<Grunt.Models.HaloInfinite.FavoriteAsset>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Grunt.Models.HaloInfinite.FavoriteAsset
+    name: FavoriteAsset
+    nameWithType: FavoriteAsset
+    fullName: Grunt.Models.HaloInfinite.FavoriteAsset
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.#ctor
+  parent: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  isExternal: false
+  name: AuthoringFavoritesContainer
+  nameWithType: AuthoringFavoritesContainer.AuthoringFavoritesContainer
+  fullName: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.AuthoringFavoritesContainer
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results
+  parent: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  isExternal: false
+  name: Results
+  nameWithType: AuthoringFavoritesContainer.Results
+  fullName: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Count
+  parent: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  isExternal: false
+  name: Count
+  nameWithType: AuthoringResultContainer.Count
+  fullName: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Count
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.EstimatedTotal
+  parent: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  isExternal: false
+  name: EstimatedTotal
+  nameWithType: AuthoringResultContainer.EstimatedTotal
+  fullName: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.EstimatedTotal
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Links
+  parent: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  isExternal: false
+  name: Links
+  nameWithType: AuthoringResultContainer.Links
+  fullName: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Links
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.ResultCount
+  parent: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  isExternal: false
+  name: ResultCount
+  nameWithType: AuthoringResultContainer.ResultCount
+  fullName: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.ResultCount
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Start
+  parent: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  isExternal: false
+  name: Start
+  nameWithType: AuthoringResultContainer.Start
+  fullName: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Start
+  type: property

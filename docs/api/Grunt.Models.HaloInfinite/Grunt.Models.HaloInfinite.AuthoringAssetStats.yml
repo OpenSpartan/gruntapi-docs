@@ -1,0 +1,423 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringAssetStats
+  id: AuthoringAssetStats
+  children:
+  - Grunt.Models.HaloInfinite.AuthoringAssetStats.#ctor
+  - Grunt.Models.HaloInfinite.AuthoringAssetStats.Favorites
+  - Grunt.Models.HaloInfinite.AuthoringAssetStats.FilmBookmarks
+  - Grunt.Models.HaloInfinite.AuthoringAssetStats.IgnoreReports
+  - Grunt.Models.HaloInfinite.AuthoringAssetStats.LastModifiedDateUtc
+  - Grunt.Models.HaloInfinite.AuthoringAssetStats.Likes
+  - Grunt.Models.HaloInfinite.AuthoringAssetStats.ParentAssetCount
+  - Grunt.Models.HaloInfinite.AuthoringAssetStats.Ratings
+  langs:
+  - csharp
+  name: AuthoringAssetStats
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class AuthoringAssetStats
+    content.csharp: public class AuthoringAssetStats
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.AuthoringAssetStats.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  langs:
+  - csharp
+  name: AuthoringAssetStats()
+  nameWithType: AuthoringAssetStats.AuthoringAssetStats()
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.AuthoringAssetStats()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public AuthoringAssetStats ();
+    parameters: []
+    content.csharp: public AuthoringAssetStats ();
+  overload: Grunt.Models.HaloInfinite.AuthoringAssetStats.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.Favorites
+  commentId: P:Grunt.Models.HaloInfinite.AuthoringAssetStats.Favorites
+  id: Favorites
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  langs:
+  - csharp
+  name: Favorites
+  nameWithType: AuthoringAssetStats.Favorites
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.Favorites
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Favorites { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Favorites { get; set; }
+  overload: Grunt.Models.HaloInfinite.AuthoringAssetStats.Favorites*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.FilmBookmarks
+  commentId: P:Grunt.Models.HaloInfinite.AuthoringAssetStats.FilmBookmarks
+  id: FilmBookmarks
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  langs:
+  - csharp
+  name: FilmBookmarks
+  nameWithType: AuthoringAssetStats.FilmBookmarks
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.FilmBookmarks
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int FilmBookmarks { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int FilmBookmarks { get; set; }
+  overload: Grunt.Models.HaloInfinite.AuthoringAssetStats.FilmBookmarks*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.IgnoreReports
+  commentId: P:Grunt.Models.HaloInfinite.AuthoringAssetStats.IgnoreReports
+  id: IgnoreReports
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  langs:
+  - csharp
+  name: IgnoreReports
+  nameWithType: AuthoringAssetStats.IgnoreReports
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.IgnoreReports
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool IgnoreReports { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool IgnoreReports { get; set; }
+  overload: Grunt.Models.HaloInfinite.AuthoringAssetStats.IgnoreReports*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.LastModifiedDateUtc
+  commentId: P:Grunt.Models.HaloInfinite.AuthoringAssetStats.LastModifiedDateUtc
+  id: LastModifiedDateUtc
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  langs:
+  - csharp
+  name: LastModifiedDateUtc
+  nameWithType: AuthoringAssetStats.LastModifiedDateUtc
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.LastModifiedDateUtc
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.APIFormattedDate LastModifiedDateUtc { get; set; }
+    return:
+      type: Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public Grunt.Models.APIFormattedDate LastModifiedDateUtc { get; set; }
+  overload: Grunt.Models.HaloInfinite.AuthoringAssetStats.LastModifiedDateUtc*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.Likes
+  commentId: P:Grunt.Models.HaloInfinite.AuthoringAssetStats.Likes
+  id: Likes
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  langs:
+  - csharp
+  name: Likes
+  nameWithType: AuthoringAssetStats.Likes
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.Likes
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Likes { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Likes { get; set; }
+  overload: Grunt.Models.HaloInfinite.AuthoringAssetStats.Likes*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.ParentAssetCount
+  commentId: P:Grunt.Models.HaloInfinite.AuthoringAssetStats.ParentAssetCount
+  id: ParentAssetCount
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  langs:
+  - csharp
+  name: ParentAssetCount
+  nameWithType: AuthoringAssetStats.ParentAssetCount
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.ParentAssetCount
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ParentAssetCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ParentAssetCount { get; set; }
+  overload: Grunt.Models.HaloInfinite.AuthoringAssetStats.ParentAssetCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.Ratings
+  commentId: P:Grunt.Models.HaloInfinite.AuthoringAssetStats.Ratings
+  id: Ratings
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  langs:
+  - csharp
+  name: Ratings
+  nameWithType: AuthoringAssetStats.Ratings
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.Ratings
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.AuthoringAssetRatings Ratings { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.AuthoringAssetRatings
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.AuthoringAssetRatings Ratings { get; set; }
+  overload: Grunt.Models.HaloInfinite.AuthoringAssetStats.Ratings*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.#ctor
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  isExternal: false
+  name: AuthoringAssetStats()
+  nameWithType: AuthoringAssetStats.AuthoringAssetStats()
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.AuthoringAssetStats()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.Favorites
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  isExternal: false
+  name: Favorites
+  nameWithType: AuthoringAssetStats.Favorites
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.Favorites
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.FilmBookmarks
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  isExternal: false
+  name: FilmBookmarks
+  nameWithType: AuthoringAssetStats.FilmBookmarks
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.FilmBookmarks
+  type: property
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.IgnoreReports
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  isExternal: false
+  name: IgnoreReports
+  nameWithType: AuthoringAssetStats.IgnoreReports
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.IgnoreReports
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.LastModifiedDateUtc
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: AuthoringAssetStats.LastModifiedDateUtc
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.LastModifiedDateUtc
+  type: property
+- uid: Grunt.Models.APIFormattedDate
+  parent: Grunt.Models
+  isExternal: false
+  name: APIFormattedDate
+  nameWithType: APIFormattedDate
+  fullName: Grunt.Models.APIFormattedDate
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.Likes
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  isExternal: false
+  name: Likes
+  nameWithType: AuthoringAssetStats.Likes
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.Likes
+  type: property
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.ParentAssetCount
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  isExternal: false
+  name: ParentAssetCount
+  nameWithType: AuthoringAssetStats.ParentAssetCount
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.ParentAssetCount
+  type: property
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.Ratings
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  isExternal: false
+  name: Ratings
+  nameWithType: AuthoringAssetStats.Ratings
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.Ratings
+  type: property
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetRatings
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringAssetRatings
+  nameWithType: AuthoringAssetRatings
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetRatings
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetStats.#ctor
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  isExternal: false
+  name: AuthoringAssetStats
+  nameWithType: AuthoringAssetStats.AuthoringAssetStats
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.AuthoringAssetStats
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.Favorites*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetStats.Favorites
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  isExternal: false
+  name: Favorites
+  nameWithType: AuthoringAssetStats.Favorites
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.Favorites
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.FilmBookmarks*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetStats.FilmBookmarks
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  isExternal: false
+  name: FilmBookmarks
+  nameWithType: AuthoringAssetStats.FilmBookmarks
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.FilmBookmarks
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.IgnoreReports*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetStats.IgnoreReports
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  isExternal: false
+  name: IgnoreReports
+  nameWithType: AuthoringAssetStats.IgnoreReports
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.IgnoreReports
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.LastModifiedDateUtc*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetStats.LastModifiedDateUtc
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: AuthoringAssetStats.LastModifiedDateUtc
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.LastModifiedDateUtc
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.Likes*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetStats.Likes
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  isExternal: false
+  name: Likes
+  nameWithType: AuthoringAssetStats.Likes
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.Likes
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.ParentAssetCount*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetStats.ParentAssetCount
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  isExternal: false
+  name: ParentAssetCount
+  nameWithType: AuthoringAssetStats.ParentAssetCount
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.ParentAssetCount
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetStats.Ratings*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetStats.Ratings
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  isExternal: false
+  name: Ratings
+  nameWithType: AuthoringAssetStats.Ratings
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetStats.Ratings
+  monikers:
+  - net6.0
+  type: property

@@ -181,6 +181,10 @@
     name: AssetLink
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.AssetPermission
+    name: AssetPermission
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.AssetRating
     name: AssetRating
     monikers:
@@ -195,6 +199,46 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.AsyncComputeOverrides
     name: AsyncComputeOverrides
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAsset
+    name: AuthoringAsset
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetContainer
+    name: AuthoringAssetContainer
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+    name: AuthoringAssetCustomData
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetRating
+    name: AuthoringAssetRating
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetRatingCustomData
+    name: AuthoringAssetRatingCustomData
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetRatings
+    name: AuthoringAssetRatings
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetStats
+    name: AuthoringAssetStats
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetVersion
+    name: AuthoringAssetVersion
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetVersionContainer
+    name: AuthoringAssetVersionContainer
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+    name: AuthoringFavoritesContainer
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.AwardedReward
@@ -329,6 +373,14 @@
     name: EngineGameVariant
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.FavoriteAsset
+    name: FavoriteAsset
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.File
+    name: File
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.Film
     name: Film
     monikers:
@@ -349,8 +401,16 @@
     name: GameVariantAssetStats
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.GenericAsset
+    name: GenericAsset
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.GrantedCurrency
     name: GrantedCurrency
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.GuideContainer
+    name: GuideContainer
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle
@@ -401,10 +461,6 @@
     name: KillDeathStats
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Link
-    name: Link
-    monikers:
-    - net6.0
   - uid: Grunt.Models.HaloInfinite.Links
     name: Links
     monikers:
@@ -435,10 +491,6 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.MapModePair
     name: MapModePair
-    monikers:
-    - net6.0
-  - uid: Grunt.Models.HaloInfinite.MapVariant
-    name: MapVariant
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.MarketplaceRecord
@@ -621,14 +673,6 @@
     name: PlayerTeamStat
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Playlist
-    name: Playlist
-    monikers:
-    - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlaylistMapModePair
-    name: PlaylistMapModePair
-    monikers:
-    - net6.0
   - uid: Grunt.Models.HaloInfinite.Price
     name: Price
     monikers:
@@ -733,6 +777,10 @@
     name: TagInfo
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.TargetAsset
+    name: TargetAsset
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.Team
     name: Team
     monikers:
@@ -785,6 +833,10 @@
     name: VehicleCoreTheme
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.VersionRating
+    name: VersionRating
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.WeaponCore
     name: WeaponCore
     monikers:
@@ -833,6 +885,10 @@
   items:
   - uid: Grunt.Models.HaloInfinite.Foundation.Asset
     name: Asset
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+    name: AuthoringResultContainer
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.Foundation.Core
