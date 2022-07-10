@@ -42,6 +42,7 @@ items:
   - Grunt.Models.HaloInfinite.AuthoringAssetStats
   - Grunt.Models.HaloInfinite.AuthoringAssetVersion
   - Grunt.Models.HaloInfinite.AuthoringAssetVersionContainer
+  - Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
   - Grunt.Models.HaloInfinite.AwardedReward
   - Grunt.Models.HaloInfinite.BanResult
   - Grunt.Models.HaloInfinite.BanSummary
@@ -505,6 +506,14 @@ references:
   name: AuthoringAssetVersionContainer
   nameWithType: Grunt.Models.HaloInfinite.AuthoringAssetVersionContainer
   fullName: Grunt.Models.HaloInfinite.AuthoringAssetVersionContainer
+  type: class
+- uid: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringFavoritesContainer
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  fullName: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
   type: class
 - uid: Grunt.Models.HaloInfinite.AwardedReward
   commentId: T:Grunt.Models.HaloInfinite.AwardedReward

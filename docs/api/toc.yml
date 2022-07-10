@@ -229,6 +229,10 @@
     name: AuthoringAssetVersionContainer
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+    name: AuthoringFavoritesContainer
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.AwardedReward
     name: AwardedReward
     monikers:
@@ -869,6 +873,10 @@
   items:
   - uid: Grunt.Models.HaloInfinite.Foundation.Asset
     name: Asset
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+    name: AuthoringResultContainer
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.Foundation.Core
