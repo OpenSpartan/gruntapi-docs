@@ -223,11 +223,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite.Foundation
   syntax:
-    content: public object[] Contributors { get; set; }
+    content: public string[] Contributors { get; set; }
     return:
-      type: System.Object[]
+      type: System.String[]
       description: ''
-    content.csharp: public object[] Contributors { get; set; }
+    content.csharp: public string[] Contributors { get; set; }
   overload: Grunt.Models.HaloInfinite.Foundation.Asset.Contributors*
   exceptions: []
   modifiers.csharp:
@@ -358,11 +358,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite.Foundation
   syntax:
-    content: public object[] Tags { get; set; }
+    content: public string[] Tags { get; set; }
     return:
-      type: System.Object[]
+      type: System.String[]
       description: ''
-    content.csharp: public object[] Tags { get; set; }
+    content.csharp: public string[] Tags { get; set; }
   overload: Grunt.Models.HaloInfinite.Foundation.Asset.Tags*
   exceptions: []
   modifiers.csharp:
@@ -473,16 +473,16 @@ references:
   nameWithType: Asset.Contributors
   fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
   type: property
-- uid: System.Object[]
+- uid: System.String[]
   parent: System
-  name: Object[]
-  nameWithType: Object[]
-  fullName: System.Object[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   spec.csharp:
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'

@@ -47,6 +47,7 @@ items:
   - Grunt.Models.HaloInfinite.AuthoringAssetVersion
   - Grunt.Models.HaloInfinite.AuthoringAssetVersionContainer
   - Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  - Grunt.Models.HaloInfinite.AuthoringSessionSourceStarter
   - Grunt.Models.HaloInfinite.AuthoringSessionStarter
   - Grunt.Models.HaloInfinite.AwardedReward
   - Grunt.Models.HaloInfinite.BanResult
@@ -552,6 +553,14 @@ references:
   name: AuthoringFavoritesContainer
   nameWithType: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
   fullName: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  type: class
+- uid: Grunt.Models.HaloInfinite.AuthoringSessionSourceStarter
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringSessionSourceStarter
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringSessionSourceStarter
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringSessionSourceStarter
+  fullName: Grunt.Models.HaloInfinite.AuthoringSessionSourceStarter
   type: class
 - uid: Grunt.Models.HaloInfinite.AuthoringSessionStarter
   commentId: T:Grunt.Models.HaloInfinite.AuthoringSessionStarter

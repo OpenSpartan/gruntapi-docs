@@ -249,6 +249,10 @@
     name: AuthoringFavoritesContainer
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringSessionSourceStarter
+    name: AuthoringSessionSourceStarter
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.AuthoringSessionStarter
     name: AuthoringSessionStarter
     monikers:

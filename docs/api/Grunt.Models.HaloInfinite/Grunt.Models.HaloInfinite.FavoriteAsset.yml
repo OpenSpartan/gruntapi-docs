@@ -6,7 +6,6 @@ items:
   children:
   - Grunt.Models.HaloInfinite.FavoriteAsset.#ctor
   - Grunt.Models.HaloInfinite.FavoriteAsset.CustomData
-  - Grunt.Models.HaloInfinite.FavoriteAsset.Description
   - Grunt.Models.HaloInfinite.FavoriteAsset.Links
   - Grunt.Models.HaloInfinite.FavoriteAsset.Name
   - Grunt.Models.HaloInfinite.FavoriteAsset.VersionRatings
@@ -33,6 +32,7 @@ items:
   - Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
   - Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
   - Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Description
   - Grunt.Models.HaloInfinite.Foundation.Asset.Files
   - Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
   - Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
@@ -88,33 +88,6 @@ items:
       description: ''
     content.csharp: public object CustomData { get; set; }
   overload: Grunt.Models.HaloInfinite.FavoriteAsset.CustomData*
-  exceptions: []
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  monikers:
-  - net6.0
-- uid: Grunt.Models.HaloInfinite.FavoriteAsset.Description
-  commentId: P:Grunt.Models.HaloInfinite.FavoriteAsset.Description
-  id: Description
-  parent: Grunt.Models.HaloInfinite.FavoriteAsset
-  langs:
-  - csharp
-  name: Description
-  nameWithType: FavoriteAsset.Description
-  fullName: Grunt.Models.HaloInfinite.FavoriteAsset.Description
-  type: Property
-  assemblies:
-  - Grunt
-  namespace: Grunt.Models.HaloInfinite
-  syntax:
-    content: public string Description { get; set; }
-    return:
-      type: System.String
-      description: ''
-    content.csharp: public string Description { get; set; }
-  overload: Grunt.Models.HaloInfinite.FavoriteAsset.Description*
   exceptions: []
   modifiers.csharp:
   - public
@@ -237,19 +210,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: Grunt.Models.HaloInfinite.FavoriteAsset.Description
-  parent: Grunt.Models.HaloInfinite.FavoriteAsset
-  isExternal: false
-  name: Description
-  nameWithType: FavoriteAsset.Description
-  fullName: Grunt.Models.HaloInfinite.FavoriteAsset.Description
-  type: property
-- uid: System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: Grunt.Models.HaloInfinite.FavoriteAsset.Links
   parent: Grunt.Models.HaloInfinite.FavoriteAsset
   isExternal: false
@@ -264,6 +224,12 @@ references:
   nameWithType: FavoriteAsset.Name
   fullName: Grunt.Models.HaloInfinite.FavoriteAsset.Name
   type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: Grunt.Models.HaloInfinite.FavoriteAsset.VersionRatings
   parent: Grunt.Models.HaloInfinite.FavoriteAsset
   isExternal: false
@@ -317,16 +283,6 @@ references:
   name: CustomData
   nameWithType: FavoriteAsset.CustomData
   fullName: Grunt.Models.HaloInfinite.FavoriteAsset.CustomData
-  monikers:
-  - net6.0
-  type: property
-- uid: Grunt.Models.HaloInfinite.FavoriteAsset.Description*
-  commentId: Overload:Grunt.Models.HaloInfinite.FavoriteAsset.Description
-  parent: Grunt.Models.HaloInfinite.FavoriteAsset
-  isExternal: false
-  name: Description
-  nameWithType: FavoriteAsset.Description
-  fullName: Grunt.Models.HaloInfinite.FavoriteAsset.Description
   monikers:
   - net6.0
   type: property
@@ -401,6 +357,13 @@ references:
   name: Contributors
   nameWithType: Asset.Contributors
   fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Description
+  nameWithType: Asset.Description
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Description
   type: property
 - uid: Grunt.Models.HaloInfinite.Foundation.Asset.Files
   parent: Grunt.Models.HaloInfinite.Foundation.Asset
