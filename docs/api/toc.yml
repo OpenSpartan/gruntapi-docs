@@ -173,6 +173,10 @@
     name: Articleimage
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.AssetAuthoringSession
+    name: AssetAuthoringSession
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.AssetKeyValues
     name: AssetKeyValues
     monikers:
@@ -213,6 +217,10 @@
     name: AuthoringAssetCustomData
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetLinks
+    name: AuthoringAssetLinks
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.AuthoringAssetRating
     name: AuthoringAssetRating
     monikers:
@@ -239,6 +247,10 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
     name: AuthoringFavoritesContainer
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringSessionStarter
+    name: AuthoringSessionStarter
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.AwardedReward

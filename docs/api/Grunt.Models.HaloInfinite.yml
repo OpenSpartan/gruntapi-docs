@@ -28,6 +28,7 @@ items:
   - Grunt.Models.HaloInfinite.ArmorCoreTheme
   - Grunt.Models.HaloInfinite.ArticleAction
   - Grunt.Models.HaloInfinite.Articleimage
+  - Grunt.Models.HaloInfinite.AssetAuthoringSession
   - Grunt.Models.HaloInfinite.AssetKeyValues
   - Grunt.Models.HaloInfinite.AssetLink
   - Grunt.Models.HaloInfinite.AssetPermission
@@ -38,6 +39,7 @@ items:
   - Grunt.Models.HaloInfinite.AuthoringAsset
   - Grunt.Models.HaloInfinite.AuthoringAssetContainer
   - Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  - Grunt.Models.HaloInfinite.AuthoringAssetLinks
   - Grunt.Models.HaloInfinite.AuthoringAssetRating
   - Grunt.Models.HaloInfinite.AuthoringAssetRatingCustomData
   - Grunt.Models.HaloInfinite.AuthoringAssetRatings
@@ -45,6 +47,7 @@ items:
   - Grunt.Models.HaloInfinite.AuthoringAssetVersion
   - Grunt.Models.HaloInfinite.AuthoringAssetVersionContainer
   - Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  - Grunt.Models.HaloInfinite.AuthoringSessionStarter
   - Grunt.Models.HaloInfinite.AwardedReward
   - Grunt.Models.HaloInfinite.BanResult
   - Grunt.Models.HaloInfinite.BanSummary
@@ -398,6 +401,14 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.Articleimage
   fullName: Grunt.Models.HaloInfinite.Articleimage
   type: class
+- uid: Grunt.Models.HaloInfinite.AssetAuthoringSession
+  commentId: T:Grunt.Models.HaloInfinite.AssetAuthoringSession
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AssetAuthoringSession
+  nameWithType: Grunt.Models.HaloInfinite.AssetAuthoringSession
+  fullName: Grunt.Models.HaloInfinite.AssetAuthoringSession
+  type: class
 - uid: Grunt.Models.HaloInfinite.AssetKeyValues
   commentId: T:Grunt.Models.HaloInfinite.AssetKeyValues
   parent: Grunt.Models.HaloInfinite
@@ -478,6 +489,14 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
   fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
   type: class
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetLinks
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringAssetLinks
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringAssetLinks
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringAssetLinks
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetLinks
+  type: class
 - uid: Grunt.Models.HaloInfinite.AuthoringAssetRating
   commentId: T:Grunt.Models.HaloInfinite.AuthoringAssetRating
   parent: Grunt.Models.HaloInfinite
@@ -533,6 +552,14 @@ references:
   name: AuthoringFavoritesContainer
   nameWithType: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
   fullName: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  type: class
+- uid: Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringSessionStarter
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  fullName: Grunt.Models.HaloInfinite.AuthoringSessionStarter
   type: class
 - uid: Grunt.Models.HaloInfinite.AwardedReward
   commentId: T:Grunt.Models.HaloInfinite.AwardedReward
