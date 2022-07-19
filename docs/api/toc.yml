@@ -277,12 +277,20 @@
     name: BotCustomizationData
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.Challenge
+    name: Challenge
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.ChallengeDeckDefinition
     name: ChallengeDeckDefinition
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.ChallengeProgressState
     name: ChallengeProgressState
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ChallengeReward
+    name: ChallengeReward
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.ClawAccessSnapshot

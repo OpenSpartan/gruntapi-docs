@@ -54,8 +54,10 @@ items:
   - Grunt.Models.HaloInfinite.BanSummary
   - Grunt.Models.HaloInfinite.BanSummaryResult
   - Grunt.Models.HaloInfinite.BotCustomizationData
+  - Grunt.Models.HaloInfinite.Challenge
   - Grunt.Models.HaloInfinite.ChallengeDeckDefinition
   - Grunt.Models.HaloInfinite.ChallengeProgressState
+  - Grunt.Models.HaloInfinite.ChallengeReward
   - Grunt.Models.HaloInfinite.ClawAccessSnapshot
   - Grunt.Models.HaloInfinite.CommonItemData
   - Grunt.Models.HaloInfinite.CompletedChallenge
@@ -610,6 +612,14 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.BotCustomizationData
   fullName: Grunt.Models.HaloInfinite.BotCustomizationData
   type: class
+- uid: Grunt.Models.HaloInfinite.Challenge
+  commentId: T:Grunt.Models.HaloInfinite.Challenge
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Challenge
+  nameWithType: Grunt.Models.HaloInfinite.Challenge
+  fullName: Grunt.Models.HaloInfinite.Challenge
+  type: class
 - uid: Grunt.Models.HaloInfinite.ChallengeDeckDefinition
   commentId: T:Grunt.Models.HaloInfinite.ChallengeDeckDefinition
   parent: Grunt.Models.HaloInfinite
@@ -625,6 +635,14 @@ references:
   name: ChallengeProgressState
   nameWithType: Grunt.Models.HaloInfinite.ChallengeProgressState
   fullName: Grunt.Models.HaloInfinite.ChallengeProgressState
+  type: class
+- uid: Grunt.Models.HaloInfinite.ChallengeReward
+  commentId: T:Grunt.Models.HaloInfinite.ChallengeReward
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: ChallengeReward
+  nameWithType: Grunt.Models.HaloInfinite.ChallengeReward
+  fullName: Grunt.Models.HaloInfinite.ChallengeReward
   type: class
 - uid: Grunt.Models.HaloInfinite.ClawAccessSnapshot
   commentId: T:Grunt.Models.HaloInfinite.ClawAccessSnapshot
