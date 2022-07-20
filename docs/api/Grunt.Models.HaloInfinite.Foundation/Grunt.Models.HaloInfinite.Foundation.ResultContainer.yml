@@ -24,6 +24,7 @@ items:
   derivedClasses:
   - Grunt.Models.HaloInfinite.BanSummaryResult
   - Grunt.Models.HaloInfinite.PlayerSkillResult
+  - Grunt.Models.HaloInfinite.PlaylistCsrResults
   implements: []
   inheritedMembers: []
   modifiers.csharp:
@@ -203,4 +204,12 @@ references:
   name: PlayerSkillResult
   nameWithType: Grunt.Models.HaloInfinite.PlayerSkillResult
   fullName: Grunt.Models.HaloInfinite.PlayerSkillResult
+  type: class
+- uid: Grunt.Models.HaloInfinite.PlaylistCsrResults
+  commentId: T:Grunt.Models.HaloInfinite.PlaylistCsrResults
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistCsrResults
+  nameWithType: Grunt.Models.HaloInfinite.PlaylistCsrResults
+  fullName: Grunt.Models.HaloInfinite.PlaylistCsrResults
   type: class

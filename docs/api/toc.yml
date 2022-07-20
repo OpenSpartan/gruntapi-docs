@@ -701,8 +701,8 @@
     name: PlayerSkillResult
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlayerSkillResultValue
-    name: PlayerSkillResultValue
+  - uid: Grunt.Models.HaloInfinite.PlayerSkillResultContainer
+    name: PlayerSkillResultContainer
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.PlayerState
@@ -715,6 +715,22 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.Playlist
     name: Playlist
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlaylistCsr
+    name: PlaylistCsr
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlaylistCsrContainer
+    name: PlaylistCsrContainer
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlaylistCsrResultContainer
+    name: PlaylistCsrResultContainer
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlaylistCsrResults
+    name: PlaylistCsrResults
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.PlaylistCustomData
@@ -977,6 +993,23 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.Foundation.Theme
     name: Theme
+    monikers:
+    - net6.0
+  monikers:
+  - net6.0
+- uid: Grunt.Models.Xbox
+  name: Grunt.Models.Xbox
+  items:
+  - uid: Grunt.Models.Xbox.XboxSetting
+    name: XboxSetting
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.Xbox.XboxUserProfile
+    name: XboxUserProfile
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.Xbox.XboxUserProfileSettings
+    name: XboxUserProfileSettings
     monikers:
     - net6.0
   monikers:

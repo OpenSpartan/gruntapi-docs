@@ -1,0 +1,305 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.Xbox.XboxUserProfile
+  commentId: T:Grunt.Models.Xbox.XboxUserProfile
+  id: XboxUserProfile
+  children:
+  - Grunt.Models.Xbox.XboxUserProfile.#ctor
+  - Grunt.Models.Xbox.XboxUserProfile.HostId
+  - Grunt.Models.Xbox.XboxUserProfile.Id
+  - Grunt.Models.Xbox.XboxUserProfile.IsSponsoredUser
+  - Grunt.Models.Xbox.XboxUserProfile.Settings
+  langs:
+  - csharp
+  name: XboxUserProfile
+  nameWithType: Grunt.Models.Xbox.XboxUserProfile
+  fullName: Grunt.Models.Xbox.XboxUserProfile
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.Xbox
+  syntax:
+    content: public class XboxUserProfile
+    content.csharp: public class XboxUserProfile
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.Xbox.XboxUserProfile.#ctor
+  commentId: M:Grunt.Models.Xbox.XboxUserProfile.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.Xbox.XboxUserProfile
+  langs:
+  - csharp
+  name: XboxUserProfile()
+  nameWithType: XboxUserProfile.XboxUserProfile()
+  fullName: Grunt.Models.Xbox.XboxUserProfile.XboxUserProfile()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.Xbox
+  syntax:
+    content: public XboxUserProfile ();
+    parameters: []
+    content.csharp: public XboxUserProfile ();
+  overload: Grunt.Models.Xbox.XboxUserProfile.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.Xbox.XboxUserProfile.HostId
+  commentId: P:Grunt.Models.Xbox.XboxUserProfile.HostId
+  id: HostId
+  parent: Grunt.Models.Xbox.XboxUserProfile
+  langs:
+  - csharp
+  name: HostId
+  nameWithType: XboxUserProfile.HostId
+  fullName: Grunt.Models.Xbox.XboxUserProfile.HostId
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.Xbox
+  syntax:
+    content: public string HostId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string HostId { get; set; }
+  overload: Grunt.Models.Xbox.XboxUserProfile.HostId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.Xbox.XboxUserProfile.Id
+  commentId: P:Grunt.Models.Xbox.XboxUserProfile.Id
+  id: Id
+  parent: Grunt.Models.Xbox.XboxUserProfile
+  langs:
+  - csharp
+  name: Id
+  nameWithType: XboxUserProfile.Id
+  fullName: Grunt.Models.Xbox.XboxUserProfile.Id
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.Xbox
+  syntax:
+    content: public string Id { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Id { get; set; }
+  overload: Grunt.Models.Xbox.XboxUserProfile.Id*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.Xbox.XboxUserProfile.IsSponsoredUser
+  commentId: P:Grunt.Models.Xbox.XboxUserProfile.IsSponsoredUser
+  id: IsSponsoredUser
+  parent: Grunt.Models.Xbox.XboxUserProfile
+  langs:
+  - csharp
+  name: IsSponsoredUser
+  nameWithType: XboxUserProfile.IsSponsoredUser
+  fullName: Grunt.Models.Xbox.XboxUserProfile.IsSponsoredUser
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.Xbox
+  syntax:
+    content: public bool IsSponsoredUser { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool IsSponsoredUser { get; set; }
+  overload: Grunt.Models.Xbox.XboxUserProfile.IsSponsoredUser*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.Xbox.XboxUserProfile.Settings
+  commentId: P:Grunt.Models.Xbox.XboxUserProfile.Settings
+  id: Settings
+  parent: Grunt.Models.Xbox.XboxUserProfile
+  langs:
+  - csharp
+  name: Settings
+  nameWithType: XboxUserProfile.Settings
+  fullName: Grunt.Models.Xbox.XboxUserProfile.Settings
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.Xbox
+  syntax:
+    content: public System.Collections.Generic.List<Grunt.Models.Xbox.XboxSetting> Settings { get; set; }
+    return:
+      type: System.Collections.Generic.List{Grunt.Models.Xbox.XboxSetting}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<Grunt.Models.Xbox.XboxSetting> Settings { get; set; }
+  overload: Grunt.Models.Xbox.XboxUserProfile.Settings*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.Xbox
+  commentId: N:Grunt.Models.Xbox
+  isExternal: false
+  name: Grunt.Models.Xbox
+  nameWithType: Grunt.Models.Xbox
+  fullName: Grunt.Models.Xbox
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.Xbox.XboxUserProfile.#ctor
+  parent: Grunt.Models.Xbox.XboxUserProfile
+  isExternal: false
+  name: XboxUserProfile()
+  nameWithType: XboxUserProfile.XboxUserProfile()
+  fullName: Grunt.Models.Xbox.XboxUserProfile.XboxUserProfile()
+  type: constructor
+- uid: Grunt.Models.Xbox.XboxUserProfile.HostId
+  parent: Grunt.Models.Xbox.XboxUserProfile
+  isExternal: false
+  name: HostId
+  nameWithType: XboxUserProfile.HostId
+  fullName: Grunt.Models.Xbox.XboxUserProfile.HostId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.Xbox.XboxUserProfile.Id
+  parent: Grunt.Models.Xbox.XboxUserProfile
+  isExternal: false
+  name: Id
+  nameWithType: XboxUserProfile.Id
+  fullName: Grunt.Models.Xbox.XboxUserProfile.Id
+  type: property
+- uid: Grunt.Models.Xbox.XboxUserProfile.IsSponsoredUser
+  parent: Grunt.Models.Xbox.XboxUserProfile
+  isExternal: false
+  name: IsSponsoredUser
+  nameWithType: XboxUserProfile.IsSponsoredUser
+  fullName: Grunt.Models.Xbox.XboxUserProfile.IsSponsoredUser
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Grunt.Models.Xbox.XboxUserProfile.Settings
+  parent: Grunt.Models.Xbox.XboxUserProfile
+  isExternal: false
+  name: Settings
+  nameWithType: XboxUserProfile.Settings
+  fullName: Grunt.Models.Xbox.XboxUserProfile.Settings
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: Grunt.Models.Xbox.XboxSetting
+  name: XboxSetting
+  nameWithType: XboxSetting
+  fullName: Grunt.Models.Xbox.XboxSetting
+- uid: System.Collections.Generic.List{Grunt.Models.Xbox.XboxSetting}
+  parent: System.Collections.Generic
+  name: List<XboxSetting>
+  nameWithType: List<XboxSetting>
+  fullName: System.Collections.Generic.List<Grunt.Models.Xbox.XboxSetting>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Grunt.Models.Xbox.XboxSetting
+    name: XboxSetting
+    nameWithType: XboxSetting
+    fullName: Grunt.Models.Xbox.XboxSetting
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.Xbox.XboxUserProfile.#ctor*
+  commentId: Overload:Grunt.Models.Xbox.XboxUserProfile.#ctor
+  parent: Grunt.Models.Xbox.XboxUserProfile
+  isExternal: false
+  name: XboxUserProfile
+  nameWithType: XboxUserProfile.XboxUserProfile
+  fullName: Grunt.Models.Xbox.XboxUserProfile.XboxUserProfile
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.Xbox.XboxUserProfile.HostId*
+  commentId: Overload:Grunt.Models.Xbox.XboxUserProfile.HostId
+  parent: Grunt.Models.Xbox.XboxUserProfile
+  isExternal: false
+  name: HostId
+  nameWithType: XboxUserProfile.HostId
+  fullName: Grunt.Models.Xbox.XboxUserProfile.HostId
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.Xbox.XboxUserProfile.Id*
+  commentId: Overload:Grunt.Models.Xbox.XboxUserProfile.Id
+  parent: Grunt.Models.Xbox.XboxUserProfile
+  isExternal: false
+  name: Id
+  nameWithType: XboxUserProfile.Id
+  fullName: Grunt.Models.Xbox.XboxUserProfile.Id
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.Xbox.XboxUserProfile.IsSponsoredUser*
+  commentId: Overload:Grunt.Models.Xbox.XboxUserProfile.IsSponsoredUser
+  parent: Grunt.Models.Xbox.XboxUserProfile
+  isExternal: false
+  name: IsSponsoredUser
+  nameWithType: XboxUserProfile.IsSponsoredUser
+  fullName: Grunt.Models.Xbox.XboxUserProfile.IsSponsoredUser
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.Xbox.XboxUserProfile.Settings*
+  commentId: Overload:Grunt.Models.Xbox.XboxUserProfile.Settings
+  parent: Grunt.Models.Xbox.XboxUserProfile
+  isExternal: false
+  name: Settings
+  nameWithType: XboxUserProfile.Settings
+  fullName: Grunt.Models.Xbox.XboxUserProfile.Settings
+  monikers:
+  - net6.0
+  type: property

@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.Xbox.XboxUserProfileSettings
+  commentId: T:Grunt.Models.Xbox.XboxUserProfileSettings
+  id: XboxUserProfileSettings
+  children:
+  - Grunt.Models.Xbox.XboxUserProfileSettings.#ctor
+  - Grunt.Models.Xbox.XboxUserProfileSettings.ProfileUsers
+  langs:
+  - csharp
+  name: XboxUserProfileSettings
+  nameWithType: Grunt.Models.Xbox.XboxUserProfileSettings
+  fullName: Grunt.Models.Xbox.XboxUserProfileSettings
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.Xbox
+  syntax:
+    content: public class XboxUserProfileSettings
+    content.csharp: public class XboxUserProfileSettings
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.Xbox.XboxUserProfileSettings.#ctor
+  commentId: M:Grunt.Models.Xbox.XboxUserProfileSettings.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.Xbox.XboxUserProfileSettings
+  langs:
+  - csharp
+  name: XboxUserProfileSettings()
+  nameWithType: XboxUserProfileSettings.XboxUserProfileSettings()
+  fullName: Grunt.Models.Xbox.XboxUserProfileSettings.XboxUserProfileSettings()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.Xbox
+  syntax:
+    content: public XboxUserProfileSettings ();
+    parameters: []
+    content.csharp: public XboxUserProfileSettings ();
+  overload: Grunt.Models.Xbox.XboxUserProfileSettings.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.Xbox.XboxUserProfileSettings.ProfileUsers
+  commentId: P:Grunt.Models.Xbox.XboxUserProfileSettings.ProfileUsers
+  id: ProfileUsers
+  parent: Grunt.Models.Xbox.XboxUserProfileSettings
+  langs:
+  - csharp
+  name: ProfileUsers
+  nameWithType: XboxUserProfileSettings.ProfileUsers
+  fullName: Grunt.Models.Xbox.XboxUserProfileSettings.ProfileUsers
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.Xbox
+  syntax:
+    content: public System.Collections.Generic.List<Grunt.Models.Xbox.XboxUserProfile> ProfileUsers { get; set; }
+    return:
+      type: System.Collections.Generic.List{Grunt.Models.Xbox.XboxUserProfile}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<Grunt.Models.Xbox.XboxUserProfile> ProfileUsers { get; set; }
+  overload: Grunt.Models.Xbox.XboxUserProfileSettings.ProfileUsers*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.Xbox
+  commentId: N:Grunt.Models.Xbox
+  isExternal: false
+  name: Grunt.Models.Xbox
+  nameWithType: Grunt.Models.Xbox
+  fullName: Grunt.Models.Xbox
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.Xbox.XboxUserProfileSettings.#ctor
+  parent: Grunt.Models.Xbox.XboxUserProfileSettings
+  isExternal: false
+  name: XboxUserProfileSettings()
+  nameWithType: XboxUserProfileSettings.XboxUserProfileSettings()
+  fullName: Grunt.Models.Xbox.XboxUserProfileSettings.XboxUserProfileSettings()
+  type: constructor
+- uid: Grunt.Models.Xbox.XboxUserProfileSettings.ProfileUsers
+  parent: Grunt.Models.Xbox.XboxUserProfileSettings
+  isExternal: false
+  name: ProfileUsers
+  nameWithType: XboxUserProfileSettings.ProfileUsers
+  fullName: Grunt.Models.Xbox.XboxUserProfileSettings.ProfileUsers
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: Grunt.Models.Xbox.XboxUserProfile
+  name: XboxUserProfile
+  nameWithType: XboxUserProfile
+  fullName: Grunt.Models.Xbox.XboxUserProfile
+- uid: System.Collections.Generic.List{Grunt.Models.Xbox.XboxUserProfile}
+  parent: System.Collections.Generic
+  name: List<XboxUserProfile>
+  nameWithType: List<XboxUserProfile>
+  fullName: System.Collections.Generic.List<Grunt.Models.Xbox.XboxUserProfile>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Grunt.Models.Xbox.XboxUserProfile
+    name: XboxUserProfile
+    nameWithType: XboxUserProfile
+    fullName: Grunt.Models.Xbox.XboxUserProfile
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.Xbox.XboxUserProfileSettings.#ctor*
+  commentId: Overload:Grunt.Models.Xbox.XboxUserProfileSettings.#ctor
+  parent: Grunt.Models.Xbox.XboxUserProfileSettings
+  isExternal: false
+  name: XboxUserProfileSettings
+  nameWithType: XboxUserProfileSettings.XboxUserProfileSettings
+  fullName: Grunt.Models.Xbox.XboxUserProfileSettings.XboxUserProfileSettings
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.Xbox.XboxUserProfileSettings.ProfileUsers*
+  commentId: Overload:Grunt.Models.Xbox.XboxUserProfileSettings.ProfileUsers
+  parent: Grunt.Models.Xbox.XboxUserProfileSettings
+  isExternal: false
+  name: ProfileUsers
+  nameWithType: XboxUserProfileSettings.ProfileUsers
+  fullName: Grunt.Models.Xbox.XboxUserProfileSettings.ProfileUsers
+  monikers:
+  - net6.0
+  type: property

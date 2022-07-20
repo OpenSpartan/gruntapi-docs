@@ -160,10 +160,14 @@ items:
   - Grunt.Models.HaloInfinite.PlayerItem
   - Grunt.Models.HaloInfinite.PlayerMatchCount
   - Grunt.Models.HaloInfinite.PlayerSkillResult
-  - Grunt.Models.HaloInfinite.PlayerSkillResultValue
+  - Grunt.Models.HaloInfinite.PlayerSkillResultContainer
   - Grunt.Models.HaloInfinite.PlayerState
   - Grunt.Models.HaloInfinite.PlayerTeamStat
   - Grunt.Models.HaloInfinite.Playlist
+  - Grunt.Models.HaloInfinite.PlaylistCsr
+  - Grunt.Models.HaloInfinite.PlaylistCsrContainer
+  - Grunt.Models.HaloInfinite.PlaylistCsrResultContainer
+  - Grunt.Models.HaloInfinite.PlaylistCsrResults
   - Grunt.Models.HaloInfinite.PlaylistCustomData
   - Grunt.Models.HaloInfinite.PlaylistEntry
   - Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata
@@ -1473,13 +1477,13 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.PlayerSkillResult
   fullName: Grunt.Models.HaloInfinite.PlayerSkillResult
   type: class
-- uid: Grunt.Models.HaloInfinite.PlayerSkillResultValue
-  commentId: T:Grunt.Models.HaloInfinite.PlayerSkillResultValue
+- uid: Grunt.Models.HaloInfinite.PlayerSkillResultContainer
+  commentId: T:Grunt.Models.HaloInfinite.PlayerSkillResultContainer
   parent: Grunt.Models.HaloInfinite
   isExternal: false
-  name: PlayerSkillResultValue
-  nameWithType: Grunt.Models.HaloInfinite.PlayerSkillResultValue
-  fullName: Grunt.Models.HaloInfinite.PlayerSkillResultValue
+  name: PlayerSkillResultContainer
+  nameWithType: Grunt.Models.HaloInfinite.PlayerSkillResultContainer
+  fullName: Grunt.Models.HaloInfinite.PlayerSkillResultContainer
   type: class
 - uid: Grunt.Models.HaloInfinite.PlayerState
   commentId: T:Grunt.Models.HaloInfinite.PlayerState
@@ -1504,6 +1508,38 @@ references:
   name: Playlist
   nameWithType: Grunt.Models.HaloInfinite.Playlist
   fullName: Grunt.Models.HaloInfinite.Playlist
+  type: class
+- uid: Grunt.Models.HaloInfinite.PlaylistCsr
+  commentId: T:Grunt.Models.HaloInfinite.PlaylistCsr
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistCsr
+  nameWithType: Grunt.Models.HaloInfinite.PlaylistCsr
+  fullName: Grunt.Models.HaloInfinite.PlaylistCsr
+  type: class
+- uid: Grunt.Models.HaloInfinite.PlaylistCsrContainer
+  commentId: T:Grunt.Models.HaloInfinite.PlaylistCsrContainer
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistCsrContainer
+  nameWithType: Grunt.Models.HaloInfinite.PlaylistCsrContainer
+  fullName: Grunt.Models.HaloInfinite.PlaylistCsrContainer
+  type: class
+- uid: Grunt.Models.HaloInfinite.PlaylistCsrResultContainer
+  commentId: T:Grunt.Models.HaloInfinite.PlaylistCsrResultContainer
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistCsrResultContainer
+  nameWithType: Grunt.Models.HaloInfinite.PlaylistCsrResultContainer
+  fullName: Grunt.Models.HaloInfinite.PlaylistCsrResultContainer
+  type: class
+- uid: Grunt.Models.HaloInfinite.PlaylistCsrResults
+  commentId: T:Grunt.Models.HaloInfinite.PlaylistCsrResults
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistCsrResults
+  nameWithType: Grunt.Models.HaloInfinite.PlaylistCsrResults
+  fullName: Grunt.Models.HaloInfinite.PlaylistCsrResults
   type: class
 - uid: Grunt.Models.HaloInfinite.PlaylistCustomData
   commentId: T:Grunt.Models.HaloInfinite.PlaylistCustomData
