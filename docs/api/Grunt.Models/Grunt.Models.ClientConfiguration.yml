@@ -69,20 +69,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("client_id")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("client_id")]]
 
       public string ClientId { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("client_id")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("client_id")]]
 
       public string ClientId { get; set; }
   overload: Grunt.Models.ClientConfiguration.ClientId*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get
@@ -104,20 +104,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("client_secret")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("client_secret")]]
 
       public string ClientSecret { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("client_secret")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("client_secret")]]
 
       public string ClientSecret { get; set; }
   overload: Grunt.Models.ClientConfiguration.ClientSecret*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get
@@ -139,20 +139,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("redirect_url")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("redirect_url")]]
 
       public string RedirectUrl { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("redirect_url")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("redirect_url")]]
 
       public string RedirectUrl { get; set; }
   overload: Grunt.Models.ClientConfiguration.RedirectUrl*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get

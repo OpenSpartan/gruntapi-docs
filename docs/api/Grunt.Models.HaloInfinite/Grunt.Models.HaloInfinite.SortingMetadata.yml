@@ -68,20 +68,20 @@ items:
   namespace: Grunt.Models.HaloInfinite
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("categoryWeight")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("categoryWeight")]]
 
       public int CategoryWeight { get; set; }
     return:
       type: System.Int32
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("categoryWeight")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("categoryWeight")]]
 
       public int CategoryWeight { get; set; }
   overload: Grunt.Models.HaloInfinite.SortingMetadata.CategoryWeight*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get
@@ -103,20 +103,20 @@ items:
   namespace: Grunt.Models.HaloInfinite
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("subCategoryWeight")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("subCategoryWeight")]]
 
       public int SubCategoryWeight { get; set; }
     return:
       type: System.Int32
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("subCategoryWeight")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("subCategoryWeight")]]
 
       public int SubCategoryWeight { get; set; }
   overload: Grunt.Models.HaloInfinite.SortingMetadata.SubCategoryWeight*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get
