@@ -357,10 +357,6 @@
     name: CustomizationData
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.CustomManifestData
-    name: CustomManifestData
-    monikers:
-    - net6.0
   - uid: Grunt.Models.HaloInfinite.CustomMapData
     name: CustomMapData
     monikers:
@@ -395,6 +391,10 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.EngineGameVariant
     name: EngineGameVariant
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+    name: EngineGameVariantCustomData
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.FavoriteAsset
@@ -501,8 +501,16 @@
     name: LobbyJoinHandle
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.LocalizedDataContainer
+    name: LocalizedDataContainer
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.Manifest
     name: Manifest
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ManifestCustomData
+    name: ManifestCustomData
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.Manufacturer
@@ -697,6 +705,34 @@
     name: PlayerTeamStat
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.Playlist
+    name: Playlist
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlaylistCustomData
+    name: PlaylistCustomData
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlaylistEntry
+    name: PlaylistEntry
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata
+    name: PlaylistMapModePairMetadata
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+    name: PlaylistRotationEntry
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Prefab
+    name: Prefab
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PrefabCustomData
+    name: PrefabCustomData
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.Price
     name: Price
     monikers:
@@ -791,6 +827,10 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.StoreProductMapping
     name: StoreProductMapping
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.SubsetDataContainer
+    name: SubsetDataContainer
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.Tag

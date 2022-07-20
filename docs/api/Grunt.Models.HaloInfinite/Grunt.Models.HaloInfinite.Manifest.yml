@@ -37,6 +37,7 @@ items:
   - Grunt.Models.HaloInfinite.Foundation.Asset.Description
   - Grunt.Models.HaloInfinite.Foundation.Asset.Files
   - Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Order
   - Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
   - Grunt.Models.HaloInfinite.Foundation.Asset.Tags
   - Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
@@ -111,11 +112,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public Grunt.Models.HaloInfinite.CustomManifestData CustomData { get; set; }
+    content: public Grunt.Models.HaloInfinite.ManifestCustomData CustomData { get; set; }
     return:
-      type: Grunt.Models.HaloInfinite.CustomManifestData
+      type: Grunt.Models.HaloInfinite.ManifestCustomData
       description: ''
-    content.csharp: public Grunt.Models.HaloInfinite.CustomManifestData CustomData { get; set; }
+    content.csharp: public Grunt.Models.HaloInfinite.ManifestCustomData CustomData { get; set; }
   overload: Grunt.Models.HaloInfinite.Manifest.CustomData*
   exceptions: []
   modifiers.csharp:
@@ -273,12 +274,12 @@ references:
   nameWithType: Manifest.CustomData
   fullName: Grunt.Models.HaloInfinite.Manifest.CustomData
   type: property
-- uid: Grunt.Models.HaloInfinite.CustomManifestData
+- uid: Grunt.Models.HaloInfinite.ManifestCustomData
   parent: Grunt.Models.HaloInfinite
   isExternal: false
-  name: CustomManifestData
-  nameWithType: CustomManifestData
-  fullName: Grunt.Models.HaloInfinite.CustomManifestData
+  name: ManifestCustomData
+  nameWithType: ManifestCustomData
+  fullName: Grunt.Models.HaloInfinite.ManifestCustomData
 - uid: Grunt.Models.HaloInfinite.Manifest.EngineGameVariantLinks
   parent: Grunt.Models.HaloInfinite.Manifest
   isExternal: false
@@ -508,6 +509,13 @@ references:
   name: InspectionResult
   nameWithType: Asset.InspectionResult
   fullName: Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Order
+  nameWithType: Asset.Order
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Order
   type: property
 - uid: Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
   parent: Grunt.Models.HaloInfinite.Foundation.Asset

@@ -35,6 +35,7 @@ items:
   - Grunt.Models.HaloInfinite.Foundation.Asset.Description
   - Grunt.Models.HaloInfinite.Foundation.Asset.Files
   - Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Order
   - Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
   - Grunt.Models.HaloInfinite.Foundation.Asset.Tags
   - Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
@@ -378,6 +379,13 @@ references:
   name: InspectionResult
   nameWithType: Asset.InspectionResult
   fullName: Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Order
+  nameWithType: Asset.Order
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Order
   type: property
 - uid: Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
   parent: Grunt.Models.HaloInfinite.Foundation.Asset

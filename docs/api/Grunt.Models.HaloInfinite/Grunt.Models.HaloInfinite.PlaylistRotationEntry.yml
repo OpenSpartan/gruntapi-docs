@@ -1,0 +1,291 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  commentId: T:Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  id: PlaylistRotationEntry
+  children:
+  - Grunt.Models.HaloInfinite.PlaylistRotationEntry.#ctor
+  - Grunt.Models.HaloInfinite.PlaylistRotationEntry.AssetStats
+  - Grunt.Models.HaloInfinite.PlaylistRotationEntry.Metadata
+  langs:
+  - csharp
+  name: PlaylistRotationEntry
+  nameWithType: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  fullName: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: 'public class PlaylistRotationEntry : Grunt.Models.HaloInfinite.Foundation.Asset'
+    content.csharp: 'public class PlaylistRotationEntry : Grunt.Models.HaloInfinite.Foundation.Asset'
+  inheritance:
+  - System.Object
+  - Grunt.Models.HaloInfinite.Foundation.Asset
+  implements: []
+  inheritedMembers:
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  - Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  - Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  - Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  - Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.PlaylistRotationEntry.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.PlaylistRotationEntry.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  langs:
+  - csharp
+  name: PlaylistRotationEntry()
+  nameWithType: PlaylistRotationEntry.PlaylistRotationEntry()
+  fullName: Grunt.Models.HaloInfinite.PlaylistRotationEntry.PlaylistRotationEntry()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public PlaylistRotationEntry ();
+    parameters: []
+    content.csharp: public PlaylistRotationEntry ();
+  overload: Grunt.Models.HaloInfinite.PlaylistRotationEntry.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.PlaylistRotationEntry.AssetStats
+  commentId: P:Grunt.Models.HaloInfinite.PlaylistRotationEntry.AssetStats
+  id: AssetStats
+  parent: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  langs:
+  - csharp
+  name: AssetStats
+  nameWithType: PlaylistRotationEntry.AssetStats
+  fullName: Grunt.Models.HaloInfinite.PlaylistRotationEntry.AssetStats
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.PlayAssetStats AssetStats { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.PlayAssetStats
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.PlayAssetStats AssetStats { get; set; }
+  overload: Grunt.Models.HaloInfinite.PlaylistRotationEntry.AssetStats*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.PlaylistRotationEntry.Metadata
+  commentId: P:Grunt.Models.HaloInfinite.PlaylistRotationEntry.Metadata
+  id: Metadata
+  parent: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  langs:
+  - csharp
+  name: Metadata
+  nameWithType: PlaylistRotationEntry.Metadata
+  fullName: Grunt.Models.HaloInfinite.PlaylistRotationEntry.Metadata
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata Metadata { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata Metadata { get; set; }
+  overload: Grunt.Models.HaloInfinite.PlaylistRotationEntry.Metadata*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset
+  parent: Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Asset
+  nameWithType: Asset
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset
+- uid: Grunt.Models.HaloInfinite.PlaylistRotationEntry.#ctor
+  parent: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  isExternal: false
+  name: PlaylistRotationEntry()
+  nameWithType: PlaylistRotationEntry.PlaylistRotationEntry()
+  fullName: Grunt.Models.HaloInfinite.PlaylistRotationEntry.PlaylistRotationEntry()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.PlaylistRotationEntry.AssetStats
+  parent: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  isExternal: false
+  name: AssetStats
+  nameWithType: PlaylistRotationEntry.AssetStats
+  fullName: Grunt.Models.HaloInfinite.PlaylistRotationEntry.AssetStats
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlayAssetStats
+  nameWithType: PlayAssetStats
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats
+- uid: Grunt.Models.HaloInfinite.PlaylistRotationEntry.Metadata
+  parent: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  isExternal: false
+  name: Metadata
+  nameWithType: PlaylistRotationEntry.Metadata
+  fullName: Grunt.Models.HaloInfinite.PlaylistRotationEntry.Metadata
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistMapModePairMetadata
+  nameWithType: PlaylistMapModePairMetadata
+  fullName: Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata
+- uid: Grunt.Models.HaloInfinite.PlaylistRotationEntry.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlaylistRotationEntry.#ctor
+  parent: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  isExternal: false
+  name: PlaylistRotationEntry
+  nameWithType: PlaylistRotationEntry.PlaylistRotationEntry
+  fullName: Grunt.Models.HaloInfinite.PlaylistRotationEntry.PlaylistRotationEntry
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.PlaylistRotationEntry.AssetStats*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlaylistRotationEntry.AssetStats
+  parent: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  isExternal: false
+  name: AssetStats
+  nameWithType: PlaylistRotationEntry.AssetStats
+  fullName: Grunt.Models.HaloInfinite.PlaylistRotationEntry.AssetStats
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlaylistRotationEntry.Metadata*
+  commentId: Overload:Grunt.Models.HaloInfinite.PlaylistRotationEntry.Metadata
+  parent: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  isExternal: false
+  name: Metadata
+  nameWithType: PlaylistRotationEntry.Metadata
+  fullName: Grunt.Models.HaloInfinite.PlaylistRotationEntry.Metadata
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetHome
+  nameWithType: Asset.AssetHome
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetId
+  nameWithType: Asset.AssetId
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetKind
+  nameWithType: Asset.AssetKind
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetVersionId
+  nameWithType: Asset.AssetVersionId
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: CloneBehavior
+  nameWithType: Asset.CloneBehavior
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Contributors
+  nameWithType: Asset.Contributors
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Description
+  nameWithType: Asset.Description
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Files
+  nameWithType: Asset.Files
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: InspectionResult
+  nameWithType: Asset.InspectionResult
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Order
+  nameWithType: Asset.Order
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: PublicName
+  nameWithType: Asset.PublicName
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Tags
+  nameWithType: Asset.Tags
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: VersionId
+  nameWithType: Asset.VersionId
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  type: property
