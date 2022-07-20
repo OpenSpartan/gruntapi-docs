@@ -157,11 +157,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite.Foundation
   syntax:
-    content: public Grunt.Models.APIFormattedDate FirstAcquiredDate { get; set; }
+    content: public Grunt.Models.APIFormattedDate? FirstAcquiredDate { get; set; }
     return:
       type: Grunt.Models.APIFormattedDate
       description: ''
-    content.csharp: public Grunt.Models.APIFormattedDate FirstAcquiredDate { get; set; }
+    content.csharp: public Grunt.Models.APIFormattedDate? FirstAcquiredDate { get; set; }
   overload: Grunt.Models.HaloInfinite.Foundation.Core.FirstAcquiredDate*
   exceptions: []
   modifiers.csharp:

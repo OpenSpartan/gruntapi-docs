@@ -71,7 +71,7 @@ items:
   - Grunt
   namespace: Grunt.Authentication
   syntax:
-    content: public string GenerateAuthUrl (string clientId, string redirectUrl, string[] scopes = default, string state = "");
+    content: public string GenerateAuthUrl (string clientId, string redirectUrl, string[]? scopes = default, string state = "");
     parameters:
     - id: clientId
       type: System.String
@@ -88,7 +88,7 @@ items:
     return:
       type: System.String
       description: ''
-    content.csharp: public string GenerateAuthUrl (string clientId, string redirectUrl, string[] scopes = default, string state = "");
+    content.csharp: public string GenerateAuthUrl (string clientId, string redirectUrl, string[]? scopes = default, string state = "");
   overload: Grunt.Authentication.XboxAuthenticationManager.GenerateAuthUrl*
   exceptions: []
   modifiers.csharp:
@@ -141,7 +141,7 @@ items:
   - Grunt
   namespace: Grunt.Authentication
   syntax:
-    content: public System.Threading.Tasks.Task<Grunt.Models.OAuthToken> RefreshOAuthToken (string clientId, string refreshToken, string redirectUrl, string clientSecret = "", string[] scopes = default);
+    content: public System.Threading.Tasks.Task<Grunt.Models.OAuthToken> RefreshOAuthToken (string clientId, string refreshToken, string redirectUrl, string clientSecret = "", string[]? scopes = default);
     parameters:
     - id: clientId
       type: System.String
@@ -161,7 +161,7 @@ items:
     return:
       type: System.Threading.Tasks.Task{Grunt.Models.OAuthToken}
       description: ''
-    content.csharp: public System.Threading.Tasks.Task<Grunt.Models.OAuthToken> RefreshOAuthToken (string clientId, string refreshToken, string redirectUrl, string clientSecret = "", string[] scopes = default);
+    content.csharp: public System.Threading.Tasks.Task<Grunt.Models.OAuthToken> RefreshOAuthToken (string clientId, string refreshToken, string redirectUrl, string clientSecret = "", string[]? scopes = default);
   overload: Grunt.Authentication.XboxAuthenticationManager.RefreshOAuthToken*
   exceptions: []
   modifiers.csharp:
@@ -182,7 +182,7 @@ items:
   - Grunt
   namespace: Grunt.Authentication
   syntax:
-    content: public System.Threading.Tasks.Task<Grunt.Models.OAuthToken> RequestOAuthToken (string clientId, string authorizationCode, string redirectUrl, string clientSecret = "", string[] scopes = default);
+    content: public System.Threading.Tasks.Task<Grunt.Models.OAuthToken> RequestOAuthToken (string clientId, string authorizationCode, string redirectUrl, string clientSecret = "", string[]? scopes = default);
     parameters:
     - id: clientId
       type: System.String
@@ -202,7 +202,7 @@ items:
     return:
       type: System.Threading.Tasks.Task{Grunt.Models.OAuthToken}
       description: ''
-    content.csharp: public System.Threading.Tasks.Task<Grunt.Models.OAuthToken> RequestOAuthToken (string clientId, string authorizationCode, string redirectUrl, string clientSecret = "", string[] scopes = default);
+    content.csharp: public System.Threading.Tasks.Task<Grunt.Models.OAuthToken> RequestOAuthToken (string clientId, string authorizationCode, string redirectUrl, string clientSecret = "", string[]? scopes = default);
   overload: Grunt.Authentication.XboxAuthenticationManager.RequestOAuthToken*
   exceptions: []
   modifiers.csharp:

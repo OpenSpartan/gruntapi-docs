@@ -99,11 +99,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public Grunt.Models.APIFormattedDate LastModifiedDateUtc { get; set; }
+    content: public Grunt.Models.APIFormattedDate? LastModifiedDateUtc { get; set; }
     return:
       type: Grunt.Models.APIFormattedDate
       description: ''
-    content.csharp: public Grunt.Models.APIFormattedDate LastModifiedDateUtc { get; set; }
+    content.csharp: public Grunt.Models.APIFormattedDate? LastModifiedDateUtc { get; set; }
   overload: Grunt.Models.HaloInfinite.SpartanBody.LastModifiedDateUtc*
   exceptions: []
   modifiers.csharp:

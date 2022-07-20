@@ -997,23 +997,6 @@
     - net6.0
   monikers:
   - net6.0
-- uid: Grunt.Models.Xbox
-  name: Grunt.Models.Xbox
-  items:
-  - uid: Grunt.Models.Xbox.XboxSetting
-    name: XboxSetting
-    monikers:
-    - net6.0
-  - uid: Grunt.Models.Xbox.XboxUserProfile
-    name: XboxUserProfile
-    monikers:
-    - net6.0
-  - uid: Grunt.Models.Xbox.XboxUserProfileSettings
-    name: XboxUserProfileSettings
-    monikers:
-    - net6.0
-  monikers:
-  - net6.0
 - uid: Grunt.Util
   name: Grunt.Util
   items:

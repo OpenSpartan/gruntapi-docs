@@ -76,11 +76,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite.Foundation
   syntax:
-    content: public Grunt.Models.APIFormattedDate FirstModifiedDateUtc { get; set; }
+    content: public Grunt.Models.APIFormattedDate? FirstModifiedDateUtc { get; set; }
     return:
       type: Grunt.Models.APIFormattedDate
       description: ''
-    content.csharp: public Grunt.Models.APIFormattedDate FirstModifiedDateUtc { get; set; }
+    content.csharp: public Grunt.Models.APIFormattedDate? FirstModifiedDateUtc { get; set; }
   overload: Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc*
   exceptions: []
   modifiers.csharp:
@@ -157,11 +157,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite.Foundation
   syntax:
-    content: public Grunt.Models.APIFormattedDate LastModifiedDateUtc { get; set; }
+    content: public Grunt.Models.APIFormattedDate? LastModifiedDateUtc { get; set; }
     return:
       type: Grunt.Models.APIFormattedDate
       description: ''
-    content.csharp: public Grunt.Models.APIFormattedDate LastModifiedDateUtc { get; set; }
+    content.csharp: public Grunt.Models.APIFormattedDate? LastModifiedDateUtc { get; set; }
   overload: Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc*
   exceptions: []
   modifiers.csharp:
