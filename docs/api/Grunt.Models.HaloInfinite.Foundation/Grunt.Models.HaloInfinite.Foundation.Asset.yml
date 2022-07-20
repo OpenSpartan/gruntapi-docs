@@ -34,6 +34,7 @@ items:
   - System.Object
   derivedClasses:
   - Grunt.Models.HaloInfinite.AssetLink
+  - Grunt.Models.HaloInfinite.AssetSearchResult
   - Grunt.Models.HaloInfinite.EngineGameVariant
   - Grunt.Models.HaloInfinite.FavoriteAsset
   - Grunt.Models.HaloInfinite.GenericAsset
@@ -718,6 +719,14 @@ references:
   name: AssetLink
   nameWithType: Grunt.Models.HaloInfinite.AssetLink
   fullName: Grunt.Models.HaloInfinite.AssetLink
+  type: class
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult
+  commentId: T:Grunt.Models.HaloInfinite.AssetSearchResult
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AssetSearchResult
+  nameWithType: Grunt.Models.HaloInfinite.AssetSearchResult
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult
   type: class
 - uid: Grunt.Models.HaloInfinite.EngineGameVariant
   commentId: T:Grunt.Models.HaloInfinite.EngineGameVariant

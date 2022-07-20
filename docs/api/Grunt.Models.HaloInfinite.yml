@@ -33,6 +33,8 @@ items:
   - Grunt.Models.HaloInfinite.AssetLink
   - Grunt.Models.HaloInfinite.AssetPermission
   - Grunt.Models.HaloInfinite.AssetRating
+  - Grunt.Models.HaloInfinite.AssetSearchResult
+  - Grunt.Models.HaloInfinite.AssetTag
   - Grunt.Models.HaloInfinite.AssetVersionFile
   - Grunt.Models.HaloInfinite.AssignedDeck
   - Grunt.Models.HaloInfinite.AsyncComputeOverrides
@@ -180,6 +182,8 @@ items:
   - Grunt.Models.HaloInfinite.RewardTrack
   - Grunt.Models.HaloInfinite.RewardTrackMetadata
   - Grunt.Models.HaloInfinite.RewardTrackProgress
+  - Grunt.Models.HaloInfinite.SearchAssetTag
+  - Grunt.Models.HaloInfinite.SearchResultsContainer
   - Grunt.Models.HaloInfinite.SeasonRewardTrack
   - Grunt.Models.HaloInfinite.Server
   - Grunt.Models.HaloInfinite.SkillResult
@@ -193,7 +197,6 @@ items:
   - Grunt.Models.HaloInfinite.StoreProduct
   - Grunt.Models.HaloInfinite.StoreProductMapping
   - Grunt.Models.HaloInfinite.SubsetDataContainer
-  - Grunt.Models.HaloInfinite.Tag
   - Grunt.Models.HaloInfinite.TagInfo
   - Grunt.Models.HaloInfinite.TargetAsset
   - Grunt.Models.HaloInfinite.Team
@@ -453,6 +456,22 @@ references:
   name: AssetRating
   nameWithType: Grunt.Models.HaloInfinite.AssetRating
   fullName: Grunt.Models.HaloInfinite.AssetRating
+  type: class
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult
+  commentId: T:Grunt.Models.HaloInfinite.AssetSearchResult
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AssetSearchResult
+  nameWithType: Grunt.Models.HaloInfinite.AssetSearchResult
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult
+  type: class
+- uid: Grunt.Models.HaloInfinite.AssetTag
+  commentId: T:Grunt.Models.HaloInfinite.AssetTag
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AssetTag
+  nameWithType: Grunt.Models.HaloInfinite.AssetTag
+  fullName: Grunt.Models.HaloInfinite.AssetTag
   type: class
 - uid: Grunt.Models.HaloInfinite.AssetVersionFile
   commentId: T:Grunt.Models.HaloInfinite.AssetVersionFile
@@ -1630,6 +1649,22 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.RewardTrackProgress
   fullName: Grunt.Models.HaloInfinite.RewardTrackProgress
   type: class
+- uid: Grunt.Models.HaloInfinite.SearchAssetTag
+  commentId: T:Grunt.Models.HaloInfinite.SearchAssetTag
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: SearchAssetTag
+  nameWithType: Grunt.Models.HaloInfinite.SearchAssetTag
+  fullName: Grunt.Models.HaloInfinite.SearchAssetTag
+  type: class
+- uid: Grunt.Models.HaloInfinite.SearchResultsContainer
+  commentId: T:Grunt.Models.HaloInfinite.SearchResultsContainer
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: SearchResultsContainer
+  nameWithType: Grunt.Models.HaloInfinite.SearchResultsContainer
+  fullName: Grunt.Models.HaloInfinite.SearchResultsContainer
+  type: class
 - uid: Grunt.Models.HaloInfinite.SeasonRewardTrack
   commentId: T:Grunt.Models.HaloInfinite.SeasonRewardTrack
   parent: Grunt.Models.HaloInfinite
@@ -1733,14 +1768,6 @@ references:
   name: SubsetDataContainer
   nameWithType: Grunt.Models.HaloInfinite.SubsetDataContainer
   fullName: Grunt.Models.HaloInfinite.SubsetDataContainer
-  type: class
-- uid: Grunt.Models.HaloInfinite.Tag
-  commentId: T:Grunt.Models.HaloInfinite.Tag
-  parent: Grunt.Models.HaloInfinite
-  isExternal: false
-  name: Tag
-  nameWithType: Grunt.Models.HaloInfinite.Tag
-  fullName: Grunt.Models.HaloInfinite.Tag
   type: class
 - uid: Grunt.Models.HaloInfinite.TagInfo
   commentId: T:Grunt.Models.HaloInfinite.TagInfo

@@ -193,6 +193,14 @@
     name: AssetRating
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.AssetSearchResult
+    name: AssetSearchResult
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AssetTag
+    name: AssetTag
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.AssetVersionFile
     name: AssetVersionFile
     monikers:
@@ -781,6 +789,14 @@
     name: RewardTrackProgress
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.SearchAssetTag
+    name: SearchAssetTag
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.SearchResultsContainer
+    name: SearchResultsContainer
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.SeasonRewardTrack
     name: SeasonRewardTrack
     monikers:
@@ -831,10 +847,6 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.SubsetDataContainer
     name: SubsetDataContainer
-    monikers:
-    - net6.0
-  - uid: Grunt.Models.HaloInfinite.Tag
-    name: Tag
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.TagInfo

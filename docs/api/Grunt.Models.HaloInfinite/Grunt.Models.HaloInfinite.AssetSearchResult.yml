@@ -1,0 +1,1034 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult
+  commentId: T:Grunt.Models.HaloInfinite.AssetSearchResult
+  id: AssetSearchResult
+  children:
+  - Grunt.Models.HaloInfinite.AssetSearchResult.#ctor
+  - Grunt.Models.HaloInfinite.AssetSearchResult.AverageRating
+  - Grunt.Models.HaloInfinite.AssetSearchResult.Bookmarks
+  - Grunt.Models.HaloInfinite.AssetSearchResult.DateCreatedUtc
+  - Grunt.Models.HaloInfinite.AssetSearchResult.DateModifiedUtc
+  - Grunt.Models.HaloInfinite.AssetSearchResult.DatePublishedUtc
+  - Grunt.Models.HaloInfinite.AssetSearchResult.HasNodeGraph
+  - Grunt.Models.HaloInfinite.AssetSearchResult.Likes
+  - Grunt.Models.HaloInfinite.AssetSearchResult.Name
+  - Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfObjects
+  - Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfRatings
+  - Grunt.Models.HaloInfinite.AssetSearchResult.OriginalAuthor
+  - Grunt.Models.HaloInfinite.AssetSearchResult.ParentAssetCount
+  - Grunt.Models.HaloInfinite.AssetSearchResult.PlaysAllTime
+  - Grunt.Models.HaloInfinite.AssetSearchResult.PlaysRecent
+  - Grunt.Models.HaloInfinite.AssetSearchResult.ReadOnlyClones
+  - Grunt.Models.HaloInfinite.AssetSearchResult.ReferencedAssets
+  - Grunt.Models.HaloInfinite.AssetSearchResult.Tags
+  - Grunt.Models.HaloInfinite.AssetSearchResult.ThumbnailUrl
+  langs:
+  - csharp
+  name: AssetSearchResult
+  nameWithType: Grunt.Models.HaloInfinite.AssetSearchResult
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: 'public class AssetSearchResult : Grunt.Models.HaloInfinite.Foundation.Asset'
+    content.csharp: 'public class AssetSearchResult : Grunt.Models.HaloInfinite.Foundation.Asset'
+  inheritance:
+  - System.Object
+  - Grunt.Models.HaloInfinite.Foundation.Asset
+  implements: []
+  inheritedMembers:
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  - Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  - Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  - Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  - Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.AssetSearchResult.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: AssetSearchResult()
+  nameWithType: AssetSearchResult.AssetSearchResult()
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.AssetSearchResult()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public AssetSearchResult ();
+    parameters: []
+    content.csharp: public AssetSearchResult ();
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.AverageRating
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.AverageRating
+  id: AverageRating
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: AverageRating
+  nameWithType: AssetSearchResult.AverageRating
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.AverageRating
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public float AverageRating { get; set; }
+    return:
+      type: System.Single
+      description: ''
+    content.csharp: public float AverageRating { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.AverageRating*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.Bookmarks
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.Bookmarks
+  id: Bookmarks
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: Bookmarks
+  nameWithType: AssetSearchResult.Bookmarks
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.Bookmarks
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Bookmarks { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Bookmarks { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.Bookmarks*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.DateCreatedUtc
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.DateCreatedUtc
+  id: DateCreatedUtc
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: DateCreatedUtc
+  nameWithType: AssetSearchResult.DateCreatedUtc
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.DateCreatedUtc
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.APIFormattedDate DateCreatedUtc { get; set; }
+    return:
+      type: Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public Grunt.Models.APIFormattedDate DateCreatedUtc { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.DateCreatedUtc*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.DateModifiedUtc
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.DateModifiedUtc
+  id: DateModifiedUtc
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: DateModifiedUtc
+  nameWithType: AssetSearchResult.DateModifiedUtc
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.DateModifiedUtc
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.APIFormattedDate DateModifiedUtc { get; set; }
+    return:
+      type: Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public Grunt.Models.APIFormattedDate DateModifiedUtc { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.DateModifiedUtc*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.DatePublishedUtc
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.DatePublishedUtc
+  id: DatePublishedUtc
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: DatePublishedUtc
+  nameWithType: AssetSearchResult.DatePublishedUtc
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.DatePublishedUtc
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.APIFormattedDate DatePublishedUtc { get; set; }
+    return:
+      type: Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public Grunt.Models.APIFormattedDate DatePublishedUtc { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.DatePublishedUtc*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.HasNodeGraph
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.HasNodeGraph
+  id: HasNodeGraph
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: HasNodeGraph
+  nameWithType: AssetSearchResult.HasNodeGraph
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.HasNodeGraph
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool HasNodeGraph { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool HasNodeGraph { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.HasNodeGraph*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.Likes
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.Likes
+  id: Likes
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: Likes
+  nameWithType: AssetSearchResult.Likes
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.Likes
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Likes { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Likes { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.Likes*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.Name
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.Name
+  id: Name
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: Name
+  nameWithType: AssetSearchResult.Name
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.Name
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Name { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Name { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.Name*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfObjects
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfObjects
+  id: NumberOfObjects
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: NumberOfObjects
+  nameWithType: AssetSearchResult.NumberOfObjects
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfObjects
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int NumberOfObjects { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int NumberOfObjects { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfObjects*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfRatings
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfRatings
+  id: NumberOfRatings
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: NumberOfRatings
+  nameWithType: AssetSearchResult.NumberOfRatings
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfRatings
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int NumberOfRatings { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int NumberOfRatings { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfRatings*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.OriginalAuthor
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.OriginalAuthor
+  id: OriginalAuthor
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: OriginalAuthor
+  nameWithType: AssetSearchResult.OriginalAuthor
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.OriginalAuthor
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string OriginalAuthor { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string OriginalAuthor { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.OriginalAuthor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.ParentAssetCount
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.ParentAssetCount
+  id: ParentAssetCount
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: ParentAssetCount
+  nameWithType: AssetSearchResult.ParentAssetCount
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.ParentAssetCount
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ParentAssetCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ParentAssetCount { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.ParentAssetCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.PlaysAllTime
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.PlaysAllTime
+  id: PlaysAllTime
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: PlaysAllTime
+  nameWithType: AssetSearchResult.PlaysAllTime
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.PlaysAllTime
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int PlaysAllTime { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int PlaysAllTime { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.PlaysAllTime*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.PlaysRecent
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.PlaysRecent
+  id: PlaysRecent
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: PlaysRecent
+  nameWithType: AssetSearchResult.PlaysRecent
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.PlaysRecent
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int PlaysRecent { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int PlaysRecent { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.PlaysRecent*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.ReadOnlyClones
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.ReadOnlyClones
+  id: ReadOnlyClones
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: ReadOnlyClones
+  nameWithType: AssetSearchResult.ReadOnlyClones
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.ReadOnlyClones
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool ReadOnlyClones { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool ReadOnlyClones { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.ReadOnlyClones*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.ReferencedAssets
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.ReferencedAssets
+  id: ReferencedAssets
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: ReferencedAssets
+  nameWithType: AssetSearchResult.ReferencedAssets
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.ReferencedAssets
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string[] ReferencedAssets { get; set; }
+    return:
+      type: System.String[]
+      description: ''
+    content.csharp: public string[] ReferencedAssets { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.ReferencedAssets*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.Tags
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.Tags
+  id: Tags
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: Tags
+  nameWithType: AssetSearchResult.Tags
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.Tags
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string[] Tags { get; set; }
+    return:
+      type: System.String[]
+      description: ''
+    content.csharp: public string[] Tags { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.Tags*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.ThumbnailUrl
+  commentId: P:Grunt.Models.HaloInfinite.AssetSearchResult.ThumbnailUrl
+  id: ThumbnailUrl
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  langs:
+  - csharp
+  name: ThumbnailUrl
+  nameWithType: AssetSearchResult.ThumbnailUrl
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.ThumbnailUrl
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ThumbnailUrl { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ThumbnailUrl { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetSearchResult.ThumbnailUrl*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset
+  parent: Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Asset
+  nameWithType: Asset
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.#ctor
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: AssetSearchResult()
+  nameWithType: AssetSearchResult.AssetSearchResult()
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.AssetSearchResult()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.AverageRating
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: AverageRating
+  nameWithType: AssetSearchResult.AverageRating
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.AverageRating
+  type: property
+- uid: System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.Bookmarks
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: Bookmarks
+  nameWithType: AssetSearchResult.Bookmarks
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.Bookmarks
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.DateCreatedUtc
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: DateCreatedUtc
+  nameWithType: AssetSearchResult.DateCreatedUtc
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.DateCreatedUtc
+  type: property
+- uid: Grunt.Models.APIFormattedDate
+  parent: Grunt.Models
+  isExternal: false
+  name: APIFormattedDate
+  nameWithType: APIFormattedDate
+  fullName: Grunt.Models.APIFormattedDate
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.DateModifiedUtc
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: DateModifiedUtc
+  nameWithType: AssetSearchResult.DateModifiedUtc
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.DateModifiedUtc
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.DatePublishedUtc
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: DatePublishedUtc
+  nameWithType: AssetSearchResult.DatePublishedUtc
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.DatePublishedUtc
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.HasNodeGraph
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: HasNodeGraph
+  nameWithType: AssetSearchResult.HasNodeGraph
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.HasNodeGraph
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.Likes
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: Likes
+  nameWithType: AssetSearchResult.Likes
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.Likes
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.Name
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: Name
+  nameWithType: AssetSearchResult.Name
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.Name
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfObjects
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: NumberOfObjects
+  nameWithType: AssetSearchResult.NumberOfObjects
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfObjects
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfRatings
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: NumberOfRatings
+  nameWithType: AssetSearchResult.NumberOfRatings
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfRatings
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.OriginalAuthor
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: OriginalAuthor
+  nameWithType: AssetSearchResult.OriginalAuthor
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.OriginalAuthor
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.ParentAssetCount
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: ParentAssetCount
+  nameWithType: AssetSearchResult.ParentAssetCount
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.ParentAssetCount
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.PlaysAllTime
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: PlaysAllTime
+  nameWithType: AssetSearchResult.PlaysAllTime
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.PlaysAllTime
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.PlaysRecent
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: PlaysRecent
+  nameWithType: AssetSearchResult.PlaysRecent
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.PlaysRecent
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.ReadOnlyClones
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: ReadOnlyClones
+  nameWithType: AssetSearchResult.ReadOnlyClones
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.ReadOnlyClones
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.ReferencedAssets
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: ReferencedAssets
+  nameWithType: AssetSearchResult.ReferencedAssets
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.ReferencedAssets
+  type: property
+- uid: System.String[]
+  parent: System
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.Tags
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: Tags
+  nameWithType: AssetSearchResult.Tags
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.Tags
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.ThumbnailUrl
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: ThumbnailUrl
+  nameWithType: AssetSearchResult.ThumbnailUrl
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.ThumbnailUrl
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.#ctor
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: AssetSearchResult
+  nameWithType: AssetSearchResult.AssetSearchResult
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.AssetSearchResult
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.AverageRating*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.AverageRating
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: AverageRating
+  nameWithType: AssetSearchResult.AverageRating
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.AverageRating
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.Bookmarks*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.Bookmarks
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: Bookmarks
+  nameWithType: AssetSearchResult.Bookmarks
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.Bookmarks
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.DateCreatedUtc*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.DateCreatedUtc
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: DateCreatedUtc
+  nameWithType: AssetSearchResult.DateCreatedUtc
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.DateCreatedUtc
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.DateModifiedUtc*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.DateModifiedUtc
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: DateModifiedUtc
+  nameWithType: AssetSearchResult.DateModifiedUtc
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.DateModifiedUtc
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.DatePublishedUtc*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.DatePublishedUtc
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: DatePublishedUtc
+  nameWithType: AssetSearchResult.DatePublishedUtc
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.DatePublishedUtc
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.HasNodeGraph*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.HasNodeGraph
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: HasNodeGraph
+  nameWithType: AssetSearchResult.HasNodeGraph
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.HasNodeGraph
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.Likes*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.Likes
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: Likes
+  nameWithType: AssetSearchResult.Likes
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.Likes
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.Name*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.Name
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: Name
+  nameWithType: AssetSearchResult.Name
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.Name
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfObjects*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfObjects
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: NumberOfObjects
+  nameWithType: AssetSearchResult.NumberOfObjects
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfObjects
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfRatings*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfRatings
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: NumberOfRatings
+  nameWithType: AssetSearchResult.NumberOfRatings
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.NumberOfRatings
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.OriginalAuthor*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.OriginalAuthor
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: OriginalAuthor
+  nameWithType: AssetSearchResult.OriginalAuthor
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.OriginalAuthor
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.ParentAssetCount*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.ParentAssetCount
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: ParentAssetCount
+  nameWithType: AssetSearchResult.ParentAssetCount
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.ParentAssetCount
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.PlaysAllTime*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.PlaysAllTime
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: PlaysAllTime
+  nameWithType: AssetSearchResult.PlaysAllTime
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.PlaysAllTime
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.PlaysRecent*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.PlaysRecent
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: PlaysRecent
+  nameWithType: AssetSearchResult.PlaysRecent
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.PlaysRecent
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.ReadOnlyClones*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.ReadOnlyClones
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: ReadOnlyClones
+  nameWithType: AssetSearchResult.ReadOnlyClones
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.ReadOnlyClones
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.ReferencedAssets*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.ReferencedAssets
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: ReferencedAssets
+  nameWithType: AssetSearchResult.ReferencedAssets
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.ReferencedAssets
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.Tags*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.Tags
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: Tags
+  nameWithType: AssetSearchResult.Tags
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.Tags
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult.ThumbnailUrl*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetSearchResult.ThumbnailUrl
+  parent: Grunt.Models.HaloInfinite.AssetSearchResult
+  isExternal: false
+  name: ThumbnailUrl
+  nameWithType: AssetSearchResult.ThumbnailUrl
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult.ThumbnailUrl
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetHome
+  nameWithType: Asset.AssetHome
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetId
+  nameWithType: Asset.AssetId
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetKind
+  nameWithType: Asset.AssetKind
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetVersionId
+  nameWithType: Asset.AssetVersionId
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: CloneBehavior
+  nameWithType: Asset.CloneBehavior
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Contributors
+  nameWithType: Asset.Contributors
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Description
+  nameWithType: Asset.Description
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Files
+  nameWithType: Asset.Files
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: InspectionResult
+  nameWithType: Asset.InspectionResult
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Order
+  nameWithType: Asset.Order
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: PublicName
+  nameWithType: Asset.PublicName
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: VersionId
+  nameWithType: Asset.VersionId
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  type: property
