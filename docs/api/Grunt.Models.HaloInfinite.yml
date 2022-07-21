@@ -27,7 +27,7 @@ items:
   - Grunt.Models.HaloInfinite.ArmorCoreCollection
   - Grunt.Models.HaloInfinite.ArmorCoreTheme
   - Grunt.Models.HaloInfinite.ArticleAction
-  - Grunt.Models.HaloInfinite.Articleimage
+  - Grunt.Models.HaloInfinite.ArticleImage
   - Grunt.Models.HaloInfinite.AssetAuthoringSession
   - Grunt.Models.HaloInfinite.AssetKeyValues
   - Grunt.Models.HaloInfinite.AssetLink
@@ -413,13 +413,13 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.ArticleAction
   fullName: Grunt.Models.HaloInfinite.ArticleAction
   type: class
-- uid: Grunt.Models.HaloInfinite.Articleimage
-  commentId: T:Grunt.Models.HaloInfinite.Articleimage
+- uid: Grunt.Models.HaloInfinite.ArticleImage
+  commentId: T:Grunt.Models.HaloInfinite.ArticleImage
   parent: Grunt.Models.HaloInfinite
   isExternal: false
-  name: Articleimage
-  nameWithType: Grunt.Models.HaloInfinite.Articleimage
-  fullName: Grunt.Models.HaloInfinite.Articleimage
+  name: ArticleImage
+  nameWithType: Grunt.Models.HaloInfinite.ArticleImage
+  fullName: Grunt.Models.HaloInfinite.ArticleImage
   type: class
 - uid: Grunt.Models.HaloInfinite.AssetAuthoringSession
   commentId: T:Grunt.Models.HaloInfinite.AssetAuthoringSession

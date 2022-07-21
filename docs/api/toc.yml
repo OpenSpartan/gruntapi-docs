@@ -169,8 +169,8 @@
     name: ArticleAction
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Articleimage
-    name: Articleimage
+  - uid: Grunt.Models.HaloInfinite.ArticleImage
+    name: ArticleImage
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.AssetAuthoringSession

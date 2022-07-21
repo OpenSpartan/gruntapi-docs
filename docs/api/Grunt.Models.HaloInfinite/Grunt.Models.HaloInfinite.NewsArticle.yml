@@ -97,11 +97,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public Grunt.Models.HaloInfinite.Articleimage ArticleImage { get; set; }
+    content: public Grunt.Models.HaloInfinite.ArticleImage ArticleImage { get; set; }
     return:
-      type: Grunt.Models.HaloInfinite.Articleimage
+      type: Grunt.Models.HaloInfinite.ArticleImage
       description: ''
-    content.csharp: public Grunt.Models.HaloInfinite.Articleimage ArticleImage { get; set; }
+    content.csharp: public Grunt.Models.HaloInfinite.ArticleImage ArticleImage { get; set; }
   overload: Grunt.Models.HaloInfinite.NewsArticle.ArticleImage*
   exceptions: []
   modifiers.csharp:
@@ -243,12 +243,12 @@ references:
   nameWithType: NewsArticle.ArticleImage
   fullName: Grunt.Models.HaloInfinite.NewsArticle.ArticleImage
   type: property
-- uid: Grunt.Models.HaloInfinite.Articleimage
+- uid: Grunt.Models.HaloInfinite.ArticleImage
   parent: Grunt.Models.HaloInfinite
   isExternal: false
-  name: Articleimage
-  nameWithType: Articleimage
-  fullName: Grunt.Models.HaloInfinite.Articleimage
+  name: ArticleImage
+  nameWithType: ArticleImage
+  fullName: Grunt.Models.HaloInfinite.ArticleImage
 - uid: Grunt.Models.HaloInfinite.NewsArticle.Body
   parent: Grunt.Models.HaloInfinite.NewsArticle
   isExternal: false

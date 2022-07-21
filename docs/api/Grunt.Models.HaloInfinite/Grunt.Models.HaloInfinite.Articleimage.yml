@@ -1,25 +1,25 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Grunt.Models.HaloInfinite.Articleimage
-  commentId: T:Grunt.Models.HaloInfinite.Articleimage
-  id: Articleimage
+- uid: Grunt.Models.HaloInfinite.ArticleImage
+  commentId: T:Grunt.Models.HaloInfinite.ArticleImage
+  id: ArticleImage
   children:
-  - Grunt.Models.HaloInfinite.Articleimage.#ctor
-  - Grunt.Models.HaloInfinite.Articleimage.Height
-  - Grunt.Models.HaloInfinite.Articleimage.Path
-  - Grunt.Models.HaloInfinite.Articleimage.Width
+  - Grunt.Models.HaloInfinite.ArticleImage.#ctor
+  - Grunt.Models.HaloInfinite.ArticleImage.Height
+  - Grunt.Models.HaloInfinite.ArticleImage.Path
+  - Grunt.Models.HaloInfinite.ArticleImage.Width
   langs:
   - csharp
-  name: Articleimage
-  nameWithType: Grunt.Models.HaloInfinite.Articleimage
-  fullName: Grunt.Models.HaloInfinite.Articleimage
+  name: ArticleImage
+  nameWithType: Grunt.Models.HaloInfinite.ArticleImage
+  fullName: Grunt.Models.HaloInfinite.ArticleImage
   type: Class
   assemblies:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public class Articleimage
-    content.csharp: public class Articleimage
+    content: public class ArticleImage
+    content.csharp: public class ArticleImage
   inheritance:
   - System.Object
   implements: []
@@ -31,38 +31,38 @@ items:
   _op_AssemblyMonikerMapping:
     Grunt:
     - net6.0
-- uid: Grunt.Models.HaloInfinite.Articleimage.#ctor
-  commentId: M:Grunt.Models.HaloInfinite.Articleimage.#ctor
+- uid: Grunt.Models.HaloInfinite.ArticleImage.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.ArticleImage.#ctor
   id: '#ctor'
-  parent: Grunt.Models.HaloInfinite.Articleimage
+  parent: Grunt.Models.HaloInfinite.ArticleImage
   langs:
   - csharp
-  name: Articleimage()
-  nameWithType: Articleimage.Articleimage()
-  fullName: Grunt.Models.HaloInfinite.Articleimage.Articleimage()
+  name: ArticleImage()
+  nameWithType: ArticleImage.ArticleImage()
+  fullName: Grunt.Models.HaloInfinite.ArticleImage.ArticleImage()
   type: Constructor
   assemblies:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public Articleimage ();
+    content: public ArticleImage ();
     parameters: []
-    content.csharp: public Articleimage ();
-  overload: Grunt.Models.HaloInfinite.Articleimage.#ctor*
+    content.csharp: public ArticleImage ();
+  overload: Grunt.Models.HaloInfinite.ArticleImage.#ctor*
   exceptions: []
   modifiers.csharp:
   - public
   monikers:
   - net6.0
-- uid: Grunt.Models.HaloInfinite.Articleimage.Height
-  commentId: P:Grunt.Models.HaloInfinite.Articleimage.Height
+- uid: Grunt.Models.HaloInfinite.ArticleImage.Height
+  commentId: P:Grunt.Models.HaloInfinite.ArticleImage.Height
   id: Height
-  parent: Grunt.Models.HaloInfinite.Articleimage
+  parent: Grunt.Models.HaloInfinite.ArticleImage
   langs:
   - csharp
   name: Height
-  nameWithType: Articleimage.Height
-  fullName: Grunt.Models.HaloInfinite.Articleimage.Height
+  nameWithType: ArticleImage.Height
+  fullName: Grunt.Models.HaloInfinite.ArticleImage.Height
   type: Property
   assemblies:
   - Grunt
@@ -73,7 +73,7 @@ items:
       type: System.Int32
       description: ''
     content.csharp: public int Height { get; set; }
-  overload: Grunt.Models.HaloInfinite.Articleimage.Height*
+  overload: Grunt.Models.HaloInfinite.ArticleImage.Height*
   exceptions: []
   modifiers.csharp:
   - public
@@ -81,15 +81,15 @@ items:
   - set
   monikers:
   - net6.0
-- uid: Grunt.Models.HaloInfinite.Articleimage.Path
-  commentId: P:Grunt.Models.HaloInfinite.Articleimage.Path
+- uid: Grunt.Models.HaloInfinite.ArticleImage.Path
+  commentId: P:Grunt.Models.HaloInfinite.ArticleImage.Path
   id: Path
-  parent: Grunt.Models.HaloInfinite.Articleimage
+  parent: Grunt.Models.HaloInfinite.ArticleImage
   langs:
   - csharp
   name: Path
-  nameWithType: Articleimage.Path
-  fullName: Grunt.Models.HaloInfinite.Articleimage.Path
+  nameWithType: ArticleImage.Path
+  fullName: Grunt.Models.HaloInfinite.ArticleImage.Path
   type: Property
   assemblies:
   - Grunt
@@ -100,7 +100,7 @@ items:
       type: System.String
       description: ''
     content.csharp: public string Path { get; set; }
-  overload: Grunt.Models.HaloInfinite.Articleimage.Path*
+  overload: Grunt.Models.HaloInfinite.ArticleImage.Path*
   exceptions: []
   modifiers.csharp:
   - public
@@ -108,15 +108,15 @@ items:
   - set
   monikers:
   - net6.0
-- uid: Grunt.Models.HaloInfinite.Articleimage.Width
-  commentId: P:Grunt.Models.HaloInfinite.Articleimage.Width
+- uid: Grunt.Models.HaloInfinite.ArticleImage.Width
+  commentId: P:Grunt.Models.HaloInfinite.ArticleImage.Width
   id: Width
-  parent: Grunt.Models.HaloInfinite.Articleimage
+  parent: Grunt.Models.HaloInfinite.ArticleImage
   langs:
   - csharp
   name: Width
-  nameWithType: Articleimage.Width
-  fullName: Grunt.Models.HaloInfinite.Articleimage.Width
+  nameWithType: ArticleImage.Width
+  fullName: Grunt.Models.HaloInfinite.ArticleImage.Width
   type: Property
   assemblies:
   - Grunt
@@ -127,7 +127,7 @@ items:
       type: System.Int32
       description: ''
     content.csharp: public int Width { get; set; }
-  overload: Grunt.Models.HaloInfinite.Articleimage.Width*
+  overload: Grunt.Models.HaloInfinite.ArticleImage.Width*
   exceptions: []
   modifiers.csharp:
   - public
@@ -149,19 +149,19 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: Grunt.Models.HaloInfinite.Articleimage.#ctor
-  parent: Grunt.Models.HaloInfinite.Articleimage
+- uid: Grunt.Models.HaloInfinite.ArticleImage.#ctor
+  parent: Grunt.Models.HaloInfinite.ArticleImage
   isExternal: false
-  name: Articleimage()
-  nameWithType: Articleimage.Articleimage()
-  fullName: Grunt.Models.HaloInfinite.Articleimage.Articleimage()
+  name: ArticleImage()
+  nameWithType: ArticleImage.ArticleImage()
+  fullName: Grunt.Models.HaloInfinite.ArticleImage.ArticleImage()
   type: constructor
-- uid: Grunt.Models.HaloInfinite.Articleimage.Height
-  parent: Grunt.Models.HaloInfinite.Articleimage
+- uid: Grunt.Models.HaloInfinite.ArticleImage.Height
+  parent: Grunt.Models.HaloInfinite.ArticleImage
   isExternal: false
   name: Height
-  nameWithType: Articleimage.Height
-  fullName: Grunt.Models.HaloInfinite.Articleimage.Height
+  nameWithType: ArticleImage.Height
+  fullName: Grunt.Models.HaloInfinite.ArticleImage.Height
   type: property
 - uid: System.Int32
   parent: System
@@ -169,12 +169,12 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: Grunt.Models.HaloInfinite.Articleimage.Path
-  parent: Grunt.Models.HaloInfinite.Articleimage
+- uid: Grunt.Models.HaloInfinite.ArticleImage.Path
+  parent: Grunt.Models.HaloInfinite.ArticleImage
   isExternal: false
   name: Path
-  nameWithType: Articleimage.Path
-  fullName: Grunt.Models.HaloInfinite.Articleimage.Path
+  nameWithType: ArticleImage.Path
+  fullName: Grunt.Models.HaloInfinite.ArticleImage.Path
   type: property
 - uid: System.String
   parent: System
@@ -182,50 +182,50 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: Grunt.Models.HaloInfinite.Articleimage.Width
-  parent: Grunt.Models.HaloInfinite.Articleimage
+- uid: Grunt.Models.HaloInfinite.ArticleImage.Width
+  parent: Grunt.Models.HaloInfinite.ArticleImage
   isExternal: false
   name: Width
-  nameWithType: Articleimage.Width
-  fullName: Grunt.Models.HaloInfinite.Articleimage.Width
+  nameWithType: ArticleImage.Width
+  fullName: Grunt.Models.HaloInfinite.ArticleImage.Width
   type: property
-- uid: Grunt.Models.HaloInfinite.Articleimage.#ctor*
-  commentId: Overload:Grunt.Models.HaloInfinite.Articleimage.#ctor
-  parent: Grunt.Models.HaloInfinite.Articleimage
+- uid: Grunt.Models.HaloInfinite.ArticleImage.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArticleImage.#ctor
+  parent: Grunt.Models.HaloInfinite.ArticleImage
   isExternal: false
-  name: Articleimage
-  nameWithType: Articleimage.Articleimage
-  fullName: Grunt.Models.HaloInfinite.Articleimage.Articleimage
+  name: ArticleImage
+  nameWithType: ArticleImage.ArticleImage
+  fullName: Grunt.Models.HaloInfinite.ArticleImage.ArticleImage
   monikers:
   - net6.0
   type: constructor
-- uid: Grunt.Models.HaloInfinite.Articleimage.Height*
-  commentId: Overload:Grunt.Models.HaloInfinite.Articleimage.Height
-  parent: Grunt.Models.HaloInfinite.Articleimage
+- uid: Grunt.Models.HaloInfinite.ArticleImage.Height*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArticleImage.Height
+  parent: Grunt.Models.HaloInfinite.ArticleImage
   isExternal: false
   name: Height
-  nameWithType: Articleimage.Height
-  fullName: Grunt.Models.HaloInfinite.Articleimage.Height
+  nameWithType: ArticleImage.Height
+  fullName: Grunt.Models.HaloInfinite.ArticleImage.Height
   monikers:
   - net6.0
   type: property
-- uid: Grunt.Models.HaloInfinite.Articleimage.Path*
-  commentId: Overload:Grunt.Models.HaloInfinite.Articleimage.Path
-  parent: Grunt.Models.HaloInfinite.Articleimage
+- uid: Grunt.Models.HaloInfinite.ArticleImage.Path*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArticleImage.Path
+  parent: Grunt.Models.HaloInfinite.ArticleImage
   isExternal: false
   name: Path
-  nameWithType: Articleimage.Path
-  fullName: Grunt.Models.HaloInfinite.Articleimage.Path
+  nameWithType: ArticleImage.Path
+  fullName: Grunt.Models.HaloInfinite.ArticleImage.Path
   monikers:
   - net6.0
   type: property
-- uid: Grunt.Models.HaloInfinite.Articleimage.Width*
-  commentId: Overload:Grunt.Models.HaloInfinite.Articleimage.Width
-  parent: Grunt.Models.HaloInfinite.Articleimage
+- uid: Grunt.Models.HaloInfinite.ArticleImage.Width*
+  commentId: Overload:Grunt.Models.HaloInfinite.ArticleImage.Width
+  parent: Grunt.Models.HaloInfinite.ArticleImage
   isExternal: false
   name: Width
-  nameWithType: Articleimage.Width
-  fullName: Grunt.Models.HaloInfinite.Articleimage.Width
+  nameWithType: ArticleImage.Width
+  fullName: Grunt.Models.HaloInfinite.ArticleImage.Width
   monikers:
   - net6.0
   type: property
