@@ -4,8 +4,10 @@ items:
   commentId: N:Grunt.Models
   id: Grunt.Models
   children:
+  - Grunt.Models.ApiContentType
   - Grunt.Models.APIFormattedDate
   - Grunt.Models.ClientConfiguration
+  - Grunt.Models.ContentTypeAttribute
   - Grunt.Models.GruntConfiguration
   - Grunt.Models.OAuthToken
   - Grunt.Models.SpartanToken
@@ -25,6 +27,14 @@ items:
   monikers:
   - net6.0
 references:
+- uid: Grunt.Models.ApiContentType
+  commentId: T:Grunt.Models.ApiContentType
+  parent: Grunt.Models
+  isExternal: false
+  name: ApiContentType
+  nameWithType: Grunt.Models.ApiContentType
+  fullName: Grunt.Models.ApiContentType
+  type: enum
 - uid: Grunt.Models.APIFormattedDate
   commentId: T:Grunt.Models.APIFormattedDate
   parent: Grunt.Models
@@ -40,6 +50,14 @@ references:
   name: ClientConfiguration
   nameWithType: Grunt.Models.ClientConfiguration
   fullName: Grunt.Models.ClientConfiguration
+  type: class
+- uid: Grunt.Models.ContentTypeAttribute
+  commentId: T:Grunt.Models.ContentTypeAttribute
+  parent: Grunt.Models
+  isExternal: false
+  name: ContentTypeAttribute
+  nameWithType: Grunt.Models.ContentTypeAttribute
+  fullName: Grunt.Models.ContentTypeAttribute
   type: class
 - uid: Grunt.Models.GruntConfiguration
   commentId: T:Grunt.Models.GruntConfiguration

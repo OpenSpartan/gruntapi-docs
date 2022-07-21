@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.ContentTypeAttribute
+  commentId: T:Grunt.Models.ContentTypeAttribute
+  id: ContentTypeAttribute
+  children:
+  - Grunt.Models.ContentTypeAttribute.#ctor
+  - Grunt.Models.ContentTypeAttribute.HeaderValue
+  langs:
+  - csharp
+  name: ContentTypeAttribute
+  nameWithType: Grunt.Models.ContentTypeAttribute
+  fullName: Grunt.Models.ContentTypeAttribute
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: 'public class ContentTypeAttribute : Attribute'
+    content.csharp: 'public class ContentTypeAttribute : Attribute'
+  inheritance:
+  - System.Attribute
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.ContentTypeAttribute.#ctor
+  commentId: M:Grunt.Models.ContentTypeAttribute.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.ContentTypeAttribute
+  langs:
+  - csharp
+  name: ContentTypeAttribute()
+  nameWithType: ContentTypeAttribute.ContentTypeAttribute()
+  fullName: Grunt.Models.ContentTypeAttribute.ContentTypeAttribute()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: public ContentTypeAttribute ();
+    parameters: []
+    content.csharp: public ContentTypeAttribute ();
+  overload: Grunt.Models.ContentTypeAttribute.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.ContentTypeAttribute.HeaderValue
+  commentId: P:Grunt.Models.ContentTypeAttribute.HeaderValue
+  id: HeaderValue
+  parent: Grunt.Models.ContentTypeAttribute
+  langs:
+  - csharp
+  name: HeaderValue
+  nameWithType: ContentTypeAttribute.HeaderValue
+  fullName: Grunt.Models.ContentTypeAttribute.HeaderValue
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models
+  syntax:
+    content: public string HeaderValue { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string HeaderValue { get; set; }
+  overload: Grunt.Models.ContentTypeAttribute.HeaderValue*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models
+  commentId: N:Grunt.Models
+  isExternal: false
+  name: Grunt.Models
+  nameWithType: Grunt.Models
+  fullName: Grunt.Models
+  type: namespace
+- uid: System.Attribute
+  parent: System
+  isExternal: true
+  name: Attribute
+  nameWithType: Attribute
+  fullName: System.Attribute
+- uid: Grunt.Models.ContentTypeAttribute.#ctor
+  parent: Grunt.Models.ContentTypeAttribute
+  isExternal: false
+  name: ContentTypeAttribute()
+  nameWithType: ContentTypeAttribute.ContentTypeAttribute()
+  fullName: Grunt.Models.ContentTypeAttribute.ContentTypeAttribute()
+  type: constructor
+- uid: Grunt.Models.ContentTypeAttribute.HeaderValue
+  parent: Grunt.Models.ContentTypeAttribute
+  isExternal: false
+  name: HeaderValue
+  nameWithType: ContentTypeAttribute.HeaderValue
+  fullName: Grunt.Models.ContentTypeAttribute.HeaderValue
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.ContentTypeAttribute.#ctor*
+  commentId: Overload:Grunt.Models.ContentTypeAttribute.#ctor
+  parent: Grunt.Models.ContentTypeAttribute
+  isExternal: false
+  name: ContentTypeAttribute
+  nameWithType: ContentTypeAttribute.ContentTypeAttribute
+  fullName: Grunt.Models.ContentTypeAttribute.ContentTypeAttribute
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.ContentTypeAttribute.HeaderValue*
+  commentId: Overload:Grunt.Models.ContentTypeAttribute.HeaderValue
+  parent: Grunt.Models.ContentTypeAttribute
+  isExternal: false
+  name: HeaderValue
+  nameWithType: ContentTypeAttribute.HeaderValue
+  fullName: Grunt.Models.ContentTypeAttribute.HeaderValue
+  monikers:
+  - net6.0
+  type: property

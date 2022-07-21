@@ -33,6 +33,8 @@ items:
   - Grunt.Models.HaloInfinite.AssetLink
   - Grunt.Models.HaloInfinite.AssetPermission
   - Grunt.Models.HaloInfinite.AssetRating
+  - Grunt.Models.HaloInfinite.AssetReport
+  - Grunt.Models.HaloInfinite.AssetReportCustomData
   - Grunt.Models.HaloInfinite.AssetSearchResult
   - Grunt.Models.HaloInfinite.AssetTag
   - Grunt.Models.HaloInfinite.AssetVersionFile
@@ -460,6 +462,22 @@ references:
   name: AssetRating
   nameWithType: Grunt.Models.HaloInfinite.AssetRating
   fullName: Grunt.Models.HaloInfinite.AssetRating
+  type: class
+- uid: Grunt.Models.HaloInfinite.AssetReport
+  commentId: T:Grunt.Models.HaloInfinite.AssetReport
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AssetReport
+  nameWithType: Grunt.Models.HaloInfinite.AssetReport
+  fullName: Grunt.Models.HaloInfinite.AssetReport
+  type: class
+- uid: Grunt.Models.HaloInfinite.AssetReportCustomData
+  commentId: T:Grunt.Models.HaloInfinite.AssetReportCustomData
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AssetReportCustomData
+  nameWithType: Grunt.Models.HaloInfinite.AssetReportCustomData
+  fullName: Grunt.Models.HaloInfinite.AssetReportCustomData
   type: class
 - uid: Grunt.Models.HaloInfinite.AssetSearchResult
   commentId: T:Grunt.Models.HaloInfinite.AssetSearchResult

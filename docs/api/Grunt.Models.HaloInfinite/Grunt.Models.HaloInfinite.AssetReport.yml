@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.AssetReport
+  commentId: T:Grunt.Models.HaloInfinite.AssetReport
+  id: AssetReport
+  children:
+  - Grunt.Models.HaloInfinite.AssetReport.#ctor
+  - Grunt.Models.HaloInfinite.AssetReport.CustomData
+  langs:
+  - csharp
+  name: AssetReport
+  nameWithType: Grunt.Models.HaloInfinite.AssetReport
+  fullName: Grunt.Models.HaloInfinite.AssetReport
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: 'public class AssetReport : Grunt.Models.HaloInfinite.Foundation.Asset'
+    content.csharp: 'public class AssetReport : Grunt.Models.HaloInfinite.Foundation.Asset'
+  inheritance:
+  - System.Object
+  - Grunt.Models.HaloInfinite.Foundation.Asset
+  implements: []
+  inheritedMembers:
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  - Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  - Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  - Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Name
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  - Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  - Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetReport.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.AssetReport.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.AssetReport
+  langs:
+  - csharp
+  name: AssetReport()
+  nameWithType: AssetReport.AssetReport()
+  fullName: Grunt.Models.HaloInfinite.AssetReport.AssetReport()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public AssetReport ();
+    parameters: []
+    content.csharp: public AssetReport ();
+  overload: Grunt.Models.HaloInfinite.AssetReport.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AssetReport.CustomData
+  commentId: P:Grunt.Models.HaloInfinite.AssetReport.CustomData
+  id: CustomData
+  parent: Grunt.Models.HaloInfinite.AssetReport
+  langs:
+  - csharp
+  name: CustomData
+  nameWithType: AssetReport.CustomData
+  fullName: Grunt.Models.HaloInfinite.AssetReport.CustomData
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.AssetReportCustomData CustomData { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.AssetReportCustomData
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.AssetReportCustomData CustomData { get; set; }
+  overload: Grunt.Models.HaloInfinite.AssetReport.CustomData*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset
+  parent: Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Asset
+  nameWithType: Asset
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset
+- uid: Grunt.Models.HaloInfinite.AssetReport.#ctor
+  parent: Grunt.Models.HaloInfinite.AssetReport
+  isExternal: false
+  name: AssetReport()
+  nameWithType: AssetReport.AssetReport()
+  fullName: Grunt.Models.HaloInfinite.AssetReport.AssetReport()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AssetReport.CustomData
+  parent: Grunt.Models.HaloInfinite.AssetReport
+  isExternal: false
+  name: CustomData
+  nameWithType: AssetReport.CustomData
+  fullName: Grunt.Models.HaloInfinite.AssetReport.CustomData
+  type: property
+- uid: Grunt.Models.HaloInfinite.AssetReportCustomData
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AssetReportCustomData
+  nameWithType: AssetReportCustomData
+  fullName: Grunt.Models.HaloInfinite.AssetReportCustomData
+- uid: Grunt.Models.HaloInfinite.AssetReport.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetReport.#ctor
+  parent: Grunt.Models.HaloInfinite.AssetReport
+  isExternal: false
+  name: AssetReport
+  nameWithType: AssetReport.AssetReport
+  fullName: Grunt.Models.HaloInfinite.AssetReport.AssetReport
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.AssetReport.CustomData*
+  commentId: Overload:Grunt.Models.HaloInfinite.AssetReport.CustomData
+  parent: Grunt.Models.HaloInfinite.AssetReport
+  isExternal: false
+  name: CustomData
+  nameWithType: AssetReport.CustomData
+  fullName: Grunt.Models.HaloInfinite.AssetReport.CustomData
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetHome
+  nameWithType: Asset.AssetHome
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetId
+  nameWithType: Asset.AssetId
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetKind
+  nameWithType: Asset.AssetKind
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetVersionId
+  nameWithType: Asset.AssetVersionId
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: CloneBehavior
+  nameWithType: Asset.CloneBehavior
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Contributors
+  nameWithType: Asset.Contributors
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Description
+  nameWithType: Asset.Description
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Files
+  nameWithType: Asset.Files
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: InspectionResult
+  nameWithType: Asset.InspectionResult
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Name
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Name
+  nameWithType: Asset.Name
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Name
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Order
+  nameWithType: Asset.Order
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: PublicName
+  nameWithType: Asset.PublicName
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Tags
+  nameWithType: Asset.Tags
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: VersionId
+  nameWithType: Asset.VersionId
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  type: property

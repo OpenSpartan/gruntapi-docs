@@ -24,12 +24,20 @@
 - uid: Grunt.Models
   name: Grunt.Models
   items:
+  - uid: Grunt.Models.ApiContentType
+    name: ApiContentType
+    monikers:
+    - net6.0
   - uid: Grunt.Models.APIFormattedDate
     name: APIFormattedDate
     monikers:
     - net6.0
   - uid: Grunt.Models.ClientConfiguration
     name: ClientConfiguration
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.ContentTypeAttribute
+    name: ContentTypeAttribute
     monikers:
     - net6.0
   - uid: Grunt.Models.GruntConfiguration
@@ -191,6 +199,14 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.AssetRating
     name: AssetRating
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AssetReport
+    name: AssetReport
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AssetReportCustomData
+    name: AssetReportCustomData
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.AssetSearchResult

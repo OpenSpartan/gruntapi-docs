@@ -14,6 +14,7 @@ items:
   - Grunt.Models.HaloInfinite.Foundation.Asset.Description
   - Grunt.Models.HaloInfinite.Foundation.Asset.Files
   - Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Name
   - Grunt.Models.HaloInfinite.Foundation.Asset.Order
   - Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
   - Grunt.Models.HaloInfinite.Foundation.Asset.Tags
@@ -34,6 +35,7 @@ items:
   - System.Object
   derivedClasses:
   - Grunt.Models.HaloInfinite.AssetLink
+  - Grunt.Models.HaloInfinite.AssetReport
   - Grunt.Models.HaloInfinite.AssetSearchResult
   - Grunt.Models.HaloInfinite.EngineGameVariant
   - Grunt.Models.HaloInfinite.FavoriteAsset
@@ -321,6 +323,33 @@ items:
   - set
   monikers:
   - net6.0
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Name
+  commentId: P:Grunt.Models.HaloInfinite.Foundation.Asset.Name
+  id: Name
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  langs:
+  - csharp
+  name: Name
+  nameWithType: Asset.Name
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Name
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public string Name { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Name { get; set; }
+  overload: Grunt.Models.HaloInfinite.Foundation.Asset.Name*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
 - uid: Grunt.Models.HaloInfinite.Foundation.Asset.Order
   commentId: P:Grunt.Models.HaloInfinite.Foundation.Asset.Order
   id: Order
@@ -544,6 +573,13 @@ references:
   nameWithType: Asset.InspectionResult
   fullName: Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
   type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Name
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Name
+  nameWithType: Asset.Name
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Name
+  type: property
 - uid: Grunt.Models.HaloInfinite.Foundation.Asset.Order
   parent: Grunt.Models.HaloInfinite.Foundation.Asset
   isExternal: false
@@ -672,6 +708,16 @@ references:
   monikers:
   - net6.0
   type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Name*
+  commentId: Overload:Grunt.Models.HaloInfinite.Foundation.Asset.Name
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Name
+  nameWithType: Asset.Name
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Name
+  monikers:
+  - net6.0
+  type: property
 - uid: Grunt.Models.HaloInfinite.Foundation.Asset.Order*
   commentId: Overload:Grunt.Models.HaloInfinite.Foundation.Asset.Order
   parent: Grunt.Models.HaloInfinite.Foundation.Asset
@@ -719,6 +765,14 @@ references:
   name: AssetLink
   nameWithType: Grunt.Models.HaloInfinite.AssetLink
   fullName: Grunt.Models.HaloInfinite.AssetLink
+  type: class
+- uid: Grunt.Models.HaloInfinite.AssetReport
+  commentId: T:Grunt.Models.HaloInfinite.AssetReport
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AssetReport
+  nameWithType: Grunt.Models.HaloInfinite.AssetReport
+  fullName: Grunt.Models.HaloInfinite.AssetReport
   type: class
 - uid: Grunt.Models.HaloInfinite.AssetSearchResult
   commentId: T:Grunt.Models.HaloInfinite.AssetSearchResult
