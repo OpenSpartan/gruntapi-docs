@@ -67,20 +67,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("clearance_token")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("clearance_token")]]
 
       public string ClearanceToken { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("clearance_token")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("clearance_token")]]
 
       public string ClearanceToken { get; set; }
   overload: Grunt.Models.GruntConfiguration.ClearanceToken*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get

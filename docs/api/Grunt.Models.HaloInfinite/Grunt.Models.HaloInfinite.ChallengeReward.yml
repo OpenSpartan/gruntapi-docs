@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.ChallengeReward
+  commentId: T:Grunt.Models.HaloInfinite.ChallengeReward
+  id: ChallengeReward
+  children:
+  - Grunt.Models.HaloInfinite.ChallengeReward.#ctor
+  - Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems
+  - Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience
+  langs:
+  - csharp
+  name: ChallengeReward
+  nameWithType: Grunt.Models.HaloInfinite.ChallengeReward
+  fullName: Grunt.Models.HaloInfinite.ChallengeReward
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class ChallengeReward
+    content.csharp: public class ChallengeReward
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.ChallengeReward.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.ChallengeReward.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.ChallengeReward
+  langs:
+  - csharp
+  name: ChallengeReward()
+  nameWithType: ChallengeReward.ChallengeReward()
+  fullName: Grunt.Models.HaloInfinite.ChallengeReward.ChallengeReward()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public ChallengeReward ();
+    parameters: []
+    content.csharp: public ChallengeReward ();
+  overload: Grunt.Models.HaloInfinite.ChallengeReward.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems
+  commentId: P:Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems
+  id: InventoryItems
+  parent: Grunt.Models.HaloInfinite.ChallengeReward
+  langs:
+  - csharp
+  name: InventoryItems
+  nameWithType: ChallengeReward.InventoryItems
+  fullName: Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.InventoryAmount> InventoryItems { get; set; }
+    return:
+      type: System.Collections.Generic.List{Grunt.Models.HaloInfinite.InventoryAmount}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.InventoryAmount> InventoryItems { get; set; }
+  overload: Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience
+  commentId: P:Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience
+  id: OperationExperience
+  parent: Grunt.Models.HaloInfinite.ChallengeReward
+  langs:
+  - csharp
+  name: OperationExperience
+  nameWithType: ChallengeReward.OperationExperience
+  fullName: Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int OperationExperience { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int OperationExperience { get; set; }
+  overload: Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.ChallengeReward.#ctor
+  parent: Grunt.Models.HaloInfinite.ChallengeReward
+  isExternal: false
+  name: ChallengeReward()
+  nameWithType: ChallengeReward.ChallengeReward()
+  fullName: Grunt.Models.HaloInfinite.ChallengeReward.ChallengeReward()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems
+  parent: Grunt.Models.HaloInfinite.ChallengeReward
+  isExternal: false
+  name: InventoryItems
+  nameWithType: ChallengeReward.InventoryItems
+  fullName: Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: Grunt.Models.HaloInfinite.InventoryAmount
+  name: InventoryAmount
+  nameWithType: InventoryAmount
+  fullName: Grunt.Models.HaloInfinite.InventoryAmount
+- uid: System.Collections.Generic.List{Grunt.Models.HaloInfinite.InventoryAmount}
+  parent: System.Collections.Generic
+  name: List<InventoryAmount>
+  nameWithType: List<InventoryAmount>
+  fullName: System.Collections.Generic.List<Grunt.Models.HaloInfinite.InventoryAmount>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Grunt.Models.HaloInfinite.InventoryAmount
+    name: InventoryAmount
+    nameWithType: InventoryAmount
+    fullName: Grunt.Models.HaloInfinite.InventoryAmount
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience
+  parent: Grunt.Models.HaloInfinite.ChallengeReward
+  isExternal: false
+  name: OperationExperience
+  nameWithType: ChallengeReward.OperationExperience
+  fullName: Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.ChallengeReward.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.ChallengeReward.#ctor
+  parent: Grunt.Models.HaloInfinite.ChallengeReward
+  isExternal: false
+  name: ChallengeReward
+  nameWithType: ChallengeReward.ChallengeReward
+  fullName: Grunt.Models.HaloInfinite.ChallengeReward.ChallengeReward
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems*
+  commentId: Overload:Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems
+  parent: Grunt.Models.HaloInfinite.ChallengeReward
+  isExternal: false
+  name: InventoryItems
+  nameWithType: ChallengeReward.InventoryItems
+  fullName: Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience*
+  commentId: Overload:Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience
+  parent: Grunt.Models.HaloInfinite.ChallengeReward
+  isExternal: false
+  name: OperationExperience
+  nameWithType: ChallengeReward.OperationExperience
+  fullName: Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience
+  monikers:
+  - net6.0
+  type: property

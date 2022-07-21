@@ -5,7 +5,13 @@ items:
   id: AuthoringAssetCustomData
   children:
   - Grunt.Models.HaloInfinite.AuthoringAssetCustomData.#ctor
+  - Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks
+  - Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength
+  - Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion
+  - Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded
   - Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  - Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds
+  - Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId
   langs:
   - csharp
   name: AuthoringAssetCustomData
@@ -52,6 +58,114 @@ items:
   - public
   monikers:
   - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks
+  commentId: P:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks
+  id: Chunks
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  langs:
+  - csharp
+  name: Chunks
+  nameWithType: AuthoringAssetCustomData.Chunks
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.FilmChunk> Chunks { get; set; }
+    return:
+      type: System.Collections.Generic.List{Grunt.Models.HaloInfinite.FilmChunk}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.FilmChunk> Chunks { get; set; }
+  overload: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength
+  commentId: P:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength
+  id: FilmLength
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  langs:
+  - csharp
+  name: FilmLength
+  nameWithType: AuthoringAssetCustomData.FilmLength
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int FilmLength { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int FilmLength { get; set; }
+  overload: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion
+  commentId: P:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion
+  id: FilmMajorVersion
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  langs:
+  - csharp
+  name: FilmMajorVersion
+  nameWithType: AuthoringAssetCustomData.FilmMajorVersion
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int FilmMajorVersion { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int FilmMajorVersion { get; set; }
+  overload: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded
+  commentId: P:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded
+  id: HasGameEnded
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  langs:
+  - csharp
+  name: HasGameEnded
+  nameWithType: AuthoringAssetCustomData.HasGameEnded
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool HasGameEnded { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool HasGameEnded { get; set; }
+  overload: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
 - uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
   commentId: P:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
   id: KeyValues
@@ -72,6 +186,60 @@ items:
       description: ''
     content.csharp: public System.Collections.Generic.Dictionary<string,string> KeyValues { get; set; }
   overload: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds
+  commentId: P:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds
+  id: ManifestRefreshSeconds
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  langs:
+  - csharp
+  name: ManifestRefreshSeconds
+  nameWithType: AuthoringAssetCustomData.ManifestRefreshSeconds
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ManifestRefreshSeconds { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ManifestRefreshSeconds { get; set; }
+  overload: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId
+  commentId: P:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId
+  id: MatchId
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  langs:
+  - csharp
+  name: MatchId
+  nameWithType: AuthoringAssetCustomData.MatchId
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string MatchId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string MatchId { get; set; }
+  overload: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId*
   exceptions: []
   modifiers.csharp:
   - public
@@ -100,6 +268,75 @@ references:
   nameWithType: AuthoringAssetCustomData.AuthoringAssetCustomData()
   fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.AuthoringAssetCustomData()
   type: constructor
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: Chunks
+  nameWithType: AuthoringAssetCustomData.Chunks
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: Grunt.Models.HaloInfinite.FilmChunk
+  name: FilmChunk
+  nameWithType: FilmChunk
+  fullName: Grunt.Models.HaloInfinite.FilmChunk
+- uid: System.Collections.Generic.List{Grunt.Models.HaloInfinite.FilmChunk}
+  parent: System.Collections.Generic
+  name: List<FilmChunk>
+  nameWithType: List<FilmChunk>
+  fullName: System.Collections.Generic.List<Grunt.Models.HaloInfinite.FilmChunk>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Grunt.Models.HaloInfinite.FilmChunk
+    name: FilmChunk
+    nameWithType: FilmChunk
+    fullName: Grunt.Models.HaloInfinite.FilmChunk
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: FilmLength
+  nameWithType: AuthoringAssetCustomData.FilmLength
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: FilmMajorVersion
+  nameWithType: AuthoringAssetCustomData.FilmMajorVersion
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion
+  type: property
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: HasGameEnded
+  nameWithType: AuthoringAssetCustomData.HasGameEnded
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
   parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
   isExternal: false
@@ -144,6 +381,20 @@ references:
   - name: '>'
     nameWithType: '>'
     fullName: '>'
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: ManifestRefreshSeconds
+  nameWithType: AuthoringAssetCustomData.ManifestRefreshSeconds
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds
+  type: property
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: MatchId
+  nameWithType: AuthoringAssetCustomData.MatchId
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId
+  type: property
 - uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.#ctor*
   commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.#ctor
   parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
@@ -154,6 +405,46 @@ references:
   monikers:
   - net6.0
   type: constructor
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: Chunks
+  nameWithType: AuthoringAssetCustomData.Chunks
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: FilmLength
+  nameWithType: AuthoringAssetCustomData.FilmLength
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: FilmMajorVersion
+  nameWithType: AuthoringAssetCustomData.FilmMajorVersion
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: HasGameEnded
+  nameWithType: AuthoringAssetCustomData.HasGameEnded
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded
+  monikers:
+  - net6.0
+  type: property
 - uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues*
   commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
   parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
@@ -161,6 +452,26 @@ references:
   name: KeyValues
   nameWithType: AuthoringAssetCustomData.KeyValues
   fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: ManifestRefreshSeconds
+  nameWithType: AuthoringAssetCustomData.ManifestRefreshSeconds
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId*
+  commentId: Overload:Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId
+  parent: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: MatchId
+  nameWithType: AuthoringAssetCustomData.MatchId
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId
   monikers:
   - net6.0
   type: property

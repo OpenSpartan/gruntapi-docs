@@ -96,20 +96,20 @@ items:
   namespace: Grunt.Models.HaloInfinite
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("schema_version")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("schema_version")]]
 
       public int SchemaVersion { get; set; }
     return:
       type: System.Int32
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("schema_version")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("schema_version")]]
 
       public int SchemaVersion { get; set; }
   overload: Grunt.Models.HaloInfinite.OverrideQueryDefinition.SchemaVersion*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get

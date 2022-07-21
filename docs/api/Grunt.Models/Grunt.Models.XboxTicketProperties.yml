@@ -72,20 +72,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+      [[System.Text.Json.Serialization.JsonIgnore(Condition=System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]]
 
       public string AuthMethod { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+      [[System.Text.Json.Serialization.JsonIgnore(Condition=System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]]
 
       public string AuthMethod { get; set; }
   overload: Grunt.Models.XboxTicketProperties.AuthMethod*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonIgnoreAttribute'
   modifiers.csharp:
   - public
   - get
@@ -107,20 +107,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+      [[System.Text.Json.Serialization.JsonIgnore(Condition=System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]]
 
       public string RpsTicket { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+      [[System.Text.Json.Serialization.JsonIgnore(Condition=System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]]
 
       public string RpsTicket { get; set; }
   overload: Grunt.Models.XboxTicketProperties.RpsTicket*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonIgnoreAttribute'
   modifiers.csharp:
   - public
   - get
@@ -142,20 +142,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+      [[System.Text.Json.Serialization.JsonIgnore(Condition=System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]]
 
       public string SandboxId { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+      [[System.Text.Json.Serialization.JsonIgnore(Condition=System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]]
 
       public string SandboxId { get; set; }
   overload: Grunt.Models.XboxTicketProperties.SandboxId*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonIgnoreAttribute'
   modifiers.csharp:
   - public
   - get
@@ -177,20 +177,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+      [[System.Text.Json.Serialization.JsonIgnore(Condition=System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]]
 
       public string SiteName { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+      [[System.Text.Json.Serialization.JsonIgnore(Condition=System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]]
 
       public string SiteName { get; set; }
   overload: Grunt.Models.XboxTicketProperties.SiteName*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonIgnoreAttribute'
   modifiers.csharp:
   - public
   - get
@@ -212,20 +212,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+      [[System.Text.Json.Serialization.JsonIgnore(Condition=System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]]
 
       public bool? UseModernGamertag { get; set; }
     return:
       type: System.Nullable{System.Boolean}
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+      [[System.Text.Json.Serialization.JsonIgnore(Condition=System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]]
 
       public bool? UseModernGamertag { get; set; }
   overload: Grunt.Models.XboxTicketProperties.UseModernGamertag*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonIgnoreAttribute'
   modifiers.csharp:
   - public
   - get
@@ -247,20 +247,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+      [[System.Text.Json.Serialization.JsonIgnore(Condition=System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]]
 
       public string[] UserTokens { get; set; }
     return:
       type: System.String[]
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)]]
+      [[System.Text.Json.Serialization.JsonIgnore(Condition=System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]]
 
       public string[] UserTokens { get; set; }
   overload: Grunt.Models.XboxTicketProperties.UserTokens*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonIgnoreAttribute'
   modifiers.csharp:
   - public
   - get

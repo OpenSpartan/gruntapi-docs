@@ -67,20 +67,20 @@ items:
   namespace: Grunt.Models.HaloInfinite
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("m_identifier")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("m_identifier")]]
 
       public int MIdentifier { get; set; }
     return:
       type: System.Int32
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("m_identifier")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("m_identifier")]]
 
       public int MIdentifier { get; set; }
   overload: Grunt.Models.HaloInfinite.IdentifierName.MIdentifier*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get

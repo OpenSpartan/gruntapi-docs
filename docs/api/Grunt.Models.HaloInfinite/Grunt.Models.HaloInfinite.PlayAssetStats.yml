@@ -73,11 +73,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public float AverageRating { get; set; }
+    content: public float? AverageRating { get; set; }
     return:
-      type: System.Single
+      type: System.Nullable{System.Single}
       description: ''
-    content.csharp: public float AverageRating { get; set; }
+    content.csharp: public float? AverageRating { get; set; }
   overload: Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating*
   exceptions: []
   modifiers.csharp:
@@ -100,11 +100,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public int Bookmarks { get; set; }
+    content: public int? Bookmarks { get; set; }
     return:
-      type: System.Int32
+      type: System.Nullable{System.Int32}
       description: ''
-    content.csharp: public int Bookmarks { get; set; }
+    content.csharp: public int? Bookmarks { get; set; }
   overload: Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks*
   exceptions: []
   modifiers.csharp:
@@ -127,11 +127,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public int Favorites { get; set; }
+    content: public int? Favorites { get; set; }
     return:
-      type: System.Int32
+      type: System.Nullable{System.Int32}
       description: ''
-    content.csharp: public int Favorites { get; set; }
+    content.csharp: public int? Favorites { get; set; }
   overload: Grunt.Models.HaloInfinite.PlayAssetStats.Favorites*
   exceptions: []
   modifiers.csharp:
@@ -154,11 +154,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public int Likes { get; set; }
+    content: public int? Likes { get; set; }
     return:
-      type: System.Int32
+      type: System.Nullable{System.Int32}
       description: ''
-    content.csharp: public int Likes { get; set; }
+    content.csharp: public int? Likes { get; set; }
   overload: Grunt.Models.HaloInfinite.PlayAssetStats.Likes*
   exceptions: []
   modifiers.csharp:
@@ -181,11 +181,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public int NumberOfRatings { get; set; }
+    content: public int? NumberOfRatings { get; set; }
     return:
-      type: System.Int32
+      type: System.Nullable{System.Int32}
       description: ''
-    content.csharp: public int NumberOfRatings { get; set; }
+    content.csharp: public int? NumberOfRatings { get; set; }
   overload: Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings*
   exceptions: []
   modifiers.csharp:
@@ -208,11 +208,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public int ParentAssetCount { get; set; }
+    content: public int? ParentAssetCount { get; set; }
     return:
-      type: System.Int32
+      type: System.Nullable{System.Int32}
       description: ''
-    content.csharp: public int ParentAssetCount { get; set; }
+    content.csharp: public int? ParentAssetCount { get; set; }
   overload: Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount*
   exceptions: []
   modifiers.csharp:
@@ -235,11 +235,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public int PlaysAllTime { get; set; }
+    content: public int? PlaysAllTime { get; set; }
     return:
-      type: System.Int32
+      type: System.Nullable{System.Int32}
       description: ''
-    content.csharp: public int PlaysAllTime { get; set; }
+    content.csharp: public int? PlaysAllTime { get; set; }
   overload: Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime*
   exceptions: []
   modifiers.csharp:
@@ -262,11 +262,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public int PlaysRecent { get; set; }
+    content: public int? PlaysRecent { get; set; }
     return:
-      type: System.Int32
+      type: System.Nullable{System.Int32}
       description: ''
-    content.csharp: public int PlaysRecent { get; set; }
+    content.csharp: public int? PlaysRecent { get; set; }
   overload: Grunt.Models.HaloInfinite.PlayAssetStats.PlaysRecent*
   exceptions: []
   modifiers.csharp:
@@ -303,12 +303,36 @@ references:
   nameWithType: PlayAssetStats.AverageRating
   fullName: Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
   type: property
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable
+  nameWithType: Nullable
+  fullName: System.Nullable
 - uid: System.Single
-  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
   fullName: System.Single
+- uid: System.Nullable{System.Single}
+  parent: System
+  name: Nullable<Single>
+  nameWithType: Nullable<Single>
+  fullName: System.Nullable<System.Single>
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
   parent: Grunt.Models.HaloInfinite.PlayAssetStats
   isExternal: false
@@ -317,11 +341,30 @@ references:
   fullName: Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
   type: property
 - uid: System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Nullable{System.Int32}
+  parent: System
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
   parent: Grunt.Models.HaloInfinite.PlayAssetStats
   isExternal: false

@@ -28,16 +28,20 @@ items:
   - Grunt.Models.HaloInfinite.ArmorCoreTheme
   - Grunt.Models.HaloInfinite.ArticleAction
   - Grunt.Models.HaloInfinite.Articleimage
+  - Grunt.Models.HaloInfinite.AssetAuthoringSession
   - Grunt.Models.HaloInfinite.AssetKeyValues
   - Grunt.Models.HaloInfinite.AssetLink
   - Grunt.Models.HaloInfinite.AssetPermission
   - Grunt.Models.HaloInfinite.AssetRating
+  - Grunt.Models.HaloInfinite.AssetSearchResult
+  - Grunt.Models.HaloInfinite.AssetTag
   - Grunt.Models.HaloInfinite.AssetVersionFile
   - Grunt.Models.HaloInfinite.AssignedDeck
   - Grunt.Models.HaloInfinite.AsyncComputeOverrides
   - Grunt.Models.HaloInfinite.AuthoringAsset
   - Grunt.Models.HaloInfinite.AuthoringAssetContainer
   - Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  - Grunt.Models.HaloInfinite.AuthoringAssetLinks
   - Grunt.Models.HaloInfinite.AuthoringAssetRating
   - Grunt.Models.HaloInfinite.AuthoringAssetRatingCustomData
   - Grunt.Models.HaloInfinite.AuthoringAssetRatings
@@ -45,13 +49,17 @@ items:
   - Grunt.Models.HaloInfinite.AuthoringAssetVersion
   - Grunt.Models.HaloInfinite.AuthoringAssetVersionContainer
   - Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  - Grunt.Models.HaloInfinite.AuthoringSessionSourceStarter
+  - Grunt.Models.HaloInfinite.AuthoringSessionStarter
   - Grunt.Models.HaloInfinite.AwardedReward
   - Grunt.Models.HaloInfinite.BanResult
   - Grunt.Models.HaloInfinite.BanSummary
   - Grunt.Models.HaloInfinite.BanSummaryResult
   - Grunt.Models.HaloInfinite.BotCustomizationData
+  - Grunt.Models.HaloInfinite.Challenge
   - Grunt.Models.HaloInfinite.ChallengeDeckDefinition
   - Grunt.Models.HaloInfinite.ChallengeProgressState
+  - Grunt.Models.HaloInfinite.ChallengeReward
   - Grunt.Models.HaloInfinite.ClawAccessSnapshot
   - Grunt.Models.HaloInfinite.CommonItemData
   - Grunt.Models.HaloInfinite.CompletedChallenge
@@ -68,7 +76,6 @@ items:
   - Grunt.Models.HaloInfinite.CustomFilmData
   - Grunt.Models.HaloInfinite.CustomGameDefinition
   - Grunt.Models.HaloInfinite.CustomizationData
-  - Grunt.Models.HaloInfinite.CustomManifestData
   - Grunt.Models.HaloInfinite.CustomMapData
   - Grunt.Models.HaloInfinite.CustomProjectData
   - Grunt.Models.HaloInfinite.DevicePresetOverrides
@@ -78,6 +85,7 @@ items:
   - Grunt.Models.HaloInfinite.DriverManifest
   - Grunt.Models.HaloInfinite.Emblem
   - Grunt.Models.HaloInfinite.EngineGameVariant
+  - Grunt.Models.HaloInfinite.EngineGameVariantCustomData
   - Grunt.Models.HaloInfinite.FavoriteAsset
   - Grunt.Models.HaloInfinite.File
   - Grunt.Models.HaloInfinite.Film
@@ -104,7 +112,9 @@ items:
   - Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
   - Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList
   - Grunt.Models.HaloInfinite.LobbyJoinHandle
+  - Grunt.Models.HaloInfinite.LocalizedDataContainer
   - Grunt.Models.HaloInfinite.Manifest
+  - Grunt.Models.HaloInfinite.ManifestCustomData
   - Grunt.Models.HaloInfinite.Manufacturer
   - Grunt.Models.HaloInfinite.Map
   - Grunt.Models.HaloInfinite.MapModePair
@@ -150,9 +160,20 @@ items:
   - Grunt.Models.HaloInfinite.PlayerItem
   - Grunt.Models.HaloInfinite.PlayerMatchCount
   - Grunt.Models.HaloInfinite.PlayerSkillResult
-  - Grunt.Models.HaloInfinite.PlayerSkillResultValue
+  - Grunt.Models.HaloInfinite.PlayerSkillResultContainer
   - Grunt.Models.HaloInfinite.PlayerState
   - Grunt.Models.HaloInfinite.PlayerTeamStat
+  - Grunt.Models.HaloInfinite.Playlist
+  - Grunt.Models.HaloInfinite.PlaylistCsr
+  - Grunt.Models.HaloInfinite.PlaylistCsrContainer
+  - Grunt.Models.HaloInfinite.PlaylistCsrResultContainer
+  - Grunt.Models.HaloInfinite.PlaylistCsrResults
+  - Grunt.Models.HaloInfinite.PlaylistCustomData
+  - Grunt.Models.HaloInfinite.PlaylistEntry
+  - Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata
+  - Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  - Grunt.Models.HaloInfinite.Prefab
+  - Grunt.Models.HaloInfinite.PrefabCustomData
   - Grunt.Models.HaloInfinite.Price
   - Grunt.Models.HaloInfinite.Project
   - Grunt.Models.HaloInfinite.Query
@@ -165,6 +186,8 @@ items:
   - Grunt.Models.HaloInfinite.RewardTrack
   - Grunt.Models.HaloInfinite.RewardTrackMetadata
   - Grunt.Models.HaloInfinite.RewardTrackProgress
+  - Grunt.Models.HaloInfinite.SearchAssetTag
+  - Grunt.Models.HaloInfinite.SearchResultsContainer
   - Grunt.Models.HaloInfinite.SeasonRewardTrack
   - Grunt.Models.HaloInfinite.Server
   - Grunt.Models.HaloInfinite.SkillResult
@@ -177,7 +200,7 @@ items:
   - Grunt.Models.HaloInfinite.StoreItem
   - Grunt.Models.HaloInfinite.StoreProduct
   - Grunt.Models.HaloInfinite.StoreProductMapping
-  - Grunt.Models.HaloInfinite.Tag
+  - Grunt.Models.HaloInfinite.SubsetDataContainer
   - Grunt.Models.HaloInfinite.TagInfo
   - Grunt.Models.HaloInfinite.TargetAsset
   - Grunt.Models.HaloInfinite.Team
@@ -398,6 +421,14 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.Articleimage
   fullName: Grunt.Models.HaloInfinite.Articleimage
   type: class
+- uid: Grunt.Models.HaloInfinite.AssetAuthoringSession
+  commentId: T:Grunt.Models.HaloInfinite.AssetAuthoringSession
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AssetAuthoringSession
+  nameWithType: Grunt.Models.HaloInfinite.AssetAuthoringSession
+  fullName: Grunt.Models.HaloInfinite.AssetAuthoringSession
+  type: class
 - uid: Grunt.Models.HaloInfinite.AssetKeyValues
   commentId: T:Grunt.Models.HaloInfinite.AssetKeyValues
   parent: Grunt.Models.HaloInfinite
@@ -429,6 +460,22 @@ references:
   name: AssetRating
   nameWithType: Grunt.Models.HaloInfinite.AssetRating
   fullName: Grunt.Models.HaloInfinite.AssetRating
+  type: class
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult
+  commentId: T:Grunt.Models.HaloInfinite.AssetSearchResult
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AssetSearchResult
+  nameWithType: Grunt.Models.HaloInfinite.AssetSearchResult
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult
+  type: class
+- uid: Grunt.Models.HaloInfinite.AssetTag
+  commentId: T:Grunt.Models.HaloInfinite.AssetTag
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AssetTag
+  nameWithType: Grunt.Models.HaloInfinite.AssetTag
+  fullName: Grunt.Models.HaloInfinite.AssetTag
   type: class
 - uid: Grunt.Models.HaloInfinite.AssetVersionFile
   commentId: T:Grunt.Models.HaloInfinite.AssetVersionFile
@@ -477,6 +524,14 @@ references:
   name: AuthoringAssetCustomData
   nameWithType: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
   fullName: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  type: class
+- uid: Grunt.Models.HaloInfinite.AuthoringAssetLinks
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringAssetLinks
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringAssetLinks
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringAssetLinks
+  fullName: Grunt.Models.HaloInfinite.AuthoringAssetLinks
   type: class
 - uid: Grunt.Models.HaloInfinite.AuthoringAssetRating
   commentId: T:Grunt.Models.HaloInfinite.AuthoringAssetRating
@@ -534,6 +589,22 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
   fullName: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
   type: class
+- uid: Grunt.Models.HaloInfinite.AuthoringSessionSourceStarter
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringSessionSourceStarter
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringSessionSourceStarter
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringSessionSourceStarter
+  fullName: Grunt.Models.HaloInfinite.AuthoringSessionSourceStarter
+  type: class
+- uid: Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  commentId: T:Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringSessionStarter
+  nameWithType: Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  fullName: Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  type: class
 - uid: Grunt.Models.HaloInfinite.AwardedReward
   commentId: T:Grunt.Models.HaloInfinite.AwardedReward
   parent: Grunt.Models.HaloInfinite
@@ -574,6 +645,14 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.BotCustomizationData
   fullName: Grunt.Models.HaloInfinite.BotCustomizationData
   type: class
+- uid: Grunt.Models.HaloInfinite.Challenge
+  commentId: T:Grunt.Models.HaloInfinite.Challenge
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Challenge
+  nameWithType: Grunt.Models.HaloInfinite.Challenge
+  fullName: Grunt.Models.HaloInfinite.Challenge
+  type: class
 - uid: Grunt.Models.HaloInfinite.ChallengeDeckDefinition
   commentId: T:Grunt.Models.HaloInfinite.ChallengeDeckDefinition
   parent: Grunt.Models.HaloInfinite
@@ -589,6 +668,14 @@ references:
   name: ChallengeProgressState
   nameWithType: Grunt.Models.HaloInfinite.ChallengeProgressState
   fullName: Grunt.Models.HaloInfinite.ChallengeProgressState
+  type: class
+- uid: Grunt.Models.HaloInfinite.ChallengeReward
+  commentId: T:Grunt.Models.HaloInfinite.ChallengeReward
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: ChallengeReward
+  nameWithType: Grunt.Models.HaloInfinite.ChallengeReward
+  fullName: Grunt.Models.HaloInfinite.ChallengeReward
   type: class
 - uid: Grunt.Models.HaloInfinite.ClawAccessSnapshot
   commentId: T:Grunt.Models.HaloInfinite.ClawAccessSnapshot
@@ -718,14 +805,6 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.CustomizationData
   fullName: Grunt.Models.HaloInfinite.CustomizationData
   type: class
-- uid: Grunt.Models.HaloInfinite.CustomManifestData
-  commentId: T:Grunt.Models.HaloInfinite.CustomManifestData
-  parent: Grunt.Models.HaloInfinite
-  isExternal: false
-  name: CustomManifestData
-  nameWithType: Grunt.Models.HaloInfinite.CustomManifestData
-  fullName: Grunt.Models.HaloInfinite.CustomManifestData
-  type: class
 - uid: Grunt.Models.HaloInfinite.CustomMapData
   commentId: T:Grunt.Models.HaloInfinite.CustomMapData
   parent: Grunt.Models.HaloInfinite
@@ -797,6 +876,14 @@ references:
   name: EngineGameVariant
   nameWithType: Grunt.Models.HaloInfinite.EngineGameVariant
   fullName: Grunt.Models.HaloInfinite.EngineGameVariant
+  type: class
+- uid: Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  commentId: T:Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: EngineGameVariantCustomData
+  nameWithType: Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  fullName: Grunt.Models.HaloInfinite.EngineGameVariantCustomData
   type: class
 - uid: Grunt.Models.HaloInfinite.FavoriteAsset
   commentId: T:Grunt.Models.HaloInfinite.FavoriteAsset
@@ -1006,6 +1093,14 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.LobbyJoinHandle
   fullName: Grunt.Models.HaloInfinite.LobbyJoinHandle
   type: class
+- uid: Grunt.Models.HaloInfinite.LocalizedDataContainer
+  commentId: T:Grunt.Models.HaloInfinite.LocalizedDataContainer
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: LocalizedDataContainer
+  nameWithType: Grunt.Models.HaloInfinite.LocalizedDataContainer
+  fullName: Grunt.Models.HaloInfinite.LocalizedDataContainer
+  type: class
 - uid: Grunt.Models.HaloInfinite.Manifest
   commentId: T:Grunt.Models.HaloInfinite.Manifest
   parent: Grunt.Models.HaloInfinite
@@ -1013,6 +1108,14 @@ references:
   name: Manifest
   nameWithType: Grunt.Models.HaloInfinite.Manifest
   fullName: Grunt.Models.HaloInfinite.Manifest
+  type: class
+- uid: Grunt.Models.HaloInfinite.ManifestCustomData
+  commentId: T:Grunt.Models.HaloInfinite.ManifestCustomData
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: ManifestCustomData
+  nameWithType: Grunt.Models.HaloInfinite.ManifestCustomData
+  fullName: Grunt.Models.HaloInfinite.ManifestCustomData
   type: class
 - uid: Grunt.Models.HaloInfinite.Manufacturer
   commentId: T:Grunt.Models.HaloInfinite.Manufacturer
@@ -1374,13 +1477,13 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.PlayerSkillResult
   fullName: Grunt.Models.HaloInfinite.PlayerSkillResult
   type: class
-- uid: Grunt.Models.HaloInfinite.PlayerSkillResultValue
-  commentId: T:Grunt.Models.HaloInfinite.PlayerSkillResultValue
+- uid: Grunt.Models.HaloInfinite.PlayerSkillResultContainer
+  commentId: T:Grunt.Models.HaloInfinite.PlayerSkillResultContainer
   parent: Grunt.Models.HaloInfinite
   isExternal: false
-  name: PlayerSkillResultValue
-  nameWithType: Grunt.Models.HaloInfinite.PlayerSkillResultValue
-  fullName: Grunt.Models.HaloInfinite.PlayerSkillResultValue
+  name: PlayerSkillResultContainer
+  nameWithType: Grunt.Models.HaloInfinite.PlayerSkillResultContainer
+  fullName: Grunt.Models.HaloInfinite.PlayerSkillResultContainer
   type: class
 - uid: Grunt.Models.HaloInfinite.PlayerState
   commentId: T:Grunt.Models.HaloInfinite.PlayerState
@@ -1397,6 +1500,94 @@ references:
   name: PlayerTeamStat
   nameWithType: Grunt.Models.HaloInfinite.PlayerTeamStat
   fullName: Grunt.Models.HaloInfinite.PlayerTeamStat
+  type: class
+- uid: Grunt.Models.HaloInfinite.Playlist
+  commentId: T:Grunt.Models.HaloInfinite.Playlist
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Playlist
+  nameWithType: Grunt.Models.HaloInfinite.Playlist
+  fullName: Grunt.Models.HaloInfinite.Playlist
+  type: class
+- uid: Grunt.Models.HaloInfinite.PlaylistCsr
+  commentId: T:Grunt.Models.HaloInfinite.PlaylistCsr
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistCsr
+  nameWithType: Grunt.Models.HaloInfinite.PlaylistCsr
+  fullName: Grunt.Models.HaloInfinite.PlaylistCsr
+  type: class
+- uid: Grunt.Models.HaloInfinite.PlaylistCsrContainer
+  commentId: T:Grunt.Models.HaloInfinite.PlaylistCsrContainer
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistCsrContainer
+  nameWithType: Grunt.Models.HaloInfinite.PlaylistCsrContainer
+  fullName: Grunt.Models.HaloInfinite.PlaylistCsrContainer
+  type: class
+- uid: Grunt.Models.HaloInfinite.PlaylistCsrResultContainer
+  commentId: T:Grunt.Models.HaloInfinite.PlaylistCsrResultContainer
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistCsrResultContainer
+  nameWithType: Grunt.Models.HaloInfinite.PlaylistCsrResultContainer
+  fullName: Grunt.Models.HaloInfinite.PlaylistCsrResultContainer
+  type: class
+- uid: Grunt.Models.HaloInfinite.PlaylistCsrResults
+  commentId: T:Grunt.Models.HaloInfinite.PlaylistCsrResults
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistCsrResults
+  nameWithType: Grunt.Models.HaloInfinite.PlaylistCsrResults
+  fullName: Grunt.Models.HaloInfinite.PlaylistCsrResults
+  type: class
+- uid: Grunt.Models.HaloInfinite.PlaylistCustomData
+  commentId: T:Grunt.Models.HaloInfinite.PlaylistCustomData
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistCustomData
+  nameWithType: Grunt.Models.HaloInfinite.PlaylistCustomData
+  fullName: Grunt.Models.HaloInfinite.PlaylistCustomData
+  type: class
+- uid: Grunt.Models.HaloInfinite.PlaylistEntry
+  commentId: T:Grunt.Models.HaloInfinite.PlaylistEntry
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistEntry
+  nameWithType: Grunt.Models.HaloInfinite.PlaylistEntry
+  fullName: Grunt.Models.HaloInfinite.PlaylistEntry
+  type: class
+- uid: Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata
+  commentId: T:Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistMapModePairMetadata
+  nameWithType: Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata
+  fullName: Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata
+  type: class
+- uid: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  commentId: T:Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistRotationEntry
+  nameWithType: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  fullName: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  type: class
+- uid: Grunt.Models.HaloInfinite.Prefab
+  commentId: T:Grunt.Models.HaloInfinite.Prefab
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Prefab
+  nameWithType: Grunt.Models.HaloInfinite.Prefab
+  fullName: Grunt.Models.HaloInfinite.Prefab
+  type: class
+- uid: Grunt.Models.HaloInfinite.PrefabCustomData
+  commentId: T:Grunt.Models.HaloInfinite.PrefabCustomData
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PrefabCustomData
+  nameWithType: Grunt.Models.HaloInfinite.PrefabCustomData
+  fullName: Grunt.Models.HaloInfinite.PrefabCustomData
   type: class
 - uid: Grunt.Models.HaloInfinite.Price
   commentId: T:Grunt.Models.HaloInfinite.Price
@@ -1494,6 +1685,22 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.RewardTrackProgress
   fullName: Grunt.Models.HaloInfinite.RewardTrackProgress
   type: class
+- uid: Grunt.Models.HaloInfinite.SearchAssetTag
+  commentId: T:Grunt.Models.HaloInfinite.SearchAssetTag
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: SearchAssetTag
+  nameWithType: Grunt.Models.HaloInfinite.SearchAssetTag
+  fullName: Grunt.Models.HaloInfinite.SearchAssetTag
+  type: class
+- uid: Grunt.Models.HaloInfinite.SearchResultsContainer
+  commentId: T:Grunt.Models.HaloInfinite.SearchResultsContainer
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: SearchResultsContainer
+  nameWithType: Grunt.Models.HaloInfinite.SearchResultsContainer
+  fullName: Grunt.Models.HaloInfinite.SearchResultsContainer
+  type: class
 - uid: Grunt.Models.HaloInfinite.SeasonRewardTrack
   commentId: T:Grunt.Models.HaloInfinite.SeasonRewardTrack
   parent: Grunt.Models.HaloInfinite
@@ -1590,13 +1797,13 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.StoreProductMapping
   fullName: Grunt.Models.HaloInfinite.StoreProductMapping
   type: class
-- uid: Grunt.Models.HaloInfinite.Tag
-  commentId: T:Grunt.Models.HaloInfinite.Tag
+- uid: Grunt.Models.HaloInfinite.SubsetDataContainer
+  commentId: T:Grunt.Models.HaloInfinite.SubsetDataContainer
   parent: Grunt.Models.HaloInfinite
   isExternal: false
-  name: Tag
-  nameWithType: Grunt.Models.HaloInfinite.Tag
-  fullName: Grunt.Models.HaloInfinite.Tag
+  name: SubsetDataContainer
+  nameWithType: Grunt.Models.HaloInfinite.SubsetDataContainer
+  fullName: Grunt.Models.HaloInfinite.SubsetDataContainer
   type: class
 - uid: Grunt.Models.HaloInfinite.TagInfo
   commentId: T:Grunt.Models.HaloInfinite.TagInfo

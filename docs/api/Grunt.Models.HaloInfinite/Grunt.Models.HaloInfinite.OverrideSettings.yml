@@ -67,20 +67,20 @@ items:
   namespace: Grunt.Models.HaloInfinite
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("spec_control_async_compute")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("spec_control_async_compute")]]
 
       public bool SpecControlAsyncCompute { get; set; }
     return:
       type: System.Boolean
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("spec_control_async_compute")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("spec_control_async_compute")]]
 
       public bool SpecControlAsyncCompute { get; set; }
   overload: Grunt.Models.HaloInfinite.OverrideSettings.SpecControlAsyncCompute*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get

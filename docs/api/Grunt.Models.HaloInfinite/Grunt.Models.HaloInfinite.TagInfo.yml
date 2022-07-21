@@ -66,11 +66,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public Grunt.Models.HaloInfinite.Tag[] CannedTags { get; set; }
+    content: public Grunt.Models.HaloInfinite.AssetTag[] CannedTags { get; set; }
     return:
-      type: Grunt.Models.HaloInfinite.Tag[]
+      type: Grunt.Models.HaloInfinite.AssetTag[]
       description: ''
-    content.csharp: public Grunt.Models.HaloInfinite.Tag[] CannedTags { get; set; }
+    content.csharp: public Grunt.Models.HaloInfinite.AssetTag[] CannedTags { get; set; }
   overload: Grunt.Models.HaloInfinite.TagInfo.CannedTags*
   exceptions: []
   modifiers.csharp:
@@ -107,20 +107,20 @@ references:
   nameWithType: TagInfo.CannedTags
   fullName: Grunt.Models.HaloInfinite.TagInfo.CannedTags
   type: property
-- uid: Grunt.Models.HaloInfinite.Tag
-  name: Tag
-  nameWithType: Tag
-  fullName: Grunt.Models.HaloInfinite.Tag
-- uid: Grunt.Models.HaloInfinite.Tag[]
+- uid: Grunt.Models.HaloInfinite.AssetTag
+  name: AssetTag
+  nameWithType: AssetTag
+  fullName: Grunt.Models.HaloInfinite.AssetTag
+- uid: Grunt.Models.HaloInfinite.AssetTag[]
   parent: Grunt.Models.HaloInfinite
-  name: Tag[]
-  nameWithType: Tag[]
-  fullName: Grunt.Models.HaloInfinite.Tag[]
+  name: AssetTag[]
+  nameWithType: AssetTag[]
+  fullName: Grunt.Models.HaloInfinite.AssetTag[]
   spec.csharp:
-  - uid: Grunt.Models.HaloInfinite.Tag
-    name: Tag
-    nameWithType: Tag
-    fullName: Grunt.Models.HaloInfinite.Tag
+  - uid: Grunt.Models.HaloInfinite.AssetTag
+    name: AssetTag
+    nameWithType: AssetTag
+    fullName: Grunt.Models.HaloInfinite.AssetTag
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'

@@ -72,20 +72,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("access_token")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("access_token")]]
 
       public string AccessToken { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("access_token")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("access_token")]]
 
       public string AccessToken { get; set; }
   overload: Grunt.Models.OAuthToken.AccessToken*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get
@@ -107,20 +107,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("expires_in")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("expires_in")]]
 
       public int ExpiresIn { get; set; }
     return:
       type: System.Int32
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("expires_in")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("expires_in")]]
 
       public int ExpiresIn { get; set; }
   overload: Grunt.Models.OAuthToken.ExpiresIn*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get
@@ -142,20 +142,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("refresh_token")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("refresh_token")]]
 
       public string RefreshToken { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("refresh_token")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("refresh_token")]]
 
       public string RefreshToken { get; set; }
   overload: Grunt.Models.OAuthToken.RefreshToken*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get
@@ -177,20 +177,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("scope")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("scope")]]
 
       public string Scope { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("scope")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("scope")]]
 
       public string Scope { get; set; }
   overload: Grunt.Models.OAuthToken.Scope*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get
@@ -212,20 +212,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("token_type")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("token_type")]]
 
       public string TokenType { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("token_type")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("token_type")]]
 
       public string TokenType { get; set; }
   overload: Grunt.Models.OAuthToken.TokenType*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get
@@ -247,20 +247,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("user_id")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("user_id")]]
 
       public string UserId { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("user_id")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("user_id")]]
 
       public string UserId { get; set; }
   overload: Grunt.Models.OAuthToken.UserId*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get

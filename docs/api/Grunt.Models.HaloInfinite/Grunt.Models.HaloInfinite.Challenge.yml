@@ -1,0 +1,378 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.Challenge
+  commentId: T:Grunt.Models.HaloInfinite.Challenge
+  id: Challenge
+  children:
+  - Grunt.Models.HaloInfinite.Challenge.#ctor
+  - Grunt.Models.HaloInfinite.Challenge.Category
+  - Grunt.Models.HaloInfinite.Challenge.Description
+  - Grunt.Models.HaloInfinite.Challenge.Difficulty
+  - Grunt.Models.HaloInfinite.Challenge.Reward
+  - Grunt.Models.HaloInfinite.Challenge.ThresholdForSuccess
+  - Grunt.Models.HaloInfinite.Challenge.Title
+  langs:
+  - csharp
+  name: Challenge
+  nameWithType: Grunt.Models.HaloInfinite.Challenge
+  fullName: Grunt.Models.HaloInfinite.Challenge
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class Challenge
+    content.csharp: public class Challenge
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.Challenge.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.Challenge.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.Challenge
+  langs:
+  - csharp
+  name: Challenge()
+  nameWithType: Challenge.Challenge()
+  fullName: Grunt.Models.HaloInfinite.Challenge.Challenge()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Challenge ();
+    parameters: []
+    content.csharp: public Challenge ();
+  overload: Grunt.Models.HaloInfinite.Challenge.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Challenge.Category
+  commentId: P:Grunt.Models.HaloInfinite.Challenge.Category
+  id: Category
+  parent: Grunt.Models.HaloInfinite.Challenge
+  langs:
+  - csharp
+  name: Category
+  nameWithType: Challenge.Category
+  fullName: Grunt.Models.HaloInfinite.Challenge.Category
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Category { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Category { get; set; }
+  overload: Grunt.Models.HaloInfinite.Challenge.Category*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Challenge.Description
+  commentId: P:Grunt.Models.HaloInfinite.Challenge.Description
+  id: Description
+  parent: Grunt.Models.HaloInfinite.Challenge
+  langs:
+  - csharp
+  name: Description
+  nameWithType: Challenge.Description
+  fullName: Grunt.Models.HaloInfinite.Challenge.Description
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.DisplayString Description { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.DisplayString Description { get; set; }
+  overload: Grunt.Models.HaloInfinite.Challenge.Description*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Challenge.Difficulty
+  commentId: P:Grunt.Models.HaloInfinite.Challenge.Difficulty
+  id: Difficulty
+  parent: Grunt.Models.HaloInfinite.Challenge
+  langs:
+  - csharp
+  name: Difficulty
+  nameWithType: Challenge.Difficulty
+  fullName: Grunt.Models.HaloInfinite.Challenge.Difficulty
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Difficulty { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Difficulty { get; set; }
+  overload: Grunt.Models.HaloInfinite.Challenge.Difficulty*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Challenge.Reward
+  commentId: P:Grunt.Models.HaloInfinite.Challenge.Reward
+  id: Reward
+  parent: Grunt.Models.HaloInfinite.Challenge
+  langs:
+  - csharp
+  name: Reward
+  nameWithType: Challenge.Reward
+  fullName: Grunt.Models.HaloInfinite.Challenge.Reward
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.Reward Reward { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.Reward
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.Reward Reward { get; set; }
+  overload: Grunt.Models.HaloInfinite.Challenge.Reward*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Challenge.ThresholdForSuccess
+  commentId: P:Grunt.Models.HaloInfinite.Challenge.ThresholdForSuccess
+  id: ThresholdForSuccess
+  parent: Grunt.Models.HaloInfinite.Challenge
+  langs:
+  - csharp
+  name: ThresholdForSuccess
+  nameWithType: Challenge.ThresholdForSuccess
+  fullName: Grunt.Models.HaloInfinite.Challenge.ThresholdForSuccess
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ThresholdForSuccess { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ThresholdForSuccess { get; set; }
+  overload: Grunt.Models.HaloInfinite.Challenge.ThresholdForSuccess*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.Challenge.Title
+  commentId: P:Grunt.Models.HaloInfinite.Challenge.Title
+  id: Title
+  parent: Grunt.Models.HaloInfinite.Challenge
+  langs:
+  - csharp
+  name: Title
+  nameWithType: Challenge.Title
+  fullName: Grunt.Models.HaloInfinite.Challenge.Title
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.DisplayString Title { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.DisplayString Title { get; set; }
+  overload: Grunt.Models.HaloInfinite.Challenge.Title*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.Challenge.#ctor
+  parent: Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Challenge()
+  nameWithType: Challenge.Challenge()
+  fullName: Grunt.Models.HaloInfinite.Challenge.Challenge()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.Challenge.Category
+  parent: Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Category
+  nameWithType: Challenge.Category
+  fullName: Grunt.Models.HaloInfinite.Challenge.Category
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Grunt.Models.HaloInfinite.Challenge.Description
+  parent: Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Description
+  nameWithType: Challenge.Description
+  fullName: Grunt.Models.HaloInfinite.Challenge.Description
+  type: property
+- uid: Grunt.Models.HaloInfinite.DisplayString
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: DisplayString
+  nameWithType: DisplayString
+  fullName: Grunt.Models.HaloInfinite.DisplayString
+- uid: Grunt.Models.HaloInfinite.Challenge.Difficulty
+  parent: Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Difficulty
+  nameWithType: Challenge.Difficulty
+  fullName: Grunt.Models.HaloInfinite.Challenge.Difficulty
+  type: property
+- uid: Grunt.Models.HaloInfinite.Challenge.Reward
+  parent: Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Reward
+  nameWithType: Challenge.Reward
+  fullName: Grunt.Models.HaloInfinite.Challenge.Reward
+  type: property
+- uid: Grunt.Models.HaloInfinite.Reward
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Reward
+  nameWithType: Reward
+  fullName: Grunt.Models.HaloInfinite.Reward
+- uid: Grunt.Models.HaloInfinite.Challenge.ThresholdForSuccess
+  parent: Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: ThresholdForSuccess
+  nameWithType: Challenge.ThresholdForSuccess
+  fullName: Grunt.Models.HaloInfinite.Challenge.ThresholdForSuccess
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Grunt.Models.HaloInfinite.Challenge.Title
+  parent: Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Title
+  nameWithType: Challenge.Title
+  fullName: Grunt.Models.HaloInfinite.Challenge.Title
+  type: property
+- uid: Grunt.Models.HaloInfinite.Challenge.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.Challenge.#ctor
+  parent: Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Challenge
+  nameWithType: Challenge.Challenge
+  fullName: Grunt.Models.HaloInfinite.Challenge.Challenge
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.Challenge.Category*
+  commentId: Overload:Grunt.Models.HaloInfinite.Challenge.Category
+  parent: Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Category
+  nameWithType: Challenge.Category
+  fullName: Grunt.Models.HaloInfinite.Challenge.Category
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Challenge.Description*
+  commentId: Overload:Grunt.Models.HaloInfinite.Challenge.Description
+  parent: Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Description
+  nameWithType: Challenge.Description
+  fullName: Grunt.Models.HaloInfinite.Challenge.Description
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Challenge.Difficulty*
+  commentId: Overload:Grunt.Models.HaloInfinite.Challenge.Difficulty
+  parent: Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Difficulty
+  nameWithType: Challenge.Difficulty
+  fullName: Grunt.Models.HaloInfinite.Challenge.Difficulty
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Challenge.Reward*
+  commentId: Overload:Grunt.Models.HaloInfinite.Challenge.Reward
+  parent: Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Reward
+  nameWithType: Challenge.Reward
+  fullName: Grunt.Models.HaloInfinite.Challenge.Reward
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Challenge.ThresholdForSuccess*
+  commentId: Overload:Grunt.Models.HaloInfinite.Challenge.ThresholdForSuccess
+  parent: Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: ThresholdForSuccess
+  nameWithType: Challenge.ThresholdForSuccess
+  fullName: Grunt.Models.HaloInfinite.Challenge.ThresholdForSuccess
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.Challenge.Title*
+  commentId: Overload:Grunt.Models.HaloInfinite.Challenge.Title
+  parent: Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Title
+  nameWithType: Challenge.Title
+  fullName: Grunt.Models.HaloInfinite.Challenge.Title
+  monikers:
+  - net6.0
+  type: property

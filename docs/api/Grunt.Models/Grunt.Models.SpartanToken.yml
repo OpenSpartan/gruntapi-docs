@@ -96,20 +96,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("SpartanToken")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("SpartanToken")]]
 
       public string Token { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("SpartanToken")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("SpartanToken")]]
 
       public string Token { get; set; }
   overload: Grunt.Models.SpartanToken.Token*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get

@@ -67,20 +67,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("xui")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("xui")]]
 
       public Grunt.Models.XboxXui[] Xui { get; set; }
     return:
       type: Grunt.Models.XboxXui[]
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("xui")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("xui")]]
 
       public Grunt.Models.XboxXui[] Xui { get; set; }
   overload: Grunt.Models.XboxDisplayClaims.Xui*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get

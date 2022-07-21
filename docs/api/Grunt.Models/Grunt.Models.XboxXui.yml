@@ -73,20 +73,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("agg")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("agg")]]
 
       public string Agg { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("agg")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("agg")]]
 
       public string Agg { get; set; }
   overload: Grunt.Models.XboxXui.Agg*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get
@@ -108,20 +108,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("gtg")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("gtg")]]
 
       public string Gtg { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("gtg")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("gtg")]]
 
       public string Gtg { get; set; }
   overload: Grunt.Models.XboxXui.Gtg*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get
@@ -143,20 +143,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("prv")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("prv")]]
 
       public string Prv { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("prv")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("prv")]]
 
       public string Prv { get; set; }
   overload: Grunt.Models.XboxXui.Prv*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get
@@ -178,20 +178,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("uhs")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("uhs")]]
 
       public string Uhs { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("uhs")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("uhs")]]
 
       public string Uhs { get; set; }
   overload: Grunt.Models.XboxXui.Uhs*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get
@@ -213,20 +213,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("usr")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("usr")]]
 
       public string Usr { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("usr")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("usr")]]
 
       public string Usr { get; set; }
   overload: Grunt.Models.XboxXui.Usr*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get
@@ -248,20 +248,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("utr")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("utr")]]
 
       public string Utr { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("utr")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("utr")]]
 
       public string Utr { get; set; }
   overload: Grunt.Models.XboxXui.Utr*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get
@@ -283,20 +283,20 @@ items:
   namespace: Grunt.Models
   syntax:
     content: >-
-      [[Newtonsoft.Json.JsonProperty("xid")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("xid")]]
 
       public string Xid { get; set; }
     return:
       type: System.String
       description: ''
     content.csharp: >-
-      [[Newtonsoft.Json.JsonProperty("xid")]]
+      [[System.Text.Json.Serialization.JsonPropertyName("xid")]]
 
       public string Xid { get; set; }
   overload: Grunt.Models.XboxXui.Xid*
   exceptions: []
   attributes:
-  - type: '[Newtonsoft.Json.JsonPropertyAttribute'
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
   modifiers.csharp:
   - public
   - get

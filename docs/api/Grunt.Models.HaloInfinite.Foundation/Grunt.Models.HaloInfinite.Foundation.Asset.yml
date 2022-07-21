@@ -14,6 +14,7 @@ items:
   - Grunt.Models.HaloInfinite.Foundation.Asset.Description
   - Grunt.Models.HaloInfinite.Foundation.Asset.Files
   - Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Order
   - Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
   - Grunt.Models.HaloInfinite.Foundation.Asset.Tags
   - Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
@@ -33,12 +34,15 @@ items:
   - System.Object
   derivedClasses:
   - Grunt.Models.HaloInfinite.AssetLink
+  - Grunt.Models.HaloInfinite.AssetSearchResult
   - Grunt.Models.HaloInfinite.EngineGameVariant
   - Grunt.Models.HaloInfinite.FavoriteAsset
   - Grunt.Models.HaloInfinite.GenericAsset
   - Grunt.Models.HaloInfinite.Manifest
   - Grunt.Models.HaloInfinite.Map
   - Grunt.Models.HaloInfinite.MapModePair
+  - Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  - Grunt.Models.HaloInfinite.Prefab
   - Grunt.Models.HaloInfinite.Project
   - Grunt.Models.HaloInfinite.UGCGameVariant
   implements: []
@@ -223,11 +227,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite.Foundation
   syntax:
-    content: public object[] Contributors { get; set; }
+    content: public string[] Contributors { get; set; }
     return:
-      type: System.Object[]
+      type: System.String[]
       description: ''
-    content.csharp: public object[] Contributors { get; set; }
+    content.csharp: public string[] Contributors { get; set; }
   overload: Grunt.Models.HaloInfinite.Foundation.Asset.Contributors*
   exceptions: []
   modifiers.csharp:
@@ -317,6 +321,33 @@ items:
   - set
   monikers:
   - net6.0
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  commentId: P:Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  id: Order
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  langs:
+  - csharp
+  name: Order
+  nameWithType: Asset.Order
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public int Order { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Order { get; set; }
+  overload: Grunt.Models.HaloInfinite.Foundation.Asset.Order*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
 - uid: Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
   commentId: P:Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
   id: PublicName
@@ -358,11 +389,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite.Foundation
   syntax:
-    content: public object[] Tags { get; set; }
+    content: public string[] Tags { get; set; }
     return:
-      type: System.Object[]
+      type: System.String[]
       description: ''
-    content.csharp: public object[] Tags { get; set; }
+    content.csharp: public string[] Tags { get; set; }
   overload: Grunt.Models.HaloInfinite.Foundation.Asset.Tags*
   exceptions: []
   modifiers.csharp:
@@ -473,16 +504,16 @@ references:
   nameWithType: Asset.Contributors
   fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
   type: property
-- uid: System.Object[]
+- uid: System.String[]
   parent: System
-  name: Object[]
-  nameWithType: Object[]
-  fullName: System.Object[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   spec.csharp:
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
@@ -512,6 +543,13 @@ references:
   name: InspectionResult
   nameWithType: Asset.InspectionResult
   fullName: Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Order
+  nameWithType: Asset.Order
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Order
   type: property
 - uid: Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
   parent: Grunt.Models.HaloInfinite.Foundation.Asset
@@ -634,6 +672,16 @@ references:
   monikers:
   - net6.0
   type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Order*
+  commentId: Overload:Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Order
+  nameWithType: Asset.Order
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  monikers:
+  - net6.0
+  type: property
 - uid: Grunt.Models.HaloInfinite.Foundation.Asset.PublicName*
   commentId: Overload:Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
   parent: Grunt.Models.HaloInfinite.Foundation.Asset
@@ -671,6 +719,14 @@ references:
   name: AssetLink
   nameWithType: Grunt.Models.HaloInfinite.AssetLink
   fullName: Grunt.Models.HaloInfinite.AssetLink
+  type: class
+- uid: Grunt.Models.HaloInfinite.AssetSearchResult
+  commentId: T:Grunt.Models.HaloInfinite.AssetSearchResult
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AssetSearchResult
+  nameWithType: Grunt.Models.HaloInfinite.AssetSearchResult
+  fullName: Grunt.Models.HaloInfinite.AssetSearchResult
   type: class
 - uid: Grunt.Models.HaloInfinite.EngineGameVariant
   commentId: T:Grunt.Models.HaloInfinite.EngineGameVariant
@@ -719,6 +775,22 @@ references:
   name: MapModePair
   nameWithType: Grunt.Models.HaloInfinite.MapModePair
   fullName: Grunt.Models.HaloInfinite.MapModePair
+  type: class
+- uid: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  commentId: T:Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistRotationEntry
+  nameWithType: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  fullName: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  type: class
+- uid: Grunt.Models.HaloInfinite.Prefab
+  commentId: T:Grunt.Models.HaloInfinite.Prefab
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Prefab
+  nameWithType: Grunt.Models.HaloInfinite.Prefab
+  fullName: Grunt.Models.HaloInfinite.Prefab
   type: class
 - uid: Grunt.Models.HaloInfinite.Project
   commentId: T:Grunt.Models.HaloInfinite.Project

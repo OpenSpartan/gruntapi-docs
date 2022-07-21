@@ -5,6 +5,8 @@ items:
   id: EngineGameVariant
   children:
   - Grunt.Models.HaloInfinite.EngineGameVariant.#ctor
+  - Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats
+  - Grunt.Models.HaloInfinite.EngineGameVariant.CustomData
   langs:
   - csharp
   name: EngineGameVariant
@@ -31,6 +33,7 @@ items:
   - Grunt.Models.HaloInfinite.Foundation.Asset.Description
   - Grunt.Models.HaloInfinite.Foundation.Asset.Files
   - Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  - Grunt.Models.HaloInfinite.Foundation.Asset.Order
   - Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
   - Grunt.Models.HaloInfinite.Foundation.Asset.Tags
   - Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
@@ -64,6 +67,60 @@ items:
   - public
   monikers:
   - net6.0
+- uid: Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats
+  commentId: P:Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats
+  id: AssetStats
+  parent: Grunt.Models.HaloInfinite.EngineGameVariant
+  langs:
+  - csharp
+  name: AssetStats
+  nameWithType: EngineGameVariant.AssetStats
+  fullName: Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.PlayAssetStats AssetStats { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.PlayAssetStats
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.PlayAssetStats AssetStats { get; set; }
+  overload: Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.EngineGameVariant.CustomData
+  commentId: P:Grunt.Models.HaloInfinite.EngineGameVariant.CustomData
+  id: CustomData
+  parent: Grunt.Models.HaloInfinite.EngineGameVariant
+  langs:
+  - csharp
+  name: CustomData
+  nameWithType: EngineGameVariant.CustomData
+  fullName: Grunt.Models.HaloInfinite.EngineGameVariant.CustomData
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.EngineGameVariantCustomData CustomData { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.EngineGameVariantCustomData CustomData { get; set; }
+  overload: Grunt.Models.HaloInfinite.EngineGameVariant.CustomData*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
 references:
 - uid: Grunt.Models.HaloInfinite
   commentId: N:Grunt.Models.HaloInfinite
@@ -85,6 +142,32 @@ references:
   nameWithType: EngineGameVariant.EngineGameVariant()
   fullName: Grunt.Models.HaloInfinite.EngineGameVariant.EngineGameVariant()
   type: constructor
+- uid: Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats
+  parent: Grunt.Models.HaloInfinite.EngineGameVariant
+  isExternal: false
+  name: AssetStats
+  nameWithType: EngineGameVariant.AssetStats
+  fullName: Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats
+  type: property
+- uid: Grunt.Models.HaloInfinite.PlayAssetStats
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlayAssetStats
+  nameWithType: PlayAssetStats
+  fullName: Grunt.Models.HaloInfinite.PlayAssetStats
+- uid: Grunt.Models.HaloInfinite.EngineGameVariant.CustomData
+  parent: Grunt.Models.HaloInfinite.EngineGameVariant
+  isExternal: false
+  name: CustomData
+  nameWithType: EngineGameVariant.CustomData
+  fullName: Grunt.Models.HaloInfinite.EngineGameVariant.CustomData
+  type: property
+- uid: Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: EngineGameVariantCustomData
+  nameWithType: EngineGameVariantCustomData
+  fullName: Grunt.Models.HaloInfinite.EngineGameVariantCustomData
 - uid: Grunt.Models.HaloInfinite.EngineGameVariant.#ctor*
   commentId: Overload:Grunt.Models.HaloInfinite.EngineGameVariant.#ctor
   parent: Grunt.Models.HaloInfinite.EngineGameVariant
@@ -95,6 +178,26 @@ references:
   monikers:
   - net6.0
   type: constructor
+- uid: Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats*
+  commentId: Overload:Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats
+  parent: Grunt.Models.HaloInfinite.EngineGameVariant
+  isExternal: false
+  name: AssetStats
+  nameWithType: EngineGameVariant.AssetStats
+  fullName: Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.EngineGameVariant.CustomData*
+  commentId: Overload:Grunt.Models.HaloInfinite.EngineGameVariant.CustomData
+  parent: Grunt.Models.HaloInfinite.EngineGameVariant
+  isExternal: false
+  name: CustomData
+  nameWithType: EngineGameVariant.CustomData
+  fullName: Grunt.Models.HaloInfinite.EngineGameVariant.CustomData
+  monikers:
+  - net6.0
+  type: property
 - uid: Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
   parent: Grunt.Models.HaloInfinite.Foundation.Asset
   isExternal: false
@@ -157,6 +260,13 @@ references:
   name: InspectionResult
   nameWithType: Asset.InspectionResult
   fullName: Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  type: property
+- uid: Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  parent: Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Order
+  nameWithType: Asset.Order
+  fullName: Grunt.Models.HaloInfinite.Foundation.Asset.Order
   type: property
 - uid: Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
   parent: Grunt.Models.HaloInfinite.Foundation.Asset

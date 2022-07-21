@@ -173,6 +173,10 @@
     name: Articleimage
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.AssetAuthoringSession
+    name: AssetAuthoringSession
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.AssetKeyValues
     name: AssetKeyValues
     monikers:
@@ -187,6 +191,14 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.AssetRating
     name: AssetRating
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AssetSearchResult
+    name: AssetSearchResult
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AssetTag
+    name: AssetTag
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.AssetVersionFile
@@ -211,6 +223,10 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
     name: AuthoringAssetCustomData
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringAssetLinks
+    name: AuthoringAssetLinks
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.AuthoringAssetRating
@@ -241,6 +257,14 @@
     name: AuthoringFavoritesContainer
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringSessionSourceStarter
+    name: AuthoringSessionSourceStarter
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.AuthoringSessionStarter
+    name: AuthoringSessionStarter
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.AwardedReward
     name: AwardedReward
     monikers:
@@ -261,12 +285,20 @@
     name: BotCustomizationData
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.Challenge
+    name: Challenge
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.ChallengeDeckDefinition
     name: ChallengeDeckDefinition
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.ChallengeProgressState
     name: ChallengeProgressState
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ChallengeReward
+    name: ChallengeReward
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.ClawAccessSnapshot
@@ -333,10 +365,6 @@
     name: CustomizationData
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.CustomManifestData
-    name: CustomManifestData
-    monikers:
-    - net6.0
   - uid: Grunt.Models.HaloInfinite.CustomMapData
     name: CustomMapData
     monikers:
@@ -371,6 +399,10 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.EngineGameVariant
     name: EngineGameVariant
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+    name: EngineGameVariantCustomData
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.FavoriteAsset
@@ -477,8 +509,16 @@
     name: LobbyJoinHandle
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.LocalizedDataContainer
+    name: LocalizedDataContainer
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.Manifest
     name: Manifest
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.ManifestCustomData
+    name: ManifestCustomData
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.Manufacturer
@@ -661,8 +701,8 @@
     name: PlayerSkillResult
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlayerSkillResultValue
-    name: PlayerSkillResultValue
+  - uid: Grunt.Models.HaloInfinite.PlayerSkillResultContainer
+    name: PlayerSkillResultContainer
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.PlayerState
@@ -671,6 +711,50 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.PlayerTeamStat
     name: PlayerTeamStat
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Playlist
+    name: Playlist
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlaylistCsr
+    name: PlaylistCsr
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlaylistCsrContainer
+    name: PlaylistCsrContainer
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlaylistCsrResultContainer
+    name: PlaylistCsrResultContainer
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlaylistCsrResults
+    name: PlaylistCsrResults
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlaylistCustomData
+    name: PlaylistCustomData
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlaylistEntry
+    name: PlaylistEntry
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata
+    name: PlaylistMapModePairMetadata
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+    name: PlaylistRotationEntry
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.Prefab
+    name: Prefab
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.PrefabCustomData
+    name: PrefabCustomData
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.Price
@@ -721,6 +805,14 @@
     name: RewardTrackProgress
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.SearchAssetTag
+    name: SearchAssetTag
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.SearchResultsContainer
+    name: SearchResultsContainer
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.SeasonRewardTrack
     name: SeasonRewardTrack
     monikers:
@@ -769,8 +861,8 @@
     name: StoreProductMapping
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Tag
-    name: Tag
+  - uid: Grunt.Models.HaloInfinite.SubsetDataContainer
+    name: SubsetDataContainer
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.TagInfo

@@ -72,11 +72,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public Grunt.Models.HaloInfinite.AiCoreTheme[] Themes { get; set; }
+    content: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.AiCoreTheme> Themes { get; set; }
     return:
-      type: Grunt.Models.HaloInfinite.AiCoreTheme[]
+      type: System.Collections.Generic.List{Grunt.Models.HaloInfinite.AiCoreTheme}
       description: ''
-    content.csharp: public Grunt.Models.HaloInfinite.AiCoreTheme[] Themes { get; set; }
+    content.csharp: public System.Collections.Generic.List<Grunt.Models.HaloInfinite.AiCoreTheme> Themes { get; set; }
   overload: Grunt.Models.HaloInfinite.AiCore.Themes*
   exceptions: []
   modifiers.csharp:
@@ -113,23 +113,35 @@ references:
   nameWithType: AiCore.Themes
   fullName: Grunt.Models.HaloInfinite.AiCore.Themes
   type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
 - uid: Grunt.Models.HaloInfinite.AiCoreTheme
   name: AiCoreTheme
   nameWithType: AiCoreTheme
   fullName: Grunt.Models.HaloInfinite.AiCoreTheme
-- uid: Grunt.Models.HaloInfinite.AiCoreTheme[]
-  parent: Grunt.Models.HaloInfinite
-  name: AiCoreTheme[]
-  nameWithType: AiCoreTheme[]
-  fullName: Grunt.Models.HaloInfinite.AiCoreTheme[]
+- uid: System.Collections.Generic.List{Grunt.Models.HaloInfinite.AiCoreTheme}
+  parent: System.Collections.Generic
+  name: List<AiCoreTheme>
+  nameWithType: List<AiCoreTheme>
+  fullName: System.Collections.Generic.List<Grunt.Models.HaloInfinite.AiCoreTheme>
   spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: Grunt.Models.HaloInfinite.AiCoreTheme
     name: AiCoreTheme
     nameWithType: AiCoreTheme
     fullName: Grunt.Models.HaloInfinite.AiCoreTheme
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: Grunt.Models.HaloInfinite.AiCore.#ctor*
   commentId: Overload:Grunt.Models.HaloInfinite.AiCore.#ctor
   parent: Grunt.Models.HaloInfinite.AiCore
