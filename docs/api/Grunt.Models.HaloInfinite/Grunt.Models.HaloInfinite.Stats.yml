@@ -155,11 +155,11 @@ items:
   - Grunt
   namespace: Grunt.Models.HaloInfinite
   syntax:
-    content: public object EliminationStats { get; set; }
+    content: public Grunt.Models.HaloInfinite.EliminationStats EliminationStats { get; set; }
     return:
-      type: System.Object
+      type: Grunt.Models.HaloInfinite.EliminationStats
       description: ''
-    content.csharp: public object EliminationStats { get; set; }
+    content.csharp: public Grunt.Models.HaloInfinite.EliminationStats EliminationStats { get; set; }
   overload: Grunt.Models.HaloInfinite.Stats.EliminationStats*
   exceptions: []
   modifiers.csharp:
@@ -358,6 +358,12 @@ references:
   nameWithType: Stats.EliminationStats
   fullName: Grunt.Models.HaloInfinite.Stats.EliminationStats
   type: property
+- uid: Grunt.Models.HaloInfinite.EliminationStats
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: EliminationStats
+  nameWithType: EliminationStats
+  fullName: Grunt.Models.HaloInfinite.EliminationStats
 - uid: Grunt.Models.HaloInfinite.Stats.ExtractionStats
   parent: Grunt.Models.HaloInfinite.Stats
   isExternal: false

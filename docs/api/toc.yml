@@ -409,6 +409,10 @@
     name: DriverManifest
     monikers:
     - net6.0
+  - uid: Grunt.Models.HaloInfinite.EliminationStats
+    name: EliminationStats
+    monikers:
+    - net6.0
   - uid: Grunt.Models.HaloInfinite.Emblem
     name: Emblem
     monikers:
@@ -435,6 +439,10 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.FilmChunk
     name: FilmChunk
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.FireTeamDetails
+    name: FireTeamDetails
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.FlightedFeatureFlags
@@ -523,6 +531,22 @@
     - net6.0
   - uid: Grunt.Models.HaloInfinite.LobbyJoinHandle
     name: LobbyJoinHandle
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.LobbyPresenceContainer
+    name: LobbyPresenceContainer
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+    name: LobbyPresenceRequestContainer
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.LobbyPresenceResult
+    name: LobbyPresenceResult
+    monikers:
+    - net6.0
+  - uid: Grunt.Models.HaloInfinite.LobbyPresenceResultContainer
+    name: LobbyPresenceResultContainer
     monikers:
     - net6.0
   - uid: Grunt.Models.HaloInfinite.LocalizedDataContainer

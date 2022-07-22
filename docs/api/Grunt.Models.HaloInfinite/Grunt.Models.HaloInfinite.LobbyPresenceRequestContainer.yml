@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  commentId: T:Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  id: LobbyPresenceRequestContainer
+  children:
+  - Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.#ctor
+  - Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids
+  langs:
+  - csharp
+  name: LobbyPresenceRequestContainer
+  nameWithType: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class LobbyPresenceRequestContainer
+    content.csharp: public class LobbyPresenceRequestContainer
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  langs:
+  - csharp
+  name: LobbyPresenceRequestContainer()
+  nameWithType: LobbyPresenceRequestContainer.LobbyPresenceRequestContainer()
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.LobbyPresenceRequestContainer()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public LobbyPresenceRequestContainer ();
+    parameters: []
+    content.csharp: public LobbyPresenceRequestContainer ();
+  overload: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids
+  commentId: P:Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids
+  id: Xuids
+  parent: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  langs:
+  - csharp
+  name: Xuids
+  nameWithType: LobbyPresenceRequestContainer.Xuids
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public long[] Xuids { get; set; }
+    return:
+      type: System.Int64[]
+      description: ''
+    content.csharp: public long[] Xuids { get; set; }
+  overload: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.#ctor
+  parent: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  isExternal: false
+  name: LobbyPresenceRequestContainer()
+  nameWithType: LobbyPresenceRequestContainer.LobbyPresenceRequestContainer()
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.LobbyPresenceRequestContainer()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids
+  parent: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  isExternal: false
+  name: Xuids
+  nameWithType: LobbyPresenceRequestContainer.Xuids
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids
+  type: property
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.Int64[]
+  parent: System
+  name: Int64[]
+  nameWithType: Int64[]
+  fullName: System.Int64[]
+  spec.csharp:
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.#ctor
+  parent: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  isExternal: false
+  name: LobbyPresenceRequestContainer
+  nameWithType: LobbyPresenceRequestContainer.LobbyPresenceRequestContainer
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.LobbyPresenceRequestContainer
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids*
+  commentId: Overload:Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids
+  parent: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  isExternal: false
+  name: Xuids
+  nameWithType: LobbyPresenceRequestContainer.Xuids
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids
+  monikers:
+  - net6.0
+  type: property

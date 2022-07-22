@@ -85,6 +85,7 @@ items:
   - Grunt.Models.HaloInfinite.DisplayString
   - Grunt.Models.HaloInfinite.DriverDetails
   - Grunt.Models.HaloInfinite.DriverManifest
+  - Grunt.Models.HaloInfinite.EliminationStats
   - Grunt.Models.HaloInfinite.Emblem
   - Grunt.Models.HaloInfinite.EngineGameVariant
   - Grunt.Models.HaloInfinite.EngineGameVariantCustomData
@@ -92,6 +93,7 @@ items:
   - Grunt.Models.HaloInfinite.File
   - Grunt.Models.HaloInfinite.Film
   - Grunt.Models.HaloInfinite.FilmChunk
+  - Grunt.Models.HaloInfinite.FireTeamDetails
   - Grunt.Models.HaloInfinite.FlightedFeatureFlags
   - Grunt.Models.HaloInfinite.GameVariant
   - Grunt.Models.HaloInfinite.GameVariantAssetStats
@@ -114,6 +116,10 @@ items:
   - Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
   - Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList
   - Grunt.Models.HaloInfinite.LobbyJoinHandle
+  - Grunt.Models.HaloInfinite.LobbyPresenceContainer
+  - Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  - Grunt.Models.HaloInfinite.LobbyPresenceResult
+  - Grunt.Models.HaloInfinite.LobbyPresenceResultContainer
   - Grunt.Models.HaloInfinite.LocalizedDataContainer
   - Grunt.Models.HaloInfinite.Manifest
   - Grunt.Models.HaloInfinite.ManifestCustomData
@@ -879,6 +885,14 @@ references:
   nameWithType: Grunt.Models.HaloInfinite.DriverManifest
   fullName: Grunt.Models.HaloInfinite.DriverManifest
   type: class
+- uid: Grunt.Models.HaloInfinite.EliminationStats
+  commentId: T:Grunt.Models.HaloInfinite.EliminationStats
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: EliminationStats
+  nameWithType: Grunt.Models.HaloInfinite.EliminationStats
+  fullName: Grunt.Models.HaloInfinite.EliminationStats
+  type: class
 - uid: Grunt.Models.HaloInfinite.Emblem
   commentId: T:Grunt.Models.HaloInfinite.Emblem
   parent: Grunt.Models.HaloInfinite
@@ -934,6 +948,14 @@ references:
   name: FilmChunk
   nameWithType: Grunt.Models.HaloInfinite.FilmChunk
   fullName: Grunt.Models.HaloInfinite.FilmChunk
+  type: class
+- uid: Grunt.Models.HaloInfinite.FireTeamDetails
+  commentId: T:Grunt.Models.HaloInfinite.FireTeamDetails
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: FireTeamDetails
+  nameWithType: Grunt.Models.HaloInfinite.FireTeamDetails
+  fullName: Grunt.Models.HaloInfinite.FireTeamDetails
   type: class
 - uid: Grunt.Models.HaloInfinite.FlightedFeatureFlags
   commentId: T:Grunt.Models.HaloInfinite.FlightedFeatureFlags
@@ -1110,6 +1132,38 @@ references:
   name: LobbyJoinHandle
   nameWithType: Grunt.Models.HaloInfinite.LobbyJoinHandle
   fullName: Grunt.Models.HaloInfinite.LobbyJoinHandle
+  type: class
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceContainer
+  commentId: T:Grunt.Models.HaloInfinite.LobbyPresenceContainer
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: LobbyPresenceContainer
+  nameWithType: Grunt.Models.HaloInfinite.LobbyPresenceContainer
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceContainer
+  type: class
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  commentId: T:Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: LobbyPresenceRequestContainer
+  nameWithType: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  type: class
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceResult
+  commentId: T:Grunt.Models.HaloInfinite.LobbyPresenceResult
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: LobbyPresenceResult
+  nameWithType: Grunt.Models.HaloInfinite.LobbyPresenceResult
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceResult
+  type: class
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceResultContainer
+  commentId: T:Grunt.Models.HaloInfinite.LobbyPresenceResultContainer
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: LobbyPresenceResultContainer
+  nameWithType: Grunt.Models.HaloInfinite.LobbyPresenceResultContainer
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceResultContainer
   type: class
 - uid: Grunt.Models.HaloInfinite.LocalizedDataContainer
   commentId: T:Grunt.Models.HaloInfinite.LocalizedDataContainer

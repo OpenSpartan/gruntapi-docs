@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceResult
+  commentId: T:Grunt.Models.HaloInfinite.LobbyPresenceResult
+  id: LobbyPresenceResult
+  children:
+  - Grunt.Models.HaloInfinite.LobbyPresenceResult.#ctor
+  - Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails
+  - Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails
+  langs:
+  - csharp
+  name: LobbyPresenceResult
+  nameWithType: Grunt.Models.HaloInfinite.LobbyPresenceResult
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceResult
+  type: Class
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public class LobbyPresenceResult
+    content.csharp: public class LobbyPresenceResult
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    Grunt:
+    - net6.0
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceResult.#ctor
+  commentId: M:Grunt.Models.HaloInfinite.LobbyPresenceResult.#ctor
+  id: '#ctor'
+  parent: Grunt.Models.HaloInfinite.LobbyPresenceResult
+  langs:
+  - csharp
+  name: LobbyPresenceResult()
+  nameWithType: LobbyPresenceResult.LobbyPresenceResult()
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceResult.LobbyPresenceResult()
+  type: Constructor
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public LobbyPresenceResult ();
+    parameters: []
+    content.csharp: public LobbyPresenceResult ();
+  overload: Grunt.Models.HaloInfinite.LobbyPresenceResult.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails
+  commentId: P:Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails
+  id: FireteamDetails
+  parent: Grunt.Models.HaloInfinite.LobbyPresenceResult
+  langs:
+  - csharp
+  name: FireteamDetails
+  nameWithType: LobbyPresenceResult.FireteamDetails
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public Grunt.Models.HaloInfinite.FireTeamDetails FireteamDetails { get; set; }
+    return:
+      type: Grunt.Models.HaloInfinite.FireTeamDetails
+      description: ''
+    content.csharp: public Grunt.Models.HaloInfinite.FireTeamDetails FireteamDetails { get; set; }
+  overload: Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails
+  commentId: P:Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails
+  id: MatchDetails
+  parent: Grunt.Models.HaloInfinite.LobbyPresenceResult
+  langs:
+  - csharp
+  name: MatchDetails
+  nameWithType: LobbyPresenceResult.MatchDetails
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails
+  type: Property
+  assemblies:
+  - Grunt
+  namespace: Grunt.Models.HaloInfinite
+  syntax:
+    content: public object MatchDetails { get; set; }
+    return:
+      type: System.Object
+      description: ''
+    content.csharp: public object MatchDetails { get; set; }
+  overload: Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: Grunt.Models.HaloInfinite
+  commentId: N:Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Grunt.Models.HaloInfinite
+  nameWithType: Grunt.Models.HaloInfinite
+  fullName: Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceResult.#ctor
+  parent: Grunt.Models.HaloInfinite.LobbyPresenceResult
+  isExternal: false
+  name: LobbyPresenceResult()
+  nameWithType: LobbyPresenceResult.LobbyPresenceResult()
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceResult.LobbyPresenceResult()
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails
+  parent: Grunt.Models.HaloInfinite.LobbyPresenceResult
+  isExternal: false
+  name: FireteamDetails
+  nameWithType: LobbyPresenceResult.FireteamDetails
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails
+  type: property
+- uid: Grunt.Models.HaloInfinite.FireTeamDetails
+  parent: Grunt.Models.HaloInfinite
+  isExternal: false
+  name: FireTeamDetails
+  nameWithType: FireTeamDetails
+  fullName: Grunt.Models.HaloInfinite.FireTeamDetails
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails
+  parent: Grunt.Models.HaloInfinite.LobbyPresenceResult
+  isExternal: false
+  name: MatchDetails
+  nameWithType: LobbyPresenceResult.MatchDetails
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails
+  type: property
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceResult.#ctor*
+  commentId: Overload:Grunt.Models.HaloInfinite.LobbyPresenceResult.#ctor
+  parent: Grunt.Models.HaloInfinite.LobbyPresenceResult
+  isExternal: false
+  name: LobbyPresenceResult
+  nameWithType: LobbyPresenceResult.LobbyPresenceResult
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceResult.LobbyPresenceResult
+  monikers:
+  - net6.0
+  type: constructor
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails*
+  commentId: Overload:Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails
+  parent: Grunt.Models.HaloInfinite.LobbyPresenceResult
+  isExternal: false
+  name: FireteamDetails
+  nameWithType: LobbyPresenceResult.FireteamDetails
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails
+  monikers:
+  - net6.0
+  type: property
+- uid: Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails*
+  commentId: Overload:Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails
+  parent: Grunt.Models.HaloInfinite.LobbyPresenceResult
+  isExternal: false
+  name: MatchDetails
+  nameWithType: LobbyPresenceResult.MatchDetails
+  fullName: Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails
+  monikers:
+  - net6.0
+  type: property
