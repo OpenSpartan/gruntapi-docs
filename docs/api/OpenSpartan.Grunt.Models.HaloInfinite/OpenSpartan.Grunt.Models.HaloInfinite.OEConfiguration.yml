@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration
+  id: OEConfiguration
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.Message
+  langs:
+  - csharp
+  name: OEConfiguration
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class OEConfiguration
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class OEConfiguration
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration
+  langs:
+  - csharp
+  name: OEConfiguration()
+  nameWithType: OEConfiguration.OEConfiguration()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.OEConfiguration()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OEConfiguration ();
+    parameters: []
+    content.csharp: public OEConfiguration ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.Message
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.Message
+  id: Message
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration
+  langs:
+  - csharp
+  name: Message
+  nameWithType: OEConfiguration.Message
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.Message
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Message { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Message { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.Message*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration
+  isExternal: false
+  name: OEConfiguration()
+  nameWithType: OEConfiguration.OEConfiguration()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.OEConfiguration()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.Message
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration
+  isExternal: false
+  name: Message
+  nameWithType: OEConfiguration.Message
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.Message
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: DisplayString
+  nameWithType: DisplayString
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration
+  isExternal: false
+  name: OEConfiguration
+  nameWithType: OEConfiguration.OEConfiguration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.OEConfiguration
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.Message*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.Message
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration
+  isExternal: false
+  name: Message
+  nameWithType: OEConfiguration.Message
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration.Message
+  monikers:
+  - net6.0
+  type: property

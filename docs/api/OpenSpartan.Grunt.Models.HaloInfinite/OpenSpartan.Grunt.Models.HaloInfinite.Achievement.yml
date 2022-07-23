@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  id: Achievement
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Achievement.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.Achievement.Id
+  - OpenSpartan.Grunt.Models.HaloInfinite.Achievement.SteamId
+  - OpenSpartan.Grunt.Models.HaloInfinite.Achievement.XboxLiveId
+  langs:
+  - csharp
+  name: Achievement
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Achievement
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Achievement
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.Achievement.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  langs:
+  - csharp
+  name: Achievement()
+  nameWithType: Achievement.Achievement()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.Achievement()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public Achievement ();
+    parameters: []
+    content.csharp: public Achievement ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.Id
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Achievement.Id
+  id: Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  langs:
+  - csharp
+  name: Id
+  nameWithType: Achievement.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.Id
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Id { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Id { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.Id*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.SteamId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Achievement.SteamId
+  id: SteamId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  langs:
+  - csharp
+  name: SteamId
+  nameWithType: Achievement.SteamId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.SteamId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string SteamId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string SteamId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.SteamId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.XboxLiveId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Achievement.XboxLiveId
+  id: XboxLiveId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  langs:
+  - csharp
+  name: XboxLiveId
+  nameWithType: Achievement.XboxLiveId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.XboxLiveId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string XboxLiveId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string XboxLiveId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.XboxLiveId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  isExternal: false
+  name: Achievement()
+  nameWithType: Achievement.Achievement()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.Achievement()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  isExternal: false
+  name: Id
+  nameWithType: Achievement.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.Id
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.SteamId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  isExternal: false
+  name: SteamId
+  nameWithType: Achievement.SteamId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.SteamId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.XboxLiveId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  isExternal: false
+  name: XboxLiveId
+  nameWithType: Achievement.XboxLiveId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.XboxLiveId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Achievement.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  isExternal: false
+  name: Achievement
+  nameWithType: Achievement.Achievement
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.Achievement
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.Id*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Achievement.Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  isExternal: false
+  name: Id
+  nameWithType: Achievement.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.Id
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.SteamId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Achievement.SteamId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  isExternal: false
+  name: SteamId
+  nameWithType: Achievement.SteamId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.SteamId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.XboxLiveId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Achievement.XboxLiveId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  isExternal: false
+  name: XboxLiveId
+  nameWithType: Achievement.XboxLiveId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Achievement.XboxLiveId
+  monikers:
+  - net6.0
+  type: property

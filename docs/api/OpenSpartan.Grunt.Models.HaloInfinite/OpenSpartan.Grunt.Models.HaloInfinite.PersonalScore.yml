@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  id: PersonalScore
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.Count
+  - OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.NameId
+  - OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.TotalPersonalScoreAwarded
+  langs:
+  - csharp
+  name: PersonalScore
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class PersonalScore
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class PersonalScore
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  langs:
+  - csharp
+  name: PersonalScore()
+  nameWithType: PersonalScore.PersonalScore()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.PersonalScore()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public PersonalScore ();
+    parameters: []
+    content.csharp: public PersonalScore ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.Count
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.Count
+  id: Count
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  langs:
+  - csharp
+  name: Count
+  nameWithType: PersonalScore.Count
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.Count
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Count { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Count { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.Count*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.NameId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.NameId
+  id: NameId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  langs:
+  - csharp
+  name: NameId
+  nameWithType: PersonalScore.NameId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.NameId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public long NameId { get; set; }
+    return:
+      type: System.Int64
+      description: ''
+    content.csharp: public long NameId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.NameId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.TotalPersonalScoreAwarded
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.TotalPersonalScoreAwarded
+  id: TotalPersonalScoreAwarded
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  langs:
+  - csharp
+  name: TotalPersonalScoreAwarded
+  nameWithType: PersonalScore.TotalPersonalScoreAwarded
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.TotalPersonalScoreAwarded
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int TotalPersonalScoreAwarded { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int TotalPersonalScoreAwarded { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.TotalPersonalScoreAwarded*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  isExternal: false
+  name: PersonalScore()
+  nameWithType: PersonalScore.PersonalScore()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.PersonalScore()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.Count
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  isExternal: false
+  name: Count
+  nameWithType: PersonalScore.Count
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.Count
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.NameId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  isExternal: false
+  name: NameId
+  nameWithType: PersonalScore.NameId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.NameId
+  type: property
+- uid: System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.TotalPersonalScoreAwarded
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  isExternal: false
+  name: TotalPersonalScoreAwarded
+  nameWithType: PersonalScore.TotalPersonalScoreAwarded
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.TotalPersonalScoreAwarded
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  isExternal: false
+  name: PersonalScore
+  nameWithType: PersonalScore.PersonalScore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.PersonalScore
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.Count*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.Count
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  isExternal: false
+  name: Count
+  nameWithType: PersonalScore.Count
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.Count
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.NameId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.NameId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  isExternal: false
+  name: NameId
+  nameWithType: PersonalScore.NameId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.NameId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.TotalPersonalScoreAwarded*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.TotalPersonalScoreAwarded
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  isExternal: false
+  name: TotalPersonalScoreAwarded
+  nameWithType: PersonalScore.TotalPersonalScoreAwarded
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore.TotalPersonalScoreAwarded
+  monikers:
+  - net6.0
+  type: property

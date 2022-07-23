@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+  id: SubsetDataContainer
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.EngineName
+  - OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.StatBucketGameType
+  - OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.VariantName
+  langs:
+  - csharp
+  name: SubsetDataContainer
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class SubsetDataContainer
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class SubsetDataContainer
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+  langs:
+  - csharp
+  name: SubsetDataContainer()
+  nameWithType: SubsetDataContainer.SubsetDataContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.SubsetDataContainer()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public SubsetDataContainer ();
+    parameters: []
+    content.csharp: public SubsetDataContainer ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.EngineName
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.EngineName
+  id: EngineName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+  langs:
+  - csharp
+  name: EngineName
+  nameWithType: SubsetDataContainer.EngineName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.EngineName
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string EngineName { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string EngineName { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.EngineName*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.StatBucketGameType
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.StatBucketGameType
+  id: StatBucketGameType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+  langs:
+  - csharp
+  name: StatBucketGameType
+  nameWithType: SubsetDataContainer.StatBucketGameType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.StatBucketGameType
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int StatBucketGameType { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int StatBucketGameType { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.StatBucketGameType*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.VariantName
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.VariantName
+  id: VariantName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+  langs:
+  - csharp
+  name: VariantName
+  nameWithType: SubsetDataContainer.VariantName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.VariantName
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string VariantName { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string VariantName { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.VariantName*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+  isExternal: false
+  name: SubsetDataContainer()
+  nameWithType: SubsetDataContainer.SubsetDataContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.SubsetDataContainer()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.EngineName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+  isExternal: false
+  name: EngineName
+  nameWithType: SubsetDataContainer.EngineName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.EngineName
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.StatBucketGameType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+  isExternal: false
+  name: StatBucketGameType
+  nameWithType: SubsetDataContainer.StatBucketGameType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.StatBucketGameType
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.VariantName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+  isExternal: false
+  name: VariantName
+  nameWithType: SubsetDataContainer.VariantName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.VariantName
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+  isExternal: false
+  name: SubsetDataContainer
+  nameWithType: SubsetDataContainer.SubsetDataContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.SubsetDataContainer
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.EngineName*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.EngineName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+  isExternal: false
+  name: EngineName
+  nameWithType: SubsetDataContainer.EngineName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.EngineName
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.StatBucketGameType*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.StatBucketGameType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+  isExternal: false
+  name: StatBucketGameType
+  nameWithType: SubsetDataContainer.StatBucketGameType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.StatBucketGameType
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.VariantName*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.VariantName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+  isExternal: false
+  name: VariantName
+  nameWithType: SubsetDataContainer.VariantName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer.VariantName
+  monikers:
+  - net6.0
+  type: property

@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  id: LobbyHopperErrorMessage
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.DisplayString
+  - OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartError
+  - OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartErrorId
+  langs:
+  - csharp
+  name: LobbyHopperErrorMessage
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class LobbyHopperErrorMessage
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class LobbyHopperErrorMessage
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  langs:
+  - csharp
+  name: LobbyHopperErrorMessage()
+  nameWithType: LobbyHopperErrorMessage.LobbyHopperErrorMessage()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.LobbyHopperErrorMessage()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public LobbyHopperErrorMessage ();
+    parameters: []
+    content.csharp: public LobbyHopperErrorMessage ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.DisplayString
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.DisplayString
+  id: DisplayString
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  langs:
+  - csharp
+  name: DisplayString
+  nameWithType: LobbyHopperErrorMessage.DisplayString
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.DisplayString
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString DisplayString { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString DisplayString { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.DisplayString*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartError
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartError
+  id: GameStartError
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  langs:
+  - csharp
+  name: GameStartError
+  nameWithType: LobbyHopperErrorMessage.GameStartError
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartError
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string GameStartError { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string GameStartError { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartError*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartErrorId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartErrorId
+  id: GameStartErrorId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  langs:
+  - csharp
+  name: GameStartErrorId
+  nameWithType: LobbyHopperErrorMessage.GameStartErrorId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartErrorId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int GameStartErrorId { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int GameStartErrorId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartErrorId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  isExternal: false
+  name: LobbyHopperErrorMessage()
+  nameWithType: LobbyHopperErrorMessage.LobbyHopperErrorMessage()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.LobbyHopperErrorMessage()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.DisplayString
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  isExternal: false
+  name: DisplayString
+  nameWithType: LobbyHopperErrorMessage.DisplayString
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.DisplayString
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: DisplayString
+  nameWithType: DisplayString
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartError
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  isExternal: false
+  name: GameStartError
+  nameWithType: LobbyHopperErrorMessage.GameStartError
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartError
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartErrorId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  isExternal: false
+  name: GameStartErrorId
+  nameWithType: LobbyHopperErrorMessage.GameStartErrorId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartErrorId
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  isExternal: false
+  name: LobbyHopperErrorMessage
+  nameWithType: LobbyHopperErrorMessage.LobbyHopperErrorMessage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.LobbyHopperErrorMessage
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.DisplayString*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.DisplayString
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  isExternal: false
+  name: DisplayString
+  nameWithType: LobbyHopperErrorMessage.DisplayString
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.DisplayString
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartError*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartError
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  isExternal: false
+  name: GameStartError
+  nameWithType: LobbyHopperErrorMessage.GameStartError
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartError
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartErrorId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartErrorId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  isExternal: false
+  name: GameStartErrorId
+  nameWithType: LobbyHopperErrorMessage.GameStartErrorId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage.GameStartErrorId
+  monikers:
+  - net6.0
+  type: property

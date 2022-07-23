@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
+  id: BotCustomizationData
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.Outfits
+  langs:
+  - csharp
+  name: BotCustomizationData
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class BotCustomizationData
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class BotCustomizationData
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
+  langs:
+  - csharp
+  name: BotCustomizationData()
+  nameWithType: BotCustomizationData.BotCustomizationData()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.BotCustomizationData()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public BotCustomizationData ();
+    parameters: []
+    content.csharp: public BotCustomizationData ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.Outfits
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.Outfits
+  id: Outfits
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
+  langs:
+  - csharp
+  name: Outfits
+  nameWithType: BotCustomizationData.Outfits
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.Outfits
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Outfit[] Outfits { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Outfit[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Outfit[] Outfits { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.Outfits*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
+  isExternal: false
+  name: BotCustomizationData()
+  nameWithType: BotCustomizationData.BotCustomizationData()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.BotCustomizationData()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.Outfits
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
+  isExternal: false
+  name: Outfits
+  nameWithType: BotCustomizationData.Outfits
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.Outfits
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Outfit
+  name: Outfit
+  nameWithType: Outfit
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Outfit
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Outfit[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: Outfit[]
+  nameWithType: Outfit[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Outfit[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Outfit
+    name: Outfit
+    nameWithType: Outfit
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.Outfit
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
+  isExternal: false
+  name: BotCustomizationData
+  nameWithType: BotCustomizationData.BotCustomizationData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.BotCustomizationData
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.Outfits*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.Outfits
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
+  isExternal: false
+  name: Outfits
+  nameWithType: BotCustomizationData.Outfits
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData.Outfits
+  monikers:
+  - net6.0
+  type: property

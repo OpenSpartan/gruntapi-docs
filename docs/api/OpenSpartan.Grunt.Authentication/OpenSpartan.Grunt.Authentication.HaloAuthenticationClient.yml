@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient
+  commentId: T:OpenSpartan.Grunt.Authentication.HaloAuthenticationClient
+  id: HaloAuthenticationClient
+  children:
+  - OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.#ctor
+  - OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.GetSpartanToken(System.String)
+  langs:
+  - csharp
+  name: HaloAuthenticationClient
+  nameWithType: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient
+  fullName: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Authentication
+  summary: >-
+    Halo authentication client, used to provide the key authentication
+
+    data to perform Halo API requests.
+  syntax:
+    content: public class HaloAuthenticationClient
+    content.csharp: public class HaloAuthenticationClient
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.#ctor
+  commentId: M:OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient
+  langs:
+  - csharp
+  name: HaloAuthenticationClient()
+  nameWithType: HaloAuthenticationClient.HaloAuthenticationClient()
+  fullName: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.HaloAuthenticationClient()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Authentication
+  syntax:
+    content: public HaloAuthenticationClient ();
+    parameters: []
+    content.csharp: public HaloAuthenticationClient ();
+  overload: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.GetSpartanToken(System.String)
+  commentId: M:OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.GetSpartanToken(System.String)
+  id: GetSpartanToken(System.String)
+  parent: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient
+  langs:
+  - csharp
+  name: GetSpartanToken(String)
+  nameWithType: HaloAuthenticationClient.GetSpartanToken(String)
+  fullName: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.GetSpartanToken(String)
+  type: Method
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Authentication
+  summary: Gets the Spartan V4 token.
+  syntax:
+    content: public System.Threading.Tasks.Task<OpenSpartan.Grunt.Models.SpartanToken?> GetSpartanToken (string xstsToken);
+    parameters:
+    - id: xstsToken
+      type: System.String
+      description: XSTS token from the Xbox Live authentication flow.
+    return:
+      type: System.Threading.Tasks.Task{OpenSpartan.Grunt.Models.SpartanToken}
+      description: If successful, returns an instance of <xref data-throw-if-not-resolved="true" uid="OpenSpartan.Grunt.Models.SpartanToken"></xref> representing the authentication token. Otherwise, returns null.
+    content.csharp: public System.Threading.Tasks.Task<OpenSpartan.Grunt.Models.SpartanToken?> GetSpartanToken (string xstsToken);
+  overload: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.GetSpartanToken*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Authentication
+  commentId: N:OpenSpartan.Grunt.Authentication
+  isExternal: false
+  name: OpenSpartan.Grunt.Authentication
+  nameWithType: OpenSpartan.Grunt.Authentication
+  fullName: OpenSpartan.Grunt.Authentication
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.#ctor
+  parent: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient
+  isExternal: false
+  name: HaloAuthenticationClient()
+  nameWithType: HaloAuthenticationClient.HaloAuthenticationClient()
+  fullName: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.HaloAuthenticationClient()
+  type: constructor
+- uid: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.GetSpartanToken(System.String)
+  parent: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient
+  isExternal: false
+  name: GetSpartanToken(String)
+  nameWithType: HaloAuthenticationClient.GetSpartanToken(String)
+  fullName: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.GetSpartanToken(String)
+  type: method
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: OpenSpartan.Grunt.Models.SpartanToken
+  name: SpartanToken
+  nameWithType: SpartanToken
+  fullName: OpenSpartan.Grunt.Models.SpartanToken
+- uid: System.Threading.Tasks.Task{OpenSpartan.Grunt.Models.SpartanToken}
+  parent: System.Threading.Tasks
+  name: Task<SpartanToken>
+  nameWithType: Task<SpartanToken>
+  fullName: System.Threading.Tasks.Task<OpenSpartan.Grunt.Models.SpartanToken>
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.SpartanToken
+    name: SpartanToken
+    nameWithType: SpartanToken
+    fullName: OpenSpartan.Grunt.Models.SpartanToken
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.#ctor
+  parent: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient
+  isExternal: false
+  name: HaloAuthenticationClient
+  nameWithType: HaloAuthenticationClient.HaloAuthenticationClient
+  fullName: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.HaloAuthenticationClient
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.GetSpartanToken*
+  commentId: Overload:OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.GetSpartanToken
+  parent: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient
+  isExternal: false
+  name: GetSpartanToken
+  nameWithType: HaloAuthenticationClient.GetSpartanToken
+  fullName: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.GetSpartanToken
+  monikers:
+  - net6.0
+  type: method

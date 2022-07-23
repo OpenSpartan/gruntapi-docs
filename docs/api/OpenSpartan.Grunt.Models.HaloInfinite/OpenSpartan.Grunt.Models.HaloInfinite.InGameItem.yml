@@ -1,0 +1,352 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  id: InGameItem
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations
+  - OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.CommonData
+  - OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName
+  - OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.TagId
+  - OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.ThemeName
+  langs:
+  - csharp
+  name: InGameItem
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class InGameItem
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class InGameItem
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  langs:
+  - csharp
+  name: InGameItem()
+  nameWithType: InGameItem.InGameItem()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.InGameItem()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public InGameItem ();
+    parameters: []
+    content.csharp: public InGameItem ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations
+  id: AvailableConfigurations
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  langs:
+  - csharp
+  name: AvailableConfigurations
+  nameWithType: InGameItem.AvailableConfigurations
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Configuration[] AvailableConfigurations { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Configuration[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Configuration[] AvailableConfigurations { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.CommonData
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.CommonData
+  id: CommonData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  langs:
+  - csharp
+  name: CommonData
+  nameWithType: InGameItem.CommonData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.CommonData
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData CommonData { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData CommonData { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.CommonData*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName
+  id: EmblemShaderName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  langs:
+  - csharp
+  name: EmblemShaderName
+  nameWithType: InGameItem.EmblemShaderName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.IdentifierName EmblemShaderName { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.IdentifierName
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.IdentifierName EmblemShaderName { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.TagId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.TagId
+  id: TagId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  langs:
+  - csharp
+  name: TagId
+  nameWithType: InGameItem.TagId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.TagId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int TagId { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int TagId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.TagId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.ThemeName
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.ThemeName
+  id: ThemeName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  langs:
+  - csharp
+  name: ThemeName
+  nameWithType: InGameItem.ThemeName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.ThemeName
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.IdentifierName ThemeName { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.IdentifierName
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.IdentifierName ThemeName { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.ThemeName*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: InGameItem()
+  nameWithType: InGameItem.InGameItem()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.InGameItem()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: AvailableConfigurations
+  nameWithType: InGameItem.AvailableConfigurations
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Configuration
+  name: Configuration
+  nameWithType: Configuration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Configuration
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Configuration[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: Configuration[]
+  nameWithType: Configuration[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Configuration[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Configuration
+    name: Configuration
+    nameWithType: Configuration
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.Configuration
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.CommonData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: CommonData
+  nameWithType: InGameItem.CommonData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.CommonData
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: CommonItemData
+  nameWithType: CommonItemData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: EmblemShaderName
+  nameWithType: InGameItem.EmblemShaderName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.IdentifierName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: IdentifierName
+  nameWithType: IdentifierName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.IdentifierName
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.TagId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: TagId
+  nameWithType: InGameItem.TagId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.TagId
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.ThemeName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: ThemeName
+  nameWithType: InGameItem.ThemeName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.ThemeName
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: InGameItem
+  nameWithType: InGameItem.InGameItem
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.InGameItem
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: AvailableConfigurations
+  nameWithType: InGameItem.AvailableConfigurations
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.CommonData*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.CommonData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: CommonData
+  nameWithType: InGameItem.CommonData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.CommonData
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: EmblemShaderName
+  nameWithType: InGameItem.EmblemShaderName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.EmblemShaderName
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.TagId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.TagId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: TagId
+  nameWithType: InGameItem.TagId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.TagId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.ThemeName*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.ThemeName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  isExternal: false
+  name: ThemeName
+  nameWithType: InGameItem.ThemeName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.ThemeName
+  monikers:
+  - net6.0
+  type: property

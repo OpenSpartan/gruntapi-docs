@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Util
+  commentId: N:OpenSpartan.Grunt.Util
+  id: OpenSpartan.Grunt.Util
+  children:
+  - OpenSpartan.Grunt.Util.ConfigurationReader
+  langs:
+  - csharp
+  name: OpenSpartan.Grunt.Util
+  nameWithType: OpenSpartan.Grunt.Util
+  fullName: OpenSpartan.Grunt.Util
+  type: Namespace
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Util.ConfigurationReader
+  commentId: T:OpenSpartan.Grunt.Util.ConfigurationReader
+  parent: OpenSpartan.Grunt.Util
+  isExternal: false
+  name: ConfigurationReader
+  nameWithType: OpenSpartan.Grunt.Util.ConfigurationReader
+  fullName: OpenSpartan.Grunt.Util.ConfigurationReader
+  type: class

@@ -1,0 +1,205 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
+  id: PlayerDecks
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.AssignedDecks
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.ClearanceId
+  langs:
+  - csharp
+  name: PlayerDecks
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class PlayerDecks
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class PlayerDecks
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
+  langs:
+  - csharp
+  name: PlayerDecks()
+  nameWithType: PlayerDecks.PlayerDecks()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.PlayerDecks()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public PlayerDecks ();
+    parameters: []
+    content.csharp: public PlayerDecks ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.AssignedDecks
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.AssignedDecks
+  id: AssignedDecks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
+  langs:
+  - csharp
+  name: AssignedDecks
+  nameWithType: PlayerDecks.AssignedDecks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.AssignedDecks
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.AssignedDeck[] AssignedDecks { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AssignedDeck[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.AssignedDeck[] AssignedDecks { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.AssignedDecks*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.ClearanceId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.ClearanceId
+  id: ClearanceId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
+  langs:
+  - csharp
+  name: ClearanceId
+  nameWithType: PlayerDecks.ClearanceId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.ClearanceId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ClearanceId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ClearanceId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.ClearanceId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
+  isExternal: false
+  name: PlayerDecks()
+  nameWithType: PlayerDecks.PlayerDecks()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.PlayerDecks()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.AssignedDecks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
+  isExternal: false
+  name: AssignedDecks
+  nameWithType: PlayerDecks.AssignedDecks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.AssignedDecks
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssignedDeck
+  name: AssignedDeck
+  nameWithType: AssignedDeck
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssignedDeck
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssignedDeck[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: AssignedDeck[]
+  nameWithType: AssignedDeck[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssignedDeck[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssignedDeck
+    name: AssignedDeck
+    nameWithType: AssignedDeck
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssignedDeck
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.ClearanceId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
+  isExternal: false
+  name: ClearanceId
+  nameWithType: PlayerDecks.ClearanceId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.ClearanceId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
+  isExternal: false
+  name: PlayerDecks
+  nameWithType: PlayerDecks.PlayerDecks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.PlayerDecks
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.AssignedDecks*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.AssignedDecks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
+  isExternal: false
+  name: AssignedDecks
+  nameWithType: PlayerDecks.AssignedDecks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.AssignedDecks
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.ClearanceId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.ClearanceId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
+  isExternal: false
+  name: ClearanceId
+  nameWithType: PlayerDecks.ClearanceId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks.ClearanceId
+  monikers:
+  - net6.0
+  type: property

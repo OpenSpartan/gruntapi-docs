@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  id: ResultContainer
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.Id
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultCode
+  langs:
+  - csharp
+  name: ResultContainer
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public abstract class ResultContainer
+    content.csharp: public abstract class ResultContainer
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - OpenSpartan.Grunt.Models.HaloInfinite.BanSummaryResult
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResult
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsrResults
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  - abstract
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  langs:
+  - csharp
+  name: ResultContainer()
+  nameWithType: ResultContainer.ResultContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultContainer()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: protected ResultContainer ();
+    parameters: []
+    content.csharp: protected ResultContainer ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - protected
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.Id
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.Id
+  id: Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  langs:
+  - csharp
+  name: Id
+  nameWithType: ResultContainer.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.Id
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public string Id { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Id { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.Id*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultCode
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultCode
+  id: ResultCode
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  langs:
+  - csharp
+  name: ResultCode
+  nameWithType: ResultContainer.ResultCode
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultCode
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public int ResultCode { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ResultCode { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultCode*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  isExternal: false
+  name: ResultContainer()
+  nameWithType: ResultContainer.ResultContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultContainer()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  isExternal: false
+  name: Id
+  nameWithType: ResultContainer.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.Id
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultCode
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  isExternal: false
+  name: ResultCode
+  nameWithType: ResultContainer.ResultCode
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultCode
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  isExternal: false
+  name: ResultContainer
+  nameWithType: ResultContainer.ResultContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultContainer
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.Id*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  isExternal: false
+  name: Id
+  nameWithType: ResultContainer.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.Id
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultCode*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultCode
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  isExternal: false
+  name: ResultCode
+  nameWithType: ResultContainer.ResultCode
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultCode
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BanSummaryResult
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.BanSummaryResult
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: BanSummaryResult
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.BanSummaryResult
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BanSummaryResult
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResult
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResult
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlayerSkillResult
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResult
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResult
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsrResults
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsrResults
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistCsrResults
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsrResults
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsrResults
+  type: class

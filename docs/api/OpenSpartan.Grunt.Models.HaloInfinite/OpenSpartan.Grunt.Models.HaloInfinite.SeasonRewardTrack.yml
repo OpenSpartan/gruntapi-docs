@@ -1,0 +1,785 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  id: SeasonRewardTrack
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassLogoImage
+  - OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassSeasonUpsellBackgroundImage
+  - OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.CardBackgroundImage
+  - OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ChallengesBackgroundPath
+  - OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.DateRange
+  - OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Description
+  - OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Logo
+  - OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Name
+  - OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.NarrativeBlurb
+  - OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Number
+  - OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ProgressionBackgroundImage
+  - OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.RitualLogoImage
+  - OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SeasonLogoImage
+  - OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.StorefrontBackgroundImage
+  - OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SummaryBackgroundPath
+  langs:
+  - csharp
+  name: SeasonRewardTrack
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class SeasonRewardTrack
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class SeasonRewardTrack
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  langs:
+  - csharp
+  name: SeasonRewardTrack()
+  nameWithType: SeasonRewardTrack.SeasonRewardTrack()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SeasonRewardTrack()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public SeasonRewardTrack ();
+    parameters: []
+    content.csharp: public SeasonRewardTrack ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassLogoImage
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassLogoImage
+  id: BattlePassLogoImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  langs:
+  - csharp
+  name: BattlePassLogoImage
+  nameWithType: SeasonRewardTrack.BattlePassLogoImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassLogoImage
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string BattlePassLogoImage { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string BattlePassLogoImage { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassLogoImage*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassSeasonUpsellBackgroundImage
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassSeasonUpsellBackgroundImage
+  id: BattlePassSeasonUpsellBackgroundImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  langs:
+  - csharp
+  name: BattlePassSeasonUpsellBackgroundImage
+  nameWithType: SeasonRewardTrack.BattlePassSeasonUpsellBackgroundImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassSeasonUpsellBackgroundImage
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string BattlePassSeasonUpsellBackgroundImage { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string BattlePassSeasonUpsellBackgroundImage { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassSeasonUpsellBackgroundImage*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.CardBackgroundImage
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.CardBackgroundImage
+  id: CardBackgroundImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  langs:
+  - csharp
+  name: CardBackgroundImage
+  nameWithType: SeasonRewardTrack.CardBackgroundImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.CardBackgroundImage
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string CardBackgroundImage { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string CardBackgroundImage { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.CardBackgroundImage*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ChallengesBackgroundPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ChallengesBackgroundPath
+  id: ChallengesBackgroundPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  langs:
+  - csharp
+  name: ChallengesBackgroundPath
+  nameWithType: SeasonRewardTrack.ChallengesBackgroundPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ChallengesBackgroundPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ChallengesBackgroundPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ChallengesBackgroundPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ChallengesBackgroundPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.DateRange
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.DateRange
+  id: DateRange
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  langs:
+  - csharp
+  name: DateRange
+  nameWithType: SeasonRewardTrack.DateRange
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.DateRange
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString DateRange { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString DateRange { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.DateRange*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Description
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Description
+  id: Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  langs:
+  - csharp
+  name: Description
+  nameWithType: SeasonRewardTrack.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Description
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Description { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Description { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Description*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Logo
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Logo
+  id: Logo
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  langs:
+  - csharp
+  name: Logo
+  nameWithType: SeasonRewardTrack.Logo
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Logo
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Logo { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Logo { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Logo*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Name
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Name
+  id: Name
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  langs:
+  - csharp
+  name: Name
+  nameWithType: SeasonRewardTrack.Name
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Name
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Name { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Name { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Name*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.NarrativeBlurb
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.NarrativeBlurb
+  id: NarrativeBlurb
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  langs:
+  - csharp
+  name: NarrativeBlurb
+  nameWithType: SeasonRewardTrack.NarrativeBlurb
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.NarrativeBlurb
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString NarrativeBlurb { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString NarrativeBlurb { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.NarrativeBlurb*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Number
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Number
+  id: Number
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  langs:
+  - csharp
+  name: Number
+  nameWithType: SeasonRewardTrack.Number
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Number
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Number { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Number { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Number*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ProgressionBackgroundImage
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ProgressionBackgroundImage
+  id: ProgressionBackgroundImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  langs:
+  - csharp
+  name: ProgressionBackgroundImage
+  nameWithType: SeasonRewardTrack.ProgressionBackgroundImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ProgressionBackgroundImage
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ProgressionBackgroundImage { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ProgressionBackgroundImage { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ProgressionBackgroundImage*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.RitualLogoImage
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.RitualLogoImage
+  id: RitualLogoImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  langs:
+  - csharp
+  name: RitualLogoImage
+  nameWithType: SeasonRewardTrack.RitualLogoImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.RitualLogoImage
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string RitualLogoImage { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string RitualLogoImage { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.RitualLogoImage*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SeasonLogoImage
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SeasonLogoImage
+  id: SeasonLogoImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  langs:
+  - csharp
+  name: SeasonLogoImage
+  nameWithType: SeasonRewardTrack.SeasonLogoImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SeasonLogoImage
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string SeasonLogoImage { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string SeasonLogoImage { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SeasonLogoImage*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.StorefrontBackgroundImage
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.StorefrontBackgroundImage
+  id: StorefrontBackgroundImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  langs:
+  - csharp
+  name: StorefrontBackgroundImage
+  nameWithType: SeasonRewardTrack.StorefrontBackgroundImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.StorefrontBackgroundImage
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string StorefrontBackgroundImage { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string StorefrontBackgroundImage { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.StorefrontBackgroundImage*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SummaryBackgroundPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SummaryBackgroundPath
+  id: SummaryBackgroundPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  langs:
+  - csharp
+  name: SummaryBackgroundPath
+  nameWithType: SeasonRewardTrack.SummaryBackgroundPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SummaryBackgroundPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string SummaryBackgroundPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string SummaryBackgroundPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SummaryBackgroundPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: SeasonRewardTrack()
+  nameWithType: SeasonRewardTrack.SeasonRewardTrack()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SeasonRewardTrack()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassLogoImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: BattlePassLogoImage
+  nameWithType: SeasonRewardTrack.BattlePassLogoImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassLogoImage
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassSeasonUpsellBackgroundImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: BattlePassSeasonUpsellBackgroundImage
+  nameWithType: SeasonRewardTrack.BattlePassSeasonUpsellBackgroundImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassSeasonUpsellBackgroundImage
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.CardBackgroundImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: CardBackgroundImage
+  nameWithType: SeasonRewardTrack.CardBackgroundImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.CardBackgroundImage
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ChallengesBackgroundPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: ChallengesBackgroundPath
+  nameWithType: SeasonRewardTrack.ChallengesBackgroundPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ChallengesBackgroundPath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.DateRange
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: DateRange
+  nameWithType: SeasonRewardTrack.DateRange
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.DateRange
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: DisplayString
+  nameWithType: DisplayString
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: Description
+  nameWithType: SeasonRewardTrack.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Description
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Logo
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: Logo
+  nameWithType: SeasonRewardTrack.Logo
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Logo
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Name
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: Name
+  nameWithType: SeasonRewardTrack.Name
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Name
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.NarrativeBlurb
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: NarrativeBlurb
+  nameWithType: SeasonRewardTrack.NarrativeBlurb
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.NarrativeBlurb
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Number
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: Number
+  nameWithType: SeasonRewardTrack.Number
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Number
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ProgressionBackgroundImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: ProgressionBackgroundImage
+  nameWithType: SeasonRewardTrack.ProgressionBackgroundImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ProgressionBackgroundImage
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.RitualLogoImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: RitualLogoImage
+  nameWithType: SeasonRewardTrack.RitualLogoImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.RitualLogoImage
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SeasonLogoImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: SeasonLogoImage
+  nameWithType: SeasonRewardTrack.SeasonLogoImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SeasonLogoImage
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.StorefrontBackgroundImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: StorefrontBackgroundImage
+  nameWithType: SeasonRewardTrack.StorefrontBackgroundImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.StorefrontBackgroundImage
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SummaryBackgroundPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: SummaryBackgroundPath
+  nameWithType: SeasonRewardTrack.SummaryBackgroundPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SummaryBackgroundPath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: SeasonRewardTrack
+  nameWithType: SeasonRewardTrack.SeasonRewardTrack
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SeasonRewardTrack
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassLogoImage*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassLogoImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: BattlePassLogoImage
+  nameWithType: SeasonRewardTrack.BattlePassLogoImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassLogoImage
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassSeasonUpsellBackgroundImage*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassSeasonUpsellBackgroundImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: BattlePassSeasonUpsellBackgroundImage
+  nameWithType: SeasonRewardTrack.BattlePassSeasonUpsellBackgroundImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.BattlePassSeasonUpsellBackgroundImage
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.CardBackgroundImage*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.CardBackgroundImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: CardBackgroundImage
+  nameWithType: SeasonRewardTrack.CardBackgroundImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.CardBackgroundImage
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ChallengesBackgroundPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ChallengesBackgroundPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: ChallengesBackgroundPath
+  nameWithType: SeasonRewardTrack.ChallengesBackgroundPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ChallengesBackgroundPath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.DateRange*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.DateRange
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: DateRange
+  nameWithType: SeasonRewardTrack.DateRange
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.DateRange
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Description*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: Description
+  nameWithType: SeasonRewardTrack.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Description
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Logo*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Logo
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: Logo
+  nameWithType: SeasonRewardTrack.Logo
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Logo
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Name*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Name
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: Name
+  nameWithType: SeasonRewardTrack.Name
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Name
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.NarrativeBlurb*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.NarrativeBlurb
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: NarrativeBlurb
+  nameWithType: SeasonRewardTrack.NarrativeBlurb
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.NarrativeBlurb
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Number*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Number
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: Number
+  nameWithType: SeasonRewardTrack.Number
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.Number
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ProgressionBackgroundImage*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ProgressionBackgroundImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: ProgressionBackgroundImage
+  nameWithType: SeasonRewardTrack.ProgressionBackgroundImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.ProgressionBackgroundImage
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.RitualLogoImage*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.RitualLogoImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: RitualLogoImage
+  nameWithType: SeasonRewardTrack.RitualLogoImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.RitualLogoImage
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SeasonLogoImage*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SeasonLogoImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: SeasonLogoImage
+  nameWithType: SeasonRewardTrack.SeasonLogoImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SeasonLogoImage
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.StorefrontBackgroundImage*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.StorefrontBackgroundImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: StorefrontBackgroundImage
+  nameWithType: SeasonRewardTrack.StorefrontBackgroundImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.StorefrontBackgroundImage
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SummaryBackgroundPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SummaryBackgroundPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
+  isExternal: false
+  name: SummaryBackgroundPath
+  nameWithType: SeasonRewardTrack.SummaryBackgroundPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack.SummaryBackgroundPath
+  monikers:
+  - net6.0
+  type: property

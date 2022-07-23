@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.SpartanTokenProof
+  commentId: T:OpenSpartan.Grunt.Models.SpartanTokenProof
+  id: SpartanTokenProof
+  children:
+  - OpenSpartan.Grunt.Models.SpartanTokenProof.#ctor
+  - OpenSpartan.Grunt.Models.SpartanTokenProof.Token
+  - OpenSpartan.Grunt.Models.SpartanTokenProof.TokenType
+  langs:
+  - csharp
+  name: SpartanTokenProof
+  nameWithType: OpenSpartan.Grunt.Models.SpartanTokenProof
+  fullName: OpenSpartan.Grunt.Models.SpartanTokenProof
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public class SpartanTokenProof
+    content.csharp: public class SpartanTokenProof
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.SpartanTokenProof.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.SpartanTokenProof.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.SpartanTokenProof
+  langs:
+  - csharp
+  name: SpartanTokenProof()
+  nameWithType: SpartanTokenProof.SpartanTokenProof()
+  fullName: OpenSpartan.Grunt.Models.SpartanTokenProof.SpartanTokenProof()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public SpartanTokenProof ();
+    parameters: []
+    content.csharp: public SpartanTokenProof ();
+  overload: OpenSpartan.Grunt.Models.SpartanTokenProof.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.SpartanTokenProof.Token
+  commentId: P:OpenSpartan.Grunt.Models.SpartanTokenProof.Token
+  id: Token
+  parent: OpenSpartan.Grunt.Models.SpartanTokenProof
+  langs:
+  - csharp
+  name: Token
+  nameWithType: SpartanTokenProof.Token
+  fullName: OpenSpartan.Grunt.Models.SpartanTokenProof.Token
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public string Token { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Token { get; set; }
+  overload: OpenSpartan.Grunt.Models.SpartanTokenProof.Token*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.SpartanTokenProof.TokenType
+  commentId: P:OpenSpartan.Grunt.Models.SpartanTokenProof.TokenType
+  id: TokenType
+  parent: OpenSpartan.Grunt.Models.SpartanTokenProof
+  langs:
+  - csharp
+  name: TokenType
+  nameWithType: SpartanTokenProof.TokenType
+  fullName: OpenSpartan.Grunt.Models.SpartanTokenProof.TokenType
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public string TokenType { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string TokenType { get; set; }
+  overload: OpenSpartan.Grunt.Models.SpartanTokenProof.TokenType*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models
+  commentId: N:OpenSpartan.Grunt.Models
+  isExternal: false
+  name: OpenSpartan.Grunt.Models
+  nameWithType: OpenSpartan.Grunt.Models
+  fullName: OpenSpartan.Grunt.Models
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.SpartanTokenProof.#ctor
+  parent: OpenSpartan.Grunt.Models.SpartanTokenProof
+  isExternal: false
+  name: SpartanTokenProof()
+  nameWithType: SpartanTokenProof.SpartanTokenProof()
+  fullName: OpenSpartan.Grunt.Models.SpartanTokenProof.SpartanTokenProof()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.SpartanTokenProof.Token
+  parent: OpenSpartan.Grunt.Models.SpartanTokenProof
+  isExternal: false
+  name: Token
+  nameWithType: SpartanTokenProof.Token
+  fullName: OpenSpartan.Grunt.Models.SpartanTokenProof.Token
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.SpartanTokenProof.TokenType
+  parent: OpenSpartan.Grunt.Models.SpartanTokenProof
+  isExternal: false
+  name: TokenType
+  nameWithType: SpartanTokenProof.TokenType
+  fullName: OpenSpartan.Grunt.Models.SpartanTokenProof.TokenType
+  type: property
+- uid: OpenSpartan.Grunt.Models.SpartanTokenProof.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.SpartanTokenProof.#ctor
+  parent: OpenSpartan.Grunt.Models.SpartanTokenProof
+  isExternal: false
+  name: SpartanTokenProof
+  nameWithType: SpartanTokenProof.SpartanTokenProof
+  fullName: OpenSpartan.Grunt.Models.SpartanTokenProof.SpartanTokenProof
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.SpartanTokenProof.Token*
+  commentId: Overload:OpenSpartan.Grunt.Models.SpartanTokenProof.Token
+  parent: OpenSpartan.Grunt.Models.SpartanTokenProof
+  isExternal: false
+  name: Token
+  nameWithType: SpartanTokenProof.Token
+  fullName: OpenSpartan.Grunt.Models.SpartanTokenProof.Token
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.SpartanTokenProof.TokenType*
+  commentId: Overload:OpenSpartan.Grunt.Models.SpartanTokenProof.TokenType
+  parent: OpenSpartan.Grunt.Models.SpartanTokenProof
+  isExternal: false
+  name: TokenType
+  nameWithType: SpartanTokenProof.TokenType
+  fullName: OpenSpartan.Grunt.Models.SpartanTokenProof.TokenType
+  monikers:
+  - net6.0
+  type: property

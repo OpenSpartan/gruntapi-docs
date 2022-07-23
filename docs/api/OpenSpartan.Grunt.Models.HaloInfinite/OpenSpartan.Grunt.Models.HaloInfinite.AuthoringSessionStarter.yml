@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  id: AuthoringSessionStarter
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.PreviousVersionId
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.SessionOrigin
+  langs:
+  - csharp
+  name: AuthoringSessionStarter
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AuthoringSessionStarter
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AuthoringSessionStarter
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  langs:
+  - csharp
+  name: AuthoringSessionStarter()
+  nameWithType: AuthoringSessionStarter.AuthoringSessionStarter()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.AuthoringSessionStarter()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public AuthoringSessionStarter ();
+    parameters: []
+    content.csharp: public AuthoringSessionStarter ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.PreviousVersionId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.PreviousVersionId
+  id: PreviousVersionId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  langs:
+  - csharp
+  name: PreviousVersionId
+  nameWithType: AuthoringSessionStarter.PreviousVersionId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.PreviousVersionId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string PreviousVersionId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string PreviousVersionId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.PreviousVersionId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.SessionOrigin
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.SessionOrigin
+  id: SessionOrigin
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  langs:
+  - csharp
+  name: SessionOrigin
+  nameWithType: AuthoringSessionStarter.SessionOrigin
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.SessionOrigin
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string SessionOrigin { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string SessionOrigin { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.SessionOrigin*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  isExternal: false
+  name: AuthoringSessionStarter()
+  nameWithType: AuthoringSessionStarter.AuthoringSessionStarter()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.AuthoringSessionStarter()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.PreviousVersionId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  isExternal: false
+  name: PreviousVersionId
+  nameWithType: AuthoringSessionStarter.PreviousVersionId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.PreviousVersionId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.SessionOrigin
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  isExternal: false
+  name: SessionOrigin
+  nameWithType: AuthoringSessionStarter.SessionOrigin
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.SessionOrigin
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  isExternal: false
+  name: AuthoringSessionStarter
+  nameWithType: AuthoringSessionStarter.AuthoringSessionStarter
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.AuthoringSessionStarter
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.PreviousVersionId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.PreviousVersionId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  isExternal: false
+  name: PreviousVersionId
+  nameWithType: AuthoringSessionStarter.PreviousVersionId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.PreviousVersionId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.SessionOrigin*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.SessionOrigin
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  isExternal: false
+  name: SessionOrigin
+  nameWithType: AuthoringSessionStarter.SessionOrigin
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter.SessionOrigin
+  monikers:
+  - net6.0
+  type: property

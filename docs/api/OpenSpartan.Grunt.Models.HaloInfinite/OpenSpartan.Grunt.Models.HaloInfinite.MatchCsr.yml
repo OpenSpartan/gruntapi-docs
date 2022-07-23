@@ -1,0 +1,509 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  id: MatchCsr
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.InitialMeasurementMatches
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.MeasurementMatchesRemaining
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextSubTier
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTier
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTierStart
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.SubTier
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Tier
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.TierStart
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Value
+  langs:
+  - csharp
+  name: MatchCsr
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class MatchCsr
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class MatchCsr
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  langs:
+  - csharp
+  name: MatchCsr()
+  nameWithType: MatchCsr.MatchCsr()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.MatchCsr()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public MatchCsr ();
+    parameters: []
+    content.csharp: public MatchCsr ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.InitialMeasurementMatches
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.InitialMeasurementMatches
+  id: InitialMeasurementMatches
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  langs:
+  - csharp
+  name: InitialMeasurementMatches
+  nameWithType: MatchCsr.InitialMeasurementMatches
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.InitialMeasurementMatches
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int InitialMeasurementMatches { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int InitialMeasurementMatches { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.InitialMeasurementMatches*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.MeasurementMatchesRemaining
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.MeasurementMatchesRemaining
+  id: MeasurementMatchesRemaining
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  langs:
+  - csharp
+  name: MeasurementMatchesRemaining
+  nameWithType: MatchCsr.MeasurementMatchesRemaining
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.MeasurementMatchesRemaining
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int MeasurementMatchesRemaining { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int MeasurementMatchesRemaining { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.MeasurementMatchesRemaining*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextSubTier
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextSubTier
+  id: NextSubTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  langs:
+  - csharp
+  name: NextSubTier
+  nameWithType: MatchCsr.NextSubTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextSubTier
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int NextSubTier { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int NextSubTier { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextSubTier*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTier
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTier
+  id: NextTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  langs:
+  - csharp
+  name: NextTier
+  nameWithType: MatchCsr.NextTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTier
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string NextTier { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string NextTier { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTier*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTierStart
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTierStart
+  id: NextTierStart
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  langs:
+  - csharp
+  name: NextTierStart
+  nameWithType: MatchCsr.NextTierStart
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTierStart
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int NextTierStart { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int NextTierStart { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTierStart*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.SubTier
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.SubTier
+  id: SubTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  langs:
+  - csharp
+  name: SubTier
+  nameWithType: MatchCsr.SubTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.SubTier
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int SubTier { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int SubTier { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.SubTier*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Tier
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Tier
+  id: Tier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  langs:
+  - csharp
+  name: Tier
+  nameWithType: MatchCsr.Tier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Tier
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Tier { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Tier { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Tier*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.TierStart
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.TierStart
+  id: TierStart
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  langs:
+  - csharp
+  name: TierStart
+  nameWithType: MatchCsr.TierStart
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.TierStart
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int TierStart { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int TierStart { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.TierStart*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Value
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Value
+  id: Value
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  langs:
+  - csharp
+  name: Value
+  nameWithType: MatchCsr.Value
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Value
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Value { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Value { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Value*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: MatchCsr()
+  nameWithType: MatchCsr.MatchCsr()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.MatchCsr()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.InitialMeasurementMatches
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: InitialMeasurementMatches
+  nameWithType: MatchCsr.InitialMeasurementMatches
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.InitialMeasurementMatches
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.MeasurementMatchesRemaining
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: MeasurementMatchesRemaining
+  nameWithType: MatchCsr.MeasurementMatchesRemaining
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.MeasurementMatchesRemaining
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextSubTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: NextSubTier
+  nameWithType: MatchCsr.NextSubTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextSubTier
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: NextTier
+  nameWithType: MatchCsr.NextTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTier
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTierStart
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: NextTierStart
+  nameWithType: MatchCsr.NextTierStart
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTierStart
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.SubTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: SubTier
+  nameWithType: MatchCsr.SubTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.SubTier
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Tier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: Tier
+  nameWithType: MatchCsr.Tier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Tier
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.TierStart
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: TierStart
+  nameWithType: MatchCsr.TierStart
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.TierStart
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Value
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: Value
+  nameWithType: MatchCsr.Value
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Value
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: MatchCsr
+  nameWithType: MatchCsr.MatchCsr
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.MatchCsr
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.InitialMeasurementMatches*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.InitialMeasurementMatches
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: InitialMeasurementMatches
+  nameWithType: MatchCsr.InitialMeasurementMatches
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.InitialMeasurementMatches
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.MeasurementMatchesRemaining*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.MeasurementMatchesRemaining
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: MeasurementMatchesRemaining
+  nameWithType: MatchCsr.MeasurementMatchesRemaining
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.MeasurementMatchesRemaining
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextSubTier*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextSubTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: NextSubTier
+  nameWithType: MatchCsr.NextSubTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextSubTier
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTier*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: NextTier
+  nameWithType: MatchCsr.NextTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTier
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTierStart*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTierStart
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: NextTierStart
+  nameWithType: MatchCsr.NextTierStart
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.NextTierStart
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.SubTier*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.SubTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: SubTier
+  nameWithType: MatchCsr.SubTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.SubTier
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Tier*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Tier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: Tier
+  nameWithType: MatchCsr.Tier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Tier
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.TierStart*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.TierStart
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: TierStart
+  nameWithType: MatchCsr.TierStart
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.TierStart
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Value*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Value
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  isExternal: false
+  name: Value
+  nameWithType: MatchCsr.Value
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr.Value
+  monikers:
+  - net6.0
+  type: property

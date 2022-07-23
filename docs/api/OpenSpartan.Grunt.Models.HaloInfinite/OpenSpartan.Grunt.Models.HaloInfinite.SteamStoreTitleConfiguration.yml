@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+  id: SteamStoreTitleConfiguration
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi
+  - OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi343
+  langs:
+  - csharp
+  name: SteamStoreTitleConfiguration
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class SteamStoreTitleConfiguration
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class SteamStoreTitleConfiguration
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+  langs:
+  - csharp
+  name: SteamStoreTitleConfiguration()
+  nameWithType: SteamStoreTitleConfiguration.SteamStoreTitleConfiguration()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.SteamStoreTitleConfiguration()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public SteamStoreTitleConfiguration ();
+    parameters: []
+    content.csharp: public SteamStoreTitleConfiguration ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi
+  id: hi
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+  langs:
+  - csharp
+  name: hi
+  nameWithType: SteamStoreTitleConfiguration.hi
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.HaloInfiniteSteamStoreTitle hi { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfiniteSteamStoreTitle
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.HaloInfiniteSteamStoreTitle hi { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi343
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi343
+  id: hi343
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+  langs:
+  - csharp
+  name: hi343
+  nameWithType: SteamStoreTitleConfiguration.hi343
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi343
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle hi343 { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle hi343 { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi343*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+  isExternal: false
+  name: SteamStoreTitleConfiguration()
+  nameWithType: SteamStoreTitleConfiguration.SteamStoreTitleConfiguration()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.SteamStoreTitleConfiguration()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+  isExternal: false
+  name: hi
+  nameWithType: SteamStoreTitleConfiguration.hi
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfiniteSteamStoreTitle
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: HaloInfiniteSteamStoreTitle
+  nameWithType: HaloInfiniteSteamStoreTitle
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfiniteSteamStoreTitle
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi343
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+  isExternal: false
+  name: hi343
+  nameWithType: SteamStoreTitleConfiguration.hi343
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi343
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: HaloInfinite343SteamStoreTitle
+  nameWithType: HaloInfinite343SteamStoreTitle
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+  isExternal: false
+  name: SteamStoreTitleConfiguration
+  nameWithType: SteamStoreTitleConfiguration.SteamStoreTitleConfiguration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.SteamStoreTitleConfiguration
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+  isExternal: false
+  name: hi
+  nameWithType: SteamStoreTitleConfiguration.hi
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi343*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi343
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+  isExternal: false
+  name: hi343
+  nameWithType: SteamStoreTitleConfiguration.hi343
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration.hi343
+  monikers:
+  - net6.0
+  type: property

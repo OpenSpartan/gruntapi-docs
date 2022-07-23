@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer
+  id: LocalizedDataContainer
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer.#ctor
+  langs:
+  - csharp
+  name: LocalizedDataContainer
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class LocalizedDataContainer
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class LocalizedDataContainer
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer
+  langs:
+  - csharp
+  name: LocalizedDataContainer()
+  nameWithType: LocalizedDataContainer.LocalizedDataContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer.LocalizedDataContainer()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public LocalizedDataContainer ();
+    parameters: []
+    content.csharp: public LocalizedDataContainer ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer
+  isExternal: false
+  name: LocalizedDataContainer()
+  nameWithType: LocalizedDataContainer.LocalizedDataContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer.LocalizedDataContainer()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer
+  isExternal: false
+  name: LocalizedDataContainer
+  nameWithType: LocalizedDataContainer.LocalizedDataContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer.LocalizedDataContainer
+  monikers:
+  - net6.0
+  type: constructor

@@ -1,0 +1,358 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  id: ApiAuthority
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthenticationMethods
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthorityId
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Hostname
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Port
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Scheme
+  langs:
+  - csharp
+  name: ApiAuthority
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public class ApiAuthority
+    content.csharp: public class ApiAuthority
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  langs:
+  - csharp
+  name: ApiAuthority()
+  nameWithType: ApiAuthority.ApiAuthority()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.ApiAuthority()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public ApiAuthority ();
+    parameters: []
+    content.csharp: public ApiAuthority ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthenticationMethods
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthenticationMethods
+  id: AuthenticationMethods
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  langs:
+  - csharp
+  name: AuthenticationMethods
+  nameWithType: ApiAuthority.AuthenticationMethods
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthenticationMethods
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public int[] AuthenticationMethods { get; set; }
+    return:
+      type: System.Int32[]
+      description: ''
+    content.csharp: public int[] AuthenticationMethods { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthenticationMethods*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthorityId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthorityId
+  id: AuthorityId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  langs:
+  - csharp
+  name: AuthorityId
+  nameWithType: ApiAuthority.AuthorityId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthorityId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public string AuthorityId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string AuthorityId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthorityId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Hostname
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Hostname
+  id: Hostname
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  langs:
+  - csharp
+  name: Hostname
+  nameWithType: ApiAuthority.Hostname
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Hostname
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public string Hostname { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Hostname { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Hostname*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Port
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Port
+  id: Port
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  langs:
+  - csharp
+  name: Port
+  nameWithType: ApiAuthority.Port
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Port
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public int? Port { get; set; }
+    return:
+      type: System.Nullable{System.Int32}
+      description: ''
+    content.csharp: public int? Port { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Port*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Scheme
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Scheme
+  id: Scheme
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  langs:
+  - csharp
+  name: Scheme
+  nameWithType: ApiAuthority.Scheme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Scheme
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public int Scheme { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Scheme { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Scheme*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  isExternal: false
+  name: ApiAuthority()
+  nameWithType: ApiAuthority.ApiAuthority()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.ApiAuthority()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthenticationMethods
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  isExternal: false
+  name: AuthenticationMethods
+  nameWithType: ApiAuthority.AuthenticationMethods
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthenticationMethods
+  type: property
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Int32[]
+  parent: System
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthorityId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  isExternal: false
+  name: AuthorityId
+  nameWithType: ApiAuthority.AuthorityId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthorityId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Hostname
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  isExternal: false
+  name: Hostname
+  nameWithType: ApiAuthority.Hostname
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Hostname
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Port
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  isExternal: false
+  name: Port
+  nameWithType: ApiAuthority.Port
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Port
+  type: property
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable
+  nameWithType: Nullable
+  fullName: System.Nullable
+- uid: System.Nullable{System.Int32}
+  parent: System
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Scheme
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  isExternal: false
+  name: Scheme
+  nameWithType: ApiAuthority.Scheme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Scheme
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  isExternal: false
+  name: ApiAuthority
+  nameWithType: ApiAuthority.ApiAuthority
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.ApiAuthority
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthenticationMethods*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthenticationMethods
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  isExternal: false
+  name: AuthenticationMethods
+  nameWithType: ApiAuthority.AuthenticationMethods
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthenticationMethods
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthorityId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthorityId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  isExternal: false
+  name: AuthorityId
+  nameWithType: ApiAuthority.AuthorityId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.AuthorityId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Hostname*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Hostname
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  isExternal: false
+  name: Hostname
+  nameWithType: ApiAuthority.Hostname
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Hostname
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Port*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Port
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  isExternal: false
+  name: Port
+  nameWithType: ApiAuthority.Port
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Port
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Scheme*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Scheme
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  isExternal: false
+  name: Scheme
+  nameWithType: ApiAuthority.Scheme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority.Scheme
+  monikers:
+  - net6.0
+  type: property

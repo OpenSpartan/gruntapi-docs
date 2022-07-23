@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList
+  id: LobbyHopperErrorMessageList
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.ErrorList
+  langs:
+  - csharp
+  name: LobbyHopperErrorMessageList
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class LobbyHopperErrorMessageList
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class LobbyHopperErrorMessageList
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList
+  langs:
+  - csharp
+  name: LobbyHopperErrorMessageList()
+  nameWithType: LobbyHopperErrorMessageList.LobbyHopperErrorMessageList()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.LobbyHopperErrorMessageList()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public LobbyHopperErrorMessageList ();
+    parameters: []
+    content.csharp: public LobbyHopperErrorMessageList ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.ErrorList
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.ErrorList
+  id: ErrorList
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList
+  langs:
+  - csharp
+  name: ErrorList
+  nameWithType: LobbyHopperErrorMessageList.ErrorList
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.ErrorList
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage[] ErrorList { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage[] ErrorList { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.ErrorList*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList
+  isExternal: false
+  name: LobbyHopperErrorMessageList()
+  nameWithType: LobbyHopperErrorMessageList.LobbyHopperErrorMessageList()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.LobbyHopperErrorMessageList()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.ErrorList
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList
+  isExternal: false
+  name: ErrorList
+  nameWithType: LobbyHopperErrorMessageList.ErrorList
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.ErrorList
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  name: LobbyHopperErrorMessage
+  nameWithType: LobbyHopperErrorMessage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: LobbyHopperErrorMessage[]
+  nameWithType: LobbyHopperErrorMessage[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+    name: LobbyHopperErrorMessage
+    nameWithType: LobbyHopperErrorMessage
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList
+  isExternal: false
+  name: LobbyHopperErrorMessageList
+  nameWithType: LobbyHopperErrorMessageList.LobbyHopperErrorMessageList
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.LobbyHopperErrorMessageList
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.ErrorList*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.ErrorList
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList
+  isExternal: false
+  name: ErrorList
+  nameWithType: LobbyHopperErrorMessageList.ErrorList
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList.ErrorList
+  monikers:
+  - net6.0
+  type: property

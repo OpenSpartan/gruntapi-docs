@@ -1,0 +1,736 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  id: AuthoringAsset
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Admin
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetHome
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetId
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetStats
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.CreatedDateUtc
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Description
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.HardDeleteTimeUtc
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.InternalName
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.IsCurrentlyBeingEdited
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Kind
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.LastModifiedDateUtc
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.OriginalOwner
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Permissions
+  langs:
+  - csharp
+  name: AuthoringAsset
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AuthoringAsset
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AuthoringAsset
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  langs:
+  - csharp
+  name: AuthoringAsset()
+  nameWithType: AuthoringAsset.AuthoringAsset()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AuthoringAsset()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public AuthoringAsset ();
+    parameters: []
+    content.csharp: public AuthoringAsset ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Admin
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Admin
+  id: Admin
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  langs:
+  - csharp
+  name: Admin
+  nameWithType: AuthoringAsset.Admin
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Admin
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Admin { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Admin { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Admin*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetHome
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetHome
+  id: AssetHome
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  langs:
+  - csharp
+  name: AssetHome
+  nameWithType: AuthoringAsset.AssetHome
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetHome
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int AssetHome { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int AssetHome { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetHome*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetId
+  id: AssetId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  langs:
+  - csharp
+  name: AssetId
+  nameWithType: AuthoringAsset.AssetId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string AssetId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string AssetId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetStats
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetStats
+  id: AssetStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  langs:
+  - csharp
+  name: AssetStats
+  nameWithType: AuthoringAsset.AssetStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetStats
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetStats AssetStats { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetStats
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetStats AssetStats { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetStats*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.CreatedDateUtc
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.CreatedDateUtc
+  id: CreatedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  langs:
+  - csharp
+  name: CreatedDateUtc
+  nameWithType: AuthoringAsset.CreatedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.CreatedDateUtc
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.APIFormattedDate CreatedDateUtc { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.APIFormattedDate CreatedDateUtc { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.CreatedDateUtc*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Description
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Description
+  id: Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  langs:
+  - csharp
+  name: Description
+  nameWithType: AuthoringAsset.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Description
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Description { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Description { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Description*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.HardDeleteTimeUtc
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.HardDeleteTimeUtc
+  id: HardDeleteTimeUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  langs:
+  - csharp
+  name: HardDeleteTimeUtc
+  nameWithType: AuthoringAsset.HardDeleteTimeUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.HardDeleteTimeUtc
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.APIFormattedDate HardDeleteTimeUtc { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.APIFormattedDate HardDeleteTimeUtc { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.HardDeleteTimeUtc*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.InternalName
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.InternalName
+  id: InternalName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  langs:
+  - csharp
+  name: InternalName
+  nameWithType: AuthoringAsset.InternalName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.InternalName
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string InternalName { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string InternalName { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.InternalName*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.IsCurrentlyBeingEdited
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.IsCurrentlyBeingEdited
+  id: IsCurrentlyBeingEdited
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  langs:
+  - csharp
+  name: IsCurrentlyBeingEdited
+  nameWithType: AuthoringAsset.IsCurrentlyBeingEdited
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.IsCurrentlyBeingEdited
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool IsCurrentlyBeingEdited { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool IsCurrentlyBeingEdited { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.IsCurrentlyBeingEdited*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Kind
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Kind
+  id: Kind
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  langs:
+  - csharp
+  name: Kind
+  nameWithType: AuthoringAsset.Kind
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Kind
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Kind { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Kind { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Kind*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.LastModifiedDateUtc
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.LastModifiedDateUtc
+  id: LastModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  langs:
+  - csharp
+  name: LastModifiedDateUtc
+  nameWithType: AuthoringAsset.LastModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.LastModifiedDateUtc
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.APIFormattedDate LastModifiedDateUtc { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.APIFormattedDate LastModifiedDateUtc { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.LastModifiedDateUtc*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.OriginalOwner
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.OriginalOwner
+  id: OriginalOwner
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  langs:
+  - csharp
+  name: OriginalOwner
+  nameWithType: AuthoringAsset.OriginalOwner
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.OriginalOwner
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string OriginalOwner { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string OriginalOwner { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.OriginalOwner*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Permissions
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Permissions
+  id: Permissions
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  langs:
+  - csharp
+  name: Permissions
+  nameWithType: AuthoringAsset.Permissions
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Permissions
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.Permission> Permissions { get; set; }
+    return:
+      type: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.Permission}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.Permission> Permissions { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Permissions*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: AuthoringAsset()
+  nameWithType: AuthoringAsset.AuthoringAsset()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AuthoringAsset()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Admin
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: Admin
+  nameWithType: AuthoringAsset.Admin
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Admin
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetHome
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: AssetHome
+  nameWithType: AuthoringAsset.AssetHome
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetHome
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: AssetId
+  nameWithType: AuthoringAsset.AssetId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: AssetStats
+  nameWithType: AuthoringAsset.AssetStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetStats
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AuthoringAssetStats
+  nameWithType: AuthoringAssetStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetStats
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.CreatedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: CreatedDateUtc
+  nameWithType: AuthoringAsset.CreatedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.CreatedDateUtc
+  type: property
+- uid: OpenSpartan.Grunt.Models.APIFormattedDate
+  parent: OpenSpartan.Grunt.Models
+  isExternal: false
+  name: APIFormattedDate
+  nameWithType: APIFormattedDate
+  fullName: OpenSpartan.Grunt.Models.APIFormattedDate
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: Description
+  nameWithType: AuthoringAsset.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Description
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.HardDeleteTimeUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: HardDeleteTimeUtc
+  nameWithType: AuthoringAsset.HardDeleteTimeUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.HardDeleteTimeUtc
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.InternalName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: InternalName
+  nameWithType: AuthoringAsset.InternalName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.InternalName
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.IsCurrentlyBeingEdited
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: IsCurrentlyBeingEdited
+  nameWithType: AuthoringAsset.IsCurrentlyBeingEdited
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.IsCurrentlyBeingEdited
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Kind
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: Kind
+  nameWithType: AuthoringAsset.Kind
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Kind
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.LastModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: AuthoringAsset.LastModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.LastModifiedDateUtc
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.OriginalOwner
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: OriginalOwner
+  nameWithType: AuthoringAsset.OriginalOwner
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.OriginalOwner
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Permissions
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: Permissions
+  nameWithType: AuthoringAsset.Permissions
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Permissions
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Permission
+  name: Permission
+  nameWithType: Permission
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Permission
+- uid: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.Permission}
+  parent: System.Collections.Generic
+  name: List<Permission>
+  nameWithType: List<Permission>
+  fullName: System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.Permission>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Permission
+    name: Permission
+    nameWithType: Permission
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.Permission
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: AuthoringAsset
+  nameWithType: AuthoringAsset.AuthoringAsset
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AuthoringAsset
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Admin*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Admin
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: Admin
+  nameWithType: AuthoringAsset.Admin
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Admin
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetHome*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetHome
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: AssetHome
+  nameWithType: AuthoringAsset.AssetHome
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetHome
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: AssetId
+  nameWithType: AuthoringAsset.AssetId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetStats*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: AssetStats
+  nameWithType: AuthoringAsset.AssetStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.AssetStats
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.CreatedDateUtc*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.CreatedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: CreatedDateUtc
+  nameWithType: AuthoringAsset.CreatedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.CreatedDateUtc
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Description*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: Description
+  nameWithType: AuthoringAsset.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Description
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.HardDeleteTimeUtc*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.HardDeleteTimeUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: HardDeleteTimeUtc
+  nameWithType: AuthoringAsset.HardDeleteTimeUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.HardDeleteTimeUtc
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.InternalName*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.InternalName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: InternalName
+  nameWithType: AuthoringAsset.InternalName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.InternalName
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.IsCurrentlyBeingEdited*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.IsCurrentlyBeingEdited
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: IsCurrentlyBeingEdited
+  nameWithType: AuthoringAsset.IsCurrentlyBeingEdited
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.IsCurrentlyBeingEdited
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Kind*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Kind
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: Kind
+  nameWithType: AuthoringAsset.Kind
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Kind
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.LastModifiedDateUtc*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.LastModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: AuthoringAsset.LastModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.LastModifiedDateUtc
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.OriginalOwner*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.OriginalOwner
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: OriginalOwner
+  nameWithType: AuthoringAsset.OriginalOwner
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.OriginalOwner
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Permissions*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Permissions
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
+  isExternal: false
+  name: Permissions
+  nameWithType: AuthoringAsset.Permissions
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset.Permissions
+  monikers:
+  - net6.0
+  type: property

@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  id: ChallengeDeckDefinition
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.CapstoneChallengePath
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.DeckType
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.Type
+  langs:
+  - csharp
+  name: ChallengeDeckDefinition
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class ChallengeDeckDefinition
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class ChallengeDeckDefinition
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  langs:
+  - csharp
+  name: ChallengeDeckDefinition()
+  nameWithType: ChallengeDeckDefinition.ChallengeDeckDefinition()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.ChallengeDeckDefinition()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public ChallengeDeckDefinition ();
+    parameters: []
+    content.csharp: public ChallengeDeckDefinition ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.CapstoneChallengePath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.CapstoneChallengePath
+  id: CapstoneChallengePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  langs:
+  - csharp
+  name: CapstoneChallengePath
+  nameWithType: ChallengeDeckDefinition.CapstoneChallengePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.CapstoneChallengePath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string CapstoneChallengePath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string CapstoneChallengePath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.CapstoneChallengePath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.DeckType
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.DeckType
+  id: DeckType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  langs:
+  - csharp
+  name: DeckType
+  nameWithType: ChallengeDeckDefinition.DeckType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.DeckType
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string DeckType { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string DeckType { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.DeckType*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.Type
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.Type
+  id: Type
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  langs:
+  - csharp
+  name: Type
+  nameWithType: ChallengeDeckDefinition.Type
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.Type
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Type { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Type { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.Type*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  isExternal: false
+  name: ChallengeDeckDefinition()
+  nameWithType: ChallengeDeckDefinition.ChallengeDeckDefinition()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.ChallengeDeckDefinition()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.CapstoneChallengePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  isExternal: false
+  name: CapstoneChallengePath
+  nameWithType: ChallengeDeckDefinition.CapstoneChallengePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.CapstoneChallengePath
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.DeckType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  isExternal: false
+  name: DeckType
+  nameWithType: ChallengeDeckDefinition.DeckType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.DeckType
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.Type
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  isExternal: false
+  name: Type
+  nameWithType: ChallengeDeckDefinition.Type
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.Type
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  isExternal: false
+  name: ChallengeDeckDefinition
+  nameWithType: ChallengeDeckDefinition.ChallengeDeckDefinition
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.ChallengeDeckDefinition
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.CapstoneChallengePath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.CapstoneChallengePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  isExternal: false
+  name: CapstoneChallengePath
+  nameWithType: ChallengeDeckDefinition.CapstoneChallengePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.CapstoneChallengePath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.DeckType*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.DeckType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  isExternal: false
+  name: DeckType
+  nameWithType: ChallengeDeckDefinition.DeckType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.DeckType
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.Type*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.Type
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  isExternal: false
+  name: Type
+  nameWithType: ChallengeDeckDefinition.Type
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition.Type
+  monikers:
+  - net6.0
+  type: property

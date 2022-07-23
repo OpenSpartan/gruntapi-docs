@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+  id: KillDeathStats
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Deaths
+  - OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Kills
+  langs:
+  - csharp
+  name: KillDeathStats
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class KillDeathStats
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class KillDeathStats
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+  langs:
+  - csharp
+  name: KillDeathStats()
+  nameWithType: KillDeathStats.KillDeathStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.KillDeathStats()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public KillDeathStats ();
+    parameters: []
+    content.csharp: public KillDeathStats ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Deaths
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Deaths
+  id: Deaths
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+  langs:
+  - csharp
+  name: Deaths
+  nameWithType: KillDeathStats.Deaths
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Deaths
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public double Deaths { get; set; }
+    return:
+      type: System.Double
+      description: ''
+    content.csharp: public double Deaths { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Deaths*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Kills
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Kills
+  id: Kills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+  langs:
+  - csharp
+  name: Kills
+  nameWithType: KillDeathStats.Kills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Kills
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public double Kills { get; set; }
+    return:
+      type: System.Double
+      description: ''
+    content.csharp: public double Kills { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Kills*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+  isExternal: false
+  name: KillDeathStats()
+  nameWithType: KillDeathStats.KillDeathStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.KillDeathStats()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Deaths
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+  isExternal: false
+  name: Deaths
+  nameWithType: KillDeathStats.Deaths
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Deaths
+  type: property
+- uid: System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Kills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+  isExternal: false
+  name: Kills
+  nameWithType: KillDeathStats.Kills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Kills
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+  isExternal: false
+  name: KillDeathStats
+  nameWithType: KillDeathStats.KillDeathStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.KillDeathStats
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Deaths*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Deaths
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+  isExternal: false
+  name: Deaths
+  nameWithType: KillDeathStats.Deaths
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Deaths
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Kills*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Kills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+  isExternal: false
+  name: Kills
+  nameWithType: KillDeathStats.Kills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats.Kills
+  monikers:
+  - net6.0
+  type: property

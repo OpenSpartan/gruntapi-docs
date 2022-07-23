@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
+  id: HaloApiErrorContainer
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Code
+  - OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Message
+  langs:
+  - csharp
+  name: HaloApiErrorContainer
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Container class used to encapsulate any API errors.
+  syntax:
+    content: public class HaloApiErrorContainer
+    content.csharp: public class HaloApiErrorContainer
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
+  langs:
+  - csharp
+  name: HaloApiErrorContainer()
+  nameWithType: HaloApiErrorContainer.HaloApiErrorContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.HaloApiErrorContainer()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public HaloApiErrorContainer ();
+    parameters: []
+    content.csharp: public HaloApiErrorContainer ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Code
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Code
+  id: Code
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
+  langs:
+  - csharp
+  name: Code
+  nameWithType: HaloApiErrorContainer.Code
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Code
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Gets or sets the HTTP error code produced by the API.
+  syntax:
+    content: public int Code { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Code { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Code*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Message
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Message
+  id: Message
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
+  langs:
+  - csharp
+  name: Message
+  nameWithType: HaloApiErrorContainer.Message
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Message
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Gets or sets the error message returned by the API.
+  syntax:
+    content: public string? Message { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string? Message { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Message*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
+  isExternal: false
+  name: HaloApiErrorContainer()
+  nameWithType: HaloApiErrorContainer.HaloApiErrorContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.HaloApiErrorContainer()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Code
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
+  isExternal: false
+  name: Code
+  nameWithType: HaloApiErrorContainer.Code
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Code
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Message
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
+  isExternal: false
+  name: Message
+  nameWithType: HaloApiErrorContainer.Message
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Message
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
+  isExternal: false
+  name: HaloApiErrorContainer
+  nameWithType: HaloApiErrorContainer.HaloApiErrorContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.HaloApiErrorContainer
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Code*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Code
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
+  isExternal: false
+  name: Code
+  nameWithType: HaloApiErrorContainer.Code
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Code
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Message*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Message
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
+  isExternal: false
+  name: Message
+  nameWithType: HaloApiErrorContainer.Message
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer.Message
+  monikers:
+  - net6.0
+  type: property

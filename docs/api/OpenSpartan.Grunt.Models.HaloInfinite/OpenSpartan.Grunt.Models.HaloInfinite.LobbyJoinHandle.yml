@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle
+  id: LobbyJoinHandle
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.JoinHandle
+  langs:
+  - csharp
+  name: LobbyJoinHandle
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class LobbyJoinHandle
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class LobbyJoinHandle
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle
+  langs:
+  - csharp
+  name: LobbyJoinHandle()
+  nameWithType: LobbyJoinHandle.LobbyJoinHandle()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.LobbyJoinHandle()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public LobbyJoinHandle ();
+    parameters: []
+    content.csharp: public LobbyJoinHandle ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.JoinHandle
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.JoinHandle
+  id: JoinHandle
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle
+  langs:
+  - csharp
+  name: JoinHandle
+  nameWithType: LobbyJoinHandle.JoinHandle
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.JoinHandle
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string JoinHandle { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string JoinHandle { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.JoinHandle*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle
+  isExternal: false
+  name: LobbyJoinHandle()
+  nameWithType: LobbyJoinHandle.LobbyJoinHandle()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.LobbyJoinHandle()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.JoinHandle
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle
+  isExternal: false
+  name: JoinHandle
+  nameWithType: LobbyJoinHandle.JoinHandle
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.JoinHandle
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle
+  isExternal: false
+  name: LobbyJoinHandle
+  nameWithType: LobbyJoinHandle.LobbyJoinHandle
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.LobbyJoinHandle
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.JoinHandle*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.JoinHandle
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle
+  isExternal: false
+  name: JoinHandle
+  nameWithType: LobbyJoinHandle.JoinHandle
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle.JoinHandle
+  monikers:
+  - net6.0
+  type: property

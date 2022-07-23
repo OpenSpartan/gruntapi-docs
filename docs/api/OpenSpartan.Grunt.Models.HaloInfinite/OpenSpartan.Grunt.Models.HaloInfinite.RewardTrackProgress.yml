@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress
+  id: RewardTrackProgress
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.IsOwned
+  - OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.PartialProgress
+  - OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.Rank
+  langs:
+  - csharp
+  name: RewardTrackProgress
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class RewardTrackProgress
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class RewardTrackProgress
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress
+  langs:
+  - csharp
+  name: RewardTrackProgress()
+  nameWithType: RewardTrackProgress.RewardTrackProgress()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.RewardTrackProgress()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public RewardTrackProgress ();
+    parameters: []
+    content.csharp: public RewardTrackProgress ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.IsOwned
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.IsOwned
+  id: IsOwned
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress
+  langs:
+  - csharp
+  name: IsOwned
+  nameWithType: RewardTrackProgress.IsOwned
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.IsOwned
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool IsOwned { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool IsOwned { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.IsOwned*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.PartialProgress
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.PartialProgress
+  id: PartialProgress
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress
+  langs:
+  - csharp
+  name: PartialProgress
+  nameWithType: RewardTrackProgress.PartialProgress
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.PartialProgress
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int PartialProgress { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int PartialProgress { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.PartialProgress*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.Rank
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.Rank
+  id: Rank
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress
+  langs:
+  - csharp
+  name: Rank
+  nameWithType: RewardTrackProgress.Rank
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.Rank
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Rank { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Rank { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.Rank*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress
+  isExternal: false
+  name: RewardTrackProgress()
+  nameWithType: RewardTrackProgress.RewardTrackProgress()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.RewardTrackProgress()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.IsOwned
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress
+  isExternal: false
+  name: IsOwned
+  nameWithType: RewardTrackProgress.IsOwned
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.IsOwned
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.PartialProgress
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress
+  isExternal: false
+  name: PartialProgress
+  nameWithType: RewardTrackProgress.PartialProgress
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.PartialProgress
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.Rank
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress
+  isExternal: false
+  name: Rank
+  nameWithType: RewardTrackProgress.Rank
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.Rank
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress
+  isExternal: false
+  name: RewardTrackProgress
+  nameWithType: RewardTrackProgress.RewardTrackProgress
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.RewardTrackProgress
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.IsOwned*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.IsOwned
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress
+  isExternal: false
+  name: IsOwned
+  nameWithType: RewardTrackProgress.IsOwned
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.IsOwned
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.PartialProgress*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.PartialProgress
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress
+  isExternal: false
+  name: PartialProgress
+  nameWithType: RewardTrackProgress.PartialProgress
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.PartialProgress
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.Rank*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.Rank
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress
+  isExternal: false
+  name: Rank
+  nameWithType: RewardTrackProgress.Rank
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress.Rank
+  monikers:
+  - net6.0
+  type: property

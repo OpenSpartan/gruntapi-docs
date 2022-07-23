@@ -1,0 +1,216 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Metadata
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Metadata
+  id: Metadata
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Metadata.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Currencies
+  - OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Manufacturers
+  langs:
+  - csharp
+  name: Metadata
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Metadata
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Metadata
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Metadata
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Metadata
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.Metadata.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Metadata
+  langs:
+  - csharp
+  name: Metadata()
+  nameWithType: Metadata.Metadata()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Metadata()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public Metadata ();
+    parameters: []
+    content.csharp: public Metadata ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Currencies
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Currencies
+  id: Currencies
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Metadata
+  langs:
+  - csharp
+  name: Currencies
+  nameWithType: Metadata.Currencies
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Currencies
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Currency[] Currencies { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Currency[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Currency[] Currencies { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Currencies*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Manufacturers
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Manufacturers
+  id: Manufacturers
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Metadata
+  langs:
+  - csharp
+  name: Manufacturers
+  nameWithType: Metadata.Manufacturers
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Manufacturers
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer[] Manufacturers { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer[] Manufacturers { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Manufacturers*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Metadata
+  isExternal: false
+  name: Metadata()
+  nameWithType: Metadata.Metadata()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Metadata()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Currencies
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Metadata
+  isExternal: false
+  name: Currencies
+  nameWithType: Metadata.Currencies
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Currencies
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  name: Currency
+  nameWithType: Currency
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: Currency[]
+  nameWithType: Currency[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+    name: Currency
+    nameWithType: Currency
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Manufacturers
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Metadata
+  isExternal: false
+  name: Manufacturers
+  nameWithType: Metadata.Manufacturers
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Manufacturers
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
+  name: Manufacturer
+  nameWithType: Manufacturer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: Manufacturer[]
+  nameWithType: Manufacturer[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
+    name: Manufacturer
+    nameWithType: Manufacturer
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Metadata.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Metadata
+  isExternal: false
+  name: Metadata
+  nameWithType: Metadata.Metadata
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Metadata
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Currencies*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Currencies
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Metadata
+  isExternal: false
+  name: Currencies
+  nameWithType: Metadata.Currencies
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Currencies
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Manufacturers*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Manufacturers
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Metadata
+  isExternal: false
+  name: Manufacturers
+  nameWithType: Metadata.Manufacturers
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Metadata.Manufacturers
+  monikers:
+  - net6.0
+  type: property

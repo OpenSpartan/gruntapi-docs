@@ -1,0 +1,509 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  id: PlaylistCsr
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.InitialMeasurementMatches
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.MeasurementMatchesRemaining
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextSubTier
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTier
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTierStart
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.SubTier
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Tier
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.TierStart
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Value
+  langs:
+  - csharp
+  name: PlaylistCsr
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class PlaylistCsr
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class PlaylistCsr
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  langs:
+  - csharp
+  name: PlaylistCsr()
+  nameWithType: PlaylistCsr.PlaylistCsr()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.PlaylistCsr()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public PlaylistCsr ();
+    parameters: []
+    content.csharp: public PlaylistCsr ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.InitialMeasurementMatches
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.InitialMeasurementMatches
+  id: InitialMeasurementMatches
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  langs:
+  - csharp
+  name: InitialMeasurementMatches
+  nameWithType: PlaylistCsr.InitialMeasurementMatches
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.InitialMeasurementMatches
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int InitialMeasurementMatches { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int InitialMeasurementMatches { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.InitialMeasurementMatches*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.MeasurementMatchesRemaining
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.MeasurementMatchesRemaining
+  id: MeasurementMatchesRemaining
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  langs:
+  - csharp
+  name: MeasurementMatchesRemaining
+  nameWithType: PlaylistCsr.MeasurementMatchesRemaining
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.MeasurementMatchesRemaining
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int MeasurementMatchesRemaining { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int MeasurementMatchesRemaining { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.MeasurementMatchesRemaining*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextSubTier
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextSubTier
+  id: NextSubTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  langs:
+  - csharp
+  name: NextSubTier
+  nameWithType: PlaylistCsr.NextSubTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextSubTier
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int NextSubTier { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int NextSubTier { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextSubTier*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTier
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTier
+  id: NextTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  langs:
+  - csharp
+  name: NextTier
+  nameWithType: PlaylistCsr.NextTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTier
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string NextTier { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string NextTier { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTier*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTierStart
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTierStart
+  id: NextTierStart
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  langs:
+  - csharp
+  name: NextTierStart
+  nameWithType: PlaylistCsr.NextTierStart
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTierStart
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int NextTierStart { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int NextTierStart { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTierStart*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.SubTier
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.SubTier
+  id: SubTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  langs:
+  - csharp
+  name: SubTier
+  nameWithType: PlaylistCsr.SubTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.SubTier
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int SubTier { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int SubTier { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.SubTier*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Tier
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Tier
+  id: Tier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  langs:
+  - csharp
+  name: Tier
+  nameWithType: PlaylistCsr.Tier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Tier
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Tier { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Tier { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Tier*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.TierStart
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.TierStart
+  id: TierStart
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  langs:
+  - csharp
+  name: TierStart
+  nameWithType: PlaylistCsr.TierStart
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.TierStart
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int TierStart { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int TierStart { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.TierStart*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Value
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Value
+  id: Value
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  langs:
+  - csharp
+  name: Value
+  nameWithType: PlaylistCsr.Value
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Value
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Value { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Value { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Value*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: PlaylistCsr()
+  nameWithType: PlaylistCsr.PlaylistCsr()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.PlaylistCsr()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.InitialMeasurementMatches
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: InitialMeasurementMatches
+  nameWithType: PlaylistCsr.InitialMeasurementMatches
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.InitialMeasurementMatches
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.MeasurementMatchesRemaining
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: MeasurementMatchesRemaining
+  nameWithType: PlaylistCsr.MeasurementMatchesRemaining
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.MeasurementMatchesRemaining
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextSubTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: NextSubTier
+  nameWithType: PlaylistCsr.NextSubTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextSubTier
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: NextTier
+  nameWithType: PlaylistCsr.NextTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTier
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTierStart
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: NextTierStart
+  nameWithType: PlaylistCsr.NextTierStart
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTierStart
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.SubTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: SubTier
+  nameWithType: PlaylistCsr.SubTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.SubTier
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Tier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: Tier
+  nameWithType: PlaylistCsr.Tier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Tier
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.TierStart
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: TierStart
+  nameWithType: PlaylistCsr.TierStart
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.TierStart
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Value
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: Value
+  nameWithType: PlaylistCsr.Value
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Value
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: PlaylistCsr
+  nameWithType: PlaylistCsr.PlaylistCsr
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.PlaylistCsr
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.InitialMeasurementMatches*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.InitialMeasurementMatches
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: InitialMeasurementMatches
+  nameWithType: PlaylistCsr.InitialMeasurementMatches
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.InitialMeasurementMatches
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.MeasurementMatchesRemaining*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.MeasurementMatchesRemaining
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: MeasurementMatchesRemaining
+  nameWithType: PlaylistCsr.MeasurementMatchesRemaining
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.MeasurementMatchesRemaining
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextSubTier*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextSubTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: NextSubTier
+  nameWithType: PlaylistCsr.NextSubTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextSubTier
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTier*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: NextTier
+  nameWithType: PlaylistCsr.NextTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTier
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTierStart*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTierStart
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: NextTierStart
+  nameWithType: PlaylistCsr.NextTierStart
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.NextTierStart
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.SubTier*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.SubTier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: SubTier
+  nameWithType: PlaylistCsr.SubTier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.SubTier
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Tier*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Tier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: Tier
+  nameWithType: PlaylistCsr.Tier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Tier
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.TierStart*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.TierStart
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: TierStart
+  nameWithType: PlaylistCsr.TierStart
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.TierStart
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Value*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Value
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
+  isExternal: false
+  name: Value
+  nameWithType: PlaylistCsr.Value
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr.Value
+  monikers:
+  - net6.0
+  type: property

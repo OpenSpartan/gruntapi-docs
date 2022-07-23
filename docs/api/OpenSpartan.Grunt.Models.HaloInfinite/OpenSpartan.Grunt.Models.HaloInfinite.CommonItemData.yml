@@ -1,0 +1,1192 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  id: CommonItemData
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltName
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteBitmap
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteFrameIndex
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DateReleased
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Description
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DisplayPath
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.FeatureFlag
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.HideUntilOwned
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.IconStringId
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Id
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ItemAvailability
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ManufacturerId
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.OriginalSeasonNumber
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ParentPaths
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Quality
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.RewardTrack
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Season
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SeasonNumber
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SortingMetadata
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteBitmap
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteFrameIndex
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Title
+  - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Type
+  langs:
+  - csharp
+  name: CommonItemData
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CommonItemData
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CommonItemData
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: CommonItemData()
+  nameWithType: CommonItemData.CommonItemData()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.CommonItemData()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public CommonItemData ();
+    parameters: []
+    content.csharp: public CommonItemData ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltName
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltName
+  id: AltName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: AltName
+  nameWithType: CommonItemData.AltName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltName
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString AltName { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString AltName { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltName*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteBitmap
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteBitmap
+  id: AltSpriteBitmap
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: AltSpriteBitmap
+  nameWithType: CommonItemData.AltSpriteBitmap
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteBitmap
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int AltSpriteBitmap { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int AltSpriteBitmap { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteBitmap*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteFrameIndex
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteFrameIndex
+  id: AltSpriteFrameIndex
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: AltSpriteFrameIndex
+  nameWithType: CommonItemData.AltSpriteFrameIndex
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteFrameIndex
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int AltSpriteFrameIndex { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int AltSpriteFrameIndex { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteFrameIndex*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DateReleased
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DateReleased
+  id: DateReleased
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: DateReleased
+  nameWithType: CommonItemData.DateReleased
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DateReleased
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.APIFormattedDate DateReleased { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.APIFormattedDate DateReleased { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DateReleased*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Description
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Description
+  id: Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: Description
+  nameWithType: CommonItemData.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Description
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Description { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Description { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Description*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DisplayPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DisplayPath
+  id: DisplayPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: DisplayPath
+  nameWithType: CommonItemData.DisplayPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DisplayPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayPath DisplayPath { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayPath
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayPath DisplayPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DisplayPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.FeatureFlag
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.FeatureFlag
+  id: FeatureFlag
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: FeatureFlag
+  nameWithType: CommonItemData.FeatureFlag
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.FeatureFlag
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool FeatureFlag { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool FeatureFlag { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.FeatureFlag*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.HideUntilOwned
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.HideUntilOwned
+  id: HideUntilOwned
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: HideUntilOwned
+  nameWithType: CommonItemData.HideUntilOwned
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.HideUntilOwned
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool HideUntilOwned { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool HideUntilOwned { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.HideUntilOwned*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.IconStringId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.IconStringId
+  id: IconStringId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: IconStringId
+  nameWithType: CommonItemData.IconStringId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.IconStringId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.IdentifierName IconStringId { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.IdentifierName
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.IdentifierName IconStringId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.IconStringId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Id
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Id
+  id: Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: Id
+  nameWithType: CommonItemData.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Id
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Id { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Id { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Id*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ItemAvailability
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ItemAvailability
+  id: ItemAvailability
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: ItemAvailability
+  nameWithType: CommonItemData.ItemAvailability
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ItemAvailability
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString ItemAvailability { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString ItemAvailability { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ItemAvailability*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ManufacturerId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ManufacturerId
+  id: ManufacturerId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: ManufacturerId
+  nameWithType: CommonItemData.ManufacturerId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ManufacturerId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ManufacturerId { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ManufacturerId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ManufacturerId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.OriginalSeasonNumber
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.OriginalSeasonNumber
+  id: OriginalSeasonNumber
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: OriginalSeasonNumber
+  nameWithType: CommonItemData.OriginalSeasonNumber
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.OriginalSeasonNumber
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int OriginalSeasonNumber { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int OriginalSeasonNumber { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.OriginalSeasonNumber*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ParentPaths
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ParentPaths
+  id: ParentPaths
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: ParentPaths
+  nameWithType: CommonItemData.ParentPaths
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ParentPaths
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.ItemPath[] ParentPaths { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.ItemPath[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.ItemPath[] ParentPaths { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ParentPaths*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Quality
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Quality
+  id: Quality
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: Quality
+  nameWithType: CommonItemData.Quality
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Quality
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Quality { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Quality { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Quality*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.RewardTrack
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.RewardTrack
+  id: RewardTrack
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: RewardTrack
+  nameWithType: CommonItemData.RewardTrack
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.RewardTrack
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string RewardTrack { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string RewardTrack { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.RewardTrack*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Season
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Season
+  id: Season
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: Season
+  nameWithType: CommonItemData.Season
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Season
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Season { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Season { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Season*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SeasonNumber
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SeasonNumber
+  id: SeasonNumber
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: SeasonNumber
+  nameWithType: CommonItemData.SeasonNumber
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SeasonNumber
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int SeasonNumber { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int SeasonNumber { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SeasonNumber*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SortingMetadata
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SortingMetadata
+  id: SortingMetadata
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: SortingMetadata
+  nameWithType: CommonItemData.SortingMetadata
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SortingMetadata
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.SortingMetadata SortingMetadata { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.SortingMetadata
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.SortingMetadata SortingMetadata { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SortingMetadata*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteBitmap
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteBitmap
+  id: SpriteBitmap
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: SpriteBitmap
+  nameWithType: CommonItemData.SpriteBitmap
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteBitmap
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int SpriteBitmap { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int SpriteBitmap { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteBitmap*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteFrameIndex
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteFrameIndex
+  id: SpriteFrameIndex
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: SpriteFrameIndex
+  nameWithType: CommonItemData.SpriteFrameIndex
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteFrameIndex
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int SpriteFrameIndex { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int SpriteFrameIndex { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteFrameIndex*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Title
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Title
+  id: Title
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: Title
+  nameWithType: CommonItemData.Title
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Title
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Title { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Title { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Title*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Type
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Type
+  id: Type
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  langs:
+  - csharp
+  name: Type
+  nameWithType: CommonItemData.Type
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Type
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Type { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Type { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Type*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: CommonItemData()
+  nameWithType: CommonItemData.CommonItemData()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.CommonItemData()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: AltName
+  nameWithType: CommonItemData.AltName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltName
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: DisplayString
+  nameWithType: DisplayString
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteBitmap
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: AltSpriteBitmap
+  nameWithType: CommonItemData.AltSpriteBitmap
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteBitmap
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteFrameIndex
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: AltSpriteFrameIndex
+  nameWithType: CommonItemData.AltSpriteFrameIndex
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteFrameIndex
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DateReleased
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: DateReleased
+  nameWithType: CommonItemData.DateReleased
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DateReleased
+  type: property
+- uid: OpenSpartan.Grunt.Models.APIFormattedDate
+  parent: OpenSpartan.Grunt.Models
+  isExternal: false
+  name: APIFormattedDate
+  nameWithType: APIFormattedDate
+  fullName: OpenSpartan.Grunt.Models.APIFormattedDate
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: Description
+  nameWithType: CommonItemData.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Description
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DisplayPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: DisplayPath
+  nameWithType: CommonItemData.DisplayPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DisplayPath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DisplayPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: DisplayPath
+  nameWithType: DisplayPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DisplayPath
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.FeatureFlag
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: FeatureFlag
+  nameWithType: CommonItemData.FeatureFlag
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.FeatureFlag
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.HideUntilOwned
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: HideUntilOwned
+  nameWithType: CommonItemData.HideUntilOwned
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.HideUntilOwned
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.IconStringId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: IconStringId
+  nameWithType: CommonItemData.IconStringId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.IconStringId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.IdentifierName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: IdentifierName
+  nameWithType: IdentifierName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.IdentifierName
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: Id
+  nameWithType: CommonItemData.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Id
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ItemAvailability
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: ItemAvailability
+  nameWithType: CommonItemData.ItemAvailability
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ItemAvailability
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ManufacturerId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: ManufacturerId
+  nameWithType: CommonItemData.ManufacturerId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ManufacturerId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.OriginalSeasonNumber
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: OriginalSeasonNumber
+  nameWithType: CommonItemData.OriginalSeasonNumber
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.OriginalSeasonNumber
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ParentPaths
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: ParentPaths
+  nameWithType: CommonItemData.ParentPaths
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ParentPaths
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ItemPath
+  name: ItemPath
+  nameWithType: ItemPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ItemPath
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ItemPath[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: ItemPath[]
+  nameWithType: ItemPath[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ItemPath[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ItemPath
+    name: ItemPath
+    nameWithType: ItemPath
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.ItemPath
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Quality
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: Quality
+  nameWithType: CommonItemData.Quality
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Quality
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.RewardTrack
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: RewardTrack
+  nameWithType: CommonItemData.RewardTrack
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.RewardTrack
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Season
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: Season
+  nameWithType: CommonItemData.Season
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Season
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SeasonNumber
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: SeasonNumber
+  nameWithType: CommonItemData.SeasonNumber
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SeasonNumber
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SortingMetadata
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: SortingMetadata
+  nameWithType: CommonItemData.SortingMetadata
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SortingMetadata
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SortingMetadata
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: SortingMetadata
+  nameWithType: SortingMetadata
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SortingMetadata
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteBitmap
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: SpriteBitmap
+  nameWithType: CommonItemData.SpriteBitmap
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteBitmap
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteFrameIndex
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: SpriteFrameIndex
+  nameWithType: CommonItemData.SpriteFrameIndex
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteFrameIndex
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Title
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: Title
+  nameWithType: CommonItemData.Title
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Title
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Type
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: Type
+  nameWithType: CommonItemData.Type
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Type
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: CommonItemData
+  nameWithType: CommonItemData.CommonItemData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.CommonItemData
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltName*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: AltName
+  nameWithType: CommonItemData.AltName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltName
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteBitmap*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteBitmap
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: AltSpriteBitmap
+  nameWithType: CommonItemData.AltSpriteBitmap
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteBitmap
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteFrameIndex*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteFrameIndex
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: AltSpriteFrameIndex
+  nameWithType: CommonItemData.AltSpriteFrameIndex
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.AltSpriteFrameIndex
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DateReleased*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DateReleased
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: DateReleased
+  nameWithType: CommonItemData.DateReleased
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DateReleased
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Description*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: Description
+  nameWithType: CommonItemData.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Description
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DisplayPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DisplayPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: DisplayPath
+  nameWithType: CommonItemData.DisplayPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.DisplayPath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.FeatureFlag*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.FeatureFlag
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: FeatureFlag
+  nameWithType: CommonItemData.FeatureFlag
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.FeatureFlag
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.HideUntilOwned*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.HideUntilOwned
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: HideUntilOwned
+  nameWithType: CommonItemData.HideUntilOwned
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.HideUntilOwned
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.IconStringId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.IconStringId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: IconStringId
+  nameWithType: CommonItemData.IconStringId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.IconStringId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Id*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: Id
+  nameWithType: CommonItemData.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Id
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ItemAvailability*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ItemAvailability
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: ItemAvailability
+  nameWithType: CommonItemData.ItemAvailability
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ItemAvailability
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ManufacturerId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ManufacturerId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: ManufacturerId
+  nameWithType: CommonItemData.ManufacturerId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ManufacturerId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.OriginalSeasonNumber*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.OriginalSeasonNumber
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: OriginalSeasonNumber
+  nameWithType: CommonItemData.OriginalSeasonNumber
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.OriginalSeasonNumber
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ParentPaths*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ParentPaths
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: ParentPaths
+  nameWithType: CommonItemData.ParentPaths
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.ParentPaths
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Quality*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Quality
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: Quality
+  nameWithType: CommonItemData.Quality
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Quality
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.RewardTrack*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.RewardTrack
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: RewardTrack
+  nameWithType: CommonItemData.RewardTrack
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.RewardTrack
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Season*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Season
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: Season
+  nameWithType: CommonItemData.Season
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Season
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SeasonNumber*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SeasonNumber
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: SeasonNumber
+  nameWithType: CommonItemData.SeasonNumber
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SeasonNumber
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SortingMetadata*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SortingMetadata
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: SortingMetadata
+  nameWithType: CommonItemData.SortingMetadata
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SortingMetadata
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteBitmap*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteBitmap
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: SpriteBitmap
+  nameWithType: CommonItemData.SpriteBitmap
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteBitmap
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteFrameIndex*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteFrameIndex
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: SpriteFrameIndex
+  nameWithType: CommonItemData.SpriteFrameIndex
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.SpriteFrameIndex
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Title*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Title
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: Title
+  nameWithType: CommonItemData.Title
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Title
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Type*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Type
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
+  isExternal: false
+  name: Type
+  nameWithType: CommonItemData.Type
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData.Type
+  monikers:
+  - net6.0
+  type: property

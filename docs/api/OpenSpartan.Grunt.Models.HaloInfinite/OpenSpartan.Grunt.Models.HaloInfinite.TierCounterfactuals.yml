@@ -1,0 +1,368 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  id: TierCounterfactuals
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Bronze
+  - OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Diamond
+  - OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Gold
+  - OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Onyx
+  - OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Platinum
+  - OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Silver
+  langs:
+  - csharp
+  name: TierCounterfactuals
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class TierCounterfactuals
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class TierCounterfactuals
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  langs:
+  - csharp
+  name: TierCounterfactuals()
+  nameWithType: TierCounterfactuals.TierCounterfactuals()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.TierCounterfactuals()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public TierCounterfactuals ();
+    parameters: []
+    content.csharp: public TierCounterfactuals ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Bronze
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Bronze
+  id: Bronze
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  langs:
+  - csharp
+  name: Bronze
+  nameWithType: TierCounterfactuals.Bronze
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Bronze
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats Bronze { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats Bronze { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Bronze*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Diamond
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Diamond
+  id: Diamond
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  langs:
+  - csharp
+  name: Diamond
+  nameWithType: TierCounterfactuals.Diamond
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Diamond
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats Diamond { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats Diamond { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Diamond*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Gold
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Gold
+  id: Gold
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  langs:
+  - csharp
+  name: Gold
+  nameWithType: TierCounterfactuals.Gold
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Gold
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats Gold { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats Gold { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Gold*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Onyx
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Onyx
+  id: Onyx
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  langs:
+  - csharp
+  name: Onyx
+  nameWithType: TierCounterfactuals.Onyx
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Onyx
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats Onyx { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats Onyx { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Onyx*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Platinum
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Platinum
+  id: Platinum
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  langs:
+  - csharp
+  name: Platinum
+  nameWithType: TierCounterfactuals.Platinum
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Platinum
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats Platinum { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats Platinum { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Platinum*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Silver
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Silver
+  id: Silver
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  langs:
+  - csharp
+  name: Silver
+  nameWithType: TierCounterfactuals.Silver
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Silver
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats Silver { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats Silver { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Silver*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  isExternal: false
+  name: TierCounterfactuals()
+  nameWithType: TierCounterfactuals.TierCounterfactuals()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.TierCounterfactuals()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Bronze
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  isExternal: false
+  name: Bronze
+  nameWithType: TierCounterfactuals.Bronze
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Bronze
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: KillDeathStats
+  nameWithType: KillDeathStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Diamond
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  isExternal: false
+  name: Diamond
+  nameWithType: TierCounterfactuals.Diamond
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Diamond
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Gold
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  isExternal: false
+  name: Gold
+  nameWithType: TierCounterfactuals.Gold
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Gold
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Onyx
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  isExternal: false
+  name: Onyx
+  nameWithType: TierCounterfactuals.Onyx
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Onyx
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Platinum
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  isExternal: false
+  name: Platinum
+  nameWithType: TierCounterfactuals.Platinum
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Platinum
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Silver
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  isExternal: false
+  name: Silver
+  nameWithType: TierCounterfactuals.Silver
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Silver
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  isExternal: false
+  name: TierCounterfactuals
+  nameWithType: TierCounterfactuals.TierCounterfactuals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.TierCounterfactuals
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Bronze*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Bronze
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  isExternal: false
+  name: Bronze
+  nameWithType: TierCounterfactuals.Bronze
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Bronze
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Diamond*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Diamond
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  isExternal: false
+  name: Diamond
+  nameWithType: TierCounterfactuals.Diamond
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Diamond
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Gold*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Gold
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  isExternal: false
+  name: Gold
+  nameWithType: TierCounterfactuals.Gold
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Gold
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Onyx*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Onyx
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  isExternal: false
+  name: Onyx
+  nameWithType: TierCounterfactuals.Onyx
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Onyx
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Platinum*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Platinum
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  isExternal: false
+  name: Platinum
+  nameWithType: TierCounterfactuals.Platinum
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Platinum
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Silver*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Silver
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  isExternal: false
+  name: Silver
+  nameWithType: TierCounterfactuals.Silver
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals.Silver
+  monikers:
+  - net6.0
+  type: property

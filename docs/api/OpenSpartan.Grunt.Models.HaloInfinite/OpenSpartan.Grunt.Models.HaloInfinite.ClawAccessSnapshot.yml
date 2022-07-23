@@ -1,0 +1,212 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot
+  id: ClawAccessSnapshot
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.ConsumerClawXuids
+  - OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.FullClawXuids
+  langs:
+  - csharp
+  name: ClawAccessSnapshot
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class ClawAccessSnapshot
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class ClawAccessSnapshot
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot
+  langs:
+  - csharp
+  name: ClawAccessSnapshot()
+  nameWithType: ClawAccessSnapshot.ClawAccessSnapshot()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.ClawAccessSnapshot()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public ClawAccessSnapshot ();
+    parameters: []
+    content.csharp: public ClawAccessSnapshot ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.ConsumerClawXuids
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.ConsumerClawXuids
+  id: ConsumerClawXuids
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot
+  langs:
+  - csharp
+  name: ConsumerClawXuids
+  nameWithType: ClawAccessSnapshot.ConsumerClawXuids
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.ConsumerClawXuids
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<long> ConsumerClawXuids { get; set; }
+    return:
+      type: System.Collections.Generic.List{System.Int64}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<long> ConsumerClawXuids { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.ConsumerClawXuids*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.FullClawXuids
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.FullClawXuids
+  id: FullClawXuids
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot
+  langs:
+  - csharp
+  name: FullClawXuids
+  nameWithType: ClawAccessSnapshot.FullClawXuids
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.FullClawXuids
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<long> FullClawXuids { get; set; }
+    return:
+      type: System.Collections.Generic.List{System.Int64}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<long> FullClawXuids { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.FullClawXuids*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot
+  isExternal: false
+  name: ClawAccessSnapshot()
+  nameWithType: ClawAccessSnapshot.ClawAccessSnapshot()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.ClawAccessSnapshot()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.ConsumerClawXuids
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot
+  isExternal: false
+  name: ConsumerClawXuids
+  nameWithType: ClawAccessSnapshot.ConsumerClawXuids
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.ConsumerClawXuids
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.Collections.Generic.List{System.Int64}
+  parent: System.Collections.Generic
+  name: List<Int64>
+  nameWithType: List<Int64>
+  fullName: System.Collections.Generic.List<System.Int64>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.FullClawXuids
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot
+  isExternal: false
+  name: FullClawXuids
+  nameWithType: ClawAccessSnapshot.FullClawXuids
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.FullClawXuids
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot
+  isExternal: false
+  name: ClawAccessSnapshot
+  nameWithType: ClawAccessSnapshot.ClawAccessSnapshot
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.ClawAccessSnapshot
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.ConsumerClawXuids*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.ConsumerClawXuids
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot
+  isExternal: false
+  name: ConsumerClawXuids
+  nameWithType: ClawAccessSnapshot.ConsumerClawXuids
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.ConsumerClawXuids
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.FullClawXuids*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.FullClawXuids
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot
+  isExternal: false
+  name: FullClawXuids
+  nameWithType: ClawAccessSnapshot.FullClawXuids
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot.FullClawXuids
+  monikers:
+  - net6.0
+  type: property

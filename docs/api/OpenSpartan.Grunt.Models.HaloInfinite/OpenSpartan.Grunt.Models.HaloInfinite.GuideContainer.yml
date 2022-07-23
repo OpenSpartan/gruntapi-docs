@@ -1,0 +1,307 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  id: GuideContainer
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Accept
+  - OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptEncoding
+  - OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptLanguage
+  - OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Files
+  langs:
+  - csharp
+  name: GuideContainer
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class GuideContainer
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class GuideContainer
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  langs:
+  - csharp
+  name: GuideContainer()
+  nameWithType: GuideContainer.GuideContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.GuideContainer()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public GuideContainer ();
+    parameters: []
+    content.csharp: public GuideContainer ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Accept
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Accept
+  id: Accept
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  langs:
+  - csharp
+  name: Accept
+  nameWithType: GuideContainer.Accept
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Accept
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Accept { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Accept { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Accept*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptEncoding
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptEncoding
+  id: AcceptEncoding
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  langs:
+  - csharp
+  name: AcceptEncoding
+  nameWithType: GuideContainer.AcceptEncoding
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptEncoding
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string AcceptEncoding { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string AcceptEncoding { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptEncoding*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptLanguage
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptLanguage
+  id: AcceptLanguage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  langs:
+  - csharp
+  name: AcceptLanguage
+  nameWithType: GuideContainer.AcceptLanguage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptLanguage
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string AcceptLanguage { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string AcceptLanguage { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptLanguage*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Files
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Files
+  id: Files
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  langs:
+  - csharp
+  name: Files
+  nameWithType: GuideContainer.Files
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Files
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.File> Files { get; set; }
+    return:
+      type: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.File}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.File> Files { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Files*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  isExternal: false
+  name: GuideContainer()
+  nameWithType: GuideContainer.GuideContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.GuideContainer()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Accept
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  isExternal: false
+  name: Accept
+  nameWithType: GuideContainer.Accept
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Accept
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptEncoding
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  isExternal: false
+  name: AcceptEncoding
+  nameWithType: GuideContainer.AcceptEncoding
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptEncoding
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptLanguage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  isExternal: false
+  name: AcceptLanguage
+  nameWithType: GuideContainer.AcceptLanguage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptLanguage
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Files
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  isExternal: false
+  name: Files
+  nameWithType: GuideContainer.Files
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Files
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.File
+  name: File
+  nameWithType: File
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.File
+- uid: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.File}
+  parent: System.Collections.Generic
+  name: List<File>
+  nameWithType: List<File>
+  fullName: System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.File>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.File
+    name: File
+    nameWithType: File
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.File
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  isExternal: false
+  name: GuideContainer
+  nameWithType: GuideContainer.GuideContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.GuideContainer
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Accept*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Accept
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  isExternal: false
+  name: Accept
+  nameWithType: GuideContainer.Accept
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Accept
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptEncoding*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptEncoding
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  isExternal: false
+  name: AcceptEncoding
+  nameWithType: GuideContainer.AcceptEncoding
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptEncoding
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptLanguage*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptLanguage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  isExternal: false
+  name: AcceptLanguage
+  nameWithType: GuideContainer.AcceptLanguage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.AcceptLanguage
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Files*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Files
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
+  isExternal: false
+  name: Files
+  nameWithType: GuideContainer.Files
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer.Files
+  monikers:
+  - net6.0
+  type: property

@@ -1,0 +1,251 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
+  id: AssetVersionFile
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths
+  - OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.Prefix
+  - OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
+  langs:
+  - csharp
+  name: AssetVersionFile
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AssetVersionFile
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AssetVersionFile
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
+  langs:
+  - csharp
+  name: AssetVersionFile()
+  nameWithType: AssetVersionFile.AssetVersionFile()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.AssetVersionFile()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public AssetVersionFile ();
+    parameters: []
+    content.csharp: public AssetVersionFile ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths
+  id: FileRelativePaths
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
+  langs:
+  - csharp
+  name: FileRelativePaths
+  nameWithType: AssetVersionFile.FileRelativePaths
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string[] FileRelativePaths { get; set; }
+    return:
+      type: System.String[]
+      description: ''
+    content.csharp: public string[] FileRelativePaths { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.Prefix
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.Prefix
+  id: Prefix
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
+  langs:
+  - csharp
+  name: Prefix
+  nameWithType: AssetVersionFile.Prefix
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.Prefix
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Prefix { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Prefix { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.Prefix*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
+  id: PrefixEndpoint
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
+  langs:
+  - csharp
+  name: PrefixEndpoint
+  nameWithType: AssetVersionFile.PrefixEndpoint
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint PrefixEndpoint { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint PrefixEndpoint { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
+  isExternal: false
+  name: AssetVersionFile()
+  nameWithType: AssetVersionFile.AssetVersionFile()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.AssetVersionFile()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
+  isExternal: false
+  name: FileRelativePaths
+  nameWithType: AssetVersionFile.FileRelativePaths
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths
+  type: property
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  parent: System
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.Prefix
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
+  isExternal: false
+  name: Prefix
+  nameWithType: AssetVersionFile.Prefix
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.Prefix
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
+  isExternal: false
+  name: PrefixEndpoint
+  nameWithType: AssetVersionFile.PrefixEndpoint
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: ApiEndpoint
+  nameWithType: ApiEndpoint
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
+  isExternal: false
+  name: AssetVersionFile
+  nameWithType: AssetVersionFile.AssetVersionFile
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.AssetVersionFile
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
+  isExternal: false
+  name: FileRelativePaths
+  nameWithType: AssetVersionFile.FileRelativePaths
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.FileRelativePaths
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.Prefix*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.Prefix
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
+  isExternal: false
+  name: Prefix
+  nameWithType: AssetVersionFile.Prefix
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.Prefix
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
+  isExternal: false
+  name: PrefixEndpoint
+  nameWithType: AssetVersionFile.PrefixEndpoint
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
+  monikers:
+  - net6.0
+  type: property

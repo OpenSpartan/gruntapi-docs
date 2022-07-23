@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute
+  commentId: T:OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute
+  id: IsAutomaticallySerializableAttribute
+  children:
+  - OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute.#ctor
+  langs:
+  - csharp
+  name: IsAutomaticallySerializableAttribute
+  nameWithType: OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute
+  fullName: OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: 'public class IsAutomaticallySerializableAttribute : Attribute'
+    content.csharp: 'public class IsAutomaticallySerializableAttribute : Attribute'
+  inheritance:
+  - System.Attribute
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute
+  langs:
+  - csharp
+  name: IsAutomaticallySerializableAttribute()
+  nameWithType: IsAutomaticallySerializableAttribute.IsAutomaticallySerializableAttribute()
+  fullName: OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute.IsAutomaticallySerializableAttribute()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public IsAutomaticallySerializableAttribute ();
+    parameters: []
+    content.csharp: public IsAutomaticallySerializableAttribute ();
+  overload: OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models
+  commentId: N:OpenSpartan.Grunt.Models
+  isExternal: false
+  name: OpenSpartan.Grunt.Models
+  nameWithType: OpenSpartan.Grunt.Models
+  fullName: OpenSpartan.Grunt.Models
+  type: namespace
+- uid: System.Attribute
+  parent: System
+  isExternal: true
+  name: Attribute
+  nameWithType: Attribute
+  fullName: System.Attribute
+- uid: OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute.#ctor
+  parent: OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute
+  isExternal: false
+  name: IsAutomaticallySerializableAttribute()
+  nameWithType: IsAutomaticallySerializableAttribute.IsAutomaticallySerializableAttribute()
+  fullName: OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute.IsAutomaticallySerializableAttribute()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute.#ctor
+  parent: OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute
+  isExternal: false
+  name: IsAutomaticallySerializableAttribute
+  nameWithType: IsAutomaticallySerializableAttribute.IsAutomaticallySerializableAttribute
+  fullName: OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute.IsAutomaticallySerializableAttribute
+  monikers:
+  - net6.0
+  type: constructor

@@ -1,0 +1,329 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  id: Currency
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Currency.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.Currency.CurrencyId
+  - OpenSpartan.Grunt.Models.HaloInfinite.Currency.Description
+  - OpenSpartan.Grunt.Models.HaloInfinite.Currency.IconType
+  - OpenSpartan.Grunt.Models.HaloInfinite.Currency.Image
+  - OpenSpartan.Grunt.Models.HaloInfinite.Currency.Title
+  langs:
+  - csharp
+  name: Currency
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Currency
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Currency
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.Currency.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  langs:
+  - csharp
+  name: Currency()
+  nameWithType: Currency.Currency()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Currency()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public Currency ();
+    parameters: []
+    content.csharp: public Currency ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Currency.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.CurrencyId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Currency.CurrencyId
+  id: CurrencyId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  langs:
+  - csharp
+  name: CurrencyId
+  nameWithType: Currency.CurrencyId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.CurrencyId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string CurrencyId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string CurrencyId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Currency.CurrencyId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Description
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Currency.Description
+  id: Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  langs:
+  - csharp
+  name: Description
+  nameWithType: Currency.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Description
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Description { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Description { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Description*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.IconType
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Currency.IconType
+  id: IconType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  langs:
+  - csharp
+  name: IconType
+  nameWithType: Currency.IconType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.IconType
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string IconType { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string IconType { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Currency.IconType*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Image
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Currency.Image
+  id: Image
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  langs:
+  - csharp
+  name: Image
+  nameWithType: Currency.Image
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Image
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Image { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Image { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Image*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Title
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Currency.Title
+  id: Title
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  langs:
+  - csharp
+  name: Title
+  nameWithType: Currency.Title
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Title
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Title { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Title { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Title*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: Currency()
+  nameWithType: Currency.Currency()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Currency()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.CurrencyId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: CurrencyId
+  nameWithType: Currency.CurrencyId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.CurrencyId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: Description
+  nameWithType: Currency.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Description
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: DisplayString
+  nameWithType: DisplayString
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.IconType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: IconType
+  nameWithType: Currency.IconType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.IconType
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Image
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: Image
+  nameWithType: Currency.Image
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Image
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Title
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: Title
+  nameWithType: Currency.Title
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Title
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Currency.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: Currency
+  nameWithType: Currency.Currency
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Currency
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.CurrencyId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Currency.CurrencyId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: CurrencyId
+  nameWithType: Currency.CurrencyId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.CurrencyId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Description*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Currency.Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: Description
+  nameWithType: Currency.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Description
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.IconType*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Currency.IconType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: IconType
+  nameWithType: Currency.IconType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.IconType
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Image*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Currency.Image
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: Image
+  nameWithType: Currency.Image
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Image
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Title*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Currency.Title
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Currency
+  isExternal: false
+  name: Title
+  nameWithType: Currency.Title
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Currency.Title
+  monikers:
+  - net6.0
+  type: property

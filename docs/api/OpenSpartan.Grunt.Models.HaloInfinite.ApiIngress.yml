@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  id: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiRetryOptions
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  langs:
+  - csharp
+  name: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  type: Namespace
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: ApiAuthority
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: ApiEndpoint
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiRetryOptions
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiRetryOptions
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: ApiRetryOptions
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiRetryOptions
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiRetryOptions
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: ApiRetryPolicy
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: ApiSettings
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: ApiSettingsContainer
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  type: class

@@ -1,0 +1,205 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest
+  id: TestAcademyClientManifest
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Categories
+  - OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Tutorial
+  langs:
+  - csharp
+  name: TestAcademyClientManifest
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class TestAcademyClientManifest
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class TestAcademyClientManifest
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest
+  langs:
+  - csharp
+  name: TestAcademyClientManifest()
+  nameWithType: TestAcademyClientManifest.TestAcademyClientManifest()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.TestAcademyClientManifest()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public TestAcademyClientManifest ();
+    parameters: []
+    content.csharp: public TestAcademyClientManifest ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Categories
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Categories
+  id: Categories
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest
+  langs:
+  - csharp
+  name: Categories
+  nameWithType: TestAcademyClientManifest.Categories
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Categories
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory[] Categories { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory[] Categories { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Categories*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Tutorial
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Tutorial
+  id: Tutorial
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest
+  langs:
+  - csharp
+  name: Tutorial
+  nameWithType: TestAcademyClientManifest.Tutorial
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Tutorial
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyTutorial Tutorial { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyTutorial
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyTutorial Tutorial { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Tutorial*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest
+  isExternal: false
+  name: TestAcademyClientManifest()
+  nameWithType: TestAcademyClientManifest.TestAcademyClientManifest()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.TestAcademyClientManifest()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Categories
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest
+  isExternal: false
+  name: Categories
+  nameWithType: TestAcademyClientManifest.Categories
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Categories
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
+  name: TestDrillCategory
+  nameWithType: TestDrillCategory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: TestDrillCategory[]
+  nameWithType: TestDrillCategory[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
+    name: TestDrillCategory
+    nameWithType: TestDrillCategory
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Tutorial
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest
+  isExternal: false
+  name: Tutorial
+  nameWithType: TestAcademyClientManifest.Tutorial
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Tutorial
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyTutorial
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: TestAcademyTutorial
+  nameWithType: TestAcademyTutorial
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyTutorial
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest
+  isExternal: false
+  name: TestAcademyClientManifest
+  nameWithType: TestAcademyClientManifest.TestAcademyClientManifest
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.TestAcademyClientManifest
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Categories*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Categories
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest
+  isExternal: false
+  name: Categories
+  nameWithType: TestAcademyClientManifest.Categories
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Categories
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Tutorial*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Tutorial
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest
+  isExternal: false
+  name: Tutorial
+  nameWithType: TestAcademyClientManifest.Tutorial
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest.Tutorial
+  monikers:
+  - net6.0
+  type: property

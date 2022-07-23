@@ -1,0 +1,296 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  id: DevicePresetOverrides
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.AMD
+  - OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Intel
+  - OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Nvidia
+  - OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Version
+  langs:
+  - csharp
+  name: DevicePresetOverrides
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class DevicePresetOverrides
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class DevicePresetOverrides
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  langs:
+  - csharp
+  name: DevicePresetOverrides()
+  nameWithType: DevicePresetOverrides.DevicePresetOverrides()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.DevicePresetOverrides()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public DevicePresetOverrides ();
+    parameters: []
+    content.csharp: public DevicePresetOverrides ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.AMD
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.AMD
+  id: AMD
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  langs:
+  - csharp
+  name: AMD
+  nameWithType: DevicePresetOverrides.AMD
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.AMD
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.AMDPreset AMD { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AMDPreset
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.AMDPreset AMD { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.AMD*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Intel
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Intel
+  id: Intel
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  langs:
+  - csharp
+  name: Intel
+  nameWithType: DevicePresetOverrides.Intel
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Intel
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.IntelPreset Intel { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.IntelPreset
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.IntelPreset Intel { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Intel*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Nvidia
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Nvidia
+  id: Nvidia
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  langs:
+  - csharp
+  name: Nvidia
+  nameWithType: DevicePresetOverrides.Nvidia
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Nvidia
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.NvidiaPreset Nvidia { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.NvidiaPreset
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.NvidiaPreset Nvidia { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Nvidia*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Version
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Version
+  id: Version
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  langs:
+  - csharp
+  name: Version
+  nameWithType: DevicePresetOverrides.Version
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Version
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Version { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Version { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Version*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  isExternal: false
+  name: DevicePresetOverrides()
+  nameWithType: DevicePresetOverrides.DevicePresetOverrides()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.DevicePresetOverrides()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.AMD
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  isExternal: false
+  name: AMD
+  nameWithType: DevicePresetOverrides.AMD
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.AMD
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AMDPreset
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AMDPreset
+  nameWithType: AMDPreset
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AMDPreset
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Intel
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  isExternal: false
+  name: Intel
+  nameWithType: DevicePresetOverrides.Intel
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Intel
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.IntelPreset
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: IntelPreset
+  nameWithType: IntelPreset
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.IntelPreset
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Nvidia
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  isExternal: false
+  name: Nvidia
+  nameWithType: DevicePresetOverrides.Nvidia
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Nvidia
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.NvidiaPreset
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: NvidiaPreset
+  nameWithType: NvidiaPreset
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.NvidiaPreset
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Version
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  isExternal: false
+  name: Version
+  nameWithType: DevicePresetOverrides.Version
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Version
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  isExternal: false
+  name: DevicePresetOverrides
+  nameWithType: DevicePresetOverrides.DevicePresetOverrides
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.DevicePresetOverrides
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.AMD*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.AMD
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  isExternal: false
+  name: AMD
+  nameWithType: DevicePresetOverrides.AMD
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.AMD
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Intel*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Intel
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  isExternal: false
+  name: Intel
+  nameWithType: DevicePresetOverrides.Intel
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Intel
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Nvidia*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Nvidia
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  isExternal: false
+  name: Nvidia
+  nameWithType: DevicePresetOverrides.Nvidia
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Nvidia
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Version*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Version
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
+  isExternal: false
+  name: Version
+  nameWithType: DevicePresetOverrides.Version
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides.Version
+  monikers:
+  - net6.0
+  type: property

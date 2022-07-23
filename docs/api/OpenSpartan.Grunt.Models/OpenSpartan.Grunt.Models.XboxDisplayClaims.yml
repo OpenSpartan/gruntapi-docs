@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.XboxDisplayClaims
+  commentId: T:OpenSpartan.Grunt.Models.XboxDisplayClaims
+  id: XboxDisplayClaims
+  children:
+  - OpenSpartan.Grunt.Models.XboxDisplayClaims.#ctor
+  - OpenSpartan.Grunt.Models.XboxDisplayClaims.Xui
+  langs:
+  - csharp
+  name: XboxDisplayClaims
+  nameWithType: OpenSpartan.Grunt.Models.XboxDisplayClaims
+  fullName: OpenSpartan.Grunt.Models.XboxDisplayClaims
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public class XboxDisplayClaims
+    content.csharp: public class XboxDisplayClaims
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.XboxDisplayClaims.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.XboxDisplayClaims.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.XboxDisplayClaims
+  langs:
+  - csharp
+  name: XboxDisplayClaims()
+  nameWithType: XboxDisplayClaims.XboxDisplayClaims()
+  fullName: OpenSpartan.Grunt.Models.XboxDisplayClaims.XboxDisplayClaims()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public XboxDisplayClaims ();
+    parameters: []
+    content.csharp: public XboxDisplayClaims ();
+  overload: OpenSpartan.Grunt.Models.XboxDisplayClaims.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.XboxDisplayClaims.Xui
+  commentId: P:OpenSpartan.Grunt.Models.XboxDisplayClaims.Xui
+  id: Xui
+  parent: OpenSpartan.Grunt.Models.XboxDisplayClaims
+  langs:
+  - csharp
+  name: Xui
+  nameWithType: XboxDisplayClaims.Xui
+  fullName: OpenSpartan.Grunt.Models.XboxDisplayClaims.Xui
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("xui")]]
+
+      public OpenSpartan.Grunt.Models.XboxXui[] Xui { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.XboxXui[]
+      description: ''
+    content.csharp: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("xui")]]
+
+      public OpenSpartan.Grunt.Models.XboxXui[] Xui { get; set; }
+  overload: OpenSpartan.Grunt.Models.XboxDisplayClaims.Xui*
+  exceptions: []
+  attributes:
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models
+  commentId: N:OpenSpartan.Grunt.Models
+  isExternal: false
+  name: OpenSpartan.Grunt.Models
+  nameWithType: OpenSpartan.Grunt.Models
+  fullName: OpenSpartan.Grunt.Models
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.XboxDisplayClaims.#ctor
+  parent: OpenSpartan.Grunt.Models.XboxDisplayClaims
+  isExternal: false
+  name: XboxDisplayClaims()
+  nameWithType: XboxDisplayClaims.XboxDisplayClaims()
+  fullName: OpenSpartan.Grunt.Models.XboxDisplayClaims.XboxDisplayClaims()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.XboxDisplayClaims.Xui
+  parent: OpenSpartan.Grunt.Models.XboxDisplayClaims
+  isExternal: false
+  name: Xui
+  nameWithType: XboxDisplayClaims.Xui
+  fullName: OpenSpartan.Grunt.Models.XboxDisplayClaims.Xui
+  type: property
+- uid: OpenSpartan.Grunt.Models.XboxXui
+  name: XboxXui
+  nameWithType: XboxXui
+  fullName: OpenSpartan.Grunt.Models.XboxXui
+- uid: OpenSpartan.Grunt.Models.XboxXui[]
+  parent: OpenSpartan.Grunt.Models
+  name: XboxXui[]
+  nameWithType: XboxXui[]
+  fullName: OpenSpartan.Grunt.Models.XboxXui[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.XboxXui
+    name: XboxXui
+    nameWithType: XboxXui
+    fullName: OpenSpartan.Grunt.Models.XboxXui
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.XboxDisplayClaims.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.XboxDisplayClaims.#ctor
+  parent: OpenSpartan.Grunt.Models.XboxDisplayClaims
+  isExternal: false
+  name: XboxDisplayClaims
+  nameWithType: XboxDisplayClaims.XboxDisplayClaims
+  fullName: OpenSpartan.Grunt.Models.XboxDisplayClaims.XboxDisplayClaims
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.XboxDisplayClaims.Xui*
+  commentId: Overload:OpenSpartan.Grunt.Models.XboxDisplayClaims.Xui
+  parent: OpenSpartan.Grunt.Models.XboxDisplayClaims
+  isExternal: false
+  name: Xui
+  nameWithType: XboxDisplayClaims.Xui
+  fullName: OpenSpartan.Grunt.Models.XboxDisplayClaims.Xui
+  monikers:
+  - net6.0
+  type: property

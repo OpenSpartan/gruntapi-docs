@@ -1,0 +1,485 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  id: AuthoringAssetCustomData
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId
+  langs:
+  - csharp
+  name: AuthoringAssetCustomData
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AuthoringAssetCustomData
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AuthoringAssetCustomData
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  langs:
+  - csharp
+  name: AuthoringAssetCustomData()
+  nameWithType: AuthoringAssetCustomData.AuthoringAssetCustomData()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.AuthoringAssetCustomData()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public AuthoringAssetCustomData ();
+    parameters: []
+    content.csharp: public AuthoringAssetCustomData ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks
+  id: Chunks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  langs:
+  - csharp
+  name: Chunks
+  nameWithType: AuthoringAssetCustomData.Chunks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.FilmChunk> Chunks { get; set; }
+    return:
+      type: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.FilmChunk}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.FilmChunk> Chunks { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength
+  id: FilmLength
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  langs:
+  - csharp
+  name: FilmLength
+  nameWithType: AuthoringAssetCustomData.FilmLength
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int FilmLength { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int FilmLength { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion
+  id: FilmMajorVersion
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  langs:
+  - csharp
+  name: FilmMajorVersion
+  nameWithType: AuthoringAssetCustomData.FilmMajorVersion
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int FilmMajorVersion { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int FilmMajorVersion { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded
+  id: HasGameEnded
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  langs:
+  - csharp
+  name: HasGameEnded
+  nameWithType: AuthoringAssetCustomData.HasGameEnded
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool HasGameEnded { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool HasGameEnded { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  id: KeyValues
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  langs:
+  - csharp
+  name: KeyValues
+  nameWithType: AuthoringAssetCustomData.KeyValues
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.Dictionary<string,string> KeyValues { get; set; }
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: ''
+    content.csharp: public System.Collections.Generic.Dictionary<string,string> KeyValues { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds
+  id: ManifestRefreshSeconds
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  langs:
+  - csharp
+  name: ManifestRefreshSeconds
+  nameWithType: AuthoringAssetCustomData.ManifestRefreshSeconds
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ManifestRefreshSeconds { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ManifestRefreshSeconds { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId
+  id: MatchId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  langs:
+  - csharp
+  name: MatchId
+  nameWithType: AuthoringAssetCustomData.MatchId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string MatchId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string MatchId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: AuthoringAssetCustomData()
+  nameWithType: AuthoringAssetCustomData.AuthoringAssetCustomData()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.AuthoringAssetCustomData()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: Chunks
+  nameWithType: AuthoringAssetCustomData.Chunks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FilmChunk
+  name: FilmChunk
+  nameWithType: FilmChunk
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FilmChunk
+- uid: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.FilmChunk}
+  parent: System.Collections.Generic
+  name: List<FilmChunk>
+  nameWithType: List<FilmChunk>
+  fullName: System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.FilmChunk>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.FilmChunk
+    name: FilmChunk
+    nameWithType: FilmChunk
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.FilmChunk
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: FilmLength
+  nameWithType: AuthoringAssetCustomData.FilmLength
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: FilmMajorVersion
+  nameWithType: AuthoringAssetCustomData.FilmMajorVersion
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: HasGameEnded
+  nameWithType: AuthoringAssetCustomData.HasGameEnded
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: KeyValues
+  nameWithType: AuthoringAssetCustomData.KeyValues
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  type: property
+- uid: System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary
+  nameWithType: Dictionary
+  fullName: System.Collections.Generic.Dictionary
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  name: Dictionary<String,String>
+  nameWithType: Dictionary<String,String>
+  fullName: System.Collections.Generic.Dictionary<System.String,System.String>
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: ManifestRefreshSeconds
+  nameWithType: AuthoringAssetCustomData.ManifestRefreshSeconds
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: MatchId
+  nameWithType: AuthoringAssetCustomData.MatchId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: AuthoringAssetCustomData
+  nameWithType: AuthoringAssetCustomData.AuthoringAssetCustomData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.AuthoringAssetCustomData
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: Chunks
+  nameWithType: AuthoringAssetCustomData.Chunks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.Chunks
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: FilmLength
+  nameWithType: AuthoringAssetCustomData.FilmLength
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmLength
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: FilmMajorVersion
+  nameWithType: AuthoringAssetCustomData.FilmMajorVersion
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.FilmMajorVersion
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: HasGameEnded
+  nameWithType: AuthoringAssetCustomData.HasGameEnded
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.HasGameEnded
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: KeyValues
+  nameWithType: AuthoringAssetCustomData.KeyValues
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.KeyValues
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: ManifestRefreshSeconds
+  nameWithType: AuthoringAssetCustomData.ManifestRefreshSeconds
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.ManifestRefreshSeconds
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  isExternal: false
+  name: MatchId
+  nameWithType: AuthoringAssetCustomData.MatchId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData.MatchId
+  monikers:
+  - net6.0
+  type: property

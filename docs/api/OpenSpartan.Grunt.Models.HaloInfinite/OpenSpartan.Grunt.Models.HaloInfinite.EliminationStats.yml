@@ -1,0 +1,618 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  id: EliminationStats
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.AlliesRevived
+  - OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationAssists
+  - OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationOrder
+  - OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Eliminations
+  - OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EnemyRevivesDenied
+  - OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Executions
+  - OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.KillsAsLastPlayerStanding
+  - OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LastPlayersStandingKilled
+  - OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LivesRemaining
+  - OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.RoundsSurvived
+  - OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.TimesRevivedByAlly
+  langs:
+  - csharp
+  name: EliminationStats
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class EliminationStats
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class EliminationStats
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  langs:
+  - csharp
+  name: EliminationStats()
+  nameWithType: EliminationStats.EliminationStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationStats()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public EliminationStats ();
+    parameters: []
+    content.csharp: public EliminationStats ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.AlliesRevived
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.AlliesRevived
+  id: AlliesRevived
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  langs:
+  - csharp
+  name: AlliesRevived
+  nameWithType: EliminationStats.AlliesRevived
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.AlliesRevived
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int AlliesRevived { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int AlliesRevived { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.AlliesRevived*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationAssists
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationAssists
+  id: EliminationAssists
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  langs:
+  - csharp
+  name: EliminationAssists
+  nameWithType: EliminationStats.EliminationAssists
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationAssists
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int EliminationAssists { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int EliminationAssists { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationAssists*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationOrder
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationOrder
+  id: EliminationOrder
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  langs:
+  - csharp
+  name: EliminationOrder
+  nameWithType: EliminationStats.EliminationOrder
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationOrder
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int EliminationOrder { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int EliminationOrder { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationOrder*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Eliminations
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Eliminations
+  id: Eliminations
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  langs:
+  - csharp
+  name: Eliminations
+  nameWithType: EliminationStats.Eliminations
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Eliminations
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Eliminations { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Eliminations { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Eliminations*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EnemyRevivesDenied
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EnemyRevivesDenied
+  id: EnemyRevivesDenied
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  langs:
+  - csharp
+  name: EnemyRevivesDenied
+  nameWithType: EliminationStats.EnemyRevivesDenied
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EnemyRevivesDenied
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int EnemyRevivesDenied { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int EnemyRevivesDenied { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EnemyRevivesDenied*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Executions
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Executions
+  id: Executions
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  langs:
+  - csharp
+  name: Executions
+  nameWithType: EliminationStats.Executions
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Executions
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Executions { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Executions { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Executions*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.KillsAsLastPlayerStanding
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.KillsAsLastPlayerStanding
+  id: KillsAsLastPlayerStanding
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  langs:
+  - csharp
+  name: KillsAsLastPlayerStanding
+  nameWithType: EliminationStats.KillsAsLastPlayerStanding
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.KillsAsLastPlayerStanding
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int KillsAsLastPlayerStanding { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int KillsAsLastPlayerStanding { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.KillsAsLastPlayerStanding*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LastPlayersStandingKilled
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LastPlayersStandingKilled
+  id: LastPlayersStandingKilled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  langs:
+  - csharp
+  name: LastPlayersStandingKilled
+  nameWithType: EliminationStats.LastPlayersStandingKilled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LastPlayersStandingKilled
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int LastPlayersStandingKilled { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int LastPlayersStandingKilled { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LastPlayersStandingKilled*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LivesRemaining
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LivesRemaining
+  id: LivesRemaining
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  langs:
+  - csharp
+  name: LivesRemaining
+  nameWithType: EliminationStats.LivesRemaining
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LivesRemaining
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int? LivesRemaining { get; set; }
+    return:
+      type: System.Nullable{System.Int32}
+      description: ''
+    content.csharp: public int? LivesRemaining { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LivesRemaining*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.RoundsSurvived
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.RoundsSurvived
+  id: RoundsSurvived
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  langs:
+  - csharp
+  name: RoundsSurvived
+  nameWithType: EliminationStats.RoundsSurvived
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.RoundsSurvived
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int RoundsSurvived { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int RoundsSurvived { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.RoundsSurvived*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.TimesRevivedByAlly
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.TimesRevivedByAlly
+  id: TimesRevivedByAlly
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  langs:
+  - csharp
+  name: TimesRevivedByAlly
+  nameWithType: EliminationStats.TimesRevivedByAlly
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.TimesRevivedByAlly
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int TimesRevivedByAlly { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int TimesRevivedByAlly { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.TimesRevivedByAlly*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: EliminationStats()
+  nameWithType: EliminationStats.EliminationStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationStats()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.AlliesRevived
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: AlliesRevived
+  nameWithType: EliminationStats.AlliesRevived
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.AlliesRevived
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationAssists
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: EliminationAssists
+  nameWithType: EliminationStats.EliminationAssists
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationAssists
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationOrder
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: EliminationOrder
+  nameWithType: EliminationStats.EliminationOrder
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationOrder
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Eliminations
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: Eliminations
+  nameWithType: EliminationStats.Eliminations
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Eliminations
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EnemyRevivesDenied
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: EnemyRevivesDenied
+  nameWithType: EliminationStats.EnemyRevivesDenied
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EnemyRevivesDenied
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Executions
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: Executions
+  nameWithType: EliminationStats.Executions
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Executions
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.KillsAsLastPlayerStanding
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: KillsAsLastPlayerStanding
+  nameWithType: EliminationStats.KillsAsLastPlayerStanding
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.KillsAsLastPlayerStanding
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LastPlayersStandingKilled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: LastPlayersStandingKilled
+  nameWithType: EliminationStats.LastPlayersStandingKilled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LastPlayersStandingKilled
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LivesRemaining
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: LivesRemaining
+  nameWithType: EliminationStats.LivesRemaining
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LivesRemaining
+  type: property
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable
+  nameWithType: Nullable
+  fullName: System.Nullable
+- uid: System.Nullable{System.Int32}
+  parent: System
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.RoundsSurvived
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: RoundsSurvived
+  nameWithType: EliminationStats.RoundsSurvived
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.RoundsSurvived
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.TimesRevivedByAlly
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: TimesRevivedByAlly
+  nameWithType: EliminationStats.TimesRevivedByAlly
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.TimesRevivedByAlly
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: EliminationStats
+  nameWithType: EliminationStats.EliminationStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationStats
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.AlliesRevived*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.AlliesRevived
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: AlliesRevived
+  nameWithType: EliminationStats.AlliesRevived
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.AlliesRevived
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationAssists*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationAssists
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: EliminationAssists
+  nameWithType: EliminationStats.EliminationAssists
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationAssists
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationOrder*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationOrder
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: EliminationOrder
+  nameWithType: EliminationStats.EliminationOrder
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EliminationOrder
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Eliminations*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Eliminations
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: Eliminations
+  nameWithType: EliminationStats.Eliminations
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Eliminations
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EnemyRevivesDenied*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EnemyRevivesDenied
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: EnemyRevivesDenied
+  nameWithType: EliminationStats.EnemyRevivesDenied
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.EnemyRevivesDenied
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Executions*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Executions
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: Executions
+  nameWithType: EliminationStats.Executions
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.Executions
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.KillsAsLastPlayerStanding*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.KillsAsLastPlayerStanding
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: KillsAsLastPlayerStanding
+  nameWithType: EliminationStats.KillsAsLastPlayerStanding
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.KillsAsLastPlayerStanding
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LastPlayersStandingKilled*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LastPlayersStandingKilled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: LastPlayersStandingKilled
+  nameWithType: EliminationStats.LastPlayersStandingKilled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LastPlayersStandingKilled
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LivesRemaining*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LivesRemaining
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: LivesRemaining
+  nameWithType: EliminationStats.LivesRemaining
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.LivesRemaining
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.RoundsSurvived*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.RoundsSurvived
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: RoundsSurvived
+  nameWithType: EliminationStats.RoundsSurvived
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.RoundsSurvived
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.TimesRevivedByAlly*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.TimesRevivedByAlly
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
+  isExternal: false
+  name: TimesRevivedByAlly
+  nameWithType: EliminationStats.TimesRevivedByAlly
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats.TimesRevivedByAlly
+  monikers:
+  - net6.0
+  type: property

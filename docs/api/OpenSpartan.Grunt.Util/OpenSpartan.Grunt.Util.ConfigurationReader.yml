@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Util.ConfigurationReader
+  commentId: T:OpenSpartan.Grunt.Util.ConfigurationReader
+  id: ConfigurationReader
+  children:
+  - OpenSpartan.Grunt.Util.ConfigurationReader.#ctor
+  - OpenSpartan.Grunt.Util.ConfigurationReader.ReadConfiguration``1(System.String)
+  langs:
+  - csharp
+  name: ConfigurationReader
+  nameWithType: OpenSpartan.Grunt.Util.ConfigurationReader
+  fullName: OpenSpartan.Grunt.Util.ConfigurationReader
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Util
+  syntax:
+    content: public class ConfigurationReader
+    content.csharp: public class ConfigurationReader
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Util.ConfigurationReader.#ctor
+  commentId: M:OpenSpartan.Grunt.Util.ConfigurationReader.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Util.ConfigurationReader
+  langs:
+  - csharp
+  name: ConfigurationReader()
+  nameWithType: ConfigurationReader.ConfigurationReader()
+  fullName: OpenSpartan.Grunt.Util.ConfigurationReader.ConfigurationReader()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Util
+  syntax:
+    content: public ConfigurationReader ();
+    parameters: []
+    content.csharp: public ConfigurationReader ();
+  overload: OpenSpartan.Grunt.Util.ConfigurationReader.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Util.ConfigurationReader.ReadConfiguration``1(System.String)
+  commentId: M:OpenSpartan.Grunt.Util.ConfigurationReader.ReadConfiguration``1(System.String)
+  id: ReadConfiguration``1(System.String)
+  parent: OpenSpartan.Grunt.Util.ConfigurationReader
+  langs:
+  - csharp
+  name: ReadConfiguration<T>(String)
+  nameWithType: ConfigurationReader.ReadConfiguration<T>(String)
+  fullName: OpenSpartan.Grunt.Util.ConfigurationReader.ReadConfiguration<T>(String)
+  type: Method
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Util
+  syntax:
+    content: public T ReadConfiguration<T> (string path);
+    parameters:
+    - id: path
+      type: System.String
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: T
+      description: ''
+    content.csharp: public T ReadConfiguration<T> (string path);
+  overload: OpenSpartan.Grunt.Util.ConfigurationReader.ReadConfiguration*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Util
+  commentId: N:OpenSpartan.Grunt.Util
+  isExternal: false
+  name: OpenSpartan.Grunt.Util
+  nameWithType: OpenSpartan.Grunt.Util
+  fullName: OpenSpartan.Grunt.Util
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Util.ConfigurationReader.#ctor
+  parent: OpenSpartan.Grunt.Util.ConfigurationReader
+  isExternal: false
+  name: ConfigurationReader()
+  nameWithType: ConfigurationReader.ConfigurationReader()
+  fullName: OpenSpartan.Grunt.Util.ConfigurationReader.ConfigurationReader()
+  type: constructor
+- uid: OpenSpartan.Grunt.Util.ConfigurationReader.ReadConfiguration``1(System.String)
+  parent: OpenSpartan.Grunt.Util.ConfigurationReader
+  isExternal: false
+  name: ReadConfiguration<T>(String)
+  nameWithType: ConfigurationReader.ReadConfiguration<T>(String)
+  fullName: OpenSpartan.Grunt.Util.ConfigurationReader.ReadConfiguration<T>(String)
+  type: method
+- uid: T
+  isExternal: true
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Util.ConfigurationReader.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Util.ConfigurationReader.#ctor
+  parent: OpenSpartan.Grunt.Util.ConfigurationReader
+  isExternal: false
+  name: ConfigurationReader
+  nameWithType: ConfigurationReader.ConfigurationReader
+  fullName: OpenSpartan.Grunt.Util.ConfigurationReader.ConfigurationReader
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Util.ConfigurationReader.ReadConfiguration*
+  commentId: Overload:OpenSpartan.Grunt.Util.ConfigurationReader.ReadConfiguration
+  parent: OpenSpartan.Grunt.Util.ConfigurationReader
+  isExternal: false
+  name: ReadConfiguration
+  nameWithType: ConfigurationReader.ReadConfiguration
+  fullName: OpenSpartan.Grunt.Util.ConfigurationReader.ReadConfiguration
+  monikers:
+  - net6.0
+  type: method

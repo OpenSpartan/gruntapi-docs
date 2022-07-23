@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  id: Medal
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Medal.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.Medal.Count
+  - OpenSpartan.Grunt.Models.HaloInfinite.Medal.NameId
+  - OpenSpartan.Grunt.Models.HaloInfinite.Medal.TotalPersonalScoreAwarded
+  langs:
+  - csharp
+  name: Medal
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Medal
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Medal
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.Medal.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  langs:
+  - csharp
+  name: Medal()
+  nameWithType: Medal.Medal()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Medal.Medal()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public Medal ();
+    parameters: []
+    content.csharp: public Medal ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Medal.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal.Count
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Medal.Count
+  id: Count
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  langs:
+  - csharp
+  name: Count
+  nameWithType: Medal.Count
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Medal.Count
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Count { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Count { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Medal.Count*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal.NameId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Medal.NameId
+  id: NameId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  langs:
+  - csharp
+  name: NameId
+  nameWithType: Medal.NameId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Medal.NameId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public long NameId { get; set; }
+    return:
+      type: System.Int64
+      description: ''
+    content.csharp: public long NameId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Medal.NameId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal.TotalPersonalScoreAwarded
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Medal.TotalPersonalScoreAwarded
+  id: TotalPersonalScoreAwarded
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  langs:
+  - csharp
+  name: TotalPersonalScoreAwarded
+  nameWithType: Medal.TotalPersonalScoreAwarded
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Medal.TotalPersonalScoreAwarded
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int TotalPersonalScoreAwarded { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int TotalPersonalScoreAwarded { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Medal.TotalPersonalScoreAwarded*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  isExternal: false
+  name: Medal()
+  nameWithType: Medal.Medal()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Medal.Medal()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal.Count
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  isExternal: false
+  name: Count
+  nameWithType: Medal.Count
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Medal.Count
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal.NameId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  isExternal: false
+  name: NameId
+  nameWithType: Medal.NameId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Medal.NameId
+  type: property
+- uid: System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal.TotalPersonalScoreAwarded
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  isExternal: false
+  name: TotalPersonalScoreAwarded
+  nameWithType: Medal.TotalPersonalScoreAwarded
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Medal.TotalPersonalScoreAwarded
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Medal.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  isExternal: false
+  name: Medal
+  nameWithType: Medal.Medal
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Medal.Medal
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal.Count*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Medal.Count
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  isExternal: false
+  name: Count
+  nameWithType: Medal.Count
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Medal.Count
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal.NameId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Medal.NameId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  isExternal: false
+  name: NameId
+  nameWithType: Medal.NameId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Medal.NameId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal.TotalPersonalScoreAwarded*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Medal.TotalPersonalScoreAwarded
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  isExternal: false
+  name: TotalPersonalScoreAwarded
+  nameWithType: Medal.TotalPersonalScoreAwarded
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Medal.TotalPersonalScoreAwarded
+  monikers:
+  - net6.0
+  type: property

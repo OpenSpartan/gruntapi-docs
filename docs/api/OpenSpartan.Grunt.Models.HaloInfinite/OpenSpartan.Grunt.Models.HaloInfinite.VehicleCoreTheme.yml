@@ -1,0 +1,438 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  id: VehicleCoreTheme
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.AlternateGeometryRegionPath
+  - OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.CoatingPath
+  - OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.Emblems
+  - OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.HornPath
+  - OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleCharmPath
+  - OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleFxPath
+  langs:
+  - csharp
+  name: VehicleCoreTheme
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class VehicleCoreTheme : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class VehicleCoreTheme : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  inheritance:
+  - System.Object
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  implements: []
+  inheritedMembers:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  langs:
+  - csharp
+  name: VehicleCoreTheme()
+  nameWithType: VehicleCoreTheme.VehicleCoreTheme()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleCoreTheme()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public VehicleCoreTheme ();
+    parameters: []
+    content.csharp: public VehicleCoreTheme ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.AlternateGeometryRegionPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.AlternateGeometryRegionPath
+  id: AlternateGeometryRegionPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  langs:
+  - csharp
+  name: AlternateGeometryRegionPath
+  nameWithType: VehicleCoreTheme.AlternateGeometryRegionPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.AlternateGeometryRegionPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string AlternateGeometryRegionPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string AlternateGeometryRegionPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.AlternateGeometryRegionPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.CoatingPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.CoatingPath
+  id: CoatingPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  langs:
+  - csharp
+  name: CoatingPath
+  nameWithType: VehicleCoreTheme.CoatingPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.CoatingPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string CoatingPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string CoatingPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.CoatingPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.Emblems
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.Emblems
+  id: Emblems
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  langs:
+  - csharp
+  name: Emblems
+  nameWithType: VehicleCoreTheme.Emblems
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.Emblems
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.Emblem> Emblems { get; set; }
+    return:
+      type: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.Emblem}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.Emblem> Emblems { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.Emblems*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.HornPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.HornPath
+  id: HornPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  langs:
+  - csharp
+  name: HornPath
+  nameWithType: VehicleCoreTheme.HornPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.HornPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string HornPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string HornPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.HornPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleCharmPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleCharmPath
+  id: VehicleCharmPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  langs:
+  - csharp
+  name: VehicleCharmPath
+  nameWithType: VehicleCoreTheme.VehicleCharmPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleCharmPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string VehicleCharmPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string VehicleCharmPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleCharmPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleFxPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleFxPath
+  id: VehicleFxPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  langs:
+  - csharp
+  name: VehicleFxPath
+  nameWithType: VehicleCoreTheme.VehicleFxPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleFxPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string VehicleFxPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string VehicleFxPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleFxPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Theme
+  nameWithType: Theme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  isExternal: false
+  name: VehicleCoreTheme()
+  nameWithType: VehicleCoreTheme.VehicleCoreTheme()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleCoreTheme()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.AlternateGeometryRegionPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  isExternal: false
+  name: AlternateGeometryRegionPath
+  nameWithType: VehicleCoreTheme.AlternateGeometryRegionPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.AlternateGeometryRegionPath
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.CoatingPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  isExternal: false
+  name: CoatingPath
+  nameWithType: VehicleCoreTheme.CoatingPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.CoatingPath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.Emblems
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  isExternal: false
+  name: Emblems
+  nameWithType: VehicleCoreTheme.Emblems
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.Emblems
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Emblem
+  name: Emblem
+  nameWithType: Emblem
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Emblem
+- uid: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.Emblem}
+  parent: System.Collections.Generic
+  name: List<Emblem>
+  nameWithType: List<Emblem>
+  fullName: System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.Emblem>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Emblem
+    name: Emblem
+    nameWithType: Emblem
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.Emblem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.HornPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  isExternal: false
+  name: HornPath
+  nameWithType: VehicleCoreTheme.HornPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.HornPath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleCharmPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  isExternal: false
+  name: VehicleCharmPath
+  nameWithType: VehicleCoreTheme.VehicleCharmPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleCharmPath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleFxPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  isExternal: false
+  name: VehicleFxPath
+  nameWithType: VehicleCoreTheme.VehicleFxPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleFxPath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  isExternal: false
+  name: VehicleCoreTheme
+  nameWithType: VehicleCoreTheme.VehicleCoreTheme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleCoreTheme
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.AlternateGeometryRegionPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.AlternateGeometryRegionPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  isExternal: false
+  name: AlternateGeometryRegionPath
+  nameWithType: VehicleCoreTheme.AlternateGeometryRegionPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.AlternateGeometryRegionPath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.CoatingPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.CoatingPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  isExternal: false
+  name: CoatingPath
+  nameWithType: VehicleCoreTheme.CoatingPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.CoatingPath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.Emblems*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.Emblems
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  isExternal: false
+  name: Emblems
+  nameWithType: VehicleCoreTheme.Emblems
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.Emblems
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.HornPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.HornPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  isExternal: false
+  name: HornPath
+  nameWithType: VehicleCoreTheme.HornPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.HornPath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleCharmPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleCharmPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  isExternal: false
+  name: VehicleCharmPath
+  nameWithType: VehicleCoreTheme.VehicleCharmPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleCharmPath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleFxPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleFxPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  isExternal: false
+  name: VehicleFxPath
+  nameWithType: VehicleCoreTheme.VehicleFxPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme.VehicleFxPath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: FirstModifiedDateUtc
+  nameWithType: Theme.FirstModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: IsDefault
+  nameWithType: Theme.IsDefault
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: IsEquipped
+  nameWithType: Theme.IsEquipped
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: Theme.LastModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: ThemePath
+  nameWithType: Theme.ThemePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  type: property

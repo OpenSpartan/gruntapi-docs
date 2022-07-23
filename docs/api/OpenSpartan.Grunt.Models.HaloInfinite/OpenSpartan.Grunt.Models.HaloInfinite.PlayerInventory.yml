@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory
+  id: PlayerInventory
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.Items
+  langs:
+  - csharp
+  name: PlayerInventory
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class PlayerInventory
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class PlayerInventory
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory
+  langs:
+  - csharp
+  name: PlayerInventory()
+  nameWithType: PlayerInventory.PlayerInventory()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.PlayerInventory()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public PlayerInventory ();
+    parameters: []
+    content.csharp: public PlayerInventory ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.Items
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.Items
+  id: Items
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory
+  langs:
+  - csharp
+  name: Items
+  nameWithType: PlayerInventory.Items
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.Items
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem[] Items { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem[] Items { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.Items*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory
+  isExternal: false
+  name: PlayerInventory()
+  nameWithType: PlayerInventory.PlayerInventory()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.PlayerInventory()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.Items
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory
+  isExternal: false
+  name: Items
+  nameWithType: PlayerInventory.Items
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.Items
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem
+  name: PlayerItem
+  nameWithType: PlayerItem
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: PlayerItem[]
+  nameWithType: PlayerItem[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem
+    name: PlayerItem
+    nameWithType: PlayerItem
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory
+  isExternal: false
+  name: PlayerInventory
+  nameWithType: PlayerInventory.PlayerInventory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.PlayerInventory
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.Items*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.Items
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory
+  isExternal: false
+  name: Items
+  nameWithType: PlayerInventory.Items
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory.Items
+  monikers:
+  - net6.0
+  type: property

@@ -1,1046 +1,1062 @@
 ### YamlMime:TableOfContent
-- uid: Grunt.Authentication
-  name: Grunt.Authentication
+- uid: OpenSpartan.Grunt.Authentication
+  name: OpenSpartan.Grunt.Authentication
   items:
-  - uid: Grunt.Authentication.HaloAuthenticationClient
+  - uid: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient
     name: HaloAuthenticationClient
     monikers:
     - net6.0
-  - uid: Grunt.Authentication.XboxAuthenticationManager
-    name: XboxAuthenticationManager
+  - uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+    name: XboxAuthenticationClient
     monikers:
     - net6.0
   monikers:
   - net6.0
-- uid: Grunt.Core
-  name: Grunt.Core
+- uid: OpenSpartan.Grunt.Core
+  name: OpenSpartan.Grunt.Core
   items:
-  - uid: Grunt.Core.HaloInfiniteClient
+  - uid: OpenSpartan.Grunt.Core.HaloInfiniteClient
     name: HaloInfiniteClient
     monikers:
     - net6.0
   monikers:
   - net6.0
-- uid: Grunt.Models
-  name: Grunt.Models
+- uid: OpenSpartan.Grunt.Models
+  name: OpenSpartan.Grunt.Models
   items:
-  - uid: Grunt.Models.ApiContentType
+  - uid: OpenSpartan.Grunt.Models.ApiContentType
     name: ApiContentType
     monikers:
     - net6.0
-  - uid: Grunt.Models.APIFormattedDate
+  - uid: OpenSpartan.Grunt.Models.APIFormattedDate
     name: APIFormattedDate
     monikers:
     - net6.0
-  - uid: Grunt.Models.ClientConfiguration
+  - uid: OpenSpartan.Grunt.Models.ClientConfiguration
     name: ClientConfiguration
     monikers:
     - net6.0
-  - uid: Grunt.Models.ContentTypeAttribute
+  - uid: OpenSpartan.Grunt.Models.ContentTypeAttribute
     name: ContentTypeAttribute
     monikers:
     - net6.0
-  - uid: Grunt.Models.GruntConfiguration
+  - uid: OpenSpartan.Grunt.Models.GruntConfiguration
     name: GruntConfiguration
     monikers:
     - net6.0
-  - uid: Grunt.Models.OAuthToken
+  - uid: OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute
+    name: IsAutomaticallySerializableAttribute
+    monikers:
+    - net6.0
+  - uid: OpenSpartan.Grunt.Models.OAuthToken
     name: OAuthToken
     monikers:
     - net6.0
-  - uid: Grunt.Models.SpartanToken
+  - uid: OpenSpartan.Grunt.Models.SpartanToken
     name: SpartanToken
     monikers:
     - net6.0
-  - uid: Grunt.Models.SpartanTokenProof
+  - uid: OpenSpartan.Grunt.Models.SpartanTokenProof
     name: SpartanTokenProof
     monikers:
     - net6.0
-  - uid: Grunt.Models.SpartanTokenRequest
+  - uid: OpenSpartan.Grunt.Models.SpartanTokenRequest
     name: SpartanTokenRequest
     monikers:
     - net6.0
-  - uid: Grunt.Models.XboxDisplayClaims
+  - uid: OpenSpartan.Grunt.Models.XboxDisplayClaims
     name: XboxDisplayClaims
     monikers:
     - net6.0
-  - uid: Grunt.Models.XboxTicket
+  - uid: OpenSpartan.Grunt.Models.XboxTicket
     name: XboxTicket
     monikers:
     - net6.0
-  - uid: Grunt.Models.XboxTicketProperties
+  - uid: OpenSpartan.Grunt.Models.XboxTicketProperties
     name: XboxTicketProperties
     monikers:
     - net6.0
-  - uid: Grunt.Models.XboxTicketRequest
+  - uid: OpenSpartan.Grunt.Models.XboxTicketRequest
     name: XboxTicketRequest
     monikers:
     - net6.0
-  - uid: Grunt.Models.XboxXui
+  - uid: OpenSpartan.Grunt.Models.XboxXui
     name: XboxXui
     monikers:
     - net6.0
   monikers:
   - net6.0
-- uid: Grunt.Models.HaloInfinite
-  name: Grunt.Models.HaloInfinite
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  name: OpenSpartan.Grunt.Models.HaloInfinite
   items:
-  - uid: Grunt.Models.HaloInfinite.AcademyCategory
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyCategory
     name: AcademyCategory
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AcademyClientManifest
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyClientManifest
     name: AcademyClientManifest
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AcademyDrill
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyDrill
     name: AcademyDrill
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AcademySeries
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademySeries
     name: AcademySeries
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AcademyStarDefinition
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyStarDefinition
     name: AcademyStarDefinition
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AcademyStarDefinitions
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyStarDefinitions
     name: AcademyStarDefinitions
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AcademyTutorial
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial
     name: AcademyTutorial
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Achievement
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
     name: Achievement
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AchievementCollection
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection
     name: AchievementCollection
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ActiveBoost
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ActiveBoost
     name: ActiveBoost
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ActiveBoostsContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ActiveBoostsContainer
     name: ActiveBoostsContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ActiveChallenge
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ActiveChallenge
     name: ActiveChallenge
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AiCore
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
     name: AiCore
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AiCoreCollection
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreCollection
     name: AiCoreCollection
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AiCores
-    name: AiCores
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer
+    name: AiCoreContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AiCoreTheme
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
     name: AiCoreTheme
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AMDPreset
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AMDPreset
     name: AMDPreset
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Appearance
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
     name: Appearance
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AppearanceCustomization
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AppearanceCustomization
     name: AppearanceCustomization
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ArmorCore
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ArmorCore
     name: ArmorCore
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ArmorCoreCollection
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ArmorCoreCollection
     name: ArmorCoreCollection
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ArmorCoreTheme
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ArmorCoreTheme
     name: ArmorCoreTheme
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ArticleAction
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ArticleAction
     name: ArticleAction
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ArticleImage
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ArticleImage
     name: ArticleImage
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AssetAuthoringSession
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetAuthoringSession
     name: AssetAuthoringSession
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AssetKeyValues
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKeyValues
     name: AssetKeyValues
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AssetLink
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetLink
     name: AssetLink
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AssetPermission
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetPermission
     name: AssetPermission
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AssetRating
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetRating
     name: AssetRating
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AssetReport
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetReport
     name: AssetReport
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AssetReportCustomData
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetReportCustomData
     name: AssetReportCustomData
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AssetSearchResult
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetSearchResult
     name: AssetSearchResult
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AssetTag
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetTag
     name: AssetTag
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AssetVersionFile
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
     name: AssetVersionFile
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AssignedDeck
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssignedDeck
     name: AssignedDeck
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AsyncComputeOverrides
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AsyncComputeOverrides
     name: AsyncComputeOverrides
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AuthoringAsset
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
     name: AuthoringAsset
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AuthoringAssetContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetContainer
     name: AuthoringAssetContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AuthoringAssetCustomData
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetCustomData
     name: AuthoringAssetCustomData
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AuthoringAssetLinks
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetLinks
     name: AuthoringAssetLinks
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AuthoringAssetRating
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetRating
     name: AuthoringAssetRating
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AuthoringAssetRatingCustomData
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetRatingCustomData
     name: AuthoringAssetRatingCustomData
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AuthoringAssetRatings
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetRatings
     name: AuthoringAssetRatings
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AuthoringAssetStats
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetStats
     name: AuthoringAssetStats
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AuthoringAssetVersion
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetVersion
     name: AuthoringAssetVersion
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AuthoringAssetVersionContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetVersionContainer
     name: AuthoringAssetVersionContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
     name: AuthoringFavoritesContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AuthoringSessionSourceStarter
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionSourceStarter
     name: AuthoringSessionSourceStarter
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AuthoringSessionStarter
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringSessionStarter
     name: AuthoringSessionStarter
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.AwardedReward
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AwardedReward
     name: AwardedReward
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.BanResult
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.BanResult
     name: BanResult
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.BanSummary
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.BanSummary
     name: BanSummary
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.BanSummaryResult
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.BanSummaryResult
     name: BanSummaryResult
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.BotCustomizationData
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
     name: BotCustomizationData
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Challenge
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
     name: Challenge
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
     name: ChallengeDeckDefinition
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ChallengeProgressState
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeProgressState
     name: ChallengeProgressState
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ChallengeReward
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward
     name: ChallengeReward
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ClawAccessSnapshot
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot
     name: ClawAccessSnapshot
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.CommonItemData
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
     name: CommonItemData
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.CompletedChallenge
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.CompletedChallenge
     name: CompletedChallenge
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Configuration
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Configuration
     name: Configuration
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.CoreStats
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
     name: CoreStats
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Counterfactuals
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals
     name: Counterfactuals
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.CPUPreset
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPreset
     name: CPUPreset
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
     name: CPUPresetSnapshot
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Currency
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Currency
     name: Currency
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.CurrencyAmount
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyAmount
     name: CurrencyAmount
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.CurrencyDefinition
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
     name: CurrencyDefinition
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.CurrencySnapshot
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencySnapshot
     name: CurrencySnapshot
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.CustomAssetData
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData
     name: CustomAssetData
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.CustomFilmData
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomFilmData
     name: CustomFilmData
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.CustomGameDefinition
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
     name: CustomGameDefinition
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.CustomizationData
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
     name: CustomizationData
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.CustomMapData
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
     name: CustomMapData
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.CustomProjectData
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData
     name: CustomProjectData
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.DevicePresetOverrides
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.DevicePresetOverrides
     name: DevicePresetOverrides
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.DisplayPath
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.DisplayPath
     name: DisplayPath
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.DisplayString
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
     name: DisplayString
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.DriverDetails
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails
     name: DriverDetails
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.DriverManifest
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.DriverManifest
     name: DriverManifest
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.EliminationStats
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.EliminationStats
     name: EliminationStats
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Emblem
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Emblem
     name: Emblem
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.EngineGameVariant
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant
     name: EngineGameVariant
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
     name: EngineGameVariantCustomData
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.FavoriteAsset
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
     name: FavoriteAsset
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.File
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.File
     name: File
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Film
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Film
     name: Film
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.FilmChunk
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.FilmChunk
     name: FilmChunk
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.FireTeamDetails
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
     name: FireTeamDetails
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.FlightedFeatureFlags
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.FlightedFeatureFlags
     name: FlightedFeatureFlags
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.GameVariant
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariant
     name: GameVariant
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.GameVariantAssetStats
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantAssetStats
     name: GameVariantAssetStats
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.GenericAsset
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset
     name: GenericAsset
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.GrantedCurrency
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.GenericCore
+    name: GenericCore
+    monikers:
+    - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.GrantedCurrency
     name: GrantedCurrency
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.GuideContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
     name: GuideContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
+    name: HaloApiErrorContainer
+    monikers:
+    - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiResultContainer`2
+    name: HaloApiResultContainer<T,THaloApiErrorContainer>
+    monikers:
+    - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle
     name: HaloInfinite343MicrosoftStoreTitle
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
     name: HaloInfinite343SteamStoreTitle
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.HaloInfiniteMicrosoftStoreTitle
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfiniteMicrosoftStoreTitle
     name: HaloInfiniteMicrosoftStoreTitle
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.HaloInfiniteSteamStoreTitle
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfiniteSteamStoreTitle
     name: HaloInfiniteSteamStoreTitle
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.IdentifierName
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.IdentifierName
     name: IdentifierName
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.InGameItem
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
     name: InGameItem
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.IntelPreset
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.IntelPreset
     name: IntelPreset
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.InventoryAmount
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryAmount
     name: InventoryAmount
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.InventoryDefinition
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
     name: InventoryDefinition
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ItemPath
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ItemPath
     name: ItemPath
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Key
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Key
     name: Key
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.KillDeathStats
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
     name: KillDeathStats
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Links
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Links
     name: Links
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
     name: LobbyHopperErrorMessage
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList
     name: LobbyHopperErrorMessageList
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.LobbyJoinHandle
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle
     name: LobbyJoinHandle
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.LobbyPresenceContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceContainer
     name: LobbyPresenceContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
     name: LobbyPresenceRequestContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.LobbyPresenceResult
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult
     name: LobbyPresenceResult
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.LobbyPresenceResultContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResultContainer
     name: LobbyPresenceResultContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.LocalizedDataContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer
     name: LocalizedDataContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Manifest
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Manifest
     name: Manifest
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ManifestCustomData
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ManifestCustomData
     name: ManifestCustomData
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Manufacturer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
     name: Manufacturer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Map
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Map
     name: Map
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.MapModePair
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.MapModePair
     name: MapModePair
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.MarketplaceRecord
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.MarketplaceRecord
     name: MarketplaceRecord
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.MatchContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchContainer
     name: MatchContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.MatchCsr
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
     name: MatchCsr
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.MatchesPrivacy
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchesPrivacy
     name: MatchesPrivacy
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.MatchInfo
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
     name: MatchInfo
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.MatchLinks
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchLinks
     name: MatchLinks
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.MatchProgression
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
     name: MatchProgression
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.MatchResult
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchResult
     name: MatchResult
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.MatchStats
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
     name: MatchStats
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Medal
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal
     name: Medal
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Media
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Media
     name: Media
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Metadata
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Metadata
     name: Metadata
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.MicrosoftStoreInventory
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.MicrosoftStoreInventory
     name: MicrosoftStoreInventory
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.MicrosoftStoreTitleConfiguration
     name: MicrosoftStoreTitleConfiguration
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ModerationProofKeys
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys
     name: ModerationProofKeys
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.NetworkConfiguration
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.NetworkConfiguration
     name: NetworkConfiguration
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.News
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.News
     name: News
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.NewsArticle
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.NewsArticle
     name: NewsArticle
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.NvidiaPreset
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.NvidiaPreset
     name: NvidiaPreset
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.OEConfiguration
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration
     name: OEConfiguration
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Offering
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Offering
     name: Offering
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.OperationRewardTrackSnapshot
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.OperationRewardTrackSnapshot
     name: OperationRewardTrackSnapshot
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Outfit
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Outfit
     name: Outfit
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.OverrideQuery
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery
     name: OverrideQuery
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.OverrideQueryDefinition
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQueryDefinition
     name: OverrideQueryDefinition
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.OverrideSettings
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.OverrideSettings
     name: OverrideSettings
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ParticipationInfo
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ParticipationInfo
     name: ParticipationInfo
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PerformanceValue
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PerformanceValue
     name: PerformanceValue
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Permission
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Permission
     name: Permission
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PersonalScore
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
     name: PersonalScore
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlayAssetStats
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
     name: PlayAssetStats
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Player
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Player
     name: Player
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlayerClearance
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerClearance
     name: PlayerClearance
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlayerCores
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores
     name: PlayerCores
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlayerCustomization
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomization
     name: PlayerCustomization
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection
     name: PlayerCustomizationCollection
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlayerDecks
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
     name: PlayerDecks
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlayerGiveaways
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerGiveaways
     name: PlayerGiveaways
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlayerInventory
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory
     name: PlayerInventory
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlayerItem
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem
     name: PlayerItem
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlayerMatchCount
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchCount
     name: PlayerMatchCount
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlayerSkillResult
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResult
     name: PlayerSkillResult
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlayerSkillResultContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResultContainer
     name: PlayerSkillResultContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlayerState
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerState
     name: PlayerState
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlayerTeamStat
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerTeamStat
     name: PlayerTeamStat
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Playlist
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Playlist
     name: Playlist
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlaylistCsr
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsr
     name: PlaylistCsr
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlaylistCsrContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsrContainer
     name: PlaylistCsrContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlaylistCsrResultContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsrResultContainer
     name: PlaylistCsrResultContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlaylistCsrResults
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsrResults
     name: PlaylistCsrResults
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlaylistCustomData
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCustomData
     name: PlaylistCustomData
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlaylistEntry
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistEntry
     name: PlaylistEntry
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata
     name: PlaylistMapModePairMetadata
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PlaylistRotationEntry
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistRotationEntry
     name: PlaylistRotationEntry
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Prefab
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Prefab
     name: Prefab
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.PrefabCustomData
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PrefabCustomData
     name: PrefabCustomData
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Price
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Price
     name: Price
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Project
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Project
     name: Project
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Query
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Query
     name: Query
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.RankRecap
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
     name: RankRecap
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.RankSnapshot
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.RankSnapshot
     name: RankSnapshot
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Reward
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Reward
     name: Reward
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.RewardContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardContainer
     name: RewardContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.RewardSnapshot
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardSnapshot
     name: RewardSnapshot
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.RewardSummary
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardSummary
     name: RewardSummary
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.RewardTrack
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrack
     name: RewardTrack
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.RewardTrackMetadata
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
     name: RewardTrackMetadata
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.RewardTrackProgress
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackProgress
     name: RewardTrackProgress
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.SearchAssetTag
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchAssetTag
     name: SearchAssetTag
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.SearchResultsContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
     name: SearchResultsContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.SeasonRewardTrack
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.SeasonRewardTrack
     name: SeasonRewardTrack
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Server
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Server
     name: Server
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.SkillResult
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.SkillResult
     name: SkillResult
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.SortingMetadata
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.SortingMetadata
     name: SortingMetadata
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.SpartanBody
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
     name: SpartanBody
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.StatPerformances
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.StatPerformances
     name: StatPerformances
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Stats
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Stats
     name: Stats
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.SteamStoreInventory
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreInventory
     name: SteamStoreInventory
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
     name: SteamStoreTitleConfiguration
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.StoreItem
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.StoreItem
     name: StoreItem
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.StoreProduct
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.StoreProduct
     name: StoreProduct
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.StoreProductMapping
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.StoreProductMapping
     name: StoreProductMapping
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.SubsetDataContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
     name: SubsetDataContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.TagInfo
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.TagInfo
     name: TagInfo
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.TargetAsset
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.TargetAsset
     name: TargetAsset
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Team
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Team
     name: Team
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.TestAcademyClientManifest
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyClientManifest
     name: TestAcademyClientManifest
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.TestAcademyTutorial
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.TestAcademyTutorial
     name: TestAcademyTutorial
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.TestDrill
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
     name: TestDrill
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.TestDrillCategory
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
     name: TestDrillCategory
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.TierCounterfactuals
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
     name: TierCounterfactuals
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Transaction
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Transaction
     name: Transaction
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.TransactionSnapshot
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.TransactionSnapshot
     name: TransactionSnapshot
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.UGCGameVariant
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.UGCGameVariant
     name: UGCGameVariant
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.UpcomingChallenge
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.UpcomingChallenge
     name: UpcomingChallenge
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.VehicleCore
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCore
     name: VehicleCore
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.VehicleCoreCollection
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreCollection
     name: VehicleCoreCollection
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.VehicleCoreTheme
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
     name: VehicleCoreTheme
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.VersionRating
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.VersionRating
     name: VersionRating
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.WeaponCore
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore
     name: WeaponCore
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.WeaponCoreCollection
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreCollection
     name: WeaponCoreCollection
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.WeaponCoreTheme
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
     name: WeaponCoreTheme
     monikers:
     - net6.0
   monikers:
   - net6.0
-- uid: Grunt.Models.HaloInfinite.ApiIngress
-  name: Grunt.Models.HaloInfinite.ApiIngress
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  name: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
   items:
-  - uid: Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
     name: ApiAuthority
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
     name: ApiEndpoint
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ApiIngress.ApiRetryOptions
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiRetryOptions
     name: ApiRetryOptions
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
     name: ApiRetryPolicy
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
     name: ApiSettings
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
     name: ApiSettingsContainer
     monikers:
     - net6.0
   monikers:
   - net6.0
-- uid: Grunt.Models.HaloInfinite.Foundation
-  name: Grunt.Models.HaloInfinite.Foundation
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  name: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
   items:
-  - uid: Grunt.Models.HaloInfinite.Foundation.Asset
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
     name: Asset
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
     name: AuthoringResultContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Foundation.Core
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
     name: Core
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
     name: ResultContainer
     monikers:
     - net6.0
-  - uid: Grunt.Models.HaloInfinite.Foundation.Theme
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
     name: Theme
     monikers:
     - net6.0
   monikers:
   - net6.0
-- uid: Grunt.Util
-  name: Grunt.Util
+- uid: OpenSpartan.Grunt.Util
+  name: OpenSpartan.Grunt.Util
   items:
-  - uid: Grunt.Util.ConfigurationReader
+  - uid: OpenSpartan.Grunt.Util.ConfigurationReader
     name: ConfigurationReader
     monikers:
     - net6.0

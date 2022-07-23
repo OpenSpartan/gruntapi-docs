@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.ContentTypeAttribute
+  commentId: T:OpenSpartan.Grunt.Models.ContentTypeAttribute
+  id: ContentTypeAttribute
+  children:
+  - OpenSpartan.Grunt.Models.ContentTypeAttribute.#ctor
+  - OpenSpartan.Grunt.Models.ContentTypeAttribute.HeaderValue
+  langs:
+  - csharp
+  name: ContentTypeAttribute
+  nameWithType: OpenSpartan.Grunt.Models.ContentTypeAttribute
+  fullName: OpenSpartan.Grunt.Models.ContentTypeAttribute
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: 'public class ContentTypeAttribute : Attribute'
+    content.csharp: 'public class ContentTypeAttribute : Attribute'
+  inheritance:
+  - System.Attribute
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.ContentTypeAttribute.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.ContentTypeAttribute.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.ContentTypeAttribute
+  langs:
+  - csharp
+  name: ContentTypeAttribute()
+  nameWithType: ContentTypeAttribute.ContentTypeAttribute()
+  fullName: OpenSpartan.Grunt.Models.ContentTypeAttribute.ContentTypeAttribute()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public ContentTypeAttribute ();
+    parameters: []
+    content.csharp: public ContentTypeAttribute ();
+  overload: OpenSpartan.Grunt.Models.ContentTypeAttribute.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.ContentTypeAttribute.HeaderValue
+  commentId: P:OpenSpartan.Grunt.Models.ContentTypeAttribute.HeaderValue
+  id: HeaderValue
+  parent: OpenSpartan.Grunt.Models.ContentTypeAttribute
+  langs:
+  - csharp
+  name: HeaderValue
+  nameWithType: ContentTypeAttribute.HeaderValue
+  fullName: OpenSpartan.Grunt.Models.ContentTypeAttribute.HeaderValue
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public string HeaderValue { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string HeaderValue { get; set; }
+  overload: OpenSpartan.Grunt.Models.ContentTypeAttribute.HeaderValue*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models
+  commentId: N:OpenSpartan.Grunt.Models
+  isExternal: false
+  name: OpenSpartan.Grunt.Models
+  nameWithType: OpenSpartan.Grunt.Models
+  fullName: OpenSpartan.Grunt.Models
+  type: namespace
+- uid: System.Attribute
+  parent: System
+  isExternal: true
+  name: Attribute
+  nameWithType: Attribute
+  fullName: System.Attribute
+- uid: OpenSpartan.Grunt.Models.ContentTypeAttribute.#ctor
+  parent: OpenSpartan.Grunt.Models.ContentTypeAttribute
+  isExternal: false
+  name: ContentTypeAttribute()
+  nameWithType: ContentTypeAttribute.ContentTypeAttribute()
+  fullName: OpenSpartan.Grunt.Models.ContentTypeAttribute.ContentTypeAttribute()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.ContentTypeAttribute.HeaderValue
+  parent: OpenSpartan.Grunt.Models.ContentTypeAttribute
+  isExternal: false
+  name: HeaderValue
+  nameWithType: ContentTypeAttribute.HeaderValue
+  fullName: OpenSpartan.Grunt.Models.ContentTypeAttribute.HeaderValue
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.ContentTypeAttribute.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.ContentTypeAttribute.#ctor
+  parent: OpenSpartan.Grunt.Models.ContentTypeAttribute
+  isExternal: false
+  name: ContentTypeAttribute
+  nameWithType: ContentTypeAttribute.ContentTypeAttribute
+  fullName: OpenSpartan.Grunt.Models.ContentTypeAttribute.ContentTypeAttribute
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.ContentTypeAttribute.HeaderValue*
+  commentId: Overload:OpenSpartan.Grunt.Models.ContentTypeAttribute.HeaderValue
+  parent: OpenSpartan.Grunt.Models.ContentTypeAttribute
+  isExternal: false
+  name: HeaderValue
+  nameWithType: ContentTypeAttribute.HeaderValue
+  fullName: OpenSpartan.Grunt.Models.ContentTypeAttribute.HeaderValue
+  monikers:
+  - net6.0
+  type: property

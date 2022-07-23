@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
+  id: RankRecap
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr
+  - OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr
+  langs:
+  - csharp
+  name: RankRecap
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class RankRecap
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class RankRecap
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
+  langs:
+  - csharp
+  name: RankRecap()
+  nameWithType: RankRecap.RankRecap()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.RankRecap()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public RankRecap ();
+    parameters: []
+    content.csharp: public RankRecap ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr
+  id: PostMatchCsr
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
+  langs:
+  - csharp
+  name: PostMatchCsr
+  nameWithType: RankRecap.PostMatchCsr
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr PostMatchCsr { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr PostMatchCsr { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr
+  id: PreMatchCsr
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
+  langs:
+  - csharp
+  name: PreMatchCsr
+  nameWithType: RankRecap.PreMatchCsr
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr PreMatchCsr { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr PreMatchCsr { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
+  isExternal: false
+  name: RankRecap()
+  nameWithType: RankRecap.RankRecap()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.RankRecap()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
+  isExternal: false
+  name: PostMatchCsr
+  nameWithType: RankRecap.PostMatchCsr
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: MatchCsr
+  nameWithType: MatchCsr
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
+  isExternal: false
+  name: PreMatchCsr
+  nameWithType: RankRecap.PreMatchCsr
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
+  isExternal: false
+  name: RankRecap
+  nameWithType: RankRecap.RankRecap
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.RankRecap
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
+  isExternal: false
+  name: PostMatchCsr
+  nameWithType: RankRecap.PostMatchCsr
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PostMatchCsr
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
+  isExternal: false
+  name: PreMatchCsr
+  nameWithType: RankRecap.PreMatchCsr
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap.PreMatchCsr
+  monikers:
+  - net6.0
+  type: property

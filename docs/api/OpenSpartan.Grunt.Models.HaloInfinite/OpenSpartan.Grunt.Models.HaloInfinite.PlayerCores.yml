@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores
+  id: PlayerCores
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.Cores
+  langs:
+  - csharp
+  name: PlayerCores
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class PlayerCores
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class PlayerCores
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores
+  langs:
+  - csharp
+  name: PlayerCores()
+  nameWithType: PlayerCores.PlayerCores()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.PlayerCores()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public PlayerCores ();
+    parameters: []
+    content.csharp: public PlayerCores ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.Cores
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.Cores
+  id: Cores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores
+  langs:
+  - csharp
+  name: Cores
+  nameWithType: PlayerCores.Cores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.Cores
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.GenericCore[] Cores { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GenericCore[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.GenericCore[] Cores { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.Cores*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores
+  isExternal: false
+  name: PlayerCores()
+  nameWithType: PlayerCores.PlayerCores()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.PlayerCores()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.Cores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores
+  isExternal: false
+  name: Cores
+  nameWithType: PlayerCores.Cores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.Cores
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GenericCore
+  name: GenericCore
+  nameWithType: GenericCore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GenericCore
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GenericCore[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: GenericCore[]
+  nameWithType: GenericCore[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GenericCore[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.GenericCore
+    name: GenericCore
+    nameWithType: GenericCore
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.GenericCore
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores
+  isExternal: false
+  name: PlayerCores
+  nameWithType: PlayerCores.PlayerCores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.PlayerCores
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.Cores*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.Cores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores
+  isExternal: false
+  name: Cores
+  nameWithType: PlayerCores.Cores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores.Cores
+  monikers:
+  - net6.0
+  type: property

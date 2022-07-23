@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.APIFormattedDate
+  commentId: T:OpenSpartan.Grunt.Models.APIFormattedDate
+  id: APIFormattedDate
+  children:
+  - OpenSpartan.Grunt.Models.APIFormattedDate.#ctor
+  - OpenSpartan.Grunt.Models.APIFormattedDate.ISO8601Date
+  langs:
+  - csharp
+  name: APIFormattedDate
+  nameWithType: OpenSpartan.Grunt.Models.APIFormattedDate
+  fullName: OpenSpartan.Grunt.Models.APIFormattedDate
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public class APIFormattedDate
+    content.csharp: public class APIFormattedDate
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.APIFormattedDate.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.APIFormattedDate.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.APIFormattedDate
+  langs:
+  - csharp
+  name: APIFormattedDate()
+  nameWithType: APIFormattedDate.APIFormattedDate()
+  fullName: OpenSpartan.Grunt.Models.APIFormattedDate.APIFormattedDate()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public APIFormattedDate ();
+    parameters: []
+    content.csharp: public APIFormattedDate ();
+  overload: OpenSpartan.Grunt.Models.APIFormattedDate.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.APIFormattedDate.ISO8601Date
+  commentId: P:OpenSpartan.Grunt.Models.APIFormattedDate.ISO8601Date
+  id: ISO8601Date
+  parent: OpenSpartan.Grunt.Models.APIFormattedDate
+  langs:
+  - csharp
+  name: ISO8601Date
+  nameWithType: APIFormattedDate.ISO8601Date
+  fullName: OpenSpartan.Grunt.Models.APIFormattedDate.ISO8601Date
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public DateTime? ISO8601Date { get; set; }
+    return:
+      type: System.Nullable{System.DateTime}
+      description: ''
+    content.csharp: public DateTime? ISO8601Date { get; set; }
+  overload: OpenSpartan.Grunt.Models.APIFormattedDate.ISO8601Date*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models
+  commentId: N:OpenSpartan.Grunt.Models
+  isExternal: false
+  name: OpenSpartan.Grunt.Models
+  nameWithType: OpenSpartan.Grunt.Models
+  fullName: OpenSpartan.Grunt.Models
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.APIFormattedDate.#ctor
+  parent: OpenSpartan.Grunt.Models.APIFormattedDate
+  isExternal: false
+  name: APIFormattedDate()
+  nameWithType: APIFormattedDate.APIFormattedDate()
+  fullName: OpenSpartan.Grunt.Models.APIFormattedDate.APIFormattedDate()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.APIFormattedDate.ISO8601Date
+  parent: OpenSpartan.Grunt.Models.APIFormattedDate
+  isExternal: false
+  name: ISO8601Date
+  nameWithType: APIFormattedDate.ISO8601Date
+  fullName: OpenSpartan.Grunt.Models.APIFormattedDate.ISO8601Date
+  type: property
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable
+  nameWithType: Nullable
+  fullName: System.Nullable
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Nullable{System.DateTime}
+  parent: System
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.APIFormattedDate.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.APIFormattedDate.#ctor
+  parent: OpenSpartan.Grunt.Models.APIFormattedDate
+  isExternal: false
+  name: APIFormattedDate
+  nameWithType: APIFormattedDate.APIFormattedDate
+  fullName: OpenSpartan.Grunt.Models.APIFormattedDate.APIFormattedDate
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.APIFormattedDate.ISO8601Date*
+  commentId: Overload:OpenSpartan.Grunt.Models.APIFormattedDate.ISO8601Date
+  parent: OpenSpartan.Grunt.Models.APIFormattedDate
+  isExternal: false
+  name: ISO8601Date
+  nameWithType: APIFormattedDate.ISO8601Date
+  fullName: OpenSpartan.Grunt.Models.APIFormattedDate.ISO8601Date
+  monikers:
+  - net6.0
+  type: property
