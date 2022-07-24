@@ -44,6 +44,14 @@
     name: GruntConfiguration
     monikers:
     - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloApiErrorContainer
+    name: HaloApiErrorContainer
+    monikers:
+    - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloApiResultContainer`2
+    name: HaloApiResultContainer<T,THaloApiErrorContainer>
+    monikers:
+    - net6.0
   - uid: OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute
     name: IsAutomaticallySerializableAttribute
     monikers:
@@ -475,14 +483,6 @@
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
     name: GuideContainer
-    monikers:
-    - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
-    name: HaloApiErrorContainer
-    monikers:
-    - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiResultContainer`2
-    name: HaloApiResultContainer<T,THaloApiErrorContainer>
     monikers:
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle

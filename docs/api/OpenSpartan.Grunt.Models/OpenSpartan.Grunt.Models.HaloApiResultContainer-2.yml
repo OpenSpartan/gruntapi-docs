@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloApiResultContainer`2
+  commentId: T:OpenSpartan.Grunt.Models.HaloApiResultContainer`2
+  id: HaloApiResultContainer`2
+  children:
+  - OpenSpartan.Grunt.Models.HaloApiResultContainer`2.#ctor(`0,`1)
+  - OpenSpartan.Grunt.Models.HaloApiResultContainer`2.Error
+  - OpenSpartan.Grunt.Models.HaloApiResultContainer`2.Result
+  langs:
+  - csharp
+  name: HaloApiResultContainer<T,THaloApiErrorContainer>
+  nameWithType: OpenSpartan.Grunt.Models.HaloApiResultContainer<T,THaloApiErrorContainer>
+  fullName: OpenSpartan.Grunt.Models.HaloApiResultContainer<T,THaloApiErrorContainer>
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  summary: Container class that encapsulates the result from a Halo API call.
+  syntax:
+    content: public class HaloApiResultContainer<T,THaloApiErrorContainer>
+    typeParameters:
+    - id: T
+      description: The type of result to fetch.
+    - id: THaloApiErrorContainer
+      description: Error container, available if an error occurred.
+    content.csharp: public class HaloApiResultContainer<T,THaloApiErrorContainer>
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloApiResultContainer`2.#ctor(`0,`1)
+  commentId: M:OpenSpartan.Grunt.Models.HaloApiResultContainer`2.#ctor(`0,`1)
+  id: '#ctor(`0,`1)'
+  parent: OpenSpartan.Grunt.Models.HaloApiResultContainer`2
+  langs:
+  - csharp
+  name: HaloApiResultContainer<T,THaloApiErrorContainer>(T, THaloApiErrorContainer)
+  nameWithType: HaloApiResultContainer<T,THaloApiErrorContainer>.HaloApiResultContainer<T,THaloApiErrorContainer>(T, THaloApiErrorContainer)
+  fullName: OpenSpartan.Grunt.Models.HaloApiResultContainer<T,THaloApiErrorContainer>.HaloApiResultContainer<T,THaloApiErrorContainer>(T, THaloApiErrorContainer)
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public HaloApiResultContainer (T result, THaloApiErrorContainer container);
+    parameters:
+    - id: result
+      type: T
+      description: ''
+    - id: container
+      type: THaloApiErrorContainer
+      description: ''
+    content.csharp: public HaloApiResultContainer (T result, THaloApiErrorContainer container);
+  overload: OpenSpartan.Grunt.Models.HaloApiResultContainer`2.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloApiResultContainer`2.Error
+  commentId: P:OpenSpartan.Grunt.Models.HaloApiResultContainer`2.Error
+  id: Error
+  parent: OpenSpartan.Grunt.Models.HaloApiResultContainer`2
+  langs:
+  - csharp
+  name: Error
+  nameWithType: HaloApiResultContainer<T,THaloApiErrorContainer>.Error
+  fullName: OpenSpartan.Grunt.Models.HaloApiResultContainer<T,THaloApiErrorContainer>.Error
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public THaloApiErrorContainer Error { get; set; }
+    return:
+      type: THaloApiErrorContainer
+      description: ''
+    content.csharp: public THaloApiErrorContainer Error { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloApiResultContainer`2.Error*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloApiResultContainer`2.Result
+  commentId: P:OpenSpartan.Grunt.Models.HaloApiResultContainer`2.Result
+  id: Result
+  parent: OpenSpartan.Grunt.Models.HaloApiResultContainer`2
+  langs:
+  - csharp
+  name: Result
+  nameWithType: HaloApiResultContainer<T,THaloApiErrorContainer>.Result
+  fullName: OpenSpartan.Grunt.Models.HaloApiResultContainer<T,THaloApiErrorContainer>.Result
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public T Result { get; set; }
+    return:
+      type: T
+      description: ''
+    content.csharp: public T Result { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloApiResultContainer`2.Result*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models
+  commentId: N:OpenSpartan.Grunt.Models
+  isExternal: false
+  name: OpenSpartan.Grunt.Models
+  nameWithType: OpenSpartan.Grunt.Models
+  fullName: OpenSpartan.Grunt.Models
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloApiResultContainer`2.#ctor(`0,`1)
+  parent: OpenSpartan.Grunt.Models.HaloApiResultContainer`2
+  isExternal: false
+  name: HaloApiResultContainer<T,THaloApiErrorContainer>(T, THaloApiErrorContainer)
+  nameWithType: HaloApiResultContainer<T,THaloApiErrorContainer>.HaloApiResultContainer<T,THaloApiErrorContainer>(T, THaloApiErrorContainer)
+  fullName: OpenSpartan.Grunt.Models.HaloApiResultContainer<T,THaloApiErrorContainer>.HaloApiResultContainer<T,THaloApiErrorContainer>(T, THaloApiErrorContainer)
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloApiResultContainer`2.Error
+  parent: OpenSpartan.Grunt.Models.HaloApiResultContainer`2
+  isExternal: false
+  name: Error
+  nameWithType: HaloApiResultContainer<T,THaloApiErrorContainer>.Error
+  fullName: OpenSpartan.Grunt.Models.HaloApiResultContainer<T,THaloApiErrorContainer>.Error
+  type: property
+- uid: THaloApiErrorContainer
+  isExternal: true
+  name: THaloApiErrorContainer
+  nameWithType: THaloApiErrorContainer
+  fullName: THaloApiErrorContainer
+- uid: OpenSpartan.Grunt.Models.HaloApiResultContainer`2.Result
+  parent: OpenSpartan.Grunt.Models.HaloApiResultContainer`2
+  isExternal: false
+  name: Result
+  nameWithType: HaloApiResultContainer<T,THaloApiErrorContainer>.Result
+  fullName: OpenSpartan.Grunt.Models.HaloApiResultContainer<T,THaloApiErrorContainer>.Result
+  type: property
+- uid: T
+  isExternal: true
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: OpenSpartan.Grunt.Models.HaloApiResultContainer`2.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloApiResultContainer`2.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloApiResultContainer`2
+  isExternal: false
+  name: HaloApiResultContainer<T,THaloApiErrorContainer>
+  nameWithType: HaloApiResultContainer<T,THaloApiErrorContainer>.HaloApiResultContainer<T,THaloApiErrorContainer>
+  fullName: OpenSpartan.Grunt.Models.HaloApiResultContainer<T,THaloApiErrorContainer>.HaloApiResultContainer
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloApiResultContainer`2.Error*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloApiResultContainer`2.Error
+  parent: OpenSpartan.Grunt.Models.HaloApiResultContainer`2
+  isExternal: false
+  name: Error
+  nameWithType: HaloApiResultContainer<T,THaloApiErrorContainer>.Error
+  fullName: OpenSpartan.Grunt.Models.HaloApiResultContainer<T,THaloApiErrorContainer>.Error
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloApiResultContainer`2.Result*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloApiResultContainer`2.Result
+  parent: OpenSpartan.Grunt.Models.HaloApiResultContainer`2
+  isExternal: false
+  name: Result
+  nameWithType: HaloApiResultContainer<T,THaloApiErrorContainer>.Result
+  fullName: OpenSpartan.Grunt.Models.HaloApiResultContainer<T,THaloApiErrorContainer>.Result
+  monikers:
+  - net6.0
+  type: property

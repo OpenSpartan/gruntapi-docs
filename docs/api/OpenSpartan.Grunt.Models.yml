@@ -9,6 +9,8 @@ items:
   - OpenSpartan.Grunt.Models.ClientConfiguration
   - OpenSpartan.Grunt.Models.ContentTypeAttribute
   - OpenSpartan.Grunt.Models.GruntConfiguration
+  - OpenSpartan.Grunt.Models.HaloApiErrorContainer
+  - OpenSpartan.Grunt.Models.HaloApiResultContainer`2
   - OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute
   - OpenSpartan.Grunt.Models.OAuthToken
   - OpenSpartan.Grunt.Models.SpartanToken
@@ -67,6 +69,22 @@ references:
   name: GruntConfiguration
   nameWithType: OpenSpartan.Grunt.Models.GruntConfiguration
   fullName: OpenSpartan.Grunt.Models.GruntConfiguration
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloApiErrorContainer
+  commentId: T:OpenSpartan.Grunt.Models.HaloApiErrorContainer
+  parent: OpenSpartan.Grunt.Models
+  isExternal: false
+  name: HaloApiErrorContainer
+  nameWithType: OpenSpartan.Grunt.Models.HaloApiErrorContainer
+  fullName: OpenSpartan.Grunt.Models.HaloApiErrorContainer
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloApiResultContainer`2
+  commentId: T:OpenSpartan.Grunt.Models.HaloApiResultContainer`2
+  parent: OpenSpartan.Grunt.Models
+  isExternal: false
+  name: HaloApiResultContainer<T,THaloApiErrorContainer>
+  nameWithType: OpenSpartan.Grunt.Models.HaloApiResultContainer<T,THaloApiErrorContainer>
+  fullName: OpenSpartan.Grunt.Models.HaloApiResultContainer<T,THaloApiErrorContainer>
   type: class
 - uid: OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute
   commentId: T:OpenSpartan.Grunt.Models.IsAutomaticallySerializableAttribute

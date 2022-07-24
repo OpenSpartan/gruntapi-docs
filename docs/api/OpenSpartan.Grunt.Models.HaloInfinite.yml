@@ -101,8 +101,6 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.GenericCore
   - OpenSpartan.Grunt.Models.HaloInfinite.GrantedCurrency
   - OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
-  - OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
-  - OpenSpartan.Grunt.Models.HaloInfinite.HaloApiResultContainer`2
   - OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle
   - OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
   - OpenSpartan.Grunt.Models.HaloInfinite.HaloInfiniteMicrosoftStoreTitle
@@ -1015,22 +1013,6 @@ references:
   name: GuideContainer
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.GuideContainer
-  type: class
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
-  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
-  parent: OpenSpartan.Grunt.Models.HaloInfinite
-  isExternal: false
-  name: HaloApiErrorContainer
-  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiErrorContainer
-  type: class
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiResultContainer`2
-  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.HaloApiResultContainer`2
-  parent: OpenSpartan.Grunt.Models.HaloInfinite
-  isExternal: false
-  name: HaloApiResultContainer<T,THaloApiErrorContainer>
-  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiResultContainer<T,THaloApiErrorContainer>
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloApiResultContainer<T,THaloApiErrorContainer>
   type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343MicrosoftStoreTitle
