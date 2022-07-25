@@ -17,9 +17,9 @@
     "content": [
       {
         "files": [
-          "api/**.yml",
-          "api/index.md"
-        ]
+          "dotnet/api/**.yml",
+          "dotnet/api/index.md"
+        ],
       },
       {
         "files": [

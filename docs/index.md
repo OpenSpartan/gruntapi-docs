@@ -14,4 +14,4 @@ If you would like to report any issues or have feature suggestions or comments, 
 
 ## Contributions
 
-Any contributions, either to this documentation or the library, are always welcome. Make sure to [open an issue](https://github.com/dend/grunt/issues) ahead of time, though, so that we can discuss what needs to be done.
+Any contributions, either to this documentation or the library, are always welcome. Make sure to [open an issue](https://github.com/OpenSpartan/grunt/issues) ahead of time, though, so that we can discuss what needs to be done.
