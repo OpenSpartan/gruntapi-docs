@@ -8,6 +8,7 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerBastion
   - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerCtf
   - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerFiesta
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerGrifball
   - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerLandGrab
   - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerOddball
   - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerSlayer
@@ -126,6 +127,29 @@ items:
   monikers:
   - net6.0
   literalValue: "9"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerGrifball
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerGrifball
+  id: MultiplayerGrifball
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: MultiplayerGrifball
+  nameWithType: GameVariantCategory.MultiplayerGrifball
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerGrifball
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: MultiplayerGrifball
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: MultiplayerGrifball
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "25"
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerLandGrab
   commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerLandGrab
   id: MultiplayerLandGrab
@@ -265,6 +289,13 @@ references:
   name: MultiplayerFiesta
   nameWithType: GameVariantCategory.MultiplayerFiesta
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerFiesta
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerGrifball
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: MultiplayerGrifball
+  nameWithType: GameVariantCategory.MultiplayerGrifball
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerGrifball
   type: field
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerLandGrab
   parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
