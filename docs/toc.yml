@@ -1,5 +1,5 @@
 - name: Articles
   href: articles/
-- name: SDK Documentation
-  href: api/
-  homepage: api/
+- name: .NET SDK Documentation
+  href: dotnet/api/
+  homepage: dotnet/api/
