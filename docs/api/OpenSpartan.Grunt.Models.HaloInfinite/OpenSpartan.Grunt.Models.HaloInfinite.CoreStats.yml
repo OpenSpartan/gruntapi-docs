@@ -1,0 +1,1539 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  id: CoreStats
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Accuracy
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Assists
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.AverageLifeDuration
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Betrayals
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.CalloutAssists
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageDealt
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageTaken
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Deaths
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageDealt
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageTaken
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DriverAssists
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.EmpAssists
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.GrenadeKills
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.HeadshotKills
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Hijacks
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.KDA
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Kills
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MaxKillingSpree
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Medals
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MeleeKills
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScore
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScores
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PowerWeaponKills
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsLost
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsTied
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsWon
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Score
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsFired
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsHit
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Suicides
+  - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.VehicleDestroys
+  langs:
+  - csharp
+  name: CoreStats
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CoreStats
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CoreStats
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: CoreStats()
+  nameWithType: CoreStats.CoreStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.CoreStats()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public CoreStats ();
+    parameters: []
+    content.csharp: public CoreStats ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Accuracy
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Accuracy
+  id: Accuracy
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: Accuracy
+  nameWithType: CoreStats.Accuracy
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Accuracy
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public float Accuracy { get; set; }
+    return:
+      type: System.Single
+      description: ''
+    content.csharp: public float Accuracy { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Accuracy*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Assists
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Assists
+  id: Assists
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: Assists
+  nameWithType: CoreStats.Assists
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Assists
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Assists { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Assists { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Assists*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.AverageLifeDuration
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.AverageLifeDuration
+  id: AverageLifeDuration
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: AverageLifeDuration
+  nameWithType: CoreStats.AverageLifeDuration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.AverageLifeDuration
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string AverageLifeDuration { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string AverageLifeDuration { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.AverageLifeDuration*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Betrayals
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Betrayals
+  id: Betrayals
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: Betrayals
+  nameWithType: CoreStats.Betrayals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Betrayals
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Betrayals { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Betrayals { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Betrayals*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.CalloutAssists
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.CalloutAssists
+  id: CalloutAssists
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: CalloutAssists
+  nameWithType: CoreStats.CalloutAssists
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.CalloutAssists
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int CalloutAssists { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int CalloutAssists { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.CalloutAssists*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageDealt
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageDealt
+  id: DamageDealt
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: DamageDealt
+  nameWithType: CoreStats.DamageDealt
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageDealt
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int DamageDealt { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int DamageDealt { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageDealt*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageTaken
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageTaken
+  id: DamageTaken
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: DamageTaken
+  nameWithType: CoreStats.DamageTaken
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageTaken
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int DamageTaken { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int DamageTaken { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageTaken*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Deaths
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Deaths
+  id: Deaths
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: Deaths
+  nameWithType: CoreStats.Deaths
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Deaths
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Deaths { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Deaths { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Deaths*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageDealt
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageDealt
+  id: DeprecatedDamageDealt
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: DeprecatedDamageDealt
+  nameWithType: CoreStats.DeprecatedDamageDealt
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageDealt
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public float DeprecatedDamageDealt { get; set; }
+    return:
+      type: System.Single
+      description: ''
+    content.csharp: public float DeprecatedDamageDealt { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageDealt*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageTaken
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageTaken
+  id: DeprecatedDamageTaken
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: DeprecatedDamageTaken
+  nameWithType: CoreStats.DeprecatedDamageTaken
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageTaken
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public float DeprecatedDamageTaken { get; set; }
+    return:
+      type: System.Single
+      description: ''
+    content.csharp: public float DeprecatedDamageTaken { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageTaken*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DriverAssists
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DriverAssists
+  id: DriverAssists
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: DriverAssists
+  nameWithType: CoreStats.DriverAssists
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DriverAssists
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int DriverAssists { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int DriverAssists { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DriverAssists*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.EmpAssists
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.EmpAssists
+  id: EmpAssists
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: EmpAssists
+  nameWithType: CoreStats.EmpAssists
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.EmpAssists
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int EmpAssists { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int EmpAssists { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.EmpAssists*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.GrenadeKills
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.GrenadeKills
+  id: GrenadeKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: GrenadeKills
+  nameWithType: CoreStats.GrenadeKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.GrenadeKills
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int GrenadeKills { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int GrenadeKills { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.GrenadeKills*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.HeadshotKills
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.HeadshotKills
+  id: HeadshotKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: HeadshotKills
+  nameWithType: CoreStats.HeadshotKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.HeadshotKills
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int HeadshotKills { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int HeadshotKills { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.HeadshotKills*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Hijacks
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Hijacks
+  id: Hijacks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: Hijacks
+  nameWithType: CoreStats.Hijacks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Hijacks
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Hijacks { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Hijacks { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Hijacks*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.KDA
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.KDA
+  id: KDA
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: KDA
+  nameWithType: CoreStats.KDA
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.KDA
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public float KDA { get; set; }
+    return:
+      type: System.Single
+      description: ''
+    content.csharp: public float KDA { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.KDA*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Kills
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Kills
+  id: Kills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: Kills
+  nameWithType: CoreStats.Kills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Kills
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Kills { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Kills { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Kills*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MaxKillingSpree
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MaxKillingSpree
+  id: MaxKillingSpree
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: MaxKillingSpree
+  nameWithType: CoreStats.MaxKillingSpree
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MaxKillingSpree
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int MaxKillingSpree { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int MaxKillingSpree { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MaxKillingSpree*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Medals
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Medals
+  id: Medals
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: Medals
+  nameWithType: CoreStats.Medals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Medals
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Medal[] Medals { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Medal[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Medal[] Medals { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Medals*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MeleeKills
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MeleeKills
+  id: MeleeKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: MeleeKills
+  nameWithType: CoreStats.MeleeKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MeleeKills
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int MeleeKills { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int MeleeKills { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MeleeKills*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScore
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScore
+  id: PersonalScore
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: PersonalScore
+  nameWithType: CoreStats.PersonalScore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScore
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int PersonalScore { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int PersonalScore { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScore*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScores
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScores
+  id: PersonalScores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: PersonalScores
+  nameWithType: CoreStats.PersonalScores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScores
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore[] PersonalScores { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore[] PersonalScores { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScores*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PowerWeaponKills
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PowerWeaponKills
+  id: PowerWeaponKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: PowerWeaponKills
+  nameWithType: CoreStats.PowerWeaponKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PowerWeaponKills
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int PowerWeaponKills { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int PowerWeaponKills { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PowerWeaponKills*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsLost
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsLost
+  id: RoundsLost
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: RoundsLost
+  nameWithType: CoreStats.RoundsLost
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsLost
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int RoundsLost { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int RoundsLost { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsLost*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsTied
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsTied
+  id: RoundsTied
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: RoundsTied
+  nameWithType: CoreStats.RoundsTied
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsTied
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int RoundsTied { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int RoundsTied { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsTied*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsWon
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsWon
+  id: RoundsWon
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: RoundsWon
+  nameWithType: CoreStats.RoundsWon
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsWon
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int RoundsWon { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int RoundsWon { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsWon*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Score
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Score
+  id: Score
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: Score
+  nameWithType: CoreStats.Score
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Score
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Score { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Score { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Score*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsFired
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsFired
+  id: ShotsFired
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: ShotsFired
+  nameWithType: CoreStats.ShotsFired
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsFired
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ShotsFired { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ShotsFired { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsFired*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsHit
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsHit
+  id: ShotsHit
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: ShotsHit
+  nameWithType: CoreStats.ShotsHit
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsHit
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ShotsHit { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ShotsHit { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsHit*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Suicides
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Suicides
+  id: Suicides
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: Suicides
+  nameWithType: CoreStats.Suicides
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Suicides
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Suicides { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Suicides { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Suicides*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.VehicleDestroys
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.VehicleDestroys
+  id: VehicleDestroys
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  langs:
+  - csharp
+  name: VehicleDestroys
+  nameWithType: CoreStats.VehicleDestroys
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.VehicleDestroys
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int VehicleDestroys { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int VehicleDestroys { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.VehicleDestroys*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: CoreStats()
+  nameWithType: CoreStats.CoreStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.CoreStats()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Accuracy
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Accuracy
+  nameWithType: CoreStats.Accuracy
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Accuracy
+  type: property
+- uid: System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Assists
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Assists
+  nameWithType: CoreStats.Assists
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Assists
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.AverageLifeDuration
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: AverageLifeDuration
+  nameWithType: CoreStats.AverageLifeDuration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.AverageLifeDuration
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Betrayals
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Betrayals
+  nameWithType: CoreStats.Betrayals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Betrayals
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.CalloutAssists
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: CalloutAssists
+  nameWithType: CoreStats.CalloutAssists
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.CalloutAssists
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageDealt
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: DamageDealt
+  nameWithType: CoreStats.DamageDealt
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageDealt
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageTaken
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: DamageTaken
+  nameWithType: CoreStats.DamageTaken
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageTaken
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Deaths
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Deaths
+  nameWithType: CoreStats.Deaths
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Deaths
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageDealt
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: DeprecatedDamageDealt
+  nameWithType: CoreStats.DeprecatedDamageDealt
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageDealt
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageTaken
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: DeprecatedDamageTaken
+  nameWithType: CoreStats.DeprecatedDamageTaken
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageTaken
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DriverAssists
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: DriverAssists
+  nameWithType: CoreStats.DriverAssists
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DriverAssists
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.EmpAssists
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: EmpAssists
+  nameWithType: CoreStats.EmpAssists
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.EmpAssists
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.GrenadeKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: GrenadeKills
+  nameWithType: CoreStats.GrenadeKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.GrenadeKills
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.HeadshotKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: HeadshotKills
+  nameWithType: CoreStats.HeadshotKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.HeadshotKills
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Hijacks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Hijacks
+  nameWithType: CoreStats.Hijacks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Hijacks
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.KDA
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: KDA
+  nameWithType: CoreStats.KDA
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.KDA
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Kills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Kills
+  nameWithType: CoreStats.Kills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Kills
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MaxKillingSpree
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: MaxKillingSpree
+  nameWithType: CoreStats.MaxKillingSpree
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MaxKillingSpree
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Medals
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Medals
+  nameWithType: CoreStats.Medals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Medals
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  name: Medal
+  nameWithType: Medal
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: Medal[]
+  nameWithType: Medal[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Medal[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+    name: Medal
+    nameWithType: Medal
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.Medal
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MeleeKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: MeleeKills
+  nameWithType: CoreStats.MeleeKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MeleeKills
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScore
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: PersonalScore
+  nameWithType: CoreStats.PersonalScore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScore
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: PersonalScores
+  nameWithType: CoreStats.PersonalScores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScores
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  name: PersonalScore
+  nameWithType: PersonalScore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: PersonalScore[]
+  nameWithType: PersonalScore[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+    name: PersonalScore
+    nameWithType: PersonalScore
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.PersonalScore
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PowerWeaponKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: PowerWeaponKills
+  nameWithType: CoreStats.PowerWeaponKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PowerWeaponKills
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsLost
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: RoundsLost
+  nameWithType: CoreStats.RoundsLost
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsLost
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsTied
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: RoundsTied
+  nameWithType: CoreStats.RoundsTied
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsTied
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsWon
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: RoundsWon
+  nameWithType: CoreStats.RoundsWon
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsWon
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Score
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Score
+  nameWithType: CoreStats.Score
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Score
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsFired
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: ShotsFired
+  nameWithType: CoreStats.ShotsFired
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsFired
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsHit
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: ShotsHit
+  nameWithType: CoreStats.ShotsHit
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsHit
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Suicides
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Suicides
+  nameWithType: CoreStats.Suicides
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Suicides
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.VehicleDestroys
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: VehicleDestroys
+  nameWithType: CoreStats.VehicleDestroys
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.VehicleDestroys
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: CoreStats
+  nameWithType: CoreStats.CoreStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.CoreStats
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Accuracy*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Accuracy
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Accuracy
+  nameWithType: CoreStats.Accuracy
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Accuracy
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Assists*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Assists
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Assists
+  nameWithType: CoreStats.Assists
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Assists
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.AverageLifeDuration*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.AverageLifeDuration
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: AverageLifeDuration
+  nameWithType: CoreStats.AverageLifeDuration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.AverageLifeDuration
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Betrayals*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Betrayals
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Betrayals
+  nameWithType: CoreStats.Betrayals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Betrayals
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.CalloutAssists*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.CalloutAssists
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: CalloutAssists
+  nameWithType: CoreStats.CalloutAssists
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.CalloutAssists
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageDealt*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageDealt
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: DamageDealt
+  nameWithType: CoreStats.DamageDealt
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageDealt
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageTaken*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageTaken
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: DamageTaken
+  nameWithType: CoreStats.DamageTaken
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DamageTaken
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Deaths*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Deaths
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Deaths
+  nameWithType: CoreStats.Deaths
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Deaths
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageDealt*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageDealt
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: DeprecatedDamageDealt
+  nameWithType: CoreStats.DeprecatedDamageDealt
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageDealt
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageTaken*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageTaken
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: DeprecatedDamageTaken
+  nameWithType: CoreStats.DeprecatedDamageTaken
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DeprecatedDamageTaken
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DriverAssists*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DriverAssists
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: DriverAssists
+  nameWithType: CoreStats.DriverAssists
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.DriverAssists
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.EmpAssists*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.EmpAssists
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: EmpAssists
+  nameWithType: CoreStats.EmpAssists
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.EmpAssists
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.GrenadeKills*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.GrenadeKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: GrenadeKills
+  nameWithType: CoreStats.GrenadeKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.GrenadeKills
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.HeadshotKills*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.HeadshotKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: HeadshotKills
+  nameWithType: CoreStats.HeadshotKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.HeadshotKills
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Hijacks*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Hijacks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Hijacks
+  nameWithType: CoreStats.Hijacks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Hijacks
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.KDA*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.KDA
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: KDA
+  nameWithType: CoreStats.KDA
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.KDA
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Kills*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Kills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Kills
+  nameWithType: CoreStats.Kills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Kills
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MaxKillingSpree*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MaxKillingSpree
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: MaxKillingSpree
+  nameWithType: CoreStats.MaxKillingSpree
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MaxKillingSpree
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Medals*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Medals
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Medals
+  nameWithType: CoreStats.Medals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Medals
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MeleeKills*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MeleeKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: MeleeKills
+  nameWithType: CoreStats.MeleeKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.MeleeKills
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScore*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScore
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: PersonalScore
+  nameWithType: CoreStats.PersonalScore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScore
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScores*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: PersonalScores
+  nameWithType: CoreStats.PersonalScores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PersonalScores
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PowerWeaponKills*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PowerWeaponKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: PowerWeaponKills
+  nameWithType: CoreStats.PowerWeaponKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.PowerWeaponKills
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsLost*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsLost
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: RoundsLost
+  nameWithType: CoreStats.RoundsLost
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsLost
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsTied*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsTied
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: RoundsTied
+  nameWithType: CoreStats.RoundsTied
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsTied
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsWon*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsWon
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: RoundsWon
+  nameWithType: CoreStats.RoundsWon
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.RoundsWon
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Score*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Score
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Score
+  nameWithType: CoreStats.Score
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Score
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsFired*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsFired
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: ShotsFired
+  nameWithType: CoreStats.ShotsFired
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsFired
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsHit*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsHit
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: ShotsHit
+  nameWithType: CoreStats.ShotsHit
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.ShotsHit
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Suicides*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Suicides
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: Suicides
+  nameWithType: CoreStats.Suicides
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.Suicides
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.VehicleDestroys*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.VehicleDestroys
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
+  isExternal: false
+  name: VehicleDestroys
+  nameWithType: CoreStats.VehicleDestroys
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats.VehicleDestroys
+  monikers:
+  - net6.0
+  type: property

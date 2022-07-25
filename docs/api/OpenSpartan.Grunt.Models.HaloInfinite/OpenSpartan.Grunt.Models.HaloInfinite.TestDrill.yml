@@ -1,0 +1,335 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  id: TestDrill
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Available
+  - OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Description
+  - OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameplayGUID
+  - OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameVariant
+  - OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.MapVariant
+  langs:
+  - csharp
+  name: TestDrill
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class TestDrill
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class TestDrill
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  langs:
+  - csharp
+  name: TestDrill()
+  nameWithType: TestDrill.TestDrill()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.TestDrill()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public TestDrill ();
+    parameters: []
+    content.csharp: public TestDrill ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Available
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Available
+  id: Available
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  langs:
+  - csharp
+  name: Available
+  nameWithType: TestDrill.Available
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Available
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool Available { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool Available { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Available*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Description
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Description
+  id: Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  langs:
+  - csharp
+  name: Description
+  nameWithType: TestDrill.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Description
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Description { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Description { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Description*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameplayGUID
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameplayGUID
+  id: GameplayGUID
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  langs:
+  - csharp
+  name: GameplayGUID
+  nameWithType: TestDrill.GameplayGUID
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameplayGUID
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string GameplayGUID { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string GameplayGUID { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameplayGUID*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameVariant
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameVariant
+  id: GameVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  langs:
+  - csharp
+  name: GameVariant
+  nameWithType: TestDrill.GameVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameVariant
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string GameVariant { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string GameVariant { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameVariant*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.MapVariant
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.MapVariant
+  id: MapVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  langs:
+  - csharp
+  name: MapVariant
+  nameWithType: TestDrill.MapVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.MapVariant
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string MapVariant { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string MapVariant { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.MapVariant*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  isExternal: false
+  name: TestDrill()
+  nameWithType: TestDrill.TestDrill()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.TestDrill()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Available
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  isExternal: false
+  name: Available
+  nameWithType: TestDrill.Available
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Available
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  isExternal: false
+  name: Description
+  nameWithType: TestDrill.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Description
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: DisplayString
+  nameWithType: DisplayString
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameplayGUID
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  isExternal: false
+  name: GameplayGUID
+  nameWithType: TestDrill.GameplayGUID
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameplayGUID
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  isExternal: false
+  name: GameVariant
+  nameWithType: TestDrill.GameVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameVariant
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.MapVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  isExternal: false
+  name: MapVariant
+  nameWithType: TestDrill.MapVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.MapVariant
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  isExternal: false
+  name: TestDrill
+  nameWithType: TestDrill.TestDrill
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.TestDrill
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Available*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Available
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  isExternal: false
+  name: Available
+  nameWithType: TestDrill.Available
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Available
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Description*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  isExternal: false
+  name: Description
+  nameWithType: TestDrill.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.Description
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameplayGUID*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameplayGUID
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  isExternal: false
+  name: GameplayGUID
+  nameWithType: TestDrill.GameplayGUID
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameplayGUID
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameVariant*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  isExternal: false
+  name: GameVariant
+  nameWithType: TestDrill.GameVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.GameVariant
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.MapVariant*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.MapVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill
+  isExternal: false
+  name: MapVariant
+  nameWithType: TestDrill.MapVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrill.MapVariant
+  monikers:
+  - net6.0
+  type: property

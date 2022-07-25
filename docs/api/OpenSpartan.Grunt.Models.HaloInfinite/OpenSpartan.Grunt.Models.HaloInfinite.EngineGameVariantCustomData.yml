@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  id: EngineGameVariantCustomData
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.LocalizedData
+  - OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.SubsetData
+  langs:
+  - csharp
+  name: EngineGameVariantCustomData
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class EngineGameVariantCustomData
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class EngineGameVariantCustomData
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  langs:
+  - csharp
+  name: EngineGameVariantCustomData()
+  nameWithType: EngineGameVariantCustomData.EngineGameVariantCustomData()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.EngineGameVariantCustomData()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public EngineGameVariantCustomData ();
+    parameters: []
+    content.csharp: public EngineGameVariantCustomData ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.LocalizedData
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.LocalizedData
+  id: LocalizedData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  langs:
+  - csharp
+  name: LocalizedData
+  nameWithType: EngineGameVariantCustomData.LocalizedData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.LocalizedData
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer LocalizedData { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer LocalizedData { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.LocalizedData*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.SubsetData
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.SubsetData
+  id: SubsetData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  langs:
+  - csharp
+  name: SubsetData
+  nameWithType: EngineGameVariantCustomData.SubsetData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.SubsetData
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer SubsetData { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer SubsetData { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.SubsetData*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  isExternal: false
+  name: EngineGameVariantCustomData()
+  nameWithType: EngineGameVariantCustomData.EngineGameVariantCustomData()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.EngineGameVariantCustomData()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.LocalizedData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  isExternal: false
+  name: LocalizedData
+  nameWithType: EngineGameVariantCustomData.LocalizedData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.LocalizedData
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: LocalizedDataContainer
+  nameWithType: LocalizedDataContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LocalizedDataContainer
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.SubsetData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  isExternal: false
+  name: SubsetData
+  nameWithType: EngineGameVariantCustomData.SubsetData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.SubsetData
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: SubsetDataContainer
+  nameWithType: SubsetDataContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SubsetDataContainer
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  isExternal: false
+  name: EngineGameVariantCustomData
+  nameWithType: EngineGameVariantCustomData.EngineGameVariantCustomData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.EngineGameVariantCustomData
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.LocalizedData*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.LocalizedData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  isExternal: false
+  name: LocalizedData
+  nameWithType: EngineGameVariantCustomData.LocalizedData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.LocalizedData
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.SubsetData*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.SubsetData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  isExternal: false
+  name: SubsetData
+  nameWithType: EngineGameVariantCustomData.SubsetData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData.SubsetData
+  monikers:
+  - net6.0
+  type: property

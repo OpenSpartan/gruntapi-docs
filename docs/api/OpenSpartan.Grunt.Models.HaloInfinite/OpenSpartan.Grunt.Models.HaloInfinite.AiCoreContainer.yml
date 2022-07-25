@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer
+  id: AiCoreContainer
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.Cores
+  langs:
+  - csharp
+  name: AiCoreContainer
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AiCoreContainer
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AiCoreContainer
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer
+  langs:
+  - csharp
+  name: AiCoreContainer()
+  nameWithType: AiCoreContainer.AiCoreContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.AiCoreContainer()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public AiCoreContainer ();
+    parameters: []
+    content.csharp: public AiCoreContainer ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.Cores
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.Cores
+  id: Cores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer
+  langs:
+  - csharp
+  name: Cores
+  nameWithType: AiCoreContainer.Cores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.Cores
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.AiCore[] Cores { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AiCore[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.AiCore[] Cores { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.Cores*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer
+  isExternal: false
+  name: AiCoreContainer()
+  nameWithType: AiCoreContainer.AiCoreContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.AiCoreContainer()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.Cores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer
+  isExternal: false
+  name: Cores
+  nameWithType: AiCoreContainer.Cores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.Cores
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+  name: AiCore
+  nameWithType: AiCore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCore[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: AiCore[]
+  nameWithType: AiCore[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCore[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+    name: AiCore
+    nameWithType: AiCore
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer
+  isExternal: false
+  name: AiCoreContainer
+  nameWithType: AiCoreContainer.AiCoreContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.AiCoreContainer
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.Cores*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.Cores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer
+  isExternal: false
+  name: Cores
+  nameWithType: AiCoreContainer.Cores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer.Cores
+  monikers:
+  - net6.0
+  type: property

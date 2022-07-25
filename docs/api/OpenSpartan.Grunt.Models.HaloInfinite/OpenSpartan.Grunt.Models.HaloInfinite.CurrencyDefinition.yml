@@ -1,0 +1,403 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  id: CurrencyDefinition
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.Id
+  - OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.InitialBalanceAmount
+  - OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MicrosoftStore
+  - OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MSStoreProducts
+  - OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamInventory
+  - OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamStoreProducts
+  langs:
+  - csharp
+  name: CurrencyDefinition
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CurrencyDefinition
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CurrencyDefinition
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  langs:
+  - csharp
+  name: CurrencyDefinition()
+  nameWithType: CurrencyDefinition.CurrencyDefinition()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.CurrencyDefinition()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public CurrencyDefinition ();
+    parameters: []
+    content.csharp: public CurrencyDefinition ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.Id
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.Id
+  id: Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  langs:
+  - csharp
+  name: Id
+  nameWithType: CurrencyDefinition.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.Id
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Id { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Id { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.Id*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.InitialBalanceAmount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.InitialBalanceAmount
+  id: InitialBalanceAmount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  langs:
+  - csharp
+  name: InitialBalanceAmount
+  nameWithType: CurrencyDefinition.InitialBalanceAmount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.InitialBalanceAmount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int InitialBalanceAmount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int InitialBalanceAmount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.InitialBalanceAmount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MicrosoftStore
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MicrosoftStore
+  id: MicrosoftStore
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  langs:
+  - csharp
+  name: MicrosoftStore
+  nameWithType: CurrencyDefinition.MicrosoftStore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MicrosoftStore
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.MicrosoftStoreInventory MicrosoftStore { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.MicrosoftStoreInventory
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.MicrosoftStoreInventory MicrosoftStore { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MicrosoftStore*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MSStoreProducts
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MSStoreProducts
+  id: MSStoreProducts
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  langs:
+  - csharp
+  name: MSStoreProducts
+  nameWithType: CurrencyDefinition.MSStoreProducts
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MSStoreProducts
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.StoreProduct[] MSStoreProducts { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.StoreProduct[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.StoreProduct[] MSStoreProducts { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MSStoreProducts*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamInventory
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamInventory
+  id: SteamInventory
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  langs:
+  - csharp
+  name: SteamInventory
+  nameWithType: CurrencyDefinition.SteamInventory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamInventory
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreInventory SteamInventory { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreInventory
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreInventory SteamInventory { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamInventory*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamStoreProducts
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamStoreProducts
+  id: SteamStoreProducts
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  langs:
+  - csharp
+  name: SteamStoreProducts
+  nameWithType: CurrencyDefinition.SteamStoreProducts
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamStoreProducts
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.StoreProduct[] SteamStoreProducts { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.StoreProduct[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.StoreProduct[] SteamStoreProducts { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamStoreProducts*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  isExternal: false
+  name: CurrencyDefinition()
+  nameWithType: CurrencyDefinition.CurrencyDefinition()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.CurrencyDefinition()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  isExternal: false
+  name: Id
+  nameWithType: CurrencyDefinition.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.Id
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.InitialBalanceAmount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  isExternal: false
+  name: InitialBalanceAmount
+  nameWithType: CurrencyDefinition.InitialBalanceAmount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.InitialBalanceAmount
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MicrosoftStore
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  isExternal: false
+  name: MicrosoftStore
+  nameWithType: CurrencyDefinition.MicrosoftStore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MicrosoftStore
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MicrosoftStoreInventory
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: MicrosoftStoreInventory
+  nameWithType: MicrosoftStoreInventory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MicrosoftStoreInventory
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MSStoreProducts
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  isExternal: false
+  name: MSStoreProducts
+  nameWithType: CurrencyDefinition.MSStoreProducts
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MSStoreProducts
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StoreProduct
+  name: StoreProduct
+  nameWithType: StoreProduct
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StoreProduct
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StoreProduct[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: StoreProduct[]
+  nameWithType: StoreProduct[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StoreProduct[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.StoreProduct
+    name: StoreProduct
+    nameWithType: StoreProduct
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.StoreProduct
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamInventory
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  isExternal: false
+  name: SteamInventory
+  nameWithType: CurrencyDefinition.SteamInventory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamInventory
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreInventory
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: SteamStoreInventory
+  nameWithType: SteamStoreInventory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreInventory
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamStoreProducts
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  isExternal: false
+  name: SteamStoreProducts
+  nameWithType: CurrencyDefinition.SteamStoreProducts
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamStoreProducts
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  isExternal: false
+  name: CurrencyDefinition
+  nameWithType: CurrencyDefinition.CurrencyDefinition
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.CurrencyDefinition
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.Id*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  isExternal: false
+  name: Id
+  nameWithType: CurrencyDefinition.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.Id
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.InitialBalanceAmount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.InitialBalanceAmount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  isExternal: false
+  name: InitialBalanceAmount
+  nameWithType: CurrencyDefinition.InitialBalanceAmount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.InitialBalanceAmount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MicrosoftStore*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MicrosoftStore
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  isExternal: false
+  name: MicrosoftStore
+  nameWithType: CurrencyDefinition.MicrosoftStore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MicrosoftStore
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MSStoreProducts*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MSStoreProducts
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  isExternal: false
+  name: MSStoreProducts
+  nameWithType: CurrencyDefinition.MSStoreProducts
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.MSStoreProducts
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamInventory*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamInventory
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  isExternal: false
+  name: SteamInventory
+  nameWithType: CurrencyDefinition.SteamInventory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamInventory
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamStoreProducts*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamStoreProducts
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition
+  isExternal: false
+  name: SteamStoreProducts
+  nameWithType: CurrencyDefinition.SteamStoreProducts
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CurrencyDefinition.SteamStoreProducts
+  monikers:
+  - net6.0
+  type: property

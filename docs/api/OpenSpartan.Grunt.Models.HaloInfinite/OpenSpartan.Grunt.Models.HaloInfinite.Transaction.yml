@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Transaction
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Transaction
+  id: Transaction
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Transaction.#ctor
+  langs:
+  - csharp
+  name: Transaction
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Transaction
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Transaction
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Transaction
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Transaction
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Transaction.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.Transaction.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Transaction
+  langs:
+  - csharp
+  name: Transaction()
+  nameWithType: Transaction.Transaction()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Transaction.Transaction()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public Transaction ();
+    parameters: []
+    content.csharp: public Transaction ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Transaction.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Transaction.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Transaction
+  isExternal: false
+  name: Transaction()
+  nameWithType: Transaction.Transaction()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Transaction.Transaction()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Transaction.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Transaction.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Transaction
+  isExternal: false
+  name: Transaction
+  nameWithType: Transaction.Transaction
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Transaction.Transaction
+  monikers:
+  - net6.0
+  type: constructor

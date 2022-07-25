@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  id: LobbyPresenceRequestContainer
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids
+  langs:
+  - csharp
+  name: LobbyPresenceRequestContainer
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class LobbyPresenceRequestContainer
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class LobbyPresenceRequestContainer
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  langs:
+  - csharp
+  name: LobbyPresenceRequestContainer()
+  nameWithType: LobbyPresenceRequestContainer.LobbyPresenceRequestContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.LobbyPresenceRequestContainer()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public LobbyPresenceRequestContainer ();
+    parameters: []
+    content.csharp: public LobbyPresenceRequestContainer ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids
+  id: Xuids
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  langs:
+  - csharp
+  name: Xuids
+  nameWithType: LobbyPresenceRequestContainer.Xuids
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public long[] Xuids { get; set; }
+    return:
+      type: System.Int64[]
+      description: ''
+    content.csharp: public long[] Xuids { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  isExternal: false
+  name: LobbyPresenceRequestContainer()
+  nameWithType: LobbyPresenceRequestContainer.LobbyPresenceRequestContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.LobbyPresenceRequestContainer()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  isExternal: false
+  name: Xuids
+  nameWithType: LobbyPresenceRequestContainer.Xuids
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids
+  type: property
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.Int64[]
+  parent: System
+  name: Int64[]
+  nameWithType: Int64[]
+  fullName: System.Int64[]
+  spec.csharp:
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  isExternal: false
+  name: LobbyPresenceRequestContainer
+  nameWithType: LobbyPresenceRequestContainer.LobbyPresenceRequestContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.LobbyPresenceRequestContainer
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer
+  isExternal: false
+  name: Xuids
+  nameWithType: LobbyPresenceRequestContainer.Xuids
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceRequestContainer.Xuids
+  monikers:
+  - net6.0
+  type: property

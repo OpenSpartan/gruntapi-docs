@@ -1,0 +1,465 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  id: SearchResultsContainer
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Count
+  - OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.EstimatedTotal
+  - OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Links
+  - OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.ResultCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Results
+  - OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Start
+  - OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Tags
+  langs:
+  - csharp
+  name: SearchResultsContainer
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class SearchResultsContainer
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class SearchResultsContainer
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  langs:
+  - csharp
+  name: SearchResultsContainer()
+  nameWithType: SearchResultsContainer.SearchResultsContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.SearchResultsContainer()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public SearchResultsContainer ();
+    parameters: []
+    content.csharp: public SearchResultsContainer ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Count
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Count
+  id: Count
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  langs:
+  - csharp
+  name: Count
+  nameWithType: SearchResultsContainer.Count
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Count
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Count { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Count { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Count*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.EstimatedTotal
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.EstimatedTotal
+  id: EstimatedTotal
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  langs:
+  - csharp
+  name: EstimatedTotal
+  nameWithType: SearchResultsContainer.EstimatedTotal
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.EstimatedTotal
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int EstimatedTotal { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int EstimatedTotal { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.EstimatedTotal*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Links
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Links
+  id: Links
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  langs:
+  - csharp
+  name: Links
+  nameWithType: SearchResultsContainer.Links
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Links
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Links Links { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Links
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Links Links { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Links*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.ResultCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.ResultCount
+  id: ResultCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  langs:
+  - csharp
+  name: ResultCount
+  nameWithType: SearchResultsContainer.ResultCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.ResultCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ResultCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ResultCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.ResultCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Results
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Results
+  id: Results
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  langs:
+  - csharp
+  name: Results
+  nameWithType: SearchResultsContainer.Results
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Results
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.AssetSearchResult> Results { get; set; }
+    return:
+      type: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.AssetSearchResult}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.AssetSearchResult> Results { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Results*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Start
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Start
+  id: Start
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  langs:
+  - csharp
+  name: Start
+  nameWithType: SearchResultsContainer.Start
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Start
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Start { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Start { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Start*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Tags
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Tags
+  id: Tags
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  langs:
+  - csharp
+  name: Tags
+  nameWithType: SearchResultsContainer.Tags
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Tags
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.AssetTag[] Tags { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AssetTag[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.AssetTag[] Tags { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Tags*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  isExternal: false
+  name: SearchResultsContainer()
+  nameWithType: SearchResultsContainer.SearchResultsContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.SearchResultsContainer()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Count
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  isExternal: false
+  name: Count
+  nameWithType: SearchResultsContainer.Count
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Count
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.EstimatedTotal
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  isExternal: false
+  name: EstimatedTotal
+  nameWithType: SearchResultsContainer.EstimatedTotal
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.EstimatedTotal
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Links
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  isExternal: false
+  name: Links
+  nameWithType: SearchResultsContainer.Links
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Links
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Links
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Links
+  nameWithType: Links
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Links
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.ResultCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  isExternal: false
+  name: ResultCount
+  nameWithType: SearchResultsContainer.ResultCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.ResultCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Results
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  isExternal: false
+  name: Results
+  nameWithType: SearchResultsContainer.Results
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Results
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetSearchResult
+  name: AssetSearchResult
+  nameWithType: AssetSearchResult
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetSearchResult
+- uid: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.AssetSearchResult}
+  parent: System.Collections.Generic
+  name: List<AssetSearchResult>
+  nameWithType: List<AssetSearchResult>
+  fullName: System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.AssetSearchResult>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetSearchResult
+    name: AssetSearchResult
+    nameWithType: AssetSearchResult
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetSearchResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Start
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  isExternal: false
+  name: Start
+  nameWithType: SearchResultsContainer.Start
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Start
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Tags
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  isExternal: false
+  name: Tags
+  nameWithType: SearchResultsContainer.Tags
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Tags
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetTag
+  name: AssetTag
+  nameWithType: AssetTag
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetTag
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetTag[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: AssetTag[]
+  nameWithType: AssetTag[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetTag[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetTag
+    name: AssetTag
+    nameWithType: AssetTag
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetTag
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  isExternal: false
+  name: SearchResultsContainer
+  nameWithType: SearchResultsContainer.SearchResultsContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.SearchResultsContainer
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Count*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Count
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  isExternal: false
+  name: Count
+  nameWithType: SearchResultsContainer.Count
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Count
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.EstimatedTotal*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.EstimatedTotal
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  isExternal: false
+  name: EstimatedTotal
+  nameWithType: SearchResultsContainer.EstimatedTotal
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.EstimatedTotal
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Links*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Links
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  isExternal: false
+  name: Links
+  nameWithType: SearchResultsContainer.Links
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Links
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.ResultCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.ResultCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  isExternal: false
+  name: ResultCount
+  nameWithType: SearchResultsContainer.ResultCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.ResultCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Results*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Results
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  isExternal: false
+  name: Results
+  nameWithType: SearchResultsContainer.Results
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Results
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Start*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Start
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  isExternal: false
+  name: Start
+  nameWithType: SearchResultsContainer.Start
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Start
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Tags*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Tags
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
+  isExternal: false
+  name: Tags
+  nameWithType: SearchResultsContainer.Tags
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Tags
+  monikers:
+  - net6.0
+  type: property

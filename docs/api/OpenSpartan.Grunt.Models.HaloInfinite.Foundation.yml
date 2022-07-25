@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  id: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  langs:
+  - csharp
+  name: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  type: Namespace
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Asset
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: AuthoringResultContainer
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Core
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: ResultContainer
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Theme
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  type: class

@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+  id: AiCore
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.AiCore.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.AiCore.Themes
+  langs:
+  - csharp
+  name: AiCore
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: AI Core available in Halo Infinite.
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AiCore : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AiCore : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  inheritance:
+  - System.Object
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  implements: []
+  inheritedMembers:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CoreId
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CorePath
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CoreType
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.FirstAcquiredDate
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.IsEquipped
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCore.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.AiCore.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+  langs:
+  - csharp
+  name: AiCore()
+  nameWithType: AiCore.AiCore()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCore.AiCore()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public AiCore ();
+    parameters: []
+    content.csharp: public AiCore ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AiCore.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCore.Themes
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AiCore.Themes
+  id: Themes
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+  langs:
+  - csharp
+  name: Themes
+  nameWithType: AiCore.Themes
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCore.Themes
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Gets or sets a list of themes associated with an AI Core.
+  syntax:
+    content: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme>? Themes { get; set; }
+    return:
+      type: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme>? Themes { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AiCore.Themes*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Core
+  nameWithType: Core
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCore.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+  isExternal: false
+  name: AiCore()
+  nameWithType: AiCore.AiCore()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCore.AiCore()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCore.Themes
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+  isExternal: false
+  name: Themes
+  nameWithType: AiCore.Themes
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCore.Themes
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  name: AiCoreTheme
+  nameWithType: AiCoreTheme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+- uid: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme}
+  parent: System.Collections.Generic
+  name: List<AiCoreTheme>
+  nameWithType: List<AiCoreTheme>
+  fullName: System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+    name: AiCoreTheme
+    nameWithType: AiCoreTheme
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCore.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AiCore.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+  isExternal: false
+  name: AiCore
+  nameWithType: AiCore.AiCore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCore.AiCore
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCore.Themes*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AiCore.Themes
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+  isExternal: false
+  name: Themes
+  nameWithType: AiCore.Themes
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCore.Themes
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CoreId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  isExternal: false
+  name: CoreId
+  nameWithType: Core.CoreId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CoreId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CorePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  isExternal: false
+  name: CorePath
+  nameWithType: Core.CorePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CorePath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CoreType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  isExternal: false
+  name: CoreType
+  nameWithType: Core.CoreType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CoreType
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.FirstAcquiredDate
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  isExternal: false
+  name: FirstAcquiredDate
+  nameWithType: Core.FirstAcquiredDate
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.FirstAcquiredDate
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.IsEquipped
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  isExternal: false
+  name: IsEquipped
+  nameWithType: Core.IsEquipped
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.IsEquipped
+  type: property

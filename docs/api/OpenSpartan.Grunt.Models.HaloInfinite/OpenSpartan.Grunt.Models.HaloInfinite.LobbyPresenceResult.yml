@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult
+  id: LobbyPresenceResult
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails
+  - OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails
+  langs:
+  - csharp
+  name: LobbyPresenceResult
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class LobbyPresenceResult
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class LobbyPresenceResult
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult
+  langs:
+  - csharp
+  name: LobbyPresenceResult()
+  nameWithType: LobbyPresenceResult.LobbyPresenceResult()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.LobbyPresenceResult()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public LobbyPresenceResult ();
+    parameters: []
+    content.csharp: public LobbyPresenceResult ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails
+  id: FireteamDetails
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult
+  langs:
+  - csharp
+  name: FireteamDetails
+  nameWithType: LobbyPresenceResult.FireteamDetails
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails FireteamDetails { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails FireteamDetails { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails
+  id: MatchDetails
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult
+  langs:
+  - csharp
+  name: MatchDetails
+  nameWithType: LobbyPresenceResult.MatchDetails
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public object MatchDetails { get; set; }
+    return:
+      type: System.Object
+      description: ''
+    content.csharp: public object MatchDetails { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult
+  isExternal: false
+  name: LobbyPresenceResult()
+  nameWithType: LobbyPresenceResult.LobbyPresenceResult()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.LobbyPresenceResult()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult
+  isExternal: false
+  name: FireteamDetails
+  nameWithType: LobbyPresenceResult.FireteamDetails
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: FireTeamDetails
+  nameWithType: FireTeamDetails
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult
+  isExternal: false
+  name: MatchDetails
+  nameWithType: LobbyPresenceResult.MatchDetails
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult
+  isExternal: false
+  name: LobbyPresenceResult
+  nameWithType: LobbyPresenceResult.LobbyPresenceResult
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.LobbyPresenceResult
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult
+  isExternal: false
+  name: FireteamDetails
+  nameWithType: LobbyPresenceResult.FireteamDetails
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.FireteamDetails
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult
+  isExternal: false
+  name: MatchDetails
+  nameWithType: LobbyPresenceResult.MatchDetails
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LobbyPresenceResult.MatchDetails
+  monikers:
+  - net6.0
+  type: property

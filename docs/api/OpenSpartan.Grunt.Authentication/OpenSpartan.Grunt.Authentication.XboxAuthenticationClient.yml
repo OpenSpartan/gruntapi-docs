@@ -1,0 +1,496 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  commentId: T:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  id: XboxAuthenticationClient
+  children:
+  - OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.#ctor
+  - OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GenerateAuthUrl(System.String,System.String,System.String[],System.String)
+  - OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GetXboxLiveV3Token(System.String,System.String)
+  - OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RefreshOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  - OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  - OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestUserToken(System.String)
+  - OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(System.String,System.Boolean)
+  langs:
+  - csharp
+  name: XboxAuthenticationClient
+  nameWithType: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Authentication
+  summary: >-
+    Xbox authentication client, used to provide the scaffolding to get the
+
+    proper Xbox Live tokens.
+  syntax:
+    content: public class XboxAuthenticationClient
+    content.csharp: public class XboxAuthenticationClient
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.#ctor
+  commentId: M:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  langs:
+  - csharp
+  name: XboxAuthenticationClient()
+  nameWithType: XboxAuthenticationClient.XboxAuthenticationClient()
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.XboxAuthenticationClient()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Authentication
+  syntax:
+    content: public XboxAuthenticationClient ();
+    parameters: []
+    content.csharp: public XboxAuthenticationClient ();
+  overload: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GenerateAuthUrl(System.String,System.String,System.String[],System.String)
+  commentId: M:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GenerateAuthUrl(System.String,System.String,System.String[],System.String)
+  id: GenerateAuthUrl(System.String,System.String,System.String[],System.String)
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  langs:
+  - csharp
+  name: GenerateAuthUrl(String, String, String[], String)
+  nameWithType: XboxAuthenticationClient.GenerateAuthUrl(String, String, String[], String)
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GenerateAuthUrl(String, String, String[], String)
+  type: Method
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Authentication
+  summary: >-
+    Generates the authentication URL that can be used to produce the temporary code
+
+    for subsequent Xbox Live authentication flows.
+  syntax:
+    content: public string GenerateAuthUrl (string clientId, string redirectUrl, string[]? scopes = default, string state = "");
+    parameters:
+    - id: clientId
+      type: System.String
+      description: Client ID defined for the registered application in the Azure Portal.
+    - id: redirectUrl
+      type: System.String
+      description: Redirect URL defined for the registered application in the Azure Portal.
+    - id: scopes
+      type: System.String[]
+      description: A list of scopes used for authentication against the Xbox Live APIs.
+    - id: state
+      type: System.String
+      description: Temporary state indicator.
+    return:
+      type: System.String
+      description: Returns the full authentication URL that can be pasted in a web browser.
+    content.csharp: public string GenerateAuthUrl (string clientId, string redirectUrl, string[]? scopes = default, string state = "");
+  overload: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GenerateAuthUrl*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GetXboxLiveV3Token(System.String,System.String)
+  commentId: M:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GetXboxLiveV3Token(System.String,System.String)
+  id: GetXboxLiveV3Token(System.String,System.String)
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  langs:
+  - csharp
+  name: GetXboxLiveV3Token(String, String)
+  nameWithType: XboxAuthenticationClient.GetXboxLiveV3Token(String, String)
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GetXboxLiveV3Token(String, String)
+  type: Method
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Authentication
+  summary: Assemble existing token pieces into a valid Xbox Live 3.0 token.
+  syntax:
+    content: public string GetXboxLiveV3Token (string userHash, string userToken);
+    parameters:
+    - id: userHash
+      type: System.String
+      description: User has for the authenticating Xbox Live user.
+    - id: userToken
+      type: System.String
+      description: Previously generated Xbox Live user token.
+    return:
+      type: System.String
+      description: The assembled Xbox Live 3.0 token string.
+    content.csharp: public string GetXboxLiveV3Token (string userHash, string userToken);
+  overload: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GetXboxLiveV3Token*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RefreshOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  commentId: M:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RefreshOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  id: RefreshOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  langs:
+  - csharp
+  name: RefreshOAuthToken(String, String, String, String, String[])
+  nameWithType: XboxAuthenticationClient.RefreshOAuthToken(String, String, String, String, String[])
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RefreshOAuthToken(String, String, String, String, String[])
+  type: Method
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Authentication
+  summary: Refreshes an existing OAuth token.
+  syntax:
+    content: public System.Threading.Tasks.Task<OpenSpartan.Grunt.Models.OAuthToken?> RefreshOAuthToken (string clientId, string refreshToken, string redirectUrl, string clientSecret = "", string[]? scopes = default);
+    parameters:
+    - id: clientId
+      type: System.String
+      description: Client ID defined for the registered application in the Azure Portal.
+    - id: refreshToken
+      type: System.String
+      description: Refresh token obtained from a previous authorization flow.
+    - id: redirectUrl
+      type: System.String
+      description: Redirect URL defined for the registered application in the Azure Portal.
+    - id: clientSecret
+      type: System.String
+      description: Client secret defined for the registered application in the Azure Portal.
+    - id: scopes
+      type: System.String[]
+      description: A list of scopes used for authentication against the Xbox Live APIs.
+    return:
+      type: System.Threading.Tasks.Task{OpenSpartan.Grunt.Models.OAuthToken}
+      description: If successful, returns an instance of <xref data-throw-if-not-resolved="true" uid="OpenSpartan.Grunt.Models.OAuthToken"></xref> representing the OAuth token used for authentication. Otherwise, returns null.
+    content.csharp: public System.Threading.Tasks.Task<OpenSpartan.Grunt.Models.OAuthToken?> RefreshOAuthToken (string clientId, string refreshToken, string redirectUrl, string clientSecret = "", string[]? scopes = default);
+  overload: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RefreshOAuthToken*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  commentId: M:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  id: RequestOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  langs:
+  - csharp
+  name: RequestOAuthToken(String, String, String, String, String[])
+  nameWithType: XboxAuthenticationClient.RequestOAuthToken(String, String, String, String, String[])
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestOAuthToken(String, String, String, String, String[])
+  type: Method
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Authentication
+  summary: Requests the OAuth token for the Xbox Live authentication flow.
+  syntax:
+    content: public System.Threading.Tasks.Task<OpenSpartan.Grunt.Models.OAuthToken?> RequestOAuthToken (string clientId, string authorizationCode, string redirectUrl, string clientSecret = "", string[]? scopes = default);
+    parameters:
+    - id: clientId
+      type: System.String
+      description: Client ID defined for the registered application in the Azure Portal.
+    - id: authorizationCode
+      type: System.String
+      description: Authorization code provided by visiting the URL from the <xref data-throw-if-not-resolved="true" uid="OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GenerateAuthUrl(System.String,System.String,System.String[],System.String)"></xref> function.
+    - id: redirectUrl
+      type: System.String
+      description: Redirect URL defined for the registered application in the Azure Portal.
+    - id: clientSecret
+      type: System.String
+      description: Client secret defined for the registered application in the Azure Portal.
+    - id: scopes
+      type: System.String[]
+      description: A list of scopes used for authentication against the Xbox Live APIs.
+    return:
+      type: System.Threading.Tasks.Task{OpenSpartan.Grunt.Models.OAuthToken}
+      description: If successful, returns an instance of <xref data-throw-if-not-resolved="true" uid="OpenSpartan.Grunt.Models.OAuthToken"></xref> representing the OAuth token used for authentication. Otherwise, returns null.
+    content.csharp: public System.Threading.Tasks.Task<OpenSpartan.Grunt.Models.OAuthToken?> RequestOAuthToken (string clientId, string authorizationCode, string redirectUrl, string clientSecret = "", string[]? scopes = default);
+  overload: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestOAuthToken*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestUserToken(System.String)
+  commentId: M:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestUserToken(System.String)
+  id: RequestUserToken(System.String)
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  langs:
+  - csharp
+  name: RequestUserToken(String)
+  nameWithType: XboxAuthenticationClient.RequestUserToken(String)
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestUserToken(String)
+  type: Method
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Authentication
+  summary: Requests a user token for Xbox Live API authentication.
+  syntax:
+    content: public System.Threading.Tasks.Task<OpenSpartan.Grunt.Models.XboxTicket?> RequestUserToken (string accessToken);
+    parameters:
+    - id: accessToken
+      type: System.String
+      description: Previously generated Xbox Live OAuth access token.
+    return:
+      type: System.Threading.Tasks.Task{OpenSpartan.Grunt.Models.XboxTicket}
+      description: If successful, returns an instance of <xref data-throw-if-not-resolved="true" uid="OpenSpartan.Grunt.Models.XboxTicket"></xref> representing the authentication ticket. Otherwise, returns null.
+    content.csharp: public System.Threading.Tasks.Task<OpenSpartan.Grunt.Models.XboxTicket?> RequestUserToken (string accessToken);
+  overload: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestUserToken*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(System.String,System.Boolean)
+  commentId: M:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(System.String,System.Boolean)
+  id: RequestXstsToken(System.String,System.Boolean)
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  langs:
+  - csharp
+  name: RequestXstsToken(String, Boolean)
+  nameWithType: XboxAuthenticationClient.RequestXstsToken(String, Boolean)
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(String, Boolean)
+  type: Method
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Authentication
+  summary: Requests the Xbox Live Security Token (XSTS) token for use with Halo API authentication flow.
+  syntax:
+    content: public System.Threading.Tasks.Task<OpenSpartan.Grunt.Models.XboxTicket?> RequestXstsToken (string userToken, bool useHaloRelyingParty = true);
+    parameters:
+    - id: userToken
+      type: System.String
+      description: Previously generated Xbox Live user token.
+    - id: useHaloRelyingParty
+      type: System.Boolean
+      description: Determines whether the Halo relying party is used or a more generic Xbox Live one. Using the Xbox Live relying party will not enable you to access Halo APIs.
+    return:
+      type: System.Threading.Tasks.Task{OpenSpartan.Grunt.Models.XboxTicket}
+      description: If successful, returns an instance of <xref data-throw-if-not-resolved="true" uid="OpenSpartan.Grunt.Models.XboxTicket"></xref> representing the authentication ticket. Otherwise, returns null.
+    content.csharp: public System.Threading.Tasks.Task<OpenSpartan.Grunt.Models.XboxTicket?> RequestXstsToken (string userToken, bool useHaloRelyingParty = true);
+  overload: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Authentication
+  commentId: N:OpenSpartan.Grunt.Authentication
+  isExternal: false
+  name: OpenSpartan.Grunt.Authentication
+  nameWithType: OpenSpartan.Grunt.Authentication
+  fullName: OpenSpartan.Grunt.Authentication
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.#ctor
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  isExternal: false
+  name: XboxAuthenticationClient()
+  nameWithType: XboxAuthenticationClient.XboxAuthenticationClient()
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.XboxAuthenticationClient()
+  type: constructor
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GenerateAuthUrl(System.String,System.String,System.String[],System.String)
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  isExternal: false
+  name: GenerateAuthUrl(String, String, String[], String)
+  nameWithType: XboxAuthenticationClient.GenerateAuthUrl(String, String, String[], String)
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GenerateAuthUrl(String, String, String[], String)
+  type: method
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  parent: System
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GetXboxLiveV3Token(System.String,System.String)
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  isExternal: false
+  name: GetXboxLiveV3Token(String, String)
+  nameWithType: XboxAuthenticationClient.GetXboxLiveV3Token(String, String)
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GetXboxLiveV3Token(String, String)
+  type: method
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RefreshOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  isExternal: false
+  name: RefreshOAuthToken(String, String, String, String, String[])
+  nameWithType: XboxAuthenticationClient.RefreshOAuthToken(String, String, String, String, String[])
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RefreshOAuthToken(String, String, String, String, String[])
+  type: method
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: OpenSpartan.Grunt.Models.OAuthToken
+  name: OAuthToken
+  nameWithType: OAuthToken
+  fullName: OpenSpartan.Grunt.Models.OAuthToken
+- uid: System.Threading.Tasks.Task{OpenSpartan.Grunt.Models.OAuthToken}
+  parent: System.Threading.Tasks
+  name: Task<OAuthToken>
+  nameWithType: Task<OAuthToken>
+  fullName: System.Threading.Tasks.Task<OpenSpartan.Grunt.Models.OAuthToken>
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.OAuthToken
+    name: OAuthToken
+    nameWithType: OAuthToken
+    fullName: OpenSpartan.Grunt.Models.OAuthToken
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestOAuthToken(System.String,System.String,System.String,System.String,System.String[])
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  isExternal: false
+  name: RequestOAuthToken(String, String, String, String, String[])
+  nameWithType: XboxAuthenticationClient.RequestOAuthToken(String, String, String, String, String[])
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestOAuthToken(String, String, String, String, String[])
+  type: method
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestUserToken(System.String)
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  isExternal: false
+  name: RequestUserToken(String)
+  nameWithType: XboxAuthenticationClient.RequestUserToken(String)
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestUserToken(String)
+  type: method
+- uid: OpenSpartan.Grunt.Models.XboxTicket
+  name: XboxTicket
+  nameWithType: XboxTicket
+  fullName: OpenSpartan.Grunt.Models.XboxTicket
+- uid: System.Threading.Tasks.Task{OpenSpartan.Grunt.Models.XboxTicket}
+  parent: System.Threading.Tasks
+  name: Task<XboxTicket>
+  nameWithType: Task<XboxTicket>
+  fullName: System.Threading.Tasks.Task<OpenSpartan.Grunt.Models.XboxTicket>
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.XboxTicket
+    name: XboxTicket
+    nameWithType: XboxTicket
+    fullName: OpenSpartan.Grunt.Models.XboxTicket
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(System.String,System.Boolean)
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  isExternal: false
+  name: RequestXstsToken(String, Boolean)
+  nameWithType: XboxAuthenticationClient.RequestXstsToken(String, Boolean)
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(String, Boolean)
+  type: method
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.#ctor
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  isExternal: false
+  name: XboxAuthenticationClient
+  nameWithType: XboxAuthenticationClient.XboxAuthenticationClient
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.XboxAuthenticationClient
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GenerateAuthUrl*
+  commentId: Overload:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GenerateAuthUrl
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  isExternal: false
+  name: GenerateAuthUrl
+  nameWithType: XboxAuthenticationClient.GenerateAuthUrl
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GenerateAuthUrl
+  monikers:
+  - net6.0
+  type: method
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GetXboxLiveV3Token*
+  commentId: Overload:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GetXboxLiveV3Token
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  isExternal: false
+  name: GetXboxLiveV3Token
+  nameWithType: XboxAuthenticationClient.GetXboxLiveV3Token
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.GetXboxLiveV3Token
+  monikers:
+  - net6.0
+  type: method
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RefreshOAuthToken*
+  commentId: Overload:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RefreshOAuthToken
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  isExternal: false
+  name: RefreshOAuthToken
+  nameWithType: XboxAuthenticationClient.RefreshOAuthToken
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RefreshOAuthToken
+  monikers:
+  - net6.0
+  type: method
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestOAuthToken*
+  commentId: Overload:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestOAuthToken
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  isExternal: false
+  name: RequestOAuthToken
+  nameWithType: XboxAuthenticationClient.RequestOAuthToken
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestOAuthToken
+  monikers:
+  - net6.0
+  type: method
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestUserToken*
+  commentId: Overload:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestUserToken
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  isExternal: false
+  name: RequestUserToken
+  nameWithType: XboxAuthenticationClient.RequestUserToken
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestUserToken
+  monikers:
+  - net6.0
+  type: method
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken*
+  commentId: Overload:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken
+  parent: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  isExternal: false
+  name: RequestXstsToken
+  nameWithType: XboxAuthenticationClient.RequestXstsToken
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken
+  monikers:
+  - net6.0
+  type: method

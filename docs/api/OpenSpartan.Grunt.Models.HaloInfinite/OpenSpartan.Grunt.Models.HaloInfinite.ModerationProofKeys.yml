@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys
+  id: ModerationProofKeys
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.Keys
+  langs:
+  - csharp
+  name: ModerationProofKeys
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class ModerationProofKeys
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class ModerationProofKeys
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys
+  langs:
+  - csharp
+  name: ModerationProofKeys()
+  nameWithType: ModerationProofKeys.ModerationProofKeys()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.ModerationProofKeys()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public ModerationProofKeys ();
+    parameters: []
+    content.csharp: public ModerationProofKeys ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.Keys
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.Keys
+  id: Keys
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys
+  langs:
+  - csharp
+  name: Keys
+  nameWithType: ModerationProofKeys.Keys
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.Keys
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Key[] Keys { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Key[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Key[] Keys { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.Keys*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys
+  isExternal: false
+  name: ModerationProofKeys()
+  nameWithType: ModerationProofKeys.ModerationProofKeys()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.ModerationProofKeys()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.Keys
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys
+  isExternal: false
+  name: Keys
+  nameWithType: ModerationProofKeys.Keys
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.Keys
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Key
+  name: Key
+  nameWithType: Key
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Key
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Key[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: Key[]
+  nameWithType: Key[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Key[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Key
+    name: Key
+    nameWithType: Key
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.Key
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys
+  isExternal: false
+  name: ModerationProofKeys
+  nameWithType: ModerationProofKeys.ModerationProofKeys
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.ModerationProofKeys
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.Keys*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.Keys
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys
+  isExternal: false
+  name: Keys
+  nameWithType: ModerationProofKeys.Keys
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ModerationProofKeys.Keys
+  monikers:
+  - net6.0
+  type: property

@@ -1,0 +1,33 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Authentication
+  commentId: N:OpenSpartan.Grunt.Authentication
+  id: OpenSpartan.Grunt.Authentication
+  children:
+  - OpenSpartan.Grunt.Authentication.HaloAuthenticationClient
+  - OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  langs:
+  - csharp
+  name: OpenSpartan.Grunt.Authentication
+  nameWithType: OpenSpartan.Grunt.Authentication
+  fullName: OpenSpartan.Grunt.Authentication
+  type: Namespace
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient
+  commentId: T:OpenSpartan.Grunt.Authentication.HaloAuthenticationClient
+  parent: OpenSpartan.Grunt.Authentication
+  isExternal: false
+  name: HaloAuthenticationClient
+  nameWithType: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient
+  fullName: OpenSpartan.Grunt.Authentication.HaloAuthenticationClient
+  type: class
+- uid: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  commentId: T:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  parent: OpenSpartan.Grunt.Authentication
+  isExternal: false
+  name: XboxAuthenticationClient
+  nameWithType: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  fullName: OpenSpartan.Grunt.Authentication.XboxAuthenticationClient
+  type: class

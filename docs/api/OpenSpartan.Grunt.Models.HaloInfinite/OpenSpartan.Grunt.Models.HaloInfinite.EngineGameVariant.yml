@@ -1,0 +1,307 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant
+  id: EngineGameVariant
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats
+  - OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.CustomData
+  langs:
+  - csharp
+  name: EngineGameVariant
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class EngineGameVariant : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class EngineGameVariant : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  inheritance:
+  - System.Object
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  implements: []
+  inheritedMembers:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Name
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant
+  langs:
+  - csharp
+  name: EngineGameVariant()
+  nameWithType: EngineGameVariant.EngineGameVariant()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.EngineGameVariant()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public EngineGameVariant ();
+    parameters: []
+    content.csharp: public EngineGameVariant ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats
+  id: AssetStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant
+  langs:
+  - csharp
+  name: AssetStats
+  nameWithType: EngineGameVariant.AssetStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats AssetStats { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats AssetStats { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.CustomData
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.CustomData
+  id: CustomData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant
+  langs:
+  - csharp
+  name: CustomData
+  nameWithType: EngineGameVariant.CustomData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.CustomData
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData CustomData { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData CustomData { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.CustomData*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Asset
+  nameWithType: Asset
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant
+  isExternal: false
+  name: EngineGameVariant()
+  nameWithType: EngineGameVariant.EngineGameVariant()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.EngineGameVariant()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant
+  isExternal: false
+  name: AssetStats
+  nameWithType: EngineGameVariant.AssetStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlayAssetStats
+  nameWithType: PlayAssetStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.CustomData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant
+  isExternal: false
+  name: CustomData
+  nameWithType: EngineGameVariant.CustomData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.CustomData
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: EngineGameVariantCustomData
+  nameWithType: EngineGameVariantCustomData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant
+  isExternal: false
+  name: EngineGameVariant
+  nameWithType: EngineGameVariant.EngineGameVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.EngineGameVariant
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant
+  isExternal: false
+  name: AssetStats
+  nameWithType: EngineGameVariant.AssetStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.AssetStats
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.CustomData*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.CustomData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant
+  isExternal: false
+  name: CustomData
+  nameWithType: EngineGameVariant.CustomData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant.CustomData
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetHome
+  nameWithType: Asset.AssetHome
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetId
+  nameWithType: Asset.AssetId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetKind
+  nameWithType: Asset.AssetKind
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetVersionId
+  nameWithType: Asset.AssetVersionId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: CloneBehavior
+  nameWithType: Asset.CloneBehavior
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Contributors
+  nameWithType: Asset.Contributors
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Description
+  nameWithType: Asset.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Files
+  nameWithType: Asset.Files
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: InspectionResult
+  nameWithType: Asset.InspectionResult
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Name
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Name
+  nameWithType: Asset.Name
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Name
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Order
+  nameWithType: Asset.Order
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: PublicName
+  nameWithType: Asset.PublicName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Tags
+  nameWithType: Asset.Tags
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: VersionId
+  nameWithType: Asset.VersionId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  type: property

@@ -1,0 +1,205 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
+  id: TestDrillCategory
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.Drills
+  - OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.DrillType
+  langs:
+  - csharp
+  name: TestDrillCategory
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class TestDrillCategory
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class TestDrillCategory
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
+  langs:
+  - csharp
+  name: TestDrillCategory()
+  nameWithType: TestDrillCategory.TestDrillCategory()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.TestDrillCategory()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public TestDrillCategory ();
+    parameters: []
+    content.csharp: public TestDrillCategory ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.Drills
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.Drills
+  id: Drills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
+  langs:
+  - csharp
+  name: Drills
+  nameWithType: TestDrillCategory.Drills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.Drills
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.AcademyDrill[] Drills { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AcademyDrill[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.AcademyDrill[] Drills { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.Drills*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.DrillType
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.DrillType
+  id: DrillType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
+  langs:
+  - csharp
+  name: DrillType
+  nameWithType: TestDrillCategory.DrillType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.DrillType
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string DrillType { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string DrillType { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.DrillType*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
+  isExternal: false
+  name: TestDrillCategory()
+  nameWithType: TestDrillCategory.TestDrillCategory()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.TestDrillCategory()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.Drills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
+  isExternal: false
+  name: Drills
+  nameWithType: TestDrillCategory.Drills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.Drills
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyDrill
+  name: AcademyDrill
+  nameWithType: AcademyDrill
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademyDrill
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyDrill[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: AcademyDrill[]
+  nameWithType: AcademyDrill[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademyDrill[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyDrill
+    name: AcademyDrill
+    nameWithType: AcademyDrill
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademyDrill
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.DrillType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
+  isExternal: false
+  name: DrillType
+  nameWithType: TestDrillCategory.DrillType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.DrillType
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
+  isExternal: false
+  name: TestDrillCategory
+  nameWithType: TestDrillCategory.TestDrillCategory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.TestDrillCategory
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.Drills*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.Drills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
+  isExternal: false
+  name: Drills
+  nameWithType: TestDrillCategory.Drills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.Drills
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.DrillType*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.DrillType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory
+  isExternal: false
+  name: DrillType
+  nameWithType: TestDrillCategory.DrillType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TestDrillCategory.DrillType
+  monikers:
+  - net6.0
+  type: property

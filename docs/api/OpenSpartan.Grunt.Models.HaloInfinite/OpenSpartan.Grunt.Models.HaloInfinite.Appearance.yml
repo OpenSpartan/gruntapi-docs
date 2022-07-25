@@ -1,0 +1,425 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  id: Appearance
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Appearance.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ActionPosePath
+  - OpenSpartan.Grunt.Models.HaloInfinite.Appearance.BackdropImagePath
+  - OpenSpartan.Grunt.Models.HaloInfinite.Appearance.Emblem
+  - OpenSpartan.Grunt.Models.HaloInfinite.Appearance.IntroEmotePath
+  - OpenSpartan.Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc
+  - OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ServiceTag
+  - OpenSpartan.Grunt.Models.HaloInfinite.Appearance.StancePath
+  langs:
+  - csharp
+  name: Appearance
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Appearance
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Appearance
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.Appearance.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  langs:
+  - csharp
+  name: Appearance()
+  nameWithType: Appearance.Appearance()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.Appearance()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public Appearance ();
+    parameters: []
+    content.csharp: public Appearance ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ActionPosePath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ActionPosePath
+  id: ActionPosePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  langs:
+  - csharp
+  name: ActionPosePath
+  nameWithType: Appearance.ActionPosePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ActionPosePath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ActionPosePath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ActionPosePath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ActionPosePath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.BackdropImagePath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Appearance.BackdropImagePath
+  id: BackdropImagePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  langs:
+  - csharp
+  name: BackdropImagePath
+  nameWithType: Appearance.BackdropImagePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.BackdropImagePath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string BackdropImagePath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string BackdropImagePath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.BackdropImagePath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.Emblem
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Appearance.Emblem
+  id: Emblem
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  langs:
+  - csharp
+  name: Emblem
+  nameWithType: Appearance.Emblem
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.Emblem
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Emblem Emblem { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Emblem
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Emblem Emblem { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.Emblem*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.IntroEmotePath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Appearance.IntroEmotePath
+  id: IntroEmotePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  langs:
+  - csharp
+  name: IntroEmotePath
+  nameWithType: Appearance.IntroEmotePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.IntroEmotePath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string IntroEmotePath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string IntroEmotePath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.IntroEmotePath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc
+  id: LastModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  langs:
+  - csharp
+  name: LastModifiedDateUtc
+  nameWithType: Appearance.LastModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.APIFormattedDate? LastModifiedDateUtc { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.APIFormattedDate? LastModifiedDateUtc { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ServiceTag
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ServiceTag
+  id: ServiceTag
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  langs:
+  - csharp
+  name: ServiceTag
+  nameWithType: Appearance.ServiceTag
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ServiceTag
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ServiceTag { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ServiceTag { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ServiceTag*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.StancePath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Appearance.StancePath
+  id: StancePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  langs:
+  - csharp
+  name: StancePath
+  nameWithType: Appearance.StancePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.StancePath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string StancePath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string StancePath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.StancePath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: Appearance()
+  nameWithType: Appearance.Appearance()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.Appearance()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ActionPosePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: ActionPosePath
+  nameWithType: Appearance.ActionPosePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ActionPosePath
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.BackdropImagePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: BackdropImagePath
+  nameWithType: Appearance.BackdropImagePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.BackdropImagePath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.Emblem
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: Emblem
+  nameWithType: Appearance.Emblem
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.Emblem
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Emblem
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Emblem
+  nameWithType: Emblem
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Emblem
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.IntroEmotePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: IntroEmotePath
+  nameWithType: Appearance.IntroEmotePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.IntroEmotePath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: Appearance.LastModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc
+  type: property
+- uid: OpenSpartan.Grunt.Models.APIFormattedDate
+  parent: OpenSpartan.Grunt.Models
+  isExternal: false
+  name: APIFormattedDate
+  nameWithType: APIFormattedDate
+  fullName: OpenSpartan.Grunt.Models.APIFormattedDate
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ServiceTag
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: ServiceTag
+  nameWithType: Appearance.ServiceTag
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ServiceTag
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.StancePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: StancePath
+  nameWithType: Appearance.StancePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.StancePath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Appearance.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: Appearance
+  nameWithType: Appearance.Appearance
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.Appearance
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ActionPosePath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ActionPosePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: ActionPosePath
+  nameWithType: Appearance.ActionPosePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ActionPosePath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.BackdropImagePath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Appearance.BackdropImagePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: BackdropImagePath
+  nameWithType: Appearance.BackdropImagePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.BackdropImagePath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.Emblem*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Appearance.Emblem
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: Emblem
+  nameWithType: Appearance.Emblem
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.Emblem
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.IntroEmotePath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Appearance.IntroEmotePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: IntroEmotePath
+  nameWithType: Appearance.IntroEmotePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.IntroEmotePath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: Appearance.LastModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.LastModifiedDateUtc
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ServiceTag*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ServiceTag
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: ServiceTag
+  nameWithType: Appearance.ServiceTag
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.ServiceTag
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.StancePath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Appearance.StancePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  isExternal: false
+  name: StancePath
+  nameWithType: Appearance.StancePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance.StancePath
+  monikers:
+  - net6.0
+  type: property

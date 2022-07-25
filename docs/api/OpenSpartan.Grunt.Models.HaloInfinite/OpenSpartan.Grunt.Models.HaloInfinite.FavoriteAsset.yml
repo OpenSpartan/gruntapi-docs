@@ -1,0 +1,418 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  id: FavoriteAsset
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.CustomData
+  - OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Links
+  - OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Name
+  - OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.VersionRatings
+  langs:
+  - csharp
+  name: FavoriteAsset
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class FavoriteAsset : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class FavoriteAsset : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  inheritance:
+  - System.Object
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  implements: []
+  inheritedMembers:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  langs:
+  - csharp
+  name: FavoriteAsset()
+  nameWithType: FavoriteAsset.FavoriteAsset()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.FavoriteAsset()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public FavoriteAsset ();
+    parameters: []
+    content.csharp: public FavoriteAsset ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.CustomData
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.CustomData
+  id: CustomData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  langs:
+  - csharp
+  name: CustomData
+  nameWithType: FavoriteAsset.CustomData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.CustomData
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public object CustomData { get; set; }
+    return:
+      type: System.Object
+      description: ''
+    content.csharp: public object CustomData { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.CustomData*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Links
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Links
+  id: Links
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  langs:
+  - csharp
+  name: Links
+  nameWithType: FavoriteAsset.Links
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Links
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public object Links { get; set; }
+    return:
+      type: System.Object
+      description: ''
+    content.csharp: public object Links { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Links*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Name
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Name
+  id: Name
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  langs:
+  - csharp
+  name: Name
+  nameWithType: FavoriteAsset.Name
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Name
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Name { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Name { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Name*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.VersionRatings
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.VersionRatings
+  id: VersionRatings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  langs:
+  - csharp
+  name: VersionRatings
+  nameWithType: FavoriteAsset.VersionRatings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.VersionRatings
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.VersionRating> VersionRatings { get; set; }
+    return:
+      type: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.VersionRating}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.VersionRating> VersionRatings { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.VersionRatings*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Asset
+  nameWithType: Asset
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  isExternal: false
+  name: FavoriteAsset()
+  nameWithType: FavoriteAsset.FavoriteAsset()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.FavoriteAsset()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.CustomData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  isExternal: false
+  name: CustomData
+  nameWithType: FavoriteAsset.CustomData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.CustomData
+  type: property
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Links
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  isExternal: false
+  name: Links
+  nameWithType: FavoriteAsset.Links
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Links
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Name
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  isExternal: false
+  name: Name
+  nameWithType: FavoriteAsset.Name
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Name
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.VersionRatings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  isExternal: false
+  name: VersionRatings
+  nameWithType: FavoriteAsset.VersionRatings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.VersionRatings
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VersionRating
+  name: VersionRating
+  nameWithType: VersionRating
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VersionRating
+- uid: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.VersionRating}
+  parent: System.Collections.Generic
+  name: List<VersionRating>
+  nameWithType: List<VersionRating>
+  fullName: System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.VersionRating>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.VersionRating
+    name: VersionRating
+    nameWithType: VersionRating
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.VersionRating
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  isExternal: false
+  name: FavoriteAsset
+  nameWithType: FavoriteAsset.FavoriteAsset
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.FavoriteAsset
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.CustomData*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.CustomData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  isExternal: false
+  name: CustomData
+  nameWithType: FavoriteAsset.CustomData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.CustomData
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Links*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Links
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  isExternal: false
+  name: Links
+  nameWithType: FavoriteAsset.Links
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Links
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Name*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Name
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  isExternal: false
+  name: Name
+  nameWithType: FavoriteAsset.Name
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.Name
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.VersionRatings*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.VersionRatings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  isExternal: false
+  name: VersionRatings
+  nameWithType: FavoriteAsset.VersionRatings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset.VersionRatings
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetHome
+  nameWithType: Asset.AssetHome
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetHome
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetId
+  nameWithType: Asset.AssetId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetKind
+  nameWithType: Asset.AssetKind
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetKind
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: AssetVersionId
+  nameWithType: Asset.AssetVersionId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.AssetVersionId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: CloneBehavior
+  nameWithType: Asset.CloneBehavior
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.CloneBehavior
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Contributors
+  nameWithType: Asset.Contributors
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Contributors
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Description
+  nameWithType: Asset.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Description
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Files
+  nameWithType: Asset.Files
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Files
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: InspectionResult
+  nameWithType: Asset.InspectionResult
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.InspectionResult
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Order
+  nameWithType: Asset.Order
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Order
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: PublicName
+  nameWithType: Asset.PublicName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.PublicName
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: Tags
+  nameWithType: Asset.Tags
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.Tags
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  isExternal: false
+  name: VersionId
+  nameWithType: Asset.VersionId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset.VersionId
+  type: property

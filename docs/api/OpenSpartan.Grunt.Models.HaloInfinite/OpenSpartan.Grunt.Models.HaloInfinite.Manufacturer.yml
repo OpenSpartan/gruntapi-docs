@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
+  id: Manufacturer
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage
+  - OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName
+  langs:
+  - csharp
+  name: Manufacturer
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Manufacturer
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Manufacturer
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
+  langs:
+  - csharp
+  name: Manufacturer()
+  nameWithType: Manufacturer.Manufacturer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.Manufacturer()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public Manufacturer ();
+    parameters: []
+    content.csharp: public Manufacturer ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage
+  id: ManufacturerLogoImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
+  langs:
+  - csharp
+  name: ManufacturerLogoImage
+  nameWithType: Manufacturer.ManufacturerLogoImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ManufacturerLogoImage { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ManufacturerLogoImage { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName
+  id: ManufacturerName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
+  langs:
+  - csharp
+  name: ManufacturerName
+  nameWithType: Manufacturer.ManufacturerName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString ManufacturerName { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString ManufacturerName { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
+  isExternal: false
+  name: Manufacturer()
+  nameWithType: Manufacturer.Manufacturer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.Manufacturer()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
+  isExternal: false
+  name: ManufacturerLogoImage
+  nameWithType: Manufacturer.ManufacturerLogoImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
+  isExternal: false
+  name: ManufacturerName
+  nameWithType: Manufacturer.ManufacturerName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: DisplayString
+  nameWithType: DisplayString
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
+  isExternal: false
+  name: Manufacturer
+  nameWithType: Manufacturer.Manufacturer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.Manufacturer
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
+  isExternal: false
+  name: ManufacturerLogoImage
+  nameWithType: Manufacturer.ManufacturerLogoImage
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerLogoImage
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer
+  isExternal: false
+  name: ManufacturerName
+  nameWithType: Manufacturer.ManufacturerName
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Manufacturer.ManufacturerName
+  monikers:
+  - net6.0
+  type: property

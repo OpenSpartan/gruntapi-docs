@@ -1,0 +1,205 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery
+  id: OverrideQuery
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Query
+  - OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Settings
+  langs:
+  - csharp
+  name: OverrideQuery
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class OverrideQuery
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class OverrideQuery
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery
+  langs:
+  - csharp
+  name: OverrideQuery()
+  nameWithType: OverrideQuery.OverrideQuery()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.OverrideQuery()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OverrideQuery ();
+    parameters: []
+    content.csharp: public OverrideQuery ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Query
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Query
+  id: Query
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery
+  langs:
+  - csharp
+  name: Query
+  nameWithType: OverrideQuery.Query
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Query
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Query[] Query { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Query[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Query[] Query { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Query*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Settings
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Settings
+  id: Settings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery
+  langs:
+  - csharp
+  name: Settings
+  nameWithType: OverrideQuery.Settings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Settings
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.OverrideSettings Settings { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.OverrideSettings
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.OverrideSettings Settings { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Settings*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery
+  isExternal: false
+  name: OverrideQuery()
+  nameWithType: OverrideQuery.OverrideQuery()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.OverrideQuery()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Query
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery
+  isExternal: false
+  name: Query
+  nameWithType: OverrideQuery.Query
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Query
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  name: Query
+  nameWithType: Query
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Query
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Query[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: Query[]
+  nameWithType: Query[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Query[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Query
+    name: Query
+    nameWithType: Query
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Settings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery
+  isExternal: false
+  name: Settings
+  nameWithType: OverrideQuery.Settings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Settings
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OverrideSettings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OverrideSettings
+  nameWithType: OverrideSettings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OverrideSettings
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery
+  isExternal: false
+  name: OverrideQuery
+  nameWithType: OverrideQuery.OverrideQuery
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.OverrideQuery
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Query*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Query
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery
+  isExternal: false
+  name: Query
+  nameWithType: OverrideQuery.Query
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Query
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Settings*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Settings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery
+  isExternal: false
+  name: Settings
+  nameWithType: OverrideQuery.Settings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery.Settings
+  monikers:
+  - net6.0
+  type: property

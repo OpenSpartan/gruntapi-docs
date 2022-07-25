@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.ApiContentType
+  commentId: T:OpenSpartan.Grunt.Models.ApiContentType
+  id: ApiContentType
+  children:
+  - OpenSpartan.Grunt.Models.ApiContentType.BondCompactBinary
+  - OpenSpartan.Grunt.Models.ApiContentType.Json
+  langs:
+  - csharp
+  name: ApiContentType
+  nameWithType: OpenSpartan.Grunt.Models.ApiContentType
+  fullName: OpenSpartan.Grunt.Models.ApiContentType
+  type: Enum
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  summary: Type of content to return for the Halo API.
+  syntax:
+    content: public enum ApiContentType
+    content.csharp: public enum ApiContentType
+  inheritance:
+  - System.Enum
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.ApiContentType.BondCompactBinary
+  commentId: F:OpenSpartan.Grunt.Models.ApiContentType.BondCompactBinary
+  id: BondCompactBinary
+  parent: OpenSpartan.Grunt.Models.ApiContentType
+  langs:
+  - csharp
+  name: BondCompactBinary
+  nameWithType: ApiContentType.BondCompactBinary
+  fullName: OpenSpartan.Grunt.Models.ApiContentType.BondCompactBinary
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  summary: <a href="https://microsoft.github.io/bond/manual/bond_cs.html#compact-binary">Microsoft Bond Compact Binary</a> data format.
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.ContentType(HeaderValue="application/x-bond-compact-binary")]]
+
+      BondCompactBinary
+    return:
+      type: OpenSpartan.Grunt.Models.ApiContentType
+      description: ''
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.ContentType(HeaderValue="application/x-bond-compact-binary")]]
+
+      BondCompactBinary
+  exceptions: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.ContentTypeAttribute'
+  monikers:
+  - net6.0
+  literalValue: "1"
+- uid: OpenSpartan.Grunt.Models.ApiContentType.Json
+  commentId: F:OpenSpartan.Grunt.Models.ApiContentType.Json
+  id: Json
+  parent: OpenSpartan.Grunt.Models.ApiContentType
+  langs:
+  - csharp
+  name: Json
+  nameWithType: ApiContentType.Json
+  fullName: OpenSpartan.Grunt.Models.ApiContentType.Json
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  summary: JSON data format.
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.ContentType(HeaderValue="application/json")]]
+
+      Json
+    return:
+      type: OpenSpartan.Grunt.Models.ApiContentType
+      description: ''
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.ContentType(HeaderValue="application/json")]]
+
+      Json
+  exceptions: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.ContentTypeAttribute'
+  monikers:
+  - net6.0
+  literalValue: "0"
+references:
+- uid: OpenSpartan.Grunt.Models
+  commentId: N:OpenSpartan.Grunt.Models
+  isExternal: false
+  name: OpenSpartan.Grunt.Models
+  nameWithType: OpenSpartan.Grunt.Models
+  fullName: OpenSpartan.Grunt.Models
+  type: namespace
+- uid: System.Enum
+  parent: System
+  isExternal: true
+  name: Enum
+  nameWithType: Enum
+  fullName: System.Enum
+- uid: OpenSpartan.Grunt.Models.ApiContentType.BondCompactBinary
+  parent: OpenSpartan.Grunt.Models.ApiContentType
+  isExternal: false
+  name: BondCompactBinary
+  nameWithType: ApiContentType.BondCompactBinary
+  fullName: OpenSpartan.Grunt.Models.ApiContentType.BondCompactBinary
+  type: field
+- uid: OpenSpartan.Grunt.Models.ApiContentType
+  parent: OpenSpartan.Grunt.Models
+  isExternal: false
+  name: ApiContentType
+  nameWithType: ApiContentType
+  fullName: OpenSpartan.Grunt.Models.ApiContentType
+- uid: OpenSpartan.Grunt.Models.ApiContentType.Json
+  parent: OpenSpartan.Grunt.Models.ApiContentType
+  isExternal: false
+  name: Json
+  nameWithType: ApiContentType.Json
+  fullName: OpenSpartan.Grunt.Models.ApiContentType.Json
+  type: field

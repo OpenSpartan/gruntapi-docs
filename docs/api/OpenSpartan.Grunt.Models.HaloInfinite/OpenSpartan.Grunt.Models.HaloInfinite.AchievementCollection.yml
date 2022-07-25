@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection
+  id: AchievementCollection
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.Achievements
+  langs:
+  - csharp
+  name: AchievementCollection
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AchievementCollection
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AchievementCollection
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection
+  langs:
+  - csharp
+  name: AchievementCollection()
+  nameWithType: AchievementCollection.AchievementCollection()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.AchievementCollection()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public AchievementCollection ();
+    parameters: []
+    content.csharp: public AchievementCollection ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.Achievements
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.Achievements
+  id: Achievements
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection
+  langs:
+  - csharp
+  name: Achievements
+  nameWithType: AchievementCollection.Achievements
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.Achievements
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Achievement[] Achievements { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Achievement[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Achievement[] Achievements { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.Achievements*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection
+  isExternal: false
+  name: AchievementCollection()
+  nameWithType: AchievementCollection.AchievementCollection()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.AchievementCollection()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.Achievements
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection
+  isExternal: false
+  name: Achievements
+  nameWithType: AchievementCollection.Achievements
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.Achievements
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  name: Achievement
+  nameWithType: Achievement
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Achievement[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: Achievement[]
+  nameWithType: Achievement[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Achievement[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+    name: Achievement
+    nameWithType: Achievement
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.Achievement
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection
+  isExternal: false
+  name: AchievementCollection
+  nameWithType: AchievementCollection.AchievementCollection
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.AchievementCollection
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.Achievements*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.Achievements
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection
+  isExternal: false
+  name: Achievements
+  nameWithType: AchievementCollection.Achievements
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection.Achievements
+  monikers:
+  - net6.0
+  type: property

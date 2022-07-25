@@ -1,0 +1,278 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  id: CPUPresetSnapshot
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.High
+  - OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low
+  - OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium
+  - OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra
+  langs:
+  - csharp
+  name: CPUPresetSnapshot
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CPUPresetSnapshot
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CPUPresetSnapshot
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  langs:
+  - csharp
+  name: CPUPresetSnapshot()
+  nameWithType: CPUPresetSnapshot.CPUPresetSnapshot()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.CPUPresetSnapshot()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public CPUPresetSnapshot ();
+    parameters: []
+    content.csharp: public CPUPresetSnapshot ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.High
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.High
+  id: High
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  langs:
+  - csharp
+  name: High
+  nameWithType: CPUPresetSnapshot.High
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.High
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.CPUPreset High { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.CPUPreset
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.CPUPreset High { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.High*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low
+  id: Low
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  langs:
+  - csharp
+  name: Low
+  nameWithType: CPUPresetSnapshot.Low
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.CPUPreset Low { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.CPUPreset
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.CPUPreset Low { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium
+  id: Medium
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  langs:
+  - csharp
+  name: Medium
+  nameWithType: CPUPresetSnapshot.Medium
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.CPUPreset Medium { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.CPUPreset
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.CPUPreset Medium { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra
+  id: Ultra
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  langs:
+  - csharp
+  name: Ultra
+  nameWithType: CPUPresetSnapshot.Ultra
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.CPUPreset Ultra { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.CPUPreset
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.CPUPreset Ultra { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: CPUPresetSnapshot()
+  nameWithType: CPUPresetSnapshot.CPUPresetSnapshot()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.CPUPresetSnapshot()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.High
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: High
+  nameWithType: CPUPresetSnapshot.High
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.High
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPreset
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: CPUPreset
+  nameWithType: CPUPreset
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CPUPreset
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: Low
+  nameWithType: CPUPresetSnapshot.Low
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: Medium
+  nameWithType: CPUPresetSnapshot.Medium
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: Ultra
+  nameWithType: CPUPresetSnapshot.Ultra
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: CPUPresetSnapshot
+  nameWithType: CPUPresetSnapshot.CPUPresetSnapshot
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.CPUPresetSnapshot
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.High*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.High
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: High
+  nameWithType: CPUPresetSnapshot.High
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.High
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: Low
+  nameWithType: CPUPresetSnapshot.Low
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Low
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: Medium
+  nameWithType: CPUPresetSnapshot.Medium
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Medium
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot
+  isExternal: false
+  name: Ultra
+  nameWithType: CPUPresetSnapshot.Ultra
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CPUPresetSnapshot.Ultra
+  monikers:
+  - net6.0
+  type: property

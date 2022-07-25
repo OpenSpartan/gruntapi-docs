@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData
+  id: CustomProjectData
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData.#ctor
+  langs:
+  - csharp
+  name: CustomProjectData
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CustomProjectData
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CustomProjectData
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData
+  langs:
+  - csharp
+  name: CustomProjectData()
+  nameWithType: CustomProjectData.CustomProjectData()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData.CustomProjectData()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public CustomProjectData ();
+    parameters: []
+    content.csharp: public CustomProjectData ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData
+  isExternal: false
+  name: CustomProjectData()
+  nameWithType: CustomProjectData.CustomProjectData()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData.CustomProjectData()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData
+  isExternal: false
+  name: CustomProjectData
+  nameWithType: CustomProjectData.CustomProjectData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomProjectData.CustomProjectData
+  monikers:
+  - net6.0
+  type: constructor

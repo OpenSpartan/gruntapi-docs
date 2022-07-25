@@ -1,0 +1,507 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  id: PlayAssetStats
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Likes
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysRecent
+  langs:
+  - csharp
+  name: PlayAssetStats
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class PlayAssetStats
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class PlayAssetStats
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  langs:
+  - csharp
+  name: PlayAssetStats()
+  nameWithType: PlayAssetStats.PlayAssetStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlayAssetStats()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public PlayAssetStats ();
+    parameters: []
+    content.csharp: public PlayAssetStats ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
+  id: AverageRating
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  langs:
+  - csharp
+  name: AverageRating
+  nameWithType: PlayAssetStats.AverageRating
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public float? AverageRating { get; set; }
+    return:
+      type: System.Nullable{System.Single}
+      description: ''
+    content.csharp: public float? AverageRating { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
+  id: Bookmarks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  langs:
+  - csharp
+  name: Bookmarks
+  nameWithType: PlayAssetStats.Bookmarks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int? Bookmarks { get; set; }
+    return:
+      type: System.Nullable{System.Int32}
+      description: ''
+    content.csharp: public int? Bookmarks { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
+  id: Favorites
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  langs:
+  - csharp
+  name: Favorites
+  nameWithType: PlayAssetStats.Favorites
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int? Favorites { get; set; }
+    return:
+      type: System.Nullable{System.Int32}
+      description: ''
+    content.csharp: public int? Favorites { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Favorites*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Likes
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Likes
+  id: Likes
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  langs:
+  - csharp
+  name: Likes
+  nameWithType: PlayAssetStats.Likes
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Likes
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int? Likes { get; set; }
+    return:
+      type: System.Nullable{System.Int32}
+      description: ''
+    content.csharp: public int? Likes { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Likes*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings
+  id: NumberOfRatings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  langs:
+  - csharp
+  name: NumberOfRatings
+  nameWithType: PlayAssetStats.NumberOfRatings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int? NumberOfRatings { get; set; }
+    return:
+      type: System.Nullable{System.Int32}
+      description: ''
+    content.csharp: public int? NumberOfRatings { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount
+  id: ParentAssetCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  langs:
+  - csharp
+  name: ParentAssetCount
+  nameWithType: PlayAssetStats.ParentAssetCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int? ParentAssetCount { get; set; }
+    return:
+      type: System.Nullable{System.Int32}
+      description: ''
+    content.csharp: public int? ParentAssetCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime
+  id: PlaysAllTime
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  langs:
+  - csharp
+  name: PlaysAllTime
+  nameWithType: PlayAssetStats.PlaysAllTime
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int? PlaysAllTime { get; set; }
+    return:
+      type: System.Nullable{System.Int32}
+      description: ''
+    content.csharp: public int? PlaysAllTime { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysRecent
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysRecent
+  id: PlaysRecent
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  langs:
+  - csharp
+  name: PlaysRecent
+  nameWithType: PlayAssetStats.PlaysRecent
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysRecent
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int? PlaysRecent { get; set; }
+    return:
+      type: System.Nullable{System.Int32}
+      description: ''
+    content.csharp: public int? PlaysRecent { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysRecent*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: PlayAssetStats()
+  nameWithType: PlayAssetStats.PlayAssetStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlayAssetStats()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: AverageRating
+  nameWithType: PlayAssetStats.AverageRating
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
+  type: property
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable
+  nameWithType: Nullable
+  fullName: System.Nullable
+- uid: System.Single
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Nullable{System.Single}
+  parent: System
+  name: Nullable<Single>
+  nameWithType: Nullable<Single>
+  fullName: System.Nullable<System.Single>
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: Bookmarks
+  nameWithType: PlayAssetStats.Bookmarks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
+  type: property
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Nullable{System.Int32}
+  parent: System
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: Favorites
+  nameWithType: PlayAssetStats.Favorites
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Likes
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: Likes
+  nameWithType: PlayAssetStats.Likes
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Likes
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: NumberOfRatings
+  nameWithType: PlayAssetStats.NumberOfRatings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: ParentAssetCount
+  nameWithType: PlayAssetStats.ParentAssetCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: PlaysAllTime
+  nameWithType: PlayAssetStats.PlaysAllTime
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysRecent
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: PlaysRecent
+  nameWithType: PlayAssetStats.PlaysRecent
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysRecent
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: PlayAssetStats
+  nameWithType: PlayAssetStats.PlayAssetStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlayAssetStats
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: AverageRating
+  nameWithType: PlayAssetStats.AverageRating
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.AverageRating
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: Bookmarks
+  nameWithType: PlayAssetStats.Bookmarks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Bookmarks
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Favorites*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: Favorites
+  nameWithType: PlayAssetStats.Favorites
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Favorites
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Likes*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Likes
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: Likes
+  nameWithType: PlayAssetStats.Likes
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.Likes
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: NumberOfRatings
+  nameWithType: PlayAssetStats.NumberOfRatings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.NumberOfRatings
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: ParentAssetCount
+  nameWithType: PlayAssetStats.ParentAssetCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.ParentAssetCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: PlaysAllTime
+  nameWithType: PlayAssetStats.PlaysAllTime
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysAllTime
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysRecent*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysRecent
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats
+  isExternal: false
+  name: PlaysRecent
+  nameWithType: PlayAssetStats.PlaysRecent
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayAssetStats.PlaysRecent
+  monikers:
+  - net6.0
+  type: property

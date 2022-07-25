@@ -1,0 +1,575 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  id: WeaponCoreTheme
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath
+  - OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath
+  - OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath
+  - OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem
+  - OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath
+  - OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath
+  - OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems
+  - OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath
+  - OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath
+  langs:
+  - csharp
+  name: WeaponCoreTheme
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class WeaponCoreTheme : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class WeaponCoreTheme : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  inheritance:
+  - System.Object
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  implements: []
+  inheritedMembers:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: WeaponCoreTheme()
+  nameWithType: WeaponCoreTheme.WeaponCoreTheme()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCoreTheme()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public WeaponCoreTheme ();
+    parameters: []
+    content.csharp: public WeaponCoreTheme ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath
+  id: AlternateGeometryRegionPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: AlternateGeometryRegionPath
+  nameWithType: WeaponCoreTheme.AlternateGeometryRegionPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string AlternateGeometryRegionPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string AlternateGeometryRegionPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath
+  id: AmmoCounterColorPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: AmmoCounterColorPath
+  nameWithType: WeaponCoreTheme.AmmoCounterColorPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string AmmoCounterColorPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string AmmoCounterColorPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath
+  id: AmmoCounterPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: AmmoCounterPath
+  nameWithType: WeaponCoreTheme.AmmoCounterPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string AmmoCounterPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string AmmoCounterPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem
+  id: BigEmblem
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: BigEmblem
+  nameWithType: WeaponCoreTheme.BigEmblem
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Emblem BigEmblem { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Emblem
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Emblem BigEmblem { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath
+  id: CoatingPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: CoatingPath
+  nameWithType: WeaponCoreTheme.CoatingPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string CoatingPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string CoatingPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath
+  id: DeathFxPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: DeathFxPath
+  nameWithType: WeaponCoreTheme.DeathFxPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string DeathFxPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string DeathFxPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems
+  id: Emblems
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: Emblems
+  nameWithType: WeaponCoreTheme.Emblems
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.Emblem> Emblems { get; set; }
+    return:
+      type: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.Emblem}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.Emblem> Emblems { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath
+  id: StatTrackerPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: StatTrackerPath
+  nameWithType: WeaponCoreTheme.StatTrackerPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string StatTrackerPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string StatTrackerPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath
+  id: WeaponCharmPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  langs:
+  - csharp
+  name: WeaponCharmPath
+  nameWithType: WeaponCoreTheme.WeaponCharmPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string WeaponCharmPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string WeaponCharmPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Theme
+  nameWithType: Theme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: WeaponCoreTheme()
+  nameWithType: WeaponCoreTheme.WeaponCoreTheme()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCoreTheme()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: AlternateGeometryRegionPath
+  nameWithType: WeaponCoreTheme.AlternateGeometryRegionPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: AmmoCounterColorPath
+  nameWithType: WeaponCoreTheme.AmmoCounterColorPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: AmmoCounterPath
+  nameWithType: WeaponCoreTheme.AmmoCounterPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: BigEmblem
+  nameWithType: WeaponCoreTheme.BigEmblem
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Emblem
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Emblem
+  nameWithType: Emblem
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Emblem
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: CoatingPath
+  nameWithType: WeaponCoreTheme.CoatingPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: DeathFxPath
+  nameWithType: WeaponCoreTheme.DeathFxPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: Emblems
+  nameWithType: WeaponCoreTheme.Emblems
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.Emblem}
+  parent: System.Collections.Generic
+  name: List<Emblem>
+  nameWithType: List<Emblem>
+  fullName: System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.Emblem>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Emblem
+    name: Emblem
+    nameWithType: Emblem
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.Emblem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: StatTrackerPath
+  nameWithType: WeaponCoreTheme.StatTrackerPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: WeaponCharmPath
+  nameWithType: WeaponCoreTheme.WeaponCharmPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: WeaponCoreTheme
+  nameWithType: WeaponCoreTheme.WeaponCoreTheme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCoreTheme
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: AlternateGeometryRegionPath
+  nameWithType: WeaponCoreTheme.AlternateGeometryRegionPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AlternateGeometryRegionPath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: AmmoCounterColorPath
+  nameWithType: WeaponCoreTheme.AmmoCounterColorPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterColorPath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: AmmoCounterPath
+  nameWithType: WeaponCoreTheme.AmmoCounterPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.AmmoCounterPath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: BigEmblem
+  nameWithType: WeaponCoreTheme.BigEmblem
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.BigEmblem
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: CoatingPath
+  nameWithType: WeaponCoreTheme.CoatingPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.CoatingPath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: DeathFxPath
+  nameWithType: WeaponCoreTheme.DeathFxPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.DeathFxPath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: Emblems
+  nameWithType: WeaponCoreTheme.Emblems
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.Emblems
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: StatTrackerPath
+  nameWithType: WeaponCoreTheme.StatTrackerPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.StatTrackerPath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  isExternal: false
+  name: WeaponCharmPath
+  nameWithType: WeaponCoreTheme.WeaponCharmPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme.WeaponCharmPath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: FirstModifiedDateUtc
+  nameWithType: Theme.FirstModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: IsDefault
+  nameWithType: Theme.IsDefault
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: IsEquipped
+  nameWithType: Theme.IsEquipped
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: Theme.LastModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: ThemePath
+  nameWithType: Theme.ThemePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  type: property

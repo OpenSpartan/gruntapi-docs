@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward
+  id: ChallengeReward
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience
+  langs:
+  - csharp
+  name: ChallengeReward
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class ChallengeReward
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class ChallengeReward
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward
+  langs:
+  - csharp
+  name: ChallengeReward()
+  nameWithType: ChallengeReward.ChallengeReward()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.ChallengeReward()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public ChallengeReward ();
+    parameters: []
+    content.csharp: public ChallengeReward ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems
+  id: InventoryItems
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward
+  langs:
+  - csharp
+  name: InventoryItems
+  nameWithType: ChallengeReward.InventoryItems
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.InventoryAmount> InventoryItems { get; set; }
+    return:
+      type: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.InventoryAmount}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.InventoryAmount> InventoryItems { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience
+  id: OperationExperience
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward
+  langs:
+  - csharp
+  name: OperationExperience
+  nameWithType: ChallengeReward.OperationExperience
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int OperationExperience { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int OperationExperience { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward
+  isExternal: false
+  name: ChallengeReward()
+  nameWithType: ChallengeReward.ChallengeReward()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.ChallengeReward()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward
+  isExternal: false
+  name: InventoryItems
+  nameWithType: ChallengeReward.InventoryItems
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryAmount
+  name: InventoryAmount
+  nameWithType: InventoryAmount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryAmount
+- uid: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.InventoryAmount}
+  parent: System.Collections.Generic
+  name: List<InventoryAmount>
+  nameWithType: List<InventoryAmount>
+  fullName: System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.InventoryAmount>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryAmount
+    name: InventoryAmount
+    nameWithType: InventoryAmount
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryAmount
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward
+  isExternal: false
+  name: OperationExperience
+  nameWithType: ChallengeReward.OperationExperience
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward
+  isExternal: false
+  name: ChallengeReward
+  nameWithType: ChallengeReward.ChallengeReward
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.ChallengeReward
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward
+  isExternal: false
+  name: InventoryItems
+  nameWithType: ChallengeReward.InventoryItems
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.InventoryItems
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward
+  isExternal: false
+  name: OperationExperience
+  nameWithType: ChallengeReward.OperationExperience
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward.OperationExperience
+  monikers:
+  - net6.0
+  type: property

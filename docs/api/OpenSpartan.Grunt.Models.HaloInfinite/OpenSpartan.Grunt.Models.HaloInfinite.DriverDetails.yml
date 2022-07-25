@@ -1,0 +1,246 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails
+  id: DriverDetails
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Blocklist
+  - OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.DownloadLink
+  - OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Minimum
+  langs:
+  - csharp
+  name: DriverDetails
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class DriverDetails
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class DriverDetails
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails
+  langs:
+  - csharp
+  name: DriverDetails()
+  nameWithType: DriverDetails.DriverDetails()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.DriverDetails()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public DriverDetails ();
+    parameters: []
+    content.csharp: public DriverDetails ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Blocklist
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Blocklist
+  id: Blocklist
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails
+  langs:
+  - csharp
+  name: Blocklist
+  nameWithType: DriverDetails.Blocklist
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Blocklist
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public object[] Blocklist { get; set; }
+    return:
+      type: System.Object[]
+      description: ''
+    content.csharp: public object[] Blocklist { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Blocklist*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.DownloadLink
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.DownloadLink
+  id: DownloadLink
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails
+  langs:
+  - csharp
+  name: DownloadLink
+  nameWithType: DriverDetails.DownloadLink
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.DownloadLink
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string DownloadLink { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string DownloadLink { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.DownloadLink*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Minimum
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Minimum
+  id: Minimum
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails
+  langs:
+  - csharp
+  name: Minimum
+  nameWithType: DriverDetails.Minimum
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Minimum
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Minimum { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Minimum { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Minimum*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails
+  isExternal: false
+  name: DriverDetails()
+  nameWithType: DriverDetails.DriverDetails()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.DriverDetails()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Blocklist
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails
+  isExternal: false
+  name: Blocklist
+  nameWithType: DriverDetails.Blocklist
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Blocklist
+  type: property
+- uid: System.Object[]
+  parent: System
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.DownloadLink
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails
+  isExternal: false
+  name: DownloadLink
+  nameWithType: DriverDetails.DownloadLink
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.DownloadLink
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Minimum
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails
+  isExternal: false
+  name: Minimum
+  nameWithType: DriverDetails.Minimum
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Minimum
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails
+  isExternal: false
+  name: DriverDetails
+  nameWithType: DriverDetails.DriverDetails
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.DriverDetails
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Blocklist*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Blocklist
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails
+  isExternal: false
+  name: Blocklist
+  nameWithType: DriverDetails.Blocklist
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Blocklist
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.DownloadLink*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.DownloadLink
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails
+  isExternal: false
+  name: DownloadLink
+  nameWithType: DriverDetails.DownloadLink
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.DownloadLink
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Minimum*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Minimum
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails
+  isExternal: false
+  name: Minimum
+  nameWithType: DriverDetails.Minimum
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DriverDetails.Minimum
+  monikers:
+  - net6.0
+  type: property

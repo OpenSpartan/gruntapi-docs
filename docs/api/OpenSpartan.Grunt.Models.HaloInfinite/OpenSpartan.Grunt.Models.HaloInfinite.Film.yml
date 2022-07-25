@@ -1,0 +1,290 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Film
+  id: Film
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Film.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.Film.AssetId
+  - OpenSpartan.Grunt.Models.HaloInfinite.Film.BlobStoragePathPrefix
+  - OpenSpartan.Grunt.Models.HaloInfinite.Film.CustomData
+  - OpenSpartan.Grunt.Models.HaloInfinite.Film.FilmStatusBond
+  langs:
+  - csharp
+  name: Film
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Film
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Film
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Film.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.Film.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  langs:
+  - csharp
+  name: Film()
+  nameWithType: Film.Film()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Film.Film()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public Film ();
+    parameters: []
+    content.csharp: public Film ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Film.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Film.AssetId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Film.AssetId
+  id: AssetId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  langs:
+  - csharp
+  name: AssetId
+  nameWithType: Film.AssetId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Film.AssetId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string AssetId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string AssetId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Film.AssetId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Film.BlobStoragePathPrefix
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Film.BlobStoragePathPrefix
+  id: BlobStoragePathPrefix
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  langs:
+  - csharp
+  name: BlobStoragePathPrefix
+  nameWithType: Film.BlobStoragePathPrefix
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Film.BlobStoragePathPrefix
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string BlobStoragePathPrefix { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string BlobStoragePathPrefix { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Film.BlobStoragePathPrefix*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Film.CustomData
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Film.CustomData
+  id: CustomData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  langs:
+  - csharp
+  name: CustomData
+  nameWithType: Film.CustomData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Film.CustomData
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.CustomFilmData CustomData { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.CustomFilmData
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.CustomFilmData CustomData { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Film.CustomData*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Film.FilmStatusBond
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Film.FilmStatusBond
+  id: FilmStatusBond
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  langs:
+  - csharp
+  name: FilmStatusBond
+  nameWithType: Film.FilmStatusBond
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Film.FilmStatusBond
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int FilmStatusBond { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int FilmStatusBond { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Film.FilmStatusBond*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Film.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  isExternal: false
+  name: Film()
+  nameWithType: Film.Film()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Film.Film()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Film.AssetId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  isExternal: false
+  name: AssetId
+  nameWithType: Film.AssetId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Film.AssetId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Film.BlobStoragePathPrefix
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  isExternal: false
+  name: BlobStoragePathPrefix
+  nameWithType: Film.BlobStoragePathPrefix
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Film.BlobStoragePathPrefix
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Film.CustomData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  isExternal: false
+  name: CustomData
+  nameWithType: Film.CustomData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Film.CustomData
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomFilmData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: CustomFilmData
+  nameWithType: CustomFilmData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomFilmData
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Film.FilmStatusBond
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  isExternal: false
+  name: FilmStatusBond
+  nameWithType: Film.FilmStatusBond
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Film.FilmStatusBond
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Film.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Film.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  isExternal: false
+  name: Film
+  nameWithType: Film.Film
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Film.Film
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Film.AssetId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Film.AssetId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  isExternal: false
+  name: AssetId
+  nameWithType: Film.AssetId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Film.AssetId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Film.BlobStoragePathPrefix*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Film.BlobStoragePathPrefix
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  isExternal: false
+  name: BlobStoragePathPrefix
+  nameWithType: Film.BlobStoragePathPrefix
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Film.BlobStoragePathPrefix
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Film.CustomData*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Film.CustomData
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  isExternal: false
+  name: CustomData
+  nameWithType: Film.CustomData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Film.CustomData
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Film.FilmStatusBond*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Film.FilmStatusBond
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Film
+  isExternal: false
+  name: FilmStatusBond
+  nameWithType: Film.FilmStatusBond
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Film.FilmStatusBond
+  monikers:
+  - net6.0
+  type: property

@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals
+  id: Counterfactuals
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.SelfCounterfactuals
+  - OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.TierCounterfactuals
+  langs:
+  - csharp
+  name: Counterfactuals
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Counterfactuals
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Counterfactuals
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals
+  langs:
+  - csharp
+  name: Counterfactuals()
+  nameWithType: Counterfactuals.Counterfactuals()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.Counterfactuals()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public Counterfactuals ();
+    parameters: []
+    content.csharp: public Counterfactuals ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.SelfCounterfactuals
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.SelfCounterfactuals
+  id: SelfCounterfactuals
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals
+  langs:
+  - csharp
+  name: SelfCounterfactuals
+  nameWithType: Counterfactuals.SelfCounterfactuals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.SelfCounterfactuals
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats SelfCounterfactuals { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats SelfCounterfactuals { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.SelfCounterfactuals*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.TierCounterfactuals
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.TierCounterfactuals
+  id: TierCounterfactuals
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals
+  langs:
+  - csharp
+  name: TierCounterfactuals
+  nameWithType: Counterfactuals.TierCounterfactuals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.TierCounterfactuals
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals TierCounterfactuals { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals TierCounterfactuals { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.TierCounterfactuals*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals
+  isExternal: false
+  name: Counterfactuals()
+  nameWithType: Counterfactuals.Counterfactuals()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.Counterfactuals()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.SelfCounterfactuals
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals
+  isExternal: false
+  name: SelfCounterfactuals
+  nameWithType: Counterfactuals.SelfCounterfactuals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.SelfCounterfactuals
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: KillDeathStats
+  nameWithType: KillDeathStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.TierCounterfactuals
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals
+  isExternal: false
+  name: TierCounterfactuals
+  nameWithType: Counterfactuals.TierCounterfactuals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.TierCounterfactuals
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: TierCounterfactuals
+  nameWithType: TierCounterfactuals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TierCounterfactuals
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals
+  isExternal: false
+  name: Counterfactuals
+  nameWithType: Counterfactuals.Counterfactuals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.Counterfactuals
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.SelfCounterfactuals*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.SelfCounterfactuals
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals
+  isExternal: false
+  name: SelfCounterfactuals
+  nameWithType: Counterfactuals.SelfCounterfactuals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.SelfCounterfactuals
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.TierCounterfactuals*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.TierCounterfactuals
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals
+  isExternal: false
+  name: TierCounterfactuals
+  nameWithType: Counterfactuals.TierCounterfactuals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals.TierCounterfactuals
+  monikers:
+  - net6.0
+  type: property

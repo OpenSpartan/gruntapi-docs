@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  id: CustomMapData
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.HasNodeGraph
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.IsBaked
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.NumOfObjectsOnMap
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.TagLevelId
+  langs:
+  - csharp
+  name: CustomMapData
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CustomMapData
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CustomMapData
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  langs:
+  - csharp
+  name: CustomMapData()
+  nameWithType: CustomMapData.CustomMapData()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.CustomMapData()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public CustomMapData ();
+    parameters: []
+    content.csharp: public CustomMapData ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.HasNodeGraph
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.HasNodeGraph
+  id: HasNodeGraph
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  langs:
+  - csharp
+  name: HasNodeGraph
+  nameWithType: CustomMapData.HasNodeGraph
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.HasNodeGraph
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool HasNodeGraph { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool HasNodeGraph { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.HasNodeGraph*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.IsBaked
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.IsBaked
+  id: IsBaked
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  langs:
+  - csharp
+  name: IsBaked
+  nameWithType: CustomMapData.IsBaked
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.IsBaked
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool IsBaked { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool IsBaked { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.IsBaked*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.NumOfObjectsOnMap
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.NumOfObjectsOnMap
+  id: NumOfObjectsOnMap
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  langs:
+  - csharp
+  name: NumOfObjectsOnMap
+  nameWithType: CustomMapData.NumOfObjectsOnMap
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.NumOfObjectsOnMap
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int NumOfObjectsOnMap { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int NumOfObjectsOnMap { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.NumOfObjectsOnMap*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.TagLevelId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.TagLevelId
+  id: TagLevelId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  langs:
+  - csharp
+  name: TagLevelId
+  nameWithType: CustomMapData.TagLevelId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.TagLevelId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int TagLevelId { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int TagLevelId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.TagLevelId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  isExternal: false
+  name: CustomMapData()
+  nameWithType: CustomMapData.CustomMapData()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.CustomMapData()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.HasNodeGraph
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  isExternal: false
+  name: HasNodeGraph
+  nameWithType: CustomMapData.HasNodeGraph
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.HasNodeGraph
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.IsBaked
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  isExternal: false
+  name: IsBaked
+  nameWithType: CustomMapData.IsBaked
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.IsBaked
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.NumOfObjectsOnMap
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  isExternal: false
+  name: NumOfObjectsOnMap
+  nameWithType: CustomMapData.NumOfObjectsOnMap
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.NumOfObjectsOnMap
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.TagLevelId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  isExternal: false
+  name: TagLevelId
+  nameWithType: CustomMapData.TagLevelId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.TagLevelId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  isExternal: false
+  name: CustomMapData
+  nameWithType: CustomMapData.CustomMapData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.CustomMapData
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.HasNodeGraph*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.HasNodeGraph
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  isExternal: false
+  name: HasNodeGraph
+  nameWithType: CustomMapData.HasNodeGraph
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.HasNodeGraph
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.IsBaked*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.IsBaked
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  isExternal: false
+  name: IsBaked
+  nameWithType: CustomMapData.IsBaked
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.IsBaked
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.NumOfObjectsOnMap*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.NumOfObjectsOnMap
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  isExternal: false
+  name: NumOfObjectsOnMap
+  nameWithType: CustomMapData.NumOfObjectsOnMap
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.NumOfObjectsOnMap
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.TagLevelId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.TagLevelId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData
+  isExternal: false
+  name: TagLevelId
+  nameWithType: CustomMapData.TagLevelId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomMapData.TagLevelId
+  monikers:
+  - net6.0
+  type: property

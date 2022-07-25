@@ -1,0 +1,207 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore
+  id: WeaponCore
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.Themes
+  langs:
+  - csharp
+  name: WeaponCore
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class WeaponCore : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class WeaponCore : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  inheritance:
+  - System.Object
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  implements: []
+  inheritedMembers:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CoreId
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CorePath
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CoreType
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.FirstAcquiredDate
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.IsEquipped
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore
+  langs:
+  - csharp
+  name: WeaponCore()
+  nameWithType: WeaponCore.WeaponCore()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.WeaponCore()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public WeaponCore ();
+    parameters: []
+    content.csharp: public WeaponCore ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.Themes
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.Themes
+  id: Themes
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore
+  langs:
+  - csharp
+  name: Themes
+  nameWithType: WeaponCore.Themes
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.Themes
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme> Themes { get; set; }
+    return:
+      type: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme> Themes { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.Themes*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Core
+  nameWithType: Core
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore
+  isExternal: false
+  name: WeaponCore()
+  nameWithType: WeaponCore.WeaponCore()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.WeaponCore()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.Themes
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore
+  isExternal: false
+  name: Themes
+  nameWithType: WeaponCore.Themes
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.Themes
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  name: WeaponCoreTheme
+  nameWithType: WeaponCoreTheme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+- uid: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme}
+  parent: System.Collections.Generic
+  name: List<WeaponCoreTheme>
+  nameWithType: List<WeaponCoreTheme>
+  fullName: System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+    name: WeaponCoreTheme
+    nameWithType: WeaponCoreTheme
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore
+  isExternal: false
+  name: WeaponCore
+  nameWithType: WeaponCore.WeaponCore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.WeaponCore
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.Themes*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.Themes
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore
+  isExternal: false
+  name: Themes
+  nameWithType: WeaponCore.Themes
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore.Themes
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CoreId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  isExternal: false
+  name: CoreId
+  nameWithType: Core.CoreId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CoreId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CorePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  isExternal: false
+  name: CorePath
+  nameWithType: Core.CorePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CorePath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CoreType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  isExternal: false
+  name: CoreType
+  nameWithType: Core.CoreType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.CoreType
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.FirstAcquiredDate
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  isExternal: false
+  name: FirstAcquiredDate
+  nameWithType: Core.FirstAcquiredDate
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.FirstAcquiredDate
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.IsEquipped
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  isExternal: false
+  name: IsEquipped
+  nameWithType: Core.IsEquipped
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core.IsEquipped
+  type: property

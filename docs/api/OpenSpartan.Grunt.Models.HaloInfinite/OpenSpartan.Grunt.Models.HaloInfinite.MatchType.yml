@@ -1,0 +1,172 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+  id: MatchType
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchType.All
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Custom
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Local
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Matchmaking
+  langs:
+  - csharp
+  name: MatchType
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+  type: Enum
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Types of matches that a user can query with <xref data-throw-if-not-resolved="true" uid="OpenSpartan.Grunt.Core.HaloInfiniteClient.StatsGetMatchHistory(System.String,System.Int32,System.Int32,OpenSpartan.Grunt.Models.HaloInfinite.MatchType)"></xref>.
+  syntax:
+    content: public enum MatchType
+    content.csharp: public enum MatchType
+  inheritance:
+  - System.Enum
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchType.All
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.MatchType.All
+  id: All
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+  langs:
+  - csharp
+  name: All
+  nameWithType: MatchType.All
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchType.All
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: All
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+      description: ''
+    content.csharp: All
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "0"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Custom
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Custom
+  id: Custom
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+  langs:
+  - csharp
+  name: Custom
+  nameWithType: MatchType.Custom
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Custom
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Custom
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+      description: ''
+    content.csharp: Custom
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "2"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Local
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Local
+  id: Local
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+  langs:
+  - csharp
+  name: Local
+  nameWithType: MatchType.Local
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Local
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Local
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+      description: ''
+    content.csharp: Local
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "3"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Matchmaking
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Matchmaking
+  id: Matchmaking
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+  langs:
+  - csharp
+  name: Matchmaking
+  nameWithType: MatchType.Matchmaking
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Matchmaking
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Matchmaking
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+      description: ''
+    content.csharp: Matchmaking
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "1"
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Enum
+  parent: System
+  isExternal: true
+  name: Enum
+  nameWithType: Enum
+  fullName: System.Enum
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchType.All
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+  isExternal: false
+  name: All
+  nameWithType: MatchType.All
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchType.All
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: MatchType
+  nameWithType: MatchType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Custom
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+  isExternal: false
+  name: Custom
+  nameWithType: MatchType.Custom
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Custom
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Local
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+  isExternal: false
+  name: Local
+  nameWithType: MatchType.Local
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Local
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Matchmaking
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+  isExternal: false
+  name: Matchmaking
+  nameWithType: MatchType.Matchmaking
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchType.Matchmaking
+  type: field

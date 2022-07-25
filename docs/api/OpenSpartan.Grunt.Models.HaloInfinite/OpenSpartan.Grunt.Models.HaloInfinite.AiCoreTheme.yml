@@ -1,0 +1,229 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  id: AiCoreTheme
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath
+  - OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath
+  langs:
+  - csharp
+  name: AiCoreTheme
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AiCoreTheme : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AiCoreTheme : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  inheritance:
+  - System.Object
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  implements: []
+  inheritedMembers:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  langs:
+  - csharp
+  name: AiCoreTheme()
+  nameWithType: AiCoreTheme.AiCoreTheme()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.AiCoreTheme()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public AiCoreTheme ();
+    parameters: []
+    content.csharp: public AiCoreTheme ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath
+  id: ColorPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  langs:
+  - csharp
+  name: ColorPath
+  nameWithType: AiCoreTheme.ColorPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ColorPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ColorPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath
+  id: ModelPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  langs:
+  - csharp
+  name: ModelPath
+  nameWithType: AiCoreTheme.ModelPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ModelPath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ModelPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: Theme
+  nameWithType: Theme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  isExternal: false
+  name: AiCoreTheme()
+  nameWithType: AiCoreTheme.AiCoreTheme()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.AiCoreTheme()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  isExternal: false
+  name: ColorPath
+  nameWithType: AiCoreTheme.ColorPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  isExternal: false
+  name: ModelPath
+  nameWithType: AiCoreTheme.ModelPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  isExternal: false
+  name: AiCoreTheme
+  nameWithType: AiCoreTheme.AiCoreTheme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.AiCoreTheme
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  isExternal: false
+  name: ColorPath
+  nameWithType: AiCoreTheme.ColorPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ColorPath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  isExternal: false
+  name: ModelPath
+  nameWithType: AiCoreTheme.ModelPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme.ModelPath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: FirstModifiedDateUtc
+  nameWithType: Theme.FirstModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.FirstModifiedDateUtc
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: IsDefault
+  nameWithType: Theme.IsDefault
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsDefault
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: IsEquipped
+  nameWithType: Theme.IsEquipped
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.IsEquipped
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: Theme.LastModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.LastModifiedDateUtc
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  isExternal: false
+  name: ThemePath
+  nameWithType: Theme.ThemePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme.ThemePath
+  type: property

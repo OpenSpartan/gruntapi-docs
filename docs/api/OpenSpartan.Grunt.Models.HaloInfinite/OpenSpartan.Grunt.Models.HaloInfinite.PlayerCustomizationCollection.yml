@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  id: PlayerCustomizationCollection
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations
+  langs:
+  - csharp
+  name: PlayerCustomizationCollection
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class PlayerCustomizationCollection
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class PlayerCustomizationCollection
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  langs:
+  - csharp
+  name: PlayerCustomizationCollection()
+  nameWithType: PlayerCustomizationCollection.PlayerCustomizationCollection()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizationCollection()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public PlayerCustomizationCollection ();
+    parameters: []
+    content.csharp: public PlayerCustomizationCollection ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations
+  id: PlayerCustomizations
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  langs:
+  - csharp
+  name: PlayerCustomizations
+  nameWithType: PlayerCustomizationCollection.PlayerCustomizations
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomization[] PlayerCustomizations { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomization[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomization[] PlayerCustomizations { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  isExternal: false
+  name: PlayerCustomizationCollection()
+  nameWithType: PlayerCustomizationCollection.PlayerCustomizationCollection()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizationCollection()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  isExternal: false
+  name: PlayerCustomizations
+  nameWithType: PlayerCustomizationCollection.PlayerCustomizations
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomization
+  name: PlayerCustomization
+  nameWithType: PlayerCustomization
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomization
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomization[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: PlayerCustomization[]
+  nameWithType: PlayerCustomization[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomization[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomization
+    name: PlayerCustomization
+    nameWithType: PlayerCustomization
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomization
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  isExternal: false
+  name: PlayerCustomizationCollection
+  nameWithType: PlayerCustomizationCollection.PlayerCustomizationCollection
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizationCollection
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection
+  isExternal: false
+  name: PlayerCustomizations
+  nameWithType: PlayerCustomizationCollection.PlayerCustomizations
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection.PlayerCustomizations
+  monikers:
+  - net6.0
+  type: property

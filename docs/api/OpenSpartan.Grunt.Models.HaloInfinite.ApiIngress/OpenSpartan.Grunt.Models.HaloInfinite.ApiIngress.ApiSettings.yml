@@ -1,0 +1,768 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  id: ApiSettings
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.CELLConfig
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClearanceAudience
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClientQoSTimeoutMs
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.GameCMSGuideEndpoints
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventExcludedStatusCodes
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventRequestHeaders
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventResponseHeaders
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersLoggingEnabled
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersPercentageUpload
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PlayfabTitleId
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PurchasePollFrequencyInSeconds
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.TitleIdList
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInInternalBuilds
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInReleaseBuilds
+  langs:
+  - csharp
+  name: ApiSettings
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public class ApiSettings
+    content.csharp: public class ApiSettings
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  langs:
+  - csharp
+  name: ApiSettings()
+  nameWithType: ApiSettings.ApiSettings()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ApiSettings()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public ApiSettings ();
+    parameters: []
+    content.csharp: public ApiSettings ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.CELLConfig
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.CELLConfig
+  id: CELLConfig
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  langs:
+  - csharp
+  name: CELLConfig
+  nameWithType: ApiSettings.CELLConfig
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.CELLConfig
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public string CELLConfig { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string CELLConfig { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.CELLConfig*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClearanceAudience
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClearanceAudience
+  id: ClearanceAudience
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  langs:
+  - csharp
+  name: ClearanceAudience
+  nameWithType: ApiSettings.ClearanceAudience
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClearanceAudience
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public string ClearanceAudience { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ClearanceAudience { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClearanceAudience*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClientQoSTimeoutMs
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClientQoSTimeoutMs
+  id: ClientQoSTimeoutMs
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  langs:
+  - csharp
+  name: ClientQoSTimeoutMs
+  nameWithType: ApiSettings.ClientQoSTimeoutMs
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClientQoSTimeoutMs
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public string ClientQoSTimeoutMs { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ClientQoSTimeoutMs { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClientQoSTimeoutMs*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.GameCMSGuideEndpoints
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.GameCMSGuideEndpoints
+  id: GameCMSGuideEndpoints
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  langs:
+  - csharp
+  name: GameCMSGuideEndpoints
+  nameWithType: ApiSettings.GameCMSGuideEndpoints
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.GameCMSGuideEndpoints
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("GameCMS_GuideEndpoints")]]
+
+      public string GameCMSGuideEndpoints { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("GameCMS_GuideEndpoints")]]
+
+      public string GameCMSGuideEndpoints { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.GameCMSGuideEndpoints*
+  exceptions: []
+  attributes:
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventExcludedStatusCodes
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventExcludedStatusCodes
+  id: HttpEventExcludedStatusCodes
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  langs:
+  - csharp
+  name: HttpEventExcludedStatusCodes
+  nameWithType: ApiSettings.HttpEventExcludedStatusCodes
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventExcludedStatusCodes
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("HttpEvent_ExcludedStatusCodes")]]
+
+      public string HttpEventExcludedStatusCodes { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("HttpEvent_ExcludedStatusCodes")]]
+
+      public string HttpEventExcludedStatusCodes { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventExcludedStatusCodes*
+  exceptions: []
+  attributes:
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventRequestHeaders
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventRequestHeaders
+  id: HttpEventRequestHeaders
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  langs:
+  - csharp
+  name: HttpEventRequestHeaders
+  nameWithType: ApiSettings.HttpEventRequestHeaders
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventRequestHeaders
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("HttpEvent_RequestHeaders")]]
+
+      public string HttpEventRequestHeaders { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("HttpEvent_RequestHeaders")]]
+
+      public string HttpEventRequestHeaders { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventRequestHeaders*
+  exceptions: []
+  attributes:
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventResponseHeaders
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventResponseHeaders
+  id: HttpEventResponseHeaders
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  langs:
+  - csharp
+  name: HttpEventResponseHeaders
+  nameWithType: ApiSettings.HttpEventResponseHeaders
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventResponseHeaders
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("HttpEvent_ResponseHeaders")]]
+
+      public string HttpEventResponseHeaders { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("HttpEvent_ResponseHeaders")]]
+
+      public string HttpEventResponseHeaders { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventResponseHeaders*
+  exceptions: []
+  attributes:
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersLoggingEnabled
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersLoggingEnabled
+  id: HttpEventUsersLoggingEnabled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  langs:
+  - csharp
+  name: HttpEventUsersLoggingEnabled
+  nameWithType: ApiSettings.HttpEventUsersLoggingEnabled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersLoggingEnabled
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("HttpEvent_UsersLoggingEnabled")]]
+
+      public string HttpEventUsersLoggingEnabled { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("HttpEvent_UsersLoggingEnabled")]]
+
+      public string HttpEventUsersLoggingEnabled { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersLoggingEnabled*
+  exceptions: []
+  attributes:
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersPercentageUpload
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersPercentageUpload
+  id: HttpEventUsersPercentageUpload
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  langs:
+  - csharp
+  name: HttpEventUsersPercentageUpload
+  nameWithType: ApiSettings.HttpEventUsersPercentageUpload
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersPercentageUpload
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("HttpEvent_UsersPercentageUpload")]]
+
+      public string HttpEventUsersPercentageUpload { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("HttpEvent_UsersPercentageUpload")]]
+
+      public string HttpEventUsersPercentageUpload { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersPercentageUpload*
+  exceptions: []
+  attributes:
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PlayfabTitleId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PlayfabTitleId
+  id: PlayfabTitleId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  langs:
+  - csharp
+  name: PlayfabTitleId
+  nameWithType: ApiSettings.PlayfabTitleId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PlayfabTitleId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public string PlayfabTitleId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string PlayfabTitleId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PlayfabTitleId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PurchasePollFrequencyInSeconds
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PurchasePollFrequencyInSeconds
+  id: PurchasePollFrequencyInSeconds
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  langs:
+  - csharp
+  name: PurchasePollFrequencyInSeconds
+  nameWithType: ApiSettings.PurchasePollFrequencyInSeconds
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PurchasePollFrequencyInSeconds
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public string PurchasePollFrequencyInSeconds { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string PurchasePollFrequencyInSeconds { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PurchasePollFrequencyInSeconds*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.TitleIdList
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.TitleIdList
+  id: TitleIdList
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  langs:
+  - csharp
+  name: TitleIdList
+  nameWithType: ApiSettings.TitleIdList
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.TitleIdList
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public string TitleIdList { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string TitleIdList { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.TitleIdList*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInInternalBuilds
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInInternalBuilds
+  id: UploadFullHeapInInternalBuilds
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  langs:
+  - csharp
+  name: UploadFullHeapInInternalBuilds
+  nameWithType: ApiSettings.UploadFullHeapInInternalBuilds
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInInternalBuilds
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public string UploadFullHeapInInternalBuilds { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string UploadFullHeapInInternalBuilds { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInInternalBuilds*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInReleaseBuilds
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInReleaseBuilds
+  id: UploadFullHeapInReleaseBuilds
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  langs:
+  - csharp
+  name: UploadFullHeapInReleaseBuilds
+  nameWithType: ApiSettings.UploadFullHeapInReleaseBuilds
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInReleaseBuilds
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public string UploadFullHeapInReleaseBuilds { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string UploadFullHeapInReleaseBuilds { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInReleaseBuilds*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: ApiSettings()
+  nameWithType: ApiSettings.ApiSettings()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ApiSettings()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.CELLConfig
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: CELLConfig
+  nameWithType: ApiSettings.CELLConfig
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.CELLConfig
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClearanceAudience
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: ClearanceAudience
+  nameWithType: ApiSettings.ClearanceAudience
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClearanceAudience
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClientQoSTimeoutMs
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: ClientQoSTimeoutMs
+  nameWithType: ApiSettings.ClientQoSTimeoutMs
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClientQoSTimeoutMs
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.GameCMSGuideEndpoints
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: GameCMSGuideEndpoints
+  nameWithType: ApiSettings.GameCMSGuideEndpoints
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.GameCMSGuideEndpoints
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventExcludedStatusCodes
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: HttpEventExcludedStatusCodes
+  nameWithType: ApiSettings.HttpEventExcludedStatusCodes
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventExcludedStatusCodes
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventRequestHeaders
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: HttpEventRequestHeaders
+  nameWithType: ApiSettings.HttpEventRequestHeaders
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventRequestHeaders
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventResponseHeaders
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: HttpEventResponseHeaders
+  nameWithType: ApiSettings.HttpEventResponseHeaders
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventResponseHeaders
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersLoggingEnabled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: HttpEventUsersLoggingEnabled
+  nameWithType: ApiSettings.HttpEventUsersLoggingEnabled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersLoggingEnabled
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersPercentageUpload
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: HttpEventUsersPercentageUpload
+  nameWithType: ApiSettings.HttpEventUsersPercentageUpload
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersPercentageUpload
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PlayfabTitleId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: PlayfabTitleId
+  nameWithType: ApiSettings.PlayfabTitleId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PlayfabTitleId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PurchasePollFrequencyInSeconds
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: PurchasePollFrequencyInSeconds
+  nameWithType: ApiSettings.PurchasePollFrequencyInSeconds
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PurchasePollFrequencyInSeconds
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.TitleIdList
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: TitleIdList
+  nameWithType: ApiSettings.TitleIdList
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.TitleIdList
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInInternalBuilds
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: UploadFullHeapInInternalBuilds
+  nameWithType: ApiSettings.UploadFullHeapInInternalBuilds
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInInternalBuilds
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInReleaseBuilds
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: UploadFullHeapInReleaseBuilds
+  nameWithType: ApiSettings.UploadFullHeapInReleaseBuilds
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInReleaseBuilds
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: ApiSettings
+  nameWithType: ApiSettings.ApiSettings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ApiSettings
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.CELLConfig*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.CELLConfig
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: CELLConfig
+  nameWithType: ApiSettings.CELLConfig
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.CELLConfig
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClearanceAudience*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClearanceAudience
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: ClearanceAudience
+  nameWithType: ApiSettings.ClearanceAudience
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClearanceAudience
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClientQoSTimeoutMs*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClientQoSTimeoutMs
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: ClientQoSTimeoutMs
+  nameWithType: ApiSettings.ClientQoSTimeoutMs
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.ClientQoSTimeoutMs
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.GameCMSGuideEndpoints*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.GameCMSGuideEndpoints
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: GameCMSGuideEndpoints
+  nameWithType: ApiSettings.GameCMSGuideEndpoints
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.GameCMSGuideEndpoints
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventExcludedStatusCodes*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventExcludedStatusCodes
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: HttpEventExcludedStatusCodes
+  nameWithType: ApiSettings.HttpEventExcludedStatusCodes
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventExcludedStatusCodes
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventRequestHeaders*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventRequestHeaders
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: HttpEventRequestHeaders
+  nameWithType: ApiSettings.HttpEventRequestHeaders
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventRequestHeaders
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventResponseHeaders*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventResponseHeaders
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: HttpEventResponseHeaders
+  nameWithType: ApiSettings.HttpEventResponseHeaders
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventResponseHeaders
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersLoggingEnabled*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersLoggingEnabled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: HttpEventUsersLoggingEnabled
+  nameWithType: ApiSettings.HttpEventUsersLoggingEnabled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersLoggingEnabled
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersPercentageUpload*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersPercentageUpload
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: HttpEventUsersPercentageUpload
+  nameWithType: ApiSettings.HttpEventUsersPercentageUpload
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.HttpEventUsersPercentageUpload
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PlayfabTitleId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PlayfabTitleId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: PlayfabTitleId
+  nameWithType: ApiSettings.PlayfabTitleId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PlayfabTitleId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PurchasePollFrequencyInSeconds*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PurchasePollFrequencyInSeconds
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: PurchasePollFrequencyInSeconds
+  nameWithType: ApiSettings.PurchasePollFrequencyInSeconds
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.PurchasePollFrequencyInSeconds
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.TitleIdList*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.TitleIdList
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: TitleIdList
+  nameWithType: ApiSettings.TitleIdList
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.TitleIdList
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInInternalBuilds*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInInternalBuilds
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: UploadFullHeapInInternalBuilds
+  nameWithType: ApiSettings.UploadFullHeapInInternalBuilds
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInInternalBuilds
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInReleaseBuilds*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInReleaseBuilds
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
+  isExternal: false
+  name: UploadFullHeapInReleaseBuilds
+  nameWithType: ApiSettings.UploadFullHeapInReleaseBuilds
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings.UploadFullHeapInReleaseBuilds
+  monikers:
+  - net6.0
+  type: property

@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData
+  id: CustomAssetData
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.KeyValues
+  langs:
+  - csharp
+  name: CustomAssetData
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CustomAssetData
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CustomAssetData
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData
+  langs:
+  - csharp
+  name: CustomAssetData()
+  nameWithType: CustomAssetData.CustomAssetData()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.CustomAssetData()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public CustomAssetData ();
+    parameters: []
+    content.csharp: public CustomAssetData ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.KeyValues
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.KeyValues
+  id: KeyValues
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData
+  langs:
+  - csharp
+  name: KeyValues
+  nameWithType: CustomAssetData.KeyValues
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.KeyValues
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.AssetKeyValues KeyValues { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AssetKeyValues
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.AssetKeyValues KeyValues { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.KeyValues*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData
+  isExternal: false
+  name: CustomAssetData()
+  nameWithType: CustomAssetData.CustomAssetData()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.CustomAssetData()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.KeyValues
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData
+  isExternal: false
+  name: KeyValues
+  nameWithType: CustomAssetData.KeyValues
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.KeyValues
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKeyValues
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AssetKeyValues
+  nameWithType: AssetKeyValues
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKeyValues
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData
+  isExternal: false
+  name: CustomAssetData
+  nameWithType: CustomAssetData.CustomAssetData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.CustomAssetData
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.KeyValues*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.KeyValues
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData
+  isExternal: false
+  name: KeyValues
+  nameWithType: CustomAssetData.KeyValues
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomAssetData.KeyValues
+  monikers:
+  - net6.0
+  type: property

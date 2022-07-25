@@ -1,0 +1,256 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial
+  id: AcademyTutorial
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Series
+  - OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.SpriteFrameIndex
+  - OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Title
+  langs:
+  - csharp
+  name: AcademyTutorial
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AcademyTutorial
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AcademyTutorial
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial
+  langs:
+  - csharp
+  name: AcademyTutorial()
+  nameWithType: AcademyTutorial.AcademyTutorial()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.AcademyTutorial()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public AcademyTutorial ();
+    parameters: []
+    content.csharp: public AcademyTutorial ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Series
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Series
+  id: Series
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial
+  langs:
+  - csharp
+  name: Series
+  nameWithType: AcademyTutorial.Series
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Series
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.AcademySeries[] Series { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AcademySeries[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.AcademySeries[] Series { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Series*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.SpriteFrameIndex
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.SpriteFrameIndex
+  id: SpriteFrameIndex
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial
+  langs:
+  - csharp
+  name: SpriteFrameIndex
+  nameWithType: AcademyTutorial.SpriteFrameIndex
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.SpriteFrameIndex
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int SpriteFrameIndex { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int SpriteFrameIndex { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.SpriteFrameIndex*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Title
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Title
+  id: Title
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial
+  langs:
+  - csharp
+  name: Title
+  nameWithType: AcademyTutorial.Title
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Title
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Title { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Title { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Title*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial
+  isExternal: false
+  name: AcademyTutorial()
+  nameWithType: AcademyTutorial.AcademyTutorial()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.AcademyTutorial()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Series
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial
+  isExternal: false
+  name: Series
+  nameWithType: AcademyTutorial.Series
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Series
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademySeries
+  name: AcademySeries
+  nameWithType: AcademySeries
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademySeries
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademySeries[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: AcademySeries[]
+  nameWithType: AcademySeries[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademySeries[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademySeries
+    name: AcademySeries
+    nameWithType: AcademySeries
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademySeries
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.SpriteFrameIndex
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial
+  isExternal: false
+  name: SpriteFrameIndex
+  nameWithType: AcademyTutorial.SpriteFrameIndex
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.SpriteFrameIndex
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Title
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial
+  isExternal: false
+  name: Title
+  nameWithType: AcademyTutorial.Title
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Title
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial
+  isExternal: false
+  name: AcademyTutorial
+  nameWithType: AcademyTutorial.AcademyTutorial
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.AcademyTutorial
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Series*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Series
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial
+  isExternal: false
+  name: Series
+  nameWithType: AcademyTutorial.Series
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Series
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.SpriteFrameIndex*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.SpriteFrameIndex
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial
+  isExternal: false
+  name: SpriteFrameIndex
+  nameWithType: AcademyTutorial.SpriteFrameIndex
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.SpriteFrameIndex
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Title*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Title
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial
+  isExternal: false
+  name: Title
+  nameWithType: AcademyTutorial.Title
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AcademyTutorial.Title
+  monikers:
+  - net6.0
+  type: property

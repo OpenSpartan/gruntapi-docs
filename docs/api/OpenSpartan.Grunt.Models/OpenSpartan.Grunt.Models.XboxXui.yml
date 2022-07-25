@@ -1,0 +1,461 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.XboxXui
+  commentId: T:OpenSpartan.Grunt.Models.XboxXui
+  id: XboxXui
+  children:
+  - OpenSpartan.Grunt.Models.XboxXui.#ctor
+  - OpenSpartan.Grunt.Models.XboxXui.Agg
+  - OpenSpartan.Grunt.Models.XboxXui.Gtg
+  - OpenSpartan.Grunt.Models.XboxXui.Prv
+  - OpenSpartan.Grunt.Models.XboxXui.Uhs
+  - OpenSpartan.Grunt.Models.XboxXui.Usr
+  - OpenSpartan.Grunt.Models.XboxXui.Utr
+  - OpenSpartan.Grunt.Models.XboxXui.Xid
+  langs:
+  - csharp
+  name: XboxXui
+  nameWithType: OpenSpartan.Grunt.Models.XboxXui
+  fullName: OpenSpartan.Grunt.Models.XboxXui
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public class XboxXui
+    content.csharp: public class XboxXui
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.XboxXui.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.XboxXui.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  langs:
+  - csharp
+  name: XboxXui()
+  nameWithType: XboxXui.XboxXui()
+  fullName: OpenSpartan.Grunt.Models.XboxXui.XboxXui()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public XboxXui ();
+    parameters: []
+    content.csharp: public XboxXui ();
+  overload: OpenSpartan.Grunt.Models.XboxXui.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.XboxXui.Agg
+  commentId: P:OpenSpartan.Grunt.Models.XboxXui.Agg
+  id: Agg
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  langs:
+  - csharp
+  name: Agg
+  nameWithType: XboxXui.Agg
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Agg
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("agg")]]
+
+      public string Agg { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("agg")]]
+
+      public string Agg { get; set; }
+  overload: OpenSpartan.Grunt.Models.XboxXui.Agg*
+  exceptions: []
+  attributes:
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.XboxXui.Gtg
+  commentId: P:OpenSpartan.Grunt.Models.XboxXui.Gtg
+  id: Gtg
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  langs:
+  - csharp
+  name: Gtg
+  nameWithType: XboxXui.Gtg
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Gtg
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("gtg")]]
+
+      public string Gtg { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("gtg")]]
+
+      public string Gtg { get; set; }
+  overload: OpenSpartan.Grunt.Models.XboxXui.Gtg*
+  exceptions: []
+  attributes:
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.XboxXui.Prv
+  commentId: P:OpenSpartan.Grunt.Models.XboxXui.Prv
+  id: Prv
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  langs:
+  - csharp
+  name: Prv
+  nameWithType: XboxXui.Prv
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Prv
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("prv")]]
+
+      public string Prv { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("prv")]]
+
+      public string Prv { get; set; }
+  overload: OpenSpartan.Grunt.Models.XboxXui.Prv*
+  exceptions: []
+  attributes:
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.XboxXui.Uhs
+  commentId: P:OpenSpartan.Grunt.Models.XboxXui.Uhs
+  id: Uhs
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  langs:
+  - csharp
+  name: Uhs
+  nameWithType: XboxXui.Uhs
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Uhs
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("uhs")]]
+
+      public string Uhs { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("uhs")]]
+
+      public string Uhs { get; set; }
+  overload: OpenSpartan.Grunt.Models.XboxXui.Uhs*
+  exceptions: []
+  attributes:
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.XboxXui.Usr
+  commentId: P:OpenSpartan.Grunt.Models.XboxXui.Usr
+  id: Usr
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  langs:
+  - csharp
+  name: Usr
+  nameWithType: XboxXui.Usr
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Usr
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("usr")]]
+
+      public string Usr { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("usr")]]
+
+      public string Usr { get; set; }
+  overload: OpenSpartan.Grunt.Models.XboxXui.Usr*
+  exceptions: []
+  attributes:
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.XboxXui.Utr
+  commentId: P:OpenSpartan.Grunt.Models.XboxXui.Utr
+  id: Utr
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  langs:
+  - csharp
+  name: Utr
+  nameWithType: XboxXui.Utr
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Utr
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("utr")]]
+
+      public string Utr { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("utr")]]
+
+      public string Utr { get; set; }
+  overload: OpenSpartan.Grunt.Models.XboxXui.Utr*
+  exceptions: []
+  attributes:
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.XboxXui.Xid
+  commentId: P:OpenSpartan.Grunt.Models.XboxXui.Xid
+  id: Xid
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  langs:
+  - csharp
+  name: Xid
+  nameWithType: XboxXui.Xid
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Xid
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("xid")]]
+
+      public string Xid { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: >-
+      [[System.Text.Json.Serialization.JsonPropertyName("xid")]]
+
+      public string Xid { get; set; }
+  overload: OpenSpartan.Grunt.Models.XboxXui.Xid*
+  exceptions: []
+  attributes:
+  - type: '[System.Text.Json.Serialization.JsonPropertyNameAttribute'
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models
+  commentId: N:OpenSpartan.Grunt.Models
+  isExternal: false
+  name: OpenSpartan.Grunt.Models
+  nameWithType: OpenSpartan.Grunt.Models
+  fullName: OpenSpartan.Grunt.Models
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.XboxXui.#ctor
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  isExternal: false
+  name: XboxXui()
+  nameWithType: XboxXui.XboxXui()
+  fullName: OpenSpartan.Grunt.Models.XboxXui.XboxXui()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.XboxXui.Agg
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  isExternal: false
+  name: Agg
+  nameWithType: XboxXui.Agg
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Agg
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.XboxXui.Gtg
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  isExternal: false
+  name: Gtg
+  nameWithType: XboxXui.Gtg
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Gtg
+  type: property
+- uid: OpenSpartan.Grunt.Models.XboxXui.Prv
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  isExternal: false
+  name: Prv
+  nameWithType: XboxXui.Prv
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Prv
+  type: property
+- uid: OpenSpartan.Grunt.Models.XboxXui.Uhs
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  isExternal: false
+  name: Uhs
+  nameWithType: XboxXui.Uhs
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Uhs
+  type: property
+- uid: OpenSpartan.Grunt.Models.XboxXui.Usr
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  isExternal: false
+  name: Usr
+  nameWithType: XboxXui.Usr
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Usr
+  type: property
+- uid: OpenSpartan.Grunt.Models.XboxXui.Utr
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  isExternal: false
+  name: Utr
+  nameWithType: XboxXui.Utr
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Utr
+  type: property
+- uid: OpenSpartan.Grunt.Models.XboxXui.Xid
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  isExternal: false
+  name: Xid
+  nameWithType: XboxXui.Xid
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Xid
+  type: property
+- uid: OpenSpartan.Grunt.Models.XboxXui.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.XboxXui.#ctor
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  isExternal: false
+  name: XboxXui
+  nameWithType: XboxXui.XboxXui
+  fullName: OpenSpartan.Grunt.Models.XboxXui.XboxXui
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.XboxXui.Agg*
+  commentId: Overload:OpenSpartan.Grunt.Models.XboxXui.Agg
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  isExternal: false
+  name: Agg
+  nameWithType: XboxXui.Agg
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Agg
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.XboxXui.Gtg*
+  commentId: Overload:OpenSpartan.Grunt.Models.XboxXui.Gtg
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  isExternal: false
+  name: Gtg
+  nameWithType: XboxXui.Gtg
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Gtg
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.XboxXui.Prv*
+  commentId: Overload:OpenSpartan.Grunt.Models.XboxXui.Prv
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  isExternal: false
+  name: Prv
+  nameWithType: XboxXui.Prv
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Prv
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.XboxXui.Uhs*
+  commentId: Overload:OpenSpartan.Grunt.Models.XboxXui.Uhs
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  isExternal: false
+  name: Uhs
+  nameWithType: XboxXui.Uhs
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Uhs
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.XboxXui.Usr*
+  commentId: Overload:OpenSpartan.Grunt.Models.XboxXui.Usr
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  isExternal: false
+  name: Usr
+  nameWithType: XboxXui.Usr
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Usr
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.XboxXui.Utr*
+  commentId: Overload:OpenSpartan.Grunt.Models.XboxXui.Utr
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  isExternal: false
+  name: Utr
+  nameWithType: XboxXui.Utr
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Utr
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.XboxXui.Xid*
+  commentId: Overload:OpenSpartan.Grunt.Models.XboxXui.Xid
+  parent: OpenSpartan.Grunt.Models.XboxXui
+  isExternal: false
+  name: Xid
+  nameWithType: XboxXui.Xid
+  fullName: OpenSpartan.Grunt.Models.XboxXui.Xid
+  monikers:
+  - net6.0
+  type: property

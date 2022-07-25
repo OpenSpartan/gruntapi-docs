@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+  id: PlaylistExperience
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience.Arena
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience.Featured
+  langs:
+  - csharp
+  name: PlaylistExperience
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+  type: Enum
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Playlist experience associated with a given match.
+  syntax:
+    content: public enum PlaylistExperience
+    content.csharp: public enum PlaylistExperience
+  inheritance:
+  - System.Enum
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience.Arena
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience.Arena
+  id: Arena
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+  langs:
+  - csharp
+  name: Arena
+  nameWithType: PlaylistExperience.Arena
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience.Arena
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Arena
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+      description: ''
+    content.csharp: Arena
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "2"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience.Featured
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience.Featured
+  id: Featured
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+  langs:
+  - csharp
+  name: Featured
+  nameWithType: PlaylistExperience.Featured
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience.Featured
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Featured
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+      description: ''
+    content.csharp: Featured
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "5"
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Enum
+  parent: System
+  isExternal: true
+  name: Enum
+  nameWithType: Enum
+  fullName: System.Enum
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience.Arena
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+  isExternal: false
+  name: Arena
+  nameWithType: PlaylistExperience.Arena
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience.Arena
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistExperience
+  nameWithType: PlaylistExperience
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience.Featured
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+  isExternal: false
+  name: Featured
+  nameWithType: PlaylistExperience.Featured
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience.Featured
+  type: field

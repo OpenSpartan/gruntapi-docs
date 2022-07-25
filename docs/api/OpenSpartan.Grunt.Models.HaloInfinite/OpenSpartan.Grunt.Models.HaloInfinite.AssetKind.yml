@@ -1,0 +1,358 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  id: AssetKind
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.EngineGameVariant
+  - OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Film
+  - OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Manifest
+  - OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Map
+  - OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.MapModePair
+  - OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Playlist
+  - OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Prefab
+  - OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Project
+  - OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.TestAsset
+  - OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.UgcGameVariant
+  langs:
+  - csharp
+  name: AssetKind
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  type: Enum
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Types of assets available through the User-Generated Content discovery API.
+  syntax:
+    content: public enum AssetKind
+    content.csharp: public enum AssetKind
+  inheritance:
+  - System.Enum
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.EngineGameVariant
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.EngineGameVariant
+  id: EngineGameVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  langs:
+  - csharp
+  name: EngineGameVariant
+  nameWithType: AssetKind.EngineGameVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.EngineGameVariant
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: EngineGameVariant
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+      description: ''
+    content.csharp: EngineGameVariant
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "9"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Film
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Film
+  id: Film
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  langs:
+  - csharp
+  name: Film
+  nameWithType: AssetKind.Film
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Film
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Film
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+      description: ''
+    content.csharp: Film
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "0"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Manifest
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Manifest
+  id: Manifest
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  langs:
+  - csharp
+  name: Manifest
+  nameWithType: AssetKind.Manifest
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Manifest
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Manifest
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+      description: ''
+    content.csharp: Manifest
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "8"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Map
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Map
+  id: Map
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  langs:
+  - csharp
+  name: Map
+  nameWithType: AssetKind.Map
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Map
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Map
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+      description: ''
+    content.csharp: Map
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "1"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.MapModePair
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.MapModePair
+  id: MapModePair
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  langs:
+  - csharp
+  name: MapModePair
+  nameWithType: AssetKind.MapModePair
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.MapModePair
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: MapModePair
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+      description: ''
+    content.csharp: MapModePair
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "6"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Playlist
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Playlist
+  id: Playlist
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  langs:
+  - csharp
+  name: Playlist
+  nameWithType: AssetKind.Playlist
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Playlist
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Playlist
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+      description: ''
+    content.csharp: Playlist
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "2"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Prefab
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Prefab
+  id: Prefab
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  langs:
+  - csharp
+  name: Prefab
+  nameWithType: AssetKind.Prefab
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Prefab
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Prefab
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+      description: ''
+    content.csharp: Prefab
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "3"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Project
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Project
+  id: Project
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  langs:
+  - csharp
+  name: Project
+  nameWithType: AssetKind.Project
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Project
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Project
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+      description: ''
+    content.csharp: Project
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "7"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.TestAsset
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.TestAsset
+  id: TestAsset
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  langs:
+  - csharp
+  name: TestAsset
+  nameWithType: AssetKind.TestAsset
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.TestAsset
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: TestAsset
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+      description: ''
+    content.csharp: TestAsset
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "4"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.UgcGameVariant
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.UgcGameVariant
+  id: UgcGameVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  langs:
+  - csharp
+  name: UgcGameVariant
+  nameWithType: AssetKind.UgcGameVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.UgcGameVariant
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: UgcGameVariant
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+      description: ''
+    content.csharp: UgcGameVariant
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "5"
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Enum
+  parent: System
+  isExternal: true
+  name: Enum
+  nameWithType: Enum
+  fullName: System.Enum
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.EngineGameVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  isExternal: false
+  name: EngineGameVariant
+  nameWithType: AssetKind.EngineGameVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.EngineGameVariant
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AssetKind
+  nameWithType: AssetKind
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Film
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  isExternal: false
+  name: Film
+  nameWithType: AssetKind.Film
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Film
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Manifest
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  isExternal: false
+  name: Manifest
+  nameWithType: AssetKind.Manifest
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Manifest
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Map
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  isExternal: false
+  name: Map
+  nameWithType: AssetKind.Map
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Map
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.MapModePair
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  isExternal: false
+  name: MapModePair
+  nameWithType: AssetKind.MapModePair
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.MapModePair
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Playlist
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  isExternal: false
+  name: Playlist
+  nameWithType: AssetKind.Playlist
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Playlist
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Prefab
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  isExternal: false
+  name: Prefab
+  nameWithType: AssetKind.Prefab
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Prefab
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Project
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  isExternal: false
+  name: Project
+  nameWithType: AssetKind.Project
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.Project
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.TestAsset
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  isExternal: false
+  name: TestAsset
+  nameWithType: AssetKind.TestAsset
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.TestAsset
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.UgcGameVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  isExternal: false
+  name: UgcGameVariant
+  nameWithType: AssetKind.UgcGameVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind.UgcGameVariant
+  type: field

@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Core
+  commentId: N:OpenSpartan.Grunt.Core
+  id: OpenSpartan.Grunt.Core
+  children:
+  - OpenSpartan.Grunt.Core.HaloInfiniteClient
+  langs:
+  - csharp
+  name: OpenSpartan.Grunt.Core
+  nameWithType: OpenSpartan.Grunt.Core
+  fullName: OpenSpartan.Grunt.Core
+  type: Namespace
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Core.HaloInfiniteClient
+  commentId: T:OpenSpartan.Grunt.Core.HaloInfiniteClient
+  parent: OpenSpartan.Grunt.Core
+  isExternal: false
+  name: HaloInfiniteClient
+  nameWithType: OpenSpartan.Grunt.Core.HaloInfiniteClient
+  fullName: OpenSpartan.Grunt.Core.HaloInfiniteClient
+  type: class

@@ -1,0 +1,2210 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  id: InventoryDefinition
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiColorsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiCoresOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiModelsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiThemesOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorChestAttachmentsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoatingsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoresOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorEmblemsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorFxsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorGlovesOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetAttachmentsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHipAttachmentsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorKneePadsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorLeftShoulderPadsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorMythicFxsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorRightShoulderPadsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorThemesOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorVisorsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorWristAttachmentsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Consumables
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Cores
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.EmblemCoatings
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Items
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanActionPosesOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanBackdropImagesOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanEmblemsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanStancesOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanVoicesOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleAlternateGeometryRegionsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCharmsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoatingsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoresOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleEmblemsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleFxsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleHornsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleThemesOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAlternateGeometryRegionsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAmmoCounterColorsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCharmsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoatingsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoresOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponDeathFxsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponEmblemsOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponStatTrackersOwnableCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponThemesOwnableCount
+  langs:
+  - csharp
+  name: InventoryDefinition
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class InventoryDefinition
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class InventoryDefinition
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: InventoryDefinition()
+  nameWithType: InventoryDefinition.InventoryDefinition()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.InventoryDefinition()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public InventoryDefinition ();
+    parameters: []
+    content.csharp: public InventoryDefinition ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiColorsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiColorsOwnableCount
+  id: AiColorsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: AiColorsOwnableCount
+  nameWithType: InventoryDefinition.AiColorsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiColorsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int AiColorsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int AiColorsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiColorsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiCoresOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiCoresOwnableCount
+  id: AiCoresOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: AiCoresOwnableCount
+  nameWithType: InventoryDefinition.AiCoresOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiCoresOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int AiCoresOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int AiCoresOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiCoresOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiModelsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiModelsOwnableCount
+  id: AiModelsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: AiModelsOwnableCount
+  nameWithType: InventoryDefinition.AiModelsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiModelsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int AiModelsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int AiModelsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiModelsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiThemesOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiThemesOwnableCount
+  id: AiThemesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: AiThemesOwnableCount
+  nameWithType: InventoryDefinition.AiThemesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiThemesOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int AiThemesOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int AiThemesOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiThemesOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorChestAttachmentsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorChestAttachmentsOwnableCount
+  id: ArmorChestAttachmentsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: ArmorChestAttachmentsOwnableCount
+  nameWithType: InventoryDefinition.ArmorChestAttachmentsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorChestAttachmentsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ArmorChestAttachmentsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ArmorChestAttachmentsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorChestAttachmentsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoatingsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoatingsOwnableCount
+  id: ArmorCoatingsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: ArmorCoatingsOwnableCount
+  nameWithType: InventoryDefinition.ArmorCoatingsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoatingsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ArmorCoatingsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ArmorCoatingsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoatingsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoresOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoresOwnableCount
+  id: ArmorCoresOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: ArmorCoresOwnableCount
+  nameWithType: InventoryDefinition.ArmorCoresOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoresOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ArmorCoresOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ArmorCoresOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoresOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorEmblemsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorEmblemsOwnableCount
+  id: ArmorEmblemsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: ArmorEmblemsOwnableCount
+  nameWithType: InventoryDefinition.ArmorEmblemsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorEmblemsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ArmorEmblemsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ArmorEmblemsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorEmblemsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorFxsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorFxsOwnableCount
+  id: ArmorFxsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: ArmorFxsOwnableCount
+  nameWithType: InventoryDefinition.ArmorFxsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorFxsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ArmorFxsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ArmorFxsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorFxsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorGlovesOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorGlovesOwnableCount
+  id: ArmorGlovesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: ArmorGlovesOwnableCount
+  nameWithType: InventoryDefinition.ArmorGlovesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorGlovesOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ArmorGlovesOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ArmorGlovesOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorGlovesOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetAttachmentsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetAttachmentsOwnableCount
+  id: ArmorHelmetAttachmentsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: ArmorHelmetAttachmentsOwnableCount
+  nameWithType: InventoryDefinition.ArmorHelmetAttachmentsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetAttachmentsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ArmorHelmetAttachmentsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ArmorHelmetAttachmentsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetAttachmentsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetsOwnableCount
+  id: ArmorHelmetsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: ArmorHelmetsOwnableCount
+  nameWithType: InventoryDefinition.ArmorHelmetsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ArmorHelmetsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ArmorHelmetsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHipAttachmentsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHipAttachmentsOwnableCount
+  id: ArmorHipAttachmentsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: ArmorHipAttachmentsOwnableCount
+  nameWithType: InventoryDefinition.ArmorHipAttachmentsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHipAttachmentsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ArmorHipAttachmentsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ArmorHipAttachmentsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHipAttachmentsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorKneePadsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorKneePadsOwnableCount
+  id: ArmorKneePadsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: ArmorKneePadsOwnableCount
+  nameWithType: InventoryDefinition.ArmorKneePadsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorKneePadsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ArmorKneePadsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ArmorKneePadsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorKneePadsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorLeftShoulderPadsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorLeftShoulderPadsOwnableCount
+  id: ArmorLeftShoulderPadsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: ArmorLeftShoulderPadsOwnableCount
+  nameWithType: InventoryDefinition.ArmorLeftShoulderPadsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorLeftShoulderPadsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ArmorLeftShoulderPadsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ArmorLeftShoulderPadsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorLeftShoulderPadsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorMythicFxsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorMythicFxsOwnableCount
+  id: ArmorMythicFxsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: ArmorMythicFxsOwnableCount
+  nameWithType: InventoryDefinition.ArmorMythicFxsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorMythicFxsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ArmorMythicFxsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ArmorMythicFxsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorMythicFxsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorRightShoulderPadsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorRightShoulderPadsOwnableCount
+  id: ArmorRightShoulderPadsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: ArmorRightShoulderPadsOwnableCount
+  nameWithType: InventoryDefinition.ArmorRightShoulderPadsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorRightShoulderPadsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ArmorRightShoulderPadsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ArmorRightShoulderPadsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorRightShoulderPadsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorThemesOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorThemesOwnableCount
+  id: ArmorThemesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: ArmorThemesOwnableCount
+  nameWithType: InventoryDefinition.ArmorThemesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorThemesOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ArmorThemesOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ArmorThemesOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorThemesOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorVisorsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorVisorsOwnableCount
+  id: ArmorVisorsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: ArmorVisorsOwnableCount
+  nameWithType: InventoryDefinition.ArmorVisorsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorVisorsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ArmorVisorsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ArmorVisorsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorVisorsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorWristAttachmentsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorWristAttachmentsOwnableCount
+  id: ArmorWristAttachmentsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: ArmorWristAttachmentsOwnableCount
+  nameWithType: InventoryDefinition.ArmorWristAttachmentsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorWristAttachmentsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ArmorWristAttachmentsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ArmorWristAttachmentsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorWristAttachmentsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Consumables
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Consumables
+  id: Consumables
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: Consumables
+  nameWithType: InventoryDefinition.Consumables
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Consumables
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem> Consumables { get; set; }
+    return:
+      type: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem> Consumables { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Consumables*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Cores
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Cores
+  id: Cores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: Cores
+  nameWithType: InventoryDefinition.Cores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Cores
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem> Cores { get; set; }
+    return:
+      type: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem> Cores { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Cores*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.EmblemCoatings
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.EmblemCoatings
+  id: EmblemCoatings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: EmblemCoatings
+  nameWithType: InventoryDefinition.EmblemCoatings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.EmblemCoatings
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem> EmblemCoatings { get; set; }
+    return:
+      type: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem> EmblemCoatings { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.EmblemCoatings*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Items
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Items
+  id: Items
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: Items
+  nameWithType: InventoryDefinition.Items
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Items
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem[] Items { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem[] Items { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Items*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanActionPosesOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanActionPosesOwnableCount
+  id: SpartanActionPosesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: SpartanActionPosesOwnableCount
+  nameWithType: InventoryDefinition.SpartanActionPosesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanActionPosesOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int SpartanActionPosesOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int SpartanActionPosesOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanActionPosesOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanBackdropImagesOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanBackdropImagesOwnableCount
+  id: SpartanBackdropImagesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: SpartanBackdropImagesOwnableCount
+  nameWithType: InventoryDefinition.SpartanBackdropImagesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanBackdropImagesOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int SpartanBackdropImagesOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int SpartanBackdropImagesOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanBackdropImagesOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanEmblemsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanEmblemsOwnableCount
+  id: SpartanEmblemsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: SpartanEmblemsOwnableCount
+  nameWithType: InventoryDefinition.SpartanEmblemsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanEmblemsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int SpartanEmblemsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int SpartanEmblemsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanEmblemsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanStancesOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanStancesOwnableCount
+  id: SpartanStancesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: SpartanStancesOwnableCount
+  nameWithType: InventoryDefinition.SpartanStancesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanStancesOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int SpartanStancesOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int SpartanStancesOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanStancesOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanVoicesOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanVoicesOwnableCount
+  id: SpartanVoicesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: SpartanVoicesOwnableCount
+  nameWithType: InventoryDefinition.SpartanVoicesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanVoicesOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int SpartanVoicesOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int SpartanVoicesOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanVoicesOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleAlternateGeometryRegionsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleAlternateGeometryRegionsOwnableCount
+  id: VehicleAlternateGeometryRegionsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: VehicleAlternateGeometryRegionsOwnableCount
+  nameWithType: InventoryDefinition.VehicleAlternateGeometryRegionsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleAlternateGeometryRegionsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int VehicleAlternateGeometryRegionsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int VehicleAlternateGeometryRegionsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleAlternateGeometryRegionsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCharmsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCharmsOwnableCount
+  id: VehicleCharmsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: VehicleCharmsOwnableCount
+  nameWithType: InventoryDefinition.VehicleCharmsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCharmsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int VehicleCharmsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int VehicleCharmsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCharmsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoatingsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoatingsOwnableCount
+  id: VehicleCoatingsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: VehicleCoatingsOwnableCount
+  nameWithType: InventoryDefinition.VehicleCoatingsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoatingsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int VehicleCoatingsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int VehicleCoatingsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoatingsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoresOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoresOwnableCount
+  id: VehicleCoresOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: VehicleCoresOwnableCount
+  nameWithType: InventoryDefinition.VehicleCoresOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoresOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int VehicleCoresOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int VehicleCoresOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoresOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleEmblemsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleEmblemsOwnableCount
+  id: VehicleEmblemsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: VehicleEmblemsOwnableCount
+  nameWithType: InventoryDefinition.VehicleEmblemsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleEmblemsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int VehicleEmblemsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int VehicleEmblemsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleEmblemsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleFxsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleFxsOwnableCount
+  id: VehicleFxsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: VehicleFxsOwnableCount
+  nameWithType: InventoryDefinition.VehicleFxsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleFxsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int VehicleFxsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int VehicleFxsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleFxsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleHornsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleHornsOwnableCount
+  id: VehicleHornsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: VehicleHornsOwnableCount
+  nameWithType: InventoryDefinition.VehicleHornsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleHornsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int VehicleHornsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int VehicleHornsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleHornsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleThemesOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleThemesOwnableCount
+  id: VehicleThemesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: VehicleThemesOwnableCount
+  nameWithType: InventoryDefinition.VehicleThemesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleThemesOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int VehicleThemesOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int VehicleThemesOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleThemesOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAlternateGeometryRegionsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAlternateGeometryRegionsOwnableCount
+  id: WeaponAlternateGeometryRegionsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: WeaponAlternateGeometryRegionsOwnableCount
+  nameWithType: InventoryDefinition.WeaponAlternateGeometryRegionsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAlternateGeometryRegionsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int WeaponAlternateGeometryRegionsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int WeaponAlternateGeometryRegionsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAlternateGeometryRegionsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAmmoCounterColorsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAmmoCounterColorsOwnableCount
+  id: WeaponAmmoCounterColorsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: WeaponAmmoCounterColorsOwnableCount
+  nameWithType: InventoryDefinition.WeaponAmmoCounterColorsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAmmoCounterColorsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int WeaponAmmoCounterColorsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int WeaponAmmoCounterColorsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAmmoCounterColorsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCharmsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCharmsOwnableCount
+  id: WeaponCharmsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: WeaponCharmsOwnableCount
+  nameWithType: InventoryDefinition.WeaponCharmsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCharmsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int WeaponCharmsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int WeaponCharmsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCharmsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoatingsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoatingsOwnableCount
+  id: WeaponCoatingsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: WeaponCoatingsOwnableCount
+  nameWithType: InventoryDefinition.WeaponCoatingsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoatingsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int WeaponCoatingsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int WeaponCoatingsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoatingsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoresOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoresOwnableCount
+  id: WeaponCoresOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: WeaponCoresOwnableCount
+  nameWithType: InventoryDefinition.WeaponCoresOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoresOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int WeaponCoresOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int WeaponCoresOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoresOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponDeathFxsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponDeathFxsOwnableCount
+  id: WeaponDeathFxsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: WeaponDeathFxsOwnableCount
+  nameWithType: InventoryDefinition.WeaponDeathFxsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponDeathFxsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int WeaponDeathFxsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int WeaponDeathFxsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponDeathFxsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponEmblemsOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponEmblemsOwnableCount
+  id: WeaponEmblemsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: WeaponEmblemsOwnableCount
+  nameWithType: InventoryDefinition.WeaponEmblemsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponEmblemsOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int WeaponEmblemsOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int WeaponEmblemsOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponEmblemsOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponStatTrackersOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponStatTrackersOwnableCount
+  id: WeaponStatTrackersOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: WeaponStatTrackersOwnableCount
+  nameWithType: InventoryDefinition.WeaponStatTrackersOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponStatTrackersOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int WeaponStatTrackersOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int WeaponStatTrackersOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponStatTrackersOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponThemesOwnableCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponThemesOwnableCount
+  id: WeaponThemesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  langs:
+  - csharp
+  name: WeaponThemesOwnableCount
+  nameWithType: InventoryDefinition.WeaponThemesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponThemesOwnableCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int WeaponThemesOwnableCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int WeaponThemesOwnableCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponThemesOwnableCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: InventoryDefinition()
+  nameWithType: InventoryDefinition.InventoryDefinition()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.InventoryDefinition()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiColorsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: AiColorsOwnableCount
+  nameWithType: InventoryDefinition.AiColorsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiColorsOwnableCount
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiCoresOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: AiCoresOwnableCount
+  nameWithType: InventoryDefinition.AiCoresOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiCoresOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiModelsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: AiModelsOwnableCount
+  nameWithType: InventoryDefinition.AiModelsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiModelsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiThemesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: AiThemesOwnableCount
+  nameWithType: InventoryDefinition.AiThemesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiThemesOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorChestAttachmentsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorChestAttachmentsOwnableCount
+  nameWithType: InventoryDefinition.ArmorChestAttachmentsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorChestAttachmentsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoatingsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorCoatingsOwnableCount
+  nameWithType: InventoryDefinition.ArmorCoatingsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoatingsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoresOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorCoresOwnableCount
+  nameWithType: InventoryDefinition.ArmorCoresOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoresOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorEmblemsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorEmblemsOwnableCount
+  nameWithType: InventoryDefinition.ArmorEmblemsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorEmblemsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorFxsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorFxsOwnableCount
+  nameWithType: InventoryDefinition.ArmorFxsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorFxsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorGlovesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorGlovesOwnableCount
+  nameWithType: InventoryDefinition.ArmorGlovesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorGlovesOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetAttachmentsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorHelmetAttachmentsOwnableCount
+  nameWithType: InventoryDefinition.ArmorHelmetAttachmentsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetAttachmentsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorHelmetsOwnableCount
+  nameWithType: InventoryDefinition.ArmorHelmetsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHipAttachmentsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorHipAttachmentsOwnableCount
+  nameWithType: InventoryDefinition.ArmorHipAttachmentsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHipAttachmentsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorKneePadsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorKneePadsOwnableCount
+  nameWithType: InventoryDefinition.ArmorKneePadsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorKneePadsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorLeftShoulderPadsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorLeftShoulderPadsOwnableCount
+  nameWithType: InventoryDefinition.ArmorLeftShoulderPadsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorLeftShoulderPadsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorMythicFxsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorMythicFxsOwnableCount
+  nameWithType: InventoryDefinition.ArmorMythicFxsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorMythicFxsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorRightShoulderPadsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorRightShoulderPadsOwnableCount
+  nameWithType: InventoryDefinition.ArmorRightShoulderPadsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorRightShoulderPadsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorThemesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorThemesOwnableCount
+  nameWithType: InventoryDefinition.ArmorThemesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorThemesOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorVisorsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorVisorsOwnableCount
+  nameWithType: InventoryDefinition.ArmorVisorsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorVisorsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorWristAttachmentsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorWristAttachmentsOwnableCount
+  nameWithType: InventoryDefinition.ArmorWristAttachmentsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorWristAttachmentsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Consumables
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: Consumables
+  nameWithType: InventoryDefinition.Consumables
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Consumables
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem
+  name: PlayerItem
+  nameWithType: PlayerItem
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem
+- uid: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem}
+  parent: System.Collections.Generic
+  name: List<PlayerItem>
+  nameWithType: List<PlayerItem>
+  fullName: System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem
+    name: PlayerItem
+    nameWithType: PlayerItem
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Cores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: Cores
+  nameWithType: InventoryDefinition.Cores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Cores
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.EmblemCoatings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: EmblemCoatings
+  nameWithType: InventoryDefinition.EmblemCoatings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.EmblemCoatings
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Items
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: Items
+  nameWithType: InventoryDefinition.Items
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Items
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: PlayerItem[]
+  nameWithType: PlayerItem[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem
+    name: PlayerItem
+    nameWithType: PlayerItem
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanActionPosesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: SpartanActionPosesOwnableCount
+  nameWithType: InventoryDefinition.SpartanActionPosesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanActionPosesOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanBackdropImagesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: SpartanBackdropImagesOwnableCount
+  nameWithType: InventoryDefinition.SpartanBackdropImagesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanBackdropImagesOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanEmblemsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: SpartanEmblemsOwnableCount
+  nameWithType: InventoryDefinition.SpartanEmblemsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanEmblemsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanStancesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: SpartanStancesOwnableCount
+  nameWithType: InventoryDefinition.SpartanStancesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanStancesOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanVoicesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: SpartanVoicesOwnableCount
+  nameWithType: InventoryDefinition.SpartanVoicesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanVoicesOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleAlternateGeometryRegionsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: VehicleAlternateGeometryRegionsOwnableCount
+  nameWithType: InventoryDefinition.VehicleAlternateGeometryRegionsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleAlternateGeometryRegionsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCharmsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: VehicleCharmsOwnableCount
+  nameWithType: InventoryDefinition.VehicleCharmsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCharmsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoatingsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: VehicleCoatingsOwnableCount
+  nameWithType: InventoryDefinition.VehicleCoatingsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoatingsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoresOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: VehicleCoresOwnableCount
+  nameWithType: InventoryDefinition.VehicleCoresOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoresOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleEmblemsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: VehicleEmblemsOwnableCount
+  nameWithType: InventoryDefinition.VehicleEmblemsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleEmblemsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleFxsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: VehicleFxsOwnableCount
+  nameWithType: InventoryDefinition.VehicleFxsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleFxsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleHornsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: VehicleHornsOwnableCount
+  nameWithType: InventoryDefinition.VehicleHornsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleHornsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleThemesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: VehicleThemesOwnableCount
+  nameWithType: InventoryDefinition.VehicleThemesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleThemesOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAlternateGeometryRegionsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponAlternateGeometryRegionsOwnableCount
+  nameWithType: InventoryDefinition.WeaponAlternateGeometryRegionsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAlternateGeometryRegionsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAmmoCounterColorsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponAmmoCounterColorsOwnableCount
+  nameWithType: InventoryDefinition.WeaponAmmoCounterColorsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAmmoCounterColorsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCharmsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponCharmsOwnableCount
+  nameWithType: InventoryDefinition.WeaponCharmsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCharmsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoatingsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponCoatingsOwnableCount
+  nameWithType: InventoryDefinition.WeaponCoatingsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoatingsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoresOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponCoresOwnableCount
+  nameWithType: InventoryDefinition.WeaponCoresOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoresOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponDeathFxsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponDeathFxsOwnableCount
+  nameWithType: InventoryDefinition.WeaponDeathFxsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponDeathFxsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponEmblemsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponEmblemsOwnableCount
+  nameWithType: InventoryDefinition.WeaponEmblemsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponEmblemsOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponStatTrackersOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponStatTrackersOwnableCount
+  nameWithType: InventoryDefinition.WeaponStatTrackersOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponStatTrackersOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponThemesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponThemesOwnableCount
+  nameWithType: InventoryDefinition.WeaponThemesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponThemesOwnableCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: InventoryDefinition
+  nameWithType: InventoryDefinition.InventoryDefinition
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.InventoryDefinition
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiColorsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiColorsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: AiColorsOwnableCount
+  nameWithType: InventoryDefinition.AiColorsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiColorsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiCoresOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiCoresOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: AiCoresOwnableCount
+  nameWithType: InventoryDefinition.AiCoresOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiCoresOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiModelsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiModelsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: AiModelsOwnableCount
+  nameWithType: InventoryDefinition.AiModelsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiModelsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiThemesOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiThemesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: AiThemesOwnableCount
+  nameWithType: InventoryDefinition.AiThemesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.AiThemesOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorChestAttachmentsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorChestAttachmentsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorChestAttachmentsOwnableCount
+  nameWithType: InventoryDefinition.ArmorChestAttachmentsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorChestAttachmentsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoatingsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoatingsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorCoatingsOwnableCount
+  nameWithType: InventoryDefinition.ArmorCoatingsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoatingsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoresOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoresOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorCoresOwnableCount
+  nameWithType: InventoryDefinition.ArmorCoresOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorCoresOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorEmblemsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorEmblemsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorEmblemsOwnableCount
+  nameWithType: InventoryDefinition.ArmorEmblemsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorEmblemsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorFxsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorFxsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorFxsOwnableCount
+  nameWithType: InventoryDefinition.ArmorFxsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorFxsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorGlovesOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorGlovesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorGlovesOwnableCount
+  nameWithType: InventoryDefinition.ArmorGlovesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorGlovesOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetAttachmentsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetAttachmentsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorHelmetAttachmentsOwnableCount
+  nameWithType: InventoryDefinition.ArmorHelmetAttachmentsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetAttachmentsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorHelmetsOwnableCount
+  nameWithType: InventoryDefinition.ArmorHelmetsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHelmetsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHipAttachmentsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHipAttachmentsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorHipAttachmentsOwnableCount
+  nameWithType: InventoryDefinition.ArmorHipAttachmentsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorHipAttachmentsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorKneePadsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorKneePadsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorKneePadsOwnableCount
+  nameWithType: InventoryDefinition.ArmorKneePadsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorKneePadsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorLeftShoulderPadsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorLeftShoulderPadsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorLeftShoulderPadsOwnableCount
+  nameWithType: InventoryDefinition.ArmorLeftShoulderPadsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorLeftShoulderPadsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorMythicFxsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorMythicFxsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorMythicFxsOwnableCount
+  nameWithType: InventoryDefinition.ArmorMythicFxsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorMythicFxsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorRightShoulderPadsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorRightShoulderPadsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorRightShoulderPadsOwnableCount
+  nameWithType: InventoryDefinition.ArmorRightShoulderPadsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorRightShoulderPadsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorThemesOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorThemesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorThemesOwnableCount
+  nameWithType: InventoryDefinition.ArmorThemesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorThemesOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorVisorsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorVisorsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorVisorsOwnableCount
+  nameWithType: InventoryDefinition.ArmorVisorsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorVisorsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorWristAttachmentsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorWristAttachmentsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: ArmorWristAttachmentsOwnableCount
+  nameWithType: InventoryDefinition.ArmorWristAttachmentsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.ArmorWristAttachmentsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Consumables*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Consumables
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: Consumables
+  nameWithType: InventoryDefinition.Consumables
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Consumables
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Cores*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Cores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: Cores
+  nameWithType: InventoryDefinition.Cores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Cores
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.EmblemCoatings*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.EmblemCoatings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: EmblemCoatings
+  nameWithType: InventoryDefinition.EmblemCoatings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.EmblemCoatings
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Items*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Items
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: Items
+  nameWithType: InventoryDefinition.Items
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.Items
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanActionPosesOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanActionPosesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: SpartanActionPosesOwnableCount
+  nameWithType: InventoryDefinition.SpartanActionPosesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanActionPosesOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanBackdropImagesOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanBackdropImagesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: SpartanBackdropImagesOwnableCount
+  nameWithType: InventoryDefinition.SpartanBackdropImagesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanBackdropImagesOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanEmblemsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanEmblemsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: SpartanEmblemsOwnableCount
+  nameWithType: InventoryDefinition.SpartanEmblemsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanEmblemsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanStancesOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanStancesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: SpartanStancesOwnableCount
+  nameWithType: InventoryDefinition.SpartanStancesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanStancesOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanVoicesOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanVoicesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: SpartanVoicesOwnableCount
+  nameWithType: InventoryDefinition.SpartanVoicesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.SpartanVoicesOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleAlternateGeometryRegionsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleAlternateGeometryRegionsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: VehicleAlternateGeometryRegionsOwnableCount
+  nameWithType: InventoryDefinition.VehicleAlternateGeometryRegionsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleAlternateGeometryRegionsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCharmsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCharmsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: VehicleCharmsOwnableCount
+  nameWithType: InventoryDefinition.VehicleCharmsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCharmsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoatingsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoatingsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: VehicleCoatingsOwnableCount
+  nameWithType: InventoryDefinition.VehicleCoatingsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoatingsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoresOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoresOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: VehicleCoresOwnableCount
+  nameWithType: InventoryDefinition.VehicleCoresOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleCoresOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleEmblemsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleEmblemsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: VehicleEmblemsOwnableCount
+  nameWithType: InventoryDefinition.VehicleEmblemsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleEmblemsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleFxsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleFxsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: VehicleFxsOwnableCount
+  nameWithType: InventoryDefinition.VehicleFxsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleFxsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleHornsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleHornsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: VehicleHornsOwnableCount
+  nameWithType: InventoryDefinition.VehicleHornsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleHornsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleThemesOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleThemesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: VehicleThemesOwnableCount
+  nameWithType: InventoryDefinition.VehicleThemesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.VehicleThemesOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAlternateGeometryRegionsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAlternateGeometryRegionsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponAlternateGeometryRegionsOwnableCount
+  nameWithType: InventoryDefinition.WeaponAlternateGeometryRegionsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAlternateGeometryRegionsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAmmoCounterColorsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAmmoCounterColorsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponAmmoCounterColorsOwnableCount
+  nameWithType: InventoryDefinition.WeaponAmmoCounterColorsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponAmmoCounterColorsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCharmsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCharmsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponCharmsOwnableCount
+  nameWithType: InventoryDefinition.WeaponCharmsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCharmsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoatingsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoatingsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponCoatingsOwnableCount
+  nameWithType: InventoryDefinition.WeaponCoatingsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoatingsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoresOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoresOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponCoresOwnableCount
+  nameWithType: InventoryDefinition.WeaponCoresOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponCoresOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponDeathFxsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponDeathFxsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponDeathFxsOwnableCount
+  nameWithType: InventoryDefinition.WeaponDeathFxsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponDeathFxsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponEmblemsOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponEmblemsOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponEmblemsOwnableCount
+  nameWithType: InventoryDefinition.WeaponEmblemsOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponEmblemsOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponStatTrackersOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponStatTrackersOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponStatTrackersOwnableCount
+  nameWithType: InventoryDefinition.WeaponStatTrackersOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponStatTrackersOwnableCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponThemesOwnableCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponThemesOwnableCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
+  isExternal: false
+  name: WeaponThemesOwnableCount
+  nameWithType: InventoryDefinition.WeaponThemesOwnableCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition.WeaponThemesOwnableCount
+  monikers:
+  - net6.0
+  type: property

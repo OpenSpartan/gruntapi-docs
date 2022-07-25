@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.XboxTicketRequest
+  commentId: T:OpenSpartan.Grunt.Models.XboxTicketRequest
+  id: XboxTicketRequest
+  children:
+  - OpenSpartan.Grunt.Models.XboxTicketRequest.#ctor
+  - OpenSpartan.Grunt.Models.XboxTicketRequest.Properties
+  - OpenSpartan.Grunt.Models.XboxTicketRequest.RelyingParty
+  - OpenSpartan.Grunt.Models.XboxTicketRequest.TokenType
+  langs:
+  - csharp
+  name: XboxTicketRequest
+  nameWithType: OpenSpartan.Grunt.Models.XboxTicketRequest
+  fullName: OpenSpartan.Grunt.Models.XboxTicketRequest
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public class XboxTicketRequest
+    content.csharp: public class XboxTicketRequest
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.XboxTicketRequest.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.XboxTicketRequest.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.XboxTicketRequest
+  langs:
+  - csharp
+  name: XboxTicketRequest()
+  nameWithType: XboxTicketRequest.XboxTicketRequest()
+  fullName: OpenSpartan.Grunt.Models.XboxTicketRequest.XboxTicketRequest()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public XboxTicketRequest ();
+    parameters: []
+    content.csharp: public XboxTicketRequest ();
+  overload: OpenSpartan.Grunt.Models.XboxTicketRequest.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.XboxTicketRequest.Properties
+  commentId: P:OpenSpartan.Grunt.Models.XboxTicketRequest.Properties
+  id: Properties
+  parent: OpenSpartan.Grunt.Models.XboxTicketRequest
+  langs:
+  - csharp
+  name: Properties
+  nameWithType: XboxTicketRequest.Properties
+  fullName: OpenSpartan.Grunt.Models.XboxTicketRequest.Properties
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public OpenSpartan.Grunt.Models.XboxTicketProperties Properties { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.XboxTicketProperties
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.XboxTicketProperties Properties { get; set; }
+  overload: OpenSpartan.Grunt.Models.XboxTicketRequest.Properties*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.XboxTicketRequest.RelyingParty
+  commentId: P:OpenSpartan.Grunt.Models.XboxTicketRequest.RelyingParty
+  id: RelyingParty
+  parent: OpenSpartan.Grunt.Models.XboxTicketRequest
+  langs:
+  - csharp
+  name: RelyingParty
+  nameWithType: XboxTicketRequest.RelyingParty
+  fullName: OpenSpartan.Grunt.Models.XboxTicketRequest.RelyingParty
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public string RelyingParty { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string RelyingParty { get; set; }
+  overload: OpenSpartan.Grunt.Models.XboxTicketRequest.RelyingParty*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.XboxTicketRequest.TokenType
+  commentId: P:OpenSpartan.Grunt.Models.XboxTicketRequest.TokenType
+  id: TokenType
+  parent: OpenSpartan.Grunt.Models.XboxTicketRequest
+  langs:
+  - csharp
+  name: TokenType
+  nameWithType: XboxTicketRequest.TokenType
+  fullName: OpenSpartan.Grunt.Models.XboxTicketRequest.TokenType
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models
+  syntax:
+    content: public string TokenType { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string TokenType { get; set; }
+  overload: OpenSpartan.Grunt.Models.XboxTicketRequest.TokenType*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models
+  commentId: N:OpenSpartan.Grunt.Models
+  isExternal: false
+  name: OpenSpartan.Grunt.Models
+  nameWithType: OpenSpartan.Grunt.Models
+  fullName: OpenSpartan.Grunt.Models
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.XboxTicketRequest.#ctor
+  parent: OpenSpartan.Grunt.Models.XboxTicketRequest
+  isExternal: false
+  name: XboxTicketRequest()
+  nameWithType: XboxTicketRequest.XboxTicketRequest()
+  fullName: OpenSpartan.Grunt.Models.XboxTicketRequest.XboxTicketRequest()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.XboxTicketRequest.Properties
+  parent: OpenSpartan.Grunt.Models.XboxTicketRequest
+  isExternal: false
+  name: Properties
+  nameWithType: XboxTicketRequest.Properties
+  fullName: OpenSpartan.Grunt.Models.XboxTicketRequest.Properties
+  type: property
+- uid: OpenSpartan.Grunt.Models.XboxTicketProperties
+  parent: OpenSpartan.Grunt.Models
+  isExternal: false
+  name: XboxTicketProperties
+  nameWithType: XboxTicketProperties
+  fullName: OpenSpartan.Grunt.Models.XboxTicketProperties
+- uid: OpenSpartan.Grunt.Models.XboxTicketRequest.RelyingParty
+  parent: OpenSpartan.Grunt.Models.XboxTicketRequest
+  isExternal: false
+  name: RelyingParty
+  nameWithType: XboxTicketRequest.RelyingParty
+  fullName: OpenSpartan.Grunt.Models.XboxTicketRequest.RelyingParty
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.XboxTicketRequest.TokenType
+  parent: OpenSpartan.Grunt.Models.XboxTicketRequest
+  isExternal: false
+  name: TokenType
+  nameWithType: XboxTicketRequest.TokenType
+  fullName: OpenSpartan.Grunt.Models.XboxTicketRequest.TokenType
+  type: property
+- uid: OpenSpartan.Grunt.Models.XboxTicketRequest.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.XboxTicketRequest.#ctor
+  parent: OpenSpartan.Grunt.Models.XboxTicketRequest
+  isExternal: false
+  name: XboxTicketRequest
+  nameWithType: XboxTicketRequest.XboxTicketRequest
+  fullName: OpenSpartan.Grunt.Models.XboxTicketRequest.XboxTicketRequest
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.XboxTicketRequest.Properties*
+  commentId: Overload:OpenSpartan.Grunt.Models.XboxTicketRequest.Properties
+  parent: OpenSpartan.Grunt.Models.XboxTicketRequest
+  isExternal: false
+  name: Properties
+  nameWithType: XboxTicketRequest.Properties
+  fullName: OpenSpartan.Grunt.Models.XboxTicketRequest.Properties
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.XboxTicketRequest.RelyingParty*
+  commentId: Overload:OpenSpartan.Grunt.Models.XboxTicketRequest.RelyingParty
+  parent: OpenSpartan.Grunt.Models.XboxTicketRequest
+  isExternal: false
+  name: RelyingParty
+  nameWithType: XboxTicketRequest.RelyingParty
+  fullName: OpenSpartan.Grunt.Models.XboxTicketRequest.RelyingParty
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.XboxTicketRequest.TokenType*
+  commentId: Overload:OpenSpartan.Grunt.Models.XboxTicketRequest.TokenType
+  parent: OpenSpartan.Grunt.Models.XboxTicketRequest
+  isExternal: false
+  name: TokenType
+  nameWithType: XboxTicketRequest.TokenType
+  fullName: OpenSpartan.Grunt.Models.XboxTicketRequest.TokenType
+  monikers:
+  - net6.0
+  type: property

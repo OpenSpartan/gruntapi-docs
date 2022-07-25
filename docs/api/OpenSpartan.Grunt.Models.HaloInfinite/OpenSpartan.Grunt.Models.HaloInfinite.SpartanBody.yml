@@ -1,0 +1,425 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  id: SpartanBody
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.BodyType
+  - OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LastModifiedDateUtc
+  - OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftArm
+  - OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftLeg
+  - OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightArm
+  - OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightLeg
+  - OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.Voice
+  langs:
+  - csharp
+  name: SpartanBody
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class SpartanBody
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class SpartanBody
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  langs:
+  - csharp
+  name: SpartanBody()
+  nameWithType: SpartanBody.SpartanBody()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.SpartanBody()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public SpartanBody ();
+    parameters: []
+    content.csharp: public SpartanBody ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.BodyType
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.BodyType
+  id: BodyType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  langs:
+  - csharp
+  name: BodyType
+  nameWithType: SpartanBody.BodyType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.BodyType
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string BodyType { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string BodyType { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.BodyType*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LastModifiedDateUtc
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LastModifiedDateUtc
+  id: LastModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  langs:
+  - csharp
+  name: LastModifiedDateUtc
+  nameWithType: SpartanBody.LastModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LastModifiedDateUtc
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.APIFormattedDate? LastModifiedDateUtc { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.APIFormattedDate? LastModifiedDateUtc { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LastModifiedDateUtc*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftArm
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftArm
+  id: LeftArm
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  langs:
+  - csharp
+  name: LeftArm
+  nameWithType: SpartanBody.LeftArm
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftArm
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string LeftArm { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string LeftArm { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftArm*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftLeg
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftLeg
+  id: LeftLeg
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  langs:
+  - csharp
+  name: LeftLeg
+  nameWithType: SpartanBody.LeftLeg
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftLeg
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string LeftLeg { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string LeftLeg { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftLeg*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightArm
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightArm
+  id: RightArm
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  langs:
+  - csharp
+  name: RightArm
+  nameWithType: SpartanBody.RightArm
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightArm
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string RightArm { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string RightArm { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightArm*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightLeg
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightLeg
+  id: RightLeg
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  langs:
+  - csharp
+  name: RightLeg
+  nameWithType: SpartanBody.RightLeg
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightLeg
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string RightLeg { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string RightLeg { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightLeg*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.Voice
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.Voice
+  id: Voice
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  langs:
+  - csharp
+  name: Voice
+  nameWithType: SpartanBody.Voice
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.Voice
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Voice { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Voice { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.Voice*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  isExternal: false
+  name: SpartanBody()
+  nameWithType: SpartanBody.SpartanBody()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.SpartanBody()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.BodyType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  isExternal: false
+  name: BodyType
+  nameWithType: SpartanBody.BodyType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.BodyType
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LastModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: SpartanBody.LastModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LastModifiedDateUtc
+  type: property
+- uid: OpenSpartan.Grunt.Models.APIFormattedDate
+  parent: OpenSpartan.Grunt.Models
+  isExternal: false
+  name: APIFormattedDate
+  nameWithType: APIFormattedDate
+  fullName: OpenSpartan.Grunt.Models.APIFormattedDate
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftArm
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  isExternal: false
+  name: LeftArm
+  nameWithType: SpartanBody.LeftArm
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftArm
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftLeg
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  isExternal: false
+  name: LeftLeg
+  nameWithType: SpartanBody.LeftLeg
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftLeg
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightArm
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  isExternal: false
+  name: RightArm
+  nameWithType: SpartanBody.RightArm
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightArm
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightLeg
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  isExternal: false
+  name: RightLeg
+  nameWithType: SpartanBody.RightLeg
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightLeg
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.Voice
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  isExternal: false
+  name: Voice
+  nameWithType: SpartanBody.Voice
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.Voice
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  isExternal: false
+  name: SpartanBody
+  nameWithType: SpartanBody.SpartanBody
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.SpartanBody
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.BodyType*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.BodyType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  isExternal: false
+  name: BodyType
+  nameWithType: SpartanBody.BodyType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.BodyType
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LastModifiedDateUtc*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LastModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: SpartanBody.LastModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LastModifiedDateUtc
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftArm*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftArm
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  isExternal: false
+  name: LeftArm
+  nameWithType: SpartanBody.LeftArm
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftArm
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftLeg*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftLeg
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  isExternal: false
+  name: LeftLeg
+  nameWithType: SpartanBody.LeftLeg
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.LeftLeg
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightArm*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightArm
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  isExternal: false
+  name: RightArm
+  nameWithType: SpartanBody.RightArm
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightArm
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightLeg*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightLeg
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  isExternal: false
+  name: RightLeg
+  nameWithType: SpartanBody.RightLeg
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.RightLeg
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.Voice*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.Voice
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  isExternal: false
+  name: Voice
+  nameWithType: SpartanBody.Voice
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody.Voice
+  monikers:
+  - net6.0
+  type: property

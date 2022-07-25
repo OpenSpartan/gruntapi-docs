@@ -1,0 +1,521 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  id: CustomGameDefinition
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultGameVariant
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMap
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMaxFireteamSizeSliderValue
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultObserversAllowed
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayerCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersInMediumVmInstance
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersPerClient
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxTeamCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.RulesId
+  langs:
+  - csharp
+  name: CustomGameDefinition
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CustomGameDefinition
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CustomGameDefinition
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  langs:
+  - csharp
+  name: CustomGameDefinition()
+  nameWithType: CustomGameDefinition.CustomGameDefinition()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.CustomGameDefinition()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public CustomGameDefinition ();
+    parameters: []
+    content.csharp: public CustomGameDefinition ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultGameVariant
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultGameVariant
+  id: DefaultGameVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  langs:
+  - csharp
+  name: DefaultGameVariant
+  nameWithType: CustomGameDefinition.DefaultGameVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultGameVariant
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.GameVariant DefaultGameVariant { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariant
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.GameVariant DefaultGameVariant { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultGameVariant*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMap
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMap
+  id: DefaultMap
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  langs:
+  - csharp
+  name: DefaultMap
+  nameWithType: CustomGameDefinition.DefaultMap
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMap
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.GameVariant DefaultMap { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariant
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.GameVariant DefaultMap { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMap*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMaxFireteamSizeSliderValue
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMaxFireteamSizeSliderValue
+  id: DefaultMaxFireteamSizeSliderValue
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  langs:
+  - csharp
+  name: DefaultMaxFireteamSizeSliderValue
+  nameWithType: CustomGameDefinition.DefaultMaxFireteamSizeSliderValue
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMaxFireteamSizeSliderValue
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int DefaultMaxFireteamSizeSliderValue { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int DefaultMaxFireteamSizeSliderValue { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMaxFireteamSizeSliderValue*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultObserversAllowed
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultObserversAllowed
+  id: DefaultObserversAllowed
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  langs:
+  - csharp
+  name: DefaultObserversAllowed
+  nameWithType: CustomGameDefinition.DefaultObserversAllowed
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultObserversAllowed
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool DefaultObserversAllowed { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool DefaultObserversAllowed { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultObserversAllowed*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayerCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayerCount
+  id: MaxPlayerCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  langs:
+  - csharp
+  name: MaxPlayerCount
+  nameWithType: CustomGameDefinition.MaxPlayerCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayerCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int MaxPlayerCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int MaxPlayerCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayerCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersInMediumVmInstance
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersInMediumVmInstance
+  id: MaxPlayersInMediumVmInstance
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  langs:
+  - csharp
+  name: MaxPlayersInMediumVmInstance
+  nameWithType: CustomGameDefinition.MaxPlayersInMediumVmInstance
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersInMediumVmInstance
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int MaxPlayersInMediumVmInstance { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int MaxPlayersInMediumVmInstance { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersInMediumVmInstance*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersPerClient
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersPerClient
+  id: MaxPlayersPerClient
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  langs:
+  - csharp
+  name: MaxPlayersPerClient
+  nameWithType: CustomGameDefinition.MaxPlayersPerClient
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersPerClient
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int MaxPlayersPerClient { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int MaxPlayersPerClient { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersPerClient*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxTeamCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxTeamCount
+  id: MaxTeamCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  langs:
+  - csharp
+  name: MaxTeamCount
+  nameWithType: CustomGameDefinition.MaxTeamCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxTeamCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int MaxTeamCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int MaxTeamCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxTeamCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.RulesId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.RulesId
+  id: RulesId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  langs:
+  - csharp
+  name: RulesId
+  nameWithType: CustomGameDefinition.RulesId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.RulesId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string RulesId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string RulesId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.RulesId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: CustomGameDefinition()
+  nameWithType: CustomGameDefinition.CustomGameDefinition()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.CustomGameDefinition()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultGameVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: DefaultGameVariant
+  nameWithType: CustomGameDefinition.DefaultGameVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultGameVariant
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: GameVariant
+  nameWithType: GameVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariant
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMap
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: DefaultMap
+  nameWithType: CustomGameDefinition.DefaultMap
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMap
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMaxFireteamSizeSliderValue
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: DefaultMaxFireteamSizeSliderValue
+  nameWithType: CustomGameDefinition.DefaultMaxFireteamSizeSliderValue
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMaxFireteamSizeSliderValue
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultObserversAllowed
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: DefaultObserversAllowed
+  nameWithType: CustomGameDefinition.DefaultObserversAllowed
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultObserversAllowed
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayerCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: MaxPlayerCount
+  nameWithType: CustomGameDefinition.MaxPlayerCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayerCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersInMediumVmInstance
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: MaxPlayersInMediumVmInstance
+  nameWithType: CustomGameDefinition.MaxPlayersInMediumVmInstance
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersInMediumVmInstance
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersPerClient
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: MaxPlayersPerClient
+  nameWithType: CustomGameDefinition.MaxPlayersPerClient
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersPerClient
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxTeamCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: MaxTeamCount
+  nameWithType: CustomGameDefinition.MaxTeamCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxTeamCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.RulesId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: RulesId
+  nameWithType: CustomGameDefinition.RulesId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.RulesId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: CustomGameDefinition
+  nameWithType: CustomGameDefinition.CustomGameDefinition
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.CustomGameDefinition
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultGameVariant*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultGameVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: DefaultGameVariant
+  nameWithType: CustomGameDefinition.DefaultGameVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultGameVariant
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMap*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMap
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: DefaultMap
+  nameWithType: CustomGameDefinition.DefaultMap
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMap
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMaxFireteamSizeSliderValue*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMaxFireteamSizeSliderValue
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: DefaultMaxFireteamSizeSliderValue
+  nameWithType: CustomGameDefinition.DefaultMaxFireteamSizeSliderValue
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultMaxFireteamSizeSliderValue
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultObserversAllowed*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultObserversAllowed
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: DefaultObserversAllowed
+  nameWithType: CustomGameDefinition.DefaultObserversAllowed
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.DefaultObserversAllowed
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayerCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayerCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: MaxPlayerCount
+  nameWithType: CustomGameDefinition.MaxPlayerCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayerCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersInMediumVmInstance*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersInMediumVmInstance
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: MaxPlayersInMediumVmInstance
+  nameWithType: CustomGameDefinition.MaxPlayersInMediumVmInstance
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersInMediumVmInstance
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersPerClient*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersPerClient
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: MaxPlayersPerClient
+  nameWithType: CustomGameDefinition.MaxPlayersPerClient
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxPlayersPerClient
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxTeamCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxTeamCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: MaxTeamCount
+  nameWithType: CustomGameDefinition.MaxTeamCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.MaxTeamCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.RulesId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.RulesId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition
+  isExternal: false
+  name: RulesId
+  nameWithType: CustomGameDefinition.RulesId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomGameDefinition.RulesId
+  monikers:
+  - net6.0
+  type: property

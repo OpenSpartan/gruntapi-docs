@@ -1,0 +1,318 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  id: MatchStats
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchId
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchInfo
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Players
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Teams
+  langs:
+  - csharp
+  name: MatchStats
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class MatchStats
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class MatchStats
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  langs:
+  - csharp
+  name: MatchStats()
+  nameWithType: MatchStats.MatchStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchStats()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public MatchStats ();
+    parameters: []
+    content.csharp: public MatchStats ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchId
+  id: MatchId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  langs:
+  - csharp
+  name: MatchId
+  nameWithType: MatchStats.MatchId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string MatchId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string MatchId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchInfo
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchInfo
+  id: MatchInfo
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  langs:
+  - csharp
+  name: MatchInfo
+  nameWithType: MatchStats.MatchInfo
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchInfo
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo MatchInfo { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo MatchInfo { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchInfo*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Players
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Players
+  id: Players
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  langs:
+  - csharp
+  name: Players
+  nameWithType: MatchStats.Players
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Players
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Player[] Players { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Player[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Player[] Players { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Players*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Teams
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Teams
+  id: Teams
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  langs:
+  - csharp
+  name: Teams
+  nameWithType: MatchStats.Teams
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Teams
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Team[] Teams { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Team[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Team[] Teams { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Teams*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  isExternal: false
+  name: MatchStats()
+  nameWithType: MatchStats.MatchStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchStats()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  isExternal: false
+  name: MatchId
+  nameWithType: MatchStats.MatchId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchInfo
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  isExternal: false
+  name: MatchInfo
+  nameWithType: MatchStats.MatchInfo
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchInfo
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: MatchInfo
+  nameWithType: MatchInfo
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Players
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  isExternal: false
+  name: Players
+  nameWithType: MatchStats.Players
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Players
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Player
+  name: Player
+  nameWithType: Player
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Player
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Player[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: Player[]
+  nameWithType: Player[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Player[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Player
+    name: Player
+    nameWithType: Player
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.Player
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Teams
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  isExternal: false
+  name: Teams
+  nameWithType: MatchStats.Teams
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Teams
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Team
+  name: Team
+  nameWithType: Team
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Team
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Team[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: Team[]
+  nameWithType: Team[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Team[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Team
+    name: Team
+    nameWithType: Team
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.Team
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  isExternal: false
+  name: MatchStats
+  nameWithType: MatchStats.MatchStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchStats
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  isExternal: false
+  name: MatchId
+  nameWithType: MatchStats.MatchId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchInfo*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchInfo
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  isExternal: false
+  name: MatchInfo
+  nameWithType: MatchStats.MatchInfo
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.MatchInfo
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Players*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Players
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  isExternal: false
+  name: Players
+  nameWithType: MatchStats.Players
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Players
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Teams*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Teams
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  isExternal: false
+  name: Teams
+  nameWithType: MatchStats.Teams
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats.Teams
+  monikers:
+  - net6.0
+  type: property

@@ -1,0 +1,419 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  id: FireTeamDetails
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.Activity
+  - OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamId
+  - OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamLeaderMenuActivity
+  - OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.JoinabilityStatus
+  - OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.MaxPlayers
+  - OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlayerCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlaylistRef
+  langs:
+  - csharp
+  name: FireTeamDetails
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class FireTeamDetails
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class FireTeamDetails
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  langs:
+  - csharp
+  name: FireTeamDetails()
+  nameWithType: FireTeamDetails.FireTeamDetails()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireTeamDetails()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public FireTeamDetails ();
+    parameters: []
+    content.csharp: public FireTeamDetails ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.Activity
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.Activity
+  id: Activity
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  langs:
+  - csharp
+  name: Activity
+  nameWithType: FireTeamDetails.Activity
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.Activity
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Activity { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Activity { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.Activity*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamId
+  id: FireteamId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  langs:
+  - csharp
+  name: FireteamId
+  nameWithType: FireTeamDetails.FireteamId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string FireteamId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string FireteamId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamLeaderMenuActivity
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamLeaderMenuActivity
+  id: FireteamLeaderMenuActivity
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  langs:
+  - csharp
+  name: FireteamLeaderMenuActivity
+  nameWithType: FireTeamDetails.FireteamLeaderMenuActivity
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamLeaderMenuActivity
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int FireteamLeaderMenuActivity { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int FireteamLeaderMenuActivity { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamLeaderMenuActivity*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.JoinabilityStatus
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.JoinabilityStatus
+  id: JoinabilityStatus
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  langs:
+  - csharp
+  name: JoinabilityStatus
+  nameWithType: FireTeamDetails.JoinabilityStatus
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.JoinabilityStatus
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int JoinabilityStatus { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int JoinabilityStatus { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.JoinabilityStatus*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.MaxPlayers
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.MaxPlayers
+  id: MaxPlayers
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  langs:
+  - csharp
+  name: MaxPlayers
+  nameWithType: FireTeamDetails.MaxPlayers
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.MaxPlayers
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int MaxPlayers { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int MaxPlayers { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.MaxPlayers*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlayerCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlayerCount
+  id: PlayerCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  langs:
+  - csharp
+  name: PlayerCount
+  nameWithType: FireTeamDetails.PlayerCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlayerCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int PlayerCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int PlayerCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlayerCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlaylistRef
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlaylistRef
+  id: PlaylistRef
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  langs:
+  - csharp
+  name: PlaylistRef
+  nameWithType: FireTeamDetails.PlaylistRef
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlaylistRef
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public object PlaylistRef { get; set; }
+    return:
+      type: System.Object
+      description: ''
+    content.csharp: public object PlaylistRef { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlaylistRef*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  isExternal: false
+  name: FireTeamDetails()
+  nameWithType: FireTeamDetails.FireTeamDetails()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireTeamDetails()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.Activity
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  isExternal: false
+  name: Activity
+  nameWithType: FireTeamDetails.Activity
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.Activity
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  isExternal: false
+  name: FireteamId
+  nameWithType: FireTeamDetails.FireteamId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamLeaderMenuActivity
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  isExternal: false
+  name: FireteamLeaderMenuActivity
+  nameWithType: FireTeamDetails.FireteamLeaderMenuActivity
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamLeaderMenuActivity
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.JoinabilityStatus
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  isExternal: false
+  name: JoinabilityStatus
+  nameWithType: FireTeamDetails.JoinabilityStatus
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.JoinabilityStatus
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.MaxPlayers
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  isExternal: false
+  name: MaxPlayers
+  nameWithType: FireTeamDetails.MaxPlayers
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.MaxPlayers
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlayerCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  isExternal: false
+  name: PlayerCount
+  nameWithType: FireTeamDetails.PlayerCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlayerCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlaylistRef
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  isExternal: false
+  name: PlaylistRef
+  nameWithType: FireTeamDetails.PlaylistRef
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlaylistRef
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  isExternal: false
+  name: FireTeamDetails
+  nameWithType: FireTeamDetails.FireTeamDetails
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireTeamDetails
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.Activity*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.Activity
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  isExternal: false
+  name: Activity
+  nameWithType: FireTeamDetails.Activity
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.Activity
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  isExternal: false
+  name: FireteamId
+  nameWithType: FireTeamDetails.FireteamId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamLeaderMenuActivity*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamLeaderMenuActivity
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  isExternal: false
+  name: FireteamLeaderMenuActivity
+  nameWithType: FireTeamDetails.FireteamLeaderMenuActivity
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.FireteamLeaderMenuActivity
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.JoinabilityStatus*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.JoinabilityStatus
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  isExternal: false
+  name: JoinabilityStatus
+  nameWithType: FireTeamDetails.JoinabilityStatus
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.JoinabilityStatus
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.MaxPlayers*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.MaxPlayers
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  isExternal: false
+  name: MaxPlayers
+  nameWithType: FireTeamDetails.MaxPlayers
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.MaxPlayers
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlayerCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlayerCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  isExternal: false
+  name: PlayerCount
+  nameWithType: FireTeamDetails.PlayerCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlayerCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlaylistRef*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlaylistRef
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails
+  isExternal: false
+  name: PlaylistRef
+  nameWithType: FireTeamDetails.PlaylistRef
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FireTeamDetails.PlaylistRef
+  monikers:
+  - net6.0
+  type: property

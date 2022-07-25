@@ -1,0 +1,398 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  id: CustomizationData
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.AiCores
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.Appearance
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.ArmorCores
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.SpartanBody
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.VehicleCores
+  - OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.WeaponCores
+  langs:
+  - csharp
+  name: CustomizationData
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CustomizationData
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class CustomizationData
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  langs:
+  - csharp
+  name: CustomizationData()
+  nameWithType: CustomizationData.CustomizationData()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.CustomizationData()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public CustomizationData ();
+    parameters: []
+    content.csharp: public CustomizationData ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.AiCores
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.AiCores
+  id: AiCores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  langs:
+  - csharp
+  name: AiCores
+  nameWithType: CustomizationData.AiCores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.AiCores
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.AiCoreCollection AiCores { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreCollection
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.AiCoreCollection AiCores { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.AiCores*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.Appearance
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.Appearance
+  id: Appearance
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  langs:
+  - csharp
+  name: Appearance
+  nameWithType: CustomizationData.Appearance
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.Appearance
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Appearance Appearance { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Appearance Appearance { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.Appearance*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.ArmorCores
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.ArmorCores
+  id: ArmorCores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  langs:
+  - csharp
+  name: ArmorCores
+  nameWithType: CustomizationData.ArmorCores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.ArmorCores
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.ArmorCoreCollection ArmorCores { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.ArmorCoreCollection
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.ArmorCoreCollection ArmorCores { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.ArmorCores*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.SpartanBody
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.SpartanBody
+  id: SpartanBody
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  langs:
+  - csharp
+  name: SpartanBody
+  nameWithType: CustomizationData.SpartanBody
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.SpartanBody
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody SpartanBody { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody SpartanBody { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.SpartanBody*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.VehicleCores
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.VehicleCores
+  id: VehicleCores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  langs:
+  - csharp
+  name: VehicleCores
+  nameWithType: CustomizationData.VehicleCores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.VehicleCores
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreCollection VehicleCores { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreCollection
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreCollection VehicleCores { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.VehicleCores*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.WeaponCores
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.WeaponCores
+  id: WeaponCores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  langs:
+  - csharp
+  name: WeaponCores
+  nameWithType: CustomizationData.WeaponCores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.WeaponCores
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreCollection WeaponCores { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreCollection
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreCollection WeaponCores { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.WeaponCores*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  isExternal: false
+  name: CustomizationData()
+  nameWithType: CustomizationData.CustomizationData()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.CustomizationData()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.AiCores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  isExternal: false
+  name: AiCores
+  nameWithType: CustomizationData.AiCores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.AiCores
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreCollection
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AiCoreCollection
+  nameWithType: AiCoreCollection
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreCollection
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.Appearance
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  isExternal: false
+  name: Appearance
+  nameWithType: CustomizationData.Appearance
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.Appearance
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Appearance
+  nameWithType: Appearance
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Appearance
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.ArmorCores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  isExternal: false
+  name: ArmorCores
+  nameWithType: CustomizationData.ArmorCores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.ArmorCores
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ArmorCoreCollection
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: ArmorCoreCollection
+  nameWithType: ArmorCoreCollection
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ArmorCoreCollection
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.SpartanBody
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  isExternal: false
+  name: SpartanBody
+  nameWithType: CustomizationData.SpartanBody
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.SpartanBody
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: SpartanBody
+  nameWithType: SpartanBody
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SpartanBody
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.VehicleCores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  isExternal: false
+  name: VehicleCores
+  nameWithType: CustomizationData.VehicleCores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.VehicleCores
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreCollection
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: VehicleCoreCollection
+  nameWithType: VehicleCoreCollection
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreCollection
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.WeaponCores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  isExternal: false
+  name: WeaponCores
+  nameWithType: CustomizationData.WeaponCores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.WeaponCores
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreCollection
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: WeaponCoreCollection
+  nameWithType: WeaponCoreCollection
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreCollection
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  isExternal: false
+  name: CustomizationData
+  nameWithType: CustomizationData.CustomizationData
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.CustomizationData
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.AiCores*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.AiCores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  isExternal: false
+  name: AiCores
+  nameWithType: CustomizationData.AiCores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.AiCores
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.Appearance*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.Appearance
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  isExternal: false
+  name: Appearance
+  nameWithType: CustomizationData.Appearance
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.Appearance
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.ArmorCores*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.ArmorCores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  isExternal: false
+  name: ArmorCores
+  nameWithType: CustomizationData.ArmorCores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.ArmorCores
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.SpartanBody*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.SpartanBody
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  isExternal: false
+  name: SpartanBody
+  nameWithType: CustomizationData.SpartanBody
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.SpartanBody
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.VehicleCores*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.VehicleCores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  isExternal: false
+  name: VehicleCores
+  nameWithType: CustomizationData.VehicleCores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.VehicleCores
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.WeaponCores*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.WeaponCores
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData
+  isExternal: false
+  name: WeaponCores
+  nameWithType: CustomizationData.WeaponCores
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CustomizationData.WeaponCores
+  monikers:
+  - net6.0
+  type: property

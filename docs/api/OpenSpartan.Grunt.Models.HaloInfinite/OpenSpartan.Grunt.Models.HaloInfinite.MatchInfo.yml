@@ -1,0 +1,921 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  id: MatchInfo
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.ClearanceId
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Duration
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.EndTime
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.GameVariantCategory
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LevelId
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LifecycleMode
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.MapVariant
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlayableDuration
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Playlist
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistExperience
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistMapModePair
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.SeasonId
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.StartTime
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamScoringEnabled
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamsEnabled
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.UgcGameVariant
+  langs:
+  - csharp
+  name: MatchInfo
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Container for general match information.
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class MatchInfo
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class MatchInfo
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  langs:
+  - csharp
+  name: MatchInfo()
+  nameWithType: MatchInfo.MatchInfo()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.MatchInfo()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public MatchInfo ();
+    parameters: []
+    content.csharp: public MatchInfo ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.ClearanceId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.ClearanceId
+  id: ClearanceId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  langs:
+  - csharp
+  name: ClearanceId
+  nameWithType: MatchInfo.ClearanceId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.ClearanceId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ClearanceId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ClearanceId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.ClearanceId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Duration
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Duration
+  id: Duration
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  langs:
+  - csharp
+  name: Duration
+  nameWithType: MatchInfo.Duration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Duration
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Duration { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Duration { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Duration*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.EndTime
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.EndTime
+  id: EndTime
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  langs:
+  - csharp
+  name: EndTime
+  nameWithType: MatchInfo.EndTime
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.EndTime
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public DateTime? EndTime { get; set; }
+    return:
+      type: System.Nullable{System.DateTime}
+      description: ''
+    content.csharp: public DateTime? EndTime { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.EndTime*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.GameVariantCategory
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.GameVariantCategory
+  id: GameVariantCategory
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  langs:
+  - csharp
+  name: GameVariantCategory
+  nameWithType: MatchInfo.GameVariantCategory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.GameVariantCategory
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory? GameVariantCategory { get; set; }
+    return:
+      type: System.Nullable{OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory}
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory? GameVariantCategory { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.GameVariantCategory*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LevelId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LevelId
+  id: LevelId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  langs:
+  - csharp
+  name: LevelId
+  nameWithType: MatchInfo.LevelId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LevelId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string LevelId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string LevelId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LevelId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LifecycleMode
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LifecycleMode
+  id: LifecycleMode
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  langs:
+  - csharp
+  name: LifecycleMode
+  nameWithType: MatchInfo.LifecycleMode
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LifecycleMode
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int LifecycleMode { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int LifecycleMode { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LifecycleMode*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.MapVariant
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.MapVariant
+  id: MapVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  langs:
+  - csharp
+  name: MapVariant
+  nameWithType: MatchInfo.MapVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.MapVariant
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset MapVariant { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset MapVariant { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.MapVariant*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlayableDuration
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlayableDuration
+  id: PlayableDuration
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  langs:
+  - csharp
+  name: PlayableDuration
+  nameWithType: MatchInfo.PlayableDuration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlayableDuration
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string PlayableDuration { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string PlayableDuration { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlayableDuration*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Playlist
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Playlist
+  id: Playlist
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  langs:
+  - csharp
+  name: Playlist
+  nameWithType: MatchInfo.Playlist
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Playlist
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset? Playlist { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset? Playlist { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Playlist*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistExperience
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistExperience
+  id: PlaylistExperience
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  langs:
+  - csharp
+  name: PlaylistExperience
+  nameWithType: MatchInfo.PlaylistExperience
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistExperience
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience? PlaylistExperience { get; set; }
+    return:
+      type: System.Nullable{OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience}
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience? PlaylistExperience { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistExperience*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistMapModePair
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistMapModePair
+  id: PlaylistMapModePair
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  langs:
+  - csharp
+  name: PlaylistMapModePair
+  nameWithType: MatchInfo.PlaylistMapModePair
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistMapModePair
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset? PlaylistMapModePair { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset? PlaylistMapModePair { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistMapModePair*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.SeasonId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.SeasonId
+  id: SeasonId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  langs:
+  - csharp
+  name: SeasonId
+  nameWithType: MatchInfo.SeasonId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.SeasonId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string SeasonId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string SeasonId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.SeasonId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.StartTime
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.StartTime
+  id: StartTime
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  langs:
+  - csharp
+  name: StartTime
+  nameWithType: MatchInfo.StartTime
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.StartTime
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public DateTime? StartTime { get; set; }
+    return:
+      type: System.Nullable{System.DateTime}
+      description: ''
+    content.csharp: public DateTime? StartTime { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.StartTime*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamScoringEnabled
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamScoringEnabled
+  id: TeamScoringEnabled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  langs:
+  - csharp
+  name: TeamScoringEnabled
+  nameWithType: MatchInfo.TeamScoringEnabled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamScoringEnabled
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool TeamScoringEnabled { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool TeamScoringEnabled { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamScoringEnabled*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamsEnabled
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamsEnabled
+  id: TeamsEnabled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  langs:
+  - csharp
+  name: TeamsEnabled
+  nameWithType: MatchInfo.TeamsEnabled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamsEnabled
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool TeamsEnabled { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool TeamsEnabled { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamsEnabled*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.UgcGameVariant
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.UgcGameVariant
+  id: UgcGameVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  langs:
+  - csharp
+  name: UgcGameVariant
+  nameWithType: MatchInfo.UgcGameVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.UgcGameVariant
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.UGCGameVariant UgcGameVariant { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.UGCGameVariant
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.UGCGameVariant UgcGameVariant { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.UgcGameVariant*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: MatchInfo()
+  nameWithType: MatchInfo.MatchInfo()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.MatchInfo()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.ClearanceId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: ClearanceId
+  nameWithType: MatchInfo.ClearanceId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.ClearanceId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Duration
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: Duration
+  nameWithType: MatchInfo.Duration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Duration
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.EndTime
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: EndTime
+  nameWithType: MatchInfo.EndTime
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.EndTime
+  type: property
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable
+  nameWithType: Nullable
+  fullName: System.Nullable
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Nullable{System.DateTime}
+  parent: System
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.GameVariantCategory
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: GameVariantCategory
+  nameWithType: MatchInfo.GameVariantCategory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.GameVariantCategory
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  name: GameVariantCategory
+  nameWithType: GameVariantCategory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+- uid: System.Nullable{OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory}
+  parent: System
+  name: Nullable<GameVariantCategory>
+  nameWithType: Nullable<GameVariantCategory>
+  fullName: System.Nullable<OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory>
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+    name: GameVariantCategory
+    nameWithType: GameVariantCategory
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LevelId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: LevelId
+  nameWithType: MatchInfo.LevelId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LevelId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LifecycleMode
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: LifecycleMode
+  nameWithType: MatchInfo.LifecycleMode
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LifecycleMode
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.MapVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: MapVariant
+  nameWithType: MatchInfo.MapVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.MapVariant
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: GenericAsset
+  nameWithType: GenericAsset
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlayableDuration
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: PlayableDuration
+  nameWithType: MatchInfo.PlayableDuration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlayableDuration
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Playlist
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: Playlist
+  nameWithType: MatchInfo.Playlist
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Playlist
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistExperience
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: PlaylistExperience
+  nameWithType: MatchInfo.PlaylistExperience
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistExperience
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+  name: PlaylistExperience
+  nameWithType: PlaylistExperience
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+- uid: System.Nullable{OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience}
+  parent: System
+  name: Nullable<PlaylistExperience>
+  nameWithType: Nullable<PlaylistExperience>
+  fullName: System.Nullable<OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience>
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+    name: PlaylistExperience
+    nameWithType: PlaylistExperience
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistMapModePair
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: PlaylistMapModePair
+  nameWithType: MatchInfo.PlaylistMapModePair
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistMapModePair
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.SeasonId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: SeasonId
+  nameWithType: MatchInfo.SeasonId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.SeasonId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.StartTime
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: StartTime
+  nameWithType: MatchInfo.StartTime
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.StartTime
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamScoringEnabled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: TeamScoringEnabled
+  nameWithType: MatchInfo.TeamScoringEnabled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamScoringEnabled
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamsEnabled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: TeamsEnabled
+  nameWithType: MatchInfo.TeamsEnabled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamsEnabled
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.UgcGameVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: UgcGameVariant
+  nameWithType: MatchInfo.UgcGameVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.UgcGameVariant
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.UGCGameVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: UGCGameVariant
+  nameWithType: UGCGameVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.UGCGameVariant
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: MatchInfo
+  nameWithType: MatchInfo.MatchInfo
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.MatchInfo
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.ClearanceId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.ClearanceId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: ClearanceId
+  nameWithType: MatchInfo.ClearanceId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.ClearanceId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Duration*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Duration
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: Duration
+  nameWithType: MatchInfo.Duration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Duration
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.EndTime*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.EndTime
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: EndTime
+  nameWithType: MatchInfo.EndTime
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.EndTime
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.GameVariantCategory*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.GameVariantCategory
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: GameVariantCategory
+  nameWithType: MatchInfo.GameVariantCategory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.GameVariantCategory
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LevelId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LevelId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: LevelId
+  nameWithType: MatchInfo.LevelId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LevelId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LifecycleMode*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LifecycleMode
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: LifecycleMode
+  nameWithType: MatchInfo.LifecycleMode
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LifecycleMode
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.MapVariant*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.MapVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: MapVariant
+  nameWithType: MatchInfo.MapVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.MapVariant
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlayableDuration*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlayableDuration
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: PlayableDuration
+  nameWithType: MatchInfo.PlayableDuration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlayableDuration
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Playlist*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Playlist
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: Playlist
+  nameWithType: MatchInfo.Playlist
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Playlist
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistExperience*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistExperience
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: PlaylistExperience
+  nameWithType: MatchInfo.PlaylistExperience
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistExperience
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistMapModePair*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistMapModePair
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: PlaylistMapModePair
+  nameWithType: MatchInfo.PlaylistMapModePair
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistMapModePair
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.SeasonId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.SeasonId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: SeasonId
+  nameWithType: MatchInfo.SeasonId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.SeasonId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.StartTime*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.StartTime
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: StartTime
+  nameWithType: MatchInfo.StartTime
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.StartTime
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamScoringEnabled*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamScoringEnabled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: TeamScoringEnabled
+  nameWithType: MatchInfo.TeamScoringEnabled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamScoringEnabled
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamsEnabled*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamsEnabled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: TeamsEnabled
+  nameWithType: MatchInfo.TeamsEnabled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.TeamsEnabled
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.UgcGameVariant*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.UgcGameVariant
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
+  isExternal: false
+  name: UgcGameVariant
+  nameWithType: MatchInfo.UgcGameVariant
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.UgcGameVariant
+  monikers:
+  - net6.0
+  type: property

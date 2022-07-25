@@ -1,0 +1,207 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  id: AuthoringFavoritesContainer
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results
+  langs:
+  - csharp
+  name: AuthoringFavoritesContainer
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AuthoringFavoritesContainer : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class AuthoringFavoritesContainer : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  inheritance:
+  - System.Object
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  implements: []
+  inheritedMembers:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Count
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.EstimatedTotal
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Links
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.ResultCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Start
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  langs:
+  - csharp
+  name: AuthoringFavoritesContainer()
+  nameWithType: AuthoringFavoritesContainer.AuthoringFavoritesContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.AuthoringFavoritesContainer()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public AuthoringFavoritesContainer ();
+    parameters: []
+    content.csharp: public AuthoringFavoritesContainer ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results
+  id: Results
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  langs:
+  - csharp
+  name: Results
+  nameWithType: AuthoringFavoritesContainer.Results
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset> Results { get; set; }
+    return:
+      type: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset}
+      description: ''
+    content.csharp: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset> Results { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: AuthoringResultContainer
+  nameWithType: AuthoringResultContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  isExternal: false
+  name: AuthoringFavoritesContainer()
+  nameWithType: AuthoringFavoritesContainer.AuthoringFavoritesContainer()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.AuthoringFavoritesContainer()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  isExternal: false
+  name: Results
+  nameWithType: AuthoringFavoritesContainer.Results
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results
+  type: property
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List
+  nameWithType: List
+  fullName: System.Collections.Generic.List
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  name: FavoriteAsset
+  nameWithType: FavoriteAsset
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+- uid: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset}
+  parent: System.Collections.Generic
+  name: List<FavoriteAsset>
+  nameWithType: List<FavoriteAsset>
+  fullName: System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset>
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+    name: FavoriteAsset
+    nameWithType: FavoriteAsset
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  isExternal: false
+  name: AuthoringFavoritesContainer
+  nameWithType: AuthoringFavoritesContainer.AuthoringFavoritesContainer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.AuthoringFavoritesContainer
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
+  isExternal: false
+  name: Results
+  nameWithType: AuthoringFavoritesContainer.Results
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.Results
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Count
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  isExternal: false
+  name: Count
+  nameWithType: AuthoringResultContainer.Count
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Count
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.EstimatedTotal
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  isExternal: false
+  name: EstimatedTotal
+  nameWithType: AuthoringResultContainer.EstimatedTotal
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.EstimatedTotal
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Links
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  isExternal: false
+  name: Links
+  nameWithType: AuthoringResultContainer.Links
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Links
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.ResultCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  isExternal: false
+  name: ResultCount
+  nameWithType: AuthoringResultContainer.ResultCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.ResultCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Start
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  isExternal: false
+  name: Start
+  nameWithType: AuthoringResultContainer.Start
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Start
+  type: property

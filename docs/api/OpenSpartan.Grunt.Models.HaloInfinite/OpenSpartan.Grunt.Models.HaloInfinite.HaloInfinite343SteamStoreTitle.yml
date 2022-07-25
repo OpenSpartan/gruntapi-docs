@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
+  id: HaloInfinite343SteamStoreTitle
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.ItemDefMapping
+  langs:
+  - csharp
+  name: HaloInfinite343SteamStoreTitle
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class HaloInfinite343SteamStoreTitle
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class HaloInfinite343SteamStoreTitle
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
+  langs:
+  - csharp
+  name: HaloInfinite343SteamStoreTitle()
+  nameWithType: HaloInfinite343SteamStoreTitle.HaloInfinite343SteamStoreTitle()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.HaloInfinite343SteamStoreTitle()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public HaloInfinite343SteamStoreTitle ();
+    parameters: []
+    content.csharp: public HaloInfinite343SteamStoreTitle ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.ItemDefMapping
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.ItemDefMapping
+  id: ItemDefMapping
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
+  langs:
+  - csharp
+  name: ItemDefMapping
+  nameWithType: HaloInfinite343SteamStoreTitle.ItemDefMapping
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.ItemDefMapping
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.StoreProductMapping[] ItemDefMapping { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.StoreProductMapping[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.StoreProductMapping[] ItemDefMapping { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.ItemDefMapping*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
+  isExternal: false
+  name: HaloInfinite343SteamStoreTitle()
+  nameWithType: HaloInfinite343SteamStoreTitle.HaloInfinite343SteamStoreTitle()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.HaloInfinite343SteamStoreTitle()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.ItemDefMapping
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
+  isExternal: false
+  name: ItemDefMapping
+  nameWithType: HaloInfinite343SteamStoreTitle.ItemDefMapping
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.ItemDefMapping
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StoreProductMapping
+  name: StoreProductMapping
+  nameWithType: StoreProductMapping
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StoreProductMapping
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StoreProductMapping[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: StoreProductMapping[]
+  nameWithType: StoreProductMapping[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StoreProductMapping[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.StoreProductMapping
+    name: StoreProductMapping
+    nameWithType: StoreProductMapping
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.StoreProductMapping
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
+  isExternal: false
+  name: HaloInfinite343SteamStoreTitle
+  nameWithType: HaloInfinite343SteamStoreTitle.HaloInfinite343SteamStoreTitle
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.HaloInfinite343SteamStoreTitle
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.ItemDefMapping*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.ItemDefMapping
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle
+  isExternal: false
+  name: ItemDefMapping
+  nameWithType: HaloInfinite343SteamStoreTitle.ItemDefMapping
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.HaloInfinite343SteamStoreTitle.ItemDefMapping
+  monikers:
+  - net6.0
+  type: property

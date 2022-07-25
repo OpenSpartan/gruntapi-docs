@@ -1,0 +1,234 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Query
+  id: Query
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Query.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.Query.Key
+  - OpenSpartan.Grunt.Models.HaloInfinite.Query.Op
+  - OpenSpartan.Grunt.Models.HaloInfinite.Query.Value
+  langs:
+  - csharp
+  name: Query
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Query
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class Query
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Query.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.Query.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  langs:
+  - csharp
+  name: Query()
+  nameWithType: Query.Query()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Query.Query()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public Query ();
+    parameters: []
+    content.csharp: public Query ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Query.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Query.Key
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Query.Key
+  id: Key
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  langs:
+  - csharp
+  name: Key
+  nameWithType: Query.Key
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Query.Key
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Key { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Key { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Query.Key*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Query.Op
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Query.Op
+  id: Op
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  langs:
+  - csharp
+  name: Op
+  nameWithType: Query.Op
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Query.Op
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Op { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Op { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Query.Op*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Query.Value
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Query.Value
+  id: Value
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  langs:
+  - csharp
+  name: Value
+  nameWithType: Query.Value
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Query.Value
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Value used for the query. Can be a string or an array of strings, and needs to be unfurled directly by the developer at runtime.
+  syntax:
+    content: public object Value { get; set; }
+    return:
+      type: System.Object
+      description: ''
+    content.csharp: public object Value { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Query.Value*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Query.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  isExternal: false
+  name: Query()
+  nameWithType: Query.Query()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Query.Query()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Query.Key
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  isExternal: false
+  name: Key
+  nameWithType: Query.Key
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Query.Key
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Query.Op
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  isExternal: false
+  name: Op
+  nameWithType: Query.Op
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Query.Op
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Query.Value
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  isExternal: false
+  name: Value
+  nameWithType: Query.Value
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Query.Value
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Query.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Query.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  isExternal: false
+  name: Query
+  nameWithType: Query.Query
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Query.Query
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Query.Key*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Query.Key
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  isExternal: false
+  name: Key
+  nameWithType: Query.Key
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Query.Key
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Query.Op*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Query.Op
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  isExternal: false
+  name: Op
+  nameWithType: Query.Op
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Query.Op
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Query.Value*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Query.Value
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  isExternal: false
+  name: Value
+  nameWithType: Query.Value
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Query.Value
+  monikers:
+  - net6.0
+  type: property

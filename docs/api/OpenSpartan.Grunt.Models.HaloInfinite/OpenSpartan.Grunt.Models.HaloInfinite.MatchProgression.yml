@@ -1,0 +1,250 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
+  id: MatchProgression
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ChallengeProgressState
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ClearanceId
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.RewardId
+  langs:
+  - csharp
+  name: MatchProgression
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class MatchProgression
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class MatchProgression
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
+  langs:
+  - csharp
+  name: MatchProgression()
+  nameWithType: MatchProgression.MatchProgression()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.MatchProgression()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public MatchProgression ();
+    parameters: []
+    content.csharp: public MatchProgression ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ChallengeProgressState
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ChallengeProgressState
+  id: ChallengeProgressState
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
+  langs:
+  - csharp
+  name: ChallengeProgressState
+  nameWithType: MatchProgression.ChallengeProgressState
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ChallengeProgressState
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.ChallengeProgressState[] ChallengeProgressState { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeProgressState[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.ChallengeProgressState[] ChallengeProgressState { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ChallengeProgressState*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ClearanceId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ClearanceId
+  id: ClearanceId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
+  langs:
+  - csharp
+  name: ClearanceId
+  nameWithType: MatchProgression.ClearanceId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ClearanceId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ClearanceId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ClearanceId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ClearanceId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.RewardId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.RewardId
+  id: RewardId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
+  langs:
+  - csharp
+  name: RewardId
+  nameWithType: MatchProgression.RewardId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.RewardId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string RewardId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string RewardId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.RewardId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
+  isExternal: false
+  name: MatchProgression()
+  nameWithType: MatchProgression.MatchProgression()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.MatchProgression()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ChallengeProgressState
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
+  isExternal: false
+  name: ChallengeProgressState
+  nameWithType: MatchProgression.ChallengeProgressState
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ChallengeProgressState
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeProgressState
+  name: ChallengeProgressState
+  nameWithType: ChallengeProgressState
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeProgressState
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeProgressState[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: ChallengeProgressState[]
+  nameWithType: ChallengeProgressState[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeProgressState[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeProgressState
+    name: ChallengeProgressState
+    nameWithType: ChallengeProgressState
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeProgressState
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ClearanceId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
+  isExternal: false
+  name: ClearanceId
+  nameWithType: MatchProgression.ClearanceId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ClearanceId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.RewardId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
+  isExternal: false
+  name: RewardId
+  nameWithType: MatchProgression.RewardId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.RewardId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
+  isExternal: false
+  name: MatchProgression
+  nameWithType: MatchProgression.MatchProgression
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.MatchProgression
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ChallengeProgressState*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ChallengeProgressState
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
+  isExternal: false
+  name: ChallengeProgressState
+  nameWithType: MatchProgression.ChallengeProgressState
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ChallengeProgressState
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ClearanceId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ClearanceId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
+  isExternal: false
+  name: ClearanceId
+  nameWithType: MatchProgression.ClearanceId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.ClearanceId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.RewardId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.RewardId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
+  isExternal: false
+  name: RewardId
+  nameWithType: MatchProgression.RewardId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression.RewardId
+  monikers:
+  - net6.0
+  type: property

@@ -1,0 +1,628 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  id: RewardTrackMetadata
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.BackgroundImagePath
+  - OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.DateRange
+  - OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Description
+  - OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.IsRitual
+  - OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Name
+  - OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.OperationNumber
+  - OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Ranks
+  - OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.SummaryImagePath
+  - OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.TrackId
+  - OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.WeekNumber
+  - OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.XpPerRank
+  langs:
+  - csharp
+  name: RewardTrackMetadata
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class RewardTrackMetadata
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class RewardTrackMetadata
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  langs:
+  - csharp
+  name: RewardTrackMetadata()
+  nameWithType: RewardTrackMetadata.RewardTrackMetadata()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.RewardTrackMetadata()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public RewardTrackMetadata ();
+    parameters: []
+    content.csharp: public RewardTrackMetadata ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.BackgroundImagePath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.BackgroundImagePath
+  id: BackgroundImagePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  langs:
+  - csharp
+  name: BackgroundImagePath
+  nameWithType: RewardTrackMetadata.BackgroundImagePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.BackgroundImagePath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string BackgroundImagePath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string BackgroundImagePath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.BackgroundImagePath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.DateRange
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.DateRange
+  id: DateRange
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  langs:
+  - csharp
+  name: DateRange
+  nameWithType: RewardTrackMetadata.DateRange
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.DateRange
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString DateRange { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString DateRange { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.DateRange*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Description
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Description
+  id: Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  langs:
+  - csharp
+  name: Description
+  nameWithType: RewardTrackMetadata.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Description
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Description { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Description { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Description*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.IsRitual
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.IsRitual
+  id: IsRitual
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  langs:
+  - csharp
+  name: IsRitual
+  nameWithType: RewardTrackMetadata.IsRitual
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.IsRitual
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool IsRitual { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool IsRitual { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.IsRitual*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Name
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Name
+  id: Name
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  langs:
+  - csharp
+  name: Name
+  nameWithType: RewardTrackMetadata.Name
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Name
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Name { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.DisplayString Name { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Name*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.OperationNumber
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.OperationNumber
+  id: OperationNumber
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  langs:
+  - csharp
+  name: OperationNumber
+  nameWithType: RewardTrackMetadata.OperationNumber
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.OperationNumber
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int OperationNumber { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int OperationNumber { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.OperationNumber*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Ranks
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Ranks
+  id: Ranks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  langs:
+  - csharp
+  name: Ranks
+  nameWithType: RewardTrackMetadata.Ranks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Ranks
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.RankSnapshot[] Ranks { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.RankSnapshot[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.RankSnapshot[] Ranks { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Ranks*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.SummaryImagePath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.SummaryImagePath
+  id: SummaryImagePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  langs:
+  - csharp
+  name: SummaryImagePath
+  nameWithType: RewardTrackMetadata.SummaryImagePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.SummaryImagePath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string SummaryImagePath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string SummaryImagePath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.SummaryImagePath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.TrackId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.TrackId
+  id: TrackId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  langs:
+  - csharp
+  name: TrackId
+  nameWithType: RewardTrackMetadata.TrackId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.TrackId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string TrackId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string TrackId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.TrackId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.WeekNumber
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.WeekNumber
+  id: WeekNumber
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  langs:
+  - csharp
+  name: WeekNumber
+  nameWithType: RewardTrackMetadata.WeekNumber
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.WeekNumber
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int WeekNumber { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int WeekNumber { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.WeekNumber*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.XpPerRank
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.XpPerRank
+  id: XpPerRank
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  langs:
+  - csharp
+  name: XpPerRank
+  nameWithType: RewardTrackMetadata.XpPerRank
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.XpPerRank
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int XpPerRank { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int XpPerRank { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.XpPerRank*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: RewardTrackMetadata()
+  nameWithType: RewardTrackMetadata.RewardTrackMetadata()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.RewardTrackMetadata()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.BackgroundImagePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: BackgroundImagePath
+  nameWithType: RewardTrackMetadata.BackgroundImagePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.BackgroundImagePath
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.DateRange
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: DateRange
+  nameWithType: RewardTrackMetadata.DateRange
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.DateRange
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: DisplayString
+  nameWithType: DisplayString
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.DisplayString
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: Description
+  nameWithType: RewardTrackMetadata.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Description
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.IsRitual
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: IsRitual
+  nameWithType: RewardTrackMetadata.IsRitual
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.IsRitual
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Name
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: Name
+  nameWithType: RewardTrackMetadata.Name
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Name
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.OperationNumber
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: OperationNumber
+  nameWithType: RewardTrackMetadata.OperationNumber
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.OperationNumber
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Ranks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: Ranks
+  nameWithType: RewardTrackMetadata.Ranks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Ranks
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankSnapshot
+  name: RankSnapshot
+  nameWithType: RankSnapshot
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankSnapshot
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankSnapshot[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: RankSnapshot[]
+  nameWithType: RankSnapshot[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankSnapshot[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.RankSnapshot
+    name: RankSnapshot
+    nameWithType: RankSnapshot
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankSnapshot
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.SummaryImagePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: SummaryImagePath
+  nameWithType: RewardTrackMetadata.SummaryImagePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.SummaryImagePath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.TrackId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: TrackId
+  nameWithType: RewardTrackMetadata.TrackId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.TrackId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.WeekNumber
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: WeekNumber
+  nameWithType: RewardTrackMetadata.WeekNumber
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.WeekNumber
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.XpPerRank
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: XpPerRank
+  nameWithType: RewardTrackMetadata.XpPerRank
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.XpPerRank
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: RewardTrackMetadata
+  nameWithType: RewardTrackMetadata.RewardTrackMetadata
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.RewardTrackMetadata
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.BackgroundImagePath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.BackgroundImagePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: BackgroundImagePath
+  nameWithType: RewardTrackMetadata.BackgroundImagePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.BackgroundImagePath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.DateRange*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.DateRange
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: DateRange
+  nameWithType: RewardTrackMetadata.DateRange
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.DateRange
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Description*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Description
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: Description
+  nameWithType: RewardTrackMetadata.Description
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Description
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.IsRitual*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.IsRitual
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: IsRitual
+  nameWithType: RewardTrackMetadata.IsRitual
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.IsRitual
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Name*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Name
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: Name
+  nameWithType: RewardTrackMetadata.Name
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Name
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.OperationNumber*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.OperationNumber
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: OperationNumber
+  nameWithType: RewardTrackMetadata.OperationNumber
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.OperationNumber
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Ranks*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Ranks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: Ranks
+  nameWithType: RewardTrackMetadata.Ranks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.Ranks
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.SummaryImagePath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.SummaryImagePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: SummaryImagePath
+  nameWithType: RewardTrackMetadata.SummaryImagePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.SummaryImagePath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.TrackId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.TrackId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: TrackId
+  nameWithType: RewardTrackMetadata.TrackId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.TrackId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.WeekNumber*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.WeekNumber
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: WeekNumber
+  nameWithType: RewardTrackMetadata.WeekNumber
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.WeekNumber
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.XpPerRank*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.XpPerRank
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata
+  isExternal: false
+  name: XpPerRank
+  nameWithType: RewardTrackMetadata.XpPerRank
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrackMetadata.XpPerRank
+  monikers:
+  - net6.0
+  type: property
