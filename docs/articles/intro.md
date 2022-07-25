@@ -178,7 +178,84 @@ Task.Run(async () =>
 
 ```
 
-[`RequestUserToken`](xref:openspartan.grunt.authentication.xboxauthenticationclient.requestusertoken) will helpfully enable us to exchange the OAuth token for something more useful. In the code snippet above, in case the result is `null`, it's very likely that the original OAuth token expired, so we need to refresh it, hence the call to [`RefreshOAuthToken`].
+[`RequestUserToken`](xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestUserToken(System.String)) will helpfully enable us to exchange the OAuth token for something more useful. In the code snippet above, in case the result is `null`, it's very likely that the original OAuth token expired, so we need to refresh it, hence the call to [`RefreshOAuthToken`](xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RefreshOAuthToken). If the refresh is unsuccessful, we need to run through the `RequestNewToken` flow above, and then go through [`RequestUserToken`](xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestUserToken(System.String)) one more time.
+
+This gets a bit convoluted, but now, assuming that we were successful with the step above, we need to get the [Xbox Live security token (XSTS)](https://docs.microsoft.com/gaming/gdk/_content/gc/live/features/s2s-auth-calls/service-authentication/security-tokens/live-security-tokens). To do that, we use [`RequestXstsToken`](xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(System.String,System.Boolean)) and are exchanging the previous user token for it:
+
+```csharp
+Task.Run(async () =>
+{
+    haloTicket = await manager.RequestXstsToken(ticket.Token);
+}).GetAwaiter().GetResult();
+```
+
+Notice that I am calling [`RequestXstsToken`](xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(System.String,System.Boolean) without the optional Boolean argument - this means that by default, I will be using the Halo service relying party. A relying party is a trusted URL that is configured on the developer's side that is used for the creation of a new XSTS token. In the case above, the folks that built Halo already established an appropriate relying party that we can use.
+
+Depending the relying party, the XSTS ticket exchange API will provide some metadata that can be used further in the authorization flow. One piece that is missing from it, however, if I use the Halo relying party, is the Xbox User ID (XUID). To get it, I can tell [`RequestXstsToken`](xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(System.String,System.Boolean) to _not_ use the Halo relying party and instead use the one for Xbox Live services by setting the optional argument to `false`:
+
+```csharp
+Task.Run(async () =>
+{
+    extendedTicket = await manager.RequestXstsToken(ticket.Token, false);
+}).GetAwaiter().GetResult();
+```
+
+The extended ticket will have my XUID, which I will use later. Now, I finally get the Spartan token:
+
+```csharp
+Task.Run(async () =>
+{
+    haloToken = await haloAuthClient.GetSpartanToken(haloTicket.Token);
+    Console.WriteLine("Your Halo token:");
+    Console.WriteLine(haloToken.Token);
+}).GetAwaiter().GetResult();
+```
+
+[`GetSpartanToken`](xref:OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.GetSpartanToken(System.String)) will take your XSTS ticket and convert it into a reusable Spartan V4 token that can be used with existing Halo API calls. Voila! You are now _almost_ good to go. The last thing is left is for us to configure the [`HaloInfiniteClient`](xref:OpenSpartan.Grunt.Core.HaloInfiniteClient).
+
+Here is how we do it:
+
+```csharp
+HaloInfiniteClient client = new(haloToken.Token, extendedTicket.DisplayClaims.Xui[0].Xid);
+
+// Test getting the clearance for local execution.
+string localClearance = string.Empty;
+Task.Run(async () =>
+{
+    var clearance = (await client.SettingsGetClearance("RETAIL", "UNUSED", "222249.22.06.08.1730-0")).Result;
+    if (clearance != null)
+    {
+        localClearance = clearance.FlightConfigurationId;
+        client.ClearanceToken = localClearance;
+        Console.WriteLine($"Your clearance is {localClearance} and it's set in the client.");
+    }
+    else
+    {
+        Console.WriteLine("Could not obtain the clearance.");
+    }
+}).GetAwaiter().GetResult();
+```
+
+First, we instantiate the [`HaloInfiniteClient`](xref:OpenSpartan.Grunt.Core.HaloInfiniteClient) class and set the Spartan V4 token and XUID in the constructor. The XUID argument here is optional, but is helpful to have in the future once you start dealing with APIs that do, in fact, require your XUID to move forward.
+
+Next, we use [`SettingsGetClearance`](xref:OpenSpartan.Grunt.Core.HaloInfiniteClient.SettingsGetClearance(System.String,System.String,System.String)) to get the argument that will be further used inside the `343-clearance` header in the API client (don't worry - this is handled automatically). To get the clearance, we are using some built-in parameters that are mimicking the game - `RETAIL` audience, `UNUSED` sandbox, and a `222249.22.06.08.1730-0` build of the executable.
+
+If the clearance acquisition is successful, we can set the clearance in the client as well, otherwise move forward and you will need to set it manually later if you are using a clearance-dependent API call.
+
+You can now get the Halo Infinite data, like this:
+
+```csharp
+// Try getting actual Halo Infinite data.
+Task.Run(async () =>
+{
+    var example = await client.StatsGetMatchStats("21416434-4717-4966-9902-af7097469f74");
+    Console.WriteLine("You have stats.");
+}).GetAwaiter().GetResult();
+```
+
+Remember, that you will be getting a [`HaloApiResultContainer<T>`](xref:OpenSpartan.Grunt.Models.HaloApiResultContainer`2) as a return value, that contains the type you're asking for, along with any kinds of error messages that might've arisen during the API call.
+
+Congratulations! You are now ready to use Grunt in your .NET application. Make sure to explore the [full set of supported APIs](https://docs.gruntapi.com/api/openspartan.grunt.core/openspartan.grunt.core.haloinfiniteclient), and leave any feedback [on GitHub](https://github.com/OpenSpartan/grunt/issues) if you run into issues. 
 
 ## Node.js
 
