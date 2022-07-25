@@ -15,6 +15,7 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Util
+  summary: Helper class used to read configuration data from disk.
   syntax:
     content: public class ConfigurationReader
     content.csharp: public class ConfigurationReader
@@ -65,23 +66,25 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Util
+  summary: Reads configuration from a local file and deserializes it into an object.
   syntax:
-    content: public T ReadConfiguration<T> (string path);
+    content: public static T ReadConfiguration<T> (string path);
     parameters:
     - id: path
       type: System.String
-      description: ''
+      description: Path to the file to read.
     typeParameters:
     - id: T
-      description: ''
+      description: Type of object to deserialize.
     return:
       type: T
-      description: ''
-    content.csharp: public T ReadConfiguration<T> (string path);
+      description: If successful, returns an instance of the object <code data-dev-comment-type="typeparamref">T</code>. Otherwise, returns null.
+    content.csharp: public static T ReadConfiguration<T> (string path);
   overload: OpenSpartan.Grunt.Util.ConfigurationReader.ReadConfiguration*
   exceptions: []
   modifiers.csharp:
   - public
+  - static
   monikers:
   - net6.0
 references:

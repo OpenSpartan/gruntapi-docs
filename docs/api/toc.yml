@@ -201,6 +201,10 @@
     name: AssetKeyValues
     monikers:
     - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+    name: AssetKind
+    monikers:
+    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetLink
     name: AssetLink
     monikers:
@@ -469,6 +473,10 @@
     name: GameVariantAssetStats
     monikers:
     - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+    name: GameVariantCategory
+    monikers:
+    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset
     name: GenericAsset
     monikers:
@@ -593,16 +601,16 @@
     name: MarketplaceRecord
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchContainer
-    name: MatchContainer
-    monikers:
-    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
     name: MatchCsr
     monikers:
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchesPrivacy
     name: MatchesPrivacy
+    monikers:
+    - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+    name: MatchHistoryResponse
     monikers:
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
@@ -617,12 +625,12 @@
     name: MatchProgression
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchResult
-    name: MatchResult
-    monikers:
-    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
     name: MatchStats
+    monikers:
+    - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+    name: MatchType
     monikers:
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal
@@ -753,6 +761,10 @@
     name: PlayerMatchCount
     monikers:
     - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord
+    name: PlayerMatchHistoryRecord
+    monikers:
+    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResult
     name: PlayerSkillResult
     monikers:
@@ -797,6 +809,10 @@
     name: PlaylistEntry
     monikers:
     - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+    name: PlaylistExperience
+    monikers:
+    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata
     name: PlaylistMapModePairMetadata
     monikers:
@@ -831,6 +847,10 @@
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.RankSnapshot
     name: RankSnapshot
+    monikers:
+    - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
+    name: ResultOrder
     monikers:
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.Reward

@@ -15,6 +15,7 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: AI Core available in Halo Infinite.
   syntax:
     content: >-
       [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
@@ -79,12 +80,13 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Gets or sets a list of themes associated with an AI Core.
   syntax:
-    content: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme> Themes { get; set; }
+    content: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme>? Themes { get; set; }
     return:
       type: System.Collections.Generic.List{OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme}
       description: ''
-    content.csharp: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme> Themes { get; set; }
+    content.csharp: public System.Collections.Generic.List<OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme>? Themes { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.AiCore.Themes*
   exceptions: []
   modifiers.csharp:

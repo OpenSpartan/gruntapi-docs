@@ -30,6 +30,7 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Container for general match information.
   syntax:
     content: >-
       [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
@@ -143,11 +144,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public DateTime EndTime { get; set; }
+    content: public DateTime? EndTime { get; set; }
     return:
-      type: System.DateTime
+      type: System.Nullable{System.DateTime}
       description: ''
-    content.csharp: public DateTime EndTime { get; set; }
+    content.csharp: public DateTime? EndTime { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.EndTime*
   exceptions: []
   modifiers.csharp:
@@ -170,11 +171,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public int GameVariantCategory { get; set; }
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory? GameVariantCategory { get; set; }
     return:
-      type: System.Int32
+      type: System.Nullable{OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory}
       description: ''
-    content.csharp: public int GameVariantCategory { get; set; }
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory? GameVariantCategory { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.GameVariantCategory*
   exceptions: []
   modifiers.csharp:
@@ -305,11 +306,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset Playlist { get; set; }
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset? Playlist { get; set; }
     return:
       type: OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset
       description: ''
-    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset Playlist { get; set; }
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset? Playlist { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Playlist*
   exceptions: []
   modifiers.csharp:
@@ -332,11 +333,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public int PlaylistExperience { get; set; }
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience? PlaylistExperience { get; set; }
     return:
-      type: System.Int32
+      type: System.Nullable{OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience}
       description: ''
-    content.csharp: public int PlaylistExperience { get; set; }
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience? PlaylistExperience { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistExperience*
   exceptions: []
   modifiers.csharp:
@@ -359,11 +360,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset PlaylistMapModePair { get; set; }
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset? PlaylistMapModePair { get; set; }
     return:
       type: OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset
       description: ''
-    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset PlaylistMapModePair { get; set; }
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset? PlaylistMapModePair { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistMapModePair*
   exceptions: []
   modifiers.csharp:
@@ -413,11 +414,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public DateTime StartTime { get; set; }
+    content: public DateTime? StartTime { get; set; }
     return:
-      type: System.DateTime
+      type: System.Nullable{System.DateTime}
       description: ''
-    content.csharp: public DateTime StartTime { get; set; }
+    content.csharp: public DateTime? StartTime { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.StartTime*
   exceptions: []
   modifiers.csharp:
@@ -555,12 +556,36 @@ references:
   nameWithType: MatchInfo.EndTime
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.EndTime
   type: property
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable
+  nameWithType: Nullable
+  fullName: System.Nullable
 - uid: System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+- uid: System.Nullable{System.DateTime}
+  parent: System
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.GameVariantCategory
   parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
   isExternal: false
@@ -568,12 +593,30 @@ references:
   nameWithType: MatchInfo.GameVariantCategory
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.GameVariantCategory
   type: property
-- uid: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  name: GameVariantCategory
+  nameWithType: GameVariantCategory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+- uid: System.Nullable{OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory}
   parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  name: Nullable<GameVariantCategory>
+  nameWithType: Nullable<GameVariantCategory>
+  fullName: System.Nullable<OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory>
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+    name: GameVariantCategory
+    nameWithType: GameVariantCategory
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LevelId
   parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
   isExternal: false
@@ -588,6 +631,12 @@ references:
   nameWithType: MatchInfo.LifecycleMode
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LifecycleMode
   type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.MapVariant
   parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
   isExternal: false
@@ -622,6 +671,30 @@ references:
   nameWithType: MatchInfo.PlaylistExperience
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistExperience
   type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+  name: PlaylistExperience
+  nameWithType: PlaylistExperience
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+- uid: System.Nullable{OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience}
+  parent: System
+  name: Nullable<PlaylistExperience>
+  nameWithType: Nullable<PlaylistExperience>
+  fullName: System.Nullable<OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience>
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+    name: PlaylistExperience
+    nameWithType: PlaylistExperience
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlaylistMapModePair
   parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
   isExternal: false

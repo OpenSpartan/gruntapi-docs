@@ -1,0 +1,346 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  id: MatchHistoryResponse
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Count
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Links
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.ResultCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Results
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Start
+  langs:
+  - csharp
+  name: MatchHistoryResponse
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class MatchHistoryResponse
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class MatchHistoryResponse
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  langs:
+  - csharp
+  name: MatchHistoryResponse()
+  nameWithType: MatchHistoryResponse.MatchHistoryResponse()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.MatchHistoryResponse()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public MatchHistoryResponse ();
+    parameters: []
+    content.csharp: public MatchHistoryResponse ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Count
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Count
+  id: Count
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  langs:
+  - csharp
+  name: Count
+  nameWithType: MatchHistoryResponse.Count
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Count
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Count { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Count { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Count*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Links
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Links
+  id: Links
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  langs:
+  - csharp
+  name: Links
+  nameWithType: MatchHistoryResponse.Links
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Links
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.MatchLinks Links { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.MatchLinks
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.MatchLinks Links { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Links*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.ResultCount
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.ResultCount
+  id: ResultCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  langs:
+  - csharp
+  name: ResultCount
+  nameWithType: MatchHistoryResponse.ResultCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.ResultCount
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ResultCount { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ResultCount { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.ResultCount*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Results
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Results
+  id: Results
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  langs:
+  - csharp
+  name: Results
+  nameWithType: MatchHistoryResponse.Results
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Results
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord[] Results { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord[] Results { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Results*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Start
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Start
+  id: Start
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  langs:
+  - csharp
+  name: Start
+  nameWithType: MatchHistoryResponse.Start
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Start
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Start { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Start { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Start*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  isExternal: false
+  name: MatchHistoryResponse()
+  nameWithType: MatchHistoryResponse.MatchHistoryResponse()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.MatchHistoryResponse()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Count
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  isExternal: false
+  name: Count
+  nameWithType: MatchHistoryResponse.Count
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Count
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Links
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  isExternal: false
+  name: Links
+  nameWithType: MatchHistoryResponse.Links
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Links
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchLinks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: MatchLinks
+  nameWithType: MatchLinks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchLinks
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.ResultCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  isExternal: false
+  name: ResultCount
+  nameWithType: MatchHistoryResponse.ResultCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.ResultCount
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Results
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  isExternal: false
+  name: Results
+  nameWithType: MatchHistoryResponse.Results
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Results
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord
+  name: PlayerMatchHistoryRecord
+  nameWithType: PlayerMatchHistoryRecord
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: PlayerMatchHistoryRecord[]
+  nameWithType: PlayerMatchHistoryRecord[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord
+    name: PlayerMatchHistoryRecord
+    nameWithType: PlayerMatchHistoryRecord
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Start
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  isExternal: false
+  name: Start
+  nameWithType: MatchHistoryResponse.Start
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Start
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  isExternal: false
+  name: MatchHistoryResponse
+  nameWithType: MatchHistoryResponse.MatchHistoryResponse
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.MatchHistoryResponse
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Count*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Count
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  isExternal: false
+  name: Count
+  nameWithType: MatchHistoryResponse.Count
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Count
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Links*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Links
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  isExternal: false
+  name: Links
+  nameWithType: MatchHistoryResponse.Links
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Links
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.ResultCount*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.ResultCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  isExternal: false
+  name: ResultCount
+  nameWithType: MatchHistoryResponse.ResultCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.ResultCount
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Results*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Results
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  isExternal: false
+  name: Results
+  nameWithType: MatchHistoryResponse.Results
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Results
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Start*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Start
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  isExternal: false
+  name: Start
+  nameWithType: MatchHistoryResponse.Start
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse.Start
+  monikers:
+  - net6.0
+  type: property

@@ -1,0 +1,296 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  id: GameVariantCategory
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAttrition
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerBastion
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerCtf
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerFiesta
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerLandGrab
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerOddball
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerSlayer
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerStrongholds
+  langs:
+  - csharp
+  name: GameVariantCategory
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  type: Enum
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Category a game variant falls into.
+  syntax:
+    content: public enum GameVariantCategory
+    content.csharp: public enum GameVariantCategory
+  inheritance:
+  - System.Enum
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAttrition
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAttrition
+  id: MultiplayerAttrition
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: MultiplayerAttrition
+  nameWithType: GameVariantCategory.MultiplayerAttrition
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAttrition
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: MultiplayerAttrition
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: MultiplayerAttrition
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "7"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerBastion
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerBastion
+  id: MultiplayerBastion
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: MultiplayerBastion
+  nameWithType: GameVariantCategory.MultiplayerBastion
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerBastion
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: MultiplayerBastion
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: MultiplayerBastion
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "12"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerCtf
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerCtf
+  id: MultiplayerCtf
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: MultiplayerCtf
+  nameWithType: GameVariantCategory.MultiplayerCtf
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerCtf
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: MultiplayerCtf
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: MultiplayerCtf
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "15"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerFiesta
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerFiesta
+  id: MultiplayerFiesta
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: MultiplayerFiesta
+  nameWithType: GameVariantCategory.MultiplayerFiesta
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerFiesta
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: MultiplayerFiesta
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: MultiplayerFiesta
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "9"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerLandGrab
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerLandGrab
+  id: MultiplayerLandGrab
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: MultiplayerLandGrab
+  nameWithType: GameVariantCategory.MultiplayerLandGrab
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerLandGrab
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: MultiplayerLandGrab
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: MultiplayerLandGrab
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "39"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerOddball
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerOddball
+  id: MultiplayerOddball
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: MultiplayerOddball
+  nameWithType: GameVariantCategory.MultiplayerOddball
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerOddball
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: MultiplayerOddball
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: MultiplayerOddball
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "18"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerSlayer
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerSlayer
+  id: MultiplayerSlayer
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: MultiplayerSlayer
+  nameWithType: GameVariantCategory.MultiplayerSlayer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerSlayer
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: MultiplayerSlayer
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: MultiplayerSlayer
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "6"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerStrongholds
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerStrongholds
+  id: MultiplayerStrongholds
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: MultiplayerStrongholds
+  nameWithType: GameVariantCategory.MultiplayerStrongholds
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerStrongholds
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: MultiplayerStrongholds
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: MultiplayerStrongholds
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "11"
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Enum
+  parent: System
+  isExternal: true
+  name: Enum
+  nameWithType: Enum
+  fullName: System.Enum
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAttrition
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: MultiplayerAttrition
+  nameWithType: GameVariantCategory.MultiplayerAttrition
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAttrition
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: GameVariantCategory
+  nameWithType: GameVariantCategory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerBastion
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: MultiplayerBastion
+  nameWithType: GameVariantCategory.MultiplayerBastion
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerBastion
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerCtf
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: MultiplayerCtf
+  nameWithType: GameVariantCategory.MultiplayerCtf
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerCtf
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerFiesta
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: MultiplayerFiesta
+  nameWithType: GameVariantCategory.MultiplayerFiesta
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerFiesta
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerLandGrab
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: MultiplayerLandGrab
+  nameWithType: GameVariantCategory.MultiplayerLandGrab
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerLandGrab
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerOddball
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: MultiplayerOddball
+  nameWithType: GameVariantCategory.MultiplayerOddball
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerOddball
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerSlayer
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: MultiplayerSlayer
+  nameWithType: GameVariantCategory.MultiplayerSlayer
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerSlayer
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerStrongholds
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: MultiplayerStrongholds
+  nameWithType: GameVariantCategory.MultiplayerStrongholds
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerStrongholds
+  type: field

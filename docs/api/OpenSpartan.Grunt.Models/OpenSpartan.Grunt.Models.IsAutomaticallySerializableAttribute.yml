@@ -14,6 +14,7 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models
+  summary: Determines whether an object can be automatically serialized by a Halo API client.
   syntax:
     content: 'public class IsAutomaticallySerializableAttribute : Attribute'
     content.csharp: 'public class IsAutomaticallySerializableAttribute : Attribute'

@@ -15,6 +15,7 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models
+  summary: Type of content to return for the Halo API.
   syntax:
     content: public enum ApiContentType
     content.csharp: public enum ApiContentType
@@ -40,6 +41,7 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models
+  summary: <a href="https://microsoft.github.io/bond/manual/bond_cs.html#compact-binary">Microsoft Bond Compact Binary</a> data format.
   syntax:
     content: >-
       [[OpenSpartan.Grunt.Models.ContentType(HeaderValue="application/x-bond-compact-binary")]]
@@ -71,6 +73,7 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models
+  summary: JSON data format.
   syntax:
     content: >-
       [[OpenSpartan.Grunt.Models.ContentType(HeaderValue="application/json")]]

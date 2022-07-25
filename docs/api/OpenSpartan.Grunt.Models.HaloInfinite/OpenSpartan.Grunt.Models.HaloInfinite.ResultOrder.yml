@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
+  id: ResultOrder
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder.Asc
+  - OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder.Desc
+  langs:
+  - csharp
+  name: ResultOrder
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
+  type: Enum
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Determines how results in an API call that returns multiple entities are ordered.
+  syntax:
+    content: public enum ResultOrder
+    content.csharp: public enum ResultOrder
+  inheritance:
+  - System.Enum
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder.Asc
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder.Asc
+  id: Asc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
+  langs:
+  - csharp
+  name: Asc
+  nameWithType: ResultOrder.Asc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder.Asc
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Asc
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
+      description: ''
+    content.csharp: Asc
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "1"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder.Desc
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder.Desc
+  id: Desc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
+  langs:
+  - csharp
+  name: Desc
+  nameWithType: ResultOrder.Desc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder.Desc
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Desc
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
+      description: ''
+    content.csharp: Desc
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "0"
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Enum
+  parent: System
+  isExternal: true
+  name: Enum
+  nameWithType: Enum
+  fullName: System.Enum
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder.Asc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
+  isExternal: false
+  name: Asc
+  nameWithType: ResultOrder.Asc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder.Asc
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: ResultOrder
+  nameWithType: ResultOrder
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder.Desc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
+  isExternal: false
+  name: Desc
+  nameWithType: ResultOrder.Desc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder.Desc
+  type: field

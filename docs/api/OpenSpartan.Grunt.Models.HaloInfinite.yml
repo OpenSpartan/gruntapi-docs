@@ -30,6 +30,7 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.ArticleImage
   - OpenSpartan.Grunt.Models.HaloInfinite.AssetAuthoringSession
   - OpenSpartan.Grunt.Models.HaloInfinite.AssetKeyValues
+  - OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
   - OpenSpartan.Grunt.Models.HaloInfinite.AssetLink
   - OpenSpartan.Grunt.Models.HaloInfinite.AssetPermission
   - OpenSpartan.Grunt.Models.HaloInfinite.AssetRating
@@ -97,6 +98,7 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.FlightedFeatureFlags
   - OpenSpartan.Grunt.Models.HaloInfinite.GameVariant
   - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantAssetStats
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
   - OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset
   - OpenSpartan.Grunt.Models.HaloInfinite.GenericCore
   - OpenSpartan.Grunt.Models.HaloInfinite.GrantedCurrency
@@ -128,14 +130,14 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.Map
   - OpenSpartan.Grunt.Models.HaloInfinite.MapModePair
   - OpenSpartan.Grunt.Models.HaloInfinite.MarketplaceRecord
-  - OpenSpartan.Grunt.Models.HaloInfinite.MatchContainer
   - OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
   - OpenSpartan.Grunt.Models.HaloInfinite.MatchesPrivacy
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
   - OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
   - OpenSpartan.Grunt.Models.HaloInfinite.MatchLinks
   - OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
-  - OpenSpartan.Grunt.Models.HaloInfinite.MatchResult
   - OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
+  - OpenSpartan.Grunt.Models.HaloInfinite.MatchType
   - OpenSpartan.Grunt.Models.HaloInfinite.Medal
   - OpenSpartan.Grunt.Models.HaloInfinite.Media
   - OpenSpartan.Grunt.Models.HaloInfinite.Metadata
@@ -168,6 +170,7 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory
   - OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem
   - OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord
   - OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResult
   - OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResultContainer
   - OpenSpartan.Grunt.Models.HaloInfinite.PlayerState
@@ -179,6 +182,7 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsrResults
   - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCustomData
   - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistEntry
+  - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
   - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata
   - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistRotationEntry
   - OpenSpartan.Grunt.Models.HaloInfinite.Prefab
@@ -188,6 +192,7 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.Query
   - OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
   - OpenSpartan.Grunt.Models.HaloInfinite.RankSnapshot
+  - OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
   - OpenSpartan.Grunt.Models.HaloInfinite.Reward
   - OpenSpartan.Grunt.Models.HaloInfinite.RewardContainer
   - OpenSpartan.Grunt.Models.HaloInfinite.RewardSnapshot
@@ -446,6 +451,14 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.AssetKeyValues
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKeyValues
   type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AssetKind
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetKind
+  type: enum
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetLink
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AssetLink
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -982,6 +995,14 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantAssetStats
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantAssetStats
   type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: GameVariantCategory
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  type: enum
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.GenericAsset
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -1230,14 +1251,6 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.MarketplaceRecord
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.MarketplaceRecord
   type: class
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchContainer
-  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.MatchContainer
-  parent: OpenSpartan.Grunt.Models.HaloInfinite
-  isExternal: false
-  name: MatchContainer
-  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.MatchContainer
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchContainer
-  type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.MatchCsr
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -1253,6 +1266,14 @@ references:
   name: MatchesPrivacy
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.MatchesPrivacy
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchesPrivacy
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: MatchHistoryResponse
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchHistoryResponse
   type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
@@ -1278,14 +1299,6 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
   type: class
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchResult
-  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.MatchResult
-  parent: OpenSpartan.Grunt.Models.HaloInfinite
-  isExternal: false
-  name: MatchResult
-  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.MatchResult
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchResult
-  type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -1294,6 +1307,14 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
   type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: MatchType
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchType
+  type: enum
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Medal
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Medal
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -1550,6 +1571,14 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchCount
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchCount
   type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlayerMatchHistoryRecord
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord
+  type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResult
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResult
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -1638,6 +1667,14 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistEntry
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistEntry
   type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: PlaylistExperience
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistExperience
+  type: enum
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistMapModePairMetadata
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -1710,6 +1747,14 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.RankSnapshot
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankSnapshot
   type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: ResultOrder
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
+  type: enum
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Reward
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Reward
   parent: OpenSpartan.Grunt.Models.HaloInfinite
