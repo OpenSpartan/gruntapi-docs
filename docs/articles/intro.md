@@ -21,7 +21,7 @@ dotnet add package OpenSpartan.Grunt --version 0.1.2
 
 Once the package is installed, you need to start writing the connection logic to the Halo service, but worry not, since all of it is wrapped inside Grunt. Keep in mind that for the sample below I am using a Console C# application - you can use a _similar_ or somewhat tweaked approach in any .NET application of your choosing (including web apps).
 
-First, let's create a new Xbox authentication client, handily available through the [`XboxAuthenticationClient`](xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient) class. This class is designed to do the bulk of heavy lifting when it comes to interacting with the Xbox services.
+First, let's create a new Xbox authentication client, handily available through the <xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient> class. This class is designed to do the bulk of heavy lifting when it comes to interacting with the Xbox services.
 
 >[!Note]
 >We still need to use the Xbox Live authentication services to access the Halo API since _everything_ in the API is tied to a user's Xbox Live identity. Therefore, for us to access the Halo API you need to first be able to authenticate with Xbox Live services.
@@ -38,7 +38,7 @@ Next, we need to make sure that have a URL which can be used for authentication.
 var url = manager.GenerateAuthUrl(clientConfig.ClientId, clientConfig.RedirectUrl);
 ```
 
-In the context above, `clientConfig` is an instance of [`ConfigurationReader`](xref:openspartan.grunt.util.configurationreader) that I am using to read the client ID and client secret from a local JSON file:
+In the context above, `clientConfig` is an instance of <xref:openspartan.grunt.util.configurationreader> that I am using to read the client ID and client secret from a local JSON file:
 
 ```csharp
 var clientConfig = ConfigurationReader.ReadConfiguration<ClientConfiguration>("client.json");
@@ -66,10 +66,10 @@ var haloToken = new SpartanToken();
 
 In the snippet above we see the following:
 
-- An instance of [`HaloAuthenticationClient`](xref:openspartan.grunt.authentication.haloauthenticationclient) will be used to get the Spartan token, which is the main piece of information we need to be able to get data from the Halo API.
-- A placeholder container for [`OAuthToken`](xref:openspartan.grunt.models.oauthtoken), that will store the token we will get from the service.
-- Three instances of [`XboxTicket`](xref:openspartan.grunt.models.xboxticket) that will contain authorization information.
-- A container for our final [`SpartanToken`](xref:openspartan.grunt.models.spartantoken).
+- An instance of <xref:openspartan.grunt.authentication.haloauthenticationclient> will be used to get the Spartan token, which is the main piece of information we need to be able to get data from the Halo API.
+- A placeholder container for <xref:openspartan.grunt.models.oauthtoken>, that will store the token we will get from the service.
+- Three instances of <xref:openspartan.grunt.models.xboxticket> that will contain authorization information.
+- A container for our final <xref:openspartan.grunt.models.spartantoken>.
 
 Time for the actual logic. In my sample application, I don't want to go through the dance of getting the auth URL, then getting the code, then pasting the code in and waiting for the tokens to process on every run. Instead, I prefer to store the tokens locally and then work with them and refresh them automatically.
 
@@ -92,7 +92,7 @@ else
 >[!Warning]
 >Anyone that have access to the OAuth tokens for your accounts has _full access_ to said account. Make sure that you store them with caution. Be aware who will be able to see them and when.
 
-If the file exists, I want to read the configuration locally and store the token data in an instance of [`OAuthToken`](xref:openspartan.grunt.models.oauthtoken), as I called out earlier. Otherwise, we're going through the flow of requesting a new token through `RequestNewToken`. This function is something I've created specifically for the sample application, and it wraps some nice functionality exposed in Grunt:
+If the file exists, I want to read the configuration locally and store the token data in an instance of <xref:openspartan.grunt.models.oauthtoken>, as I called out earlier. Otherwise, we're going through the flow of requesting a new token through `RequestNewToken`. This function is something I've created specifically for the sample application, and it wraps some nice functionality exposed in Grunt:
 
 ```csharp
 private static OAuthToken RequestNewToken(string url, XboxAuthenticationClient manager, ClientConfiguration clientConfig)
@@ -132,9 +132,9 @@ private static OAuthToken RequestNewToken(string url, XboxAuthenticationClient m
 
 What this helper function does is basically ask the user to provide the code from the URL that we created earlier in the very first step. The code is generally appended to the redirect URL for the Azure Active Directory application that you created earlier, and it will show once the user authorizes your application to access Xbox Live through it.
 
-With the code acquired, I then use [`RequestOAuthToken`](xref:openspartan.grunt.authentication.xboxauthenticationclient.requestoauthtoken) through the [`XboxAuthenticationClient`](xref:openspartan.grunt.authentication.xboxauthenticationclient) instance we declared earlier and pass the required application information to it. If the token acquisition process is successful, we store the token to `tokens.json`, otherwise error out.
+With the code acquired, I then use <xref:openspartan.grunt.authentication.xboxauthenticationclient.requestoauthtoken> through the <xref:openspartan.grunt.authentication.xboxauthenticationclient> instance we declared earlier and pass the required application information to it. If the token acquisition process is successful, we store the token to `tokens.json`, otherwise error out.
 
-In the snippet above, `StoreTokens` is yet another helper function I wrote for the sample application. It serializes an [`OAuthToken`](xref:openspartan.grunt.models.oauthtoken) object and stores the output JSON into a file:
+In the snippet above, `StoreTokens` is yet another helper function I wrote for the sample application. It serializes an <xref:openspartan.grunt.models.oauthtoken> object and stores the output JSON into a file:
 
 ```csharp
 private static bool StoreTokens(OAuthToken token, string path)
@@ -178,9 +178,9 @@ Task.Run(async () =>
 
 ```
 
-[`RequestUserToken`](xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestUserToken(System.String)) will helpfully enable us to exchange the OAuth token for something more useful. In the code snippet above, in case the result is `null`, it's very likely that the original OAuth token expired, so we need to refresh it, hence the call to [`RefreshOAuthToken`](xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RefreshOAuthToken). If the refresh is unsuccessful, we need to run through the `RequestNewToken` flow above, and then go through [`RequestUserToken`](xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestUserToken(System.String)) one more time.
+<xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestUserToken(System.String)> will helpfully enable us to exchange the OAuth token for something more useful. In the code snippet above, in case the result is `null`, it's very likely that the original OAuth token expired, so we need to refresh it, hence the call to <xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RefreshOAuthToken>. If the refresh is unsuccessful, we need to run through the `RequestNewToken` flow above, and then go through <xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestUserToken(System.String)> one more time.
 
-This gets a bit convoluted, but now, assuming that we were successful with the step above, we need to get the [Xbox Live security token (XSTS)](https://docs.microsoft.com/gaming/gdk/_content/gc/live/features/s2s-auth-calls/service-authentication/security-tokens/live-security-tokens). To do that, we use [`RequestXstsToken`](xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(System.String,System.Boolean)) and are exchanging the previous user token for it:
+This gets a bit convoluted, but now, assuming that we were successful with the step above, we need to get the [Xbox Live security token (XSTS)](https://docs.microsoft.com/gaming/gdk/_content/gc/live/features/s2s-auth-calls/service-authentication/security-tokens/live-security-tokens). To do that, we use <xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(System.String,System.Boolean)> and are exchanging the previous user token for it:
 
 ```csharp
 Task.Run(async () =>
@@ -189,9 +189,9 @@ Task.Run(async () =>
 }).GetAwaiter().GetResult();
 ```
 
-Notice that I am calling [`RequestXstsToken`](xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(System.String,System.Boolean)) without the optional Boolean argument - this means that by default, I will be using the Halo service relying party. A relying party is a trusted URL that is configured on the developer's side that is used for the creation of a new XSTS token. In the case above, the folks that built Halo already established an appropriate relying party that we can use.
+Notice that I am calling <xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(System.String,System.Boolean)> without the optional Boolean argument - this means that by default, I will be using the Halo service relying party. A relying party is a trusted URL that is configured on the developer's side that is used for the creation of a new XSTS token. In the case above, the folks that built Halo already established an appropriate relying party that we can use.
 
-Depending the relying party, the XSTS ticket exchange API will provide some metadata that can be used further in the authorization flow. One piece that is missing from it, however, if I use the Halo relying party, is the Xbox User ID (XUID). To get it, I can tell [`RequestXstsToken`](xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(System.String,System.Boolean)) to _not_ use the Halo relying party and instead use the one for Xbox Live services by setting the optional argument to `false`:
+Depending the relying party, the XSTS ticket exchange API will provide some metadata that can be used further in the authorization flow. One piece that is missing from it, however, if I use the Halo relying party, is the Xbox User ID (XUID). To get it, I can tell <xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(System.String,System.Boolean)> to _not_ use the Halo relying party and instead use the one for Xbox Live services by setting the optional argument to `false`:
 
 ```csharp
 Task.Run(async () =>
@@ -211,7 +211,7 @@ Task.Run(async () =>
 }).GetAwaiter().GetResult();
 ```
 
-[`GetSpartanToken`](xref:OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.GetSpartanToken(System.String)) will take your XSTS ticket and convert it into a reusable Spartan V4 token that can be used with existing Halo API calls. Voila! You are now _almost_ good to go. The last thing is left is for us to configure the [`HaloInfiniteClient`](xref:OpenSpartan.Grunt.Core.HaloInfiniteClient).
+<xref:OpenSpartan.Grunt.Authentication.HaloAuthenticationClient.GetSpartanToken(System.String)> will take your XSTS ticket and convert it into a reusable Spartan V4 token that can be used with existing Halo API calls. Voila! You are now _almost_ good to go. The last thing is left is for us to configure the <xref:OpenSpartan.Grunt.Core.HaloInfiniteClient>.
 
 Here is how we do it:
 
@@ -236,9 +236,9 @@ Task.Run(async () =>
 }).GetAwaiter().GetResult();
 ```
 
-First, we instantiate the [`HaloInfiniteClient`](xref:OpenSpartan.Grunt.Core.HaloInfiniteClient) class and set the Spartan V4 token and XUID in the constructor. The XUID argument here is optional, but is helpful to have in the future once you start dealing with APIs that do, in fact, require your XUID to move forward.
+First, we instantiate the <xref:OpenSpartan.Grunt.Core.HaloInfiniteClient> class and set the Spartan V4 token and XUID in the constructor. The XUID argument here is optional, but is helpful to have in the future once you start dealing with APIs that do, in fact, require your XUID to move forward.
 
-Next, we use [`SettingsGetClearance`](xref:OpenSpartan.Grunt.Core.HaloInfiniteClient.SettingsGetClearance(System.String,System.String,System.String)) to get the argument that will be further used inside the `343-clearance` header in the API client (don't worry - this is handled automatically). To get the clearance, we are using some built-in parameters that are mimicking the game - `RETAIL` audience, `UNUSED` sandbox, and a `222249.22.06.08.1730-0` build of the executable.
+Next, we use <xref:OpenSpartan.Grunt.Core.HaloInfiniteClient.SettingsGetClearance(System.String,System.String,System.String)> to get the argument that will be further used inside the `343-clearance` header in the API client (don't worry - this is handled automatically). To get the clearance, we are using some built-in parameters that are mimicking the game - `RETAIL` audience, `UNUSED` sandbox, and a `222249.22.06.08.1730-0` build of the executable.
 
 If the clearance acquisition is successful, we can set the clearance in the client as well, otherwise move forward and you will need to set it manually later if you are using a clearance-dependent API call.
 
