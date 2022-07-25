@@ -189,9 +189,9 @@ Task.Run(async () =>
 }).GetAwaiter().GetResult();
 ```
 
-Notice that I am calling [`RequestXstsToken`](xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(System.String,System.Boolean) without the optional Boolean argument - this means that by default, I will be using the Halo service relying party. A relying party is a trusted URL that is configured on the developer's side that is used for the creation of a new XSTS token. In the case above, the folks that built Halo already established an appropriate relying party that we can use.
+Notice that I am calling [`RequestXstsToken`](xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(System.String,System.Boolean)) without the optional Boolean argument - this means that by default, I will be using the Halo service relying party. A relying party is a trusted URL that is configured on the developer's side that is used for the creation of a new XSTS token. In the case above, the folks that built Halo already established an appropriate relying party that we can use.
 
-Depending the relying party, the XSTS ticket exchange API will provide some metadata that can be used further in the authorization flow. One piece that is missing from it, however, if I use the Halo relying party, is the Xbox User ID (XUID). To get it, I can tell [`RequestXstsToken`](xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(System.String,System.Boolean) to _not_ use the Halo relying party and instead use the one for Xbox Live services by setting the optional argument to `false`:
+Depending the relying party, the XSTS ticket exchange API will provide some metadata that can be used further in the authorization flow. One piece that is missing from it, however, if I use the Halo relying party, is the Xbox User ID (XUID). To get it, I can tell [`RequestXstsToken`](xref:OpenSpartan.Grunt.Authentication.XboxAuthenticationClient.RequestXstsToken(System.String,System.Boolean)) to _not_ use the Halo relying party and instead use the one for Xbox Live services by setting the optional argument to `false`:
 
 ```csharp
 Task.Run(async () =>
@@ -253,7 +253,7 @@ Task.Run(async () =>
 }).GetAwaiter().GetResult();
 ```
 
-Remember, that you will be getting a [`HaloApiResultContainer<T>`](xref:OpenSpartan.Grunt.Models.HaloApiResultContainer`2) as a return value, that contains the type you're asking for, along with any kinds of error messages that might've arisen during the API call.
+Remember, that you will be getting a <xref:OpenSpartan.Grunt.Models.HaloApiResultContainer`2> as a return value, that contains the type you're asking for, along with any kinds of error messages that might've arisen during the API call.
 
 Congratulations! You are now ready to use Grunt in your .NET application. Make sure to explore the [full set of supported APIs](https://docs.gruntapi.com/api/openspartan.grunt.core/openspartan.grunt.core.haloinfiniteclient), and leave any feedback [on GitHub](https://github.com/OpenSpartan/grunt/issues) if you run into issues. 
 
