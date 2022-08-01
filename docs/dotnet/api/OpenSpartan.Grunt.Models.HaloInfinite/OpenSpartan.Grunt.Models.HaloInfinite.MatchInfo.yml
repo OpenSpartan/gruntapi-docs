@@ -117,11 +117,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public string Duration { get; set; }
+    content: public TimeSpan Duration { get; set; }
     return:
-      type: System.String
+      type: System.TimeSpan
       description: ''
-    content.csharp: public string Duration { get; set; }
+    content.csharp: public TimeSpan Duration { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Duration*
   exceptions: []
   modifiers.csharp:
@@ -549,6 +549,12 @@ references:
   nameWithType: MatchInfo.Duration
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Duration
   type: property
+- uid: System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.EndTime
   parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
   isExternal: false
