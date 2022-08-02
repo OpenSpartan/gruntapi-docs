@@ -19,21 +19,21 @@ items:
     content: >-
       [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
 
-      public class AuthoringFavoritesContainer : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+      public class AuthoringFavoritesContainer : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase
     content.csharp: >-
       [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
 
-      public class AuthoringFavoritesContainer : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+      public class AuthoringFavoritesContainer : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase
   inheritance:
   - System.Object
-  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase
   implements: []
   inheritedMembers:
-  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Count
-  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.EstimatedTotal
-  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Links
-  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.ResultCount
-  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Start
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase.Count
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase.EstimatedTotal
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase.Links
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase.ResultCount
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase.Start
   attributes:
   - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
   modifiers.csharp:
@@ -101,12 +101,12 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
   fullName: OpenSpartan.Grunt.Models.HaloInfinite
   type: namespace
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
   isExternal: false
-  name: AuthoringResultContainer
-  nameWithType: AuthoringResultContainer
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  name: AuthoringResultContainerBase
+  nameWithType: AuthoringResultContainerBase
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer.#ctor
   parent: OpenSpartan.Grunt.Models.HaloInfinite.AuthoringFavoritesContainer
   isExternal: false
@@ -170,38 +170,38 @@ references:
   monikers:
   - net6.0
   type: property
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Count
-  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase.Count
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase
   isExternal: false
   name: Count
-  nameWithType: AuthoringResultContainer.Count
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Count
+  nameWithType: AuthoringResultContainerBase.Count
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase.Count
   type: property
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.EstimatedTotal
-  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase.EstimatedTotal
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase
   isExternal: false
   name: EstimatedTotal
-  nameWithType: AuthoringResultContainer.EstimatedTotal
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.EstimatedTotal
+  nameWithType: AuthoringResultContainerBase.EstimatedTotal
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase.EstimatedTotal
   type: property
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Links
-  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase.Links
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase
   isExternal: false
   name: Links
-  nameWithType: AuthoringResultContainer.Links
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Links
+  nameWithType: AuthoringResultContainerBase.Links
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase.Links
   type: property
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.ResultCount
-  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase.ResultCount
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase
   isExternal: false
   name: ResultCount
-  nameWithType: AuthoringResultContainer.ResultCount
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.ResultCount
+  nameWithType: AuthoringResultContainerBase.ResultCount
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase.ResultCount
   type: property
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Start
-  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase.Start
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase
   isExternal: false
   name: Start
-  nameWithType: AuthoringResultContainer.Start
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer.Start
+  nameWithType: AuthoringResultContainerBase.Start
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase.Start
   type: property

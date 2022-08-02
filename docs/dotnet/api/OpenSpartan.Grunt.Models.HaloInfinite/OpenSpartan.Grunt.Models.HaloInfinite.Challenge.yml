@@ -5,12 +5,18 @@ items:
   id: Challenge
   children:
   - OpenSpartan.Grunt.Models.HaloInfinite.Challenge.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.Challenge.CanReroll
   - OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Category
   - OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Description
   - OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Difficulty
+  - OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Id
+  - OpenSpartan.Grunt.Models.HaloInfinite.Challenge.IsUserEvent
+  - OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Path
+  - OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Progress
   - OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Reward
   - OpenSpartan.Grunt.Models.HaloInfinite.Challenge.ThresholdForSuccess
   - OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Title
+  - OpenSpartan.Grunt.Models.HaloInfinite.Challenge.TypeIconPath
   langs:
   - csharp
   name: Challenge
@@ -20,6 +26,7 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: In-game challenge that a user needs to complete in order to progress in the battle pass.
   syntax:
     content: >-
       [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
@@ -63,6 +70,33 @@ items:
   exceptions: []
   modifiers.csharp:
   - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.CanReroll
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Challenge.CanReroll
+  id: CanReroll
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  langs:
+  - csharp
+  name: CanReroll
+  nameWithType: Challenge.CanReroll
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.CanReroll
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public bool CanReroll { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool CanReroll { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.CanReroll*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
   monikers:
   - net6.0
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Category
@@ -139,6 +173,114 @@ items:
       description: ''
     content.csharp: public string Difficulty { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Difficulty*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Id
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Id
+  id: Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  langs:
+  - csharp
+  name: Id
+  nameWithType: Challenge.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Id
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Id { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Id { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Id*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.IsUserEvent
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Challenge.IsUserEvent
+  id: IsUserEvent
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  langs:
+  - csharp
+  name: IsUserEvent
+  nameWithType: Challenge.IsUserEvent
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.IsUserEvent
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public object IsUserEvent { get; set; }
+    return:
+      type: System.Object
+      description: ''
+    content.csharp: public object IsUserEvent { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.IsUserEvent*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Path
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Path
+  id: Path
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  langs:
+  - csharp
+  name: Path
+  nameWithType: Challenge.Path
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Path
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Path { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Path { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Path*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Progress
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Progress
+  id: Progress
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  langs:
+  - csharp
+  name: Progress
+  nameWithType: Challenge.Progress
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Progress
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int Progress { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int Progress { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Progress*
   exceptions: []
   modifiers.csharp:
   - public
@@ -227,6 +369,33 @@ items:
   - set
   monikers:
   - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.TypeIconPath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Challenge.TypeIconPath
+  id: TypeIconPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  langs:
+  - csharp
+  name: TypeIconPath
+  nameWithType: Challenge.TypeIconPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.TypeIconPath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public object TypeIconPath { get; set; }
+    return:
+      type: System.Object
+      description: ''
+    content.csharp: public object TypeIconPath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.TypeIconPath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
 references:
 - uid: OpenSpartan.Grunt.Models.HaloInfinite
   commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
@@ -248,6 +417,19 @@ references:
   nameWithType: Challenge.Challenge()
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Challenge()
   type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.CanReroll
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: CanReroll
+  nameWithType: Challenge.CanReroll
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.CanReroll
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Category
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
   isExternal: false
@@ -281,6 +463,40 @@ references:
   nameWithType: Challenge.Difficulty
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Difficulty
   type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Id
+  nameWithType: Challenge.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Id
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.IsUserEvent
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: IsUserEvent
+  nameWithType: Challenge.IsUserEvent
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.IsUserEvent
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Path
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Path
+  nameWithType: Challenge.Path
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Path
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Progress
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Progress
+  nameWithType: Challenge.Progress
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Progress
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Reward
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
   isExternal: false
@@ -301,18 +517,19 @@ references:
   nameWithType: Challenge.ThresholdForSuccess
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.ThresholdForSuccess
   type: property
-- uid: System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Title
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
   isExternal: false
   name: Title
   nameWithType: Challenge.Title
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Title
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.TypeIconPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: TypeIconPath
+  nameWithType: Challenge.TypeIconPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.TypeIconPath
   type: property
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.#ctor*
   commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Challenge.#ctor
@@ -324,6 +541,16 @@ references:
   monikers:
   - net6.0
   type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.CanReroll*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Challenge.CanReroll
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: CanReroll
+  nameWithType: Challenge.CanReroll
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.CanReroll
+  monikers:
+  - net6.0
+  type: property
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Category*
   commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Category
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
@@ -354,6 +581,46 @@ references:
   monikers:
   - net6.0
   type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Id*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Id
+  nameWithType: Challenge.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Id
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.IsUserEvent*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Challenge.IsUserEvent
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: IsUserEvent
+  nameWithType: Challenge.IsUserEvent
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.IsUserEvent
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Path*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Path
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Path
+  nameWithType: Challenge.Path
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Path
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Progress*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Progress
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: Progress
+  nameWithType: Challenge.Progress
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Progress
+  monikers:
+  - net6.0
+  type: property
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Reward*
   commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Reward
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
@@ -381,6 +648,16 @@ references:
   name: Title
   nameWithType: Challenge.Title
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.Title
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.TypeIconPath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Challenge.TypeIconPath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  isExternal: false
+  name: TypeIconPath
+  nameWithType: Challenge.TypeIconPath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge.TypeIconPath
   monikers:
   - net6.0
   type: property

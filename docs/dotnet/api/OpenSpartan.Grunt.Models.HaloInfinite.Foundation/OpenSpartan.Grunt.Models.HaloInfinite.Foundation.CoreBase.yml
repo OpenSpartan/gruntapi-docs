@@ -1,0 +1,374 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  id: CoreBase
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreId
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CorePath
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreType
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.FirstAcquiredDate
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.IsEquipped
+  langs:
+  - csharp
+  name: CoreBase
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public abstract class CoreBase
+    content.csharp: public abstract class CoreBase
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+  - OpenSpartan.Grunt.Models.HaloInfinite.ArmorCore
+  - OpenSpartan.Grunt.Models.HaloInfinite.GenericCore
+  - OpenSpartan.Grunt.Models.HaloInfinite.VehicleCore
+  - OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  - abstract
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  langs:
+  - csharp
+  name: CoreBase()
+  nameWithType: CoreBase.CoreBase()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreBase()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: protected CoreBase ();
+    parameters: []
+    content.csharp: protected CoreBase ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - protected
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreId
+  id: CoreId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  langs:
+  - csharp
+  name: CoreId
+  nameWithType: CoreBase.CoreId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public string CoreId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string CoreId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CorePath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CorePath
+  id: CorePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  langs:
+  - csharp
+  name: CorePath
+  nameWithType: CoreBase.CorePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CorePath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public string CorePath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string CorePath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CorePath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreType
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreType
+  id: CoreType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  langs:
+  - csharp
+  name: CoreType
+  nameWithType: CoreBase.CoreType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreType
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public string CoreType { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string CoreType { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreType*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.FirstAcquiredDate
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.FirstAcquiredDate
+  id: FirstAcquiredDate
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  langs:
+  - csharp
+  name: FirstAcquiredDate
+  nameWithType: CoreBase.FirstAcquiredDate
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.FirstAcquiredDate
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public OpenSpartan.Grunt.Models.APIFormattedDate? FirstAcquiredDate { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.APIFormattedDate? FirstAcquiredDate { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.FirstAcquiredDate*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.IsEquipped
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.IsEquipped
+  id: IsEquipped
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  langs:
+  - csharp
+  name: IsEquipped
+  nameWithType: CoreBase.IsEquipped
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.IsEquipped
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public bool IsEquipped { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool IsEquipped { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.IsEquipped*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  isExternal: false
+  name: CoreBase()
+  nameWithType: CoreBase.CoreBase()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreBase()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  isExternal: false
+  name: CoreId
+  nameWithType: CoreBase.CoreId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CorePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  isExternal: false
+  name: CorePath
+  nameWithType: CoreBase.CorePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CorePath
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  isExternal: false
+  name: CoreType
+  nameWithType: CoreBase.CoreType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreType
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.FirstAcquiredDate
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  isExternal: false
+  name: FirstAcquiredDate
+  nameWithType: CoreBase.FirstAcquiredDate
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.FirstAcquiredDate
+  type: property
+- uid: OpenSpartan.Grunt.Models.APIFormattedDate
+  parent: OpenSpartan.Grunt.Models
+  isExternal: false
+  name: APIFormattedDate
+  nameWithType: APIFormattedDate
+  fullName: OpenSpartan.Grunt.Models.APIFormattedDate
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.IsEquipped
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  isExternal: false
+  name: IsEquipped
+  nameWithType: CoreBase.IsEquipped
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.IsEquipped
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  isExternal: false
+  name: CoreBase
+  nameWithType: CoreBase.CoreBase
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreBase
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  isExternal: false
+  name: CoreId
+  nameWithType: CoreBase.CoreId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreId
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CorePath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CorePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  isExternal: false
+  name: CorePath
+  nameWithType: CoreBase.CorePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CorePath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreType*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreType
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  isExternal: false
+  name: CoreType
+  nameWithType: CoreBase.CoreType
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.CoreType
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.FirstAcquiredDate*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.FirstAcquiredDate
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  isExternal: false
+  name: FirstAcquiredDate
+  nameWithType: CoreBase.FirstAcquiredDate
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.FirstAcquiredDate
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.IsEquipped*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.IsEquipped
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  isExternal: false
+  name: IsEquipped
+  nameWithType: CoreBase.IsEquipped
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase.IsEquipped
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AiCore
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ArmorCore
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ArmorCore
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: ArmorCore
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ArmorCore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ArmorCore
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GenericCore
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.GenericCore
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: GenericCore
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.GenericCore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GenericCore
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCore
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCore
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: VehicleCore
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCore
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: WeaponCore
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore
+  type: class

@@ -1,0 +1,391 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  id: ChallengeDeck
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.ActiveChallenges
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.CompletedChallenges
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Expiration
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Id
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Path
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.UpcomingChallenges
+  langs:
+  - csharp
+  name: ChallengeDeck
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class ChallengeDeck
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class ChallengeDeck
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  langs:
+  - csharp
+  name: ChallengeDeck()
+  nameWithType: ChallengeDeck.ChallengeDeck()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.ChallengeDeck()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public ChallengeDeck ();
+    parameters: []
+    content.csharp: public ChallengeDeck ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.ActiveChallenges
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.ActiveChallenges
+  id: ActiveChallenges
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  langs:
+  - csharp
+  name: ActiveChallenges
+  nameWithType: ChallengeDeck.ActiveChallenges
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.ActiveChallenges
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Challenge[] ActiveChallenges { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Challenge[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Challenge[] ActiveChallenges { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.ActiveChallenges*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.CompletedChallenges
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.CompletedChallenges
+  id: CompletedChallenges
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  langs:
+  - csharp
+  name: CompletedChallenges
+  nameWithType: ChallengeDeck.CompletedChallenges
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.CompletedChallenges
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Challenge[] CompletedChallenges { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Challenge[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Challenge[] CompletedChallenges { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.CompletedChallenges*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Expiration
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Expiration
+  id: Expiration
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  langs:
+  - csharp
+  name: Expiration
+  nameWithType: ChallengeDeck.Expiration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Expiration
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.APIFormattedDate Expiration { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.APIFormattedDate Expiration { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Expiration*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Id
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Id
+  id: Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  langs:
+  - csharp
+  name: Id
+  nameWithType: ChallengeDeck.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Id
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Id { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Id { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Id*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Path
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Path
+  id: Path
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  langs:
+  - csharp
+  name: Path
+  nameWithType: ChallengeDeck.Path
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Path
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string Path { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string Path { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Path*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.UpcomingChallenges
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.UpcomingChallenges
+  id: UpcomingChallenges
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  langs:
+  - csharp
+  name: UpcomingChallenges
+  nameWithType: ChallengeDeck.UpcomingChallenges
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.UpcomingChallenges
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Challenge[] UpcomingChallenges { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Challenge[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Challenge[] UpcomingChallenges { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.UpcomingChallenges*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  isExternal: false
+  name: ChallengeDeck()
+  nameWithType: ChallengeDeck.ChallengeDeck()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.ChallengeDeck()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.ActiveChallenges
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  isExternal: false
+  name: ActiveChallenges
+  nameWithType: ChallengeDeck.ActiveChallenges
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.ActiveChallenges
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  name: Challenge
+  nameWithType: Challenge
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: Challenge[]
+  nameWithType: Challenge[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+    name: Challenge
+    nameWithType: Challenge
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.CompletedChallenges
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  isExternal: false
+  name: CompletedChallenges
+  nameWithType: ChallengeDeck.CompletedChallenges
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.CompletedChallenges
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Expiration
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  isExternal: false
+  name: Expiration
+  nameWithType: ChallengeDeck.Expiration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Expiration
+  type: property
+- uid: OpenSpartan.Grunt.Models.APIFormattedDate
+  parent: OpenSpartan.Grunt.Models
+  isExternal: false
+  name: APIFormattedDate
+  nameWithType: APIFormattedDate
+  fullName: OpenSpartan.Grunt.Models.APIFormattedDate
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  isExternal: false
+  name: Id
+  nameWithType: ChallengeDeck.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Id
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Path
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  isExternal: false
+  name: Path
+  nameWithType: ChallengeDeck.Path
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Path
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.UpcomingChallenges
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  isExternal: false
+  name: UpcomingChallenges
+  nameWithType: ChallengeDeck.UpcomingChallenges
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.UpcomingChallenges
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  isExternal: false
+  name: ChallengeDeck
+  nameWithType: ChallengeDeck.ChallengeDeck
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.ChallengeDeck
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.ActiveChallenges*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.ActiveChallenges
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  isExternal: false
+  name: ActiveChallenges
+  nameWithType: ChallengeDeck.ActiveChallenges
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.ActiveChallenges
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.CompletedChallenges*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.CompletedChallenges
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  isExternal: false
+  name: CompletedChallenges
+  nameWithType: ChallengeDeck.CompletedChallenges
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.CompletedChallenges
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Expiration*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Expiration
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  isExternal: false
+  name: Expiration
+  nameWithType: ChallengeDeck.Expiration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Expiration
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Id*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  isExternal: false
+  name: Id
+  nameWithType: ChallengeDeck.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Id
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Path*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Path
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  isExternal: false
+  name: Path
+  nameWithType: ChallengeDeck.Path
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.Path
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.UpcomingChallenges*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.UpcomingChallenges
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  isExternal: false
+  name: UpcomingChallenges
+  nameWithType: ChallengeDeck.UpcomingChallenges
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck.UpcomingChallenges
+  monikers:
+  - net6.0
+  type: property

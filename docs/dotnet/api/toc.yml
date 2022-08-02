@@ -141,10 +141,6 @@
     name: ActiveBoostsContainer
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ActiveChallenge
-    name: ActiveChallenge
-    monikers:
-    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
     name: AiCore
     monikers:
@@ -237,10 +233,6 @@
     name: AssetVersionFile
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssignedDeck
-    name: AssignedDeck
-    monikers:
-    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.AsyncComputeOverrides
     name: AsyncComputeOverrides
     monikers:
@@ -317,8 +309,16 @@
     name: Challenge
     monikers:
     - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+    name: ChallengeDeck
+    monikers:
+    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
     name: ChallengeDeckDefinition
+    monikers:
+    - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+    name: ChallengeDecksResponse
     monikers:
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeProgressState
@@ -335,10 +335,6 @@
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
     name: CommonItemData
-    monikers:
-    - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.CompletedChallenge
-    name: CompletedChallenge
     monikers:
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.Configuration
@@ -737,10 +733,6 @@
     name: PlayerCustomizationCollection
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
-    name: PlayerDecks
-    monikers:
-    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerGiveaways
     name: PlayerGiveaways
     monikers:
@@ -985,10 +977,6 @@
     name: UGCGameVariant
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.UpcomingChallenge
-    name: UpcomingChallenge
-    monikers:
-    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCore
     name: VehicleCore
     monikers:
@@ -1051,24 +1039,24 @@
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
   name: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
   items:
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
-    name: Asset
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AssetBase
+    name: AssetBase
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
-    name: AuthoringResultContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase
+    name: AuthoringResultContainerBase
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
-    name: Core
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+    name: CoreBase
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
-    name: ResultContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase
+    name: ResultContainerBase
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
-    name: Theme
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+    name: ThemeBase
     monikers:
     - net6.0
   monikers:

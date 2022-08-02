@@ -1,0 +1,365 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  id: ThemeBase
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.FirstModifiedDateUtc
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsDefault
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsEquipped
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.LastModifiedDateUtc
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.ThemePath
+  langs:
+  - csharp
+  name: ThemeBase
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public abstract class ThemeBase
+    content.csharp: public abstract class ThemeBase
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  - OpenSpartan.Grunt.Models.HaloInfinite.ArmorCoreTheme
+  - OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  - OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  - abstract
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  langs:
+  - csharp
+  name: ThemeBase()
+  nameWithType: ThemeBase.ThemeBase()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.ThemeBase()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: protected ThemeBase ();
+    parameters: []
+    content.csharp: protected ThemeBase ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - protected
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.FirstModifiedDateUtc
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.FirstModifiedDateUtc
+  id: FirstModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  langs:
+  - csharp
+  name: FirstModifiedDateUtc
+  nameWithType: ThemeBase.FirstModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.FirstModifiedDateUtc
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public OpenSpartan.Grunt.Models.APIFormattedDate? FirstModifiedDateUtc { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.APIFormattedDate? FirstModifiedDateUtc { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.FirstModifiedDateUtc*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsDefault
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsDefault
+  id: IsDefault
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  langs:
+  - csharp
+  name: IsDefault
+  nameWithType: ThemeBase.IsDefault
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsDefault
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public bool IsDefault { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool IsDefault { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsDefault*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsEquipped
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsEquipped
+  id: IsEquipped
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  langs:
+  - csharp
+  name: IsEquipped
+  nameWithType: ThemeBase.IsEquipped
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsEquipped
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public bool IsEquipped { get; set; }
+    return:
+      type: System.Boolean
+      description: ''
+    content.csharp: public bool IsEquipped { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsEquipped*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.LastModifiedDateUtc
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.LastModifiedDateUtc
+  id: LastModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  langs:
+  - csharp
+  name: LastModifiedDateUtc
+  nameWithType: ThemeBase.LastModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.LastModifiedDateUtc
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public OpenSpartan.Grunt.Models.APIFormattedDate? LastModifiedDateUtc { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.APIFormattedDate
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.APIFormattedDate? LastModifiedDateUtc { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.LastModifiedDateUtc*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.ThemePath
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.ThemePath
+  id: ThemePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  langs:
+  - csharp
+  name: ThemePath
+  nameWithType: ThemeBase.ThemePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.ThemePath
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  syntax:
+    content: public string ThemePath { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ThemePath { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.ThemePath*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  isExternal: false
+  name: ThemeBase()
+  nameWithType: ThemeBase.ThemeBase()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.ThemeBase()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.FirstModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  isExternal: false
+  name: FirstModifiedDateUtc
+  nameWithType: ThemeBase.FirstModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.FirstModifiedDateUtc
+  type: property
+- uid: OpenSpartan.Grunt.Models.APIFormattedDate
+  parent: OpenSpartan.Grunt.Models
+  isExternal: false
+  name: APIFormattedDate
+  nameWithType: APIFormattedDate
+  fullName: OpenSpartan.Grunt.Models.APIFormattedDate
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsDefault
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  isExternal: false
+  name: IsDefault
+  nameWithType: ThemeBase.IsDefault
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsDefault
+  type: property
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsEquipped
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  isExternal: false
+  name: IsEquipped
+  nameWithType: ThemeBase.IsEquipped
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsEquipped
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.LastModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: ThemeBase.LastModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.LastModifiedDateUtc
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.ThemePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  isExternal: false
+  name: ThemePath
+  nameWithType: ThemeBase.ThemePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.ThemePath
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  isExternal: false
+  name: ThemeBase
+  nameWithType: ThemeBase.ThemeBase
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.ThemeBase
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.FirstModifiedDateUtc*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.FirstModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  isExternal: false
+  name: FirstModifiedDateUtc
+  nameWithType: ThemeBase.FirstModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.FirstModifiedDateUtc
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsDefault*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsDefault
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  isExternal: false
+  name: IsDefault
+  nameWithType: ThemeBase.IsDefault
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsDefault
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsEquipped*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsEquipped
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  isExternal: false
+  name: IsEquipped
+  nameWithType: ThemeBase.IsEquipped
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.IsEquipped
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.LastModifiedDateUtc*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.LastModifiedDateUtc
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  isExternal: false
+  name: LastModifiedDateUtc
+  nameWithType: ThemeBase.LastModifiedDateUtc
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.LastModifiedDateUtc
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.ThemePath*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.ThemePath
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  isExternal: false
+  name: ThemePath
+  nameWithType: ThemeBase.ThemePath
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase.ThemePath
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: AiCoreTheme
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AiCoreTheme
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ArmorCoreTheme
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ArmorCoreTheme
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: ArmorCoreTheme
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ArmorCoreTheme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ArmorCoreTheme
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: VehicleCoreTheme
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: WeaponCoreTheme
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  type: class

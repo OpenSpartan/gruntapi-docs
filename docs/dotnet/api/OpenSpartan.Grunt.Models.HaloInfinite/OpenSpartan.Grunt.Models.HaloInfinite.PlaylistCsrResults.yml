@@ -19,18 +19,18 @@ items:
     content: >-
       [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
 
-      public class PlaylistCsrResults : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+      public class PlaylistCsrResults : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase
     content.csharp: >-
       [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
 
-      public class PlaylistCsrResults : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+      public class PlaylistCsrResults : OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase
   inheritance:
   - System.Object
-  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase
   implements: []
   inheritedMembers:
-  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.Id
-  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultCode
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase.Id
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase.ResultCode
   attributes:
   - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
   modifiers.csharp:
@@ -98,12 +98,12 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
   fullName: OpenSpartan.Grunt.Models.HaloInfinite
   type: namespace
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
   isExternal: false
-  name: ResultContainer
-  nameWithType: ResultContainer
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  name: ResultContainerBase
+  nameWithType: ResultContainerBase
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsrResults.#ctor
   parent: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsrResults
   isExternal: false
@@ -144,17 +144,17 @@ references:
   monikers:
   - net6.0
   type: property
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.Id
-  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase.Id
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase
   isExternal: false
   name: Id
-  nameWithType: ResultContainer.Id
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.Id
+  nameWithType: ResultContainerBase.Id
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase.Id
   type: property
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultCode
-  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase.ResultCode
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase
   isExternal: false
   name: ResultCode
-  nameWithType: ResultContainer.ResultCode
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer.ResultCode
+  nameWithType: ResultContainerBase.ResultCode
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase.ResultCode
   type: property

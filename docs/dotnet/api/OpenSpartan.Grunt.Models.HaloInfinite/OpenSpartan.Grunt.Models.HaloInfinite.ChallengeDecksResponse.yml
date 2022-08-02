@@ -1,0 +1,256 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  id: ChallengeDecksResponse
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ActiveRewardTrack
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.AssignedDecks
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ClearanceId
+  langs:
+  - csharp
+  name: ChallengeDecksResponse
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class ChallengeDecksResponse
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class ChallengeDecksResponse
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  langs:
+  - csharp
+  name: ChallengeDecksResponse()
+  nameWithType: ChallengeDecksResponse.ChallengeDecksResponse()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ChallengeDecksResponse()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public ChallengeDecksResponse ();
+    parameters: []
+    content.csharp: public ChallengeDecksResponse ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ActiveRewardTrack
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ActiveRewardTrack
+  id: ActiveRewardTrack
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  langs:
+  - csharp
+  name: ActiveRewardTrack
+  nameWithType: ChallengeDecksResponse.ActiveRewardTrack
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ActiveRewardTrack
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.RewardTrack ActiveRewardTrack { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrack
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.RewardTrack ActiveRewardTrack { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ActiveRewardTrack*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.AssignedDecks
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.AssignedDecks
+  id: AssignedDecks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  langs:
+  - csharp
+  name: AssignedDecks
+  nameWithType: ChallengeDecksResponse.AssignedDecks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.AssignedDecks
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck[] AssignedDecks { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck[]
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck[] AssignedDecks { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.AssignedDecks*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ClearanceId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ClearanceId
+  id: ClearanceId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  langs:
+  - csharp
+  name: ClearanceId
+  nameWithType: ChallengeDecksResponse.ClearanceId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ClearanceId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string ClearanceId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string ClearanceId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ClearanceId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  isExternal: false
+  name: ChallengeDecksResponse()
+  nameWithType: ChallengeDecksResponse.ChallengeDecksResponse()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ChallengeDecksResponse()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ActiveRewardTrack
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  isExternal: false
+  name: ActiveRewardTrack
+  nameWithType: ChallengeDecksResponse.ActiveRewardTrack
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ActiveRewardTrack
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrack
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: RewardTrack
+  nameWithType: RewardTrack
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RewardTrack
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.AssignedDecks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  isExternal: false
+  name: AssignedDecks
+  nameWithType: ChallengeDecksResponse.AssignedDecks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.AssignedDecks
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  name: ChallengeDeck
+  nameWithType: ChallengeDeck
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck[]
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  name: ChallengeDeck[]
+  nameWithType: ChallengeDeck[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck[]
+  spec.csharp:
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+    name: ChallengeDeck
+    nameWithType: ChallengeDeck
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ClearanceId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  isExternal: false
+  name: ClearanceId
+  nameWithType: ChallengeDecksResponse.ClearanceId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ClearanceId
+  type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  isExternal: false
+  name: ChallengeDecksResponse
+  nameWithType: ChallengeDecksResponse.ChallengeDecksResponse
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ChallengeDecksResponse
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ActiveRewardTrack*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ActiveRewardTrack
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  isExternal: false
+  name: ActiveRewardTrack
+  nameWithType: ChallengeDecksResponse.ActiveRewardTrack
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ActiveRewardTrack
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.AssignedDecks*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.AssignedDecks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  isExternal: false
+  name: AssignedDecks
+  nameWithType: ChallengeDecksResponse.AssignedDecks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.AssignedDecks
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ClearanceId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ClearanceId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  isExternal: false
+  name: ClearanceId
+  nameWithType: ChallengeDecksResponse.ClearanceId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse.ClearanceId
+  monikers:
+  - net6.0
+  type: property

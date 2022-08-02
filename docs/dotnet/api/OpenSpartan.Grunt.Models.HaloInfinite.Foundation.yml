@@ -4,11 +4,11 @@ items:
   commentId: N:OpenSpartan.Grunt.Models.HaloInfinite.Foundation
   id: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
   children:
-  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
-  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
-  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
-  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
-  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AssetBase
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase
+  - OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
   langs:
   - csharp
   name: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
@@ -18,43 +18,43 @@ items:
   monikers:
   - net6.0
 references:
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
-  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AssetBase
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AssetBase
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
   isExternal: false
-  name: Asset
-  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Asset
+  name: AssetBase
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AssetBase
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AssetBase
   type: class
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
-  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
   isExternal: false
-  name: AuthoringResultContainer
-  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainer
+  name: AuthoringResultContainerBase
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.AuthoringResultContainerBase
   type: class
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
-  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
   isExternal: false
-  name: Core
-  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Core
+  name: CoreBase
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.CoreBase
   type: class
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
-  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
   isExternal: false
-  name: ResultContainer
-  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainer
+  name: ResultContainerBase
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ResultContainerBase
   type: class
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
-  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Foundation
   isExternal: false
-  name: Theme
-  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.Theme
+  name: ThemeBase
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Foundation.ThemeBase
   type: class

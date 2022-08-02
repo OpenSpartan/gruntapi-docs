@@ -15,7 +15,6 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.AchievementCollection
   - OpenSpartan.Grunt.Models.HaloInfinite.ActiveBoost
   - OpenSpartan.Grunt.Models.HaloInfinite.ActiveBoostsContainer
-  - OpenSpartan.Grunt.Models.HaloInfinite.ActiveChallenge
   - OpenSpartan.Grunt.Models.HaloInfinite.AiCore
   - OpenSpartan.Grunt.Models.HaloInfinite.AiCoreCollection
   - OpenSpartan.Grunt.Models.HaloInfinite.AiCoreContainer
@@ -39,7 +38,6 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.AssetSearchResult
   - OpenSpartan.Grunt.Models.HaloInfinite.AssetTag
   - OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
-  - OpenSpartan.Grunt.Models.HaloInfinite.AssignedDeck
   - OpenSpartan.Grunt.Models.HaloInfinite.AsyncComputeOverrides
   - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAsset
   - OpenSpartan.Grunt.Models.HaloInfinite.AuthoringAssetContainer
@@ -59,12 +57,13 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.BansSummaryQueryResult
   - OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
   - OpenSpartan.Grunt.Models.HaloInfinite.Challenge
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
   - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
   - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeProgressState
   - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward
   - OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot
   - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
-  - OpenSpartan.Grunt.Models.HaloInfinite.CompletedChallenge
   - OpenSpartan.Grunt.Models.HaloInfinite.Configuration
   - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
   - OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals
@@ -164,7 +163,6 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.PlayerCores
   - OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomization
   - OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection
-  - OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
   - OpenSpartan.Grunt.Models.HaloInfinite.PlayerGiveaways
   - OpenSpartan.Grunt.Models.HaloInfinite.PlayerInventory
   - OpenSpartan.Grunt.Models.HaloInfinite.PlayerItem
@@ -226,7 +224,6 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.Transaction
   - OpenSpartan.Grunt.Models.HaloInfinite.TransactionSnapshot
   - OpenSpartan.Grunt.Models.HaloInfinite.UGCGameVariant
-  - OpenSpartan.Grunt.Models.HaloInfinite.UpcomingChallenge
   - OpenSpartan.Grunt.Models.HaloInfinite.VehicleCore
   - OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreCollection
   - OpenSpartan.Grunt.Models.HaloInfinite.VehicleCoreTheme
@@ -330,14 +327,6 @@ references:
   name: ActiveBoostsContainer
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ActiveBoostsContainer
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.ActiveBoostsContainer
-  type: class
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.ActiveChallenge
-  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ActiveChallenge
-  parent: OpenSpartan.Grunt.Models.HaloInfinite
-  isExternal: false
-  name: ActiveChallenge
-  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ActiveChallenge
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ActiveChallenge
   type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.AiCore
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AiCore
@@ -523,14 +512,6 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile
   type: class
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.AssignedDeck
-  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AssignedDeck
-  parent: OpenSpartan.Grunt.Models.HaloInfinite
-  isExternal: false
-  name: AssignedDeck
-  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.AssignedDeck
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssignedDeck
-  type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.AsyncComputeOverrides
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.AsyncComputeOverrides
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -683,6 +664,14 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
   type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: ChallengeDeck
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
+  type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -690,6 +679,14 @@ references:
   name: ChallengeDeckDefinition
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: ChallengeDecksResponse
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDecksResponse
   type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.ChallengeProgressState
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ChallengeProgressState
@@ -722,14 +719,6 @@ references:
   name: CommonItemData
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
-  type: class
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.CompletedChallenge
-  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.CompletedChallenge
-  parent: OpenSpartan.Grunt.Models.HaloInfinite
-  isExternal: false
-  name: CompletedChallenge
-  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.CompletedChallenge
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CompletedChallenge
   type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Configuration
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Configuration
@@ -1523,14 +1512,6 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerCustomizationCollection
   type: class
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
-  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
-  parent: OpenSpartan.Grunt.Models.HaloInfinite
-  isExternal: false
-  name: PlayerDecks
-  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerDecks
-  type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerGiveaways
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PlayerGiveaways
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -2018,14 +1999,6 @@ references:
   name: UGCGameVariant
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.UGCGameVariant
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.UGCGameVariant
-  type: class
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.UpcomingChallenge
-  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.UpcomingChallenge
-  parent: OpenSpartan.Grunt.Models.HaloInfinite
-  isExternal: false
-  name: UpcomingChallenge
-  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.UpcomingChallenge
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.UpcomingChallenge
   type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.VehicleCore
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.VehicleCore
