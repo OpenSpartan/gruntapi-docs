@@ -107,11 +107,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public string RankedRewards { get; set; }
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards RankedRewards { get; set; }
     return:
-      type: System.String
+      type: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
       description: ''
-    content.csharp: public string RankedRewards { get; set; }
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards RankedRewards { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.SkillResult.RankedRewards*
   exceptions: []
   modifiers.csharp:
@@ -296,12 +296,12 @@ references:
   nameWithType: SkillResult.RankedRewards
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.SkillResult.RankedRewards
   type: property
-- uid: System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: RankedRewards
+  nameWithType: RankedRewards
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.SkillResult.RankRecap
   parent: OpenSpartan.Grunt.Models.HaloInfinite.SkillResult
   isExternal: false
@@ -366,6 +366,11 @@ references:
   name: Dictionary
   nameWithType: Dictionary
   fullName: System.Collections.Generic.Dictionary
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Collections.Generic.Dictionary{System.String,System.Double}
   parent: System.Collections.Generic
   name: Dictionary<String,Double>

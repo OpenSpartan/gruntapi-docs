@@ -841,6 +841,10 @@
     name: Query
     monikers:
     - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+    name: RankedRewards
+    monikers:
+    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
     name: RankRecap
     monikers:

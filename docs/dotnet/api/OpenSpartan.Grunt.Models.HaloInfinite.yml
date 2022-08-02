@@ -190,6 +190,7 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.Price
   - OpenSpartan.Grunt.Models.HaloInfinite.Project
   - OpenSpartan.Grunt.Models.HaloInfinite.Query
+  - OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
   - OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
   - OpenSpartan.Grunt.Models.HaloInfinite.RankSnapshot
   - OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
@@ -1730,6 +1731,14 @@ references:
   name: Query
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Query
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.Query
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: RankedRewards
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
   type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.RankRecap
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.RankRecap

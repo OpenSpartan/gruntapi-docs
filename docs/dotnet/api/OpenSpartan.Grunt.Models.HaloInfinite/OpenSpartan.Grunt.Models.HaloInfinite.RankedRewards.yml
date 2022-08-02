@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+  id: RankedRewards
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.AwardedRewards
+  - OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.RewardId
+  langs:
+  - csharp
+  name: RankedRewards
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class RankedRewards
+    content.csharp: >-
+      [[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]]
+
+      public class RankedRewards
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  attributes:
+  - type: '[OpenSpartan.Grunt.Models.IsAutomaticallySerializable]Attribute'
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+  langs:
+  - csharp
+  name: RankedRewards()
+  nameWithType: RankedRewards.RankedRewards()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.RankedRewards()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public RankedRewards ();
+    parameters: []
+    content.csharp: public RankedRewards ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.AwardedRewards
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.AwardedRewards
+  id: AwardedRewards
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+  langs:
+  - csharp
+  name: AwardedRewards
+  nameWithType: RankedRewards.AwardedRewards
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.AwardedRewards
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public System.Collections.Generic.Dictionary<string,string> AwardedRewards { get; set; }
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: ''
+    content.csharp: public System.Collections.Generic.Dictionary<string,string> AwardedRewards { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.AwardedRewards*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.RewardId
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.RewardId
+  id: RewardId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+  langs:
+  - csharp
+  name: RewardId
+  nameWithType: RankedRewards.RewardId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.RewardId
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public string RewardId { get; set; }
+    return:
+      type: System.String
+      description: ''
+    content.csharp: public string RewardId { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.RewardId*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+  isExternal: false
+  name: RankedRewards()
+  nameWithType: RankedRewards.RankedRewards()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.RankedRewards()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.AwardedRewards
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+  isExternal: false
+  name: AwardedRewards
+  nameWithType: RankedRewards.AwardedRewards
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.AwardedRewards
+  type: property
+- uid: System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary
+  nameWithType: Dictionary
+  fullName: System.Collections.Generic.Dictionary
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  name: Dictionary<String,String>
+  nameWithType: Dictionary<String,String>
+  fullName: System.Collections.Generic.Dictionary<System.String,System.String>
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.RewardId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+  isExternal: false
+  name: RewardId
+  nameWithType: RankedRewards.RewardId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.RewardId
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+  isExternal: false
+  name: RankedRewards
+  nameWithType: RankedRewards.RankedRewards
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.RankedRewards
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.AwardedRewards*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.AwardedRewards
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+  isExternal: false
+  name: AwardedRewards
+  nameWithType: RankedRewards.AwardedRewards
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.AwardedRewards
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.RewardId*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.RewardId
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards
+  isExternal: false
+  name: RewardId
+  nameWithType: RankedRewards.RewardId
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.RankedRewards.RewardId
+  monikers:
+  - net6.0
+  type: property
