@@ -134,11 +134,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public OpenSpartan.Grunt.Models.HaloInfinite.Links Links { get; set; }
+    content: public System.Collections.Generic.Dictionary<string,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference>? Links { get; set; }
     return:
-      type: OpenSpartan.Grunt.Models.HaloInfinite.Links
+      type: System.Collections.Generic.Dictionary{System.String,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference}
       description: ''
-    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Links Links { get; set; }
+    content.csharp: public System.Collections.Generic.Dictionary<string,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference>? Links { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Links*
   exceptions: []
   modifiers.csharp:
@@ -303,12 +303,47 @@ references:
   nameWithType: SearchResultsContainer.Links
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.Links
   type: property
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Links
-  parent: OpenSpartan.Grunt.Models.HaloInfinite
-  isExternal: false
-  name: Links
-  nameWithType: Links
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Links
+- uid: System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary
+  nameWithType: Dictionary
+  fullName: System.Collections.Generic.Dictionary
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference
+  name: OnlineUriReference
+  nameWithType: OnlineUriReference
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference
+- uid: System.Collections.Generic.Dictionary{System.String,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference}
+  parent: System.Collections.Generic
+  name: Dictionary<String,OnlineUriReference>
+  nameWithType: Dictionary<String,OnlineUriReference>
+  fullName: System.Collections.Generic.Dictionary<System.String,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference>
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference
+    name: OnlineUriReference
+    nameWithType: OnlineUriReference
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer.ResultCount
   parent: OpenSpartan.Grunt.Models.HaloInfinite.SearchResultsContainer
   isExternal: false

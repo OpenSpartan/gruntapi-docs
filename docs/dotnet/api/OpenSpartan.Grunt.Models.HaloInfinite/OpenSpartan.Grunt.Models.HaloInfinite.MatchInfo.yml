@@ -90,11 +90,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public string ClearanceId { get; set; }
+    content: public Guid ClearanceId { get; set; }
     return:
-      type: System.String
+      type: System.Guid
       description: ''
-    content.csharp: public string ClearanceId { get; set; }
+    content.csharp: public Guid ClearanceId { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.ClearanceId*
   exceptions: []
   modifiers.csharp:
@@ -198,11 +198,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public string LevelId { get; set; }
+    content: public Guid LevelId { get; set; }
     return:
-      type: System.String
+      type: System.Guid
       description: ''
-    content.csharp: public string LevelId { get; set; }
+    content.csharp: public Guid LevelId { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LevelId*
   exceptions: []
   modifiers.csharp:
@@ -279,11 +279,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public string PlayableDuration { get; set; }
+    content: public TimeSpan PlayableDuration { get; set; }
     return:
-      type: System.String
+      type: System.TimeSpan
       description: ''
-    content.csharp: public string PlayableDuration { get; set; }
+    content.csharp: public TimeSpan PlayableDuration { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.PlayableDuration*
   exceptions: []
   modifiers.csharp:
@@ -536,12 +536,12 @@ references:
   nameWithType: MatchInfo.ClearanceId
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.ClearanceId
   type: property
-- uid: System.String
+- uid: System.Guid
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.Duration
   parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
   isExternal: false
@@ -715,6 +715,12 @@ references:
   nameWithType: MatchInfo.SeasonId
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.SeasonId
   type: property
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.StartTime
   parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
   isExternal: false

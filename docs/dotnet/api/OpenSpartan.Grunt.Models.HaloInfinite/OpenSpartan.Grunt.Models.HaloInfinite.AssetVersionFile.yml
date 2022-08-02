@@ -130,11 +130,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint PrefixEndpoint { get; set; }
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference PrefixEndpoint { get; set; }
     return:
-      type: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+      type: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference
       description: ''
-    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint PrefixEndpoint { get; set; }
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference PrefixEndpoint { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint*
   exceptions: []
   modifiers.csharp:
@@ -203,12 +203,12 @@ references:
   nameWithType: AssetVersionFile.PrefixEndpoint
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.PrefixEndpoint
   type: property
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference
   parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
   isExternal: false
-  name: ApiEndpoint
-  nameWithType: ApiEndpoint
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  name: OnlineUriReference
+  nameWithType: OnlineUriReference
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.#ctor*
   commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile.#ctor
   parent: OpenSpartan.Grunt.Models.HaloInfinite.AssetVersionFile

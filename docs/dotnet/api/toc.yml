@@ -305,12 +305,8 @@
     name: BanResult
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.BanSummary
-    name: BanSummary
-    monikers:
-    - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.BanSummaryResult
-    name: BanSummaryResult
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.BansSummaryQueryResult
+    name: BansSummaryQueryResult
     monikers:
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
@@ -541,10 +537,6 @@
     name: KillDeathStats
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Links
-    name: Links
-    monikers:
-    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
     name: LobbyHopperErrorMessage
     monikers:
@@ -623,6 +615,10 @@
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchProgression
     name: MatchProgression
+    monikers:
+    - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchSkillInfo
+    name: MatchSkillInfo
     monikers:
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchStats
@@ -765,14 +761,6 @@
     name: PlayerMatchHistoryRecord
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResult
-    name: PlayerSkillResult
-    monikers:
-    - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResultContainer
-    name: PlayerSkillResultContainer
-    monikers:
-    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerState
     name: PlayerState
     monikers:
@@ -851,6 +839,10 @@
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.RankSnapshot
     name: RankSnapshot
+    monikers:
+    - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Result
+    name: Result
     monikers:
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.ResultOrder
@@ -953,6 +945,10 @@
     name: TargetAsset
     monikers:
     - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.TargetBanSummary
+    name: TargetBanSummary
+    monikers:
+    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.Team
     name: Team
     monikers:
@@ -1026,28 +1022,28 @@
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
   name: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
   items:
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiAuthority
-    name: ApiAuthority
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Authority
+    name: Authority
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
-    name: ApiEndpoint
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+    name: Configuration
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiRetryOptions
-    name: ApiRetryOptions
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference
+    name: OnlineUriReference
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiRetryPolicy
-    name: ApiRetryPolicy
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.RetryOptions
+    name: RetryOptions
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettings
-    name: ApiSettings
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.RetryPolicy
+    name: RetryPolicy
     monikers:
     - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiSettingsContainer
-    name: ApiSettingsContainer
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Settings
+    name: Settings
     monikers:
     - net6.0
   monikers:

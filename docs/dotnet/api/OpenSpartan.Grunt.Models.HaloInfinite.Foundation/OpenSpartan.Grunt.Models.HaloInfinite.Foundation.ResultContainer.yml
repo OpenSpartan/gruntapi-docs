@@ -22,9 +22,9 @@ items:
   inheritance:
   - System.Object
   derivedClasses:
-  - OpenSpartan.Grunt.Models.HaloInfinite.BanSummaryResult
-  - OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResult
   - OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsrResults
+  - OpenSpartan.Grunt.Models.HaloInfinite.SkillResult
+  - OpenSpartan.Grunt.Models.HaloInfinite.TargetBanSummary
   implements: []
   inheritedMembers: []
   modifiers.csharp:
@@ -189,22 +189,6 @@ references:
   monikers:
   - net6.0
   type: property
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.BanSummaryResult
-  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.BanSummaryResult
-  parent: OpenSpartan.Grunt.Models.HaloInfinite
-  isExternal: false
-  name: BanSummaryResult
-  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.BanSummaryResult
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BanSummaryResult
-  type: class
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResult
-  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResult
-  parent: OpenSpartan.Grunt.Models.HaloInfinite
-  isExternal: false
-  name: PlayerSkillResult
-  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResult
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerSkillResult
-  type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsrResults
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsrResults
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -212,4 +196,20 @@ references:
   name: PlaylistCsrResults
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsrResults
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlaylistCsrResults
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.SkillResult
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.SkillResult
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: SkillResult
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.SkillResult
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.SkillResult
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.TargetBanSummary
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.TargetBanSummary
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: TargetBanSummary
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.TargetBanSummary
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.TargetBanSummary
   type: class

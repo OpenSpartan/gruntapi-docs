@@ -187,11 +187,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint MediaUrl { get; set; }
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference MediaUrl { get; set; }
     return:
-      type: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+      type: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference
       description: ''
-    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint MediaUrl { get; set; }
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference MediaUrl { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.Media.MediaUrl*
   exceptions: []
   modifiers.csharp:
@@ -295,12 +295,12 @@ references:
   nameWithType: Media.MediaUrl
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.Media.MediaUrl
   type: property
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference
   parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
   isExternal: false
-  name: ApiEndpoint
-  nameWithType: ApiEndpoint
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.ApiEndpoint
+  name: OnlineUriReference
+  nameWithType: OnlineUriReference
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Media.MimeType
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Media
   isExternal: false

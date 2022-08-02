@@ -1,0 +1,378 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  id: Configuration
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Authorities
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Endpoints
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.RetryPolicies
+  - OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Settings
+  langs:
+  - csharp
+  name: Configuration
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  summary: Configuration related to existing game endpoints. This class is used by <xref data-throw-if-not-resolved="true" uid="OpenSpartan.Grunt.Core.HaloInfiniteClient"></xref> to get the general list of available API endpoints.
+  syntax:
+    content: public class Configuration
+    content.csharp: public class Configuration
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  langs:
+  - csharp
+  name: Configuration()
+  nameWithType: Configuration.Configuration()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Configuration()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  syntax:
+    content: public Configuration ();
+    parameters: []
+    content.csharp: public Configuration ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Authorities
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Authorities
+  id: Authorities
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  langs:
+  - csharp
+  name: Authorities
+  nameWithType: Configuration.Authorities
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Authorities
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  summary: Gets or sets the list of available authorities.
+  syntax:
+    content: public System.Collections.Generic.Dictionary<string,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Authority>? Authorities { get; set; }
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Authority}
+      description: ''
+    content.csharp: public System.Collections.Generic.Dictionary<string,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Authority>? Authorities { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Authorities*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Endpoints
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Endpoints
+  id: Endpoints
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  langs:
+  - csharp
+  name: Endpoints
+  nameWithType: Configuration.Endpoints
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Endpoints
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  summary: Gets or sets the list of available API endpoints that map to <xref data-throw-if-not-resolved="true" uid="OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Authorities"></xref>.
+  syntax:
+    content: public System.Collections.Generic.Dictionary<string,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference>? Endpoints { get; set; }
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference}
+      description: ''
+    content.csharp: public System.Collections.Generic.Dictionary<string,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference>? Endpoints { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Endpoints*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.RetryPolicies
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.RetryPolicies
+  id: RetryPolicies
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  langs:
+  - csharp
+  name: RetryPolicies
+  nameWithType: Configuration.RetryPolicies
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.RetryPolicies
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  summary: Gets or sets the list of designated retry policies for supported endpoints.
+  syntax:
+    content: public System.Collections.Generic.Dictionary<string,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.RetryPolicy>? RetryPolicies { get; set; }
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.RetryPolicy}
+      description: ''
+    content.csharp: public System.Collections.Generic.Dictionary<string,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.RetryPolicy>? RetryPolicies { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.RetryPolicies*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Settings
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Settings
+  id: Settings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  langs:
+  - csharp
+  name: Settings
+  nameWithType: Configuration.Settings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Settings
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  summary: Gets or sets the generalized list of app settings such as HTTP request and response headers, whether logging is enabled or not, and others.
+  syntax:
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Settings? Settings { get; set; }
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Settings
+      description: ''
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Settings? Settings { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Settings*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  isExternal: false
+  name: Configuration()
+  nameWithType: Configuration.Configuration()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Configuration()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Authorities
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  isExternal: false
+  name: Authorities
+  nameWithType: Configuration.Authorities
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Authorities
+  type: property
+- uid: System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary
+  nameWithType: Dictionary
+  fullName: System.Collections.Generic.Dictionary
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Authority
+  name: Authority
+  nameWithType: Authority
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Authority
+- uid: System.Collections.Generic.Dictionary{System.String,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Authority}
+  parent: System.Collections.Generic
+  name: Dictionary<String,Authority>
+  nameWithType: Dictionary<String,Authority>
+  fullName: System.Collections.Generic.Dictionary<System.String,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Authority>
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Authority
+    name: Authority
+    nameWithType: Authority
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Authority
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Endpoints
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  isExternal: false
+  name: Endpoints
+  nameWithType: Configuration.Endpoints
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Endpoints
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference
+  name: OnlineUriReference
+  nameWithType: OnlineUriReference
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference
+- uid: System.Collections.Generic.Dictionary{System.String,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference}
+  parent: System.Collections.Generic
+  name: Dictionary<String,OnlineUriReference>
+  nameWithType: Dictionary<String,OnlineUriReference>
+  fullName: System.Collections.Generic.Dictionary<System.String,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference>
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference
+    name: OnlineUriReference
+    nameWithType: OnlineUriReference
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.OnlineUriReference
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.RetryPolicies
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  isExternal: false
+  name: RetryPolicies
+  nameWithType: Configuration.RetryPolicies
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.RetryPolicies
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.RetryPolicy
+  name: RetryPolicy
+  nameWithType: RetryPolicy
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.RetryPolicy
+- uid: System.Collections.Generic.Dictionary{System.String,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.RetryPolicy}
+  parent: System.Collections.Generic
+  name: Dictionary<String,RetryPolicy>
+  nameWithType: Dictionary<String,RetryPolicy>
+  fullName: System.Collections.Generic.Dictionary<System.String,OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.RetryPolicy>
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.RetryPolicy
+    name: RetryPolicy
+    nameWithType: RetryPolicy
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.RetryPolicy
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Settings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  isExternal: false
+  name: Settings
+  nameWithType: Configuration.Settings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Settings
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Settings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress
+  isExternal: false
+  name: Settings
+  nameWithType: Settings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Settings
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  isExternal: false
+  name: Configuration
+  nameWithType: Configuration.Configuration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Configuration
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Authorities*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Authorities
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  isExternal: false
+  name: Authorities
+  nameWithType: Configuration.Authorities
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Authorities
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Endpoints*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Endpoints
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  isExternal: false
+  name: Endpoints
+  nameWithType: Configuration.Endpoints
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Endpoints
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.RetryPolicies*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.RetryPolicies
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  isExternal: false
+  name: RetryPolicies
+  nameWithType: Configuration.RetryPolicies
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.RetryPolicies
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Settings*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Settings
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration
+  isExternal: false
+  name: Settings
+  nameWithType: Configuration.Settings
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ApiIngress.Configuration.Settings
+  monikers:
+  - net6.0
+  type: property
