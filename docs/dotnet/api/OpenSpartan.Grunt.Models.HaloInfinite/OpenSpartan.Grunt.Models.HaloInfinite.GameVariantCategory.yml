@@ -4,15 +4,24 @@ items:
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
   id: GameVariantCategory
   children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAssault
   - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAttrition
   - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerBastion
   - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerCtf
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerElimination
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerEscort
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerExtraction
   - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerFiesta
   - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerGrifball
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerGunGame
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerJuggernaut
   - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerLandGrab
   - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerOddball
   - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerSlayer
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerStockpile
   - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerStrongholds
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerTotalControl
+  - OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.TestEngine
   langs:
   - csharp
   name: GameVariantCategory
@@ -35,6 +44,30 @@ items:
   _op_AssemblyMonikerMapping:
     OpenSpartan.Grunt:
     - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAssault
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAssault
+  id: MultiplayerAssault
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: MultiplayerAssault
+  nameWithType: GameVariantCategory.MultiplayerAssault
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAssault
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Assault
+  syntax:
+    content: MultiplayerAssault
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: MultiplayerAssault
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "16"
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAttrition
   commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAttrition
   id: MultiplayerAttrition
@@ -48,6 +81,7 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Attrition
   syntax:
     content: MultiplayerAttrition
     return:
@@ -71,6 +105,7 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: King of the Hill
   syntax:
     content: MultiplayerBastion
     return:
@@ -94,6 +129,7 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Capture the Flag
   syntax:
     content: MultiplayerCtf
     return:
@@ -104,6 +140,78 @@ items:
   monikers:
   - net6.0
   literalValue: "15"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerElimination
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerElimination
+  id: MultiplayerElimination
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: MultiplayerElimination
+  nameWithType: GameVariantCategory.MultiplayerElimination
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerElimination
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Elimination
+  syntax:
+    content: MultiplayerElimination
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: MultiplayerElimination
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "8"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerEscort
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerEscort
+  id: MultiplayerEscort
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: MultiplayerEscort
+  nameWithType: GameVariantCategory.MultiplayerEscort
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerEscort
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: VIP
+  syntax:
+    content: MultiplayerEscort
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: MultiplayerEscort
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "23"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerExtraction
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerExtraction
+  id: MultiplayerExtraction
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: MultiplayerExtraction
+  nameWithType: GameVariantCategory.MultiplayerExtraction
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerExtraction
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Extraction
+  syntax:
+    content: MultiplayerExtraction
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: MultiplayerExtraction
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "17"
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerFiesta
   commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerFiesta
   id: MultiplayerFiesta
@@ -117,6 +225,7 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Fiesta
   syntax:
     content: MultiplayerFiesta
     return:
@@ -140,6 +249,7 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Grifball
   syntax:
     content: MultiplayerGrifball
     return:
@@ -150,6 +260,54 @@ items:
   monikers:
   - net6.0
   literalValue: "25"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerGunGame
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerGunGame
+  id: MultiplayerGunGame
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: MultiplayerGunGame
+  nameWithType: GameVariantCategory.MultiplayerGunGame
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerGunGame
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Escalation
+  syntax:
+    content: MultiplayerGunGame
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: MultiplayerGunGame
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "24"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerJuggernaut
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerJuggernaut
+  id: MultiplayerJuggernaut
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: MultiplayerJuggernaut
+  nameWithType: GameVariantCategory.MultiplayerJuggernaut
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerJuggernaut
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Juggernaut
+  syntax:
+    content: MultiplayerJuggernaut
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: MultiplayerJuggernaut
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "20"
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerLandGrab
   commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerLandGrab
   id: MultiplayerLandGrab
@@ -163,6 +321,7 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Land Grab
   syntax:
     content: MultiplayerLandGrab
     return:
@@ -186,6 +345,7 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Oddball
   syntax:
     content: MultiplayerOddball
     return:
@@ -209,6 +369,7 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Slayer
   syntax:
     content: MultiplayerSlayer
     return:
@@ -219,6 +380,30 @@ items:
   monikers:
   - net6.0
   literalValue: "6"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerStockpile
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerStockpile
+  id: MultiplayerStockpile
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: MultiplayerStockpile
+  nameWithType: GameVariantCategory.MultiplayerStockpile
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerStockpile
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Stockpile
+  syntax:
+    content: MultiplayerStockpile
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: MultiplayerStockpile
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "19"
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerStrongholds
   commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerStrongholds
   id: MultiplayerStrongholds
@@ -232,6 +417,7 @@ items:
   assemblies:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Strongholds
   syntax:
     content: MultiplayerStrongholds
     return:
@@ -242,6 +428,54 @@ items:
   monikers:
   - net6.0
   literalValue: "11"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerTotalControl
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerTotalControl
+  id: MultiplayerTotalControl
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: MultiplayerTotalControl
+  nameWithType: GameVariantCategory.MultiplayerTotalControl
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerTotalControl
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Total Control
+  syntax:
+    content: MultiplayerTotalControl
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: MultiplayerTotalControl
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "14"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.TestEngine
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.TestEngine
+  id: TestEngine
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  langs:
+  - csharp
+  name: TestEngine
+  nameWithType: GameVariantCategory.TestEngine
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.TestEngine
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  summary: Test game variant
+  syntax:
+    content: TestEngine
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+      description: ''
+    content.csharp: TestEngine
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "32"
 references:
 - uid: OpenSpartan.Grunt.Models.HaloInfinite
   commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
@@ -256,12 +490,12 @@ references:
   name: Enum
   nameWithType: Enum
   fullName: System.Enum
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAttrition
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAssault
   parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
   isExternal: false
-  name: MultiplayerAttrition
-  nameWithType: GameVariantCategory.MultiplayerAttrition
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAttrition
+  name: MultiplayerAssault
+  nameWithType: GameVariantCategory.MultiplayerAssault
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAssault
   type: field
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -269,6 +503,13 @@ references:
   name: GameVariantCategory
   nameWithType: GameVariantCategory
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAttrition
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: MultiplayerAttrition
+  nameWithType: GameVariantCategory.MultiplayerAttrition
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerAttrition
+  type: field
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerBastion
   parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
   isExternal: false
@@ -283,6 +524,27 @@ references:
   nameWithType: GameVariantCategory.MultiplayerCtf
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerCtf
   type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerElimination
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: MultiplayerElimination
+  nameWithType: GameVariantCategory.MultiplayerElimination
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerElimination
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerEscort
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: MultiplayerEscort
+  nameWithType: GameVariantCategory.MultiplayerEscort
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerEscort
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerExtraction
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: MultiplayerExtraction
+  nameWithType: GameVariantCategory.MultiplayerExtraction
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerExtraction
+  type: field
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerFiesta
   parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
   isExternal: false
@@ -296,6 +558,20 @@ references:
   name: MultiplayerGrifball
   nameWithType: GameVariantCategory.MultiplayerGrifball
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerGrifball
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerGunGame
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: MultiplayerGunGame
+  nameWithType: GameVariantCategory.MultiplayerGunGame
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerGunGame
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerJuggernaut
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: MultiplayerJuggernaut
+  nameWithType: GameVariantCategory.MultiplayerJuggernaut
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerJuggernaut
   type: field
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerLandGrab
   parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
@@ -318,10 +594,31 @@ references:
   nameWithType: GameVariantCategory.MultiplayerSlayer
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerSlayer
   type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerStockpile
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: MultiplayerStockpile
+  nameWithType: GameVariantCategory.MultiplayerStockpile
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerStockpile
+  type: field
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerStrongholds
   parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
   isExternal: false
   name: MultiplayerStrongholds
   nameWithType: GameVariantCategory.MultiplayerStrongholds
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerStrongholds
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerTotalControl
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: MultiplayerTotalControl
+  nameWithType: GameVariantCategory.MultiplayerTotalControl
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.MultiplayerTotalControl
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.TestEngine
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory
+  isExternal: false
+  name: TestEngine
+  nameWithType: GameVariantCategory.TestEngine
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.GameVariantCategory.TestEngine
   type: field

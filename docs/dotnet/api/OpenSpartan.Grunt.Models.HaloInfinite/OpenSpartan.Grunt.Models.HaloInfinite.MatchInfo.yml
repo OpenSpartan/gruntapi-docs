@@ -225,11 +225,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public int LifecycleMode { get; set; }
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode LifecycleMode { get; set; }
     return:
-      type: System.Int32
+      type: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
       description: ''
-    content.csharp: public int LifecycleMode { get; set; }
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode LifecycleMode { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LifecycleMode*
   exceptions: []
   modifiers.csharp:
@@ -637,12 +637,12 @@ references:
   nameWithType: MatchInfo.LifecycleMode
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.LifecycleMode
   type: property
-- uid: System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: LifecyleMode
+  nameWithType: LifecyleMode
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo.MapVariant
   parent: OpenSpartan.Grunt.Models.HaloInfinite.MatchInfo
   isExternal: false

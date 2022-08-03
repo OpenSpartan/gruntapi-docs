@@ -1,0 +1,315 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  id: ExtractionStats
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsCompleted
+  - OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsDenied
+  - OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsCompleted
+  - OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsDenied
+  - OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.SuccessfulExtractions
+  langs:
+  - csharp
+  name: ExtractionStats
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public class ExtractionStats
+    content.csharp: public class ExtractionStats
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  langs:
+  - csharp
+  name: ExtractionStats()
+  nameWithType: ExtractionStats.ExtractionStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionStats()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public ExtractionStats ();
+    parameters: []
+    content.csharp: public ExtractionStats ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsCompleted
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsCompleted
+  id: ExtractionConversionsCompleted
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  langs:
+  - csharp
+  name: ExtractionConversionsCompleted
+  nameWithType: ExtractionStats.ExtractionConversionsCompleted
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsCompleted
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ExtractionConversionsCompleted { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ExtractionConversionsCompleted { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsCompleted*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsDenied
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsDenied
+  id: ExtractionConversionsDenied
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  langs:
+  - csharp
+  name: ExtractionConversionsDenied
+  nameWithType: ExtractionStats.ExtractionConversionsDenied
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsDenied
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ExtractionConversionsDenied { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ExtractionConversionsDenied { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsDenied*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsCompleted
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsCompleted
+  id: ExtractionInitiationsCompleted
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  langs:
+  - csharp
+  name: ExtractionInitiationsCompleted
+  nameWithType: ExtractionStats.ExtractionInitiationsCompleted
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsCompleted
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ExtractionInitiationsCompleted { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ExtractionInitiationsCompleted { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsCompleted*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsDenied
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsDenied
+  id: ExtractionInitiationsDenied
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  langs:
+  - csharp
+  name: ExtractionInitiationsDenied
+  nameWithType: ExtractionStats.ExtractionInitiationsDenied
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsDenied
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ExtractionInitiationsDenied { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ExtractionInitiationsDenied { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsDenied*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.SuccessfulExtractions
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.SuccessfulExtractions
+  id: SuccessfulExtractions
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  langs:
+  - csharp
+  name: SuccessfulExtractions
+  nameWithType: ExtractionStats.SuccessfulExtractions
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.SuccessfulExtractions
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int SuccessfulExtractions { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int SuccessfulExtractions { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.SuccessfulExtractions*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  isExternal: false
+  name: ExtractionStats()
+  nameWithType: ExtractionStats.ExtractionStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionStats()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsCompleted
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  isExternal: false
+  name: ExtractionConversionsCompleted
+  nameWithType: ExtractionStats.ExtractionConversionsCompleted
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsCompleted
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsDenied
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  isExternal: false
+  name: ExtractionConversionsDenied
+  nameWithType: ExtractionStats.ExtractionConversionsDenied
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsDenied
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsCompleted
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  isExternal: false
+  name: ExtractionInitiationsCompleted
+  nameWithType: ExtractionStats.ExtractionInitiationsCompleted
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsCompleted
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsDenied
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  isExternal: false
+  name: ExtractionInitiationsDenied
+  nameWithType: ExtractionStats.ExtractionInitiationsDenied
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsDenied
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.SuccessfulExtractions
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  isExternal: false
+  name: SuccessfulExtractions
+  nameWithType: ExtractionStats.SuccessfulExtractions
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.SuccessfulExtractions
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  isExternal: false
+  name: ExtractionStats
+  nameWithType: ExtractionStats.ExtractionStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionStats
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsCompleted*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsCompleted
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  isExternal: false
+  name: ExtractionConversionsCompleted
+  nameWithType: ExtractionStats.ExtractionConversionsCompleted
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsCompleted
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsDenied*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsDenied
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  isExternal: false
+  name: ExtractionConversionsDenied
+  nameWithType: ExtractionStats.ExtractionConversionsDenied
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionConversionsDenied
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsCompleted*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsCompleted
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  isExternal: false
+  name: ExtractionInitiationsCompleted
+  nameWithType: ExtractionStats.ExtractionInitiationsCompleted
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsCompleted
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsDenied*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsDenied
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  isExternal: false
+  name: ExtractionInitiationsDenied
+  nameWithType: ExtractionStats.ExtractionInitiationsDenied
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.ExtractionInitiationsDenied
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.SuccessfulExtractions*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.SuccessfulExtractions
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  isExternal: false
+  name: SuccessfulExtractions
+  nameWithType: ExtractionStats.SuccessfulExtractions
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats.SuccessfulExtractions
+  monikers:
+  - net6.0
+  type: property

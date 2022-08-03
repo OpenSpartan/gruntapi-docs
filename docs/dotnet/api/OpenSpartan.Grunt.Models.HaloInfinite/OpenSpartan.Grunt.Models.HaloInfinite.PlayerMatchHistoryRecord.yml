@@ -106,11 +106,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public string MatchId { get; set; }
+    content: public Guid MatchId { get; set; }
     return:
-      type: System.String
+      type: System.Guid
       description: ''
-    content.csharp: public string MatchId { get; set; }
+    content.csharp: public Guid MatchId { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord.MatchId*
   exceptions: []
   modifiers.csharp:
@@ -160,11 +160,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public int Outcome { get; set; }
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.Outcome Outcome { get; set; }
     return:
-      type: System.Int32
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
       description: ''
-    content.csharp: public int Outcome { get; set; }
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Outcome Outcome { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord.Outcome*
   exceptions: []
   modifiers.csharp:
@@ -268,12 +268,12 @@ references:
   nameWithType: PlayerMatchHistoryRecord.MatchId
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord.MatchId
   type: property
-- uid: System.String
+- uid: System.Guid
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord.MatchInfo
   parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord
   isExternal: false
@@ -294,6 +294,12 @@ references:
   nameWithType: PlayerMatchHistoryRecord.Outcome
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord.Outcome
   type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Outcome
+  nameWithType: Outcome
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord.PresentAtEndOfMatch
   parent: OpenSpartan.Grunt.Models.HaloInfinite.PlayerMatchHistoryRecord
   isExternal: false

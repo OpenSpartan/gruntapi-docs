@@ -1,0 +1,366 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  id: ZonesStats
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.TotalZoneOccupationTime
+  - OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneCaptures
+  - OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneDefensiveKills
+  - OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneOffensiveKills
+  - OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneScoringTicks
+  - OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneSecures
+  langs:
+  - csharp
+  name: ZonesStats
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public class ZonesStats
+    content.csharp: public class ZonesStats
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  langs:
+  - csharp
+  name: ZonesStats()
+  nameWithType: ZonesStats.ZonesStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZonesStats()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public ZonesStats ();
+    parameters: []
+    content.csharp: public ZonesStats ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.TotalZoneOccupationTime
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.TotalZoneOccupationTime
+  id: TotalZoneOccupationTime
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  langs:
+  - csharp
+  name: TotalZoneOccupationTime
+  nameWithType: ZonesStats.TotalZoneOccupationTime
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.TotalZoneOccupationTime
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public TimeSpan TotalZoneOccupationTime { get; set; }
+    return:
+      type: System.TimeSpan
+      description: ''
+    content.csharp: public TimeSpan TotalZoneOccupationTime { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.TotalZoneOccupationTime*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneCaptures
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneCaptures
+  id: ZoneCaptures
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  langs:
+  - csharp
+  name: ZoneCaptures
+  nameWithType: ZonesStats.ZoneCaptures
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneCaptures
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ZoneCaptures { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ZoneCaptures { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneCaptures*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneDefensiveKills
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneDefensiveKills
+  id: ZoneDefensiveKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  langs:
+  - csharp
+  name: ZoneDefensiveKills
+  nameWithType: ZonesStats.ZoneDefensiveKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneDefensiveKills
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ZoneDefensiveKills { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ZoneDefensiveKills { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneDefensiveKills*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneOffensiveKills
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneOffensiveKills
+  id: ZoneOffensiveKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  langs:
+  - csharp
+  name: ZoneOffensiveKills
+  nameWithType: ZonesStats.ZoneOffensiveKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneOffensiveKills
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ZoneOffensiveKills { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ZoneOffensiveKills { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneOffensiveKills*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneScoringTicks
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneScoringTicks
+  id: ZoneScoringTicks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  langs:
+  - csharp
+  name: ZoneScoringTicks
+  nameWithType: ZonesStats.ZoneScoringTicks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneScoringTicks
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ZoneScoringTicks { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ZoneScoringTicks { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneScoringTicks*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneSecures
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneSecures
+  id: ZoneSecures
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  langs:
+  - csharp
+  name: ZoneSecures
+  nameWithType: ZonesStats.ZoneSecures
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneSecures
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int ZoneSecures { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int ZoneSecures { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneSecures*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  isExternal: false
+  name: ZonesStats()
+  nameWithType: ZonesStats.ZonesStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZonesStats()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.TotalZoneOccupationTime
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  isExternal: false
+  name: TotalZoneOccupationTime
+  nameWithType: ZonesStats.TotalZoneOccupationTime
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.TotalZoneOccupationTime
+  type: property
+- uid: System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneCaptures
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  isExternal: false
+  name: ZoneCaptures
+  nameWithType: ZonesStats.ZoneCaptures
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneCaptures
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneDefensiveKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  isExternal: false
+  name: ZoneDefensiveKills
+  nameWithType: ZonesStats.ZoneDefensiveKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneDefensiveKills
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneOffensiveKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  isExternal: false
+  name: ZoneOffensiveKills
+  nameWithType: ZonesStats.ZoneOffensiveKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneOffensiveKills
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneScoringTicks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  isExternal: false
+  name: ZoneScoringTicks
+  nameWithType: ZonesStats.ZoneScoringTicks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneScoringTicks
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneSecures
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  isExternal: false
+  name: ZoneSecures
+  nameWithType: ZonesStats.ZoneSecures
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneSecures
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  isExternal: false
+  name: ZonesStats
+  nameWithType: ZonesStats.ZonesStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZonesStats
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.TotalZoneOccupationTime*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.TotalZoneOccupationTime
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  isExternal: false
+  name: TotalZoneOccupationTime
+  nameWithType: ZonesStats.TotalZoneOccupationTime
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.TotalZoneOccupationTime
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneCaptures*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneCaptures
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  isExternal: false
+  name: ZoneCaptures
+  nameWithType: ZonesStats.ZoneCaptures
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneCaptures
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneDefensiveKills*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneDefensiveKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  isExternal: false
+  name: ZoneDefensiveKills
+  nameWithType: ZonesStats.ZoneDefensiveKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneDefensiveKills
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneOffensiveKills*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneOffensiveKills
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  isExternal: false
+  name: ZoneOffensiveKills
+  nameWithType: ZonesStats.ZoneOffensiveKills
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneOffensiveKills
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneScoringTicks*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneScoringTicks
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  isExternal: false
+  name: ZoneScoringTicks
+  nameWithType: ZonesStats.ZoneScoringTicks
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneScoringTicks
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneSecures*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneSecures
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  isExternal: false
+  name: ZoneSecures
+  nameWithType: ZonesStats.ZoneSecures
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats.ZoneSecures
+  monikers:
+  - net6.0
+  type: property

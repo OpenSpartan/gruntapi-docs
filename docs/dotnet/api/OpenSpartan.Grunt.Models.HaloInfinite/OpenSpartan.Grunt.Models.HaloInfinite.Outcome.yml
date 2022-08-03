@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  id: Outcome
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.Outcome.DidNotFinish
+  - OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Loss
+  - OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Tie
+  - OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Win
+  langs:
+  - csharp
+  name: Outcome
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  type: Enum
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public enum Outcome
+    content.csharp: public enum Outcome
+  inheritance:
+  - System.Enum
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Outcome.DidNotFinish
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.Outcome.DidNotFinish
+  id: DidNotFinish
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  langs:
+  - csharp
+  name: DidNotFinish
+  nameWithType: Outcome.DidNotFinish
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Outcome.DidNotFinish
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: DidNotFinish
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+      description: ''
+    content.csharp: DidNotFinish
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "4"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Loss
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Loss
+  id: Loss
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  langs:
+  - csharp
+  name: Loss
+  nameWithType: Outcome.Loss
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Loss
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Loss
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+      description: ''
+    content.csharp: Loss
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "3"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Tie
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Tie
+  id: Tie
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  langs:
+  - csharp
+  name: Tie
+  nameWithType: Outcome.Tie
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Tie
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Tie
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+      description: ''
+    content.csharp: Tie
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "1"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Win
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Win
+  id: Win
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  langs:
+  - csharp
+  name: Win
+  nameWithType: Outcome.Win
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Win
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Win
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+      description: ''
+    content.csharp: Win
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "2"
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Enum
+  parent: System
+  isExternal: true
+  name: Enum
+  nameWithType: Enum
+  fullName: System.Enum
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Outcome.DidNotFinish
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  isExternal: false
+  name: DidNotFinish
+  nameWithType: Outcome.DidNotFinish
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Outcome.DidNotFinish
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Outcome
+  nameWithType: Outcome
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Loss
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  isExternal: false
+  name: Loss
+  nameWithType: Outcome.Loss
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Loss
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Tie
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  isExternal: false
+  name: Tie
+  nameWithType: Outcome.Tie
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Tie
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Win
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  isExternal: false
+  name: Win
+  nameWithType: Outcome.Win
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Outcome.Win
+  type: field

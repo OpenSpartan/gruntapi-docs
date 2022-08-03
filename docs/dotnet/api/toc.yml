@@ -301,8 +301,16 @@
     name: BansSummaryQueryResult
     monikers:
     - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+    name: BombStats
+    monikers:
+    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
     name: BotCustomizationData
+    monikers:
+    - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.CaptureTheFlagStats
+    name: CaptureTheFlagStats
     monikers:
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
@@ -433,6 +441,10 @@
     name: EngineGameVariantCustomData
     monikers:
     - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+    name: ExtractionStats
+    monikers:
+    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
     name: FavoriteAsset
     monikers:
@@ -531,6 +543,10 @@
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
     name: KillDeathStats
+    monikers:
+    - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+    name: LifecyleMode
     monikers:
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
@@ -665,6 +681,10 @@
     name: NvidiaPreset
     monikers:
     - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.OddballStats
+    name: OddballStats
+    monikers:
+    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration
     name: OEConfiguration
     monikers:
@@ -675,6 +695,10 @@
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.OperationRewardTrackSnapshot
     name: OperationRewardTrackSnapshot
+    monikers:
+    - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+    name: Outcome
     monikers:
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.Outfit
@@ -913,6 +937,10 @@
     name: SteamStoreTitleConfiguration
     monikers:
     - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+    name: StockpileStats
+    monikers:
+    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.StoreItem
     name: StoreItem
     monikers:
@@ -1003,6 +1031,10 @@
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
     name: WeaponCoreTheme
+    monikers:
+    - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+    name: ZonesStats
     monikers:
     - net6.0
   monikers:

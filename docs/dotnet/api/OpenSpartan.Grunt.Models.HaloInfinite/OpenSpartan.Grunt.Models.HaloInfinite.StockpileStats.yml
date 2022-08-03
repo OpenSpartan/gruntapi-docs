@@ -1,0 +1,366 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  id: StockpileStats
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.KillsAsPowerSeedCarrier
+  - OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedCarriersKilled
+  - OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsDeposited
+  - OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsStolen
+  - OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedCarrier
+  - OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedDriver
+  langs:
+  - csharp
+  name: StockpileStats
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public class StockpileStats
+    content.csharp: public class StockpileStats
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  langs:
+  - csharp
+  name: StockpileStats()
+  nameWithType: StockpileStats.StockpileStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.StockpileStats()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public StockpileStats ();
+    parameters: []
+    content.csharp: public StockpileStats ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.KillsAsPowerSeedCarrier
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.KillsAsPowerSeedCarrier
+  id: KillsAsPowerSeedCarrier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  langs:
+  - csharp
+  name: KillsAsPowerSeedCarrier
+  nameWithType: StockpileStats.KillsAsPowerSeedCarrier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.KillsAsPowerSeedCarrier
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int KillsAsPowerSeedCarrier { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int KillsAsPowerSeedCarrier { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.KillsAsPowerSeedCarrier*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedCarriersKilled
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedCarriersKilled
+  id: PowerSeedCarriersKilled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  langs:
+  - csharp
+  name: PowerSeedCarriersKilled
+  nameWithType: StockpileStats.PowerSeedCarriersKilled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedCarriersKilled
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int PowerSeedCarriersKilled { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int PowerSeedCarriersKilled { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedCarriersKilled*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsDeposited
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsDeposited
+  id: PowerSeedsDeposited
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  langs:
+  - csharp
+  name: PowerSeedsDeposited
+  nameWithType: StockpileStats.PowerSeedsDeposited
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsDeposited
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int PowerSeedsDeposited { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int PowerSeedsDeposited { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsDeposited*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsStolen
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsStolen
+  id: PowerSeedsStolen
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  langs:
+  - csharp
+  name: PowerSeedsStolen
+  nameWithType: StockpileStats.PowerSeedsStolen
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsStolen
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int PowerSeedsStolen { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int PowerSeedsStolen { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsStolen*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedCarrier
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedCarrier
+  id: TimeAsPowerSeedCarrier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  langs:
+  - csharp
+  name: TimeAsPowerSeedCarrier
+  nameWithType: StockpileStats.TimeAsPowerSeedCarrier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedCarrier
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public TimeSpan TimeAsPowerSeedCarrier { get; set; }
+    return:
+      type: System.TimeSpan
+      description: ''
+    content.csharp: public TimeSpan TimeAsPowerSeedCarrier { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedCarrier*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedDriver
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedDriver
+  id: TimeAsPowerSeedDriver
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  langs:
+  - csharp
+  name: TimeAsPowerSeedDriver
+  nameWithType: StockpileStats.TimeAsPowerSeedDriver
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedDriver
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public TimeSpan TimeAsPowerSeedDriver { get; set; }
+    return:
+      type: System.TimeSpan
+      description: ''
+    content.csharp: public TimeSpan TimeAsPowerSeedDriver { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedDriver*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  isExternal: false
+  name: StockpileStats()
+  nameWithType: StockpileStats.StockpileStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.StockpileStats()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.KillsAsPowerSeedCarrier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  isExternal: false
+  name: KillsAsPowerSeedCarrier
+  nameWithType: StockpileStats.KillsAsPowerSeedCarrier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.KillsAsPowerSeedCarrier
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedCarriersKilled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  isExternal: false
+  name: PowerSeedCarriersKilled
+  nameWithType: StockpileStats.PowerSeedCarriersKilled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedCarriersKilled
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsDeposited
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  isExternal: false
+  name: PowerSeedsDeposited
+  nameWithType: StockpileStats.PowerSeedsDeposited
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsDeposited
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsStolen
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  isExternal: false
+  name: PowerSeedsStolen
+  nameWithType: StockpileStats.PowerSeedsStolen
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsStolen
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedCarrier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  isExternal: false
+  name: TimeAsPowerSeedCarrier
+  nameWithType: StockpileStats.TimeAsPowerSeedCarrier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedCarrier
+  type: property
+- uid: System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedDriver
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  isExternal: false
+  name: TimeAsPowerSeedDriver
+  nameWithType: StockpileStats.TimeAsPowerSeedDriver
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedDriver
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  isExternal: false
+  name: StockpileStats
+  nameWithType: StockpileStats.StockpileStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.StockpileStats
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.KillsAsPowerSeedCarrier*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.KillsAsPowerSeedCarrier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  isExternal: false
+  name: KillsAsPowerSeedCarrier
+  nameWithType: StockpileStats.KillsAsPowerSeedCarrier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.KillsAsPowerSeedCarrier
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedCarriersKilled*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedCarriersKilled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  isExternal: false
+  name: PowerSeedCarriersKilled
+  nameWithType: StockpileStats.PowerSeedCarriersKilled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedCarriersKilled
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsDeposited*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsDeposited
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  isExternal: false
+  name: PowerSeedsDeposited
+  nameWithType: StockpileStats.PowerSeedsDeposited
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsDeposited
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsStolen*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsStolen
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  isExternal: false
+  name: PowerSeedsStolen
+  nameWithType: StockpileStats.PowerSeedsStolen
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.PowerSeedsStolen
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedCarrier*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedCarrier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  isExternal: false
+  name: TimeAsPowerSeedCarrier
+  nameWithType: StockpileStats.TimeAsPowerSeedCarrier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedCarrier
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedDriver*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedDriver
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  isExternal: false
+  name: TimeAsPowerSeedDriver
+  nameWithType: StockpileStats.TimeAsPowerSeedDriver
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats.TimeAsPowerSeedDriver
+  monikers:
+  - net6.0
+  type: property

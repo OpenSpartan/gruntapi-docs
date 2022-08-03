@@ -55,7 +55,9 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.AwardedReward
   - OpenSpartan.Grunt.Models.HaloInfinite.BanResult
   - OpenSpartan.Grunt.Models.HaloInfinite.BansSummaryQueryResult
+  - OpenSpartan.Grunt.Models.HaloInfinite.BombStats
   - OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
+  - OpenSpartan.Grunt.Models.HaloInfinite.CaptureTheFlagStats
   - OpenSpartan.Grunt.Models.HaloInfinite.Challenge
   - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeck
   - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeDeckDefinition
@@ -88,6 +90,7 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.Emblem
   - OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariant
   - OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
+  - OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
   - OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
   - OpenSpartan.Grunt.Models.HaloInfinite.File
   - OpenSpartan.Grunt.Models.HaloInfinite.Film
@@ -113,6 +116,7 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.ItemPath
   - OpenSpartan.Grunt.Models.HaloInfinite.Key
   - OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
+  - OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
   - OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
   - OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessageList
   - OpenSpartan.Grunt.Models.HaloInfinite.LobbyJoinHandle
@@ -146,9 +150,11 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.News
   - OpenSpartan.Grunt.Models.HaloInfinite.NewsArticle
   - OpenSpartan.Grunt.Models.HaloInfinite.NvidiaPreset
+  - OpenSpartan.Grunt.Models.HaloInfinite.OddballStats
   - OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration
   - OpenSpartan.Grunt.Models.HaloInfinite.Offering
   - OpenSpartan.Grunt.Models.HaloInfinite.OperationRewardTrackSnapshot
+  - OpenSpartan.Grunt.Models.HaloInfinite.Outcome
   - OpenSpartan.Grunt.Models.HaloInfinite.Outfit
   - OpenSpartan.Grunt.Models.HaloInfinite.OverrideQuery
   - OpenSpartan.Grunt.Models.HaloInfinite.OverrideQueryDefinition
@@ -208,6 +214,7 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.Stats
   - OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreInventory
   - OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
+  - OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
   - OpenSpartan.Grunt.Models.HaloInfinite.StoreItem
   - OpenSpartan.Grunt.Models.HaloInfinite.StoreProduct
   - OpenSpartan.Grunt.Models.HaloInfinite.StoreProductMapping
@@ -231,6 +238,7 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.WeaponCore
   - OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreCollection
   - OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  - OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
   langs:
   - csharp
   name: OpenSpartan.Grunt.Models.HaloInfinite
@@ -648,6 +656,14 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.BansSummaryQueryResult
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.BansSummaryQueryResult
   type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: BombStats
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -655,6 +671,14 @@ references:
   name: BotCustomizationData
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CaptureTheFlagStats
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.CaptureTheFlagStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: CaptureTheFlagStats
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.CaptureTheFlagStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CaptureTheFlagStats
   type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Challenge
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Challenge
@@ -912,6 +936,14 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.EngineGameVariantCustomData
   type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: ExtractionStats
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.FavoriteAsset
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -1112,6 +1144,14 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.KillDeathStats
   type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: LifecyleMode
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+  type: enum
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.LobbyHopperErrorMessage
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -1376,6 +1416,14 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.NvidiaPreset
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.NvidiaPreset
   type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OddballStats
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.OddballStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OddballStats
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.OddballStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OddballStats
+  type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.OEConfiguration
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -1400,6 +1448,14 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.OperationRewardTrackSnapshot
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.OperationRewardTrackSnapshot
   type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: Outcome
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Outcome
+  type: enum
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Outfit
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Outfit
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -1872,6 +1928,14 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.SteamStoreTitleConfiguration
   type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: StockpileStats
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.StoreItem
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.StoreItem
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -2055,4 +2119,12 @@ references:
   name: WeaponCoreTheme
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.WeaponCoreTheme
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: ZonesStats
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
   type: class

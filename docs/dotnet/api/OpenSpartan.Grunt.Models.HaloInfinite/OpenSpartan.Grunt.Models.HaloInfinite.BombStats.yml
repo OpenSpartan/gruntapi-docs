@@ -1,0 +1,501 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  id: BombStats
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.BombStats.#ctor
+  - OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombCarriersKilled
+  - OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusals
+  - OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusersKilled
+  - OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDetonations
+  - OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPickUps
+  - OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPlants
+  - OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombReturns
+  - OpenSpartan.Grunt.Models.HaloInfinite.BombStats.KillsAsBombCarrier
+  - OpenSpartan.Grunt.Models.HaloInfinite.BombStats.TimeAsBombCarrier
+  langs:
+  - csharp
+  name: BombStats
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  type: Class
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public class BombStats
+    content.csharp: public class BombStats
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.#ctor
+  commentId: M:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.#ctor
+  id: '#ctor'
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  langs:
+  - csharp
+  name: BombStats()
+  nameWithType: BombStats.BombStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombStats()
+  type: Constructor
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public BombStats ();
+    parameters: []
+    content.csharp: public BombStats ();
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.#ctor*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombCarriersKilled
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombCarriersKilled
+  id: BombCarriersKilled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  langs:
+  - csharp
+  name: BombCarriersKilled
+  nameWithType: BombStats.BombCarriersKilled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombCarriersKilled
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int BombCarriersKilled { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int BombCarriersKilled { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombCarriersKilled*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusals
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusals
+  id: BombDefusals
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  langs:
+  - csharp
+  name: BombDefusals
+  nameWithType: BombStats.BombDefusals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusals
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int BombDefusals { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int BombDefusals { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusals*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusersKilled
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusersKilled
+  id: BombDefusersKilled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  langs:
+  - csharp
+  name: BombDefusersKilled
+  nameWithType: BombStats.BombDefusersKilled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusersKilled
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int BombDefusersKilled { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int BombDefusersKilled { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusersKilled*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDetonations
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDetonations
+  id: BombDetonations
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  langs:
+  - csharp
+  name: BombDetonations
+  nameWithType: BombStats.BombDetonations
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDetonations
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int BombDetonations { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int BombDetonations { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDetonations*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPickUps
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPickUps
+  id: BombPickUps
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  langs:
+  - csharp
+  name: BombPickUps
+  nameWithType: BombStats.BombPickUps
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPickUps
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int BombPickUps { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int BombPickUps { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPickUps*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPlants
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPlants
+  id: BombPlants
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  langs:
+  - csharp
+  name: BombPlants
+  nameWithType: BombStats.BombPlants
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPlants
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int BombPlants { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int BombPlants { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPlants*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombReturns
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombReturns
+  id: BombReturns
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  langs:
+  - csharp
+  name: BombReturns
+  nameWithType: BombStats.BombReturns
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombReturns
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int BombReturns { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int BombReturns { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombReturns*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.KillsAsBombCarrier
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.KillsAsBombCarrier
+  id: KillsAsBombCarrier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  langs:
+  - csharp
+  name: KillsAsBombCarrier
+  nameWithType: BombStats.KillsAsBombCarrier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.KillsAsBombCarrier
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public int KillsAsBombCarrier { get; set; }
+    return:
+      type: System.Int32
+      description: ''
+    content.csharp: public int KillsAsBombCarrier { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.KillsAsBombCarrier*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.TimeAsBombCarrier
+  commentId: P:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.TimeAsBombCarrier
+  id: TimeAsBombCarrier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  langs:
+  - csharp
+  name: TimeAsBombCarrier
+  nameWithType: BombStats.TimeAsBombCarrier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.TimeAsBombCarrier
+  type: Property
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public TimeSpan TimeAsBombCarrier { get; set; }
+    return:
+      type: System.TimeSpan
+      description: ''
+    content.csharp: public TimeSpan TimeAsBombCarrier { get; set; }
+  overload: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.TimeAsBombCarrier*
+  exceptions: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  monikers:
+  - net6.0
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: BombStats()
+  nameWithType: BombStats.BombStats()
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombStats()
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombCarriersKilled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: BombCarriersKilled
+  nameWithType: BombStats.BombCarriersKilled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombCarriersKilled
+  type: property
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusals
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: BombDefusals
+  nameWithType: BombStats.BombDefusals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusals
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusersKilled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: BombDefusersKilled
+  nameWithType: BombStats.BombDefusersKilled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusersKilled
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDetonations
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: BombDetonations
+  nameWithType: BombStats.BombDetonations
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDetonations
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPickUps
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: BombPickUps
+  nameWithType: BombStats.BombPickUps
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPickUps
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPlants
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: BombPlants
+  nameWithType: BombStats.BombPlants
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPlants
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombReturns
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: BombReturns
+  nameWithType: BombStats.BombReturns
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombReturns
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.KillsAsBombCarrier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: KillsAsBombCarrier
+  nameWithType: BombStats.KillsAsBombCarrier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.KillsAsBombCarrier
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.TimeAsBombCarrier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: TimeAsBombCarrier
+  nameWithType: BombStats.TimeAsBombCarrier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.TimeAsBombCarrier
+  type: property
+- uid: System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.#ctor*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.#ctor
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: BombStats
+  nameWithType: BombStats.BombStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombStats
+  monikers:
+  - net6.0
+  type: constructor
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombCarriersKilled*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombCarriersKilled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: BombCarriersKilled
+  nameWithType: BombStats.BombCarriersKilled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombCarriersKilled
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusals*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusals
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: BombDefusals
+  nameWithType: BombStats.BombDefusals
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusals
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusersKilled*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusersKilled
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: BombDefusersKilled
+  nameWithType: BombStats.BombDefusersKilled
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDefusersKilled
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDetonations*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDetonations
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: BombDetonations
+  nameWithType: BombStats.BombDetonations
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombDetonations
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPickUps*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPickUps
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: BombPickUps
+  nameWithType: BombStats.BombPickUps
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPickUps
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPlants*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPlants
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: BombPlants
+  nameWithType: BombStats.BombPlants
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombPlants
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombReturns*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombReturns
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: BombReturns
+  nameWithType: BombStats.BombReturns
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.BombReturns
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.KillsAsBombCarrier*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.KillsAsBombCarrier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: KillsAsBombCarrier
+  nameWithType: BombStats.KillsAsBombCarrier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.KillsAsBombCarrier
+  monikers:
+  - net6.0
+  type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.TimeAsBombCarrier*
+  commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.BombStats.TimeAsBombCarrier
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  isExternal: false
+  name: TimeAsBombCarrier
+  nameWithType: BombStats.TimeAsBombCarrier
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats.TimeAsBombCarrier
+  monikers:
+  - net6.0
+  type: property

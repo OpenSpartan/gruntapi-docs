@@ -1,0 +1,109 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+  id: LifecyleMode
+  children:
+  - OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode.Custom
+  - OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode.Matchmade
+  langs:
+  - csharp
+  name: LifecyleMode
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+  type: Enum
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: public enum LifecyleMode
+    content.csharp: public enum LifecyleMode
+  inheritance:
+  - System.Enum
+  modifiers.csharp:
+  - public
+  monikers:
+  - net6.0
+  _op_AssemblyMonikerMapping:
+    OpenSpartan.Grunt:
+    - net6.0
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode.Custom
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode.Custom
+  id: Custom
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+  langs:
+  - csharp
+  name: Custom
+  nameWithType: LifecyleMode.Custom
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode.Custom
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Custom
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+      description: ''
+    content.csharp: Custom
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "1"
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode.Matchmade
+  commentId: F:OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode.Matchmade
+  id: Matchmade
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+  langs:
+  - csharp
+  name: Matchmade
+  nameWithType: LifecyleMode.Matchmade
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode.Matchmade
+  type: Field
+  assemblies:
+  - OpenSpartan.Grunt
+  namespace: OpenSpartan.Grunt.Models.HaloInfinite
+  syntax:
+    content: Matchmade
+    return:
+      type: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+      description: ''
+    content.csharp: Matchmade
+  exceptions: []
+  monikers:
+  - net6.0
+  literalValue: "3"
+references:
+- uid: OpenSpartan.Grunt.Models.HaloInfinite
+  commentId: N:OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OpenSpartan.Grunt.Models.HaloInfinite
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite
+  type: namespace
+- uid: System.Enum
+  parent: System
+  isExternal: true
+  name: Enum
+  nameWithType: Enum
+  fullName: System.Enum
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode.Custom
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+  isExternal: false
+  name: Custom
+  nameWithType: LifecyleMode.Custom
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode.Custom
+  type: field
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: LifecyleMode
+  nameWithType: LifecyleMode
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode.Matchmade
+  parent: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode
+  isExternal: false
+  name: Matchmade
+  nameWithType: LifecyleMode.Matchmade
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.LifecyleMode.Matchmade
+  type: field

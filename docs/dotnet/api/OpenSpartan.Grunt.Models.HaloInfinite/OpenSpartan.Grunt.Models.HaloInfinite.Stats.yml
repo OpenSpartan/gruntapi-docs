@@ -82,11 +82,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public object BombStats { get; set; }
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.BombStats BombStats { get; set; }
     return:
-      type: System.Object
+      type: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
       description: ''
-    content.csharp: public object BombStats { get; set; }
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.BombStats BombStats { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.Stats.BombStats*
   exceptions: []
   modifiers.csharp:
@@ -109,11 +109,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public object CaptureTheFlagStats { get; set; }
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.CaptureTheFlagStats CaptureTheFlagStats { get; set; }
     return:
-      type: System.Object
+      type: OpenSpartan.Grunt.Models.HaloInfinite.CaptureTheFlagStats
       description: ''
-    content.csharp: public object CaptureTheFlagStats { get; set; }
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.CaptureTheFlagStats CaptureTheFlagStats { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.Stats.CaptureTheFlagStats*
   exceptions: []
   modifiers.csharp:
@@ -190,11 +190,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public object ExtractionStats { get; set; }
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats ExtractionStats { get; set; }
     return:
-      type: System.Object
+      type: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
       description: ''
-    content.csharp: public object ExtractionStats { get; set; }
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats ExtractionStats { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.Stats.ExtractionStats*
   exceptions: []
   modifiers.csharp:
@@ -244,11 +244,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public object OddballStats { get; set; }
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.OddballStats OddballStats { get; set; }
     return:
-      type: System.Object
+      type: OpenSpartan.Grunt.Models.HaloInfinite.OddballStats
       description: ''
-    content.csharp: public object OddballStats { get; set; }
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.OddballStats OddballStats { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.Stats.OddballStats*
   exceptions: []
   modifiers.csharp:
@@ -271,11 +271,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public object StockpileStats { get; set; }
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats StockpileStats { get; set; }
     return:
-      type: System.Object
+      type: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
       description: ''
-    content.csharp: public object StockpileStats { get; set; }
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats StockpileStats { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.Stats.StockpileStats*
   exceptions: []
   modifiers.csharp:
@@ -298,11 +298,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public object ZonesStats { get; set; }
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats ZonesStats { get; set; }
     return:
-      type: System.Object
+      type: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
       description: ''
-    content.csharp: public object ZonesStats { get; set; }
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats ZonesStats { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.Stats.ZonesStats*
   exceptions: []
   modifiers.csharp:
@@ -339,6 +339,12 @@ references:
   nameWithType: Stats.BombStats
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.Stats.BombStats
   type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: BombStats
+  nameWithType: BombStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Stats.CaptureTheFlagStats
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Stats
   isExternal: false
@@ -346,6 +352,12 @@ references:
   nameWithType: Stats.CaptureTheFlagStats
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.Stats.CaptureTheFlagStats
   type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.CaptureTheFlagStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: CaptureTheFlagStats
+  nameWithType: CaptureTheFlagStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.CaptureTheFlagStats
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Stats.CoreStats
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Stats
   isExternal: false
@@ -379,6 +391,12 @@ references:
   nameWithType: Stats.ExtractionStats
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.Stats.ExtractionStats
   type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: ExtractionStats
+  nameWithType: ExtractionStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ExtractionStats
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Stats.InfectionStats
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Stats
   isExternal: false
@@ -393,6 +411,12 @@ references:
   nameWithType: Stats.OddballStats
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.Stats.OddballStats
   type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.OddballStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: OddballStats
+  nameWithType: OddballStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.OddballStats
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Stats.StockpileStats
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Stats
   isExternal: false
@@ -400,6 +424,12 @@ references:
   nameWithType: Stats.StockpileStats
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.Stats.StockpileStats
   type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: StockpileStats
+  nameWithType: StockpileStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.StockpileStats
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Stats.ZonesStats
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Stats
   isExternal: false
@@ -407,6 +437,12 @@ references:
   nameWithType: Stats.ZonesStats
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.Stats.ZonesStats
   type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: ZonesStats
+  nameWithType: ZonesStats
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.ZonesStats
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Stats.#ctor*
   commentId: Overload:OpenSpartan.Grunt.Models.HaloInfinite.Stats.#ctor
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Stats
