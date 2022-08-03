@@ -56,6 +56,7 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.BanResult
   - OpenSpartan.Grunt.Models.HaloInfinite.BansSummaryQueryResult
   - OpenSpartan.Grunt.Models.HaloInfinite.BombStats
+  - OpenSpartan.Grunt.Models.HaloInfinite.BotAttributes
   - OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
   - OpenSpartan.Grunt.Models.HaloInfinite.CaptureTheFlagStats
   - OpenSpartan.Grunt.Models.HaloInfinite.Challenge
@@ -66,7 +67,6 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.ChallengeReward
   - OpenSpartan.Grunt.Models.HaloInfinite.ClawAccessSnapshot
   - OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
-  - OpenSpartan.Grunt.Models.HaloInfinite.Configuration
   - OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
   - OpenSpartan.Grunt.Models.HaloInfinite.Counterfactuals
   - OpenSpartan.Grunt.Models.HaloInfinite.CPUPreset
@@ -110,6 +110,7 @@ items:
   - OpenSpartan.Grunt.Models.HaloInfinite.HaloInfiniteSteamStoreTitle
   - OpenSpartan.Grunt.Models.HaloInfinite.IdentifierName
   - OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  - OpenSpartan.Grunt.Models.HaloInfinite.InGameItemConfiguration
   - OpenSpartan.Grunt.Models.HaloInfinite.IntelPreset
   - OpenSpartan.Grunt.Models.HaloInfinite.InventoryAmount
   - OpenSpartan.Grunt.Models.HaloInfinite.InventoryDefinition
@@ -664,6 +665,14 @@ references:
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.BombStats
   type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BotAttributes
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.BotAttributes
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: BotAttributes
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.BotAttributes
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BotAttributes
+  type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
   parent: OpenSpartan.Grunt.Models.HaloInfinite
@@ -743,14 +752,6 @@ references:
   name: CommonItemData
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
-  type: class
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Configuration
-  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.Configuration
-  parent: OpenSpartan.Grunt.Models.HaloInfinite
-  isExternal: false
-  name: Configuration
-  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.Configuration
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Configuration
   type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
@@ -1095,6 +1096,14 @@ references:
   name: InGameItem
   nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
+  type: class
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItemConfiguration
+  commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.InGameItemConfiguration
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: InGameItemConfiguration
+  nameWithType: OpenSpartan.Grunt.Models.HaloInfinite.InGameItemConfiguration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItemConfiguration
   type: class
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.IntelPreset
   commentId: T:OpenSpartan.Grunt.Models.HaloInfinite.IntelPreset

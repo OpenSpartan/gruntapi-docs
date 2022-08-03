@@ -78,11 +78,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public OpenSpartan.Grunt.Models.HaloInfinite.Configuration[] AvailableConfigurations { get; set; }
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.InGameItemConfiguration[] AvailableConfigurations { get; set; }
     return:
-      type: OpenSpartan.Grunt.Models.HaloInfinite.Configuration[]
+      type: OpenSpartan.Grunt.Models.HaloInfinite.InGameItemConfiguration[]
       description: ''
-    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.Configuration[] AvailableConfigurations { get; set; }
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.InGameItemConfiguration[] AvailableConfigurations { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations*
   exceptions: []
   modifiers.csharp:
@@ -227,20 +227,20 @@ references:
   nameWithType: InGameItem.AvailableConfigurations
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem.AvailableConfigurations
   type: property
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Configuration
-  name: Configuration
-  nameWithType: Configuration
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Configuration
-- uid: OpenSpartan.Grunt.Models.HaloInfinite.Configuration[]
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItemConfiguration
+  name: InGameItemConfiguration
+  nameWithType: InGameItemConfiguration
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItemConfiguration
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItemConfiguration[]
   parent: OpenSpartan.Grunt.Models.HaloInfinite
-  name: Configuration[]
-  nameWithType: Configuration[]
-  fullName: OpenSpartan.Grunt.Models.HaloInfinite.Configuration[]
+  name: InGameItemConfiguration[]
+  nameWithType: InGameItemConfiguration[]
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItemConfiguration[]
   spec.csharp:
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Configuration
-    name: Configuration
-    nameWithType: Configuration
-    fullName: OpenSpartan.Grunt.Models.HaloInfinite.Configuration
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItemConfiguration
+    name: InGameItemConfiguration
+    nameWithType: InGameItemConfiguration
+    fullName: OpenSpartan.Grunt.Models.HaloInfinite.InGameItemConfiguration
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'

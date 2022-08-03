@@ -305,6 +305,10 @@
     name: BombStats
     monikers:
     - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.BotAttributes
+    name: BotAttributes
+    monikers:
+    - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.BotCustomizationData
     name: BotCustomizationData
     monikers:
@@ -343,10 +347,6 @@
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.CommonItemData
     name: CommonItemData
-    monikers:
-    - net6.0
-  - uid: OpenSpartan.Grunt.Models.HaloInfinite.Configuration
-    name: Configuration
     monikers:
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.CoreStats
@@ -519,6 +519,10 @@
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItem
     name: InGameItem
+    monikers:
+    - net6.0
+  - uid: OpenSpartan.Grunt.Models.HaloInfinite.InGameItemConfiguration
+    name: InGameItemConfiguration
     monikers:
     - net6.0
   - uid: OpenSpartan.Grunt.Models.HaloInfinite.IntelPreset

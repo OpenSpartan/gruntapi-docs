@@ -81,11 +81,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public object BotAttributes { get; set; }
+    content: public OpenSpartan.Grunt.Models.HaloInfinite.BotAttributes BotAttributes { get; set; }
     return:
-      type: System.Object
+      type: OpenSpartan.Grunt.Models.HaloInfinite.BotAttributes
       description: ''
-    content.csharp: public object BotAttributes { get; set; }
+    content.csharp: public OpenSpartan.Grunt.Models.HaloInfinite.BotAttributes BotAttributes { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.Player.BotAttributes*
   exceptions: []
   modifiers.csharp:
@@ -189,11 +189,11 @@ items:
   - OpenSpartan.Grunt
   namespace: OpenSpartan.Grunt.Models.HaloInfinite
   syntax:
-    content: public string PlayerId { get; set; }
+    content: public Guid PlayerId { get; set; }
     return:
-      type: System.String
+      type: System.Guid
       description: ''
-    content.csharp: public string PlayerId { get; set; }
+    content.csharp: public Guid PlayerId { get; set; }
   overload: OpenSpartan.Grunt.Models.HaloInfinite.Player.PlayerId*
   exceptions: []
   modifiers.csharp:
@@ -311,6 +311,12 @@ references:
   nameWithType: Player.BotAttributes
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.Player.BotAttributes
   type: property
+- uid: OpenSpartan.Grunt.Models.HaloInfinite.BotAttributes
+  parent: OpenSpartan.Grunt.Models.HaloInfinite
+  isExternal: false
+  name: BotAttributes
+  nameWithType: BotAttributes
+  fullName: OpenSpartan.Grunt.Models.HaloInfinite.BotAttributes
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Player.LastTeamId
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Player
   isExternal: false
@@ -351,12 +357,12 @@ references:
   nameWithType: Player.PlayerId
   fullName: OpenSpartan.Grunt.Models.HaloInfinite.Player.PlayerId
   type: property
-- uid: System.String
+- uid: System.Guid
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
 - uid: OpenSpartan.Grunt.Models.HaloInfinite.Player.PlayerTeamStats
   parent: OpenSpartan.Grunt.Models.HaloInfinite.Player
   isExternal: false
